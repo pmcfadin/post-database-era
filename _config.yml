@@ -3,8 +3,8 @@ title: Post Database Era
 description: >-
   Exploring the evolution of database technology beyond traditional paradigms.
   From multi-model systems to unified query languages.
-baseurl: ""
-url: "https://pmcfadin.github.io/post-database-era"
+baseurl: "/post-database-era"
+url: "https://pmcfadin.github.io"
 
 # Build settings
 markdown: kramdown
