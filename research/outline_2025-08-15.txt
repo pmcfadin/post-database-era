@@ -1,0 +1,57 @@
+Bespoke DB era fades
+	•	What share of new DBs are multi-model vs single-purpose by 2026–2030?
+	•	Do time-series/vector DBs get absorbed into general engines?
+	•	Do top cloud DBs market API compatibility over engine brand?
+	•	How often do forks get replaced by protocol-compatible alts?
+	•	Does perf gap narrow: generalist vs specialist on key workloads?
+	•	Do RFPs specify APIs/patterns instead of named engines?
+
+Context refs: Azure Cosmos multi-API; Valkey (Redis-compatible) fork.  ￼ ￼
+
+⸻
+
+Storage becomes the infrastructure
+	•	Do most teams standardize on S3-compatible object APIs?
+	•	Are Iceberg tables the default over DB-native storage?
+	•	What % queries run directly on Parquet/S3 via SQL engines?
+	•	Are compute and storage procured/managed independently?
+	•	Are S3-compatible clouds interoperable for lift-and-shift?
+	•	Is TCO lower for “storage-centric” vs DB-centric stacks?
+
+Context refs: R2 S3-compat; MinIO S3; Iceberg spec; Snowflake decoupling; DuckDB-on-S3.  ￼ ￼ ￼ ￼ ￼
+
+⸻
+
+Access patterns consolidate (SQL, KV, Doc, Graph, Search)
+	•	Do top managed DBs expose SQL, KV, Doc, Graph, Search APIs?
+	•	Are API gateways (e.g., Stargate) used in production at scale?
+	•	Is Redis-protocol the de-facto KV API across vendors?
+	•	Did ISO GQL adoption surpass Gremlin/openCypher in new apps?
+	•	Is SQL used to query search engines in production?
+	•	Are SQL/JSON & JSONPath common across SQL+document stores?
+
+Context refs: Cosmos DB APIs; Stargate; Valkey/Redis; ISO GQL; OpenSearch/Elastic SQL; SQL/JSON+JSONPath.  ￼ ￼ ￼ ￼ ￼ ￼ ￼ ￼
+
+⸻
+
+Syntax homogenizes (not vendor-dominant)
+	•	Are SQL:2023 features broadly implemented across engines?
+	•	Do graph vendors align on ISO GQL syntax/semantics?
+	•	Is JSONPath (RFC 9535) behavior consistent across engines?
+	•	Do OpenSearch/Elasticsearch SQL syntaxes converge?
+	•	Are vendor extensions shrinking in new codebases?
+	•	Is cross-engine query portability improving year-over-year?
+
+Context refs: ISO SQL:2023; ISO GQL; JSONPath RFC; OpenSearch/Elastic SQL docs.  ￼ ￼ ￼ ￼ ￼ ￼
+
+⸻
+
+Interop layers outcompete engine-specific UX
+	•	What % analytics uses Trino/DuckDB/DataFusion vs native engines?
+	•	Do BI teams prefer federated SQL over DB-specific dialects?
+	•	Do Iceberg tables enable engine swaps with minimal changes?
+	•	Are gateway/APIs (Cosmos, Stargate) reducing engine lock-in?
+	•	Is perf penalty of abstraction layers ≤10% on typical queries?
+	•	Do teams train on patterns/APIs rather than vendor syntax?
+
+Context refs: Trino federation; DuckDB on Parquet/S3; DataFusion; Iceberg spec.  ￼ ￼ ￼ ￼
