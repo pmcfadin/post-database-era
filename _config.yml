@@ -1,0 +1,39 @@
+# Site settings
+title: Post Database Era
+description: >-
+  Exploring the evolution of database technology beyond traditional paradigms.
+  From multi-model systems to unified query languages.
+baseurl: ""
+url: "https://pmcfadin.github.io/post-database-era"
+
+# Build settings
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - research/
+  - CLAUDE.md
+
+# Site author
+author:
+  name: Patrick McFadin
+  
+# Social links (optional - add as needed)
+github_username: pmcfadin
+
+# Collections for organizing content
+collections:
+  trends:
+    output: true
+    permalink: /trends/:name/
