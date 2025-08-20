@@ -1,0 +1,11 @@
+# Thesis-level metadata
+title: "Unified Gateway Multi-API Convergence"
+thesis: "unified-gateway-multi-api"
+artifact: "thesis-root"
+version: "1.0"
+status: "active"
+authors: ["Patrick McFadin"]
+created: "2025-08-17"
+updated: "2025-08-17"
+license: "CC-BY-4.0"
+keywords: ["unified-gateway", "multi-api", "sql", "key-value", "document", "graph", "search", "developer-velocity", "managed-platforms", "skus"]
