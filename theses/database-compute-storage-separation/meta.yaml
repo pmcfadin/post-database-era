@@ -1,0 +1,11 @@
+# Thesis-level metadata
+title: "Database Compute Storage Separation"
+thesis: "database-compute-storage-separation"
+artifact: "thesis-root"
+version: "1.0"
+status: "active"
+authors: ["Patrick McFadin"]
+created: "2025-08-17"
+updated: "2025-08-17"
+license: "CC-BY-4.0"
+keywords: ["cloud-native", "compute-storage-separation", "database-industry", "cloud-architecture", "compute", "network", "storage"]
