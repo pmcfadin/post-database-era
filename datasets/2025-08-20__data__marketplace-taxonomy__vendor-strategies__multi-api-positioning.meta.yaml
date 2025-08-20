@@ -1,0 +1,71 @@
+# Dataset Metadata
+dataset:
+  title: "Vendor Strategies for Multi-API Database Service Positioning in Cloud Marketplaces"
+  description: "Analysis of how different database vendors position their multi-API capabilities in cloud marketplaces, including messaging strategies, competitive positioning, and evolution patterns"
+  topic: "Vendor positioning strategies for multi-API services"
+  metric: "Marketplace messaging, competitive positioning, and strategic evolution"
+  
+# Source Information
+source:
+  name: "Vendor marketplace listings, marketing materials, and positioning statements"
+  url: "Vendor websites, marketplace listings, and public marketing materials"
+  accessed: "2025-08-20"
+  license: "Public information compiled under fair use"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 20
+  columns: 7
+  time_range: "2018 - 2025"
+  update_frequency: "quarterly updates"
+  collection_method: "analysis of vendor positioning across multiple marketplaces"
+  
+# Column Descriptions
+columns:
+  vendor:
+    type: "string"
+    description: "Database service vendor name"
+    unit: "categorical"
+  primary_service:
+    type: "string"
+    description: "Main marketplace offering name"
+    unit: "string"
+  marketplace_strategy:
+    type: "string"
+    description: "Overall approach to marketplace presence and partnerships"
+    unit: "categorical"
+  api_messaging_priority:
+    type: "string"
+    description: "How vendor prioritizes and messages different API capabilities"
+    unit: "string"
+  competitive_positioning:
+    type: "string"
+    description: "Key differentiation message in competitive landscape"
+    unit: "string"
+  category_focus:
+    type: "string"
+    description: "Primary marketplace category where vendor focuses efforts"
+    unit: "categorical"
+  messaging_evolution:
+    type: "string"
+    description: "How vendor messaging has evolved from single-API to multi-API"
+    unit: "string"
+    
+# Quality Indicators
+quality:
+  completeness: "100% for major database vendors with marketplace presence"
+  sample_size: "20 major database vendors across cloud marketplaces"
+  confidence: "high"
+  limitations:
+    - "Messaging evolution represents general trends, not precise timeline"
+    - "Competitive positioning may vary by market segment"
+    - "Strategy analysis based on public materials only"
+  
+# Usage Notes
+notes:
+  - "Shows clear industry trend from single-API to multi-API positioning"
+  - "AI/Vector capabilities increasingly prominent in messaging"
+  - "Traditional vendors evolving messaging to emphasize multi-API capabilities"
+  - "Cloud-native vendors often start with multi-API positioning"
+  - "Competitive differentiation shifting from API type to use case specialization"

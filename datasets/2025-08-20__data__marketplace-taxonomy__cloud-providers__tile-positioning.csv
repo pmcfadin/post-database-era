@@ -1,0 +1,43 @@
+marketplace,vendor,listing_id,tile_category,apis_on_tile,first_seen,last_seen,tile_placement,partner_status,api_prominence
+AWS Marketplace,Amazon,documentdb-global-clusters,Database,Document API MongoDB-compatible,2019-01-30,2025-08-20,Primary,First-party,Primary
+AWS Marketplace,Amazon,dynamodb,Database,Key-Value NoSQL,2012-01-25,2025-08-20,Primary,First-party,Primary
+AWS Marketplace,Amazon,neptune,Database,Graph API Gremlin SPARQL,2017-11-29,2025-08-20,Primary,First-party,Primary
+AWS Marketplace,Amazon,opensearch,Analytics,Search Document API,2021-09-08,2025-08-20,Primary,First-party,Primary
+AWS Marketplace,Amazon,timestream,Database,Time-series SQL,2020-09-30,2025-08-20,Primary,First-party,Primary
+AWS Marketplace,MongoDB,atlas,Database,Document Multi-model,2018-04-19,2025-08-20,Primary,Third-party,Primary
+AWS Marketplace,DataStax,astra-db,Database,Multi-model Cassandra Document Vector,2020-03-24,2025-08-20,Primary,Third-party,Primary
+AWS Marketplace,Neo4j,aura-enterprise,Database,Graph Analytics,2019-06-12,2025-08-20,Primary,Third-party,Primary
+AWS Marketplace,Elastic,elasticsearch-service,Analytics,Search Analytics,2015-10-01,2025-08-20,Primary,Third-party,Primary
+Azure Marketplace,Microsoft,cosmos-db,Database,Multi-model SQL MongoDB Cassandra Gremlin Table,2017-05-10,2025-08-20,Primary,First-party,Primary
+Azure Marketplace,Microsoft,sql-database,Database,SQL Relational,2010-02-01,2025-08-20,Primary,First-party,Primary
+Azure Marketplace,Microsoft,cache-for-redis,Database,Key-Value Cache,2014-04-03,2025-08-20,Primary,First-party,Primary
+Azure Marketplace,Microsoft,cognitive-search,AI + Machine Learning,Search AI Vector,2019-11-04,2025-08-20,Primary,First-party,Secondary
+Azure Marketplace,MongoDB,atlas,Database,Document Multi-model,2018-10-15,2025-08-20,Primary,Third-party,Primary
+Azure Marketplace,DataStax,astra-db,Database,Multi-model Vector,2020-07-21,2025-08-20,Primary,Third-party,Primary
+Azure Marketplace,Neo4j,aura-professional,Database,Graph Analytics,2020-01-14,2025-08-20,Primary,Third-party,Primary
+Azure Marketplace,Elastic,cloud-enterprise-search,Analytics,Search Analytics Observability,2019-03-18,2025-08-20,Primary,Third-party,Primary
+GCP Marketplace,Google,firestore,Database,Document NoSQL Real-time,2017-10-03,2025-08-20,Primary,First-party,Primary
+GCP Marketplace,Google,cloud-sql,Database,SQL MySQL PostgreSQL SQL-Server,2011-10-06,2025-08-20,Primary,First-party,Primary
+GCP Marketplace,Google,bigtable,Database,Wide-column NoSQL,2015-05-06,2025-08-20,Primary,First-party,Primary
+GCP Marketplace,Google,spanner,Database,SQL Global ACID,2017-02-14,2025-08-20,Primary,First-party,Primary
+GCP Marketplace,Google,memorystore,Database,Key-Value Cache,2018-09-06,2025-08-20,Primary,First-party,Primary
+GCP Marketplace,MongoDB,atlas,Database,Document Multi-model,2018-12-11,2025-08-20,Primary,Third-party,Primary
+GCP Marketplace,DataStax,astra-db,Database,Multi-model Cassandra Vector,2021-02-16,2025-08-20,Primary,Third-party,Primary
+GCP Marketplace,Neo4j,aura-enterprise,Database,Graph Analytics Vector,2020-08-25,2025-08-20,Primary,Third-party,Primary
+GCP Marketplace,Elastic,cloud,Analytics,Search Analytics Observability,2017-09-14,2025-08-20,Primary,Third-party,Primary
+AWS Marketplace,Amazon,rds,Database,SQL MySQL PostgreSQL Oracle SQL-Server,2009-10-27,2025-08-20,Primary,First-party,Primary
+AWS Marketplace,Amazon,redshift,Analytics,SQL Data-warehouse,2013-02-15,2025-08-20,Primary,First-party,Primary
+AWS Marketplace,Amazon,elasticache,Database,Key-Value Cache,2011-08-22,2025-08-20,Primary,First-party,Primary
+Azure Marketplace,Microsoft,synapse-analytics,Analytics,SQL Data-warehouse Spark,2019-11-04,2025-08-20,Primary,First-party,Primary
+Azure Marketplace,Microsoft,data-factory,Integration,ETL Data-pipeline,2015-07-23,2025-08-20,Primary,First-party,Secondary
+GCP Marketplace,Google,bigquery,Analytics,SQL Data-warehouse,2012-05-24,2025-08-20,Primary,First-party,Primary
+GCP Marketplace,Google,dataflow,Analytics,Stream-processing ETL,2014-06-25,2025-08-20,Primary,First-party,Secondary
+AWS Marketplace,Redis,enterprise-cloud,Database,Key-Value Cache Search JSON,2019-08-13,2025-08-20,Primary,Third-party,Primary
+Azure Marketplace,Redis,enterprise-cloud,Database,Key-Value Cache Search JSON,2020-02-18,2025-08-20,Primary,Third-party,Primary
+GCP Marketplace,Redis,enterprise-cloud,Database,Key-Value Cache Search JSON,2020-09-22,2025-08-20,Primary,Third-party,Primary
+AWS Marketplace,Snowflake,data-cloud,Analytics,SQL Data-warehouse Semi-structured,2020-06-23,2025-08-20,Primary,Third-party,Primary
+Azure Marketplace,Snowflake,data-cloud,Analytics,SQL Data-warehouse Semi-structured,2018-11-15,2025-08-20,Primary,Third-party,Primary
+GCP Marketplace,Snowflake,data-cloud,Analytics,SQL Data-warehouse Semi-structured,2021-03-09,2025-08-20,Primary,Third-party,Primary
+AWS Marketplace,CockroachDB,dedicated,Database,SQL Distributed PostgreSQL,2020-05-19,2025-08-20,Primary,Third-party,Primary
+Azure Marketplace,CockroachDB,dedicated,Database,SQL Distributed PostgreSQL,2021-01-12,2025-08-20,Primary,Third-party,Primary
+GCP Marketplace,CockroachDB,dedicated,Database,SQL Distributed PostgreSQL,2019-10-30,2025-08-20,Primary,Third-party,Primary

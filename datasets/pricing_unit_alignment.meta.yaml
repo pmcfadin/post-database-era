@@ -1,0 +1,93 @@
+# Dataset Metadata
+dataset:
+  title: "Database Pricing Unit Alignment Across Multi-API Services"
+  description: "Comprehensive analysis of pricing units (RU/CU/DU) across database vendors to evaluate alignment and transparency in multi-API offerings"
+  topic: "Database pricing unit standardization and multi-API cost comparison"
+  metric: "Normalized cost per 1000 operations across different pricing models"
+  
+# Source Information
+source:
+  name: "Multiple vendor pricing pages and documentation"
+  url: "Various official vendor pricing pages"
+  accessed: "2025-08-20"
+  license: "Public pricing information, fair use for analysis"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 26
+  columns: 8
+  time_range: "2025-08-20 snapshot"
+  update_frequency: "static snapshot"
+  collection_method: "manual extraction from official pricing pages"
+  
+# Column Descriptions
+columns:
+  vendor:
+    type: "string"
+    description: "Database service provider name"
+    unit: "categorical"
+  api:
+    type: "string"
+    description: "Specific API or service offering"
+    unit: "categorical"
+  unit_name:
+    type: "string"
+    description: "Official pricing unit name used by vendor"
+    unit: "categorical"
+  free_tier_quota:
+    type: "string"
+    description: "Free tier allocation if available"
+    unit: "mixed (units vary by vendor)"
+  on_demand_price:
+    type: "string"
+    description: "Published on-demand pricing"
+    unit: "USD (various denominators)"
+  notes:
+    type: "string"
+    description: "Additional context about pricing model or unit definition"
+    unit: "text"
+  link:
+    type: "string"
+    description: "Official pricing page URL"
+    unit: "URL"
+  normalized_per_1000_ops:
+    type: "number"
+    description: "Estimated cost per 1000 operations for comparison (USD)"
+    unit: "USD"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all rows have required data"
+  sample_size: "26 pricing models from 12 major vendors"
+  confidence: "high"
+  limitations: 
+    - "Pricing subject to change without notice"
+    - "Normalization assumptions may not reflect actual workload patterns"
+    - "Some instance-based pricing converted using average utilization estimates"
+    - "Free tier quotas have different reset periods (monthly/daily)"
+  
+# Usage Notes
+notes:
+  - "Normalized pricing uses 1KB operation assumption where applicable"
+  - "Instance-based pricing converted assuming 720 hours/month and estimated ops/hour"
+  - "Request Unit (RU) models show best alignment across APIs within same vendor"
+  - "Significant price variance indicates lack of cross-vendor standardization"
+  
+# Key Findings
+analysis:
+  unit_alignment:
+    - "Azure Cosmos DB: Perfect RU alignment across all 5 APIs"
+    - "AWS: Different units per service (RCU/WCU, instance hours)"
+    - "GCP: Mixed models (operations, vCPU hours, processing units)"
+    - "MongoDB Atlas: Transitioning to unified request units"
+  
+  pricing_transparency:
+    - "Request Unit models provide clearest cross-API comparison"
+    - "Instance-based pricing obscures per-operation costs"
+    - "Serverless models trending toward request-based units"
+  
+  cost_variance:
+    - "10x-100x variance in normalized costs across vendors"
+    - "Free tiers vary significantly in quota and reset periods"
+    - "Premium services (Spanner, Neo4j) show highest per-operation costs"
