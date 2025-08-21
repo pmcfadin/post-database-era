@@ -1,0 +1,79 @@
+pattern_id,pattern_description,platform,configuration,user_type,sessions_per_day,session_duration_minutes,charts_viewed,data_scanned_gb,concurrency,cost_usd_per_session,cost_usd_per_month,cost_usd_per_chart,architecture_type
+exec_morning_review,Executive morning dashboard review,snowflake,xs_warehouse,executive,1,3,8,0.5,1,0.125,3.75,0.0156,native_dw
+exec_morning_review,Executive morning dashboard review,snowflake,s_warehouse,executive,1,3,8,0.5,1,0.25,7.5,0.0312,native_dw
+exec_morning_review,Executive morning dashboard review,snowflake,m_warehouse,executive,1,3,8,0.5,1,0.5,15.0,0.0625,native_dw
+exec_morning_review,Executive morning dashboard review,snowflake,external_tables,executive,1,3,8,0.5,1,0.15,4.5,0.0187,lake_tables
+exec_morning_review,Executive morning dashboard review,databricks,sql_serverless,executive,1,3,8,0.5,1,0.0261,0.78,0.0033,serverless_dw
+exec_morning_review,Executive morning dashboard review,databricks,sql_classic_2x,executive,1,3,8,0.5,1,0.0121,0.36,0.0015,native_dw
+exec_morning_review,Executive morning dashboard review,databricks,sql_classic_4x,executive,1,3,8,0.5,1,0.0242,0.73,0.003,native_dw
+exec_morning_review,Executive morning dashboard review,bigquery,on_demand,executive,1,3,8,0.5,1,0.0488,1.46,0.0061,native_dw
+exec_morning_review,Executive morning dashboard review,bigquery,flat_rate_100,executive,1,3,8,0.5,1,0.1389,4.17,0.0174,native_dw
+exec_morning_review,Executive morning dashboard review,bigquery,external_tables,executive,1,3,8,0.5,1,0.0635,1.9,0.0079,lake_tables
+exec_morning_review,Executive morning dashboard review,redshift,ra3_xlplus,executive,1,3,8,0.5,1,0.163,4.89,0.0204,native_dw
+exec_morning_review,Executive morning dashboard review,redshift,serverless_8rpu,executive,1,3,8,0.5,1,0.15,4.5,0.0188,serverless_dw
+exec_morning_review,Executive morning dashboard review,redshift,spectrum,executive,1,3,8,0.5,1,0.1654,4.96,0.0207,lake_tables
+analyst_deep_dive,Business analyst deep-dive analysis,snowflake,xs_warehouse,analyst,4,15,25,2.0,1,0.625,75.0,0.025,native_dw
+analyst_deep_dive,Business analyst deep-dive analysis,snowflake,s_warehouse,analyst,4,15,25,2.0,1,1.25,150.0,0.05,native_dw
+analyst_deep_dive,Business analyst deep-dive analysis,snowflake,m_warehouse,analyst,4,15,25,2.0,1,2.5,300.0,0.1,native_dw
+analyst_deep_dive,Business analyst deep-dive analysis,snowflake,external_tables,analyst,4,15,25,2.0,1,0.75,90.0,0.03,lake_tables
+analyst_deep_dive,Business analyst deep-dive analysis,databricks,sql_serverless,analyst,4,15,25,2.0,1,0.0503,6.03,0.002,serverless_dw
+analyst_deep_dive,Business analyst deep-dive analysis,databricks,sql_classic_2x,analyst,4,15,25,2.0,1,0.0605,7.26,0.0024,native_dw
+analyst_deep_dive,Business analyst deep-dive analysis,databricks,sql_classic_4x,analyst,4,15,25,2.0,1,0.121,14.52,0.0048,native_dw
+analyst_deep_dive,Business analyst deep-dive analysis,bigquery,on_demand,analyst,4,15,25,2.0,1,0.0488,5.86,0.002,native_dw
+analyst_deep_dive,Business analyst deep-dive analysis,bigquery,flat_rate_100,analyst,4,15,25,2.0,1,0.6944,83.33,0.0278,native_dw
+analyst_deep_dive,Business analyst deep-dive analysis,bigquery,external_tables,analyst,4,15,25,2.0,1,0.0635,7.62,0.0025,lake_tables
+analyst_deep_dive,Business analyst deep-dive analysis,redshift,ra3_xlplus,analyst,4,15,25,2.0,1,0.815,97.8,0.0326,native_dw
+analyst_deep_dive,Business analyst deep-dive analysis,redshift,serverless_8rpu,analyst,4,15,25,2.0,1,0.75,90.0,0.03,serverless_dw
+analyst_deep_dive,Business analyst deep-dive analysis,redshift,spectrum,analyst,4,15,25,2.0,1,0.8248,98.97,0.033,lake_tables
+sales_team_standup,Sales team daily standup dashboard,snowflake,xs_warehouse,sales_team,1,8,12,0.8,15,0.5,15.0,0.0417,native_dw
+sales_team_standup,Sales team daily standup dashboard,snowflake,s_warehouse,sales_team,1,8,12,0.8,15,1.0,30.0,0.0833,native_dw
+sales_team_standup,Sales team daily standup dashboard,snowflake,m_warehouse,sales_team,1,8,12,0.8,15,2.0,60.0,0.1667,native_dw
+sales_team_standup,Sales team daily standup dashboard,snowflake,external_tables,sales_team,1,8,12,0.8,15,0.6,18.0,0.05,lake_tables
+sales_team_standup,Sales team daily standup dashboard,databricks,sql_serverless,sales_team,1,8,12,0.8,15,0.0542,1.63,0.0045,serverless_dw
+sales_team_standup,Sales team daily standup dashboard,databricks,sql_classic_2x,sales_team,1,8,12,0.8,15,0.0484,1.45,0.004,native_dw
+sales_team_standup,Sales team daily standup dashboard,databricks,sql_classic_4x,sales_team,1,8,12,0.8,15,0.0968,2.9,0.0081,native_dw
+sales_team_standup,Sales team daily standup dashboard,bigquery,on_demand,sales_team,1,8,12,0.8,15,0.0488,1.46,0.0041,native_dw
+sales_team_standup,Sales team daily standup dashboard,bigquery,flat_rate_100,sales_team,1,8,12,0.8,15,0.5556,16.67,0.0463,native_dw
+sales_team_standup,Sales team daily standup dashboard,bigquery,external_tables,sales_team,1,8,12,0.8,15,0.0635,1.9,0.0053,lake_tables
+sales_team_standup,Sales team daily standup dashboard,redshift,ra3_xlplus,sales_team,1,8,12,0.8,15,0.652,19.56,0.0543,native_dw
+sales_team_standup,Sales team daily standup dashboard,redshift,serverless_8rpu,sales_team,1,8,12,0.8,15,0.6,18.0,0.05,serverless_dw
+sales_team_standup,Sales team daily standup dashboard,redshift,spectrum,sales_team,1,8,12,0.8,15,0.6579,19.74,0.0548,lake_tables
+marketing_campaign_monitor,Marketing campaign monitoring,snowflake,xs_warehouse,marketing,8,5,6,0.3,3,0.2083,50.0,0.0347,native_dw
+marketing_campaign_monitor,Marketing campaign monitoring,snowflake,s_warehouse,marketing,8,5,6,0.3,3,0.4167,100.0,0.0694,native_dw
+marketing_campaign_monitor,Marketing campaign monitoring,snowflake,m_warehouse,marketing,8,5,6,0.3,3,0.8333,200.0,0.1389,native_dw
+marketing_campaign_monitor,Marketing campaign monitoring,snowflake,external_tables,marketing,8,5,6,0.3,3,0.25,60.0,0.0417,lake_tables
+marketing_campaign_monitor,Marketing campaign monitoring,databricks,sql_serverless,marketing,8,5,6,0.3,3,0.0301,7.22,0.005,serverless_dw
+marketing_campaign_monitor,Marketing campaign monitoring,databricks,sql_classic_2x,marketing,8,5,6,0.3,3,0.0202,4.84,0.0034,native_dw
+marketing_campaign_monitor,Marketing campaign monitoring,databricks,sql_classic_4x,marketing,8,5,6,0.3,3,0.0403,9.68,0.0067,native_dw
+marketing_campaign_monitor,Marketing campaign monitoring,bigquery,on_demand,marketing,8,5,6,0.3,3,0.0488,11.72,0.0081,native_dw
+marketing_campaign_monitor,Marketing campaign monitoring,bigquery,flat_rate_100,marketing,8,5,6,0.3,3,0.2315,55.56,0.0386,native_dw
+marketing_campaign_monitor,Marketing campaign monitoring,bigquery,external_tables,marketing,8,5,6,0.3,3,0.0635,15.23,0.0106,lake_tables
+marketing_campaign_monitor,Marketing campaign monitoring,redshift,ra3_xlplus,marketing,8,5,6,0.3,3,0.2717,65.2,0.0453,native_dw
+marketing_campaign_monitor,Marketing campaign monitoring,redshift,serverless_8rpu,marketing,8,5,6,0.3,3,0.25,60.0,0.0417,serverless_dw
+marketing_campaign_monitor,Marketing campaign monitoring,redshift,spectrum,marketing,8,5,6,0.3,3,0.2731,65.55,0.0455,lake_tables
+customer_support_metrics,Customer support metrics dashboard,snowflake,xs_warehouse,support,12,2,4,0.1,8,0.0833,30.0,0.0208,native_dw
+customer_support_metrics,Customer support metrics dashboard,snowflake,s_warehouse,support,12,2,4,0.1,8,0.1667,60.0,0.0417,native_dw
+customer_support_metrics,Customer support metrics dashboard,snowflake,m_warehouse,support,12,2,4,0.1,8,0.3333,120.0,0.0833,native_dw
+customer_support_metrics,Customer support metrics dashboard,snowflake,external_tables,support,12,2,4,0.1,8,0.1,36.0,0.025,lake_tables
+customer_support_metrics,Customer support metrics dashboard,databricks,sql_serverless,support,12,2,4,0.1,8,0.024,8.65,0.006,serverless_dw
+customer_support_metrics,Customer support metrics dashboard,databricks,sql_classic_2x,support,12,2,4,0.1,8,0.0081,2.9,0.002,native_dw
+customer_support_metrics,Customer support metrics dashboard,databricks,sql_classic_4x,support,12,2,4,0.1,8,0.0161,5.81,0.004,native_dw
+customer_support_metrics,Customer support metrics dashboard,bigquery,on_demand,support,12,2,4,0.1,8,0.0488,17.58,0.0122,native_dw
+customer_support_metrics,Customer support metrics dashboard,bigquery,flat_rate_100,support,12,2,4,0.1,8,0.0926,33.33,0.0231,native_dw
+customer_support_metrics,Customer support metrics dashboard,bigquery,external_tables,support,12,2,4,0.1,8,0.0635,22.85,0.0159,lake_tables
+customer_support_metrics,Customer support metrics dashboard,redshift,ra3_xlplus,support,12,2,4,0.1,8,0.1087,39.12,0.0272,native_dw
+customer_support_metrics,Customer support metrics dashboard,redshift,serverless_8rpu,support,12,2,4,0.1,8,0.1,36.0,0.025,serverless_dw
+customer_support_metrics,Customer support metrics dashboard,redshift,spectrum,support,12,2,4,0.1,8,0.1092,39.3,0.0273,lake_tables
+monthly_board_review,Monthly board presentation prep,snowflake,xs_warehouse,executive,0.1,45,50,5.0,2,1.875,5.62,0.0375,native_dw
+monthly_board_review,Monthly board presentation prep,snowflake,s_warehouse,executive,0.1,45,50,5.0,2,3.75,11.25,0.075,native_dw
+monthly_board_review,Monthly board presentation prep,snowflake,m_warehouse,executive,0.1,45,50,5.0,2,7.5,22.5,0.15,native_dw
+monthly_board_review,Monthly board presentation prep,snowflake,external_tables,executive,0.1,45,50,5.0,2,2.25,6.75,0.045,lake_tables
+monthly_board_review,Monthly board presentation prep,databricks,sql_serverless,executive,0.1,45,50,5.0,2,0.1108,0.33,0.0022,serverless_dw
+monthly_board_review,Monthly board presentation prep,databricks,sql_classic_2x,executive,0.1,45,50,5.0,2,0.1815,0.54,0.0036,native_dw
+monthly_board_review,Monthly board presentation prep,databricks,sql_classic_4x,executive,0.1,45,50,5.0,2,0.363,1.09,0.0073,native_dw
+monthly_board_review,Monthly board presentation prep,bigquery,on_demand,executive,0.1,45,50,5.0,2,0.0488,0.15,0.001,native_dw
+monthly_board_review,Monthly board presentation prep,bigquery,flat_rate_100,executive,0.1,45,50,5.0,2,2.0833,6.25,0.0417,native_dw
+monthly_board_review,Monthly board presentation prep,bigquery,external_tables,executive,0.1,45,50,5.0,2,0.0635,0.19,0.0013,lake_tables
+monthly_board_review,Monthly board presentation prep,redshift,ra3_xlplus,executive,0.1,45,50,5.0,2,2.445,7.33,0.0489,native_dw
+monthly_board_review,Monthly board presentation prep,redshift,serverless_8rpu,executive,0.1,45,50,5.0,2,2.25,6.75,0.045,serverless_dw
+monthly_board_review,Monthly board presentation prep,redshift,spectrum,executive,0.1,45,50,5.0,2,2.4694,7.41,0.0494,lake_tables

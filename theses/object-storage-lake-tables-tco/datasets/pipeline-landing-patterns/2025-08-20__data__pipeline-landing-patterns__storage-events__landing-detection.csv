@@ -1,0 +1,4 @@
+event_id,storage_type,event_pattern,first_landing,tb_month,avg_file_size_mb,files_per_hour,downstream_triggers,compression_type,partitioning,access_pattern,lifecycle_policy,replication
+evt_001,s3,object_created,object,2024-08,245.7,1247,lambda|glue|emr,parquet_snappy,year_month_day,write_once_read_many,intelligent_tiering,cross_region
+evt_002,azure_blob,blob_created,object,2024-07,89.3,567,synapse|databricks|adf,delta_parquet,hive_style,append_only,cool_archive,zone_redundant
+evt_003,gcs,object_finalize,object,2024-08,156.2,2341,dataflow|bigquery|vertex,avro_deflate,date_hour,streaming_append,nearline_coldline,multi_regional

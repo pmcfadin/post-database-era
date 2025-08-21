@@ -1,0 +1,71 @@
+# Dataset Metadata
+dataset:
+  title: "Advanced Feature Capabilities for Table Formats in BI/ELT Tools"
+  description: "Detailed analysis of advanced features like query pushdown, schema evolution, time travel, and performance optimizations across table formats and tools"
+  topic: "Advanced Table Format Feature Support"
+  metric: "Feature-specific capability assessment"
+  
+# Source Information
+source:
+  name: "Technical documentation and feature guides"
+  url: "Vendor documentation, release notes, and technical specifications"
+  accessed: "2025-08-20"
+  license: "Research compilation from public technical documentation"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 19
+  columns: 6
+  time_range: "2025-08-20 snapshot"
+  update_frequency: "quarterly - advanced features evolve rapidly"
+  collection_method: "technical documentation analysis"
+  
+# Column Descriptions
+columns:
+  category:
+    type: "string"
+    description: "Feature category being assessed"
+    unit: "Query Pushdown|Schema Evolution|Time Travel|Partition Pruning|Metadata Operations|Performance"
+  tool:
+    type: "string"
+    description: "BI/ELT tool or analytics engine being evaluated"
+    unit: "categorical"
+  iceberg_capability:
+    type: "string"
+    description: "Level of Apache Iceberg support for this feature"
+    unit: "Full|Advanced|Limited|Basic|Not supported|Via [method]"
+  delta_capability:
+    type: "string"
+    description: "Level of Delta Lake support for this feature"
+    unit: "Full|Advanced|Limited|Basic|Not supported|Via [method]"
+  hudi_capability:
+    type: "string"
+    description: "Level of Apache Hudi support for this feature"
+    unit: "Full|Advanced|Limited|Basic|Not supported|Via [method]"
+  notes:
+    type: "string"
+    description: "Implementation details and dependencies"
+    unit: "text"
+    
+# Quality Indicators
+quality:
+  completeness: "85% - covers major tools and key feature categories"
+  sample_size: "19 tool/feature combinations across 6 capability areas"
+  confidence: "medium-high - based on technical documentation analysis"
+  limitations: 
+    - "Feature capabilities depend on specific configurations"
+    - "Performance characteristics are workload-dependent"
+    - "Some capabilities require specific versions or setups"
+    - "Indirect access via connectors may limit feature availability"
+  
+# Usage Notes
+notes:
+  - "Query pushdown shows strongest support across Iceberg and Delta formats"
+  - "Time travel capabilities favor native format implementations"
+  - "Schema evolution support varies significantly by tool architecture"
+  - "Partition pruning effectiveness depends on metadata design"
+  - "Performance optimizations are highly format-specific"
+  - "Hudi shows limited advanced feature support across all categories"
+  - "Analytics engines provide stronger feature support than BI/ELT tools"
+  - "Feature parity improves when accessing via native platforms"

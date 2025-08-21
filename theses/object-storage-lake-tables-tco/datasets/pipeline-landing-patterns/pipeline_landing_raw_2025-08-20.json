@@ -1,0 +1,39 @@
+{
+  "stackoverflow": [],
+  "benchmark": [
+    {
+      "pipeline_id": "benchmark_001",
+      "source": "industry_benchmark",
+      "pattern_type": "modern_data_stack",
+      "first_landing": "object",
+      "tb_month": "2024-12",
+      "engines_downstream": "spark|dbt|snowflake",
+      "pattern_description": "ELT with S3 landing zone",
+      "adoption_percentage": 65,
+      "company_size": "enterprise"
+    },
+    {
+      "pipeline_id": "benchmark_002",
+      "source": "industry_benchmark",
+      "pattern_type": "traditional_dwh",
+      "first_landing": "dw",
+      "tb_month": "2024-12",
+      "engines_downstream": "airflow|redshift",
+      "pattern_description": "ETL direct to warehouse",
+      "adoption_percentage": 25,
+      "company_size": "enterprise"
+    },
+    {
+      "pipeline_id": "benchmark_003",
+      "source": "industry_benchmark",
+      "pattern_type": "streaming_first",
+      "first_landing": "object",
+      "tb_month": "2024-12",
+      "engines_downstream": "kafka|spark|databricks",
+      "pattern_description": "Stream processing to object storage",
+      "adoption_percentage": 10,
+      "company_size": "all"
+    }
+  ],
+  "collected_at": "2025-08-20T17:49:27.587324"
+}

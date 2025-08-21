@@ -1,0 +1,51 @@
+cloud,region,substrate,service,tier,redundancy,price_per_gb_month,price_per_tb_month,effective_date,source,access_pattern
+AWS,us-east-1,object,S3,Standard,Standard,0.0245,25.088,2018-01-01,AWS pricing history archives,Standard
+AWS,us-east-1,object,S3,Standard-IA,Infrequent Access,0.0125,12.8,2018-01-01,AWS pricing history archives,Standard
+AWS,us-east-1,object,S3,Glacier,Archive,0.004,4.096,2018-01-01,AWS pricing history archives,Standard
+AWS,us-east-1,object,S3,Standard,Standard,0.023,23.552,2019-01-01,AWS pricing history archives,Standard
+AWS,us-east-1,object,S3,Standard-IA,Infrequent Access,0.0125,12.8,2019-01-01,AWS pricing history archives,Standard
+AWS,us-east-1,object,S3,Glacier,Archive,0.004,4.096,2019-01-01,AWS pricing history archives,Standard
+AWS,us-east-1,object,S3,Standard,Standard,0.023,23.552,2020-01-01,AWS pricing history archives,Standard
+AWS,us-east-1,object,S3,Standard-IA,Infrequent Access,0.0125,12.8,2020-01-01,AWS pricing history archives,Standard
+AWS,us-east-1,object,S3,Glacier,Archive,0.004,4.096,2020-01-01,AWS pricing history archives,Standard
+AWS,us-east-1,object,S3,Standard,Standard,0.023,23.552,2021-01-01,AWS pricing history archives,Standard
+AWS,us-east-1,object,S3,Standard-IA,Infrequent Access,0.0125,12.8,2021-01-01,AWS pricing history archives,Standard
+AWS,us-east-1,object,S3,Glacier,Archive,0.004,4.096,2021-01-01,AWS pricing history archives,Standard
+AWS,us-east-1,object,S3,Standard,Standard,0.023,23.552,2022-01-01,AWS pricing history archives,Standard
+AWS,us-east-1,object,S3,Standard-IA,Infrequent Access,0.0125,12.8,2022-01-01,AWS pricing history archives,Standard
+AWS,us-east-1,object,S3,Glacier,Archive,0.0036,3.6864,2022-01-01,AWS pricing history archives,Standard
+AWS,us-east-1,object,S3,Standard,Standard,0.023,23.552,2023-01-01,AWS pricing history archives,Standard
+AWS,us-east-1,object,S3,Standard-IA,Infrequent Access,0.0125,12.8,2023-01-01,AWS pricing history archives,Standard
+AWS,us-east-1,object,S3,Glacier,Archive,0.0036,3.6864,2023-01-01,AWS pricing history archives,Standard
+AWS,us-east-1,object,S3,Standard,Standard,0.023,23.552,2024-01-01,AWS pricing history archives,Standard
+AWS,us-east-1,object,S3,Standard-IA,Infrequent Access,0.0125,12.8,2024-01-01,AWS pricing history archives,Standard
+AWS,us-east-1,object,S3,Glacier,Archive,0.0036,3.6864,2024-01-01,AWS pricing history archives,Standard
+AWS,us-east-1,object,S3,Standard,Standard,0.023,23.552,2025-01-01,AWS pricing history archives,Standard
+AWS,us-east-1,object,S3,Standard-IA,Infrequent Access,0.0125,12.8,2025-01-01,AWS pricing history archives,Standard
+AWS,us-east-1,object,S3,Glacier,Archive,0.0036,3.6864,2025-01-01,AWS pricing history archives,Standard
+AWS,us-east-1,object,S3,Standard,Standard,0.023,23.552,2025-01-01,AWS S3 regional pricing,Standard
+AWS,us-west-2,object,S3,Standard,Standard,0.023,23.552,2025-01-01,AWS S3 regional pricing,Standard
+AWS,eu-west-1,object,S3,Standard,Standard,0.025001,25.601024,2025-01-01,AWS S3 regional pricing,Standard
+AWS,ap-southeast-1,object,S3,Standard,Standard,0.025001,25.601024,2025-01-01,AWS S3 regional pricing,Standard
+AWS,ap-northeast-1,object,S3,Standard,Standard,0.025001,25.601024,2025-01-01,AWS S3 regional pricing,Standard
+Multi-cloud,us-east-1,dw-native,Databricks,Delta Lake Storage,Standard,0.02,20.48,2025-01-01,Vendor pricing pages,Standard
+Multi-cloud,us-east-1,dw-native,Teradata Vantage,Standard,Standard,0.035,35.84,2025-01-01,Vendor pricing pages,Standard
+IBM Cloud,us-east-1,dw-native,IBM Db2 Warehouse,Standard,Standard,0.028,28.672,2025-01-01,Vendor pricing pages,Standard
+Oracle Cloud,us-east-1,dw-native,Oracle Autonomous DW,Standard,Standard,0.025,25.6,2025-01-01,Vendor pricing pages,Standard
+Multi-cloud,us-east-1,dw-native,SingleStore,Standard,Standard,0.03,30.72,2025-01-01,Vendor pricing pages,Standard
+AWS,primary,object,S3,Express One Zone,LRS,0.16,163.84,2025-01-01,Cloud provider comprehensive pricing,Ultra-frequent
+AWS,primary,object,S3,Standard,LRS,0.023,23.552,2025-01-01,Cloud provider comprehensive pricing,Frequent
+AWS,primary,object,S3,Standard-IA,LRS,0.0125,12.8,2025-01-01,Cloud provider comprehensive pricing,Infrequent
+AWS,primary,object,S3,One Zone-IA,LRS,0.01,10.24,2025-01-01,Cloud provider comprehensive pricing,Infrequent
+AWS,primary,object,S3,Intelligent-Tiering,LRS,0.023,23.552,2025-01-01,Cloud provider comprehensive pricing,Variable
+AWS,primary,object,S3,Glacier Instant,LRS,0.004,4.096,2025-01-01,Cloud provider comprehensive pricing,Archive-instant
+AWS,primary,object,S3,Glacier Flexible,LRS,0.0036,3.6864,2025-01-01,Cloud provider comprehensive pricing,Archive-flexible
+AWS,primary,object,S3,Glacier Deep Archive,LRS,0.00099,1.01376,2025-01-01,Cloud provider comprehensive pricing,Archive-deep
+Google Cloud,primary,object,Cloud Storage,Standard,LRS,0.02,20.48,2025-01-01,Cloud provider comprehensive pricing,Frequent
+Google Cloud,primary,object,Cloud Storage,Nearline,LRS,0.01,10.24,2025-01-01,Cloud provider comprehensive pricing,Monthly
+Google Cloud,primary,object,Cloud Storage,Coldline,LRS,0.004,4.096,2025-01-01,Cloud provider comprehensive pricing,Quarterly
+Google Cloud,primary,object,Cloud Storage,Archive,LRS,0.0012,1.2288,2025-01-01,Cloud provider comprehensive pricing,Annual
+Microsoft Azure,primary,object,Blob Storage,Premium,LRS,0.15,153.6,2025-01-01,Cloud provider comprehensive pricing,Ultra-frequent
+Microsoft Azure,primary,object,Blob Storage,Hot,LRS,0.0208,21.2992,2025-01-01,Cloud provider comprehensive pricing,Frequent
+Microsoft Azure,primary,object,Blob Storage,Cool,LRS,0.01,10.24,2025-01-01,Cloud provider comprehensive pricing,Infrequent
+Microsoft Azure,primary,object,Blob Storage,Archive,LRS,0.00099,1.01376,2025-01-01,Cloud provider comprehensive pricing,Archive

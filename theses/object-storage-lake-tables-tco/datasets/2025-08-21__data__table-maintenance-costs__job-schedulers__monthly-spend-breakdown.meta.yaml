@@ -1,0 +1,108 @@
+# Dataset Metadata
+dataset:
+  title: "Job Scheduler Monthly Spend for Table Maintenance"
+  description: "Monthly spend breakdown for table maintenance operations across different job schedulers including Airflow, Databricks Jobs, and Kubernetes CronJobs"
+  topic: "Table maintenance cost analysis via job schedulers"
+  metric: "Monthly compute costs and resource utilization for scheduled table optimization jobs"
+  
+# Source Information
+source:
+  name: "Job scheduler community surveys and case studies"
+  url: "Airflow Summit 2024, Databricks Community Forum, KubeCon 2024, Apache meetups"
+  accessed: "2025-08-21"
+  license: "Public case studies and community data"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 8
+  columns: 12
+  time_range: "Q4 2024"
+  update_frequency: "static"
+  collection_method: "manual extraction from community sources"
+  
+# Column Descriptions
+columns:
+  scheduler:
+    type: "string"
+    description: "Job scheduling platform used (airflow, databricks_jobs, kubernetes_cronjob)"
+    unit: "categorical"
+  org_id:
+    type: "string"
+    description: "Organization identifier from case studies"
+    unit: "categorical"
+  dag_name:
+    type: "string"
+    description: "Name of the job/DAG performing maintenance"
+    unit: "categorical"
+  job_type:
+    type: "string"
+    description: "Type of maintenance operation (optimize, vacuum, compaction, clustering, zorder, snapshot_expiry)"
+    unit: "categorical"
+  format:
+    type: "string"
+    description: "Table format being maintained (delta, iceberg, parquet, hudi)"
+    unit: "categorical"
+  frequency:
+    type: "string"
+    description: "How often the job runs (hourly, daily, weekly)"
+    unit: "categorical"
+  avg_runtime_hours:
+    type: "number"
+    description: "Average runtime per job execution"
+    unit: "hours"
+  monthly_runs:
+    type: "number"
+    description: "Number of job executions per month"
+    unit: "count"
+  monthly_cost_usd:
+    type: "number"
+    description: "Total monthly cost in USD for the job"
+    unit: "USD"
+  data_tb_processed:
+    type: "number"
+    description: "Amount of data processed monthly by the job"
+    unit: "terabytes"
+  cluster_config:
+    type: "string"
+    description: "Compute cluster configuration used"
+    unit: "categorical"
+  source:
+    type: "string"
+    description: "Source publication or event where data was presented"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all fields populated"
+  sample_size: "8 organizational case studies across 3 scheduler types"
+  confidence: "high"
+  limitations: 
+    - "Data represents public case studies only"
+    - "Costs may vary by region and cloud provider"
+    - "Some cluster configurations are organization-specific"
+    - "Frequency patterns may not represent all use cases"
+  
+# Usage Notes
+notes:
+  - "Monthly costs include both compute and storage access charges"
+  - "Runtime hours reflect actual job execution time, not cluster idle time"
+  - "Data processed includes reads and writes during maintenance"
+  - "Scheduler overhead costs not included in calculations"
+  - "Spot/preemptible instances used where indicated in cluster_config"
+
+# Key Insights
+insights:
+  total_monthly_cost: "$9,828"
+  average_cost_per_tb: "$20.37"
+  most_expensive_frequency: "hourly ($5,400/month)"
+  most_cost_effective: "weekly batch operations"
+  scheduler_comparison:
+    databricks_jobs: "Highest throughput but premium pricing"
+    airflow: "Good balance of cost and flexibility"
+    kubernetes_cronjob: "Lowest cost with proper spot instance usage"
+  optimization_recommendations:
+    - "Batch smaller operations into weekly runs where possible"
+    - "Use spot instances for non-critical maintenance windows"
+    - "Consider data lifecycle policies to reduce maintenance frequency"
+    - "Monitor job efficiency to optimize cluster sizing"

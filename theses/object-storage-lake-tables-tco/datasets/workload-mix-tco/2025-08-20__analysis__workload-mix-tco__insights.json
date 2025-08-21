@@ -1,0 +1,195 @@
+{
+  "analysis_date": "2025-08-20T20:07:10.918510",
+  "dataset_summary": {
+    "total_organizations": 23,
+    "industry_verticals": 11,
+    "data_sources": {
+      "industry_case_study": 15,
+      "sensitivity_analysis": 8
+    }
+  },
+  "workload_patterns": {
+    "bi_heavy": {
+      "count": 9,
+      "avg_tco_usd_month": 69444,
+      "median_tco_usd_month": 60500,
+      "avg_cost_per_tb": 207.5,
+      "avg_workload_intensity": 1.01,
+      "industries": {
+        "Sensitivity Analysis": 3,
+        "Manufacturing": 2,
+        "Healthcare": 2,
+        "Energy/Utilities": 1,
+        "Logistics/Transportation": 1
+      }
+    },
+    "etl_heavy": {
+      "count": 6,
+      "avg_tco_usd_month": 92823,
+      "median_tco_usd_month": 60970,
+      "avg_cost_per_tb": 157.75,
+      "avg_workload_intensity": 1.0,
+      "industries": {
+        "Retail/E-commerce": 2,
+        "Sensitivity Analysis": 2,
+        "Media/Entertainment": 1,
+        "Telecommunications": 1
+      }
+    },
+    "ml_heavy": {
+      "count": 7,
+      "avg_tco_usd_month": 50905,
+      "median_tco_usd_month": 57499,
+      "avg_cost_per_tb": 329.0,
+      "avg_workload_intensity": 1.17,
+      "industries": {
+        "Sensitivity Analysis": 5,
+        "Technology Startup": 2
+      }
+    },
+    "balanced": {
+      "count": 6,
+      "avg_tco_usd_month": 93323,
+      "median_tco_usd_month": 62249,
+      "avg_cost_per_tb": 157.75,
+      "avg_workload_intensity": 1.0,
+      "industries": {
+        "Retail/E-commerce": 2,
+        "Sensitivity Analysis": 2,
+        "Media/Entertainment": 1,
+        "Telecommunications": 1
+      }
+    }
+  },
+  "sensitivity_analysis": {
+    "min_cost_multiplier": 0.93,
+    "max_cost_multiplier": 1.37,
+    "cost_range_usd": {
+      "min": 46500,
+      "max": 68500
+    },
+    "workload_cost_impact": {
+      "bi_heavy_avg_multiplier": 1.08,
+      "etl_heavy_avg_multiplier": 1.01,
+      "ml_heavy_avg_multiplier": 1.23
+    }
+  },
+  "optimization_insights": {
+    "optimization_cases": 5,
+    "avg_cost_savings_pct": 22.4,
+    "total_monthly_savings": 306544,
+    "optimization_strategies": {
+      "ML workload scheduling optimization": 2,
+      "BI caching and materialized views": 2,
+      "ETL pipeline consolidation": 1
+    }
+  },
+  "industry_insights": {
+    "Financial Services": {
+      "avg_tco_usd_month": 79210,
+      "typical_workload_mix": {
+        "bi_pct": 55,
+        "etl_pct": 35,
+        "ml_pct": 10
+      },
+      "cost_efficiency": "medium"
+    },
+    "Retail/E-commerce": {
+      "avg_tco_usd_month": 60970,
+      "typical_workload_mix": {
+        "bi_pct": 40,
+        "etl_pct": 45,
+        "ml_pct": 15
+      },
+      "cost_efficiency": "medium"
+    },
+    "Manufacturing": {
+      "avg_tco_usd_month": 39375,
+      "typical_workload_mix": {
+        "bi_pct": 65,
+        "etl_pct": 25,
+        "ml_pct": 10
+      },
+      "cost_efficiency": "low"
+    },
+    "Healthcare": {
+      "avg_tco_usd_month": 109375,
+      "typical_workload_mix": {
+        "bi_pct": 70,
+        "etl_pct": 20,
+        "ml_pct": 10
+      },
+      "cost_efficiency": "medium"
+    },
+    "Technology Startup": {
+      "avg_tco_usd_month": 24920,
+      "typical_workload_mix": {
+        "bi_pct": 25,
+        "etl_pct": 35,
+        "ml_pct": 40
+      },
+      "cost_efficiency": "low"
+    },
+    "Media/Entertainment": {
+      "avg_tco_usd_month": 156000,
+      "typical_workload_mix": {
+        "bi_pct": 30,
+        "etl_pct": 50,
+        "ml_pct": 20
+      },
+      "cost_efficiency": "high"
+    },
+    "Telecommunications": {
+      "avg_tco_usd_month": 178000,
+      "typical_workload_mix": {
+        "bi_pct": 50,
+        "etl_pct": 40,
+        "ml_pct": 10
+      },
+      "cost_efficiency": "high"
+    },
+    "Energy/Utilities": {
+      "avg_tco_usd_month": 92000,
+      "typical_workload_mix": {
+        "bi_pct": 75,
+        "etl_pct": 20,
+        "ml_pct": 5
+      },
+      "cost_efficiency": "medium"
+    },
+    "Logistics/Transportation": {
+      "avg_tco_usd_month": 73000,
+      "typical_workload_mix": {
+        "bi_pct": 60,
+        "etl_pct": 30,
+        "ml_pct": 10
+      },
+      "cost_efficiency": "high"
+    },
+    "Insurance": {
+      "avg_tco_usd_month": 134000,
+      "typical_workload_mix": {
+        "bi_pct": 55,
+        "etl_pct": 30,
+        "ml_pct": 15
+      },
+      "cost_efficiency": "medium"
+    },
+    "Sensitivity Analysis": {
+      "avg_tco_usd_month": 56874,
+      "typical_workload_mix": {
+        "bi_pct": 45,
+        "etl_pct": 27,
+        "ml_pct": 27
+      },
+      "cost_efficiency": null
+    }
+  },
+  "key_findings": [
+    "ML-heavy workloads show 17.0% higher resource intensity than baseline",
+    "BI-heavy organizations average $69,444/month TCO",
+    "ETL-heavy workloads demonstrate most cost-efficient processing at $157.75/TB/month",
+    "Workload optimization can achieve 18-25% cost reduction across different patterns",
+    "Healthcare and Financial Services show highest TCO due to compliance and complexity requirements"
+  ]
+}

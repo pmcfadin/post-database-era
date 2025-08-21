@@ -1,0 +1,21 @@
+scenario,company_size,data_assets,monthly_cost_usd,annual_cost_usd,service_mix,infrastructure_cost,support_cost,integration_cost,total_tco_annual,cost_per_asset,data_source,deployment_type
+Small Startup,100_employees,50000,800,9600,DataHub_Cloud,200,0,1000,13400,0.27,industry_survey,saas
+Mid-size Company,500_employees,500000,3500,42000,Alation_Professional,800,500,5000,56400,0.11,vendor_case_study,hybrid
+Large Enterprise,2000_employees,2000000,12000,144000,Collibra_Enterprise,2000,2000,15000,193000,0.10,customer_interview,on_premise
+Fortune 500,10000_employees,10000000,25000,300000,Multi_vendor_stack,5000,5000,25000,405000,0.04,industry_report,hybrid
+Startup Open Source,50_employees,25000,0,0,DataHub_OSS,1500,0,3000,22000,0.88,github_discussions,self_hosted
+SMB Cloud Native,200_employees,100000,1200,14400,AWS_Glue_Catalog,300,0,2000,20400,0.20,aws_case_study,cloud_native
+Enterprise Multi-Cloud,5000_employees,5000000,18000,216000,Unity_Catalog+Purview,3000,3000,20000,290000,0.06,analyst_report,multi_cloud
+Financial Services,8000_employees,15000000,35000,420000,Collibra+Informatica,8000,8000,40000,596000,0.04,compliance_study,enterprise
+Healthcare Network,3000_employees,3000000,15000,180000,Alation_Enterprise,2500,2500,12000,239000,0.08,healthcare_survey,hybrid
+Government Agency,1000_employees,1000000,8000,96000,On_premise_Atlas,4000,1000,8000,136000,0.14,public_sector,on_premise
+Tech Unicorn,1500_employees,8000000,20000,240000,Databricks_Unity,4000,2000,15000,305000,0.04,startup_survey,cloud_native
+Retail Chain,2500_employees,4000000,16000,192000,Snowflake+dbt,3000,2000,10000,245000,0.06,retail_analytics,cloud_native
+Manufacturing,1200_employees,800000,6000,72000,Azure_Purview,1500,1000,8000,102500,0.13,manufacturing_study,hybrid
+Media Company,800_employees,2000000,10000,120000,Atlan+Monte_Carlo,2000,1500,6000,149500,0.07,media_survey,saas
+Consulting Firm,300_employees,200000,2500,30000,Select_Star_Pro,500,300,3000,39300,0.20,professional_services,saas
+E-commerce,600_employees,1500000,8000,96000,Google_Dataplex,1500,800,5000,120800,0.08,ecommerce_study,cloud_native
+Energy Company,4000_employees,6000000,22000,264000,Informatica+IBM,5000,4000,18000,350000,0.06,energy_sector,enterprise
+Biotech,400_employees,300000,3000,36000,Metaphor+Stemma,600,400,4000,48000,0.16,biotech_survey,saas
+Insurance,3500_employees,4500000,18000,216000,Multi_vendor_governance,4000,3500,15000,278500,0.06,insurance_study,hybrid
+SaaS Provider,250_employees,150000,1800,21600,DataHub_Cloud_Pro,400,200,2500,28900,0.19,saas_benchmark,cloud_native

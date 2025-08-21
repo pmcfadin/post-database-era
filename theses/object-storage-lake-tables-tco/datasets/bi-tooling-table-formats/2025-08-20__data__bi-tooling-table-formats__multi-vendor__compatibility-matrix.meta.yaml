@@ -1,0 +1,94 @@
+# Dataset Metadata
+dataset:
+  title: "BI and ELT Tool Compatibility Matrix for Table Formats"
+  description: "Comprehensive analysis of read/write/pushdown support for Iceberg, Delta Lake, and Hudi across popular BI tools, ELT platforms, and analytics engines"
+  topic: "Table Format Compatibility and Tool Ecosystem"
+  metric: "Feature support matrix across tool categories"
+  
+# Source Information
+source:
+  name: "Multi-vendor documentation research"
+  url: "Aggregated from vendor documentation and compatibility matrices"
+  accessed: "2025-08-20"
+  license: "Research compilation - refer to individual vendor documentation"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 42
+  columns: 12
+  time_range: "2025-08-20 snapshot"
+  update_frequency: "quarterly recommended due to rapid feature development"
+  collection_method: "manual research of vendor documentation"
+  
+# Column Descriptions
+columns:
+  tool_name:
+    type: "string"
+    description: "Name of the BI/ELT tool or analytics engine"
+    unit: "categorical"
+  vendor:
+    type: "string"
+    description: "Company or organization that develops the tool"
+    unit: "categorical"
+  category:
+    type: "string"
+    description: "Tool category: BI Tool, ELT Platform, or Analytics Engine"
+    unit: "categorical"
+  table_format:
+    type: "string"
+    description: "Open table format: Iceberg, Delta Lake, or Hudi"
+    unit: "categorical"
+  read_support:
+    type: "string"
+    description: "Ability to read/query data from the table format"
+    unit: "Yes/No/Limited/Via Connector/Via Destination"
+  write_support:
+    type: "string"
+    description: "Ability to write/insert data to the table format"
+    unit: "Yes/No/Limited/Via Connector/Via Destination"
+  pushdown_support:
+    type: "string"
+    description: "Query pushdown optimization capabilities"
+    unit: "Yes/No/Limited/Via Connector/Via Database/Adapter-dependent"
+  support_status:
+    type: "string"
+    description: "Maturity level of the feature support"
+    unit: "GA/Preview/Limited/Not Supported/Dependent"
+  native_or_connector:
+    type: "string"
+    description: "How support is implemented (native, connector, adapter, etc.)"
+    unit: "categorical"
+  documentation_source:
+    type: "string"
+    description: "Source of the compatibility information"
+    unit: "categorical"
+  last_verified:
+    type: "date"
+    description: "Date when compatibility information was last verified"
+    unit: "YYYY-MM-DD"
+  notes:
+    type: "string"
+    description: "Additional context about the compatibility"
+    unit: "text"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all tool/format combinations assessed"
+  sample_size: "14 tools across 3 table formats = 42 combinations"
+  confidence: "high - based on official vendor documentation"
+  limitations: 
+    - "Support status may change rapidly as features mature"
+    - "Connector-based support depends on underlying database capabilities"
+    - "Some tools have format support through intermediate engines"
+    - "Write support often requires specific configurations"
+  
+# Usage Notes
+notes:
+  - "Iceberg shows strongest ecosystem support (92.9% read, 57.1% write)"
+  - "Delta Lake has good read support (78.6%) but limited write support (42.9%)"
+  - "Hudi has minimal direct tool support (14.3% read, 0% write)"
+  - "BI tools typically access formats through analytics engines rather than directly"
+  - "ELT platforms show varying support patterns based on destination capabilities"
+  - "Analytics engines provide the foundation for format support in the broader ecosystem"
+  - "Query pushdown capabilities vary significantly across tool categories"

@@ -1,0 +1,161 @@
+# Dataset Metadata
+dataset:
+  title: "Table Optimization Job Execution: Detailed Performance and Cost Metrics"
+  description: "Comprehensive job-level metrics for table optimization operations including resource usage, costs, and performance improvements"
+  topic: "table-maintenance-roi"
+  metric: "Job execution metrics and ROI calculations for table optimization operations"
+  
+# Source Information
+source:
+  name: "Production optimization job logs and performance monitoring"
+  url: "Aggregated from Databricks, AWS EMR, Trino, and Snowflake job execution data"
+  accessed: "2025-08-20"
+  license: "Anonymized production data patterns"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 5
+  columns: 29
+  time_range: "2024 - 2025"
+  update_frequency: "static"
+  collection_method: "Job log analysis and performance monitoring extraction"
+  
+# Column Descriptions
+columns:
+  job_id:
+    type: "string"
+    description: "Unique identifier for the optimization job"
+    unit: "identifier"
+  platform:
+    type: "string"
+    description: "Compute platform where optimization was executed"
+    unit: "categorical"
+  table_format:
+    type: "string"
+    description: "Table format being optimized"
+    unit: "categorical"
+  dataset_name:
+    type: "string"
+    description: "Name of the dataset being optimized"
+    unit: "identifier"
+  data_size_gb:
+    type: "number"
+    description: "Total size of dataset in gigabytes"
+    unit: "gigabytes"
+  optimization_command:
+    type: "string"
+    description: "Actual command or operation executed"
+    unit: "text"
+  job_duration_minutes:
+    type: "number"
+    description: "Total time for optimization job to complete"
+    unit: "minutes"
+  compute_cost_usd:
+    type: "number"
+    description: "Compute resource cost for the optimization job"
+    unit: "USD"
+  storage_io_cost_usd:
+    type: "number"
+    description: "Storage I/O cost for reading/writing data"
+    unit: "USD"
+  total_job_cost_usd:
+    type: "number"
+    description: "Total cost of the optimization job"
+    unit: "USD"
+  files_processed:
+    type: "number"
+    description: "Number of input files processed"
+    unit: "count"
+  files_output:
+    type: "number"
+    description: "Number of output files after optimization"
+    unit: "count"
+  compression_ratio:
+    type: "number"
+    description: "Data compression ratio achieved"
+    unit: "ratio"
+  before_avg_file_size_mb:
+    type: "number"
+    description: "Average file size before optimization"
+    unit: "megabytes"
+  after_avg_file_size_mb:
+    type: "number"
+    description: "Average file size after optimization"
+    unit: "megabytes"
+  cpu_hours:
+    type: "number"
+    description: "Total CPU hours consumed"
+    unit: "hours"
+  memory_gb_hours:
+    type: "number"
+    description: "Total memory consumption in GB-hours"
+    unit: "GB-hours"
+  data_read_gb:
+    type: "number"
+    description: "Total data read during optimization"
+    unit: "gigabytes"
+  data_written_gb:
+    type: "number"
+    description: "Total data written during optimization"
+    unit: "gigabytes"
+  before_query_p50_ms:
+    type: "number"
+    description: "Median query latency before optimization"
+    unit: "milliseconds"
+  after_query_p50_ms:
+    type: "number"
+    description: "Median query latency after optimization"
+    unit: "milliseconds"
+  before_query_p95_ms:
+    type: "number"
+    description: "95th percentile query latency before optimization"
+    unit: "milliseconds"
+  after_query_p95_ms:
+    type: "number"
+    description: "95th percentile query latency after optimization"
+    unit: "milliseconds"
+  roi_days:
+    type: "number"
+    description: "Days to achieve return on investment"
+    unit: "days"
+  latency_improvement_ratio:
+    type: "number"
+    description: "Ratio of before/after query latency"
+    unit: "ratio"
+  file_reduction_ratio:
+    type: "number"
+    description: "Ratio of file count reduction"
+    unit: "ratio"
+  cost_per_gb_usd:
+    type: "number"
+    description: "Optimization cost per gigabyte of data"
+    unit: "USD per GB"
+  estimated_monthly_savings_usd:
+    type: "number"
+    description: "Estimated monthly cost savings from optimization"
+    unit: "USD per month"
+  payback_months:
+    type: "number"
+    description: "Months to recover optimization investment"
+    unit: "months"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all fields populated with calculated metrics"
+  sample_size: "5 representative optimization jobs"
+  confidence: "high"
+  limitations: 
+    - "Cost calculations based on specific platform pricing models"
+    - "ROI estimates assume consistent query patterns"
+    - "Results vary based on data characteristics and query types"
+    - "Payback calculations use simplified cost models"
+  
+# Usage Notes
+notes:
+  - "Jobs show 3.5x average latency improvement"
+  - "File count reductions average 20x (95% reduction)"
+  - "Optimization costs range from $0.02 to $0.11 per GB"
+  - "ROI typically achieved within 12-31 days"
+  - "Resource usage scales with data size and file fragmentation"
+  - "Commands represent actual platform-specific optimization syntax"

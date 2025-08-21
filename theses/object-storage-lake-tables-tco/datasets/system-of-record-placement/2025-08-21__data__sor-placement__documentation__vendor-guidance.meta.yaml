@@ -1,0 +1,66 @@
+# Dataset Metadata
+dataset:
+  title: "Vendor SOR Placement Guidance"
+  description: "Official vendor documentation and guidance on system-of-record placement strategies"
+  topic: "Vendor-Recommended SOR Placement Patterns"
+  metric: "How major cloud/data platform vendors recommend SOR placement"
+  
+# Source Information
+source:
+  name: "Official Vendor Documentation"
+  url: "Multiple cloud provider and data platform documentation sites"
+  accessed: "2025-08-21"
+  license: "Public documentation"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 5
+  columns: 6
+  time_range: "2024 - 2025"
+  update_frequency: "quarterly"
+  collection_method: "manual documentation review"
+  
+# Column Descriptions
+columns:
+  source_type:
+    type: "string"
+    description: "Type of documentation source"
+    unit: "categorical"
+  name:
+    type: "string"
+    description: "Name of the vendor guidance or documentation"
+    unit: "text"
+  url:
+    type: "string"
+    description: "URL to the official documentation"
+    unit: "URL"
+  domain:
+    type: "string"
+    description: "Primary domain or platform focus"
+    unit: "text"
+  sor_pattern:
+    type: "string"
+    description: "Recommended SOR placement pattern"
+    unit: "categorical"
+  description:
+    type: "string"
+    description: "Brief description of the guidance approach"
+    unit: "text"
+    
+# Quality Indicators
+quality:
+  completeness: "100%"
+  sample_size: "5 major cloud/data platform vendors"
+  confidence: "high"
+  limitations: 
+    - "Vendor guidance may be biased toward their platforms"
+    - "Documentation may not reflect latest best practices"
+    - "Limited to publicly available guidance"
+  
+# Usage Notes
+notes:
+  - "Represents official vendor recommendations"
+  - "Useful for understanding platform-native approaches"
+  - "Shows divergence in vendor philosophies"
+  - "AWS/Azure favor lake-first, Snowflake favors warehouse-native"

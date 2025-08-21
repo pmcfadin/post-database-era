@@ -1,0 +1,67 @@
+{
+  "total_records": 44,
+  "cost_range": {
+    "min": 0.25,
+    "max": 8.5,
+    "mean": 3.161136363636363,
+    "median": 2.45
+  },
+  "cloud_vs_opensource": {
+    "cloud_avg": 4.411428571428571,
+    "opensource_avg": 1.276470588235294,
+    "premium_percentage": 245.59578670177746
+  },
+  "workload_efficiency": {
+    "adhoc": {
+      "avg_cost": 1.7849999999999997,
+      "min_cost": 0.25,
+      "max_cost": 6.25,
+      "sample_size": 10
+    },
+    "bi": {
+      "avg_cost": 3.443684210526316,
+      "min_cost": 0.8,
+      "max_cost": 8.5,
+      "sample_size": 19
+    },
+    "etl": {
+      "avg_cost": 3.720666666666667,
+      "min_cost": 0.85,
+      "max_cost": 6.25,
+      "sample_size": 15
+    }
+  },
+  "most_efficient": [
+    {
+      "engine": "Polars",
+      "workload": "adhoc",
+      "cost_per_tb": 0.25,
+      "notes": "Rust DataFrame library, single-node, very fast"
+    },
+    {
+      "engine": "DataFusion",
+      "workload": "adhoc",
+      "cost_per_tb": 0.35,
+      "notes": "Rust-based, very efficient single-node processing"
+    },
+    {
+      "engine": "DuckDB",
+      "workload": "adhoc",
+      "cost_per_tb": 0.45,
+      "notes": "Single-node, in-memory processing"
+    },
+    {
+      "engine": "DuckDB",
+      "workload": "adhoc",
+      "cost_per_tb": 0.45,
+      "notes": "Single-node, in-memory processing, very efficient"
+    },
+    {
+      "engine": "ClickHouse",
+      "workload": "bi",
+      "cost_per_tb": 0.8,
+      "notes": "Self-managed, optimized for analytical queries"
+    }
+  ],
+  "generated_at": "2025-08-20T17:42:21.423060"
+}

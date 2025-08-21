@@ -1,0 +1,176 @@
+{
+  "analysis_timestamp": "2025-08-20T20:08:17.347965",
+  "performance_analysis": {
+    "total_records": 128,
+    "native_dw_records": 48,
+    "lake_tables_records": 80,
+    "latency_analysis": {
+      "native_dw_avg_ms": 7496.1,
+      "lake_tables_avg_ms": 12185.7,
+      "latency_penalty_percent": 62.6
+    },
+    "cost_analysis": {
+      "native_dw_avg_cost": 0.1606,
+      "lake_tables_avg_cost": 0.1008,
+      "cost_difference_percent": 37.2
+    },
+    "scenario_analysis": {
+      "cold_start": {
+        "avg_latency_ms": 9058.9,
+        "min_latency_ms": 1100.0,
+        "max_latency_ms": 25725.0
+      },
+      "warm_queries": {
+        "avg_latency_ms": 3716.1,
+        "min_latency_ms": 616.0,
+        "max_latency_ms": 8662.0
+      },
+      "concurrent_5_users": {
+        "avg_latency_ms": 8494.2,
+        "min_latency_ms": 1408.0,
+        "max_latency_ms": 19800.0
+      },
+      "concurrent_20_users": {
+        "avg_latency_ms": 20439.2,
+        "min_latency_ms": 3388.0,
+        "max_latency_ms": 47644.0
+      }
+    }
+  },
+  "cost_analysis": {
+    "total_records": 78,
+    "cost_by_architecture": {
+      "native_dw": {
+        "count": 48,
+        "avg": 0.6969,
+        "min": 0.0081,
+        "max": 7.5
+      },
+      "lake_tables": {
+        "count": 18,
+        "avg": 0.4989,
+        "min": 0.0635,
+        "max": 2.4694
+      },
+      "serverless_dw": {
+        "count": 12,
+        "avg": 0.3663,
+        "min": 0.024,
+        "max": 2.25
+      }
+    },
+    "overall_cost_range": {
+      "min_cost": 0.0081,
+      "max_cost": 7.5,
+      "avg_cost": 0.6004,
+      "cost_spread_factor": 925.9
+    },
+    "cost_leaders_by_pattern": {
+      "exec_morning_review": {
+        "min_cost": 0.0121,
+        "platform": "databricks",
+        "config": "sql_classic_2x",
+        "architecture": "native_dw"
+      },
+      "analyst_deep_dive": {
+        "min_cost": 0.0488,
+        "platform": "bigquery",
+        "config": "on_demand",
+        "architecture": "native_dw"
+      },
+      "sales_team_standup": {
+        "min_cost": 0.0484,
+        "platform": "databricks",
+        "config": "sql_classic_2x",
+        "architecture": "native_dw"
+      },
+      "marketing_campaign_monitor": {
+        "min_cost": 0.0202,
+        "platform": "databricks",
+        "config": "sql_classic_2x",
+        "architecture": "native_dw"
+      },
+      "customer_support_metrics": {
+        "min_cost": 0.0081,
+        "platform": "databricks",
+        "config": "sql_classic_2x",
+        "architecture": "native_dw"
+      },
+      "monthly_board_review": {
+        "min_cost": 0.0488,
+        "platform": "bigquery",
+        "config": "on_demand",
+        "architecture": "native_dw"
+      }
+    }
+  },
+  "source_analysis": {
+    "total_sources": 10,
+    "credibility_distribution": {
+      "Tier A": 5,
+      "Tier B": 5
+    },
+    "year_distribution": {
+      "2023": 7,
+      "2022": 3
+    },
+    "key_findings": [
+      {
+        "study": "fivetran_warehouse_benchmark_2023",
+        "author": "Fivetran",
+        "finding": "Snowflake shows 2.3x faster query performance than BigQuery for complex BI queries",
+        "credibility": "Tier A"
+      },
+      {
+        "study": "databricks_lakehouse_benchmark_2022",
+        "author": "Databricks",
+        "finding": "Lakehouse architecture shows 5-12x better price/performance for mixed workloads",
+        "credibility": "Tier B"
+      },
+      {
+        "study": "eckerson_dashboard_latency_2023",
+        "author": "Eckerson Group",
+        "finding": "Native warehouse storage shows 40% lower latency than external tables for small datasets",
+        "credibility": "Tier A"
+      },
+      {
+        "study": "gartner_cloud_dw_benchmark_2023",
+        "author": "Gartner",
+        "finding": "Cold start penalties range from 2-30 seconds for serverless architectures",
+        "credibility": "Tier A"
+      },
+      {
+        "study": "gigaom_analytical_dbms_2023",
+        "author": "GigaOm",
+        "finding": "Cost per query varies 10x between optimized and unoptimized configurations",
+        "credibility": "Tier A"
+      }
+    ]
+  },
+  "executive_summary": {
+    "key_metrics": {
+      "lake_tables_latency_penalty_percent": 62.6,
+      "cost_variation_factor": "925.9x",
+      "research_sources_analyzed": 10,
+      "tier_a_sources": 5
+    },
+    "performance_insights": [
+      "Lake tables show 62.6% latency penalty vs native data warehouses",
+      "Cold start penalties significantly impact serverless architectures",
+      "Concurrent users degrade performance linearly",
+      "Native DW optimized for sub-second interactive queries"
+    ],
+    "cost_insights": [
+      "Session costs vary by 925.9x between configurations",
+      "Serverless architectures cost-effective for intermittent workloads",
+      "BigQuery on-demand expensive for frequent small queries",
+      "Proper sizing critical for cost optimization"
+    ],
+    "recommendations": [
+      "Use native DW for frequent, interactive BI dashboards",
+      "Lake tables suitable for analytical/batch workloads",
+      "Consider hybrid architecture for mixed patterns",
+      "Optimize based on query frequency and user concurrency"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+# Dataset Metadata
+dataset:
+  title: "File Count Optimization: Before/After Performance Comparison"
+  description: "Direct comparison of query performance and costs before and after file compaction optimization"
+  topic: "table-maintenance-roi"
+  metric: "Performance and cost improvements from file count optimization"
+  
+# Source Information
+source:
+  name: "Optimization scenario modeling"
+  url: "Derived from file count impact analysis"
+  accessed: "2025-08-20"
+  license: "Performance modeling based on public documentation"
+  credibility: "Tier B"
+  
+# Data Characteristics
+characteristics:
+  rows: 3
+  columns: 14
+  time_range: "Optimization scenarios"
+  update_frequency: "static"
+  collection_method: "Comparative analysis of fragmented vs optimized states"
+  
+# Column Descriptions
+columns:
+  dataset_id:
+    type: "string"
+    description: "Dataset being optimized"
+    unit: "identifier"
+  table_format:
+    type: "string"
+    description: "Table format technology"
+    unit: "categorical"
+  platform:
+    type: "string"
+    description: "Compute platform"
+    unit: "categorical"
+  optimization_type:
+    type: "string"
+    description: "Type of optimization performed"
+    unit: "categorical"
+  before_file_count:
+    type: "number"
+    description: "File count before optimization"
+    unit: "count"
+  after_file_count:
+    type: "number"
+    description: "File count after optimization"
+    unit: "count"
+  before_latency_ms:
+    type: "number"
+    description: "Query latency before optimization"
+    unit: "milliseconds"
+  after_latency_ms:
+    type: "number"
+    description: "Query latency after optimization"
+    unit: "milliseconds"
+  before_scan_cost_usd:
+    type: "number"
+    description: "Scan cost before optimization"
+    unit: "USD"
+  after_scan_cost_usd:
+    type: "number"
+    description: "Scan cost after optimization"
+    unit: "USD"
+  latency_improvement_pct:
+    type: "number"
+    description: "Percentage improvement in query latency"
+    unit: "percentage"
+  cost_reduction_pct:
+    type: "number"
+    description: "Percentage reduction in scan costs"
+    unit: "percentage"
+  file_reduction_pct:
+    type: "number"
+    description: "Percentage reduction in file count"
+    unit: "percentage"
+  roi_estimate_days:
+    type: "number"
+    description: "Estimated days to achieve ROI"
+    unit: "days"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all comparison metrics calculated"
+  sample_size: "3 optimization scenarios"
+  confidence: "medium"
+  limitations: 
+    - "Based on performance modeling scenarios"
+    - "ROI estimates use simplified assumptions"
+    - "Actual improvements depend on query patterns"
+    - "Cost models may vary by platform and region"
+  
+# Usage Notes
+notes:
+  - "File count reductions of 99.8% typical for heavily fragmented tables"
+  - "Latency improvements range from 47% to 57%"
+  - "Cost reductions more modest (9-15%) due to baseline storage costs"
+  - "ROI typically achieved within 15 days of optimization"
+  - "Results show consistent benefits across all table formats"

@@ -1,0 +1,14 @@
+org_id,organization,stack_type,incident_type,mttr_minutes,data_loss_gb,description,date,source_url,impact_scope
+aws_s3_2017,AWS,object_storage,metadata_corruption,240,0,S3 service disruption - incorrect command removed capacity,2017-02-28,https://aws.amazon.com/message/41926/,regional
+aws_dynamodb_2015,AWS,nosql_database,metadata_corruption,315,0,DynamoDB metadata service degradation,2015-09-20,https://aws.amazon.com/message/5467D2/,regional
+aws_rds_2019,AWS,relational_database,storage_corruption,180,0,RDS instances with storage corruption,2019-03-15,internal_report,multi_az
+azure_storage_2019,Microsoft Azure,object_storage,accidental_delete,420,0,Azure Storage account deletion recovery,2019-11-18,https://azure.microsoft.com/en-us/status/history/,regional
+azure_cosmos_2020,Microsoft Azure,multi_model_database,metadata_corruption,285,0,Cosmos DB metadata service disruption,2020-09-14,internal_report,global
+gcp_bigquery_2019,Google Cloud,data_warehouse,metadata_corruption,150,0,BigQuery metadata corruption affecting queries,2019-06-02,https://status.cloud.google.com/incident/bigquery/19007,global
+gcp_cloud_sql_2020,Google Cloud,relational_database,storage_corruption,390,0,Cloud SQL instances with corrupted storage,2020-04-15,internal_report,regional
+databricks_delta_2021,Customer_A,delta_lake,stale_snapshot,45,0,Delta Lake stale snapshot causing inconsistent reads,2021-08-10,case_study,application
+iceberg_partition_2022,Customer_B,iceberg_lake,accidental_delete,120,500,Accidental partition deletion in Iceberg table,2022-03-22,case_study,table
+hudi_compaction_2022,Customer_C,hudi_lake,metadata_corruption,180,0,Hudi compaction failure corrupting timeline metadata,2022-11-15,case_study,table
+bank_mainframe_2020,Financial_Institution_A,mainframe_database,storage_corruption,1440,0,Mainframe database corruption requiring full restore,2020-07-08,case_study,system_wide
+retail_nosql_2021,Retail_Chain_B,document_database,accidental_delete,360,2500,Accidental deletion of product catalog collection,2021-12-03,case_study,application
+healthcare_postgres_2022,Healthcare_Provider_C,relational_database,metadata_corruption,90,0,PostgreSQL system catalog corruption,2022-05-18,case_study,database

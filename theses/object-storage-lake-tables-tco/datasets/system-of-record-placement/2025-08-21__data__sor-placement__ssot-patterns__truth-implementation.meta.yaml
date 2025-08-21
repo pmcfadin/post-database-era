@@ -1,0 +1,78 @@
+# Dataset Metadata
+dataset:
+  title: "Single Source of Truth Implementation Patterns"
+  description: "How organizations implement single source of truth across different entity types and consolidation strategies"
+  topic: "SSOT Implementation and Consolidation Strategies"
+  metric: "Data consolidation ratios, quality scores, and synchronization patterns"
+  
+# Source Information
+source:
+  name: "Master Data Management Implementation Patterns"
+  url: "Synthesized from MDM and data governance implementations"
+  accessed: "2025-08-21"
+  license: "Pattern synthesis"
+  credibility: "Tier B"
+  
+# Data Characteristics
+characteristics:
+  rows: 5
+  columns: 9
+  time_range: "2024 - 2025"
+  update_frequency: "bi-annual"
+  collection_method: "synthesis from master data management patterns"
+  
+# Column Descriptions
+columns:
+  entity_type:
+    type: "string"
+    description: "Type of business entity being consolidated"
+    unit: "text"
+  golden_dataset:
+    type: "string"
+    description: "Name of the golden/master dataset"
+    unit: "text"
+  sor_strategy:
+    type: "string"
+    description: "Strategy for maintaining system of record"
+    unit: "categorical"
+  sync_pattern:
+    type: "string"
+    description: "How data is synchronized across systems"
+    unit: "categorical"
+  conflict_resolution:
+    type: "string"
+    description: "Method for resolving data conflicts"
+    unit: "categorical"
+  data_quality_score:
+    type: "number"
+    description: "Overall data quality score (0-100)"
+    unit: "percentage"
+  consolidation_ratio:
+    type: "string"
+    description: "Ratio of source systems to consolidated golden record"
+    unit: "ratio"
+  maintenance_effort:
+    type: "string"
+    description: "Relative effort required to maintain SSOT"
+    unit: "categorical"
+  business_value:
+    type: "string"
+    description: "Business value classification of the SSOT"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100%"
+  sample_size: "5 common entity types"
+  confidence: "medium"
+  limitations: 
+    - "Quality scores are estimates based on typical implementations"
+    - "Maintenance effort is subjective assessment"
+    - "Consolidation ratios vary significantly by organization size"
+  
+# Usage Notes
+notes:
+  - "Financial entities show highest quality scores due to regulatory requirements"
+  - "Customer entities typically have highest consolidation complexity"
+  - "Real-time sync patterns correlate with higher maintenance effort"
+  - "Warehouse-authoritative strategies dominate critical business entities"

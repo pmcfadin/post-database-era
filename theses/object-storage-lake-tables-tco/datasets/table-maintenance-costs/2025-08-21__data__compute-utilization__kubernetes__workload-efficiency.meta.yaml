@@ -1,0 +1,86 @@
+# Dataset Metadata
+dataset:
+  title: "Kubernetes Database Workload Efficiency Analysis"
+  description: "Detailed analysis of resource utilization patterns across different database workload types and Kubernetes cluster sizes, including HPA metrics and cost efficiency scores"
+  topic: "compute-utilization-idle-metrics"
+  metric: "kubernetes_workload_efficiency_scaling_metrics"
+  
+# Source Information
+source:
+  name: "Kubernetes Platform Engineering Research"
+  url: "internal_k8s_study"
+  accessed: "2025-08-21"
+  license: "Research Use"
+  credibility: "Tier B"
+  
+# Data Characteristics
+characteristics:
+  rows: 24
+  columns: 11
+  time_range: "continuous_monitoring"
+  update_frequency: "static"
+  collection_method: "synthetic_cluster_analysis"
+  
+# Column Descriptions
+columns:
+  workload_type:
+    type: "string"
+    description: "Type of database workload running on Kubernetes"
+    unit: "categorical"
+  cluster_size:
+    type: "string"
+    description: "Kubernetes cluster size classification"
+    unit: "categorical"
+  node_count:
+    type: "number"
+    description: "Number of nodes in the cluster"
+    unit: "count"
+  cpu_util_avg:
+    type: "number"
+    description: "Average CPU utilization across cluster"
+    unit: "percentage"
+  memory_util_avg:
+    type: "number"
+    description: "Average memory utilization across cluster"
+    unit: "percentage"
+  idle_pct:
+    type: "number"
+    description: "Percentage of time cluster resources are idle"
+    unit: "percentage"
+  pod_scale_events_day:
+    type: "number"
+    description: "Number of pod scaling events per day"
+    unit: "count"
+  hpa_triggers_day:
+    type: "number"
+    description: "Horizontal Pod Autoscaler triggers per day"
+    unit: "count"
+  resource_requests_vs_limits_ratio:
+    type: "number"
+    description: "Ratio of resource requests to limits"
+    unit: "ratio"
+  cost_per_workload_hour:
+    type: "number"
+    description: "Cost per workload per hour"
+    unit: "USD"
+  efficiency_score:
+    type: "number"
+    description: "Overall efficiency score (0-1 scale)"
+    unit: "ratio"
+    
+# Quality Indicators
+quality:
+  completeness: "100%"
+  sample_size: "6 workload types x 4 cluster sizes"
+  confidence: "medium"
+  limitations: 
+    - "Synthetic data based on Kubernetes best practices"
+    - "Does not account for specific application optimizations"
+    - "Node heterogeneity not modeled"
+  
+# Usage Notes
+notes:
+  - "Larger clusters show lower utilization due to over-provisioning"
+  - "Small clusters: ~35% CPU utilization, Large clusters: ~18%"
+  - "Database primaries have different scaling patterns than replicas"
+  - "Resource request/limit ratios indicate capacity planning efficiency"

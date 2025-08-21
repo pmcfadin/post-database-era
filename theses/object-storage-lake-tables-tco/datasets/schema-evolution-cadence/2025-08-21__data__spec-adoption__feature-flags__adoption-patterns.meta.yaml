@@ -1,0 +1,64 @@
+dataset:
+  title: Table Format Feature Flag Adoption Patterns
+  description: Feature flag usage and adoption rates across table formats
+  topic: schema-evolution-cadence
+  metric: feature flag adoption rates
+source:
+  name: Table Format Configuration Documentation
+  url: https://iceberg.apache.org/docs/latest/configuration/ + https://docs.delta.io/latest/delta-batch.html
+  accessed: '2025-08-20'
+  license: Public documentation analysis
+  credibility: Tier A
+characteristics:
+  rows: 15
+  columns: 9
+  time_range: '2024'
+  update_frequency: monthly
+  collection_method: documentation analysis
+columns:
+  dataset_id:
+    type: string
+    description: Unique feature flag identifier
+    unit: text
+  format:
+    type: string
+    description: Table format
+    unit: text
+  spec_version:
+    type: string
+    description: Applicable spec version
+    unit: semver
+  features:
+    type: string
+    description: Feature name
+    unit: text
+  flag_name:
+    type: string
+    description: Configuration flag name
+    unit: text
+  adoption_rate:
+    type: number
+    description: Estimated adoption rate
+    unit: percentage
+  stability_level:
+    type: string
+    description: Feature stability (stable/preview/experimental)
+    unit: category
+  default_enabled:
+    type: boolean
+    description: Whether feature is enabled by default
+    unit: true/false
+  last_upgraded_at:
+    type: date
+    description: Last status update
+    unit: YYYY-MM-DD
+quality:
+  completeness: 100% for documented features
+  sample_size: 15 feature flags
+  confidence: high
+  limitations:
+  - Adoption rates are estimates based on community feedback
+notes:
+- Adoption rates estimated from community discussions and surveys
+- Stability levels from official documentation
+- Focus on production-relevant feature flags

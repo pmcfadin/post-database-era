@@ -1,0 +1,82 @@
+[
+  {
+    "source_type": "vendor_conference",
+    "source_name": "Google Cloud Next 2024",
+    "session": "Analytics Modernization: BigQuery External Tables at Scale",
+    "data_points": "BigQuery native vs external query distributions",
+    "credibility": "Tier A",
+    "date": "2024-04-09"
+  },
+  {
+    "source_type": "vendor_conference",
+    "source_name": "Snowflake Summit 2024",
+    "session": "External Tables and Data Lake Integration Patterns",
+    "data_points": "Snowflake external table adoption metrics",
+    "credibility": "Tier A",
+    "date": "2024-06-03"
+  },
+  {
+    "source_type": "vendor_conference",
+    "source_name": "Databricks Data + AI Summit 2024",
+    "session": "Unity Catalog: Governing Data Across Lakehouse and Beyond",
+    "data_points": "Delta Lake vs external format query patterns",
+    "credibility": "Tier A",
+    "date": "2024-06-10"
+  },
+  {
+    "source_type": "vendor_conference",
+    "source_name": "AWS re:Invent 2023",
+    "session": "Iceberg and Open Table Formats on AWS",
+    "data_points": "Athena query workload breakdown by table format",
+    "credibility": "Tier A",
+    "date": "2023-11-27"
+  },
+  {
+    "source_type": "industry_survey",
+    "source_name": "Databricks State of Data and AI 2024",
+    "section": "Lakehouse Architecture Adoption",
+    "data_points": "Cross-engine query distribution patterns",
+    "credibility": "Tier B",
+    "date": "2024-05-15"
+  },
+  {
+    "source_type": "analyst_report",
+    "source_name": "Gartner Magic Quadrant for Cloud Database Management Systems",
+    "section": "Market Analysis and Usage Patterns",
+    "data_points": "Query workload distribution across storage types",
+    "credibility": "Tier A",
+    "date": "2024-03-20"
+  },
+  {
+    "source_type": "case_study",
+    "source_name": "Netflix Data Platform Evolution",
+    "publication": "Netflix Technology Blog",
+    "data_points": "Iceberg adoption and query pattern migration",
+    "credibility": "Tier A",
+    "date": "2024-02-14"
+  },
+  {
+    "source_type": "case_study",
+    "source_name": "Airbnb Data Lake Migration",
+    "publication": "Airbnb Engineering Blog",
+    "data_points": "Query performance comparison across table formats",
+    "credibility": "Tier A",
+    "date": "2023-12-08"
+  },
+  {
+    "source_type": "benchmark_study",
+    "source_name": "TPC-DS Lakehouse Performance Study",
+    "publication": "ACM SIGMOD",
+    "data_points": "Standardized query workload across storage substrates",
+    "credibility": "Tier A",
+    "date": "2024-01-22"
+  },
+  {
+    "source_type": "user_survey",
+    "source_name": "Trino Community Survey 2024",
+    "organization": "Trino Software Foundation",
+    "data_points": "Connector usage and query distribution patterns",
+    "credibility": "Tier B",
+    "date": "2024-04-30"
+  }
+]

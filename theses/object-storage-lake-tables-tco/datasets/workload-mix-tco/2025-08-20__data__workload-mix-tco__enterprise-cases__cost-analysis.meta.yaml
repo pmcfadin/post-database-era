@@ -1,0 +1,121 @@
+# Dataset Metadata
+dataset:
+  title: "Workload Mix TCO Analysis - Enterprise Case Studies"
+  description: "Analysis of total cost of ownership (TCO) sensitivity to workload portfolio composition across BI, ETL, and ML workloads"
+  topic: "workload-mix-tco"
+  metric: "Monthly TCO by workload percentage mix"
+
+# Source Information  
+source:
+  name: "Industry Case Studies and Cost Optimization Analysis"
+  url: "synthetic_data_based_on_industry_patterns"
+  accessed: "2025-08-20"
+  license: "Research use"
+  credibility: "Tier B"
+
+# Data Characteristics
+characteristics:
+  rows: 23
+  columns: 19
+  time_range: "2025 snapshot"
+  update_frequency: "static"
+  collection_method: "modeled_from_industry_patterns"
+
+# Column Descriptions
+columns:
+  org_id:
+    type: "string"
+    description: "Unique organization identifier"
+    unit: "categorical"
+  org_type:
+    type: "string" 
+    description: "Industry vertical or organization type"
+    unit: "categorical"
+  mix_bi_pct:
+    type: "number"
+    description: "Percentage of workload dedicated to BI/interactive analytics"
+    unit: "percentage"
+  mix_etl_pct:
+    type: "number"
+    description: "Percentage of workload dedicated to ETL/batch processing"
+    unit: "percentage"
+  mix_ml_pct:
+    type: "number"
+    description: "Percentage of workload dedicated to ML/advanced analytics"
+    unit: "percentage"
+  tco_usd_month:
+    type: "number"
+    description: "Total cost of ownership per month"
+    unit: "USD"
+  data_volume_tb:
+    type: "number"
+    description: "Total data volume managed"
+    unit: "terabytes"
+  concurrent_users:
+    type: "number"
+    description: "Peak concurrent users"
+    unit: "count"
+  peak_query_complexity:
+    type: "string"
+    description: "Typical query complexity level"
+    unit: "categorical"
+  cost_per_tb_month:
+    type: "number"
+    description: "Monthly cost per terabyte of data"
+    unit: "USD_per_TB"
+  cost_savings_pct:
+    type: "number"
+    description: "Cost savings achieved through optimization"
+    unit: "percentage"
+  optimization_strategy:
+    type: "string"
+    description: "Primary optimization approach used"
+    unit: "categorical"
+  tb_per_user:
+    type: "number"
+    description: "Data volume per concurrent user"
+    unit: "TB_per_user"
+  workload_intensity_score:
+    type: "number"
+    description: "Weighted workload intensity (ML-heavy = higher score)"
+    unit: "score"
+  cost_efficiency:
+    type: "string"
+    description: "Cost efficiency rating based on cost per TB"
+    unit: "categorical"
+  cost_multiplier:
+    type: "number"
+    description: "Cost factor relative to baseline"
+    unit: "multiplier"
+  workload_description:
+    type: "string"
+    description: "Description of primary workload characteristics"
+    unit: "text"
+  collection_date:
+    type: "string"
+    description: "Data collection timestamp"
+    unit: "ISO8601"
+  source_type:
+    type: "string"
+    description: "Type of data source or analysis"
+    unit: "categorical"
+
+# Quality Indicators
+quality:
+  completeness: "100% for core metrics, 67% for optimization data"
+  sample_size: "23 organizations across 10 industry verticals"
+  confidence: "medium"
+  limitations: 
+    - "Modeled data based on industry patterns, not direct measurements"
+    - "Cost models simplified - actual TCO includes many additional factors"
+    - "Workload mix percentages represent steady-state averages"
+    - "Does not account for seasonal workload variations"
+
+# Usage Notes
+notes:
+  - "Enterprise cases represent typical industry workload patterns"
+  - "Sensitivity analysis explores TCO impact of different workload compositions"
+  - "Cost factors: BI baseline (1.0x), ETL efficient (0.7x), ML intensive (1.8x)"
+  - "Optimization scenarios show 18-25% cost reduction potential"
+  - "Data useful for TCO modeling and workload portfolio optimization"
+  - "Cost per TB varies significantly by industry and optimization level"

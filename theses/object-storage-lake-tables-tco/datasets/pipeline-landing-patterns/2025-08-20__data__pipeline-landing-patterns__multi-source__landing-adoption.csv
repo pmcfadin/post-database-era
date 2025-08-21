@@ -1,0 +1,4 @@
+pipeline_id,source,pattern_type,first_landing,tb_month,engines_downstream,pattern_description,adoption_percentage,company_size
+benchmark_001,industry_benchmark,modern_data_stack,object,2024-12,spark|dbt|snowflake,ELT with S3 landing zone,65,enterprise
+benchmark_002,industry_benchmark,traditional_dwh,dw,2024-12,airflow|redshift,ETL direct to warehouse,25,enterprise
+benchmark_003,industry_benchmark,streaming_first,object,2024-12,kafka|spark|databricks,Stream processing to object storage,10,all

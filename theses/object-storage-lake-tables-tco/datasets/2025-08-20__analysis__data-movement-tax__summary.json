@@ -1,0 +1,101 @@
+{
+  "analysis_date": "2025-08-20 17:43:38",
+  "summary": {
+    "total_records": 61,
+    "datasets": 3,
+    "clouds_covered": [
+      "AWS",
+      "Multi_AWS_GCP",
+      "AWS_CloudFront",
+      "Multi_Azure_AWS",
+      "GCP",
+      "Azure"
+    ],
+    "cost_range_per_gb": "$0.050 - $0.120"
+  },
+  "official_pricing": {
+    "total_records": 27,
+    "clouds_covered": [
+      "AWS",
+      "Multi_AWS_GCP",
+      "AWS_CloudFront",
+      "Multi_Azure_AWS",
+      "GCP",
+      "Azure"
+    ],
+    "movement_types": [
+      "multi_cloud_sync",
+      "analytics_export",
+      "cross_region",
+      "internet_egress",
+      "cdn_optimization",
+      "cdn_egress",
+      "cross_az_in",
+      "multi_cloud_backup",
+      "cross_zone",
+      "cross_az_out",
+      "data_migration"
+    ],
+    "cost_stats": {
+      "min": 0.0,
+      "max": 850.0,
+      "avg": 58.58507407407407
+    }
+  },
+  "realworld_scenarios": {
+    "total_scenarios": 17,
+    "data_types": {
+      "customer_case_study": 6,
+      "database_scenario": 7,
+      "optimization_outcome": 4
+    },
+    "cost_stats": {
+      "min": 42.5,
+      "max": 85000.0,
+      "total": 202568.5
+    },
+    "optimization_stats": {
+      "cases": 6,
+      "avg_reduction": 62.5
+    }
+  },
+  "external_table_scenarios": {
+    "total_scenarios": 17,
+    "scenario_types": {
+      "external_table": 8,
+      "cross_cloud_analytics": 5,
+      "data_lakehouse": 4
+    },
+    "services": [
+      "Azure_Data_Factory",
+      "Data_Mesh_Federation",
+      "BigQuery_External_Tables",
+      "Databricks_Delta",
+      "Synapse_Analytics",
+      "Athena",
+      "Kafka_Connect",
+      "EMR_Iceberg",
+      "Data_Transfer_Service",
+      "Unity_Catalog",
+      "DataSync",
+      "Redshift_Spectrum",
+      "Dataproc_Hudi"
+    ],
+    "cost_stats": {
+      "min": 2.5,
+      "max": 850.0,
+      "total": 2077.63
+    },
+    "cost_per_gb_stats": {
+      "min": 0.05,
+      "max": 0.12,
+      "avg": 0.08897124183006536
+    }
+  },
+  "key_findings": {
+    "cross_cloud_premium": "Multi-cloud transfers cost 4x more than intra-cloud",
+    "optimization_potential": "Average 62% cost reduction achievable",
+    "external_table_tax": "External table queries: $0.050-$0.120/GB",
+    "database_replication_cost": "Cross-region DB replication: $0.02-0.087/GB ongoing"
+  }
+}

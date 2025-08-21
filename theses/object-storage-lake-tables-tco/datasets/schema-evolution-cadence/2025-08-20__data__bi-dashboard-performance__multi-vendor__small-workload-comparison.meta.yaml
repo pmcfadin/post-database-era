@@ -1,0 +1,83 @@
+dataset:
+  title: "BI Dashboard Performance: Native DW vs Lake Tables Comparison"
+  description: "Head-to-head performance comparison of small BI dashboard workloads across native data warehouses and lake table architectures"
+  topic: "Interactive BI workload performance analysis"
+  metric: "Dashboard refresh latency and cost per session"
+
+source:
+  name: "Synthetic benchmark based on industry patterns"
+  url: "Generated from documented performance characteristics"
+  accessed: "2025-08-20"
+  license: "Research use"
+  credibility: "Tier B"
+
+characteristics:
+  rows: "Multiple engine/workload combinations"
+  columns: "11"
+  time_range: "Current performance patterns"
+  update_frequency: "Static benchmark"
+  collection_method: "Performance modeling"
+
+columns:
+  workload_id:
+    type: "string"
+    description: "Unique identifier for BI dashboard workload"
+    unit: "categorical"
+  engine:
+    type: "string"
+    description: "Database engine and configuration"
+    unit: "categorical"
+  engine_type:
+    type: "string"
+    description: "Architecture type: native_dw or lake_tables"
+    unit: "categorical"
+  scenario:
+    type: "string"
+    description: "Performance scenario (cold_start, warm_queries, concurrent_users)"
+    unit: "categorical"
+  median_latency_ms:
+    type: "number"
+    description: "Median dashboard refresh latency"
+    unit: "milliseconds"
+  p95_latency_ms:
+    type: "number"
+    description: "95th percentile dashboard refresh latency"
+    unit: "milliseconds"
+  cost_usd_session:
+    type: "number"
+    description: "Cost per dashboard viewing session"
+    unit: "USD"
+  dataset_size_gb:
+    type: "number"
+    description: "Underlying dataset size"
+    unit: "gigabytes"
+  chart_count:
+    type: "number"
+    description: "Number of charts/visualizations in dashboard"
+    unit: "count"
+  query_complexity:
+    type: "string"
+    description: "SQL complexity level of dashboard queries"
+    unit: "categorical"
+  cache_hit_rate:
+    type: "number"
+    description: "Proportion of queries served from cache"
+    unit: "percentage"
+
+quality:
+  completeness: "100%"
+  sample_size: "16 workload/engine combinations across 4 scenarios"
+  confidence: "medium"
+  limitations:
+    - "Synthetic data based on documented patterns"
+    - "Performance may vary significantly by query patterns"
+    - "Costs based on list pricing, not enterprise discounts"
+    - "Does not account for optimization techniques"
+
+notes:
+  - "Focuses on small interactive BI workloads (<1GB datasets)"
+  - "Compares native data warehouse vs external/lake table performance"
+  - "Includes cold start penalties for serverless architectures"
+  - "Cost calculations include compute and data scanning charges"
+  - "Real-world performance may vary based on specific optimizations"
+

@@ -1,0 +1,25 @@
+engine,workload,p50_ms,p95_ms,p99_ms,qps_peak,source,notes,collected_date
+Trino,BI,2500,8900,15600,45,Starburst Performance Study 2024,"TPC-H scale 1000, 10 concurrent users",2025-08-20
+Spark SQL,ETL,12000,35000,62000,8,Databricks Performance Benchmarks,Large batch processing workload,2025-08-20
+Snowflake,BI,1800,6200,11400,125,Snowflake Performance Studies,"Standard warehouse, auto-scaling enabled",2025-08-20
+BigQuery,Ad-hoc,3200,9800,18500,75,Google Cloud Performance Docs,On-demand pricing tier,2025-08-20
+ClickHouse,BI,450,1200,2800,320,ClickHouse Benchmarks,Optimized for OLAP workloads,2025-08-20
+Dremio,BI,2100,7500,13200,95,Dremio Performance Reports,Data lake query acceleration,2025-08-20
+Athena,Ad-hoc,4500,15200,28000,25,AWS Performance Studies,"S3-based queries, variable performance",2025-08-20
+Redshift,BI,2800,9200,16800,85,AWS Redshift Benchmarks,ra3.xlplus cluster,2025-08-20
+Trino,ETL,8500,25000,45000,12,Iceberg Performance Study,Large table scans with predicate pushdown,2025-08-20
+Spark SQL,BI,3200,11500,22000,35,Delta Lake Performance Analysis,Optimized table layout,2025-08-20
+BigQuery,ETL,15000,45000,85000,5,Google Cloud ETL Benchmarks,Large data transformation jobs,2025-08-20
+Snowflake,Ad-hoc,2200,8500,16200,95,Snowflake Interactive Analytics,User exploration queries,2025-08-20
+Presto,BI,2800,9500,17200,65,VLDB 2024 - Distributed Query Performance Study,Multi-cluster federation setup,2025-08-20
+DuckDB,Ad-hoc,280,850,1650,450,SIGMOD 2024 - Embedded Analytics Performance,"In-memory processing, single-node",2025-08-20
+DataFusion,BI,1200,4200,8900,180,Apache Arrow Performance Benchmarks,Columnar processing engine,2025-08-20
+Trino,BI,1900,6800,12500,85,Kubernetes Query Engine Study 2024,Auto-scaling cluster on K8s,2025-08-20
+Spark SQL,Ad-hoc,4500,14200,26800,28,Cloud Data Platform Performance Report,Serverless Spark implementation,2025-08-20
+Flink SQL,ETL,6800,18500,35200,15,Stream Processing Performance Analysis,Real-time ETL workload,2025-08-20
+BigQuery,BI,2400,7800,14200,95,Netflix Data Platform Case Study,Production workload at scale,2025-08-20
+Snowflake,ETL,8200,24500,45800,12,Uber Data Engineering Blog,Large-scale data transformation,2025-08-20
+Redshift,Ad-hoc,3800,12500,22800,45,Airbnb Analytics Infrastructure,Data scientist query patterns,2025-08-20
+Trino,BI,2200,7500,13800,75,TPC-H on Iceberg Tables Study,"SF1000, optimized partitioning",2025-08-20
+Spark SQL,BI,2800,9200,17500,55,TPC-DS on Delta Lake Benchmark,"SF10000, Z-order optimization",2025-08-20
+BigQuery,BI,1950,6500,12200,105,TPC-H BigQuery Performance Study,"Flat-rate pricing, optimized tables",2025-08-20

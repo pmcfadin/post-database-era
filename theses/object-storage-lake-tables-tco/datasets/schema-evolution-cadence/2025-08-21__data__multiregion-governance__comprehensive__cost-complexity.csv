@@ -1,0 +1,188 @@
+provider,primary_region,replica_region,stack_type,gb_replicated,policy_objects,monthly_cost_usd,governance_complexity,compliance_tier,data_sovereignty,latency_ms
+AWS,us-east-1,us-west-2,RDS Multi-AZ Cross-Region,100,10,13.8,Medium,Enterprise,Required,80
+AWS,us-east-1,us-west-2,RDS Multi-AZ Cross-Region,1000,10,138.0,Medium,Enterprise,Required,80
+AWS,us-east-1,us-west-2,RDS Multi-AZ Cross-Region,10000,10,1380.0,Medium,Enterprise,Required,80
+AWS,us-east-1,us-west-2,RDS Multi-AZ Cross-Region,100000,100,13800.0,High,Enterprise,Required,80
+AWS,us-east-1,eu-west-1,RDS Multi-AZ Cross-Region,100,10,13.8,Medium,Enterprise,Required,80
+AWS,us-east-1,eu-west-1,RDS Multi-AZ Cross-Region,1000,10,138.0,Medium,Enterprise,Required,80
+AWS,us-east-1,eu-west-1,RDS Multi-AZ Cross-Region,10000,10,1380.0,Medium,Enterprise,Required,80
+AWS,us-east-1,eu-west-1,RDS Multi-AZ Cross-Region,100000,100,13800.0,High,Enterprise,Required,80
+AWS,us-east-1,ap-southeast-1,RDS Multi-AZ Cross-Region,100,10,13.8,Medium,Enterprise,Required,150
+AWS,us-east-1,ap-southeast-1,RDS Multi-AZ Cross-Region,1000,10,138.0,Medium,Enterprise,Required,150
+AWS,us-east-1,ap-southeast-1,RDS Multi-AZ Cross-Region,10000,10,1380.0,Medium,Enterprise,Required,150
+AWS,us-east-1,ap-southeast-1,RDS Multi-AZ Cross-Region,100000,100,13800.0,High,Enterprise,Required,150
+AWS,us-east-1,ap-northeast-1,RDS Multi-AZ Cross-Region,100,10,13.8,Medium,Enterprise,Required,150
+AWS,us-east-1,ap-northeast-1,RDS Multi-AZ Cross-Region,1000,10,138.0,Medium,Enterprise,Required,150
+AWS,us-east-1,ap-northeast-1,RDS Multi-AZ Cross-Region,10000,10,1380.0,Medium,Enterprise,Required,150
+AWS,us-east-1,ap-northeast-1,RDS Multi-AZ Cross-Region,100000,100,13800.0,High,Enterprise,Required,150
+AWS,us-west-2,us-east-1,RDS Multi-AZ Cross-Region,100,10,13.8,Medium,Enterprise,Required,80
+AWS,us-west-2,us-east-1,RDS Multi-AZ Cross-Region,1000,10,138.0,Medium,Enterprise,Required,80
+AWS,us-west-2,us-east-1,RDS Multi-AZ Cross-Region,10000,10,1380.0,Medium,Enterprise,Required,80
+AWS,us-west-2,us-east-1,RDS Multi-AZ Cross-Region,100000,100,13800.0,High,Enterprise,Required,80
+AWS,us-west-2,eu-west-1,RDS Multi-AZ Cross-Region,100,10,13.8,Medium,Enterprise,Required,80
+AWS,us-west-2,eu-west-1,RDS Multi-AZ Cross-Region,1000,10,138.0,Medium,Enterprise,Required,80
+AWS,us-west-2,eu-west-1,RDS Multi-AZ Cross-Region,10000,10,1380.0,Medium,Enterprise,Required,80
+AWS,us-west-2,eu-west-1,RDS Multi-AZ Cross-Region,100000,100,13800.0,High,Enterprise,Required,80
+AWS,us-west-2,ap-southeast-1,RDS Multi-AZ Cross-Region,100,10,13.8,Medium,Enterprise,Required,150
+AWS,us-west-2,ap-southeast-1,RDS Multi-AZ Cross-Region,1000,10,138.0,Medium,Enterprise,Required,150
+AWS,us-west-2,ap-southeast-1,RDS Multi-AZ Cross-Region,10000,10,1380.0,Medium,Enterprise,Required,150
+AWS,us-west-2,ap-southeast-1,RDS Multi-AZ Cross-Region,100000,100,13800.0,High,Enterprise,Required,150
+AWS,us-west-2,ap-northeast-1,RDS Multi-AZ Cross-Region,100,10,13.8,Medium,Enterprise,Required,150
+AWS,us-west-2,ap-northeast-1,RDS Multi-AZ Cross-Region,1000,10,138.0,Medium,Enterprise,Required,150
+AWS,us-west-2,ap-northeast-1,RDS Multi-AZ Cross-Region,10000,10,1380.0,Medium,Enterprise,Required,150
+AWS,us-west-2,ap-northeast-1,RDS Multi-AZ Cross-Region,100000,100,13800.0,High,Enterprise,Required,150
+AWS,eu-west-1,us-east-1,RDS Multi-AZ Cross-Region,100,10,13.8,Medium,Enterprise,Required,80
+AWS,eu-west-1,us-east-1,RDS Multi-AZ Cross-Region,1000,10,138.0,Medium,Enterprise,Required,80
+AWS,eu-west-1,us-east-1,RDS Multi-AZ Cross-Region,10000,10,1380.0,Medium,Enterprise,Required,80
+AWS,eu-west-1,us-east-1,RDS Multi-AZ Cross-Region,100000,100,13800.0,High,Enterprise,Required,80
+AWS,eu-west-1,us-west-2,RDS Multi-AZ Cross-Region,100,10,13.8,Medium,Enterprise,Required,80
+AWS,eu-west-1,us-west-2,RDS Multi-AZ Cross-Region,1000,10,138.0,Medium,Enterprise,Required,80
+AWS,eu-west-1,us-west-2,RDS Multi-AZ Cross-Region,10000,10,1380.0,Medium,Enterprise,Required,80
+AWS,eu-west-1,us-west-2,RDS Multi-AZ Cross-Region,100000,100,13800.0,High,Enterprise,Required,80
+AWS,eu-west-1,ap-southeast-1,RDS Multi-AZ Cross-Region,100,10,13.8,Medium,Enterprise,Required,80
+AWS,eu-west-1,ap-southeast-1,RDS Multi-AZ Cross-Region,1000,10,138.0,Medium,Enterprise,Required,80
+AWS,eu-west-1,ap-southeast-1,RDS Multi-AZ Cross-Region,10000,10,1380.0,Medium,Enterprise,Required,80
+AWS,eu-west-1,ap-southeast-1,RDS Multi-AZ Cross-Region,100000,100,13800.0,High,Enterprise,Required,80
+AWS,eu-west-1,ap-northeast-1,RDS Multi-AZ Cross-Region,100,10,13.8,Medium,Enterprise,Required,80
+AWS,eu-west-1,ap-northeast-1,RDS Multi-AZ Cross-Region,1000,10,138.0,Medium,Enterprise,Required,80
+AWS,eu-west-1,ap-northeast-1,RDS Multi-AZ Cross-Region,10000,10,1380.0,Medium,Enterprise,Required,80
+AWS,eu-west-1,ap-northeast-1,RDS Multi-AZ Cross-Region,100000,100,13800.0,High,Enterprise,Required,80
+AWS,ap-southeast-1,us-east-1,RDS Multi-AZ Cross-Region,100,10,13.8,Medium,Enterprise,Required,80
+AWS,ap-southeast-1,us-east-1,RDS Multi-AZ Cross-Region,1000,10,138.0,Medium,Enterprise,Required,80
+AWS,ap-southeast-1,us-east-1,RDS Multi-AZ Cross-Region,10000,10,1380.0,Medium,Enterprise,Required,80
+AWS,ap-southeast-1,us-east-1,RDS Multi-AZ Cross-Region,100000,100,13800.0,High,Enterprise,Required,80
+AWS,ap-southeast-1,us-west-2,RDS Multi-AZ Cross-Region,100,10,13.8,Medium,Enterprise,Required,80
+AWS,ap-southeast-1,us-west-2,RDS Multi-AZ Cross-Region,1000,10,138.0,Medium,Enterprise,Required,80
+AWS,ap-southeast-1,us-west-2,RDS Multi-AZ Cross-Region,10000,10,1380.0,Medium,Enterprise,Required,80
+AWS,ap-southeast-1,us-west-2,RDS Multi-AZ Cross-Region,100000,100,13800.0,High,Enterprise,Required,80
+AWS,ap-southeast-1,eu-west-1,RDS Multi-AZ Cross-Region,100,10,13.8,Medium,Enterprise,Required,80
+AWS,ap-southeast-1,eu-west-1,RDS Multi-AZ Cross-Region,1000,10,138.0,Medium,Enterprise,Required,80
+AWS,ap-southeast-1,eu-west-1,RDS Multi-AZ Cross-Region,10000,10,1380.0,Medium,Enterprise,Required,80
+AWS,ap-southeast-1,eu-west-1,RDS Multi-AZ Cross-Region,100000,100,13800.0,High,Enterprise,Required,80
+AWS,ap-southeast-1,ap-northeast-1,RDS Multi-AZ Cross-Region,100,10,13.8,Medium,Enterprise,Required,80
+AWS,ap-southeast-1,ap-northeast-1,RDS Multi-AZ Cross-Region,1000,10,138.0,Medium,Enterprise,Required,80
+AWS,ap-southeast-1,ap-northeast-1,RDS Multi-AZ Cross-Region,10000,10,1380.0,Medium,Enterprise,Required,80
+AWS,ap-southeast-1,ap-northeast-1,RDS Multi-AZ Cross-Region,100000,100,13800.0,High,Enterprise,Required,80
+AWS,ap-northeast-1,us-east-1,RDS Multi-AZ Cross-Region,100,10,13.8,Medium,Enterprise,Required,80
+AWS,ap-northeast-1,us-east-1,RDS Multi-AZ Cross-Region,1000,10,138.0,Medium,Enterprise,Required,80
+AWS,ap-northeast-1,us-east-1,RDS Multi-AZ Cross-Region,10000,10,1380.0,Medium,Enterprise,Required,80
+AWS,ap-northeast-1,us-east-1,RDS Multi-AZ Cross-Region,100000,100,13800.0,High,Enterprise,Required,80
+AWS,ap-northeast-1,us-west-2,RDS Multi-AZ Cross-Region,100,10,13.8,Medium,Enterprise,Required,80
+AWS,ap-northeast-1,us-west-2,RDS Multi-AZ Cross-Region,1000,10,138.0,Medium,Enterprise,Required,80
+AWS,ap-northeast-1,us-west-2,RDS Multi-AZ Cross-Region,10000,10,1380.0,Medium,Enterprise,Required,80
+AWS,ap-northeast-1,us-west-2,RDS Multi-AZ Cross-Region,100000,100,13800.0,High,Enterprise,Required,80
+AWS,ap-northeast-1,eu-west-1,RDS Multi-AZ Cross-Region,100,10,13.8,Medium,Enterprise,Required,80
+AWS,ap-northeast-1,eu-west-1,RDS Multi-AZ Cross-Region,1000,10,138.0,Medium,Enterprise,Required,80
+AWS,ap-northeast-1,eu-west-1,RDS Multi-AZ Cross-Region,10000,10,1380.0,Medium,Enterprise,Required,80
+AWS,ap-northeast-1,eu-west-1,RDS Multi-AZ Cross-Region,100000,100,13800.0,High,Enterprise,Required,80
+AWS,ap-northeast-1,ap-southeast-1,RDS Multi-AZ Cross-Region,100,10,13.8,Medium,Enterprise,Required,80
+AWS,ap-northeast-1,ap-southeast-1,RDS Multi-AZ Cross-Region,1000,10,138.0,Medium,Enterprise,Required,80
+AWS,ap-northeast-1,ap-southeast-1,RDS Multi-AZ Cross-Region,10000,10,1380.0,Medium,Enterprise,Required,80
+AWS,ap-northeast-1,ap-southeast-1,RDS Multi-AZ Cross-Region,100000,100,13800.0,High,Enterprise,Required,80
+Azure,eastus,westeurope,Azure SQL Geo-Replication,100,15,15.0,Medium,Enterprise,Required,90
+Azure,eastus,westeurope,Azure SQL Geo-Replication,1000,15,150.0,Medium,Enterprise,Required,90
+Azure,eastus,westeurope,Azure SQL Geo-Replication,10000,15,1500.0,Medium,Enterprise,Required,90
+Azure,eastus,westeurope,Azure SQL Geo-Replication,100000,125,15000.0,High,Enterprise,Required,90
+Azure,eastus,southeastasia,Azure SQL Geo-Replication,100,15,15.0,Medium,Enterprise,Required,200
+Azure,eastus,southeastasia,Azure SQL Geo-Replication,1000,15,150.0,Medium,Enterprise,Required,200
+Azure,eastus,southeastasia,Azure SQL Geo-Replication,10000,15,1500.0,Medium,Enterprise,Required,200
+Azure,eastus,southeastasia,Azure SQL Geo-Replication,100000,125,15000.0,High,Enterprise,Required,200
+Azure,westeurope,eastus,Azure SQL Geo-Replication,100,15,15.0,Medium,Enterprise,Required,90
+Azure,westeurope,eastus,Azure SQL Geo-Replication,1000,15,150.0,Medium,Enterprise,Required,90
+Azure,westeurope,eastus,Azure SQL Geo-Replication,10000,15,1500.0,Medium,Enterprise,Required,90
+Azure,westeurope,eastus,Azure SQL Geo-Replication,100000,125,15000.0,High,Enterprise,Required,90
+Azure,westeurope,southeastasia,Azure SQL Geo-Replication,100,15,15.0,Medium,Enterprise,Required,90
+Azure,westeurope,southeastasia,Azure SQL Geo-Replication,1000,15,150.0,Medium,Enterprise,Required,90
+Azure,westeurope,southeastasia,Azure SQL Geo-Replication,10000,15,1500.0,Medium,Enterprise,Required,90
+Azure,westeurope,southeastasia,Azure SQL Geo-Replication,100000,125,15000.0,High,Enterprise,Required,90
+Azure,southeastasia,eastus,Azure SQL Geo-Replication,100,15,15.0,Medium,Enterprise,Required,90
+Azure,southeastasia,eastus,Azure SQL Geo-Replication,1000,15,150.0,Medium,Enterprise,Required,90
+Azure,southeastasia,eastus,Azure SQL Geo-Replication,10000,15,1500.0,Medium,Enterprise,Required,90
+Azure,southeastasia,eastus,Azure SQL Geo-Replication,100000,125,15000.0,High,Enterprise,Required,90
+Azure,southeastasia,westeurope,Azure SQL Geo-Replication,100,15,15.0,Medium,Enterprise,Required,90
+Azure,southeastasia,westeurope,Azure SQL Geo-Replication,1000,15,150.0,Medium,Enterprise,Required,90
+Azure,southeastasia,westeurope,Azure SQL Geo-Replication,10000,15,1500.0,Medium,Enterprise,Required,90
+Azure,southeastasia,westeurope,Azure SQL Geo-Replication,100000,125,15000.0,High,Enterprise,Required,90
+GCP,us-central1,europe-west1,Cloud SQL Cross-Region Replica,100,12,9.44,Medium,Enterprise,Required,75
+GCP,us-central1,europe-west1,Cloud SQL Cross-Region Replica,1000,12,94.4,Medium,Enterprise,Required,75
+GCP,us-central1,europe-west1,Cloud SQL Cross-Region Replica,10000,12,944.0,Medium,Enterprise,Required,75
+GCP,us-central1,europe-west1,Cloud SQL Cross-Region Replica,100000,83,9440.0,High,Enterprise,Required,75
+GCP,us-central1,asia-southeast1,Cloud SQL Cross-Region Replica,100,12,9.44,Medium,Enterprise,Required,180
+GCP,us-central1,asia-southeast1,Cloud SQL Cross-Region Replica,1000,12,94.4,Medium,Enterprise,Required,180
+GCP,us-central1,asia-southeast1,Cloud SQL Cross-Region Replica,10000,12,944.0,Medium,Enterprise,Required,180
+GCP,us-central1,asia-southeast1,Cloud SQL Cross-Region Replica,100000,83,9440.0,High,Enterprise,Required,180
+GCP,europe-west1,us-central1,Cloud SQL Cross-Region Replica,100,12,9.44,Medium,Enterprise,Required,75
+GCP,europe-west1,us-central1,Cloud SQL Cross-Region Replica,1000,12,94.4,Medium,Enterprise,Required,75
+GCP,europe-west1,us-central1,Cloud SQL Cross-Region Replica,10000,12,944.0,Medium,Enterprise,Required,75
+GCP,europe-west1,us-central1,Cloud SQL Cross-Region Replica,100000,83,9440.0,High,Enterprise,Required,75
+GCP,europe-west1,asia-southeast1,Cloud SQL Cross-Region Replica,100,12,9.44,Medium,Enterprise,Required,75
+GCP,europe-west1,asia-southeast1,Cloud SQL Cross-Region Replica,1000,12,94.4,Medium,Enterprise,Required,75
+GCP,europe-west1,asia-southeast1,Cloud SQL Cross-Region Replica,10000,12,944.0,Medium,Enterprise,Required,75
+GCP,europe-west1,asia-southeast1,Cloud SQL Cross-Region Replica,100000,83,9440.0,High,Enterprise,Required,75
+GCP,asia-southeast1,us-central1,Cloud SQL Cross-Region Replica,100,12,9.44,Medium,Enterprise,Required,75
+GCP,asia-southeast1,us-central1,Cloud SQL Cross-Region Replica,1000,12,94.4,Medium,Enterprise,Required,75
+GCP,asia-southeast1,us-central1,Cloud SQL Cross-Region Replica,10000,12,944.0,Medium,Enterprise,Required,75
+GCP,asia-southeast1,us-central1,Cloud SQL Cross-Region Replica,100000,83,9440.0,High,Enterprise,Required,75
+GCP,asia-southeast1,europe-west1,Cloud SQL Cross-Region Replica,100,12,9.44,Medium,Enterprise,Required,75
+GCP,asia-southeast1,europe-west1,Cloud SQL Cross-Region Replica,1000,12,94.4,Medium,Enterprise,Required,75
+GCP,asia-southeast1,europe-west1,Cloud SQL Cross-Region Replica,10000,12,944.0,Medium,Enterprise,Required,75
+GCP,asia-southeast1,europe-west1,Cloud SQL Cross-Region Replica,100000,83,9440.0,High,Enterprise,Required,75
+Multi-Cloud,eu-central,3-regions,GDPR Compliance Stack,1000,60,2087.5,Very High,GDPR Enterprise,Strict,120
+Multi-Cloud,eu-central,3-regions,GDPR Compliance Stack,10000,60,2125.0,Very High,GDPR Enterprise,Strict,120
+Multi-Cloud,eu-central,3-regions,GDPR Compliance Stack,50000,60,2291.67,Very High,GDPR Enterprise,Strict,120
+Multi-Cloud,eu-central,3-regions,GDPR Compliance Stack,100000,60,2500.0,Very High,GDPR Enterprise,Strict,120
+Multi-Cloud,eu-central,3-regions,GDPR Compliance Stack,500000,300,4166.67,Very High,GDPR Enterprise,Strict,120
+Multi-Cloud,eu-central,5-regions,GDPR Compliance Stack,1000,100,3756.67,Very High,GDPR Enterprise,Strict,120
+Multi-Cloud,eu-central,5-regions,GDPR Compliance Stack,10000,100,3816.67,Very High,GDPR Enterprise,Strict,120
+Multi-Cloud,eu-central,5-regions,GDPR Compliance Stack,50000,100,4083.33,Very High,GDPR Enterprise,Strict,120
+Multi-Cloud,eu-central,5-regions,GDPR Compliance Stack,100000,100,4416.67,Very High,GDPR Enterprise,Strict,120
+Multi-Cloud,eu-central,5-regions,GDPR Compliance Stack,500000,500,7083.33,Very High,GDPR Enterprise,Strict,120
+Multi-Cloud,eu-central,8-regions,GDPR Compliance Stack,1000,160,6260.0,Very High,GDPR Enterprise,Strict,120
+Multi-Cloud,eu-central,8-regions,GDPR Compliance Stack,10000,160,6350.0,Very High,GDPR Enterprise,Strict,120
+Multi-Cloud,eu-central,8-regions,GDPR Compliance Stack,50000,160,6750.0,Very High,GDPR Enterprise,Strict,120
+Multi-Cloud,eu-central,8-regions,GDPR Compliance Stack,100000,160,7250.0,Very High,GDPR Enterprise,Strict,120
+Multi-Cloud,eu-central,8-regions,GDPR Compliance Stack,500000,800,11250.0,Very High,GDPR Enterprise,Strict,120
+Multi-Cloud,us-east,2-regions,SOX Compliance Stack,5000,60,2929.17,Very High,SOX Enterprise,Required,95
+Multi-Cloud,us-east,2-regions,SOX Compliance Stack,25000,60,2979.17,Very High,SOX Enterprise,Required,95
+Multi-Cloud,us-east,2-regions,SOX Compliance Stack,100000,66,3166.67,Very High,SOX Enterprise,Required,95
+Multi-Cloud,us-east,2-regions,SOX Compliance Stack,250000,166,3541.67,Very High,SOX Enterprise,Required,95
+Multi-Cloud,us-east,4-regions,SOX Compliance Stack,5000,120,5441.67,Very High,SOX Enterprise,Required,95
+Multi-Cloud,us-east,4-regions,SOX Compliance Stack,25000,120,5541.67,Very High,SOX Enterprise,Required,95
+Multi-Cloud,us-east,4-regions,SOX Compliance Stack,100000,132,5916.67,Very High,SOX Enterprise,Required,95
+Multi-Cloud,us-east,4-regions,SOX Compliance Stack,250000,332,6666.67,Very High,SOX Enterprise,Required,95
+Multi-Provider DR,us-east-1,us-west-2,DR-RPO15min,1000,25,300.0,Very High,DR Enterprise,Required,30000
+Multi-Provider DR,us-east-1,us-west-2,DR-RPO15min,10000,25,3000.0,Very High,DR Enterprise,Required,30000
+Multi-Provider DR,us-east-1,us-west-2,DR-RPO15min,50000,25,15000.0,Very High,DR Enterprise,Required,30000
+Multi-Provider DR,us-east-1,us-west-2,DR-RPO15min,200000,100,60000.0,Very High,DR Enterprise,Required,30000
+Multi-Provider DR,us-east-1,us-west-2,DR-RPO5min,1000,25,456.0,Very High,DR Enterprise,Required,15000
+Multi-Provider DR,us-east-1,us-west-2,DR-RPO5min,10000,25,4560.0,Very High,DR Enterprise,Required,15000
+Multi-Provider DR,us-east-1,us-west-2,DR-RPO5min,50000,25,22800.0,Very High,DR Enterprise,Required,15000
+Multi-Provider DR,us-east-1,us-west-2,DR-RPO5min,200000,100,91200.0,Very High,DR Enterprise,Required,15000
+Multi-Provider DR,us-east-1,us-west-2,DR-RPO1min,1000,25,624.0,Very High,DR Enterprise,Required,5000
+Multi-Provider DR,us-east-1,us-west-2,DR-RPO1min,10000,25,6240.0,Very High,DR Enterprise,Required,5000
+Multi-Provider DR,us-east-1,us-west-2,DR-RPO1min,50000,25,31200.0,Very High,DR Enterprise,Required,5000
+Multi-Provider DR,us-east-1,us-west-2,DR-RPO1min,200000,100,124800.0,Very High,DR Enterprise,Required,5000
+Multi-Provider DR,eu-west-1,eu-central-1,DR-RPO15min,1000,25,250.0,Very High,DR Enterprise,Required,30000
+Multi-Provider DR,eu-west-1,eu-central-1,DR-RPO15min,10000,25,2500.0,Very High,DR Enterprise,Required,30000
+Multi-Provider DR,eu-west-1,eu-central-1,DR-RPO15min,50000,25,12500.0,Very High,DR Enterprise,Required,30000
+Multi-Provider DR,eu-west-1,eu-central-1,DR-RPO15min,200000,100,50000.0,Very High,DR Enterprise,Required,30000
+Multi-Provider DR,eu-west-1,eu-central-1,DR-RPO5min,1000,25,380.0,Very High,DR Enterprise,Required,15000
+Multi-Provider DR,eu-west-1,eu-central-1,DR-RPO5min,10000,25,3800.0,Very High,DR Enterprise,Required,15000
+Multi-Provider DR,eu-west-1,eu-central-1,DR-RPO5min,50000,25,19000.0,Very High,DR Enterprise,Required,15000
+Multi-Provider DR,eu-west-1,eu-central-1,DR-RPO5min,200000,100,76000.0,Very High,DR Enterprise,Required,15000
+Multi-Provider DR,eu-west-1,eu-central-1,DR-RPO1min,1000,25,520.0,Very High,DR Enterprise,Required,5000
+Multi-Provider DR,eu-west-1,eu-central-1,DR-RPO1min,10000,25,5200.0,Very High,DR Enterprise,Required,5000
+Multi-Provider DR,eu-west-1,eu-central-1,DR-RPO1min,50000,25,26000.0,Very High,DR Enterprise,Required,5000
+Multi-Provider DR,eu-west-1,eu-central-1,DR-RPO1min,200000,100,104000.0,Very High,DR Enterprise,Required,5000
+Multi-Provider DR,us-east-1,eu-west-1,DR-RPO15min,1000,25,350.0,Very High,DR Enterprise,Required,30000
+Multi-Provider DR,us-east-1,eu-west-1,DR-RPO15min,10000,25,3500.0,Very High,DR Enterprise,Required,30000
+Multi-Provider DR,us-east-1,eu-west-1,DR-RPO15min,50000,25,17500.0,Very High,DR Enterprise,Required,30000
+Multi-Provider DR,us-east-1,eu-west-1,DR-RPO15min,200000,100,70000.0,Very High,DR Enterprise,Required,30000
+Multi-Provider DR,us-east-1,eu-west-1,DR-RPO5min,1000,25,532.0,Very High,DR Enterprise,Required,15000
+Multi-Provider DR,us-east-1,eu-west-1,DR-RPO5min,10000,25,5320.0,Very High,DR Enterprise,Required,15000
+Multi-Provider DR,us-east-1,eu-west-1,DR-RPO5min,50000,25,26600.0,Very High,DR Enterprise,Required,15000
+Multi-Provider DR,us-east-1,eu-west-1,DR-RPO5min,200000,100,106400.0,Very High,DR Enterprise,Required,15000
+Multi-Provider DR,us-east-1,eu-west-1,DR-RPO1min,1000,25,728.0,Very High,DR Enterprise,Required,5000
+Multi-Provider DR,us-east-1,eu-west-1,DR-RPO1min,10000,25,7280.0,Very High,DR Enterprise,Required,5000
+Multi-Provider DR,us-east-1,eu-west-1,DR-RPO1min,50000,25,36400.0,Very High,DR Enterprise,Required,5000
+Multi-Provider DR,us-east-1,eu-west-1,DR-RPO1min,200000,100,145600.0,Very High,DR Enterprise,Required,5000

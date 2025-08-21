@@ -1,0 +1,36 @@
+dataset:
+  title: "BI Dashboard Session Cost Analysis by Usage Pattern"
+  description: "Detailed cost breakdown for different BI dashboard usage patterns across cloud data platforms"
+  topic: "BI dashboard session-based cost modeling"
+  metric: "Cost per session, monthly costs, cost efficiency ratios"
+
+source:
+  name: "Platform pricing models and usage pattern analysis"
+  url: "Vendor pricing documentation"
+  accessed: "2025-08-20"
+  license: "Research analysis"
+  credibility: "Tier A"
+
+characteristics:
+  rows: "Multiple session patterns across platform configurations"
+  columns: "Cost and efficiency metrics"
+  time_range: "Current pricing (2024)"
+  update_frequency: "Quarterly (pricing changes)"
+  collection_method: "Cost model calculation"
+
+quality:
+  completeness: "100%"
+  sample_size: "6 usage patterns x 12 platform configurations"
+  confidence: "high"
+  limitations:
+    - "Based on list pricing, not enterprise discounts"
+    - "Does not include data storage costs"
+    - "Simplified concurrency impact model"
+    - "Regional pricing variations not included"
+
+notes:
+  - "Costs include compute charges only, not storage"
+  - "Concurrency modeled as simple multiplier"
+  - "Serverless cold start costs estimated"
+  - "Real costs vary by optimization and caching"
+

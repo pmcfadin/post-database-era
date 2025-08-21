@@ -1,0 +1,6 @@
+pattern_id,description,typical_range_ms,typical_range_multiplier,typical_degradation,typical_speedup,factors,engines_affected,mitigation
+cold_start_serverless,Cold start latency penalty for serverless architectures,2000-30000,,,,"service type, query complexity, data size","databricks_sql_serverless, bigquery, athena","Connection pooling, keep-warm strategies"
+external_table_penalty,Performance penalty for external vs native table storage,,1.5-4.0x,,,"file format, partitioning, network latency","snowflake_external, redshift_spectrum, bigquery_external","Parquet format, proper partitioning, caching"
+concurrent_user_degradation,Query performance degradation with concurrent users,,,15% per additional user (up to 20 users),,"compute capacity, query complexity, data contention",all,"Auto-scaling, query queueing, resource isolation"
+small_file_penalty,Performance penalty for many small files in data lakes,,2-10x,,,"file count, file size, metadata overhead","spark_based, s3_analytics","File compaction, optimal file sizing (128MB-1GB)"
+cache_effectiveness,Query cache hit rate impact on response time,,,,70-90% latency reduction,"query similarity, cache size, data freshness",all,"Predictable query patterns, cache warming"

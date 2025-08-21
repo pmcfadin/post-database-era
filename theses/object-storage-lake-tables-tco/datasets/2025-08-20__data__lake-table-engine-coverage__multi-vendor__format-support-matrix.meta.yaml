@@ -1,0 +1,70 @@
+# Dataset Metadata
+dataset:
+  title: "Lake Table Format Engine Support Matrix"
+  description: "Comprehensive mapping of SQL/query engine support for lake table formats (Iceberg, Delta Lake, Hudi)"
+  topic: "lake-table-engine-coverage"
+  metric: "format-support-matrix"
+  
+# Source Information
+source:
+  name: "Multi-vendor documentation aggregation"
+  url: "Various engine documentation sites"
+  accessed: "2025-08-20"
+  license: "Public documentation"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 30
+  columns: 7
+  time_range: "2020 - 2025"
+  update_frequency: "quarterly"
+  collection_method: "manual documentation review"
+  
+# Column Descriptions
+columns:
+  engine:
+    type: "string"
+    description: "SQL/query engine name"
+    unit: "categorical"
+  format:
+    type: "string" 
+    description: "Lake table format (Iceberg, Delta Lake, Hudi)"
+    unit: "categorical"
+  read_support:
+    type: "string"
+    description: "Read capability level"
+    unit: "Yes/No/Limited"
+  write_support:
+    type: "string"
+    description: "Write capability level"
+    unit: "Yes/No/Limited"
+  version_added:
+    type: "string"
+    description: "Engine version when support was introduced"
+    unit: "version string"
+  notes:
+    type: "string"
+    description: "Additional context and limitations"
+    unit: "text"
+  source_url:
+    type: "string"
+    description: "Documentation URL for verification"
+    unit: "URL"
+    
+# Quality Indicators
+quality:
+  completeness: "95%"
+  sample_size: "10 major engines"
+  confidence: "high"
+  limitations: 
+    - "Version numbers may vary by engine release cadence"
+    - "Limited/experimental features may change rapidly"
+    - "Some enterprise features require paid licenses"
+  
+# Usage Notes
+notes:
+  - "Data collected from official engine documentation"
+  - "Write support often more limited than read support"
+  - "Version numbers reflect first stable release with support"
+  - "Enterprise engines may have enhanced capabilities"

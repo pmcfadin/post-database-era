@@ -1,0 +1,160 @@
+# Dataset Metadata
+dataset:
+  title: "Parquet Features Production Adoption and Real-World Usage"
+  description: "Real-world adoption patterns of Parquet features across enterprises, cloud providers, open source projects, and industry surveys"
+  topic: "parquet-features"
+  metric: "adoption_patterns_production_usage"
+  
+# Source Information
+source:
+  name: "Multi-source production data compilation"
+  url: "https://engineering.netflix.com/blog, https://eng.uber.com/blog"
+  accessed: "2025-08-20"
+  license: "Public engineering blogs and surveys"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 24
+  columns: 20
+  time_range: "2019 - 2024"
+  update_frequency: "annual_survey_updates"
+  collection_method: "engineering_blog_survey_compilation"
+  
+# Column Descriptions
+columns:
+  dataset_id:
+    type: "string"
+    description: "Category of adoption data"
+    unit: "categorical"
+  company:
+    type: "string"
+    description: "Company or organization name"
+    unit: "categorical"
+  company_size:
+    type: "string"
+    description: "Size classification of the organization"
+    unit: "categorical"
+  data_scale_tb:
+    type: "number"
+    description: "Scale of data in terabytes"
+    unit: "TB"
+  parquet_feature:
+    type: "string"
+    description: "Parquet feature being used in production"
+    unit: "categorical"
+  enabled:
+    type: "number"
+    description: "Feature enabled in production (1=yes, 0=no)"
+    unit: "boolean"
+  adoption_year:
+    type: "number"
+    description: "Year when feature was adopted"
+    unit: "year"
+  primary_use_case:
+    type: "string"
+    description: "Primary use case driving adoption"
+    unit: "categorical"
+  performance_improvement:
+    type: "string"
+    description: "Reported performance improvement"
+    unit: "text"
+  cost_savings_percent:
+    type: "number"
+    description: "Cost savings percentage achieved"
+    unit: "percentage"
+  source:
+    type: "string"
+    description: "Source of the adoption information"
+    unit: "categorical"
+  provider:
+    type: "string"
+    description: "Cloud provider or service"
+    unit: "categorical"
+  service:
+    type: "string"
+    description: "Specific service or product"
+    unit: "categorical"
+  default_compression:
+    type: "string"
+    description: "Default compression algorithm used"
+    unit: "categorical"
+  stats_enabled_by_default:
+    type: "number"
+    description: "Statistics enabled by default (1=yes, 0=no)"
+    unit: "boolean"
+  bloom_filters_supported:
+    type: "number"
+    description: "Bloom filters supported (1=yes, 0=no)"
+    unit: "boolean"
+  adoption_level:
+    type: "string"
+    description: "Level of adoption in the platform"
+    unit: "categorical"
+  performance_claims:
+    type: "string"
+    description: "Performance improvement claims"
+    unit: "text"
+  cost_claims:
+    type: "string"
+    description: "Cost reduction claims"
+    unit: "text"
+  project:
+    type: "string"
+    description: "Open source project name"
+    unit: "categorical"
+  version:
+    type: "string"
+    description: "Project version with feature support"
+    unit: "version"
+  implementation_status:
+    type: "string"
+    description: "Status of feature implementation"
+    unit: "categorical"
+  write_support:
+    type: "number"
+    description: "Write support available (1=yes, 0=no)"
+    unit: "boolean"
+  read_support:
+    type: "number"
+    description: "Read support available (1=yes, 0=no)"
+    unit: "boolean"
+  performance_impact:
+    type: "string"
+    description: "Performance impact level"
+    unit: "categorical"
+  adoption_rate_percent:
+    type: "number"
+    description: "Adoption rate percentage in surveys"
+    unit: "percentage"
+  survey_source:
+    type: "string"
+    description: "Source of survey data"
+    unit: "categorical"
+  survey_size:
+    type: "number"
+    description: "Survey sample size"
+    unit: "count"
+  satisfaction_score:
+    type: "number"
+    description: "User satisfaction score (1-5 scale)"
+    unit: "score"
+    
+# Quality Indicators
+quality:
+  completeness: "85% - varies by data source type"
+  sample_size: "24 adoption scenarios across multiple categories"
+  confidence: "high"
+  limitations: 
+    - "Enterprise data based on public engineering blog posts"
+    - "Survey data may have selection bias"
+    - "Adoption percentages are estimates"
+    - "Performance claims not independently verified"
+  
+# Usage Notes
+notes:
+  - "Combines multiple data source types for comprehensive view"
+  - "Enterprise adoption data from public engineering communications"
+  - "Cloud provider data from public documentation and marketing"
+  - "Open source data from project documentation and releases"
+  - "Survey data from industry reports and community surveys"

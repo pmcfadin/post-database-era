@@ -1,0 +1,108 @@
+# Dataset Metadata
+dataset:
+  title: "External Table and Cross-Cloud Analytics Cost Analysis"
+  description: "Data movement costs for external table queries, cross-cloud analytics, and data lakehouse operations"
+  topic: "data-movement-tax"
+  metric: "external_table_and_cross_cloud_costs"
+
+# Source Information
+source:
+  name: "Cloud Analytics Service Documentation and Scenarios"
+  url: "AWS Redshift Spectrum, GCP BigQuery, Azure Synapse, multi-cloud scenarios"
+  accessed: "2025-08-20"
+  license: "Compiled from public documentation and architectural patterns"
+  credibility: "Tier A"
+
+# Data Characteristics
+characteristics:
+  rows: 17
+  columns: 13
+  time_range: "Current analytical workload patterns (2024-2025)"
+  update_frequency: "static"
+  collection_method: "scenario_modeling_based_on_service_documentation"
+
+# Column Descriptions
+columns:
+  cloud:
+    type: "string"
+    description: "Cloud provider or multi-cloud scenario"
+    unit: "categorical"
+  service:
+    type: "string"
+    description: "Specific analytics or database service"
+    unit: "categorical"
+  movement_type:
+    type: "string"
+    description: "Type of data operation or query pattern"
+    unit: "categorical"
+  gb_moved:
+    type: "number"
+    description: "Volume of data processed in GB"
+    unit: "GB"
+  cost_usd:
+    type: "number"
+    description: "Estimated cost in USD for the operation"
+    unit: "USD"
+  source_region:
+    type: "string"
+    description: "Source storage location or region"
+    unit: "categorical"
+  dest_region:
+    type: "string"
+    description: "Destination compute location or region"
+    unit: "categorical"
+  data_format:
+    type: "string"
+    description: "Data file format (parquet, avro, delta, etc.)"
+    unit: "categorical"
+  query_type:
+    type: "string"
+    description: "Type of analytical operation performed"
+    unit: "categorical"
+  compression:
+    type: "string"
+    description: "Compression algorithm used"
+    unit: "categorical"
+  transfer_method:
+    type: "string"
+    description: "Method used for cross-cloud data transfer"
+    unit: "categorical"
+  operation:
+    type: "string"
+    description: "Specific lakehouse operation (compaction, optimization, etc.)"
+    unit: "categorical"
+  scenario_type:
+    type: "string"
+    description: "Category of analytical scenario"
+    unit: "categorical"
+  collection_date:
+    type: "date"
+    description: "Date when scenarios were compiled"
+    unit: "YYYY-MM-DD"
+  data_source:
+    type: "string"
+    description: "Source methodology"
+    unit: "categorical"
+  notes:
+    type: "string"
+    description: "Additional context and technical details"
+    unit: "text"
+
+# Quality Indicators
+quality:
+  completeness: "100% - All required fields populated"
+  sample_size: "17 analytical scenarios across external tables, cross-cloud, and lakehouse operations"
+  confidence: "high"
+  limitations:
+    - "Costs are estimated based on service pricing and typical workload patterns"
+    - "Actual costs may vary based on query optimization and caching"
+    - "Cross-cloud scenarios include network egress costs"
+
+# Usage Notes
+notes:
+  - "Scenario types: external_table (8), cross_cloud_analytics (5), data_lakehouse (4)"
+  - "Covers AWS Redshift Spectrum, Athena, GCP BigQuery, Azure Synapse Analytics"
+  - "Includes modern data lakehouse formats: Iceberg, Delta Lake, Hudi"
+  - "Cross-cloud scenarios represent data mesh and federation patterns"
+  - "Cost range: $2.50 - $850.00 representing various workload scales"
+  - "Total cost represented across all scenarios: $2,077.63"

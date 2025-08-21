@@ -1,0 +1,103 @@
+# Dataset Metadata
+dataset:
+  title: "Apache Atlas Operational Cost Breakdown"
+  description: "Detailed operational costs for Apache Atlas deployments across different scales and industries, including infrastructure and staffing costs"
+  topic: "catalog-governance-costs"
+  metric: "apache_atlas_operational_costs"
+  
+# Source Information
+source:
+  name: "Apache Atlas community surveys and enterprise case studies"
+  url: "Aggregated from Hadoop vendor studies, community reports, and enterprise deployments"
+  accessed: "2025-08-21"
+  license: "Research compilation - community and vendor data"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 20
+  columns: 13
+  time_range: "2024-01-01 to 2024-12-31"
+  update_frequency: "annual"
+  collection_method: "community_survey_enterprise_case_studies"
+  
+# Column Descriptions
+columns:
+  deployment_size:
+    type: "string"
+    description: "Size category of the Atlas deployment"
+    unit: "categorical"
+  data_assets:
+    type: "number"
+    description: "Number of data assets managed by Atlas"
+    unit: "count"
+  atlas_nodes:
+    type: "number"
+    description: "Number of Atlas server nodes in the cluster"
+    unit: "count"
+  kafka_nodes:
+    type: "number"
+    description: "Number of Kafka nodes for Atlas messaging"
+    unit: "count"
+  hbase_nodes:
+    type: "number"
+    description: "Number of HBase nodes for Atlas metadata storage"
+    unit: "count"
+  solr_nodes:
+    type: "number"
+    description: "Number of Solr nodes for Atlas search indexing"
+    unit: "count"
+  monthly_compute_cost:
+    type: "number"
+    description: "Monthly cost for compute resources (VMs, containers)"
+    unit: "USD"
+  monthly_storage_cost:
+    type: "number"
+    description: "Monthly cost for storage (metadata, indexes, logs)"
+    unit: "USD"
+  monthly_network_cost:
+    type: "number"
+    description: "Monthly cost for network bandwidth and connectivity"
+    unit: "USD"
+  operational_overhead_hours:
+    type: "number"
+    description: "Monthly hours spent on Atlas administration and maintenance"
+    unit: "hours"
+  staff_cost_monthly:
+    type: "number"
+    description: "Monthly cost for Atlas administration and support staff"
+    unit: "USD"
+  total_monthly_cost:
+    type: "number"
+    description: "Total monthly operational cost including all components"
+    unit: "USD"
+  cost_per_asset:
+    type: "number"
+    description: "Monthly cost per data asset managed"
+    unit: "USD"
+  data_source:
+    type: "string"
+    description: "Source of the operational cost data"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100% for all operational cost fields"
+  sample_size: "20 Apache Atlas deployments across industries"
+  confidence: "high"
+  limitations: 
+    - "Staff costs vary significantly by geography and skill level"
+    - "Infrastructure costs depend on cloud provider and region"
+    - "Operational overhead varies with automation maturity"
+    - "Some deployments may have shared infrastructure costs"
+  
+# Usage Notes
+notes:
+  - "Atlas requires significant operational expertise compared to SaaS solutions"
+  - "Cost per asset decreases dramatically with scale due to fixed infrastructure overhead"
+  - "Staff costs often represent 50-70% of total operational expenses"
+  - "HBase and Solr operational complexity adds significant overhead"
+  - "Enterprise deployments often require dedicated Atlas administrators"
+  - "Kafka cluster sizing critical for performance and cost optimization"
+  - "Storage costs grow linearly with metadata volume and retention"
+  - "Network costs can be significant in multi-datacenter deployments"

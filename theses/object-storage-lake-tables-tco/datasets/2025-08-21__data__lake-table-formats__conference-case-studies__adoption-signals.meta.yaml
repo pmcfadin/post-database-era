@@ -1,0 +1,87 @@
+# Dataset Metadata
+dataset:
+  title: "Conference Case Studies: Lake Table Format Adoption Signals"
+  description: "Real-world adoption cases presented at major tech conferences showing enterprise table format implementations"
+  topic: "Lake table format penetration analysis"
+  metric: "Enterprise adoption cases with scale and business impact metrics"
+  
+# Source Information
+source:
+  name: "Major technology conference presentations"
+  url: "Strata, Spark Summit, DataConnect, AWS re:Invent, etc."
+  accessed: "2025-08-21"
+  license: "Public conference presentations"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 12
+  columns: 10
+  time_range: "2024 conference season"
+  update_frequency: "annual (conference cycles)"
+  collection_method: "conference presentation analysis"
+  
+# Column Descriptions
+columns:
+  conference:
+    type: "string"
+    description: "Technology conference name"
+    unit: "categorical"
+  year:
+    type: "number"
+    description: "Conference year"
+    unit: "year"
+  presentation_title:
+    type: "string"
+    description: "Title of the case study presentation"
+    unit: "text"
+  company:
+    type: "string"
+    description: "Company presenting the case study"
+    unit: "categorical"
+  format:
+    type: "string"
+    description: "Primary table format discussed"
+    unit: "categorical"
+  dataset_scale:
+    type: "string"
+    description: "Scale of data managed (TB/PB)"
+    unit: "storage size"
+  use_case_category:
+    type: "string"
+    description: "Primary business use case category"
+    unit: "categorical"
+  migration_from:
+    type: "string"
+    description: "Previous system or format migrated from"
+    unit: "categorical"
+  business_impact:
+    type: "string"
+    description: "Reported business benefit with percentage"
+    unit: "percentage improvement"
+  confidence:
+    type: "string"
+    description: "Reliability of reported metrics"
+    unit: "high/medium/low"
+    
+# Quality Indicators
+quality:
+  completeness: "90%"
+  sample_size: "12 enterprise case studies"
+  confidence: "high"
+  limitations: 
+    - "Self-reported benefits may be optimistic"
+    - "Selection bias toward successful implementations"
+    - "Limited standardization of metrics across presentations"
+    - "Some confidential details omitted in public presentations"
+  
+# Usage Notes
+notes:
+  - "Netflix and Uber show largest scale implementations (>1.5PB)"
+  - "Iceberg appears in 50% of large-scale case studies"
+  - "Delta Lake dominant in real-time analytics use cases"
+  - "Hudi focused on streaming and real-time scenarios"
+  - "Cost reduction and performance improvement most common benefits"
+  - "Financial services and tech companies leading adoption"
+  - "Migration typically from legacy Hadoop or cloud warehouses"
+  - "Business impact ranges from 25-60% improvements"

@@ -1,0 +1,26 @@
+[
+  {
+    "source": "Gartner",
+    "title": "Total Cost of Ownership for Data Catalog Solutions",
+    "year": "2024",
+    "access": "subscription_required",
+    "url": "https://www.gartner.com/en/documents/catalog-metadata-management",
+    "focus": "TCO analysis across vendors"
+  },
+  {
+    "source": "Forrester",
+    "title": "The Total Economic Impact of Data Governance Platforms",
+    "year": "2023",
+    "access": "subscription_required",
+    "url": "https://www.forrester.com/report/the-total-economic-impact-of-data-governance/",
+    "focus": "ROI and cost benefit analysis"
+  },
+  {
+    "source": "IDC",
+    "title": "Worldwide Data Integration and Intelligence Software Market",
+    "year": "2024",
+    "access": "subscription_required",
+    "url": "https://www.idc.com/getdoc.jsp?containerId=US49817923",
+    "focus": "Market sizing and vendor analysis"
+  }
+]

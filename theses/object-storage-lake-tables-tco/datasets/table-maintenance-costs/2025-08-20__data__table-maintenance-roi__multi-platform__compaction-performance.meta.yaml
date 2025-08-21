@@ -1,0 +1,103 @@
+# Dataset Metadata
+dataset:
+  title: "Table Maintenance ROI: Compaction Performance Impact Analysis"
+  description: "Performance and cost impact analysis of table optimization operations across Delta Lake, Iceberg, and Hudi platforms"
+  topic: "table-maintenance-roi"
+  metric: "Query latency reduction and cost savings from compaction operations"
+  
+# Source Information
+source:
+  name: "Multi-platform case studies and performance benchmarks"
+  url: "Aggregated from Databricks, Netflix, Uber, Microsoft, and Snowflake documentation"
+  accessed: "2025-08-20"
+  license: "Public case studies and documentation"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 5
+  columns: 15
+  time_range: "2023 - 2025"
+  update_frequency: "static"
+  collection_method: "Case study analysis and performance benchmark extraction"
+  
+# Column Descriptions
+columns:
+  dataset_id:
+    type: "string"
+    description: "Unique identifier for the dataset being optimized"
+    unit: "identifier"
+  table_format:
+    type: "string"
+    description: "Table format technology (Delta Lake, Iceberg, Hudi)"
+    unit: "categorical"
+  platform:
+    type: "string"
+    description: "Compute platform where optimization was performed"
+    unit: "categorical"
+  before_latency_ms:
+    type: "number"
+    description: "Query latency before optimization in milliseconds"
+    unit: "milliseconds"
+  after_latency_ms:
+    type: "number"
+    description: "Query latency after optimization in milliseconds"
+    unit: "milliseconds"
+  before_scan_cost_usd:
+    type: "number"
+    description: "Query scan cost before optimization"
+    unit: "USD"
+  after_scan_cost_usd:
+    type: "number"
+    description: "Query scan cost after optimization"
+    unit: "USD"
+  job_cost_usd:
+    type: "number"
+    description: "Cost of running the optimization job"
+    unit: "USD"
+  savings_usd_month:
+    type: "number"
+    description: "Estimated monthly cost savings from optimization"
+    unit: "USD per month"
+  file_count_before:
+    type: "number"
+    description: "Number of files before compaction"
+    unit: "count"
+  file_count_after:
+    type: "number"
+    description: "Number of files after compaction"
+    unit: "count"
+  data_size_gb:
+    type: "number"
+    description: "Total dataset size in gigabytes"
+    unit: "gigabytes"
+  optimization_type:
+    type: "string"
+    description: "Type of optimization operation performed"
+    unit: "categorical"
+  query_type:
+    type: "string"
+    description: "Type of queries being optimized"
+    unit: "categorical"
+  case_study_source:
+    type: "string"
+    description: "Source of the case study or performance data"
+    unit: "reference"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all fields populated"
+  sample_size: "5 representative case studies"
+  confidence: "high"
+  limitations: 
+    - "Based on published case studies, may not represent all use cases"
+    - "Cost calculations may vary by region and pricing model"
+    - "Performance improvements dependent on query patterns and data characteristics"
+  
+# Usage Notes
+notes:
+  - "Latency improvements range from 62% to 73% across all cases"
+  - "File count reductions of 90%+ are common after optimization"
+  - "ROI typically achieved within 1-3 months based on query frequency"
+  - "Results represent real-world production workloads"
+  - "Cost savings scale with query volume and data access patterns"

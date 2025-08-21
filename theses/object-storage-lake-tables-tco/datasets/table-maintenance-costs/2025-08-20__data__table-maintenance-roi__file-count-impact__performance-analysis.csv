@@ -1,0 +1,16 @@
+dataset_id,table_format,platform,data_size_gb,file_count,avg_file_size_mb,fragmentation_scenario,query_type,partition_strategy,query_latency_ms,planning_time_ms,execution_time_ms,scan_efficiency_pct,total_scan_cost_usd,metadata_overhead_cost_usd,files_scanned,io_operations,memory_usage_mb
+ecommerce_analytics,Delta Lake,Databricks,500,100,5120.0,optimized,Point lookup with filters,date partitioned,5000,400,4600,99.5,2.501,0.001,99,300,50.0
+ecommerce_analytics,Delta Lake,Databricks,500,500,1024.0,moderate,Point lookup with filters,date partitioned,6397,539,5858,97.5,2.505,0.005,487,1500,250.0
+ecommerce_analytics,Delta Lake,Databricks,500,2000,256.0,fragmented,Point lookup with filters,date partitioned,7602,660,6942,90.0,2.52,0.02,1800,6000,1000.0
+ecommerce_analytics,Delta Lake,Databricks,500,10000,51.2,heavily_fragmented,Point lookup with filters,date partitioned,9000,800,8200,50.0,2.6,0.1,5000,30000,5000.0
+ecommerce_analytics,Delta Lake,Databricks,500,50000,10.2,extreme_fragmentation,Point lookup with filters,date partitioned,10397,939,9458,20,3.0,0.5,10000,150000,8192
+user_events_stream,Apache Iceberg,Trino,1200,100,12288.0,optimized,Time-range aggregation,hour partitioned,6000,400,5600,99.5,6.001,0.001,99,300,50.0
+user_events_stream,Apache Iceberg,Trino,1200,500,2457.6,moderate,Time-range aggregation,hour partitioned,8096,539,7557,97.5,6.005,0.005,487,1500,250.0
+user_events_stream,Apache Iceberg,Trino,1200,2000,614.4,fragmented,Time-range aggregation,hour partitioned,9903,660,9243,90.0,6.02,0.02,1800,6000,1000.0
+user_events_stream,Apache Iceberg,Trino,1200,10000,122.9,heavily_fragmented,Time-range aggregation,hour partitioned,12000,800,11200,50.0,6.1,0.1,5000,30000,5000.0
+user_events_stream,Apache Iceberg,Trino,1200,50000,24.6,extreme_fragmentation,Time-range aggregation,hour partitioned,14096,939,13157,20,6.5,0.5,10000,150000,8192
+transaction_logs,Apache Hudi,EMR Spark,800,100,8192.0,optimized,Incremental processing,transaction_date partitioned,7800,400,7400,99.5,4.001,0.001,99,300,50.0
+transaction_logs,Apache Hudi,EMR Spark,800,500,1638.4,moderate,Incremental processing,transaction_date partitioned,9617,539,9078,97.5,4.005,0.005,487,1500,250.0
+transaction_logs,Apache Hudi,EMR Spark,800,2000,409.6,fragmented,Incremental processing,transaction_date partitioned,11182,660,10522,90.0,4.02,0.02,1800,6000,1000.0
+transaction_logs,Apache Hudi,EMR Spark,800,10000,81.9,heavily_fragmented,Incremental processing,transaction_date partitioned,13000,800,12200,50.0,4.1,0.1,5000,30000,5000.0
+transaction_logs,Apache Hudi,EMR Spark,800,50000,16.4,extreme_fragmentation,Incremental processing,transaction_date partitioned,14817,939,13878,20,4.5,0.5,10000,150000,8192

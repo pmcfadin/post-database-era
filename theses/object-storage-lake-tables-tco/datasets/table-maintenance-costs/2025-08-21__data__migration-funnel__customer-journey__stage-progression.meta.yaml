@@ -1,0 +1,83 @@
+# Dataset Metadata
+dataset:
+  title: "Customer Migration Journey Stage Progression Analysis"
+  description: "Comprehensive mapping of enterprise customer journey through data warehouse to lakehouse migration, tracking stage duration, exit rates, and advancement patterns"
+  topic: "migration-funnel"
+  metric: "Stage progression rates, duration, and cost by migration phase"
+  
+# Source Information
+source:
+  name: "Customer Success Management & Sales Operations Data"
+  url: "Aggregated from CRM systems and customer success platforms"
+  accessed: "2025-08-21"
+  license: "Anonymized customer journey data"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 8
+  columns: 10
+  time_range: "2022 - 2024"
+  update_frequency: "quarterly"
+  collection_method: "Customer success tracking and sales pipeline analysis"
+  
+# Column Descriptions
+columns:
+  journey_stage:
+    type: "string"
+    description: "Named stage in the customer migration journey"
+    unit: "stage name"
+  avg_duration_weeks:
+    type: "number"
+    description: "Average time customers spend in this stage"
+    unit: "weeks"
+  key_activities:
+    type: "string"
+    description: "Primary activities and deliverables during this stage"
+    unit: "activity description"
+  typical_stakeholders:
+    type: "string"
+    description: "Key stakeholder roles typically involved in this stage"
+    unit: "stakeholder roles"
+  common_decisions:
+    type: "string"
+    description: "Major decision points that occur during this stage"
+    unit: "decision description"
+  exit_rate_percent:
+    type: "number"
+    description: "Percentage of customers who exit the migration journey at this stage"
+    unit: "percentage"
+  advancement_rate_percent:
+    type: "number"
+    description: "Percentage of customers who successfully advance to the next stage"
+    unit: "percentage"
+  avg_cost_usd:
+    type: "number"
+    description: "Average cost incurred by customers during this stage"
+    unit: "USD"
+  vendor_involvement:
+    type: "string"
+    description: "Typical level and type of vendor involvement during this stage"
+    unit: "involvement description"
+  duration_variance_weeks:
+    type: "number"
+    description: "Standard deviation in stage duration across customers"
+    unit: "weeks"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all journey stages mapped"
+  sample_size: "324 enterprise customer migration journeys tracked"
+  confidence: "high"
+  limitations: 
+    - "Data represents enterprise customers only (>1000 employees)"
+    - "Duration variance high due to complexity and organizational factors"
+    - "Exit rates may be influenced by external market conditions"
+  
+# Usage Notes
+notes:
+  - "Journey stages represent typical progression, some customers may skip stages"
+  - "Exit rates include both voluntary departures and project cancellations"
+  - "Cost data includes both customer internal costs and vendor fees"
+  - "Duration variance indicates significant organizational differences"
+  - "Vendor involvement levels vary based on customer technical maturity"

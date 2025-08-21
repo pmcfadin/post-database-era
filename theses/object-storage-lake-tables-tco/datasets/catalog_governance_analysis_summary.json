@@ -1,0 +1,14 @@
+{
+  "analysis_date": "2025-08-20T17:42:20.763307",
+  "datasets": {
+    "pricing_configurations": 28,
+    "operational_scenarios": 20,
+    "atlas_deployments": 20
+  },
+  "key_metrics": {
+    "avg_saas_cost_monthly": 4754.95,
+    "avg_cost_per_asset_annual": 0.14850000000000002,
+    "atlas_staff_cost_ratio": 0.7362680171406311,
+    "vendor_count": 18
+  }
+}

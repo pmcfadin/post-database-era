@@ -1,0 +1,75 @@
+# Dataset Metadata
+dataset:
+  title: "Policy Engine Implementation Comparison"
+  description: "Analysis of different policy engine approaches and their implementation characteristics across governance controls"
+  topic: "policy-parity-index"
+  metric: "policy_engine_effectiveness"
+  
+# Source Information
+source:
+  name: "Policy Engine Documentation and Implementation Guides"
+  url: "https://www.openpolicyagent.org, https://docs.snowflake.com/en/user-guide/security-access-control, https://cloud.google.com/bigquery/docs/access-control, https://docs.databricks.com/data-governance/unity-catalog, https://ranger.apache.org"
+  accessed: "2025-08-20"
+  license: "Public documentation analysis"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 14
+  columns: 7
+  time_range: "2025 current implementations"
+  update_frequency: "quarterly"
+  collection_method: "documentation_synthesis"
+  
+# Column Descriptions
+columns:
+  engine_type:
+    type: "string"
+    description: "Category of policy engine architecture"
+    unit: "engine_category"
+  platform:
+    type: "string"
+    description: "Specific policy engine or platform"
+    unit: "platform_name"
+  control:
+    type: "string"
+    description: "Type of governance control implemented"
+    unit: "control_type"
+  supported:
+    type: "number"
+    description: "Whether the control is supported (1=yes, 0=no)"
+    unit: "binary"
+  enforced:
+    type: "number"
+    description: "Whether enforcement is default behavior (1=yes, 0=no)"
+    unit: "binary"
+  integration_complexity:
+    type: "string"
+    description: "Complexity level of integrating this control"
+    unit: "complexity_rating"
+  performance_impact:
+    type: "string"
+    description: "Performance overhead of implementing this control"
+    unit: "impact_rating"
+  ecosystem_coverage:
+    type: "string"
+    description: "Breadth of ecosystem compatibility"
+    unit: "coverage_scope"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - major policy engine types covered"
+  sample_size: "14 engine-control combinations"
+  confidence: "high"
+  limitations: 
+    - "Performance metrics are qualitative assessments"
+    - "Integration complexity varies by specific use case"
+    - "Some engines may have undocumented capabilities"
+  
+# Usage Notes
+notes:
+  - "Centralized engines (OPA) offer universal coverage but high complexity"
+  - "Native engines provide optimal performance within their ecosystems"
+  - "Hybrid approaches (Unity Catalog) balance flexibility and performance"
+  - "Traditional engines (Ranger) excel in Hadoop ecosystems but limited elsewhere"
+  - "Data masking consistently shows highest implementation complexity"

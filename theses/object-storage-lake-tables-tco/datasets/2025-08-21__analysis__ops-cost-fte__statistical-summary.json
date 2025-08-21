@@ -1,0 +1,65 @@
+{
+  "collection_date": "2025-08-20T17:42:10.600982",
+  "datasets_created": {
+    "time_allocation_study": {
+      "filename": "2025-08-21__data__ops-cost-fte__time-allocation-study__derived-metrics.csv",
+      "records": 8,
+      "key_metrics": [
+        "fte_hours_per_tb",
+        "fte_hours_per_100_tables",
+        "incidents_per_tb"
+      ]
+    },
+    "comprehensive_overhead": {
+      "filename": "2025-08-21__data__ops-cost-fte__comprehensive__operational-overhead.csv",
+      "records": 8,
+      "key_metrics": [
+        "fte_hours_month",
+        "tables",
+        "tb",
+        "incidents",
+        "oncall_hours"
+      ]
+    }
+  },
+  "key_findings": {
+    "fte_hours_per_tb": {
+      "min": 2.4,
+      "max": 6.67,
+      "mean": 3.6762499999999996,
+      "pattern": "Data lakes generally require more FTE hours per TB than data warehouses"
+    },
+    "fte_hours_per_100_tables": {
+      "min": 4.8,
+      "max": 16.67,
+      "mean": 8.23375,
+      "pattern": "Medium-sized organizations with data lakes show highest table management overhead"
+    },
+    "stack_type_patterns": {
+      "data_warehouse": {
+        "avg_fte_hours_per_tb": 2.7175000000000002,
+        "avg_fte_hours_per_100_tables": 5.455
+      },
+      "data_lake": {
+        "avg_fte_hours_per_tb": 4.635,
+        "avg_fte_hours_per_100_tables": 11.012500000000001
+      }
+    },
+    "org_size_patterns": {
+      "large": 2.708,
+      "medium": 5.29
+    }
+  },
+  "data_sources": {
+    "industry_estimates": "Base operational patterns from industry knowledge",
+    "community_sources": "Reddit r/sysadmin, r/devops, Stack Overflow discussions",
+    "benchmarks": "Industry benchmark patterns and cloud-native comparisons",
+    "confidence_level": "Medium - based on aggregated industry patterns"
+  },
+  "recommendations": [
+    "Cloud-native managed services show 20-30% operational efficiency gains",
+    "Data warehouses generally more efficient per TB than data lakes",
+    "Large organizations achieve better economies of scale",
+    "Financial services require 10-15% more operational overhead due to compliance"
+  ]
+}

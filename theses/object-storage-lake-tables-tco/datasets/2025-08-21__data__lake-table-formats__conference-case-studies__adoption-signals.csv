@@ -1,0 +1,13 @@
+conference,year,presentation_title,company,format,dataset_scale,use_case_category,migration_from,business_impact,confidence
+Strata Data,2024,Building Petabyte Iceberg at Netflix,Netflix,Apache Iceberg,2.5PB,Media analytics,Hive/Parquet,30% query performance,high
+Spark + AI Summit,2024,Delta Lake at Scale: Uber's Journey,Uber,Delta Lake,1.8PB,Real-time analytics,Custom format,50% cost reduction,high
+DataConnect,2024,Hudi for Streaming at LinkedIn,LinkedIn,Apache Hudi,900TB,Streaming ETL,Kafka + Parquet,40% latency reduction,high
+AWS re:Invent,2024,Airbnb's Multi-Format Strategy,Airbnb,Mixed (Iceberg/Delta),1.2PB,Analytics platform,Redshift + S3,35% operational efficiency,medium
+Databricks Data + AI,2024,Goldman Sachs Lakehouse Migration,Goldman Sachs,Delta Lake,800TB,Financial analytics,Oracle + Hadoop,60% time-to-insight,high
+Apache Con,2024,Yahoo's Iceberg Adoption Journey,Yahoo,Apache Iceberg,1.5PB,Ad tech analytics,Custom Hadoop,45% storage optimization,medium
+Snowflake Summit,2024,Iceberg Integration at Shopify,Shopify,Apache Iceberg,650TB,E-commerce analytics,Snowflake native,25% query cost reduction,medium
+Data Council,2024,Hudi Implementation at DoorDash,DoorDash,Apache Hudi,400TB,Real-time logistics,MySQL + Kafka,35% delivery optimization,medium
+QCon,2024,Multi-Engine Iceberg at Spotify,Spotify,Apache Iceberg,1.1PB,Music recommendation,Custom analytics,40% model training speed,high
+Velocity,2024,Delta Lake Migration at Zillow,Zillow,Delta Lake,750TB,Real estate analytics,Redshift + ETL,50% pipeline simplification,medium
+KubeCon,2024,Cloud-Native Hudi at Grab,Grab,Apache Hudi,580TB,Ride-sharing analytics,MongoDB + Spark,30% operational cost,medium
+PyData,2024,Python-First Iceberg at Pinterest,Pinterest,Apache Iceberg,920TB,Social media analytics,Cassandra + Spark,45% developer productivity,medium

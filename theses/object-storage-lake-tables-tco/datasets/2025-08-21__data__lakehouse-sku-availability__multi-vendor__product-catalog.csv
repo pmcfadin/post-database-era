@@ -1,0 +1,40 @@
+vendor,product,cloud,region,lakehouse_sku,ga_date
+Databricks,Lakehouse Platform,AWS,us-east-1,1,2021-06-24
+Databricks,Lakehouse Platform,AWS,us-west-2,1,2021-06-24
+Databricks,Lakehouse Platform,AWS,eu-west-1,1,2021-06-24
+Databricks,Lakehouse Platform,Azure,East US,1,2021-09-15
+Databricks,Lakehouse Platform,GCP,us-central1,1,2022-03-10
+Snowflake,External Tables,AWS,us-east-1,1,2020-05-14
+Snowflake,Iceberg Tables,AWS,us-east-1,1,2023-09-26
+Snowflake,Iceberg Tables,Azure,East US,1,2023-11-15
+Snowflake,Iceberg Tables,GCP,us-central1,1,2024-01-18
+AWS,Lake Formation,AWS,us-east-1,1,2019-08-08
+AWS,Athena,AWS,us-east-1,1,2016-11-20
+AWS,EMR Studio,AWS,us-east-1,1,2020-12-11
+AWS,Redshift Spectrum,AWS,us-east-1,1,2017-04-19
+Google,BigLake,GCP,us-central1,1,2022-05-11
+Google,BigQuery External Tables,GCP,us-central1,1,2017-09-28
+Google,Dataproc,GCP,us-central1,1,2015-09-24
+Microsoft,Synapse Analytics,Azure,East US,1,2020-12-15
+Microsoft,Data Lake Analytics,Azure,East US,0,2024-01-31
+Microsoft,Fabric OneLake,Azure,East US,1,2023-11-15
+Databricks,Lakehouse Platform,AWS,ap-southeast-1,1,2021-06-24
+Databricks,Lakehouse Platform,AWS,eu-central-1,1,2021-06-24
+Snowflake,Iceberg Tables,AWS,eu-west-1,1,2023-09-26
+Snowflake,Iceberg Tables,AWS,ap-southeast-1,1,2023-09-26
+AWS,Lake Formation,AWS,us-west-2,1,2019-08-08
+AWS,Lake Formation,AWS,eu-west-1,1,2019-08-08
+AWS,Athena,AWS,us-west-2,1,2016-11-20
+AWS,Athena,AWS,eu-west-1,1,2017-02-20
+Google,BigLake,GCP,us-east1,1,2022-05-11
+Google,BigLake,GCP,europe-west1,1,2022-05-11
+Google,BigQuery External Tables,GCP,us-east1,1,2017-09-28
+Google,BigQuery External Tables,GCP,europe-west1,1,2017-09-28
+Microsoft,Synapse Analytics,Azure,West US 2,1,2020-12-15
+Microsoft,Synapse Analytics,Azure,West Europe,1,2020-12-15
+Microsoft,Fabric OneLake,Azure,West US 2,1,2023-11-15
+Microsoft,Fabric OneLake,Azure,West Europe,1,2023-11-15
+Dremio,Lakehouse Platform,AWS,us-east-1,1,2021-09-14
+Dremio,Lakehouse Platform,Azure,East US,1,2022-01-25
+Starburst,Galaxy,AWS,us-east-1,1,2021-03-16
+Starburst,Galaxy,Azure,East US,1,2021-07-28

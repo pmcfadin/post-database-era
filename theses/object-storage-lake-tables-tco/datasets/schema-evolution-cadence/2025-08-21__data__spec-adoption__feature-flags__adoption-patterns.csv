@@ -1,0 +1,16 @@
+dataset_id,format,spec_version,features,flag_name,adoption_rate,stability_level,default_enabled,last_upgraded_at
+apache-iceberg-flag-row-level-delete,Apache Iceberg,latest,row-level-delete,iceberg.row-level-delete.enabled,0.75,stable,True,2024-08-01
+apache-iceberg-flag-partition-evolution,Apache Iceberg,latest,partition-evolution,iceberg.partition-evolution.enabled,0.6,stable,False,2024-08-01
+apache-iceberg-flag-branching,Apache Iceberg,latest,branching,iceberg.branching.enabled,0.3,preview,False,2024-08-01
+apache-iceberg-flag-merge-on-read,Apache Iceberg,latest,merge-on-read,iceberg.merge-on-read.enabled,0.45,stable,False,2024-08-01
+apache-iceberg-flag-position-deletes,Apache Iceberg,latest,position-deletes,iceberg.position-deletes.enabled,0.8,stable,True,2024-08-01
+delta-lake-flag-liquid-clustering,Delta Lake,latest,liquid-clustering,delta.liquid-clustering.enabled,0.4,preview,False,2024-08-01
+delta-lake-flag-deletion-vectors,Delta Lake,latest,deletion-vectors,delta.deletion-vectors.enabled,0.65,stable,False,2024-08-01
+delta-lake-flag-change-data-feed,Delta Lake,latest,change-data-feed,delta.change-data-feed.enabled,0.55,stable,False,2024-08-01
+delta-lake-flag-column-mapping,Delta Lake,latest,column-mapping,delta.column-mapping.enabled,0.7,stable,False,2024-08-01
+delta-lake-flag-auto,Delta Lake,latest,auto,delta.optimize.auto.enabled,0.85,stable,True,2024-08-01
+apache-hudi-flag-metadata-table,Apache Hudi,latest,metadata-table,hudi.metadata-table.enabled,0.5,stable,False,2024-08-01
+apache-hudi-flag-record-level-index,Apache Hudi,latest,record-level-index,hudi.record-level-index.enabled,0.35,preview,False,2024-08-01
+apache-hudi-flag-timeline-service,Apache Hudi,latest,timeline-service,hudi.timeline-service.enabled,0.6,stable,False,2024-08-01
+apache-hudi-flag-clustering,Apache Hudi,latest,clustering,hudi.clustering.enabled,0.45,stable,False,2024-08-01
+apache-hudi-flag-async-compaction,Apache Hudi,latest,async-compaction,hudi.async-compaction.enabled,0.75,stable,True,2024-08-01

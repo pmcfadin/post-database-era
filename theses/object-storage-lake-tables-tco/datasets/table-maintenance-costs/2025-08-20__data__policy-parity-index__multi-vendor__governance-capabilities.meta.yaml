@@ -1,0 +1,75 @@
+# Dataset Metadata
+dataset:
+  title: "Policy Parity Index - Multi-Vendor Governance Capabilities"
+  description: "Comprehensive analysis of data governance control capabilities across data warehouse, data lake, and cloud-native platforms"
+  topic: "policy-parity-index"
+  metric: "governance_control_coverage"
+  
+# Source Information
+source:
+  name: "Multi-Platform Documentation Analysis"
+  url: "https://docs.snowflake.com, https://docs.databricks.com, https://cloud.google.com/bigquery, https://ranger.apache.org, https://docs.aws.amazon.com/redshift, https://docs.aws.amazon.com/lake-formation"
+  accessed: "2025-08-20"
+  license: "Public documentation synthesis"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 30
+  columns: 7
+  time_range: "2025 current state"
+  update_frequency: "quarterly"
+  collection_method: "documentation_analysis"
+  
+# Column Descriptions
+columns:
+  stack_type:
+    type: "string"
+    description: "Category of data platform architecture"
+    unit: "categorical"
+  platform:
+    type: "string"
+    description: "Specific vendor/technology platform"
+    unit: "vendor_name"
+  control:
+    type: "string"
+    description: "Type of governance control being evaluated"
+    unit: "control_type"
+  supported:
+    type: "number"
+    description: "Whether the control is technically supported (1=yes, 0=no)"
+    unit: "binary"
+  enforced:
+    type: "number"
+    description: "Whether the control is actively enforced by default (1=yes, 0=no)"
+    unit: "binary"
+  implementation:
+    type: "string"
+    description: "Technical mechanism used to implement the control"
+    unit: "implementation_method"
+  granularity:
+    type: "string"
+    description: "Level of granularity at which control operates"
+    unit: "granularity_level"
+  compliance_frameworks:
+    type: "string"
+    description: "Compliance frameworks supported by this control"
+    unit: "framework_list"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all major platforms covered"
+  sample_size: "30 platform-control combinations"
+  confidence: "high"
+  limitations: 
+    - "Based on public documentation, may not reflect all configuration options"
+    - "Enforcement capabilities may vary by license tier"
+    - "Implementation details may change with platform updates"
+  
+# Usage Notes
+notes:
+  - "Unity Catalog shows strongest cross-control enforcement"
+  - "Traditional data warehouses have mature row/column security but limited lineage"
+  - "Apache Ranger provides comprehensive policy management but requires external lineage tools"
+  - "Data shows clear parity gaps between stack types"
+  - "Compliance framework support varies significantly by platform"

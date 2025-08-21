@@ -1,0 +1,73 @@
+dataset:
+  title: Table Format Migration Timeline Patterns
+  description: Migration strategies and timelines for table format version upgrades
+  topic: schema-evolution-cadence
+  metric: migration timelines and strategies
+source:
+  name: Industry Migration Patterns Analysis
+  url: https://github.com/apache/{iceberg,hudi} + https://github.com/delta-io/delta
+  accessed: '2025-08-20'
+  license: Synthesized from public migration guides
+  credibility: Tier B
+characteristics:
+  rows: 36
+  columns: 11
+  time_range: 2023 - 2024
+  update_frequency: quarterly
+  collection_method: pattern analysis and synthesis
+columns:
+  dataset_id:
+    type: string
+    description: Unique migration phase identifier
+    unit: text
+  format:
+    type: string
+    description: Table format being migrated
+    unit: text
+  spec_version:
+    type: string
+    description: Version migration path
+    unit: from -> to
+  features:
+    type: string
+    description: Features adopted in this phase
+    unit: semicolon-separated
+  organization_type:
+    type: string
+    description: Organization size/type
+    unit: category
+  migration_strategy:
+    type: string
+    description: Migration approach used
+    unit: category
+  phase_name:
+    type: string
+    description: Name of migration phase
+    unit: text
+  phase_duration_weeks:
+    type: number
+    description: Duration of this phase
+    unit: weeks
+  blockers_encountered:
+    type: string
+    description: Issues that delayed migration
+    unit: semicolon-separated
+  success_criteria:
+    type: string
+    description: Metrics used to validate success
+    unit: semicolon-separated
+  last_upgraded_at:
+    type: date
+    description: Phase completion date
+    unit: YYYY-MM-DD
+quality:
+  completeness: 100% synthetic but realistic
+  sample_size: 36 migration phases
+  confidence: medium
+  limitations:
+  - Synthesized data based on documented patterns
+  - May not reflect all edge cases
+notes:
+- Based on documented migration strategies from Apache and Delta communities
+- Reflects common organizational patterns and timelines
+- Useful for understanding migration complexity and planning

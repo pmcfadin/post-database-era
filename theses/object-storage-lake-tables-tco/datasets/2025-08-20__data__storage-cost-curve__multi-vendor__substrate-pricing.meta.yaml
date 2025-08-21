@@ -1,0 +1,82 @@
+# Dataset Metadata
+dataset:
+  title: "Storage Cost Curve Analysis: Object Storage vs Data Warehouse Native Storage"
+  description: "Comprehensive pricing comparison between object storage (S3/GCS/ADLS) and data warehouse-native storage across major cloud providers, including historical trends and tier variations"
+  topic: "storage-cost-curve"
+  metric: "Price per TB per month across storage substrates"
+  
+# Source Information
+source:
+  name: "Multi-vendor cloud pricing analysis"
+  url: "Multiple cloud provider pricing pages"
+  accessed: "2025-08-20"
+  license: "Public pricing information"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 30
+  columns: 10
+  time_range: "2020-01-01 to 2025-01-01"
+  update_frequency: "quarterly"
+  collection_method: "automated pricing page extraction"
+  
+# Column Descriptions
+columns:
+  cloud:
+    type: "string"
+    description: "Cloud provider name"
+    unit: "categorical"
+  region:
+    type: "string"
+    description: "Cloud region identifier"
+    unit: "categorical"
+  substrate:
+    type: "string"
+    description: "Storage substrate type: object or dw-native"
+    unit: "categorical"
+  service:
+    type: "string"
+    description: "Specific service name (S3, Redshift, BigQuery, etc.)"
+    unit: "categorical"
+  tier:
+    type: "string"
+    description: "Storage tier or class (Standard, IA, Archive, etc.)"
+    unit: "categorical"
+  redundancy:
+    type: "string"
+    description: "Data redundancy level (Standard, LRS, GRS, etc.)"
+    unit: "categorical"
+  price_per_gb_month:
+    type: "number"
+    description: "Price per gigabyte per month in USD"
+    unit: "USD/GB/month"
+  price_per_tb_month:
+    type: "number"
+    description: "Price per terabyte per month in USD"
+    unit: "USD/TB/month"
+  effective_date:
+    type: "date"
+    description: "Date when pricing was effective"
+    unit: "YYYY-MM-DD"
+  source:
+    type: "string"
+    description: "Original source URL or reference"
+    unit: "text"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all fields populated"
+  sample_size: "30 pricing data points"
+  confidence: "high"
+  limitations: 
+    - "Pricing may vary by volume commitments"
+    - "Does not include egress or API request costs"
+    - "Regional variations limited to major regions"
+  
+# Usage Notes
+notes:
+  - "Object storage consistently cheaper than DW-native for cold data"
+  - "DW-native storage includes integrated compute optimizations"
+  - "Archive tiers show 10-20x cost advantage over standard storage"
+  - "Historical data shows pricing stability with gradual decreases"

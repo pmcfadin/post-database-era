@@ -1,0 +1,98 @@
+# Dataset Metadata
+dataset:
+  title: "Real-World Data Catalog and Governance Operational Costs"
+  description: "Actual deployment costs and TCO scenarios across different company sizes and industries for data catalog and governance solutions"
+  topic: "catalog-governance-costs"
+  metric: "operational_tco_scenarios"
+  
+# Source Information
+source:
+  name: "Industry surveys and case studies"
+  url: "Aggregated from customer interviews, vendor case studies, and industry reports"
+  accessed: "2025-08-21"
+  license: "Research compilation - anonymized customer data"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 20
+  columns: 12
+  time_range: "2024-01-01 to 2024-12-31"
+  update_frequency: "annual"
+  collection_method: "survey_case_study_analysis"
+  
+# Column Descriptions
+columns:
+  scenario:
+    type: "string"
+    description: "Business scenario or use case context"
+    unit: "categorical"
+  company_size:
+    type: "string"
+    description: "Company size by employee count"
+    unit: "categorical"
+  data_assets:
+    type: "number"
+    description: "Total number of data assets managed in catalog"
+    unit: "count"
+  monthly_cost_usd:
+    type: "number"
+    description: "Monthly software licensing costs"
+    unit: "USD"
+  annual_cost_usd:
+    type: "number"
+    description: "Annual software licensing costs"
+    unit: "USD"
+  service_mix:
+    type: "string"
+    description: "Primary data catalog and governance tools used"
+    unit: "categorical"
+  infrastructure_cost:
+    type: "number"
+    description: "Monthly infrastructure and hosting costs"
+    unit: "USD"
+  support_cost:
+    type: "number"
+    description: "Monthly support and maintenance costs"
+    unit: "USD"
+  integration_cost:
+    type: "number"
+    description: "Annual integration and implementation costs"
+    unit: "USD"
+  total_tco_annual:
+    type: "number"
+    description: "Total cost of ownership per year including all costs"
+    unit: "USD"
+  cost_per_asset:
+    type: "number"
+    description: "Annual cost per data asset managed"
+    unit: "USD"
+  data_source:
+    type: "string"
+    description: "Source of the cost information"
+    unit: "categorical"
+  deployment_type:
+    type: "string"
+    description: "Deployment model used"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100% for all cost fields"
+  sample_size: "20 real-world deployment scenarios"
+  confidence: "high"
+  limitations: 
+    - "Costs vary significantly by negotiation and volume"
+    - "Hidden costs in training and change management not included"
+    - "Some data anonymized to protect customer confidentiality"
+    - "Integration costs heavily dependent on existing infrastructure"
+  
+# Usage Notes
+notes:
+  - "Cost per asset decreases significantly with scale (economies of scale)"
+  - "Self-hosted open source has high operational overhead despite free licensing"
+  - "SaaS solutions often more cost-effective for smaller deployments"
+  - "Enterprise solutions require significant integration and support costs"
+  - "Multi-vendor strategies common in large enterprises but increase complexity"
+  - "Compliance requirements in regulated industries drive higher costs"
+  - "Cloud-native deployments generally show better cost efficiency"

@@ -1,0 +1,24 @@
+org_id,org_type,mix_bi_pct,mix_etl_pct,mix_ml_pct,tco_usd_month,data_volume_tb,concurrent_users,peak_query_complexity,cost_per_tb_month,cost_savings_pct,optimization_strategy,tb_per_user,workload_intensity_score,cost_efficiency,cost_multiplier,workload_description,collection_date,source_type
+financial_services_01,Financial Services,55,35,10,89000,450,850,high,198,,,0.53,0.99,medium,,Risk analytics and regulatory reporting focused,2025-08-20T20:04:47.925205,industry_case_study
+retail_ecommerce_01,Retail/E-commerce,40,45,15,67000,320,1200,medium,209,,,0.27,1.0,medium,,Product analytics and recommendation systems,2025-08-20T20:04:47.925216,industry_case_study
+manufacturing_01,Manufacturing,65,25,10,45000,180,450,medium,250,,,0.4,1.01,low,,Operations dashboards and quality control,2025-08-20T20:04:47.925220,industry_case_study
+healthcare_system_01,Healthcare,70,20,10,125000,680,2100,high,184,,,0.32,1.02,medium,,Patient analytics and clinical reporting,2025-08-20T20:04:47.925224,industry_case_study
+tech_startup_01,Technology Startup,25,35,40,28000,85,120,high,329,,,0.71,1.17,low,,ML-driven product features and user analytics,2025-08-20T20:04:47.925226,industry_case_study
+media_streaming_01,Media/Entertainment,30,50,20,156000,2400,450,medium,65,,,5.33,1.02,high,,Content analytics and recommendation engines,2025-08-20T20:04:47.925228,industry_case_study
+telecom_provider_01,Telecommunications,50,40,10,178000,1200,680,medium,148,,,1.76,0.98,high,,Network optimization and customer analytics,2025-08-20T20:04:47.925229,industry_case_study
+energy_utility_01,Energy/Utilities,75,20,5,92000,380,320,low,242,,,1.19,0.99,medium,,Grid monitoring and consumption reporting,2025-08-20T20:04:47.925231,industry_case_study
+logistics_freight_01,Logistics/Transportation,60,30,10,73000,540,890,medium,135,,,0.61,1.0,high,,Route optimization and delivery tracking,2025-08-20T20:04:47.925232,industry_case_study
+insurance_provider_01,Insurance,55,30,15,134000,670,1450,high,200,,,0.46,1.03,medium,,Claims processing and risk assessment,2025-08-20T20:04:47.925234,industry_case_study
+financial_services_optimized,Financial Services,55,35,10,69420,450,850,high,198,22,ML workload scheduling optimization,0.53,0.99,medium,,Risk analytics and regulatory reporting focused,2025-08-20T20:04:47.925235,industry_case_study
+retail_ecommerce_optimized,Retail/E-commerce,40,45,15,54940,320,1200,medium,209,18,ETL pipeline consolidation,0.27,1.0,medium,,Product analytics and recommendation systems,2025-08-20T20:04:47.925237,industry_case_study
+manufacturing_optimized,Manufacturing,65,25,10,33750,180,450,medium,250,25,BI caching and materialized views,0.4,1.01,low,,Operations dashboards and quality control,2025-08-20T20:04:47.925238,industry_case_study
+healthcare_system_optimized,Healthcare,70,20,10,93750,680,2100,high,184,25,BI caching and materialized views,0.32,1.02,medium,,Patient analytics and clinical reporting,2025-08-20T20:04:47.925240,industry_case_study
+tech_startup_optimized,Technology Startup,25,35,40,21840,85,120,high,329,22,ML workload scheduling optimization,0.71,1.17,low,,ML-driven product features and user analytics,2025-08-20T20:04:47.925241,industry_case_study
+sensitivity_bi20_etl30_ml50,Sensitivity Analysis,20,30,50,65500,,,,,,,,,,1.31,"Sensitivity test: 20% BI, 30% ETL, 50% ML",2025-08-20T20:04:47.925246,sensitivity_analysis
+sensitivity_bi20_etl50_ml30,Sensitivity Analysis,20,50,30,54500,,,,,,,,,,1.09,"Sensitivity test: 20% BI, 50% ETL, 30% ML",2025-08-20T20:04:47.925248,sensitivity_analysis
+sensitivity_bi40_etl10_ml50,Sensitivity Analysis,40,10,50,68500,,,,,,,,,,1.37,"Sensitivity test: 40% BI, 10% ETL, 50% ML",2025-08-20T20:04:47.925251,sensitivity_analysis
+sensitivity_bi40_etl30_ml30,Sensitivity Analysis,40,30,30,57499,,,,,,,,,,1.15,"Sensitivity test: 40% BI, 30% ETL, 30% ML",2025-08-20T20:04:47.925252,sensitivity_analysis
+sensitivity_bi40_etl50_ml10,Sensitivity Analysis,40,50,10,46500,,,,,,,,,,0.93,"Sensitivity test: 40% BI, 50% ETL, 10% ML",2025-08-20T20:04:47.925254,sensitivity_analysis
+sensitivity_bi60_etl10_ml30,Sensitivity Analysis,60,10,30,60500,,,,,,,,,,1.21,"Sensitivity test: 60% BI, 10% ETL, 30% ML",2025-08-20T20:04:47.925258,sensitivity_analysis
+sensitivity_bi60_etl30_ml10,Sensitivity Analysis,60,30,10,49500,,,,,,,,,,0.99,"Sensitivity test: 60% BI, 30% ETL, 10% ML",2025-08-20T20:04:47.925260,sensitivity_analysis
+sensitivity_bi80_etl10_ml10,Sensitivity Analysis,80,10,10,52500,,,,,,,,,,1.05,"Sensitivity test: 80% BI, 10% ETL, 10% ML",2025-08-20T20:04:47.925262,sensitivity_analysis

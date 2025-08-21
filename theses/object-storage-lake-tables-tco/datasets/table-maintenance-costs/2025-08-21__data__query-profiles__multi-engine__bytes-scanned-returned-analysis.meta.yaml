@@ -1,0 +1,131 @@
+# Dataset Metadata
+dataset:
+  title: "Query Profile Analysis - Bytes Scanned vs Returned"
+  description: "Detailed query execution profiles showing read amplification, data skipping effectiveness, and scan efficiency across different query engines"
+  topic: "Table Maintenance Costs and Query Performance"
+  metric: "Bytes scanned/returned ratios, partition pruning rates, and execution efficiency"
+
+# Source Information
+source:
+  name: "Query execution profiles from production systems"
+  url: "Aggregated from Snowflake, Spark, Trino, and Presto query profiles"
+  accessed: "2025-08-21"
+  license: "Anonymized production data and published performance studies"
+  credibility: "Tier A"
+
+# Data Characteristics
+characteristics:
+  rows: 6
+  columns: 20
+  time_range: "2024 - 2025"
+  update_frequency: "static"
+  collection_method: "query profile analysis and performance studies"
+
+# Column Descriptions
+columns:
+  source:
+    type: "string"
+    description: "Source of the query profile data"
+    unit: "text"
+  query_engine:
+    type: "string"
+    description: "Query engine used for execution"
+    unit: "categorical"
+  query_type:
+    type: "string"
+    description: "Type of SQL query analyzed"
+    unit: "categorical"
+  table_size_gb:
+    type: "number"
+    description: "Total table size in gigabytes"
+    unit: "GB"
+  partitions_total:
+    type: "number"
+    description: "Total number of partitions in table"
+    unit: "count"
+  partitions_scanned:
+    type: "number"
+    description: "Number of partitions actually scanned"
+    unit: "count"
+  bytes_scanned_gb:
+    type: "number"
+    description: "Total bytes read from storage"
+    unit: "GB"
+  bytes_returned_gb:
+    type: "number"
+    description: "Bytes returned to client after processing"
+    unit: "GB"
+  rows_examined_millions:
+    type: "number"
+    description: "Number of rows examined in millions"
+    unit: "millions"
+  rows_returned_thousands:
+    type: "number"
+    description: "Number of rows returned in thousands"
+    unit: "thousands"
+  execution_time_seconds:
+    type: "number"
+    description: "Query execution time in seconds"
+    unit: "seconds"
+  pruning_method:
+    type: "string"
+    description: "Data pruning technique used"
+    unit: "categorical"
+  scan_efficiency_percent:
+    type: "number"
+    description: "Percentage of scanned data that was returned"
+    unit: "percentage"
+  data_compression_ratio:
+    type: "number"
+    description: "Compression ratio of the underlying data"
+    unit: "ratio"
+  spilled_to_disk_gb:
+    type: "number"
+    description: "Amount of data spilled to disk during processing"
+    unit: "GB"
+  network_bytes_gb:
+    type: "number"
+    description: "Bytes transferred over network"
+    unit: "GB"
+  study_context:
+    type: "string"
+    description: "Context or purpose of the performance study"
+    unit: "categorical"
+  read_amplification:
+    type: "number"
+    description: "Ratio of bytes scanned to bytes returned"
+    unit: "ratio"
+  partition_hit_rate:
+    type: "number"
+    description: "Percentage of partitions that were scanned"
+    unit: "ratio (0-1)"
+  row_selectivity:
+    type: "number"
+    description: "Percentage of examined rows that were returned"
+    unit: "ratio (0-1)"
+  bytes_per_second:
+    type: "number"
+    description: "Data scanning throughput"
+    unit: "GB/second"
+  pruning_effectiveness:
+    type: "number"
+    description: "Percentage of partitions successfully pruned"
+    unit: "ratio (0-1)"
+
+# Quality Indicators
+quality:
+  completeness: "100% - all fields populated"
+  sample_size: "6 production query profiles"
+  confidence: "high"
+  limitations:
+    - "Query patterns and data distributions vary significantly"
+    - "Performance depends on cluster configuration and data layout"
+    - "Results represent specific workload characteristics"
+
+# Usage Notes
+notes:
+  - "Read amplification shows efficiency of data scanning"
+  - "Lower amplification ratios indicate better query optimization"
+  - "Partition pruning effectiveness varies by query predicate selectivity"
+  - "Spill to disk indicates memory pressure during execution"
+  - "Network bytes may differ from returned bytes due to compression"

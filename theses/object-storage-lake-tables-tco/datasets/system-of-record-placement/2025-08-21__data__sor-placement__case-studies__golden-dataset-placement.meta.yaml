@@ -1,0 +1,77 @@
+# Dataset Metadata
+dataset:
+  title: "Golden Dataset Placement Case Studies"
+  description: "Real-world examples of system-of-record placement decisions from major tech companies"
+  topic: "System of Record Placement Strategies"
+  metric: "Where companies place their golden datasets (lake vs warehouse)"
+  
+# Source Information
+source:
+  name: "Engineering Blogs and Public Case Studies"
+  url: "Multiple tech company engineering blogs"
+  accessed: "2025-08-21"
+  license: "Public information aggregation"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 8
+  columns: 9
+  time_range: "2020 - 2025"
+  update_frequency: "static"
+  collection_method: "manual curation from public sources"
+  
+# Column Descriptions
+columns:
+  company:
+    type: "string"
+    description: "Company name implementing the SOR strategy"
+    unit: "text"
+  domain:
+    type: "string"
+    description: "Business domain of the golden dataset"
+    unit: "text"
+  dataset:
+    type: "string"
+    description: "Name or type of the golden dataset"
+    unit: "text"
+  sor_location:
+    type: "string"
+    description: "Primary location of system of record (lake/dw/hybrid)"
+    unit: "categorical"
+  storage_tb:
+    type: "number"
+    description: "Approximate dataset size in terabytes"
+    unit: "TB"
+  consumers_count:
+    type: "number"
+    description: "Number of downstream consumers/applications"
+    unit: "count"
+  reason:
+    type: "string"
+    description: "Primary rationale for placement decision"
+    unit: "text"
+  source:
+    type: "string"
+    description: "Source publication or blog"
+    unit: "text"
+  url:
+    type: "string"
+    description: "URL to source material"
+    unit: "URL"
+    
+# Quality Indicators
+quality:
+  completeness: "100%"
+  sample_size: "8 major tech companies"
+  confidence: "high"
+  limitations: 
+    - "Self-reported data from engineering blogs"
+    - "Size estimates may be approximate"
+    - "Consumer counts are point-in-time estimates"
+  
+# Usage Notes
+notes:
+  - "Focuses on well-documented public case studies"
+  - "Represents diverse domains and placement strategies"
+  - "Useful for benchmarking SOR placement decisions"

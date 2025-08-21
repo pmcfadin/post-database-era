@@ -1,0 +1,89 @@
+{
+  "total_costs": {
+    "optimization_jobs_sample": 28339.0,
+    "scheduler_monthly_spend": 9828.0,
+    "cloud_billing_sample": 41304.9,
+    "combined_sample_cost": 69643.9
+  },
+  "cost_per_tb": {
+    "optimization_jobs": 21.75,
+    "scheduler_monthly": 20.37,
+    "cloud_billing": 29.14,
+    "average_across_sources": 23.75
+  },
+  "job_type_analysis": {
+    "optimize": {
+      "total_cost": 33576.5,
+      "total_data_tb": 731.9,
+      "cost_per_tb": 45.88,
+      "data_sources": 7
+    },
+    "vacuum": {
+      "total_cost": 10425.6,
+      "total_data_tb": 984.3,
+      "cost_per_tb": 10.59,
+      "data_sources": 4
+    },
+    "zorder": {
+      "total_cost": 5648.0,
+      "total_data_tb": 17.0,
+      "cost_per_tb": 332.24,
+      "data_sources": 2
+    },
+    "compaction": {
+      "total_cost": 16377.7,
+      "total_data_tb": 696.6,
+      "cost_per_tb": 23.51,
+      "data_sources": 7
+    },
+    "snapshot_expiry": {
+      "total_cost": 90.0,
+      "total_data_tb": 157.4,
+      "cost_per_tb": 0.57,
+      "data_sources": 2
+    },
+    "clustering": {
+      "total_cost": 13354.1,
+      "total_data_tb": 615.9,
+      "cost_per_tb": 21.68,
+      "data_sources": 4
+    }
+  },
+  "format_analysis": {
+    "delta": {
+      "total_cost": 49650.1,
+      "total_data_tb": 1733.2,
+      "total_jobs": 3668,
+      "cost_per_tb": 28.65,
+      "cost_per_job": 13.54
+    },
+    "iceberg": {
+      "total_cost": 13445.7,
+      "total_data_tb": 719.5,
+      "total_jobs": 538,
+      "cost_per_tb": 18.69,
+      "cost_per_job": 24.99
+    },
+    "parquet": {
+      "total_cost": 3022.0,
+      "total_data_tb": 134.5,
+      "total_jobs": 340,
+      "cost_per_tb": 22.47,
+      "cost_per_job": 8.89
+    },
+    "hudi": {
+      "total_cost": 12045.7,
+      "total_data_tb": 537.0,
+      "total_jobs": 232,
+      "cost_per_tb": 22.43,
+      "cost_per_job": 51.92
+    },
+    "bigquery_native": {
+      "total_cost": 1308.4,
+      "total_data_tb": 78.9,
+      "total_jobs": 672,
+      "cost_per_tb": 16.58,
+      "cost_per_job": 1.95
+    }
+  }
+}

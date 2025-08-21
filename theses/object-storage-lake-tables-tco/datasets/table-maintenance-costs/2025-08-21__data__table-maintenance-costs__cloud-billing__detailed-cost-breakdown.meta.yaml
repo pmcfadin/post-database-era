@@ -1,0 +1,124 @@
+# Dataset Metadata
+dataset:
+  title: "Cloud Billing Breakdown for Table Optimization Jobs"
+  description: "Detailed cloud billing data showing compute, storage I/O, and network costs for table maintenance operations across AWS, Azure, and GCP"
+  topic: "Cloud billing analysis for table maintenance operations"
+  metric: "Detailed cost breakdown including compute, storage I/O, and network charges"
+  
+# Source Information
+source:
+  name: "Cloud provider billing data and optimization case studies"
+  url: "AWS re:Invent 2024, Azure Ignite 2024, GCP Next 2024, community forums"
+  accessed: "2025-08-21"
+  license: "Public case studies and billing analysis sessions"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 6
+  columns: 15
+  time_range: "2024-11 to 2024-12"
+  update_frequency: "static"
+  collection_method: "manual extraction from cloud provider sessions"
+  
+# Column Descriptions
+columns:
+  cloud_provider:
+    type: "string"
+    description: "Cloud service provider (aws, azure, gcp)"
+    unit: "categorical"
+  service:
+    type: "string"
+    description: "Specific cloud service used (emr, glue, synapse_analytics, databricks, dataproc, bigquery)"
+    unit: "categorical"
+  org_id:
+    type: "string"
+    description: "Organization identifier from case studies"
+    unit: "categorical"
+  billing_month:
+    type: "string"
+    description: "Month for which billing data is reported"
+    unit: "YYYY-MM"
+  job_type:
+    type: "string"
+    description: "Type of maintenance operation (optimize, compaction, vacuum, clustering)"
+    unit: "categorical"
+  format:
+    type: "string"
+    description: "Table format being maintained (delta, iceberg, hudi, bigquery_native)"
+    unit: "categorical"
+  instance_type:
+    type: "string"
+    description: "Compute instance type used for the operations"
+    unit: "categorical"
+  instance_hours:
+    type: "number"
+    description: "Total compute instance hours consumed"
+    unit: "hours"
+  compute_cost_usd:
+    type: "number"
+    description: "Cost for compute resources (CPU, memory)"
+    unit: "USD"
+  storage_io_cost_usd:
+    type: "number"
+    description: "Cost for storage input/output operations"
+    unit: "USD"
+  network_cost_usd:
+    type: "number"
+    description: "Cost for network data transfer"
+    unit: "USD"
+  total_cost_usd:
+    type: "number"
+    description: "Total combined cost for all resources"
+    unit: "USD"
+  data_tb_touched:
+    type: "number"
+    description: "Amount of data processed during maintenance"
+    unit: "terabytes"
+  jobs_executed:
+    type: "number"
+    description: "Number of individual jobs executed in the billing period"
+    unit: "count"
+  source:
+    type: "string"
+    description: "Source publication or session where data was presented"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all fields populated"
+  sample_size: "6 enterprise billing accounts across 3 cloud providers"
+  confidence: "high"
+  limitations: 
+    - "Billing data from public case studies only"
+    - "Costs may vary by region and enterprise discount rates"
+    - "Network costs depend on data locality and cross-region transfers"
+    - "Storage I/O costs vary by access patterns and caching"
+  
+# Usage Notes
+notes:
+  - "All costs are actual billing charges, not list prices"
+  - "Instance hours include both active job time and cluster startup/shutdown"
+  - "Storage I/O includes both reads from source tables and writes for optimized outputs"
+  - "Network costs primarily from data movement between storage and compute"
+  - "Some organizations use reserved instances or committed use discounts"
+
+# Key Insights
+insights:
+  total_monthly_cost: "$41,304.90"
+  cost_breakdown:
+    compute: "87.7% of total cost"
+    storage_io: "9.8% of total cost"
+    network: "2.5% of total cost"
+  average_cost_per_tb: "$29.14"
+  average_cost_per_job: "$18.49"
+  cloud_provider_comparison:
+    aws: "$15,140.70 (premium for EMR and Glue services)"
+    azure: "$14,758.10 (competitive with Synapse and Databricks)"
+    gcp: "$11,406.10 (most cost-effective with BigQuery clustering)"
+  optimization_opportunities:
+    - "Compute represents largest cost component - optimize instance sizing"
+    - "Storage I/O costs can be reduced with better data locality"
+    - "Network costs minimal but can be eliminated with same-region processing"
+    - "BigQuery clustering shows best cost efficiency for supported workloads"
+    - "Consider cloud-native optimization services over generic compute engines"

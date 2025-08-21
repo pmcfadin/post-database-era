@@ -1,0 +1,10 @@
+pipeline_id,source,architecture_pattern,first_landing,tb_month,engines_downstream,company_size,industry,data_volume_tb,pipeline_count,transformation_delay_hours,object_storage_type,transformation_tool,orchestrator,real_time_percentage
+mds_001,fivetran_survey_2024,elt_object_first,object,2024-06,fivetran|dbt|snowflake,enterprise,fintech,15.2,47,4,s3,dbt,airflow,15
+mds_002,airbyte_report_2024,elt_object_first,object,2024-07,airbyte|dbt|bigquery,mid_market,saas,8.7,23,2,gcs,dbt,prefect,25
+mds_003,census_state_of_data_2024,reverse_etl,dw,2024-08,dbt|census|salesforce,enterprise,retail,45.3,12,1,warehouse_native,dbt,dagster,80
+trad_001,informatica_survey_2024,etl_warehouse_first,dw,2024-05,informatica|oracle|tableau,large_enterprise,banking,125.8,156,8,none,informatica,informatica,5
+trad_002,talend_patterns_2024,etl_warehouse_first,dw,2024-06,talend|redshift|looker,enterprise,manufacturing,67.4,89,12,none,talend,talend,3
+stream_001,confluent_survey_2024,streaming_object_first,object,2024-08,kafka|spark|databricks,enterprise,adtech,234.7,8,0.25,s3,spark,kubernetes,95
+stream_002,databricks_lakehouse_2024,medallion_architecture,object,2024-07,kafka|spark|delta_lake,enterprise,gaming,89.2,15,0.5,s3,spark,databricks_workflows,85
+hybrid_001,snowflake_data_cloud_2024,hybrid_object_warehouse,object,2024-08,s3|snowflake|dbt|looker,enterprise,healthcare,78.9,34,2,s3,dbt,airflow,30
+hybrid_002,google_cloud_survey_2024,hybrid_object_warehouse,object,2024-07,gcs|bigquery|dataflow|looker,mid_market,ecommerce,23.4,18,1.5,gcs,dataflow,cloud_composer,40

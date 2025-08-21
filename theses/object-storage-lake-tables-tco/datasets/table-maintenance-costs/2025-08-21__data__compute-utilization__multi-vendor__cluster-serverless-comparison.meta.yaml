@@ -1,0 +1,82 @@
+# Dataset Metadata
+dataset:
+  title: "Compute Utilization: Cluster vs Serverless Database Deployment Comparison"
+  description: "Comparative analysis of CPU utilization, idle time, and autoscaling efficiency between traditional cluster deployments and serverless database architectures across multiple database engines"
+  topic: "compute-utilization-idle-metrics"
+  metric: "cpu_utilization_percentage_idle_time_scale_events"
+  
+# Source Information
+source:
+  name: "Synthetic Database Performance Research"
+  url: "internal_research_study"
+  accessed: "2025-08-21"
+  license: "Research Use"
+  credibility: "Tier B"
+  
+# Data Characteristics
+characteristics:
+  rows: 24
+  columns: 10
+  time_range: "7 - 90 days sample periods"
+  update_frequency: "static"
+  collection_method: "synthetic_benchmark_analysis"
+  
+# Column Descriptions
+columns:
+  engine:
+    type: "string"
+    description: "Database engine name"
+    unit: "categorical"
+  mode:
+    type: "string"
+    description: "Deployment mode - cluster or serverless"
+    unit: "categorical"
+  deployment_type:
+    type: "string"
+    description: "Infrastructure deployment type"
+    unit: "categorical"
+  cpu_util_avg:
+    type: "number"
+    description: "Average CPU utilization percentage"
+    unit: "percentage"
+  idle_pct:
+    type: "number"
+    description: "Percentage of time spent idle"
+    unit: "percentage"
+  scale_events_day:
+    type: "number"
+    description: "Number of scaling events per day"
+    unit: "count"
+  cost_efficiency:
+    type: "number"
+    description: "Cost efficiency ratio (0-1 scale)"
+    unit: "ratio"
+  resource_waste_pct:
+    type: "number"
+    description: "Percentage of resources wasted"
+    unit: "percentage"
+  scale_up_latency_min:
+    type: "number"
+    description: "Time to scale up resources"
+    unit: "minutes"
+  scale_down_latency_min:
+    type: "number"
+    description: "Time to scale down resources"
+    unit: "minutes"
+    
+# Quality Indicators
+quality:
+  completeness: "100%"
+  sample_size: "12 database engines x 2 deployment modes"
+  confidence: "medium"
+  limitations: 
+    - "Synthetic data based on industry patterns"
+    - "Individual workload variations not captured"
+    - "Cloud provider specific optimizations not included"
+  
+# Usage Notes
+notes:
+  - "Cluster deployments show consistently higher idle time (55-85%)"
+  - "Serverless deployments achieve 65-95% CPU utilization"
+  - "Serverless has 10-40x more scaling events but faster response times"
+  - "Cost efficiency averages 0.45 for clusters vs 0.83 for serverless"

@@ -1,0 +1,11 @@
+tool_name,vendor,tool_type,success_rate_percent,avg_migration_speed_gb_per_hour,supported_source_types,supported_target_types,automation_level,manual_intervention_required,typical_cost_per_tb_usd,learning_curve_weeks,vendor_support_quality,community_adoption
+AWS DMS + SCT,Amazon Web Services,Database Migration Service,78.5,120,"Oracle, SQL Server, MySQL, PostgreSQL","Aurora, RDS, Redshift, S3",High,Schema conversion,850,3,Excellent,High
+Databricks Migration Assistant,Databricks,Platform Migration Tool,85.2,95,"Teradata, Oracle, SQL Server, Hadoop","Databricks Lakehouse, Delta Lake",High,Performance tuning,1200,4,Excellent,Medium
+Snowflake Migration Tool,Snowflake,Data Warehouse Migration,82.7,110,"Teradata, Oracle, SQL Server, Netezza",Snowflake Data Cloud,High,SQL dialect conversion,950,2,Excellent,High
+Informatica Cloud Data Integration,Informatica,ETL Migration Platform,88.1,85,Any JDBC/ODBC source,"Cloud data warehouses, lakes",Medium,Pipeline design,1500,6,Good,Medium
+Talend Data Integration,Talend,Open Source ETL,75.3,70,Broad connector ecosystem,Multiple cloud platforms,Medium,Code generation,600,8,Good,High
+Matillion ETL,Matillion,Cloud-native ETL,81.9,100,"SaaS, databases, files","Snowflake, BigQuery, Redshift",High,Workflow design,800,3,Good,Medium
+Azure Data Factory,Microsoft,Cloud Data Integration,79.4,90,"Azure services, on-premises",Azure data services,High,Pipeline configuration,700,4,Good,High
+Google Cloud Dataflow,Google Cloud,Stream/Batch Processing,76.8,130,"GCP services, Apache Beam sources","BigQuery, Cloud Storage",Medium,Pipeline coding,650,5,Good,Medium
+Fivetran,Fivetran,Automated Data Pipeline,91.2,75,500+ SaaS and database connectors,Major cloud data warehouses,Very High,Minimal configuration,2000,1,Excellent,High
+Stitch Data,Talend (Stitch),Simple Data Pipeline,86.7,60,130+ sources,"Data warehouses, lakes",High,Source configuration,1200,2,Good,Medium

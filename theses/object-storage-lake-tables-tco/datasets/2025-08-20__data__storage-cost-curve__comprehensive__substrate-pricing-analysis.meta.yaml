@@ -1,0 +1,89 @@
+# Dataset Metadata
+dataset:
+  title: "Comprehensive Storage Cost Curve Analysis: Multi-Year, Multi-Region, Multi-Tier"
+  description: "Extended analysis of storage pricing across object storage and data warehouse platforms, including historical trends (2018-2025), regional variations, enterprise platforms, and detailed access pattern classification"
+  topic: "storage-cost-curve"
+  metric: "Comprehensive price per TB per month with historical and regional analysis"
+  
+# Source Information
+source:
+  name: "Multi-vendor comprehensive pricing analysis"
+  url: "Cloud provider pricing pages, historical archives, vendor documentation"
+  accessed: "2025-08-20"
+  license: "Public pricing information"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 50
+  columns: 11
+  time_range: "2018-01-01 to 2025-01-01"
+  update_frequency: "quarterly"
+  collection_method: "automated and manual pricing research"
+  
+# Column Descriptions
+columns:
+  cloud:
+    type: "string"
+    description: "Cloud provider or platform name"
+    unit: "categorical"
+  region:
+    type: "string"
+    description: "Cloud region identifier or 'primary' for platform defaults"
+    unit: "categorical"
+  substrate:
+    type: "string"
+    description: "Storage substrate type: object or dw-native"
+    unit: "categorical"
+  service:
+    type: "string"
+    description: "Specific service name (S3, Redshift, BigQuery, Databricks, etc.)"
+    unit: "categorical"
+  tier:
+    type: "string"
+    description: "Storage tier or class with performance characteristics"
+    unit: "categorical"
+  redundancy:
+    type: "string"
+    description: "Data redundancy and availability level"
+    unit: "categorical"
+  price_per_gb_month:
+    type: "number"
+    description: "Price per gigabyte per month in USD"
+    unit: "USD/GB/month"
+  price_per_tb_month:
+    type: "number"
+    description: "Price per terabyte per month in USD"
+    unit: "USD/TB/month"
+  effective_date:
+    type: "date"
+    description: "Date when pricing was effective"
+    unit: "YYYY-MM-DD"
+  source:
+    type: "string"
+    description: "Original source URL or reference"
+    unit: "text"
+  access_pattern:
+    type: "string"
+    description: "Expected data access frequency pattern"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all fields populated"
+  sample_size: "50 comprehensive pricing data points"
+  confidence: "high"
+  limitations: 
+    - "Historical pricing based on available archives"
+    - "Enterprise platform pricing may vary significantly by contract"
+    - "Regional multipliers approximate for some providers"
+    - "Access pattern classification simplified"
+  
+# Usage Notes
+notes:
+  - "Historical analysis shows 6-8% annual price decline for object storage"
+  - "Regional price variations typically 8-15% above US East baseline"
+  - "Enterprise DW platforms 20-50% premium over cloud-native options"
+  - "Archive tiers provide 20-95% cost reduction vs standard storage"
+  - "Access pattern optimization can achieve 50-80% cost savings"
+  - "Premium performance tiers cost 5-10x standard storage rates"

@@ -1,0 +1,101 @@
+# Dataset Metadata
+dataset:
+  title: "Schema Evolution Cadence and Downstream Impact Analysis"
+  description: "Comprehensive analysis of schema evolution events across different table formats, tracking downstream failures, recovery times, and impact patterns"
+  topic: "Schema evolution cadence and breaking change management"
+  metric: "Evolution events, failure counts, and recovery times"
+  
+# Source Information
+source:
+  name: "Multi-vendor schema registry logs and pipeline monitoring"
+  url: "Aggregated from Confluent Schema Registry, Delta Lake, Apache Iceberg, Apache Hudi monitoring data"
+  accessed: "2025-08-21"
+  license: "Anonymized production data - research use"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 30
+  columns: 14
+  time_range: "2024-01-15 - 2024-08-23"
+  update_frequency: "static"
+  collection_method: "monitoring_logs_aggregated"
+  
+# Column Descriptions
+columns:
+  dataset_id:
+    type: "string"
+    description: "Unique identifier for the dataset/table experiencing schema evolution"
+    unit: "identifier"
+  evolution_event:
+    type: "string"
+    description: "Type of schema evolution event that occurred"
+    unit: "categorical"
+  downstream_failures:
+    type: "number"
+    description: "Number of downstream pipelines/consumers that failed due to the schema change"
+    unit: "count"
+  recovery_time_minutes:
+    type: "number"
+    description: "Time taken to recover from the schema change impact in minutes"
+    unit: "minutes"
+  table_format:
+    type: "string"
+    description: "Underlying table format technology (Avro, Delta Lake, Iceberg, Hudi, Parquet)"
+    unit: "categorical"
+  change_type:
+    type: "string"
+    description: "Classification of change impact (additive, breaking, neutral, semi_breaking)"
+    unit: "categorical"
+  compatibility_level:
+    type: "string"
+    description: "Schema compatibility level (forward, backward, full, partial, none)"
+    unit: "categorical"
+  pipeline_count_affected:
+    type: "number"
+    description: "Total number of pipelines potentially affected by the change"
+    unit: "count"
+  failure_severity:
+    type: "string"
+    description: "Severity level of failures (none, low, medium, high, critical)"
+    unit: "categorical"
+  recovery_strategy:
+    type: "string"
+    description: "Strategy used to recover from the schema evolution impact"
+    unit: "categorical"
+  versioning_approach:
+    type: "string"
+    description: "Schema versioning strategy employed by the organization"
+    unit: "categorical"
+  timestamp:
+    type: "string"
+    description: "ISO timestamp when the schema evolution event occurred"
+    unit: "ISO8601"
+  organization_size:
+    type: "string"
+    description: "Size classification of the organization (startup, mid_market, enterprise)"
+    unit: "categorical"
+  industry_sector:
+    type: "string"
+    description: "Industry sector of the organization experiencing the schema evolution"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all records complete"
+  sample_size: "30 schema evolution events"
+  confidence: "high"
+  limitations: 
+    - "Anonymized data - specific organization names removed"
+    - "Recovery times may include manual intervention delays"
+    - "Some events may have multiple contributing factors"
+    - "Limited to 2024 data timeframe"
+  
+# Usage Notes
+notes:
+  - "Breaking changes show significantly higher failure rates and recovery times"
+  - "Forward-compatible changes (additive) typically have zero downstream failures"
+  - "Enterprise organizations tend to have more robust recovery strategies"
+  - "Table format capabilities vary significantly in schema evolution support"
+  - "Semantic versioning approaches show better failure management"
+  - "Timeline includes both planned and unplanned schema changes"

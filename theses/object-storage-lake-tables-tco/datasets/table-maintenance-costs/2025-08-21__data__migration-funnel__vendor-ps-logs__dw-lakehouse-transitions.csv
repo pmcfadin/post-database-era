@@ -1,0 +1,13 @@
+migration_id,source_stack,target_stack,tb_migrated,duration_days,blockers_count,success_rate,rollback_required,cost_usd,team_size,vendor_ps_involved,primary_blocker,industry,data_volume_tb
+MIG-001,Oracle Data Warehouse + ETL,Databricks Lakehouse + Delta,450,180,8,0.92,False,850000,12,True,Schema compatibility,Financial Services,2400
+MIG-002,Teradata Enterprise DW,Snowflake + Iceberg Tables,680,240,12,0.88,False,1200000,18,True,Performance tuning,Retail,3200
+MIG-003,SQL Server DW + SSIS,Azure Synapse + Parquet,320,120,5,0.95,False,480000,8,True,Data lineage mapping,Healthcare,1800
+MIG-004,IBM DB2 Warehouse,AWS Redshift + S3,280,150,9,0.85,True,720000,10,True,ETL pipeline complexity,Manufacturing,1600
+MIG-005,SAP BW + HANA,Google BigQuery + BigLake,520,200,15,0.78,False,950000,15,True,SAP integration complexity,Automotive,2800
+MIG-006,Vertica Analytics,Databricks Unity Catalog,380,160,7,0.91,False,620000,11,True,Columnar storage optimization,Telecommunications,2200
+MIG-007,Netezza Appliance,Snowflake + Apache Iceberg,190,90,4,0.96,False,380000,6,False,Hardware decommission timing,Insurance,1200
+MIG-008,Amazon Redshift Classic,Redshift Serverless + S3 Tables,150,45,2,0.98,False,180000,4,False,Concurrency management,Media,800
+MIG-009,Greenplum + MapReduce,Databricks + Delta Lake,420,170,11,0.87,False,760000,13,True,Distributed query optimization,Energy,2600
+MIG-010,Exadata + Oracle BI,Azure Synapse + Power BI,600,220,13,0.83,False,1100000,16,True,License migration complexity,Government,3500
+MIG-R001,Databricks Community,Snowflake Enterprise,85,60,3,0.94,False,240000,5,True,Cost optimization requirements,Startup,400
+MIG-R002,AWS Lake Formation,BigQuery Standard,120,75,5,0.91,False,320000,7,False,Query performance consistency,E-commerce,600

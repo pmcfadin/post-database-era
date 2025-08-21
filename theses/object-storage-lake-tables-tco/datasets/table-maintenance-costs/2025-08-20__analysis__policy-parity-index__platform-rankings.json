@@ -1,0 +1,43 @@
+{
+  "dataset_summary": {
+    "total_platforms": 6,
+    "total_controls": 5,
+    "governance_records": 30,
+    "compliance_records": 18,
+    "lineage_records": 10
+  },
+  "top_performers": {
+    "best_governance_platform": "Databricks_Unity_Catalog",
+    "best_compliance_platform": "Snowflake",
+    "best_lineage_platform": "Databricks_Unity_Catalog",
+    "column_level_lineage_platforms": [
+      "Databricks_Unity_Catalog",
+      "Apache_Atlas",
+      "DataHub",
+      "Collibra"
+    ]
+  },
+  "platform_scores": {
+    "Snowflake": 1.8,
+    "Databricks_Unity_Catalog": 2.0,
+    "BigQuery": 1.6,
+    "Apache_Ranger": 1.6,
+    "Redshift": 1.4,
+    "AWS_Lake_Formation": 1.6
+  },
+  "compliance_scores": {
+    "Snowflake": 94.5,
+    "Databricks_Unity_Catalog": 90.0,
+    "BigQuery": 92.66666666666667,
+    "Redshift": 87.0,
+    "Apache_Ranger": 72.5,
+    "AWS_Lake_Formation": 89.33333333333333
+  },
+  "key_insights": [
+    "Databricks_Unity_Catalog leads in overall governance capabilities",
+    "Snowflake has highest audit completeness at 94.5%",
+    "Databricks_Unity_Catalog provides most accurate lineage at 95%",
+    "4 platforms offer column-level lineage tracking",
+    "Unity Catalog and DataHub emerge as governance leaders"
+  ]
+}

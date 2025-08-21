@@ -1,0 +1,23 @@
+adoption_level,company,compression_ratio,consistency_model,cpu_overhead,data_scale,dataset_id,description,enabled,feature_type,implementation,parquet_feature,performance_impact,provider,recommended_size,source,speedup_factor,supported_since,typical_size,use_case
+standard,,,,,,apache_parquet_docs_encoding,Default encoding for string columns,1,encoding,,Dictionary Encoding,high_compression,,,Apache Parquet Documentation,,,,
+standard,,,,,,apache_parquet_docs_encoding,Run-length encoding for repetitive data,1,encoding,,RLE Encoding,high_compression,,,Apache Parquet Documentation,,,,
+common,,,,,,apache_parquet_docs_encoding,Encoding for sorted numeric columns,1,encoding,,Delta Encoding,medium_compression,,,Apache Parquet Documentation,,,,
+standard,,,,,,apache_parquet_docs_stats,Min/max values per column chunk,1,statistics,,Column Min/Max Stats,query_pruning,,,Apache Parquet Documentation,,,,
+standard,,,,,,apache_parquet_docs_stats,Count of null values per column,1,statistics,,Null Count Stats,query_optimization,,,Apache Parquet Documentation,,,,
+limited,,,,,,apache_parquet_docs_stats,Cardinality estimation (optional),0,statistics,,Distinct Count Stats,query_planning,,,Apache Parquet Documentation,,,,
+very_high,,3-4x,,low,,compression_algorithms,Fast compression/decompression,1,compression,,Snappy Compression,balanced_speed_size,,,Industry Benchmarks,,,,
+medium,,5-7x,,high,,compression_algorithms,High compression ratio,1,compression,,GZIP Compression,high_compression_slow,,,Industry Benchmarks,,,,
+growing,,2-3x,,very_low,,compression_algorithms,Ultra-fast compression,1,compression,,LZ4 Compression,very_fast_moderate_size,,,Industry Benchmarks,,,,
+rapidly_growing,,4-6x,,medium,,compression_algorithms,Balanced modern compression,1,compression,,ZSTD Compression,optimal_balance,,,Industry Benchmarks,,,,
+emerging,,,,,,bloom_filters_usage,Probabilistic membership test,1,bloom_filter,,Bloom Filters,false_positive_reduction,,,Parquet Format Spec 1.13+,,parquet_1.13,,point_lookups
+production_ready,,,,,,bloom_filters_implementation,Spark can write bloom filters,1,bloom_filter,spark_3.1_plus,Bloom Filter Write Support,query_acceleration,,,Apache Spark 3.1+,,,,
+production_ready,,,,,,bloom_filters_implementation,Arrow can utilize bloom filters,1,bloom_filter,arrow_cpp,Bloom Filter Read Support,scan_reduction,,,Apache Arrow,,,,
+standard,,,strong,,,object_store_consistency,Strong consistency for new objects,1,consistency,,Read-After-Write Consistency,reliable_reads,aws_s3,,AWS S3 Strong Consistency,,,,
+standard,,,strong,,,object_store_consistency,Strong consistency by default,1,consistency,,Strong Consistency,reliable_reads,gcs,,Google Cloud Storage,,,,
+standard,,,strong,,,object_store_consistency,Strong consistency for all operations,1,consistency,,Strong Consistency,reliable_reads,azure_blob,,Azure Blob Storage,,,,
+best_practice,,,,,,file_optimization,128MB-1GB row groups for optimal performance,1,optimization,,Row Group Size Optimization,io_efficiency,,128MB-1GB,Best Practices Documentation,,,,
+best_practice,,,,,,file_optimization,Optimize column chunks for memory usage,1,optimization,,Column Chunk Sizing,memory_efficiency,,,Best Practices Documentation,,,1MB-100MB,
+standard,,,,,,file_optimization,Filter pushdown using statistics,1,optimization,,Predicate Pushdown,query_acceleration,,,Performance Studies,10x-100x,,,
+production_proven,Netflix,,,,petabyte,production_usage,Standard Netflix configuration,1,production_config,,Dictionary Encoding + Snappy,optimal_for_analytics,,,Netflix Tech Blog,,,,
+production_proven,Uber,,,,exabyte,production_usage,Uber optimized configuration,1,production_config,,ZSTD + Column Statistics,storage_cost_reduction,,,Uber Engineering Blog,,,,
+enterprise_standard,Databricks,,,,,production_usage,Delta Lake optimized Parquet,1,production_config,,Delta + Bloom Filters,upsert_optimization,,,Databricks Performance Guide,,,,lakehouse

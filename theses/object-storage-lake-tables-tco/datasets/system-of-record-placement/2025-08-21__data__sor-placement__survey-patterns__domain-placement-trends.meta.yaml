@@ -1,0 +1,66 @@
+# Dataset Metadata
+dataset:
+  title: "Domain-Based SOR Placement Patterns"
+  description: "Industry survey patterns showing how different business domains influence system-of-record placement decisions"
+  topic: "System of Record Placement by Business Domain"
+  metric: "Percentage adoption of lake-first vs warehouse-first strategies by domain"
+  
+# Source Information
+source:
+  name: "Industry Architecture Surveys and Patterns"
+  url: "Aggregated from multiple industry surveys and architectural assessments"
+  accessed: "2025-08-21"
+  license: "Synthesized public data"
+  credibility: "Tier B"
+  
+# Data Characteristics
+characteristics:
+  rows: 6
+  columns: 6
+  time_range: "2023 - 2025"
+  update_frequency: "annual"
+  collection_method: "survey synthesis and pattern analysis"
+  
+# Column Descriptions
+columns:
+  domain:
+    type: "string"
+    description: "Business domain category"
+    unit: "text"
+  pattern:
+    type: "string"
+    description: "Predominant SOR placement pattern for this domain"
+    unit: "categorical"
+  percentage:
+    type: "number"
+    description: "Percentage of organizations following this pattern in domain"
+    unit: "percentage"
+  primary_reason:
+    type: "string"
+    description: "Most common reason for placement choice in this domain"
+    unit: "text"
+  typical_size_tb:
+    type: "string"
+    description: "Typical dataset size range for this domain"
+    unit: "TB range"
+  consumer_range:
+    type: "string"
+    description: "Typical range of downstream consumers"
+    unit: "count range"
+    
+# Quality Indicators
+quality:
+  completeness: "100%"
+  sample_size: "6 major business domains"
+  confidence: "medium"
+  limitations: 
+    - "Synthesized from multiple sources, not single survey"
+    - "Percentages are estimates based on observed patterns"
+    - "Size and consumer ranges are approximate"
+  
+# Usage Notes
+notes:
+  - "Useful for predicting SOR placement by domain"
+  - "Shows clear domain-driven architectural patterns"
+  - "Financial domains favor warehouse-first due to compliance"
+  - "Event/ML domains favor lake-first for flexibility"

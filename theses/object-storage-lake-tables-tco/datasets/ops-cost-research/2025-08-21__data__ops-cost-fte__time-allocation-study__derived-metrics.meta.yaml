@@ -1,0 +1,87 @@
+dataset:
+  title: "Database Operations Time Allocation Study - Derived Metrics"
+  description: "Focused analysis of FTE time allocation per terabyte and per 100 tables for database operations, including maintenance and oncall ratios derived from operational data"
+  topic: database_operations_time_allocation_efficiency
+  metric: fte_hours_per_tb_and_per_100_tables
+source:
+  name: "Operational Time Allocation Analysis"
+  url: derived_from_operational_overhead_data
+  accessed: 2025-08-20
+  license: research_use_derived_analysis
+  credibility: "Tier B"
+characteristics:
+  rows: 8
+  columns: 13
+  time_range: 2024-2025
+  update_frequency: static_analytical_study
+  collection_method: derived_metrics_from_operational_data
+columns:
+  org_id:
+    type: string
+    description: "Anonymous organization identifier"
+    unit: categorical
+  org_size:
+    type: string
+    description: "Organization size category"
+    unit: small_medium_large
+  stack_type:
+    type: string
+    description: "Data platform architecture type"
+    unit: lake_dw
+  fte_hours_month:
+    type: number
+    description: "Total FTE hours per month for data operations"
+    unit: hours_per_month
+  tables:
+    type: number
+    description: "Total number of tables managed"
+    unit: count
+  tb:
+    type: number
+    description: "Total terabytes managed"
+    unit: terabytes
+  incidents:
+    type: number
+    description: "Monthly incidents requiring intervention"
+    unit: count_per_month
+  fte_hours_per_tb:
+    type: number
+    description: "FTE hours required per terabyte of data managed (key efficiency metric)"
+    unit: hours_per_terabyte
+  fte_hours_per_100_tables:
+    type: number
+    description: "FTE hours required per 100 tables managed (key scaling metric)"
+    unit: hours_per_100_tables
+  incidents_per_tb:
+    type: number
+    description: "Operational incidents per terabyte (reliability metric)"
+    unit: incidents_per_terabyte
+  maintenance_ratio:
+    type: number
+    description: "Proportion of time spent on maintenance activities"
+    unit: ratio_0_to_1
+  oncall_ratio:
+    type: number
+    description: "Proportion of time spent on oncall responsibilities"
+    unit: ratio_0_to_1
+  data_source:
+    type: string
+    description: "Operational context of the organization"
+    unit: categorical_description
+quality:
+  completeness: "100%"
+  sample_size: 8_organizations
+  confidence: medium
+  limitations:
+    - "Derived metrics based on operational estimates"
+    - "Sample size moderate for statistical analysis"
+    - "Cross-industry variation in operational practices"
+    - "Technology stack differences affect comparability"
+    - "Time allocation ratios are estimated industry averages"
+notes:
+  - "Key metrics: fte_hours_per_tb and fte_hours_per_100_tables"
+  - "Useful for operational planning and efficiency benchmarking"
+  - "Data lake vs data warehouse patterns show different scaling characteristics"
+  - "Cloud-native managed services show improved efficiency ratios"
+  - "Financial services show higher maintenance ratios due to compliance"
+  - "Derived metrics provide actionable operational insights"

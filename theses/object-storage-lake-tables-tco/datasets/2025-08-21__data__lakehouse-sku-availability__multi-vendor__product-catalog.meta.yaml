@@ -1,0 +1,68 @@
+# Dataset Metadata
+dataset:
+  title: "Lakehouse SKU Availability Across Major Cloud Vendors"
+  description: "Comprehensive catalog of first-class lakehouse SKU availability by vendor, cloud provider, and region with GA dates"
+  topic: "lakehouse-sku-availability"
+  metric: "Product availability and geographic coverage"
+  
+# Source Information
+source:
+  name: "Multi-vendor product catalogs and pricing pages"
+  url: "Vendor pricing pages, product announcements, and GA press releases"
+  accessed: "2025-08-21"
+  license: "Public information compilation"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 39
+  columns: 6
+  time_range: "2015-09-24 - 2024-01-31"
+  update_frequency: "Quarterly updates recommended"
+  collection_method: "Manual compilation from vendor sources"
+  
+# Column Descriptions
+columns:
+  vendor:
+    type: "string"
+    description: "Cloud/database vendor offering the lakehouse service"
+    unit: "Categorical"
+  product:
+    type: "string"
+    description: "Specific lakehouse product or service name"
+    unit: "Categorical"
+  cloud:
+    type: "string" 
+    description: "Cloud platform where the service is available"
+    unit: "Categorical (AWS/Azure/GCP)"
+  region:
+    type: "string"
+    description: "Geographic region where service is offered"
+    unit: "Cloud region identifier"
+  lakehouse_sku:
+    type: "number"
+    description: "Binary indicator of first-class lakehouse SKU availability"
+    unit: "Boolean (0/1)"
+  ga_date:
+    type: "date"
+    description: "General availability date for the service in that region"
+    unit: "YYYY-MM-DD format"
+    
+# Quality Indicators
+quality:
+  completeness: "100% for major vendors and primary regions"
+  sample_size: "39 vendor-product-region combinations"
+  confidence: "high"
+  limitations: 
+    - "GA dates are approximate for some services"
+    - "Regional availability may vary for preview vs GA features"
+    - "Some deprecated services included for historical context"
+  
+# Usage Notes
+notes:
+  - "lakehouse_sku=1 indicates first-class lakehouse capabilities available"
+  - "lakehouse_sku=0 indicates service deprecated or no longer available"
+  - "Microsoft Data Lake Analytics marked as deprecated (2024-01-31)"
+  - "Covers major cloud regions but not exhaustive global coverage"
+  - "Databricks availability dates reflect platform GA, not necessarily lakehouse features"
+  - "External tables vs native lake table formats distinguished where applicable"

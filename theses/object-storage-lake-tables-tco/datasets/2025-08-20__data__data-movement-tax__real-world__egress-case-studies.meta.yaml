@@ -1,0 +1,111 @@
+# Dataset Metadata
+dataset:
+  title: "Real-World Data Movement Cost Case Studies"
+  description: "Documented customer scenarios, database-specific costs, and optimization outcomes for cloud data egress"
+  topic: "data-movement-tax"
+  metric: "actual_egress_costs_and_optimizations"
+
+# Source Information
+source:
+  name: "Public Case Studies and Documentation"
+  url: "Multiple sources: company blogs, optimization reports, vendor case studies"
+  accessed: "2025-08-20"
+  license: "Public information compilation"
+  credibility: "Tier B"
+
+# Data Characteristics
+characteristics:
+  rows: 17
+  columns: 17
+  time_range: "Real-world scenarios representing current practices"
+  update_frequency: "static"
+  collection_method: "case_study_compilation"
+
+# Column Descriptions
+columns:
+  cloud:
+    type: "string"
+    description: "Cloud provider or multi-cloud scenario"
+    unit: "categorical"
+  movement_type:
+    type: "string"
+    description: "Type of data movement or use case"
+    unit: "categorical"
+  gb_moved:
+    type: "number"
+    description: "Volume of data transferred in GB"
+    unit: "GB"
+  cost_usd:
+    type: "number"
+    description: "Actual or estimated cost in USD"
+    unit: "USD"
+  source_region:
+    type: "string"
+    description: "Source region or service"
+    unit: "categorical"
+  dest_region:
+    type: "string"
+    description: "Destination region or endpoint"
+    unit: "categorical"
+  company:
+    type: "string"
+    description: "Company or example case (anonymized where needed)"
+    unit: "categorical"
+  industry:
+    type: "string"
+    description: "Industry vertical"
+    unit: "categorical"
+  optimization_applied:
+    type: "string"
+    description: "Cost optimization strategy implemented"
+    unit: "text"
+  cost_reduction_pct:
+    type: "number"
+    description: "Percentage cost reduction achieved"
+    unit: "percentage"
+  service:
+    type: "string"
+    description: "Specific cloud service used"
+    unit: "categorical"
+  replication_type:
+    type: "string"
+    description: "Type of database replication or operation"
+    unit: "categorical"
+  monthly_cost:
+    type: "boolean"
+    description: "Whether cost represents monthly recurring charge"
+    unit: "boolean"
+  data_type:
+    type: "string"
+    description: "Category of case study data"
+    unit: "categorical"
+  collection_date:
+    type: "date"
+    description: "Date when data was compiled"
+    unit: "YYYY-MM-DD"
+  data_source:
+    type: "string"
+    description: "Source methodology"
+    unit: "categorical"
+  notes:
+    type: "string"
+    description: "Additional context and details"
+    unit: "text"
+
+# Quality Indicators
+quality:
+  completeness: "95% - Most fields populated with some optional fields empty"
+  sample_size: "17 real-world scenarios across multiple industries"
+  confidence: "medium"
+  limitations:
+    - "Some costs are estimated based on public information"
+    - "Enterprise pricing may differ from documented cases"
+    - "Anonymized examples may lack specific details"
+
+# Usage Notes
+notes:
+  - "Includes customer case studies, database scenarios, and optimization outcomes"
+  - "Data types: customer_case_study (6), database_scenario (7), optimization_outcome (4)"
+  - "Covers streaming, e-commerce, financial services, gaming, and analytics industries"
+  - "Database scenarios include RDS, Aurora, Cloud SQL, and Azure SQL"
+  - "Optimization cases show 40-80% cost reductions through various strategies"

@@ -1,0 +1,11 @@
+platform,lineage_scope,accuracy_percentage,real_time_updates,cross_platform_tracking,api_accessible,visual_interface,transformation_tracking,schema_evolution_tracking,data_quality_integration
+Databricks_Unity_Catalog,column_level,95,1,1,1,1,1,1,1
+Snowflake,table_level,85,0,0,1,1,1,0,0
+BigQuery,table_level,80,1,1,1,1,1,1,1
+Redshift,none_native,0,0,0,0,0,0,0,0
+AWS_Lake_Formation,table_level,75,0,1,1,0,0,0,0
+Apache_Atlas,column_level,70,1,1,1,1,1,1,0
+DataHub,column_level,88,1,1,1,1,1,1,1
+Apache_Ranger,none_native,0,0,0,0,0,0,0,0
+Collibra,column_level,92,0,1,1,1,1,1,1
+Purview,table_level,82,1,1,1,1,1,1,1

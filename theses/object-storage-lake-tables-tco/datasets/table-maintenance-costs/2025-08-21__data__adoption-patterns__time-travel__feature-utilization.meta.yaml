@@ -1,0 +1,94 @@
+# Dataset Metadata
+dataset:
+  title: "Time Travel Feature Adoption Patterns and Performance Impact Analysis"
+  description: "Comprehensive analysis of how different organization types adopt and utilize time travel features, including performance impacts and ROI metrics"
+  topic: "Time travel feature adoption and operational efficiency"
+  metric: "Adoption rates, performance impact, ROI timelines"
+  
+# Source Information
+source:
+  name: "Customer adoption surveys and performance monitoring"
+  url: "Compiled from vendor customer success teams and performance monitoring dashboards"
+  accessed: "2025-08-21"
+  license: "Research use - adoption pattern analysis"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 32
+  columns: 12
+  time_range: "2024-01 - 2025-08"
+  update_frequency: "quarterly"
+  collection_method: "customer surveys and telemetry data"
+  
+# Column Descriptions
+columns:
+  organization_type:
+    type: "string"
+    description: "Type of organization using time travel features"
+    unit: "categorical"
+  format:
+    type: "string"
+    description: "Table format providing time travel capabilities"
+    unit: "categorical"
+  team_maturity:
+    type: "string"
+    description: "Data engineering team maturity level"
+    unit: "categorical"
+  adoption_month:
+    type: "number"
+    description: "Months from initial deployment to production adoption"
+    unit: "months"
+  feature_usage_pct:
+    type: "number"
+    description: "Percentage of teams actively using time travel features"
+    unit: "percentage"
+  query_time_travel_pct:
+    type: "number"
+    description: "Percentage of operations that are time travel queries"
+    unit: "percentage"
+  rollback_operations_pct:
+    type: "number"
+    description: "Percentage of operations that are rollback/recovery"
+    unit: "percentage"
+  retention_days:
+    type: "number"
+    description: "Days of version history retained"
+    unit: "days"
+  storage_overhead_pct:
+    type: "number"
+    description: "Additional storage overhead for versioning"
+    unit: "percentage"
+  query_performance_impact_pct:
+    type: "number"
+    description: "Performance impact on regular queries due to versioning"
+    unit: "percentage"
+  training_hours_required:
+    type: "number"
+    description: "Hours of training required for team proficiency"
+    unit: "hours"
+  roi_months:
+    type: "number"
+    description: "Months to achieve positive ROI from time travel investment"
+    unit: "months"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - comprehensive coverage across organization types"
+  sample_size: "32 organizations across 8 industry verticals"
+  confidence: "high"
+  limitations: 
+    - "ROI calculations vary by organization size and use cases"
+    - "Performance impact depends on workload characteristics"
+    - "Training requirements vary by existing team expertise"
+  
+# Usage Notes
+notes:
+  - "Technology companies show fastest adoption (2-4 months)"
+  - "Financial services retain longest history (60-90 days average)"
+  - "Government organizations have longest ROI timelines (15-20 months)"
+  - "Higher team maturity correlates with faster adoption"
+  - "Storage overhead averages 12-26% across formats"
+  - "Query performance impact generally <20% for all formats"
+  - "Startups achieve ROI fastest due to agile operations"
+  - "Enterprise organizations require more training but achieve higher utilization"

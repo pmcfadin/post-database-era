@@ -1,0 +1,73 @@
+# Dataset Metadata
+dataset:
+  title: "Incident Sources - GitHub Postmortem Repositories"
+  description: "Comprehensive collection of GitHub repositories containing postmortem documentation, incident reports, and disaster recovery case studies"
+  topic: "table-maintenance-costs"
+  metric: "Incident documentation sources and repositories"
+  
+# Source Information
+source:
+  name: "GitHub API search across public repositories"
+  url: "https://api.github.com/search/repositories"
+  accessed: "2025-08-21"
+  license: "Public repositories - various licenses"
+  credibility: "Tier B/C"
+  
+# Data Characteristics
+characteristics:
+  rows: 24
+  columns: 7
+  time_range: "2018 - 2025"
+  update_frequency: "snapshot in time"
+  collection_method: "automated GitHub API search"
+  
+# Column Descriptions
+columns:
+  source_type:
+    type: "string"
+    description: "Type of source (github_postmortem)"
+    unit: "category"
+  organization:
+    type: "string"
+    description: "GitHub organization or user owning the repository"
+    unit: "name"
+  title:
+    type: "string"
+    description: "Repository name"
+    unit: "text"
+  description:
+    type: "string"
+    description: "Repository description provided by the owner"
+    unit: "text"
+  url:
+    type: "string"
+    description: "GitHub URL of the repository"
+    unit: "URL"
+  updated_at:
+    type: "string"
+    description: "Last update timestamp of the repository"
+    unit: "ISO 8601 timestamp"
+  search_term:
+    type: "string"
+    description: "Search term that matched this repository"
+    unit: "text"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all fields from GitHub API"
+  sample_size: "24 repositories found via search"
+  confidence: "medium"
+  limitations: 
+    - "Quality and accuracy varies by repository owner"
+    - "Some repositories may contain outdated information"
+    - "Search limited to public repositories only"
+    - "Repository descriptions may not accurately reflect content"
+  
+# Usage Notes
+notes:
+  - "Repositories span various incident types and technologies"
+  - "Useful for finding additional case studies and postmortem examples"
+  - "Repository quality should be evaluated individually"
+  - "Some repositories contain simulated or educational incidents"
+  - "Can be used to identify patterns in incident documentation practices"
+  - "Updated timestamps indicate recent activity in incident management"

@@ -1,0 +1,82 @@
+# Dataset Metadata
+dataset:
+  title: "Architecture Decision Records for SOR Placement"
+  description: "Documentation of architectural decisions regarding system-of-record placement with rationale and trade-offs"
+  topic: "SOR Placement Architecture Decisions"
+  metric: "Documented architectural decisions with justifications and constraints"
+  
+# Source Information
+source:
+  name: "Architecture Decision Record Patterns"
+  url: "Synthesized from common ADR patterns in enterprise architecture"
+  accessed: "2025-08-21"
+  license: "Pattern synthesis"
+  credibility: "Tier B"
+  
+# Data Characteristics
+characteristics:
+  rows: 6
+  columns: 10
+  time_range: "2023 - 2024"
+  update_frequency: "quarterly"
+  collection_method: "pattern synthesis from enterprise architecture practices"
+  
+# Column Descriptions
+columns:
+  decision_id:
+    type: "string"
+    description: "Unique identifier for the architecture decision"
+    unit: "text"
+  domain:
+    type: "string"
+    description: "Business domain affected by the decision"
+    unit: "text"
+  dataset:
+    type: "string"
+    description: "Golden dataset subject to the placement decision"
+    unit: "text"
+  decision:
+    type: "string"
+    description: "Final placement decision (warehouse_native/lake_first/hybrid)"
+    unit: "categorical"
+  rationale:
+    type: "string"
+    description: "Primary business/technical justification"
+    unit: "text"
+  trade_offs:
+    type: "string"
+    description: "Known compromises and limitations of the decision"
+    unit: "text"
+  stakeholders:
+    type: "string"
+    description: "Key stakeholder groups involved in decision"
+    unit: "text"
+  decision_date:
+    type: "date"
+    description: "Date when decision was finalized"
+    unit: "YYYY-MM-DD"
+  review_cycle:
+    type: "string"
+    description: "How frequently the decision is reviewed"
+    unit: "text"
+  constraints:
+    type: "string"
+    description: "Technical or regulatory constraints influencing decision"
+    unit: "text"
+    
+# Quality Indicators
+quality:
+  completeness: "100%"
+  sample_size: "6 common decision patterns"
+  confidence: "medium"
+  limitations: 
+    - "Synthesized from typical enterprise patterns"
+    - "May not reflect all organizational contexts"
+    - "Decision dates are illustrative"
+  
+# Usage Notes
+notes:
+  - "Useful for understanding decision frameworks"
+  - "Shows how constraints drive placement choices"
+  - "Demonstrates stakeholder considerations"
+  - "Financial/compliance domains prefer warehouse-native"

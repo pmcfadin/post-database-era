@@ -1,0 +1,110 @@
+{
+  "summary": {
+    "total_records": 44,
+    "unique_engines": 18,
+    "cost_stats": {
+      "min": 0.25,
+      "max": 8.5,
+      "mean": 3.1611363636363636,
+      "median": 2.5
+    }
+  },
+  "top_efficient": [
+    {
+      "rank": 1,
+      "engine": "Polars",
+      "workload": "adhoc",
+      "cost_per_tb": 0.25,
+      "notes": "Rust DataFrame library, single-node, very fast"
+    },
+    {
+      "rank": 2,
+      "engine": "DataFusion",
+      "workload": "adhoc",
+      "cost_per_tb": 0.35,
+      "notes": "Rust-based, very efficient single-node processing"
+    },
+    {
+      "rank": 3,
+      "engine": "DuckDB",
+      "workload": "adhoc",
+      "cost_per_tb": 0.45,
+      "notes": "Single-node, in-memory processing"
+    },
+    {
+      "rank": 4,
+      "engine": "DuckDB",
+      "workload": "adhoc",
+      "cost_per_tb": 0.45,
+      "notes": "Single-node, in-memory processing, very efficient"
+    },
+    {
+      "rank": 5,
+      "engine": "ClickHouse",
+      "workload": "bi",
+      "cost_per_tb": 0.8,
+      "notes": "Self-managed, optimized for analytical queries"
+    },
+    {
+      "rank": 6,
+      "engine": "ClickHouse",
+      "workload": "bi",
+      "cost_per_tb": 0.8,
+      "notes": "Optimized OLAP engine, excellent compression"
+    },
+    {
+      "rank": 7,
+      "engine": "Velox",
+      "workload": "etl",
+      "cost_per_tb": 0.85,
+      "notes": "C++ vectorized engine, used in Presto/Spark"
+    },
+    {
+      "rank": 8,
+      "engine": "Trino",
+      "workload": "adhoc",
+      "cost_per_tb": 0.95,
+      "notes": "Self-managed on EC2, S3 data lake"
+    },
+    {
+      "rank": 9,
+      "engine": "Trino",
+      "workload": "adhoc",
+      "cost_per_tb": 0.95,
+      "notes": "Interactive queries, data lake exploration"
+    },
+    {
+      "rank": 10,
+      "engine": "Presto",
+      "workload": "adhoc",
+      "cost_per_tb": 1.2,
+      "notes": "Interactive analytics on S3 data lake, 1000+ node cluster"
+    }
+  ],
+  "cloud_vs_opensource": {
+    "cloud_average": 4.411428571428571,
+    "opensource_average": 1.276470588235294,
+    "premium_percentage": 245.59578670177746
+  },
+  "workload_analysis": {
+    "bi": {
+      "average": 3.443684210526316,
+      "min": 0.8,
+      "max": 8.5,
+      "count": 19
+    },
+    "etl": {
+      "average": 3.720666666666667,
+      "min": 0.85,
+      "max": 6.25,
+      "count": 15
+    },
+    "adhoc": {
+      "average": 1.7849999999999997,
+      "min": 0.25,
+      "max": 6.25,
+      "count": 10
+    }
+  },
+  "generated_at": "2025-08-20T17:42:47.995592"
+}

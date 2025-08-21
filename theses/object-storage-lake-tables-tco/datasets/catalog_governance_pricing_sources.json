@@ -1,0 +1,58 @@
+[
+  {
+    "service": "AWS Glue Data Catalog",
+    "pricing_url": "https://aws.amazon.com/glue/pricing/",
+    "documentation": "https://docs.aws.amazon.com/glue/latest/dg/catalog-and-crawler.html",
+    "pricing_model": "pay_per_request",
+    "notes": "First million objects free per month"
+  },
+  {
+    "service": "Databricks Unity Catalog",
+    "pricing_url": "https://databricks.com/product/unity-catalog",
+    "documentation": "https://docs.databricks.com/en/data-governance/unity-catalog/index.html",
+    "pricing_model": "included_with_platform",
+    "notes": "Included with Databricks platform subscription"
+  },
+  {
+    "service": "Collibra Data Catalog",
+    "pricing_url": "https://www.collibra.com/pricing",
+    "documentation": "https://www.collibra.com/us/en/products/data-catalog",
+    "pricing_model": "enterprise_license",
+    "notes": "Contact sales for pricing"
+  },
+  {
+    "service": "Alation Data Catalog",
+    "pricing_url": "https://www.alation.com/pricing/",
+    "documentation": "https://www.alation.com/product/data-catalog/",
+    "pricing_model": "tiered_subscription",
+    "notes": "Multiple tiers: Essentials, Professional, Enterprise"
+  },
+  {
+    "service": "Apache Atlas",
+    "pricing_url": "https://atlas.apache.org/",
+    "documentation": "https://atlas.apache.org/#/Documentation",
+    "pricing_model": "open_source",
+    "notes": "Open source - infrastructure costs only"
+  },
+  {
+    "service": "DataHub",
+    "pricing_url": "https://datahubproject.io/",
+    "documentation": "https://datahubproject.io/docs/",
+    "pricing_model": "open_source_saas",
+    "notes": "Open source + Acryl Data managed service"
+  },
+  {
+    "service": "Google Cloud Data Catalog",
+    "pricing_url": "https://cloud.google.com/data-catalog/pricing",
+    "documentation": "https://cloud.google.com/data-catalog/docs",
+    "pricing_model": "pay_per_request",
+    "notes": "Free tier available"
+  },
+  {
+    "service": "Azure Purview",
+    "pricing_url": "https://azure.microsoft.com/en-us/pricing/details/azure-purview/",
+    "documentation": "https://docs.microsoft.com/en-us/azure/purview/",
+    "pricing_model": "consumption_based",
+    "notes": "Pay for data map units and scanning"
+  }
+]

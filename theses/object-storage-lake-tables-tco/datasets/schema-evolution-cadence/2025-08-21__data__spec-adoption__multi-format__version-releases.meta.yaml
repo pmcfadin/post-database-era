@@ -1,0 +1,58 @@
+dataset:
+  title: Table Format Specification Version Releases
+  description: Release history and feature adoption for Apache Iceberg, Delta Lake,
+    and Apache Hudi
+  topic: schema-evolution-cadence
+  metric: version releases and feature adoption
+source:
+  name: GitHub Releases API
+  url: https://api.github.com/repos/{apache/iceberg,delta-io/delta,apache/hudi}/releases
+  accessed: '2025-08-20'
+  license: Public API data
+  credibility: Tier A
+characteristics:
+  rows: 55
+  columns: 7
+  time_range: 2020 - 2025
+  update_frequency: on new releases
+  collection_method: automated via GitHub API
+columns:
+  dataset_id:
+    type: string
+    description: Unique identifier for each release
+    unit: text
+  format:
+    type: string
+    description: Table format name (Iceberg, Delta Lake, Hudi)
+    unit: text
+  spec_version:
+    type: string
+    description: Version number of the specification/release
+    unit: semver
+  features:
+    type: string
+    description: Key features introduced in this version
+    unit: semicolon-separated list
+  release_date:
+    type: date
+    description: Date when version was released
+    unit: YYYY-MM-DD
+  download_count:
+    type: number
+    description: Number of downloads from GitHub releases
+    unit: count
+  is_prerelease:
+    type: boolean
+    description: Whether this is a pre-release version
+    unit: true/false
+quality:
+  completeness: 100% for available fields
+  sample_size: 55 releases
+  confidence: high
+  limitations:
+  - GitHub API rate limits
+  - Feature extraction based on release notes text
+notes:
+- Features extracted from release notes using keyword matching
+- Focus on production-ready features and specification changes
+- Data represents official releases, not development branches

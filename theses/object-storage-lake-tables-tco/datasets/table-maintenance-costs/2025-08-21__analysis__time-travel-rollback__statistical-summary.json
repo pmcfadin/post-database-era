@@ -1,0 +1,28 @@
+{
+  "rollback_frequency": {
+    "delta_lake_avg": 185.0,
+    "iceberg_avg": 278.0,
+    "hudi_avg": 402.0
+  },
+  "success_rates": {
+    "overall_avg": 0.952,
+    "delta_lake": 0.955,
+    "iceberg": 0.964,
+    "hudi": 0.936
+  },
+  "recovery_times": {
+    "median_seconds": 120.0,
+    "delta_lake": 150.0,
+    "iceberg": 170.0,
+    "hudi": 80.0
+  },
+  "business_value": {
+    "avg_prevention_value": 288333.0,
+    "total_scenarios": 11,
+    "high_value_scenarios": [
+      "Schema Migration",
+      "Compliance Audit",
+      "Security Incident"
+    ]
+  }
+}

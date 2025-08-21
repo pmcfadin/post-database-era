@@ -1,0 +1,88 @@
+# Dataset Metadata
+dataset:
+  title: "Multi-Region Data Governance Cost and Complexity Analysis"
+  description: "Comprehensive analysis of costs and complexity for governed multi-region scenarios including replication, compliance, and disaster recovery across major cloud providers"
+  topic: "Multi-region data governance"
+  metric: "Monthly costs, policy complexity, and governance overhead"
+  
+# Source Information
+source:
+  name: "Compiled from Cloud Provider Pricing and Compliance Studies"
+  url: "Multiple sources: AWS, Azure, GCP pricing documentation, GDPR/SOX compliance cost studies"
+  accessed: "2025-08-21"
+  license: "Research use"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 187
+  columns: 10
+  time_range: "Current pricing - August 2025"
+  update_frequency: "Quarterly with cloud pricing updates"
+  collection_method: "Automated compilation from public pricing APIs and compliance cost studies"
+  
+# Column Descriptions
+columns:
+  provider:
+    type: "string"
+    description: "Cloud provider or multi-cloud scenario"
+    unit: "categorical"
+  primary_region:
+    type: "string" 
+    description: "Primary region where data originates"
+    unit: "region code"
+  replica_region:
+    type: "string"
+    description: "Replica region or multi-region description"
+    unit: "region code"
+  stack_type:
+    type: "string"
+    description: "Type of multi-region stack (RDS, SQL, DR, Compliance)"
+    unit: "categorical"
+  gb_replicated:
+    type: "number"
+    description: "Gigabytes of data being replicated across regions"
+    unit: "GB"
+  policy_objects:
+    type: "number"
+    description: "Number of governance policy objects required"
+    unit: "count"
+  monthly_cost_usd:
+    type: "number"
+    description: "Total monthly cost including replication, governance, and compliance overhead"
+    unit: "USD"
+  governance_complexity:
+    type: "string"
+    description: "Complexity level of governance requirements"
+    unit: "categorical (Medium/High/Very High)"
+  compliance_tier:
+    type: "string"
+    description: "Compliance requirements tier"
+    unit: "categorical"
+  data_sovereignty:
+    type: "string"
+    description: "Data sovereignty requirements"
+    unit: "categorical"
+  latency_ms:
+    type: "number"
+    description: "Cross-region latency in milliseconds"
+    unit: "milliseconds"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - All required fields populated"
+  sample_size: "187 scenarios across 3 major cloud providers"
+  confidence: "high"
+  limitations: 
+    - "Costs based on published pricing, actual costs may vary with enterprise discounts"
+    - "Compliance costs estimated from industry studies, actual implementation costs vary"
+    - "Policy object counts are estimated based on data volume and complexity heuristics"
+  
+# Usage Notes
+notes:
+  - "Covers AWS, Azure, and GCP multi-region scenarios"
+  - "Includes GDPR and SOX compliance cost models"
+  - "Disaster recovery scenarios with varying RPO/RTO requirements"
+  - "Governance overhead calculated as 15-25% of base replication costs"
+  - "Policy objects scale with data volume and regulatory complexity"
+  - "Cross-continent scenarios include additional latency and cost penalties"

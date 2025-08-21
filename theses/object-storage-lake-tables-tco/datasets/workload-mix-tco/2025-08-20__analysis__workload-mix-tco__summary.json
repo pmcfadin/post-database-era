@@ -1,0 +1,172 @@
+{
+  "analysis_date": "2025-08-20T20:07:46.090985",
+  "dataset_summary": {
+    "total_organizations": 23,
+    "industry_verticals": 11
+  },
+  "workload_patterns": {
+    "bi_heavy": {
+      "count": 9,
+      "avg_tco_usd_month": 69444,
+      "min_tco": 33750,
+      "max_tco": 125000,
+      "avg_cost_per_tb": 207.5,
+      "avg_intensity_score": 1.01,
+      "industries": {
+        "Manufacturing": 2,
+        "Healthcare": 2,
+        "Energy/Utilities": 1,
+        "Logistics/Transportation": 1,
+        "Sensitivity Analysis": 3
+      }
+    },
+    "etl_heavy": {
+      "count": 6,
+      "avg_tco_usd_month": 92823,
+      "min_tco": 46500,
+      "max_tco": 178000,
+      "avg_cost_per_tb": 157.75,
+      "avg_intensity_score": 1.0,
+      "industries": {
+        "Retail/E-commerce": 2,
+        "Media/Entertainment": 1,
+        "Telecommunications": 1,
+        "Sensitivity Analysis": 2
+      }
+    },
+    "ml_heavy": {
+      "count": 7,
+      "avg_tco_usd_month": 50905,
+      "min_tco": 21840,
+      "max_tco": 68500,
+      "avg_cost_per_tb": 329.0,
+      "avg_intensity_score": 1.17,
+      "industries": {
+        "Technology Startup": 2,
+        "Sensitivity Analysis": 5
+      }
+    },
+    "balanced": {
+      "count": 6,
+      "avg_tco_usd_month": 93323,
+      "min_tco": 46500,
+      "max_tco": 178000,
+      "avg_cost_per_tb": 157.75,
+      "avg_intensity_score": 1.0,
+      "industries": {
+        "Retail/E-commerce": 2,
+        "Media/Entertainment": 1,
+        "Telecommunications": 1,
+        "Sensitivity Analysis": 2
+      }
+    }
+  },
+  "industry_patterns": {
+    "Financial Services": {
+      "count": 2,
+      "avg_tco_usd_month": 79210,
+      "typical_workload_mix": {
+        "bi_pct": 55,
+        "etl_pct": 35,
+        "ml_pct": 10
+      }
+    },
+    "Retail/E-commerce": {
+      "count": 2,
+      "avg_tco_usd_month": 60970,
+      "typical_workload_mix": {
+        "bi_pct": 40,
+        "etl_pct": 45,
+        "ml_pct": 15
+      }
+    },
+    "Manufacturing": {
+      "count": 2,
+      "avg_tco_usd_month": 39375,
+      "typical_workload_mix": {
+        "bi_pct": 65,
+        "etl_pct": 25,
+        "ml_pct": 10
+      }
+    },
+    "Healthcare": {
+      "count": 2,
+      "avg_tco_usd_month": 109375,
+      "typical_workload_mix": {
+        "bi_pct": 70,
+        "etl_pct": 20,
+        "ml_pct": 10
+      }
+    },
+    "Technology Startup": {
+      "count": 2,
+      "avg_tco_usd_month": 24920,
+      "typical_workload_mix": {
+        "bi_pct": 25,
+        "etl_pct": 35,
+        "ml_pct": 40
+      }
+    },
+    "Media/Entertainment": {
+      "count": 1,
+      "avg_tco_usd_month": 156000,
+      "typical_workload_mix": {
+        "bi_pct": 30,
+        "etl_pct": 50,
+        "ml_pct": 20
+      }
+    },
+    "Telecommunications": {
+      "count": 1,
+      "avg_tco_usd_month": 178000,
+      "typical_workload_mix": {
+        "bi_pct": 50,
+        "etl_pct": 40,
+        "ml_pct": 10
+      }
+    },
+    "Energy/Utilities": {
+      "count": 1,
+      "avg_tco_usd_month": 92000,
+      "typical_workload_mix": {
+        "bi_pct": 75,
+        "etl_pct": 20,
+        "ml_pct": 5
+      }
+    },
+    "Logistics/Transportation": {
+      "count": 1,
+      "avg_tco_usd_month": 73000,
+      "typical_workload_mix": {
+        "bi_pct": 60,
+        "etl_pct": 30,
+        "ml_pct": 10
+      }
+    },
+    "Insurance": {
+      "count": 1,
+      "avg_tco_usd_month": 134000,
+      "typical_workload_mix": {
+        "bi_pct": 55,
+        "etl_pct": 30,
+        "ml_pct": 15
+      }
+    },
+    "Sensitivity Analysis": {
+      "count": 8,
+      "avg_tco_usd_month": 56874,
+      "typical_workload_mix": {
+        "bi_pct": 45,
+        "etl_pct": 27,
+        "ml_pct": 27
+      }
+    }
+  },
+  "key_insights": [
+    "ML-heavy workloads show 16% higher resource intensity than BI-heavy workloads",
+    "ETL-heavy workloads are most cost-efficient at $157.75/TB/month",
+    "TCO varies by $42,418/month across different workload patterns",
+    "Telecommunications shows highest average TCO at $178,000/month",
+    "Analysis covers 23 organizations across 11 industry verticals"
+  ]
+}

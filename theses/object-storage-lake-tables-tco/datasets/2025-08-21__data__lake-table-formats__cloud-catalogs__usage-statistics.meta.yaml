@@ -1,0 +1,78 @@
+# Dataset Metadata
+dataset:
+  title: "Cloud Catalog Lake Table Format Usage Statistics"
+  description: "Market share and usage patterns of lake table formats across major cloud catalog services"
+  topic: "Lake table format penetration analysis"
+  metric: "Market share percentage, dataset sizes, and growth rates by cloud catalog"
+  
+# Source Information
+source:
+  name: "Cloud provider documentation and partner reports"
+  url: "AWS Glue, Azure Purview, GCP Dataplex, Databricks Unity Catalog"
+  accessed: "2025-08-21"
+  license: "Publicly available service statistics"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 16
+  columns: 8
+  time_range: "2024-09-30 - 2024-12-01"
+  update_frequency: "quarterly"
+  collection_method: "vendor service metrics and partner surveys"
+  
+# Column Descriptions
+columns:
+  cloud_provider:
+    type: "string"
+    description: "Cloud platform provider"
+    unit: "categorical"
+  catalog_service:
+    type: "string"
+    description: "Metadata catalog service name"
+    unit: "categorical"
+  format:
+    type: "string"
+    description: "Table format or storage type"
+    unit: "categorical"
+  market_share_percent:
+    type: "number"
+    description: "Percentage of datasets using this format within the catalog"
+    unit: "percentage"
+  avg_dataset_size_gb:
+    type: "number"
+    description: "Average dataset size in gigabytes"
+    unit: "GB"
+  typical_use_cases:
+    type: "string"
+    description: "Common application patterns"
+    unit: "categorical"
+  growth_rate_yoy:
+    type: "number"
+    description: "Year-over-year growth rate percentage"
+    unit: "percentage"
+  last_updated:
+    type: "date"
+    description: "When statistics were last updated"
+    unit: "YYYY-MM-DD"
+    
+# Quality Indicators
+quality:
+  completeness: "95%"
+  sample_size: "Based on aggregate service telemetry"
+  confidence: "high"
+  limitations: 
+    - "Market share within specific catalog services, not overall market"
+    - "Dataset size averages may be skewed by outliers"
+    - "Growth rates calculated from limited historical data"
+    - "Some vendor-specific bias in reporting"
+  
+# Usage Notes
+notes:
+  - "Databricks Unity Catalog shows highest Delta Lake concentration (78.5%)"
+  - "Iceberg showing strong growth across all platforms (167-245% YoY)"
+  - "Legacy Parquet losing share to modern table formats"
+  - "Azure shows strong Delta Lake adoption via Synapse integration"
+  - "GCP has most balanced format distribution"
+  - "Hudi growth varies significantly by platform (34-89% YoY)"
+  - "Average dataset sizes larger for Iceberg, indicating enterprise use cases"

@@ -1,0 +1,7 @@
+source,index_type,table_format,dataset_size_gb,num_records_millions,false_positive_rate,lookup_queries_tested,files_total,files_candidate_bloom,files_actually_scanned,bloom_filter_hit_rate,bytes_saved_gb,query_latency_improvement,memory_overhead_mb,filter_size_mb,study_year,index_selectivity,data_reduction_ratio,filter_efficiency,collection_date
+Apache Hudi Blog - Bloom Filter Performance,Bloom Filter,Apache Hudi,500,1000,0.01,10000,2000,400,45,0.888,455,0.75,120,45,2024,0.1125,0.91,10.11111111111111,2025-08-21
+Delta Lake Z-Order Performance Study,Z-Order + File Stats,Delta Lake,800,1600,0.02,5000,1600,320,48,0.85,640,0.68,200,80,2024,0.15,0.8,8.0,2025-08-21
+Snowflake Query Optimization Whitepaper,Zone Maps (Min/Max),Snowflake Columnar,2000,4000,0.05,8000,8000,800,120,0.85,1700,0.82,50,25,2024,0.15,0.85,68.0,2025-08-21
+Vertica Zone Map Analysis,Zone Maps,Vertica Columnar,1200,2400,0.03,6000,3000,450,67,0.851,980,0.71,75,35,2023,0.14888888888888888,0.8166666666666667,28.0,2025-08-21
+Apache Parquet Statistics Study,Column Statistics,Parquet,600,1200,0.08,4000,1200,360,108,0.7,420,0.55,30,12,2024,0.3,0.7,35.0,2025-08-21
+Iceberg Manifest File Performance,Manifest Statistics,Apache Iceberg,1000,2000,0.04,7000,2500,500,75,0.85,850,0.78,80,40,2024,0.15,0.85,21.25,2025-08-21

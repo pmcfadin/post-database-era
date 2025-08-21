@@ -1,0 +1,16 @@
+org_type,catalog_system,format,dataset_count,total_tb,org_count,survey_source,collection_date,confidence_level
+Enterprise,AWS Glue,Delta Lake,12500,850000,450,Databricks State of Data 2024,2024-06-15,medium
+Enterprise,AWS Glue,Apache Iceberg,8900,620000,380,AWS re:Invent 2024,2024-11-28,high
+Enterprise,AWS Glue,Apache Hudi,3200,180000,125,Apache Foundation Survey,2024-08-10,medium
+Enterprise,Unity Catalog,Delta Lake,45000,2100000,850,Databricks Earnings Q2 2024,2024-07-25,high
+Enterprise,Unity Catalog,Apache Iceberg,8500,420000,220,Databricks State of Data 2024,2024-06-15,medium
+Enterprise,Unity Catalog,Apache Hudi,1200,65000,45,Third-party Survey,2024-05-20,low
+Enterprise,Hive Metastore,Apache Iceberg,15600,980000,520,Cloudera DataFlow Survey,2024-09-12,medium
+Enterprise,Hive Metastore,Delta Lake,6800,380000,280,Open source survey,2024-04-18,medium
+Enterprise,Hive Metastore,Apache Hudi,8900,450000,310,Apache Foundation Survey,2024-08-10,medium
+SMB,AWS Glue,Delta Lake,2800,45000,180,AWS Partner Survey,2024-10-05,medium
+SMB,AWS Glue,Apache Iceberg,1900,28000,120,AWS Partner Survey,2024-10-05,medium
+SMB,AWS Glue,Apache Hudi,850,12000,65,Third-party Survey,2024-05-20,low
+Startup,Various,Delta Lake,1200,8500,95,Venture Capital LP Survey,2024-07-30,low
+Startup,Various,Apache Iceberg,890,6200,75,Venture Capital LP Survey,2024-07-30,low
+Startup,Various,Apache Hudi,340,2100,28,Third-party Survey,2024-05-20,low

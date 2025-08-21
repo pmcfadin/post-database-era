@@ -1,0 +1,88 @@
+# Dataset Metadata
+dataset:
+  title: "Lake Table Format Market Penetration Summary Estimates"
+  description: "Aggregated market penetration estimates for lake table formats based on multiple data sources and industry analysis"
+  topic: "Lake table format penetration analysis"
+  metric: "Market share percentages and adoption scale estimates"
+  
+# Source Information
+source:
+  name: "Synthesized from multiple datasets: GitHub metrics, vendor surveys, cloud catalogs, conference case studies"
+  url: "Composite analysis of preceding datasets"
+  accessed: "2025-08-21"
+  license: "Derived analysis"
+  credibility: "Tier B"
+  
+# Data Characteristics
+characteristics:
+  rows: 5
+  columns: 10
+  time_range: "2024-2025 market snapshot"
+  update_frequency: "annual"
+  collection_method: "weighted synthesis of multiple data sources"
+  
+# Column Descriptions
+columns:
+  format:
+    type: "string"
+    description: "Lake table format name"
+    unit: "categorical"
+  overall_market_share_percent:
+    type: "number"
+    description: "Estimated overall market share across all segments"
+    unit: "percentage"
+  enterprise_adoption_percent:
+    type: "number"
+    description: "Market share within enterprise segment"
+    unit: "percentage"
+  smb_adoption_percent:
+    type: "number"
+    description: "Market share within SMB segment"
+    unit: "percentage"
+  total_organizations_estimated:
+    type: "number"
+    description: "Estimated number of organizations using this format"
+    unit: "count"
+  total_datasets_estimated:
+    type: "number"
+    description: "Estimated total number of datasets"
+    unit: "count"
+  total_storage_pb:
+    type: "number"
+    description: "Estimated total storage under management"
+    unit: "PB"
+  avg_implementation_scale_tb:
+    type: "number"
+    description: "Average implementation size"
+    unit: "TB"
+  maturity_score:
+    type: "number"
+    description: "Ecosystem maturity score (1-10)"
+    unit: "score"
+  growth_trajectory:
+    type: "string"
+    description: "Expected growth pattern"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100%"
+  sample_size: "Derived from 4 source datasets"
+  confidence: "medium"
+  limitations: 
+    - "Estimates based on limited public data"
+    - "Market definition boundaries may vary"
+    - "Some extrapolation from vendor-specific data"
+    - "SMB adoption data particularly uncertain"
+    - "Growth projections based on current trends"
+  
+# Usage Notes
+notes:
+  - "Delta Lake and Iceberg show similar overall penetration"
+  - "Enterprise adoption significantly higher than SMB across all formats"
+  - "Hudi maintains significant presence despite lower growth"
+  - "Legacy Parquet effectively deprecated in new implementations"
+  - "Total addressable market estimated at ~5,000 organizations"
+  - "Enterprise implementations average 2-3x larger than SMB"
+  - "All modern formats show accelerating or moderate growth"
+  - "Market consolidating around three primary formats"

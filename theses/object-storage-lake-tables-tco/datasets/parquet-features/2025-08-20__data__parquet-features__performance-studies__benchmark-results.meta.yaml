@@ -1,0 +1,126 @@
+# Dataset Metadata
+dataset:
+  title: "Parquet Features Performance Benchmark Results"
+  description: "Quantitative performance benchmarks for Parquet encodings, compression algorithms, bloom filters, statistics, and optimization patterns"
+  topic: "parquet-features"
+  metric: "performance_measurements_quantitative"
+  
+# Source Information
+source:
+  name: "Performance studies compilation"
+  url: "https://arrow.apache.org/benchmarks/"
+  accessed: "2025-08-20"
+  license: "Apache 2.0 and public benchmarks"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 18
+  columns: 25
+  time_range: "2024-Q1 - 2024-Q4"
+  update_frequency: "quarterly_benchmarks"
+  collection_method: "benchmark_compilation"
+  
+# Column Descriptions
+columns:
+  dataset_id:
+    type: "string"
+    description: "Benchmark study identifier"
+    unit: "categorical"
+  source:
+    type: "string"
+    description: "Source of the benchmark data"
+    unit: "categorical"
+  study_type:
+    type: "string"
+    description: "Type of performance study conducted"
+    unit: "categorical"
+  parquet_feature:
+    type: "string"
+    description: "Parquet feature being benchmarked"
+    unit: "categorical"
+  enabled:
+    type: "number"
+    description: "Feature enabled in benchmark (1=yes, 0=no)"
+    unit: "boolean"
+  compression_ratio:
+    type: "number"
+    description: "Compression ratio achieved (higher = better compression)"
+    unit: "ratio"
+  encode_speed_mbps:
+    type: "number"
+    description: "Encoding speed in megabytes per second"
+    unit: "MB/s"
+  decode_speed_mbps:
+    type: "number"
+    description: "Decoding speed in megabytes per second"
+    unit: "MB/s"
+  compress_speed_mbps:
+    type: "number"
+    description: "Compression speed in megabytes per second"
+    unit: "MB/s"
+  decompress_speed_mbps:
+    type: "number"
+    description: "Decompression speed in megabytes per second"
+    unit: "MB/s"
+  memory_overhead_percent:
+    type: "number"
+    description: "Memory overhead as percentage of base usage"
+    unit: "percentage"
+  cpu_usage_percent:
+    type: "number"
+    description: "CPU usage percentage during operation"
+    unit: "percentage"
+  io_reduction_percent:
+    type: "number"
+    description: "I/O reduction achieved through compression"
+    unit: "percentage"
+  query_speedup_factor:
+    type: "number"
+    description: "Query performance improvement factor"
+    unit: "multiplier"
+  storage_cost_reduction_percent:
+    type: "number"
+    description: "Storage cost reduction percentage"
+    unit: "percentage"
+  false_positive_rate:
+    type: "number"
+    description: "Bloom filter false positive rate"
+    unit: "rate"
+  point_lookup_speedup:
+    type: "number"
+    description: "Point lookup performance improvement factor"
+    unit: "multiplier"
+  scan_reduction_percent:
+    type: "number"
+    description: "Scan reduction percentage through filtering"
+    unit: "percentage"
+  predicate_pushdown_effectiveness:
+    type: "number"
+    description: "Effectiveness of predicate pushdown optimization"
+    unit: "percentage"
+  dataset_size_gb:
+    type: "number"
+    description: "Size of dataset used in benchmark"
+    unit: "GB"
+  benchmark_date:
+    type: "string"
+    description: "When the benchmark was conducted"
+    unit: "date"
+    
+# Quality Indicators
+quality:
+  completeness: "90% - some metrics specific to feature type"
+  sample_size: "18 benchmark scenarios"
+  confidence: "high"
+  limitations: 
+    - "Benchmark results vary by workload characteristics"
+    - "Hardware and configuration dependent"
+    - "Some metrics estimated from published ranges"
+  
+# Usage Notes
+notes:
+  - "Performance results are representative of typical workloads"
+  - "Actual performance may vary significantly by use case"
+  - "Benchmarks conducted on standardized hardware configurations"
+  - "Results compiled from multiple authoritative sources"

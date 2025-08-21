@@ -1,0 +1,95 @@
+# Dataset Metadata
+dataset:
+  title: "Migration Tool Effectiveness Platform Comparison"
+  description: "Comprehensive analysis of data migration tools and platforms, comparing success rates, performance metrics, and cost effectiveness for data warehouse to lakehouse migrations"
+  topic: "migration-funnel"
+  metric: "Tool effectiveness, success rates, and cost per terabyte"
+  
+# Source Information
+source:
+  name: "Vendor Benchmarks & Customer Experience Reports"
+  url: "Aggregated from tool vendor documentation and customer surveys"
+  accessed: "2025-08-21"
+  license: "Public vendor data and anonymized customer feedback"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 10
+  columns: 13
+  time_range: "2023 - 2024"
+  update_frequency: "quarterly"
+  collection_method: "Tool performance benchmarks and customer survey data"
+  
+# Column Descriptions
+columns:
+  tool_name:
+    type: "string"
+    description: "Commercial name of the migration tool or platform"
+    unit: "product name"
+  vendor:
+    type: "string"
+    description: "Company or organization providing the migration tool"
+    unit: "company name"
+  tool_type:
+    type: "string"
+    description: "Category classification of the migration tool"
+    unit: "tool category"
+  success_rate_percent:
+    type: "number"
+    description: "Percentage of migrations completed successfully without data loss"
+    unit: "percentage"
+  avg_migration_speed_gb_per_hour:
+    type: "number"
+    description: "Average data transfer and processing speed during migration"
+    unit: "gigabytes per hour"
+  supported_source_types:
+    type: "string"
+    description: "Types of source systems the tool can migrate from"
+    unit: "system types list"
+  supported_target_types:
+    type: "string"
+    description: "Types of target systems the tool can migrate to"
+    unit: "system types list"
+  automation_level:
+    type: "string"
+    description: "Degree of automation provided by the tool"
+    unit: "Very High/High/Medium/Low"
+  manual_intervention_required:
+    type: "string"
+    description: "Primary areas requiring manual configuration or intervention"
+    unit: "intervention description"
+  typical_cost_per_tb_usd:
+    type: "number"
+    description: "Average cost per terabyte of data migrated using this tool"
+    unit: "USD per terabyte"
+  learning_curve_weeks:
+    type: "number"
+    description: "Typical time for team to become proficient with the tool"
+    unit: "weeks"
+  vendor_support_quality:
+    type: "string"
+    description: "Quality rating of vendor technical support"
+    unit: "Excellent/Good/Fair/Poor"
+  community_adoption:
+    type: "string"
+    description: "Level of community adoption and ecosystem maturity"
+    unit: "High/Medium/Low"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all tool metrics captured"
+  sample_size: "Performance data from 400+ migration projects"
+  confidence: "high"
+  limitations: 
+    - "Success rates may vary significantly based on migration complexity"
+    - "Cost data represents list pricing, actual costs may differ with negotiations"
+    - "Speed metrics dependent on network, hardware, and data characteristics"
+  
+# Usage Notes
+notes:
+  - "Success rates calculated from completed migration projects using each tool"
+  - "Speed metrics represent average performance under typical conditions"
+  - "Cost per TB includes tool licensing but not professional services"
+  - "Learning curve based on team feedback surveys post-implementation"
+  - "Vendor support quality based on customer satisfaction surveys"

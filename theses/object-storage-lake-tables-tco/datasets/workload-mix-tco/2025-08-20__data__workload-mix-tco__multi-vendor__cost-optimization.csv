@@ -1,0 +1,13 @@
+org_id,source_url,mix_bi_pct,mix_etl_pct,mix_ml_pct,tco_usd_month,cost_savings_pct,performance_gain_pct,workload_description,collection_date
+synthetic_org_01,synthetic_model_based_on_industry_patterns,70,20,10,8080,,,BI-heavy workload pattern,2025-08-20T20:03:58.967941
+synthetic_org_02,synthetic_model_based_on_industry_patterns,65,25,10,9000,,,BI-heavy workload pattern,2025-08-20T20:03:58.967953
+synthetic_org_03,synthetic_model_based_on_industry_patterns,75,15,10,10200,,,BI-heavy workload pattern,2025-08-20T20:03:58.967955
+synthetic_org_04,synthetic_model_based_on_industry_patterns,30,60,10,10230,,,ETL-heavy workload pattern,2025-08-20T20:03:58.967957
+synthetic_org_05,synthetic_model_based_on_industry_patterns,25,65,10,11040,,,ETL-heavy workload pattern,2025-08-20T20:03:58.967958
+synthetic_org_06,synthetic_model_based_on_industry_patterns,35,55,10,12220,,,ETL-heavy workload pattern,2025-08-20T20:03:58.967960
+synthetic_org_07,synthetic_model_based_on_industry_patterns,20,40,40,15680,,,ML-heavy workload pattern,2025-08-20T20:03:58.967962
+synthetic_org_08,synthetic_model_based_on_industry_patterns,25,35,40,16949,,,ML-heavy workload pattern,2025-08-20T20:03:58.967966
+synthetic_org_09,synthetic_model_based_on_industry_patterns,15,45,40,17760,,,ML-heavy workload pattern,2025-08-20T20:03:58.967969
+synthetic_org_10,synthetic_model_based_on_industry_patterns,40,40,20,17340,,,Balanced workload pattern,2025-08-20T20:03:58.967971
+synthetic_org_11,synthetic_model_based_on_industry_patterns,45,35,20,18540,,,Balanced workload pattern,2025-08-20T20:03:58.967972
+synthetic_org_12,synthetic_model_based_on_industry_patterns,35,45,20,19190,,,Balanced workload pattern,2025-08-20T20:03:58.967974

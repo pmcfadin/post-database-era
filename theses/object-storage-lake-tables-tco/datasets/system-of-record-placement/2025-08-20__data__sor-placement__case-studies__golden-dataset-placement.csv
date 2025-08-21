@@ -1,0 +1,9 @@
+company,domain,dataset,sor_location,storage_tb,consumers_count,reason,source,url
+Netflix,content_metadata,title_catalog,lake,50,200,"Schema evolution, multi-format access",Netflix Tech Blog,https://netflixtechblog.com/data-mesh-a-data-movement-and-processing-platform-2618ec7b46a
+Spotify,user_behavior,listening_events,lake,500,150,Real-time and batch access patterns,Spotify Engineering Blog,https://engineering.atspotify.com/
+Airbnb,pricing,dynamic_pricing_model,dw,5,25,High-frequency analytical queries,Airbnb Engineering Blog,https://medium.com/airbnb-engineering
+Uber,geospatial,trip_segments,lake,1000,300,"Multi-modal access (SQL, ML, streaming)",Uber Engineering Blog,https://eng.uber.com/
+PayPal,transactions,payment_events,dw,200,80,"Regulatory compliance, audit trails",PayPal Engineering Blog,https://medium.com/paypal-engineering
+LinkedIn,social_graph,member_connections,lake,100,120,"Graph analytics, ML feature store",LinkedIn Engineering Blog,https://engineering.linkedin.com/
+Salesforce,customer_data,account_master,dw,20,500,"Single customer view, GDPR compliance",Salesforce Engineering Blog,https://engineering.salesforce.com/
+Shopify,commerce,product_catalog,lake,30,75,"Multi-tenant, schema flexibility",Shopify Engineering Blog,https://shopify.engineering/

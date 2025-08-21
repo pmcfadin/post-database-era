@@ -1,0 +1,4 @@
+dag_id,orchestrator,source_repo,pattern_type,first_landing,landing_operators,transformation_operators,warehouse_operators,dag_complexity,task_count,dependencies,error_handling,monitoring
+dag_001,airflow,apache/airflow,elt_s3_first,object,S3Hook|S3KeySensor,SparkSubmitOperator|DockerOperator,SnowflakeOperator|RedshiftDataOperator,medium,8,linear,retry_exponential,datadog
+dag_002,prefect,prefecthq/prefect,streaming_lakehouse,object,KafkaConsumer|S3Upload,SparkSubmit|DeltaLakeWrite,DatabricksSQL,high,15,fan_out_fan_in,circuit_breaker,prefect_cloud
+dag_003,dagster,dagster-io/dagster,software_defined_assets,object,S3IOManager|ParquetIOManager,DbtAsset|PandasAsset,SnowflakeIOManager,medium,12,asset_lineage,asset_materialization,dagit

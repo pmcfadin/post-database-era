@@ -1,0 +1,241 @@
+provider,primary_region,replica_region,stack_type,gb_replicated,policy_objects,monthly_cost_usd,governance_complexity,compliance_tier,data_sovereignty
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Sync Replication + Encryption (PII),500,160,885.94,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Sync Replication + Encryption (PII),2500,160,4429.69,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Sync Replication + Encryption (PII),10000,160,17718.75,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Sync Replication + Encryption (PII),50000,160,88593.75,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Sync Replication + Encryption (PII),250000,800,442968.75,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Async Replication + Policy Engine (PII),500,160,437.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Async Replication + Policy Engine (PII),2500,160,2187.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Async Replication + Policy Engine (PII),10000,160,8750.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Async Replication + Policy Engine (PII),50000,160,43750.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Async Replication + Policy Engine (PII),250000,800,218750.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Event Sourcing + Audit Trail (PII),500,160,1395.62,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Event Sourcing + Audit Trail (PII),2500,160,6978.12,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Event Sourcing + Audit Trail (PII),10000,160,27912.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Event Sourcing + Audit Trail (PII),50000,160,139562.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Event Sourcing + Audit Trail (PII),250000,800,697812.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Zero-Trust Multi-Region (PII),500,160,2450.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Zero-Trust Multi-Region (PII),2500,160,12250.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Zero-Trust Multi-Region (PII),10000,160,49000.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Zero-Trust Multi-Region (PII),50000,160,245000.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Zero-Trust Multi-Region (PII),250000,800,1225000.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Sync Replication + Encryption (Financial),500,200,1063.12,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Sync Replication + Encryption (Financial),2500,200,5315.62,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Sync Replication + Encryption (Financial),10000,200,21262.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Sync Replication + Encryption (Financial),50000,200,106312.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Sync Replication + Encryption (Financial),250000,1000,531562.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Async Replication + Policy Engine (Financial),500,200,525.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Async Replication + Policy Engine (Financial),2500,200,2625.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Async Replication + Policy Engine (Financial),10000,200,10500.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Async Replication + Policy Engine (Financial),50000,200,52500.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Async Replication + Policy Engine (Financial),250000,1000,262500.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Event Sourcing + Audit Trail (Financial),500,200,1674.75,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Event Sourcing + Audit Trail (Financial),2500,200,8373.75,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Event Sourcing + Audit Trail (Financial),10000,200,33495.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Event Sourcing + Audit Trail (Financial),50000,200,167475.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Event Sourcing + Audit Trail (Financial),250000,1000,837375.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Zero-Trust Multi-Region (Financial),500,200,2940.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Zero-Trust Multi-Region (Financial),2500,200,14700.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Zero-Trust Multi-Region (Financial),10000,200,58800.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Zero-Trust Multi-Region (Financial),50000,200,294000.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Zero-Trust Multi-Region (Financial),250000,1000,1470000.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Sync Replication + Encryption (Healthcare),500,240,1290.94,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Sync Replication + Encryption (Healthcare),2500,240,6454.69,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Sync Replication + Encryption (Healthcare),10000,240,25818.75,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Sync Replication + Encryption (Healthcare),50000,240,129093.75,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Sync Replication + Encryption (Healthcare),250000,1200,645468.75,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Async Replication + Policy Engine (Healthcare),500,240,637.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Async Replication + Policy Engine (Healthcare),2500,240,3187.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Async Replication + Policy Engine (Healthcare),10000,240,12750.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Async Replication + Policy Engine (Healthcare),50000,240,63750.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Async Replication + Policy Engine (Healthcare),250000,1200,318750.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Event Sourcing + Audit Trail (Healthcare),500,240,2033.62,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Event Sourcing + Audit Trail (Healthcare),2500,240,10168.12,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Event Sourcing + Audit Trail (Healthcare),10000,240,40672.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Event Sourcing + Audit Trail (Healthcare),50000,240,203362.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Event Sourcing + Audit Trail (Healthcare),250000,1200,1016812.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Zero-Trust Multi-Region (Healthcare),500,240,3570.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Zero-Trust Multi-Region (Healthcare),2500,240,17850.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Zero-Trust Multi-Region (Healthcare),10000,240,71400.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Zero-Trust Multi-Region (Healthcare),50000,240,357000.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Zero-Trust Multi-Region (Healthcare),250000,1200,1785000.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Sync Replication + Encryption (Generic),500,40,253.12,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Sync Replication + Encryption (Generic),2500,40,1265.62,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Sync Replication + Encryption (Generic),10000,40,5062.5,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Sync Replication + Encryption (Generic),50000,40,25312.5,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Sync Replication + Encryption (Generic),250000,200,126562.5,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Async Replication + Policy Engine (Generic),500,40,125.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Async Replication + Policy Engine (Generic),2500,40,625.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Async Replication + Policy Engine (Generic),10000,40,2500.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Async Replication + Policy Engine (Generic),50000,40,12500.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Async Replication + Policy Engine (Generic),250000,200,62500.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Event Sourcing + Audit Trail (Generic),500,40,398.75,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Event Sourcing + Audit Trail (Generic),2500,40,1993.75,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Event Sourcing + Audit Trail (Generic),10000,40,7975.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Event Sourcing + Audit Trail (Generic),50000,40,39875.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Event Sourcing + Audit Trail (Generic),250000,200,199375.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Zero-Trust Multi-Region (Generic),500,40,700.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Zero-Trust Multi-Region (Generic),2500,40,3500.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Zero-Trust Multi-Region (Generic),10000,40,14000.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Zero-Trust Multi-Region (Generic),50000,40,70000.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-east-1,eu-west-1,Zero-Trust Multi-Region (Generic),250000,200,350000.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Sync Replication + Encryption (PII),500,160,1063.12,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Sync Replication + Encryption (PII),2500,160,5315.62,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Sync Replication + Encryption (PII),10000,160,21262.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Sync Replication + Encryption (PII),50000,160,106312.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Sync Replication + Encryption (PII),250000,800,531562.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Async Replication + Policy Engine (PII),500,160,525.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Async Replication + Policy Engine (PII),2500,160,2625.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Async Replication + Policy Engine (PII),10000,160,10500.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Async Replication + Policy Engine (PII),50000,160,52500.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Async Replication + Policy Engine (PII),250000,800,262500.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Event Sourcing + Audit Trail (PII),500,160,1674.75,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Event Sourcing + Audit Trail (PII),2500,160,8373.75,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Event Sourcing + Audit Trail (PII),10000,160,33495.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Event Sourcing + Audit Trail (PII),50000,160,167475.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Event Sourcing + Audit Trail (PII),250000,800,837375.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Zero-Trust Multi-Region (PII),500,160,2940.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Zero-Trust Multi-Region (PII),2500,160,14700.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Zero-Trust Multi-Region (PII),10000,160,58800.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Zero-Trust Multi-Region (PII),50000,160,294000.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Zero-Trust Multi-Region (PII),250000,800,1470000.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Sync Replication + Encryption (Financial),500,200,1275.75,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Sync Replication + Encryption (Financial),2500,200,6378.75,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Sync Replication + Encryption (Financial),10000,200,25515.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Sync Replication + Encryption (Financial),50000,200,127575.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Sync Replication + Encryption (Financial),250000,1000,637875.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Async Replication + Policy Engine (Financial),500,200,630.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Async Replication + Policy Engine (Financial),2500,200,3150.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Async Replication + Policy Engine (Financial),10000,200,12600.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Async Replication + Policy Engine (Financial),50000,200,63000.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Async Replication + Policy Engine (Financial),250000,1000,315000.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Event Sourcing + Audit Trail (Financial),500,200,2009.7,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Event Sourcing + Audit Trail (Financial),2500,200,10048.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Event Sourcing + Audit Trail (Financial),10000,200,40194.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Event Sourcing + Audit Trail (Financial),50000,200,200970.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Event Sourcing + Audit Trail (Financial),250000,1000,1004850.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Zero-Trust Multi-Region (Financial),500,200,3528.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Zero-Trust Multi-Region (Financial),2500,200,17640.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Zero-Trust Multi-Region (Financial),10000,200,70560.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Zero-Trust Multi-Region (Financial),50000,200,352800.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Zero-Trust Multi-Region (Financial),250000,1000,1764000.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Sync Replication + Encryption (Healthcare),500,240,1549.12,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Sync Replication + Encryption (Healthcare),2500,240,7745.62,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Sync Replication + Encryption (Healthcare),10000,240,30982.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Sync Replication + Encryption (Healthcare),50000,240,154912.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Sync Replication + Encryption (Healthcare),250000,1200,774562.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Async Replication + Policy Engine (Healthcare),500,240,765.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Async Replication + Policy Engine (Healthcare),2500,240,3825.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Async Replication + Policy Engine (Healthcare),10000,240,15300.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Async Replication + Policy Engine (Healthcare),50000,240,76500.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Async Replication + Policy Engine (Healthcare),250000,1200,382500.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Event Sourcing + Audit Trail (Healthcare),500,240,2440.35,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Event Sourcing + Audit Trail (Healthcare),2500,240,12201.75,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Event Sourcing + Audit Trail (Healthcare),10000,240,48807.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Event Sourcing + Audit Trail (Healthcare),50000,240,244035.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Event Sourcing + Audit Trail (Healthcare),250000,1200,1220175.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Zero-Trust Multi-Region (Healthcare),500,240,4284.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Zero-Trust Multi-Region (Healthcare),2500,240,21420.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Zero-Trust Multi-Region (Healthcare),10000,240,85680.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Zero-Trust Multi-Region (Healthcare),50000,240,428400.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Zero-Trust Multi-Region (Healthcare),250000,1200,2142000.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Sync Replication + Encryption (Generic),500,40,303.75,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Sync Replication + Encryption (Generic),2500,40,1518.75,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Sync Replication + Encryption (Generic),10000,40,6075.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Sync Replication + Encryption (Generic),50000,40,30375.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Sync Replication + Encryption (Generic),250000,200,151875.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Async Replication + Policy Engine (Generic),500,40,150.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Async Replication + Policy Engine (Generic),2500,40,750.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Async Replication + Policy Engine (Generic),10000,40,3000.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Async Replication + Policy Engine (Generic),50000,40,15000.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Async Replication + Policy Engine (Generic),250000,200,75000.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Event Sourcing + Audit Trail (Generic),500,40,478.5,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Event Sourcing + Audit Trail (Generic),2500,40,2392.5,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Event Sourcing + Audit Trail (Generic),10000,40,9570.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Event Sourcing + Audit Trail (Generic),50000,40,47850.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Event Sourcing + Audit Trail (Generic),250000,200,239250.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Zero-Trust Multi-Region (Generic),500,40,840.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Zero-Trust Multi-Region (Generic),2500,40,4200.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Zero-Trust Multi-Region (Generic),10000,40,16800.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Zero-Trust Multi-Region (Generic),50000,40,84000.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,eu-west-1,ap-southeast-1,Zero-Trust Multi-Region (Generic),250000,200,420000.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Sync Replication + Encryption (PII),500,160,779.62,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Sync Replication + Encryption (PII),2500,160,3898.13,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Sync Replication + Encryption (PII),10000,160,15592.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Sync Replication + Encryption (PII),50000,160,77962.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Sync Replication + Encryption (PII),250000,800,389812.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Async Replication + Policy Engine (PII),500,160,385.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Async Replication + Policy Engine (PII),2500,160,1925.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Async Replication + Policy Engine (PII),10000,160,7700.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Async Replication + Policy Engine (PII),50000,160,38500.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Async Replication + Policy Engine (PII),250000,800,192500.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Event Sourcing + Audit Trail (PII),500,160,1228.15,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Event Sourcing + Audit Trail (PII),2500,160,6140.75,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Event Sourcing + Audit Trail (PII),10000,160,24563.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Event Sourcing + Audit Trail (PII),50000,160,122815.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Event Sourcing + Audit Trail (PII),250000,800,614075.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Zero-Trust Multi-Region (PII),500,160,2156.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Zero-Trust Multi-Region (PII),2500,160,10780.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Zero-Trust Multi-Region (PII),10000,160,43120.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Zero-Trust Multi-Region (PII),50000,160,215600.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Zero-Trust Multi-Region (PII),250000,800,1078000.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Sync Replication + Encryption (Financial),500,200,935.55,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Sync Replication + Encryption (Financial),2500,200,4677.75,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Sync Replication + Encryption (Financial),10000,200,18711.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Sync Replication + Encryption (Financial),50000,200,93555.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Sync Replication + Encryption (Financial),250000,1000,467775.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Async Replication + Policy Engine (Financial),500,200,462.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Async Replication + Policy Engine (Financial),2500,200,2310.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Async Replication + Policy Engine (Financial),10000,200,9240.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Async Replication + Policy Engine (Financial),50000,200,46200.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Async Replication + Policy Engine (Financial),250000,1000,231000.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Event Sourcing + Audit Trail (Financial),500,200,1473.78,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Event Sourcing + Audit Trail (Financial),2500,200,7368.9,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Event Sourcing + Audit Trail (Financial),10000,200,29475.6,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Event Sourcing + Audit Trail (Financial),50000,200,147378.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Event Sourcing + Audit Trail (Financial),250000,1000,736890.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Zero-Trust Multi-Region (Financial),500,200,2587.2,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Zero-Trust Multi-Region (Financial),2500,200,12936.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Zero-Trust Multi-Region (Financial),10000,200,51744.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Zero-Trust Multi-Region (Financial),50000,200,258720.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Zero-Trust Multi-Region (Financial),250000,1000,1293600.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Sync Replication + Encryption (Healthcare),500,240,1136.03,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Sync Replication + Encryption (Healthcare),2500,240,5680.12,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Sync Replication + Encryption (Healthcare),10000,240,22720.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Sync Replication + Encryption (Healthcare),50000,240,113602.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Sync Replication + Encryption (Healthcare),250000,1200,568012.5,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Async Replication + Policy Engine (Healthcare),500,240,561.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Async Replication + Policy Engine (Healthcare),2500,240,2805.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Async Replication + Policy Engine (Healthcare),10000,240,11220.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Async Replication + Policy Engine (Healthcare),50000,240,56100.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Async Replication + Policy Engine (Healthcare),250000,1200,280500.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Event Sourcing + Audit Trail (Healthcare),500,240,1789.59,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Event Sourcing + Audit Trail (Healthcare),2500,240,8947.95,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Event Sourcing + Audit Trail (Healthcare),10000,240,35791.8,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Event Sourcing + Audit Trail (Healthcare),50000,240,178959.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Event Sourcing + Audit Trail (Healthcare),250000,1200,894795.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Zero-Trust Multi-Region (Healthcare),500,240,3141.6,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Zero-Trust Multi-Region (Healthcare),2500,240,15708.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Zero-Trust Multi-Region (Healthcare),10000,240,62832.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Zero-Trust Multi-Region (Healthcare),50000,240,314160.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Zero-Trust Multi-Region (Healthcare),250000,1200,1570800.0,Very High,Strict,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Sync Replication + Encryption (Generic),500,40,222.75,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Sync Replication + Encryption (Generic),2500,40,1113.75,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Sync Replication + Encryption (Generic),10000,40,4455.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Sync Replication + Encryption (Generic),50000,40,22275.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Sync Replication + Encryption (Generic),250000,200,111375.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Async Replication + Policy Engine (Generic),500,40,110.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Async Replication + Policy Engine (Generic),2500,40,550.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Async Replication + Policy Engine (Generic),10000,40,2200.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Async Replication + Policy Engine (Generic),50000,40,11000.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Async Replication + Policy Engine (Generic),250000,200,55000.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Event Sourcing + Audit Trail (Generic),500,40,350.9,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Event Sourcing + Audit Trail (Generic),2500,40,1754.5,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Event Sourcing + Audit Trail (Generic),10000,40,7018.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Event Sourcing + Audit Trail (Generic),50000,40,35090.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Event Sourcing + Audit Trail (Generic),250000,200,175450.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Zero-Trust Multi-Region (Generic),500,40,616.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Zero-Trust Multi-Region (Generic),2500,40,3080.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Zero-Trust Multi-Region (Generic),10000,40,12320.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Zero-Trust Multi-Region (Generic),50000,40,61600.0,High,Standard,Cross-Border
+Multi-Cloud Cross-Border,us-west-2,ap-northeast-1,Zero-Trust Multi-Region (Generic),250000,200,308000.0,High,Standard,Cross-Border

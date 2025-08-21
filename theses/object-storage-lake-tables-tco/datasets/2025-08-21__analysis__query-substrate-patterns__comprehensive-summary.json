@@ -1,0 +1,171 @@
+{
+  "analysis_date": "2025-08-20T17:44:52.663519",
+  "datasets_analyzed": {
+    "workload_distribution": true,
+    "industry_surveys": true,
+    "billing_patterns": true
+  },
+  "key_findings": {
+    "industry_weighted_average": {
+      "native_percent": 54.742198190244984,
+      "external_percent": 45.257801809755016,
+      "total_sample_size": 4531
+    },
+    "platform_variation": {
+      "federated_engines": "80%+ external-focused (Trino, Presto)",
+      "cloud_warehouses": "75%+ native-focused (BigQuery, Snowflake)",
+      "lakehouse_platforms": "More balanced distribution (Databricks)"
+    },
+    "adoption_trends": {
+      "external_format_growth": "3% monthly growth across all platforms",
+      "enterprise_preference": "Committed accounts favor native storage (70%+)",
+      "startup_preference": "Credit-based accounts favor external formats (60%+)"
+    }
+  },
+  "workload_analysis": {
+    "total_queries": 13462567,
+    "native_percentage": 10.431257278051058,
+    "external_percentage": 89.56874272194895,
+    "engine_breakdown": {
+      "delta": {
+        "Athena": 776166,
+        "BigQuery": 0,
+        "Databricks SQL": 572739,
+        "Presto": 837240,
+        "Snowflake": 0,
+        "Trino": 794027
+      },
+      "external": {
+        "Athena": 0,
+        "BigQuery": 534221,
+        "Databricks SQL": 572739,
+        "Presto": 837240,
+        "Snowflake": 440583,
+        "Trino": 794027
+      },
+      "hudi": {
+        "Athena": 776166,
+        "BigQuery": 0,
+        "Databricks SQL": 572739,
+        "Presto": 0,
+        "Snowflake": 0,
+        "Trino": 794027
+      },
+      "iceberg": {
+        "Athena": 776166,
+        "BigQuery": 0,
+        "Databricks SQL": 572739,
+        "Presto": 837240,
+        "Snowflake": 0,
+        "Trino": 794027
+      },
+      "native": {
+        "Athena": 0,
+        "BigQuery": 667244,
+        "Databricks SQL": 0,
+        "Presto": 0,
+        "Snowflake": 737071,
+        "Trino": 0
+      },
+      "parquet": {
+        "Athena": 776166,
+        "BigQuery": 0,
+        "Databricks SQL": 0,
+        "Presto": 0,
+        "Snowflake": 0,
+        "Trino": 0
+      }
+    },
+    "industry_breakdown": {
+      "delta": {
+        "financial_services": 640375,
+        "healthcare": 652544,
+        "manufacturing": 731489,
+        "media": 41966,
+        "retail": 211918,
+        "technology": 701880
+      },
+      "external": {
+        "financial_services": 666748,
+        "healthcare": 696822,
+        "manufacturing": 798198,
+        "media": 45660,
+        "retail": 224295,
+        "technology": 747087
+      },
+      "hudi": {
+        "financial_services": 462976,
+        "healthcare": 459412,
+        "manufacturing": 532544,
+        "media": 31665,
+        "retail": 151899,
+        "technology": 504436
+      },
+      "iceberg": {
+        "financial_services": 640375,
+        "healthcare": 652544,
+        "manufacturing": 731489,
+        "media": 41966,
+        "retail": 211918,
+        "technology": 701880
+      },
+      "native": {
+        "financial_services": 410247,
+        "healthcare": 338135,
+        "manufacturing": 315693,
+        "media": 8758,
+        "retail": 106350,
+        "technology": 225132
+      },
+      "parquet": {
+        "financial_services": 170315,
+        "healthcare": 162976,
+        "manufacturing": 183649,
+        "media": 9667,
+        "retail": 51738,
+        "technology": 197821
+      }
+    }
+  },
+  "survey_analysis": {
+    "total_surveys": 12,
+    "total_sample_size": 4531,
+    "weighted_native_percent": 54.742198190244984,
+    "weighted_external_percent": 45.257801809755016,
+    "category_breakdown": {
+      "native_query_percent": {
+        "Academic Benchmark": 45.0,
+        "Cloud Data Warehouses": 80.3,
+        "Enterprise Platforms": 71.4,
+        "Federated Query Engines": 20.4,
+        "Lakehouse Platforms": 65.2,
+        "Media/Streaming": 35.2,
+        "Multi-Engine": 58.9,
+        "Self-Service Analytics": 38.6,
+        "Serverless Query Engines": 25.3,
+        "Travel/Hospitality": 42.7
+      },
+      "external_query_percent": {
+        "Academic Benchmark": 55.0,
+        "Cloud Data Warehouses": 19.7,
+        "Enterprise Platforms": 28.6,
+        "Federated Query Engines": 79.6,
+        "Lakehouse Platforms": 34.8,
+        "Media/Streaming": 64.8,
+        "Multi-Engine": 41.1,
+        "Self-Service Analytics": 61.4,
+        "Serverless Query Engines": 74.7,
+        "Travel/Hospitality": 57.3
+      }
+    }
+  },
+  "billing_analysis": {
+    "total_billing_records": 990,
+    "total_queries": 4099385,
+    "native_percentage": 57.584222999303556,
+    "external_percentage": 42.415777000696444,
+    "total_cost": 63115.60309282284,
+    "native_cost_percentage": 58.02126398700378,
+    "external_cost_percentage": 41.97873601299622
+  }
+}

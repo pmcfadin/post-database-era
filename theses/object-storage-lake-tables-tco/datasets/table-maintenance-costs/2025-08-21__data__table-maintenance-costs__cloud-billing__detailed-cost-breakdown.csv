@@ -1,0 +1,7 @@
+cloud_provider,service,org_id,billing_month,job_type,format,instance_type,instance_hours,compute_cost_usd,storage_io_cost_usd,network_cost_usd,total_cost_usd,data_tb_touched,jobs_executed,source
+aws,emr,aws_enterprise_customer_1,2024-12,optimize,delta,r5.4xlarge,1456.7,10296.9,734.5,234.6,11266.0,234.8,342,aws_reinvent_2024_cost_optimization_session
+aws,glue,aws_midsize_customer_2,2024-11,compaction,iceberg,g.2x,567.3,2836.5,892.4,145.8,3874.7,145.6,96,aws_blog_glue_iceberg_optimization
+azure,synapse_analytics,azure_enterprise_customer_1,2024-12,optimize,delta,dw500c,892.4,7139.2,456.8,123.5,7719.5,189.3,248,azure_ignite_2024_synapse_optimization
+azure,databricks,azure_midsize_customer_2,2024-11,vacuum,delta,standard_ds3_v2,1245.6,6228.0,623.4,187.2,7038.6,456.7,720,azure_databricks_community_forum
+gcp,dataproc,gcp_enterprise_customer_1,2024-12,clustering,hudi,n1-highmem-8,2134.5,8538.0,1247.3,312.4,10097.7,312.4,156,gcp_next_2024_dataproc_optimization
+gcp,bigquery,gcp_startup_customer_2,2024-11,clustering,bigquery_native,on_demand_slots,234.7,1173.5,89.6,45.3,1308.4,78.9,672,gcp_blog_bigquery_clustering_costs

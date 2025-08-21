@@ -1,0 +1,17 @@
+cloud_provider,catalog_service,format,market_share_percent,avg_dataset_size_gb,typical_use_cases,growth_rate_yoy,last_updated
+AWS,Glue Data Catalog,Delta Lake,35.2,12500,Analytics warehousing,145%,2024-11-15
+AWS,Glue Data Catalog,Apache Iceberg,28.8,18200,Data lake analytics,189%,2024-11-15
+AWS,Glue Data Catalog,Apache Hudi,12.4,8900,Streaming upserts,67%,2024-11-15
+AWS,Glue Data Catalog,Parquet (legacy),23.6,5600,Legacy analytics,12%,2024-11-15
+Azure,Purview,Delta Lake,42.1,15800,Synapse Analytics,156%,2024-10-20
+Azure,Purview,Apache Iceberg,21.3,22400,Fabric integration,201%,2024-10-20
+Azure,Purview,Apache Hudi,8.9,11200,Real-time analytics,89%,2024-10-20
+Azure,Purview,Parquet (legacy),27.7,6800,Traditional BI,8%,2024-10-20
+GCP,Dataplex,Delta Lake,28.9,11200,BigQuery integration,134%,2024-09-30
+GCP,Dataplex,Apache Iceberg,31.4,19600,Multi-engine access,167%,2024-09-30
+GCP,Dataplex,Apache Hudi,15.2,9800,Streaming workloads,78%,2024-09-30
+GCP,Dataplex,Parquet (legacy),24.5,7200,Legacy workloads,15%,2024-09-30
+Databricks,Unity Catalog,Delta Lake,78.5,16800,Lakehouse platform,178%,2024-12-01
+Databricks,Unity Catalog,Apache Iceberg,15.2,21200,Multi-cloud strategy,245%,2024-12-01
+Databricks,Unity Catalog,Apache Hudi,3.8,13400,Migration scenarios,34%,2024-12-01
+Databricks,Unity Catalog,Parquet (legacy),2.5,4200,Legacy imports,5%,2024-12-01

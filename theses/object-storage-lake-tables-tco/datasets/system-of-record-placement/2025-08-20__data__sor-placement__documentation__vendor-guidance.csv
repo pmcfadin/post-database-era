@@ -1,0 +1,6 @@
+source_type,name,url,domain,sor_pattern,description
+documentation,Databricks Data Mesh Guide,https://docs.databricks.com/lakehouse/data-mesh.html,data_platform,lakehouse_native,Official documentation for data_platform approach to data mesh
+documentation,Snowflake Data Cloud Architecture,https://docs.snowflake.com/en/user-guide/ecosystem-data-lake,data_warehouse,warehouse_native,Official documentation for data_warehouse approach to data mesh
+documentation,AWS Data Mesh on S3,https://aws.amazon.com/blogs/big-data/design-a-data-mesh-architecture-using-aws-lake-formation-and-aws-glue/,object_storage,lake_first,Official documentation for object_storage approach to data mesh
+documentation,Azure Data Mesh,https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/data-management/architectures/data-mesh,multi_service,federated,Official documentation for multi_service approach to data mesh
+documentation,Google Cloud Data Mesh,https://cloud.google.com/architecture/data-mesh,analytics_engine,compute_separated,Official documentation for analytics_engine approach to data mesh

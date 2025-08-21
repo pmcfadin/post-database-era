@@ -1,0 +1,128 @@
+# Dataset Metadata
+dataset:
+  title: "Schema Evolution Patterns by Workload Mix - Enterprise Analysis"
+  description: "Analysis of how workload composition (BI/ETL/ML mix) affects schema evolution patterns, migration strategies, and associated costs"
+  topic: "schema-evolution-workload-mix"
+  metric: "Schema change frequency and migration costs by workload type"
+
+# Source Information
+source:
+  name: "Enterprise Schema Evolution Case Studies"
+  url: "modeled_from_industry_schema_management_patterns"
+  accessed: "2025-08-20"
+  license: "Research use"
+  credibility: "Tier B"
+
+# Data Characteristics
+characteristics:
+  rows: 22
+  columns: 20
+  time_range: "2025 snapshot analysis"
+  update_frequency: "static"
+  collection_method: "modeled_from_enterprise_patterns"
+
+# Column Descriptions
+columns:
+  org_id:
+    type: "string"
+    description: "Unique organization identifier"
+    unit: "categorical"
+  org_type:
+    type: "string"
+    description: "Industry vertical or organization type"
+    unit: "categorical"
+  mix_bi_pct:
+    type: "number"
+    description: "Percentage of workload dedicated to BI/interactive analytics"
+    unit: "percentage"
+  mix_etl_pct:
+    type: "number"
+    description: "Percentage of workload dedicated to ETL/batch processing"
+    unit: "percentage"
+  mix_ml_pct:
+    type: "number"
+    description: "Percentage of workload dedicated to ML/advanced analytics"
+    unit: "percentage"
+  tco_usd_month:
+    type: "number"
+    description: "Total cost of ownership per month"
+    unit: "USD"
+  schema_changes_per_month:
+    type: "number"
+    description: "Average number of schema changes deployed per month"
+    unit: "count"
+  breaking_changes_pct:
+    type: "number"
+    description: "Percentage of schema changes that are breaking/incompatible"
+    unit: "percentage"
+  schema_evolution_strategy:
+    type: "string"
+    description: "Primary approach used for schema evolution management"
+    unit: "categorical"
+  migration_downtime_hours_month:
+    type: "number"
+    description: "Total hours of downtime per month due to schema migrations"
+    unit: "hours"
+  schema_complexity_score:
+    type: "number"
+    description: "Complexity rating of schema (1-10 scale)"
+    unit: "score"
+  changes_per_user_month:
+    type: "number"
+    description: "Schema changes normalized per 100 users"
+    unit: "changes_per_100_users"
+  downtime_per_change_hours:
+    type: "number"
+    description: "Average downtime hours per schema change"
+    unit: "hours_per_change"
+  migration_cost_usd_month:
+    type: "number"
+    description: "Monthly cost of schema migration activities"
+    unit: "USD"
+  migration_cost_pct_tco:
+    type: "number"
+    description: "Migration costs as percentage of total TCO"
+    unit: "percentage"
+  evolution_agility_score:
+    type: "number"
+    description: "Measure of schema evolution agility (higher = more agile)"
+    unit: "score"
+  evolution_pattern:
+    type: "string"
+    description: "Categorization of evolution frequency pattern"
+    unit: "categorical"
+  workload_description:
+    type: "string"
+    description: "Description of primary workload characteristics"
+    unit: "text"
+  collection_date:
+    type: "string"
+    description: "Data collection timestamp"
+    unit: "ISO8601"
+  source_type:
+    type: "string"
+    description: "Type of data source or analysis"
+    unit: "categorical"
+
+# Quality Indicators
+quality:
+  completeness: "100% for all core schema evolution metrics"
+  sample_size: "22 organizations across 10 industry verticals"
+  confidence: "medium"
+  limitations:
+    - "Modeled data based on observed industry patterns"
+    - "Schema change frequency varies significantly by organization maturity"
+    - "Cost models simplified - actual migration costs highly variable"
+    - "Breaking change percentages represent steady-state averages"
+    - "Does not account for major platform migrations or rewrites"
+
+# Usage Notes
+notes:
+  - "Case studies represent realistic enterprise schema evolution patterns"
+  - "Sensitivity analysis explores impact of workload composition"
+  - "BI-heavy workloads: fewer changes, more breaking changes, higher downtime"
+  - "ETL-heavy workloads: moderate, predictable evolution patterns"
+  - "ML-heavy workloads: frequent changes, mostly additive/non-breaking"
+  - "Migration costs typically 2-8% of total TCO"
+  - "Schema complexity correlates with ML workload percentage"
+  - "Evolution agility inversely correlated with breaking change percentage"

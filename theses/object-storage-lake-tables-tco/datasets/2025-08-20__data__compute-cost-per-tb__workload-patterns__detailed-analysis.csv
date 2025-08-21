@@ -1,0 +1,16 @@
+engine,workload,tb_scanned,compute_cost_usd,usd_per_tb,pricing_model,source,notes,cpu_hours,memory_gb_hours,workload_complexity
+Spark_SQL,etl,5.0,11.25,2.25,compute_based,Production ETL Pipeline Analysis,"Daily batch processing, Parquet → Delta conversion",45,2025,high
+BigQuery,etl,5.0,31.25,6.25,on_demand,Production ETL Pipeline Analysis,"Complex joins and aggregations, slot spillage",variable,managed,high
+Snowflake,etl,5.0,22.5,4.5,credit_based,Production ETL Pipeline Analysis,"Large warehouse, automated scaling, complex transformations",37.5,3000,high
+Redshift,bi,2.0,3.26,1.63,instance_based,BI Dashboard Performance Study,"Pre-aggregated tables, columnar storage benefits",8,480,medium
+BigQuery,bi,2.0,12.5,6.25,on_demand,BI Dashboard Performance Study,"Standard BI queries, good partition pruning",variable,managed,medium
+ClickHouse,bi,2.0,1.6,0.8,compute_based,BI Dashboard Performance Study,"Optimized OLAP engine, excellent compression",4,128,medium
+Trino,adhoc,0.5,0.48,0.95,compute_based,Data Exploration Workload Study,"Interactive queries, data lake exploration",2.5,100,low
+Athena,adhoc,0.5,2.5,5.0,per_tb_scanned,Data Exploration Workload Study,"Serverless convenience, pay-per-query",serverless,serverless,low
+DuckDB,adhoc,0.5,0.23,0.45,compute_based,Data Exploration Workload Study,"Single-node, in-memory processing, very efficient",1.2,24,low
+BigQuery,bi,0.1,0.625,6.25,on_demand,Small Scale Analysis,"Minimum query cost, consistent pricing",variable,managed,low
+Snowflake,etl,8.0,28.8,3.6,credit_based,Medium Scale Analysis,"Medium warehouse, good efficiency at scale",48,3840,medium
+Presto,bi,25.0,30.0,1.2,compute_based,Large Scale Analysis,"Large cluster, economies of scale, data locality",200,12800,medium
+Spark_SQL,etl,3.0,9.0,3.0,compute_based,Optimization Impact Study,"Baseline: default settings, no optimizations",36,1440,medium
+Spark_SQL,etl,3.0,5.4,1.8,compute_based,Optimization Impact Study,"Optimized: Parquet format, proper partitioning, predicate pushdown",21.6,864,medium
+Spark_SQL,bi,3.0,3.6,1.2,compute_based,Optimization Impact Study,"Highly optimized: caching, pre-aggregation, materialized views",14.4,576,medium

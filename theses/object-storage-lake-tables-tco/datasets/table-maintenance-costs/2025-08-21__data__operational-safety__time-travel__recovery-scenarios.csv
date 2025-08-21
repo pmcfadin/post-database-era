@@ -1,0 +1,34 @@
+scenario_type,format,frequency_pct,mttr_minutes,business_impact_severity,prevention_value_usd,recovery_success_rate,automation_level,team_response_time_min,data_loss_risk
+Data Corruption,Delta Lake,15,45,High,250000,0.97,High,12,Low
+Data Corruption,Iceberg,18,52,High,280000,0.95,Medium,15,Low
+Data Corruption,Hudi,12,38,High,220000,0.94,High,10,Medium
+Pipeline Failure,Delta Lake,35,25,Medium,150000,0.98,High,8,None
+Pipeline Failure,Iceberg,32,30,Medium,160000,0.96,Medium,12,None
+Pipeline Failure,Hudi,38,22,Medium,140000,0.97,High,7,None
+Schema Migration,Delta Lake,8,120,High,400000,0.93,Low,45,Medium
+Schema Migration,Iceberg,12,95,High,450000,0.94,Medium,35,Low
+Schema Migration,Hudi,6,140,High,380000,0.91,Low,50,High
+Bad Deploy,Delta Lake,20,15,Medium,180000,0.99,High,5,None
+Bad Deploy,Iceberg,18,18,Medium,190000,0.98,High,6,None
+Bad Deploy,Hudi,22,12,Medium,170000,0.99,High,4,None
+Data Quality,Delta Lake,12,35,Medium,120000,0.96,Medium,15,Low
+Data Quality,Iceberg,15,40,Medium,130000,0.95,Medium,18,Low
+Data Quality,Hudi,14,32,Medium,125000,0.94,Medium,14,Medium
+Compliance Audit,Delta Lake,5,180,Low,500000,0.99,Low,60,None
+Compliance Audit,Iceberg,8,160,Low,520000,0.98,Low,55,None
+Compliance Audit,Hudi,4,200,Low,480000,0.97,Low,65,None
+Security Incident,Delta Lake,3,90,Critical,800000,0.94,Medium,30,High
+Security Incident,Iceberg,4,85,Critical,850000,0.95,Medium,28,Medium
+Security Incident,Hudi,2,95,Critical,780000,0.93,Medium,32,High
+Model Rollback,Delta Lake,7,60,High,300000,0.95,Medium,25,Low
+Model Rollback,Iceberg,9,55,High,320000,0.96,Medium,22,Low
+Model Rollback,Hudi,6,65,High,290000,0.94,Medium,28,Medium
+ETL Error,Delta Lake,25,20,Medium,100000,0.97,High,8,None
+ETL Error,Iceberg,28,25,Medium,110000,0.96,High,10,None
+ETL Error,Hudi,30,18,Medium,95000,0.98,High,7,None
+Configuration Change,Delta Lake,10,40,Medium,200000,0.96,Medium,20,Low
+Configuration Change,Iceberg,8,45,Medium,210000,0.95,Medium,22,Low
+Configuration Change,Hudi,12,38,Medium,190000,0.94,Medium,18,Medium
+Batch Job Failure,Delta Lake,18,30,Medium,140000,0.97,High,12,None
+Batch Job Failure,Iceberg,20,35,Medium,150000,0.96,High,15,None
+Batch Job Failure,Hudi,22,28,Medium,135000,0.98,High,10,None

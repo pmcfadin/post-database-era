@@ -1,0 +1,189 @@
+{
+  "vendor_coverage": {
+    "Databricks": {
+      "active_skus": 7,
+      "distinct_products": 1,
+      "cloud_coverage": 3,
+      "region_coverage": 7
+    },
+    "Snowflake": {
+      "active_skus": 6,
+      "distinct_products": 2,
+      "cloud_coverage": 3,
+      "region_coverage": 5
+    },
+    "AWS": {
+      "active_skus": 8,
+      "distinct_products": 4,
+      "cloud_coverage": 1,
+      "region_coverage": 3
+    },
+    "Google": {
+      "active_skus": 7,
+      "distinct_products": 3,
+      "cloud_coverage": 1,
+      "region_coverage": 3
+    },
+    "Microsoft": {
+      "active_skus": 6,
+      "distinct_products": 3,
+      "cloud_coverage": 1,
+      "region_coverage": 3
+    },
+    "Dremio": {
+      "active_skus": 2,
+      "distinct_products": 1,
+      "cloud_coverage": 2,
+      "region_coverage": 2
+    },
+    "Starburst": {
+      "active_skus": 2,
+      "distinct_products": 1,
+      "cloud_coverage": 2,
+      "region_coverage": 2
+    }
+  },
+  "ga_timeline": {
+    "2021": {
+      "new_vendors": 3,
+      "new_skus": 9
+    },
+    "2022": {
+      "new_vendors": 3,
+      "new_skus": 5
+    },
+    "2020": {
+      "new_vendors": 3,
+      "new_skus": 5
+    },
+    "2023": {
+      "new_vendors": 2,
+      "new_skus": 7
+    },
+    "2024": {
+      "new_vendors": 1,
+      "new_skus": 1
+    },
+    "2019": {
+      "new_vendors": 1,
+      "new_skus": 3
+    },
+    "2016": {
+      "new_vendors": 1,
+      "new_skus": 2
+    },
+    "2017": {
+      "new_vendors": 2,
+      "new_skus": 5
+    },
+    "2015": {
+      "new_vendors": 1,
+      "new_skus": 1
+    }
+  },
+  "cloud_platform_analysis": {
+    "AWS": {
+      "total_skus": 19,
+      "vendor_count": 5,
+      "product_count": 8
+    },
+    "Azure": {
+      "total_skus": 10,
+      "vendor_count": 5,
+      "product_count": 6
+    },
+    "GCP": {
+      "total_skus": 9,
+      "vendor_count": 3,
+      "product_count": 5
+    }
+  },
+  "market_entry_order": {
+    "Google": "2015-09-24",
+    "AWS": "2016-11-20",
+    "Snowflake": "2020-05-14",
+    "Microsoft": "2020-12-15",
+    "Starburst": "2021-03-16",
+    "Databricks": "2021-06-24",
+    "Dremio": "2021-09-14"
+  },
+  "market_maturity": {
+    "total_active_skus": 38,
+    "total_vendors": 7,
+    "total_products": 14,
+    "market_age_years": 10,
+    "recent_launches_2023_2024": 8,
+    "deprecated_services": 1
+  },
+  "regional_coverage": {
+    "us-east-1": {
+      "total_offerings": 9,
+      "vendor_count": 5
+    },
+    "us-west-2": {
+      "total_offerings": 3,
+      "vendor_count": 2
+    },
+    "eu-west-1": {
+      "total_offerings": 4,
+      "vendor_count": 3
+    },
+    "East US": {
+      "total_offerings": 6,
+      "vendor_count": 5
+    },
+    "us-central1": {
+      "total_offerings": 5,
+      "vendor_count": 3
+    },
+    "ap-southeast-1": {
+      "total_offerings": 2,
+      "vendor_count": 2
+    },
+    "eu-central-1": {
+      "total_offerings": 1,
+      "vendor_count": 1
+    },
+    "us-east1": {
+      "total_offerings": 2,
+      "vendor_count": 1
+    },
+    "europe-west1": {
+      "total_offerings": 2,
+      "vendor_count": 1
+    },
+    "West US 2": {
+      "total_offerings": 2,
+      "vendor_count": 1
+    },
+    "West Europe": {
+      "total_offerings": 2,
+      "vendor_count": 1
+    }
+  },
+  "competitive_landscape": {
+    "multi_cloud_vendors": {
+      "Databricks": 3,
+      "Snowflake": 3,
+      "AWS": 1,
+      "Google": 1,
+      "Microsoft": 1,
+      "Dremio": 2,
+      "Starburst": 2
+    },
+    "cross_vendor_products": {
+      "AWS": 5,
+      "Azure": 5,
+      "GCP": 3
+    },
+    "market_leaders_by_sku_count": {
+      "AWS": 8,
+      "Databricks": 7,
+      "Google": 7,
+      "Snowflake": 6,
+      "Microsoft": 6,
+      "Dremio": 2,
+      "Starburst": 2
+    }
+  }
+}

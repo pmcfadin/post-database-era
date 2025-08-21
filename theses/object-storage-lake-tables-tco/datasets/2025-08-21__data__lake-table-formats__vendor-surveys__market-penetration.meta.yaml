@@ -1,0 +1,81 @@
+# Dataset Metadata
+dataset:
+  title: "Lake Table Format Market Penetration by Organization Type"
+  description: "Compilation of vendor surveys and reports showing table format adoption across different organization types and catalog systems"
+  topic: "Lake table format penetration analysis"
+  metric: "Dataset count, storage volume, and organization adoption"
+  
+# Source Information
+source:
+  name: "Multiple vendor surveys and reports"
+  url: "Various - Databricks, AWS, Apache Foundation, third-party surveys"
+  accessed: "2025-08-21"
+  license: "Publicly available survey data"
+  credibility: "Tier B"
+  
+# Data Characteristics
+characteristics:
+  rows: 15
+  columns: 9
+  time_range: "2024-04-18 - 2024-11-28"
+  update_frequency: "quarterly to annual"
+  collection_method: "vendor surveys and partner reports"
+  
+# Column Descriptions
+columns:
+  org_type:
+    type: "string"
+    description: "Organization size category"
+    unit: "Enterprise/SMB/Startup"
+  catalog_system:
+    type: "string"
+    description: "Metadata catalog system in use"
+    unit: "categorical"
+  format:
+    type: "string"
+    description: "Lake table format"
+    unit: "categorical"
+  dataset_count:
+    type: "number"
+    description: "Number of datasets using this format"
+    unit: "count"
+  total_tb:
+    type: "number"
+    description: "Total storage volume in terabytes"
+    unit: "TB"
+  org_count:
+    type: "number"
+    description: "Number of organizations using this combination"
+    unit: "count"
+  survey_source:
+    type: "string"
+    description: "Source of the survey data"
+    unit: "categorical"
+  collection_date:
+    type: "date"
+    description: "When the survey data was collected"
+    unit: "YYYY-MM-DD"
+  confidence_level:
+    type: "string"
+    description: "Reliability of the data source"
+    unit: "high/medium/low"
+    
+# Quality Indicators
+quality:
+  completeness: "85%"
+  sample_size: "Varies by survey (45-850 organizations per data point)"
+  confidence: "medium"
+  limitations: 
+    - "Survey methodologies vary between vendors"
+    - "Self-reported data may have bias toward vendor solutions"
+    - "Some estimates extrapolated from limited samples"
+    - "Startup data particularly sparse and low confidence"
+  
+# Usage Notes
+notes:
+  - "Delta Lake shows strongest adoption in Databricks Unity Catalog"
+  - "Iceberg shows broad adoption across multiple catalog systems"
+  - "Hudi usage appears concentrated in specific use cases"
+  - "Enterprise adoption significantly higher than SMB/Startup"
+  - "AWS Glue and Unity Catalog are dominant catalog platforms"
+  - "Data compiled from public vendor presentations and surveys"

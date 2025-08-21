@@ -1,0 +1,20 @@
+dataset:
+  title: "BI Dashboard Performance Benchmark Sources and Citations"
+  description: "Collection of real-world performance studies comparing BI dashboard performance across different data architectures"
+  topic: "BI performance benchmark literature"
+  metric: "Performance study findings and methodologies"
+
+source:
+  name: "Industry benchmark studies and research reports"
+  url: "Multiple vendor and analyst sources"
+  accessed: "2025-08-20"
+  license: "Public research citations"
+  credibility: "Tier A/B mix"
+
+characteristics:
+  rows: "10 benchmark studies"
+  columns: "12"
+  time_range: "2022-2023"
+  update_frequency: "Static research collection"
+  collection_method: "Literature review"
+

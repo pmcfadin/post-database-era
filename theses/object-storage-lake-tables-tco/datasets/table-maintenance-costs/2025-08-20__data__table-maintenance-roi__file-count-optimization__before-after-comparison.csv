@@ -1,0 +1,4 @@
+dataset_id,table_format,platform,optimization_type,before_file_count,after_file_count,before_latency_ms,after_latency_ms,before_scan_cost_usd,after_scan_cost_usd,latency_improvement_pct,cost_reduction_pct,file_reduction_pct,roi_estimate_days
+ecommerce_analytics,Delta Lake,Databricks,compaction,50000,100,10397,5000,3.0,2.501,51.9,16.6,99.8,15
+user_events_stream,Apache Iceberg,Trino,compaction,50000,100,14096,6000,6.5,6.001,57.4,7.7,99.8,15
+transaction_logs,Apache Hudi,EMR Spark,compaction,50000,100,14817,7800,4.5,4.001,47.4,11.1,99.8,15

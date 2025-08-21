@@ -1,0 +1,29 @@
+service,vendor,pricing_model,monthly_active_objects,cost_usd,cost_unit,tier,additional_costs,data_source,last_updated
+AWS Glue Data Catalog,Amazon,pay_per_request,1000000,0,first_million_free,free_tier,storage_extra,aws_pricing_page,2025-01-01
+AWS Glue Data Catalog,Amazon,pay_per_request,10000000,9.00,per_million_objects,standard,storage_extra,aws_pricing_page,2025-01-01
+AWS Glue Data Catalog,Amazon,pay_per_request,100000000,90.00,per_million_objects,standard,storage_extra,aws_pricing_page,2025-01-01
+Databricks Unity Catalog,Databricks,included_with_platform,unlimited,0,included,premium,compute_billing_separate,databricks_docs,2025-01-01
+Google Cloud Data Catalog,Google,pay_per_request,100000,0,free_tier,free,api_calls_extra,gcp_pricing,2025-01-01
+Google Cloud Data Catalog,Google,pay_per_request,1000000,50.00,per_million_entries,standard,api_calls_extra,gcp_pricing,2025-01-01
+Azure Purview Data Catalog,Microsoft,consumption_based,1000000,200.00,data_map_units,standard,scanning_extra,azure_pricing,2025-01-01
+Apache Atlas,Apache Foundation,open_source,unlimited,0,infrastructure_only,self_hosted,compute_storage_separate,apache_atlas_site,2025-01-01
+DataHub Open Source,LinkedIn,open_source,unlimited,0,infrastructure_only,self_hosted,compute_storage_separate,datahub_docs,2025-01-01
+DataHub Cloud,Acryl Data,saas_subscription,1000000,2000.00,monthly_subscription,starter,support_included,acryl_pricing,2024-12-01
+DataHub Cloud,Acryl Data,saas_subscription,10000000,8000.00,monthly_subscription,professional,support_included,acryl_pricing,2024-12-01
+Collibra Data Catalog,Collibra,enterprise_license,unlimited,25000.00,annual_license,enterprise,contact_sales,vendor_discussions,2024-11-01
+Alation Data Catalog,Alation,tiered_subscription,1000000,3000.00,monthly_subscription,essentials,basic_support,vendor_discussions,2024-11-01
+Alation Data Catalog,Alation,tiered_subscription,5000000,8000.00,monthly_subscription,professional,premium_support,vendor_discussions,2024-11-01
+Alation Data Catalog,Alation,enterprise_license,unlimited,25000.00,monthly_subscription,enterprise,full_support,vendor_discussions,2024-11-01
+Informatica Data Catalog,Informatica,enterprise_license,unlimited,15000.00,monthly_subscription,cloud,support_included,vendor_discussions,2024-10-01
+IBM Watson Knowledge Catalog,IBM,consumption_based,1000000,1200.00,monthly_subscription,standard,watson_studio_required,ibm_pricing,2024-12-01
+Snowflake Object Tagging,Snowflake,included_with_platform,unlimited,0,included,standard,compute_billing_separate,snowflake_docs,2025-01-01
+dbt Cloud Catalog,dbt Labs,saas_subscription,unlimited,300.00,monthly_per_developer,developer,metadata_included,dbt_pricing,2025-01-01
+Monte Carlo Data Catalog,Monte Carlo,saas_subscription,1000000,2500.00,monthly_subscription,standard,observability_included,vendor_discussions,2024-12-01
+Atlan Data Catalog,Atlan,saas_subscription,1000000,1500.00,monthly_subscription,starter,collaboration_included,atlan_pricing,2024-12-01
+Stemma Data Catalog,Stemma,saas_subscription,500000,1000.00,monthly_subscription,growth,lineage_included,vendor_discussions,2024-11-01
+Select Star Data Catalog,Select Star,freemium,100000,0,free_tier,free,limited_features,selectstar_pricing,2025-01-01
+Select Star Data Catalog,Select Star,saas_subscription,1000000,800.00,monthly_subscription,pro,full_features,selectstar_pricing,2025-01-01
+Metaphor Data Catalog,Metaphor,saas_subscription,1000000,1200.00,monthly_subscription,standard,ai_powered,vendor_discussions,2024-12-01
+AWS Lake Formation,Amazon,pay_per_request,1000000,100.00,monthly_data_processed,standard,glue_catalog_separate,aws_pricing_page,2025-01-01
+Google Dataplex,Google,consumption_based,1000000,150.00,monthly_data_processed,standard,data_catalog_separate,gcp_pricing,2025-01-01
+Azure Synapse Data Discovery,Microsoft,included_with_platform,unlimited,0,included,standard,synapse_billing_separate,azure_pricing,2025-01-01

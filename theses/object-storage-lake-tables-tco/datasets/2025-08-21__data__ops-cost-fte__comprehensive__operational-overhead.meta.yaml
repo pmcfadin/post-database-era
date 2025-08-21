@@ -1,0 +1,91 @@
+dataset:
+  title: "Comprehensive Database Operations Cost Analysis"
+  description: "Multi-source compilation of operational overhead metrics for database and data platform management including FTE hours, maintenance time, incident response, and resource allocation patterns"
+  topic: database_operations_cost_comprehensive_analysis
+  metric: fte_hours_operational_metrics_multi_source
+source:
+  name: "Multi-Source Research Compilation"
+  url: reddit_stackoverflow_github_industry_synthesis
+  accessed: 2025-08-20
+  license: research_use_community_sources
+  credibility: "Tier B"
+characteristics:
+  rows: 8
+  columns: 14
+  time_range: 2024-2025
+  update_frequency: static_research_compilation
+  collection_method: community_discussions_industry_benchmarks_synthesis
+columns:
+  org_id:
+    type: string
+    description: "Anonymous organization identifier with source prefix"
+    unit: categorical
+  org_size:
+    type: string
+    description: "Organization size category based on employee count and data volume"
+    unit: small_medium_large
+  stack_type:
+    type: string
+    description: "Data platform architecture type - lake vs data warehouse"
+    unit: lake_dw_hybrid
+  fte_hours_month:
+    type: number
+    description: "Full-time equivalent hours per month dedicated to data platform operations"
+    unit: hours_per_month
+  tables:
+    type: number
+    description: "Total number of database tables/datasets managed"
+    unit: count
+  tb:
+    type: number
+    description: "Total terabytes of data under management"
+    unit: terabytes
+  incidents:
+    type: number
+    description: "Average number of operational incidents requiring intervention per month"
+    unit: count_per_month
+  oncall_hours:
+    type: number
+    description: "On-call availability hours per month for data platform issues"
+    unit: hours_per_month
+  maintenance_hours:
+    type: number
+    description: "Planned maintenance and routine operational tasks hours per month"
+    unit: hours_per_month
+  upgrade_hours:
+    type: number
+    description: "System upgrades, migrations, and major changes hours per month"
+    unit: hours_per_month
+  data_source:
+    type: string
+    description: "Primary source of the operational data point"
+    unit: categorical_source_type
+  confidence:
+    type: string
+    description: "Confidence level in accuracy of the data point"
+    unit: high_medium_low
+  details:
+    type: string
+    description: "Additional context about the organization and technology stack"
+    unit: text_description
+  url_reference:
+    type: string
+    description: "Reference to source discussion or search terms used"
+    unit: url_or_search_reference
+quality:
+  completeness: "100%"
+  sample_size: 8_data_points
+  confidence: medium
+  limitations:
+    - "Mixed source reliability - community discussions may have reporting bias"
+    - "Sample size relatively small for statistical significance"
+    - "Self-reported data from community sources may not be verified"
+    - "Industry benchmarks based on patterns rather than measured data"
+    - "Technology stack variations may affect comparability"
+notes:
+  - "Comprehensive research compilation from multiple source types"
+  - "Includes community discussions, industry patterns, and benchmark estimates"
+  - "Useful for establishing operational cost patterns and ranges"
+  - "Should be validated against formal survey data when available"
+  - "Represents real-world operational patterns from practitioner community"
+  - "Data points include source attribution for credibility assessment"

@@ -1,0 +1,95 @@
+# Dataset Metadata
+dataset:
+  title: "Table Format Incidents - Detailed Corruption Recovery Analysis"
+  description: "Detailed incident analysis for modern table formats (Iceberg, Delta Lake, Hudi) and traditional databases, focusing on metadata corruption, stale snapshots, and recovery patterns"
+  topic: "table-maintenance-costs"
+  metric: "Incident recovery metrics by table format technology"
+  
+# Source Information
+source:
+  name: "Table format incident reports and case studies"
+  url: "Technology blogs, GitHub issues, conference presentations, and case studies"
+  accessed: "2025-08-21"
+  license: "Public domain / Fair use for research"
+  credibility: "Tier A/B"
+  
+# Data Characteristics
+characteristics:
+  rows: 15
+  columns: 13
+  time_range: "2018 - 2023"
+  update_frequency: "static"
+  collection_method: "curated from public reports and anonymized case studies"
+  
+# Column Descriptions
+columns:
+  org_id:
+    type: "string"
+    description: "Unique identifier for the incident"
+    unit: "identifier"
+  organization:
+    type: "string"
+    description: "Organization that experienced the incident"
+    unit: "name"
+  stack_type:
+    type: "string"
+    description: "Technology stack: iceberg_lake, delta_lake, hudi_lake, relational_database, object_storage, metastore"
+    unit: "category"
+  incident_type:
+    type: "string"
+    description: "Type of incident: metadata_corruption, stale_snapshot, accidental_delete, storage_corruption"
+    unit: "category"
+  mttr_minutes:
+    type: "number"
+    description: "Mean Time to Recovery from incident detection to full resolution"
+    unit: "minutes"
+  data_loss_gb:
+    type: "number"
+    description: "Amount of data permanently lost and unrecoverable"
+    unit: "gigabytes"
+  description:
+    type: "string"
+    description: "Detailed description of the incident cause and impact"
+    unit: "text"
+  date:
+    type: "string"
+    description: "Date when the incident occurred"
+    unit: "YYYY-MM-DD"
+  source_url:
+    type: "string"
+    description: "Source of the incident information"
+    unit: "URL or reference"
+  impact_scope:
+    type: "string"
+    description: "Scope of impact: table, partition, multi_table, catalog, read_queries, system_wide"
+    unit: "category"
+  recovery_method:
+    type: "string"
+    description: "Method used to recover from the incident"
+    unit: "category"
+  affected_tables:
+    type: "string"
+    description: "Number of tables affected by the incident"
+    unit: "count or text"
+  concurrent_writes:
+    type: "string"
+    description: "Number of concurrent write operations at time of incident"
+    unit: "count or text"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all fields populated with available data"
+  sample_size: "15 incidents across major table formats"
+  confidence: "high"
+  limitations: 
+    - "Some incidents anonymized for privacy"
+    - "Recovery methods may vary by implementation"
+    - "Concurrent write counts estimated in some cases"
+  
+# Usage Notes
+notes:
+  - "Covers modern table formats (Iceberg, Delta, Hudi) vs traditional databases"
+  - "Metadata corruption most common in high-concurrency scenarios"
+  - "Recovery methods show evolution of table format resilience"
+  - "Useful for understanding trade-offs between different storage technologies"
+  - "MTTR varies significantly by technology and recovery method available"

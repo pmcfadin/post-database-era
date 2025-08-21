@@ -1,0 +1,75 @@
+# Dataset Metadata
+dataset:
+  title: "BI/ELT Tool Connector-Specific Table Format Support"
+  description: "Detailed breakdown of how specific connectors and adapters within BI and ELT tools support Iceberg, Delta Lake, and Hudi table formats"
+  topic: "Table Format Ecosystem Integration via Connectors"
+  metric: "Connector-level feature support matrix"
+  
+# Source Information
+source:
+  name: "Vendor connector documentation and release notes"
+  url: "Multiple vendor connector/adapter documentation sources"
+  accessed: "2025-08-20"
+  license: "Research compilation from public documentation"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 24
+  columns: 7
+  time_range: "2025-08-20 snapshot"
+  update_frequency: "quarterly - connector features evolve rapidly"
+  collection_method: "manual research of connector-specific documentation"
+  
+# Column Descriptions
+columns:
+  tool:
+    type: "string"
+    description: "Parent BI/ELT tool or platform"
+    unit: "categorical"
+  connector_type:
+    type: "string"
+    description: "Specific connector, adapter, or destination name"
+    unit: "categorical"
+  format:
+    type: "string"
+    description: "Table format supported: Iceberg, Delta Lake, Hudi, or All Formats"
+    unit: "categorical"
+  read:
+    type: "string"
+    description: "Read capability through this specific connector"
+    unit: "Yes/No/Limited/Via [Platform]"
+  write:
+    type: "string"
+    description: "Write capability through this specific connector"
+    unit: "Yes/No/Limited/Via [Platform]"
+  status:
+    type: "string"
+    description: "Feature maturity level in this connector"
+    unit: "GA/Preview/Beta/Limited"
+  notes:
+    type: "string"
+    description: "Implementation details and limitations"
+    unit: "text"
+    
+# Quality Indicators
+quality:
+  completeness: "90% - covers major connectors for primary tools"
+  sample_size: "24 connector/format combinations across 7 tools"
+  confidence: "high - based on official connector documentation"
+  limitations: 
+    - "Connector feature support changes with each release"
+    - "Some connectors provide indirect access via underlying platforms"
+    - "Performance characteristics not captured in this dataset"
+    - "Configuration requirements vary by connector"
+  
+# Usage Notes
+notes:
+  - "Tools access table formats primarily through database/platform connectors"
+  - "Trino and Databricks connectors provide broadest format support"
+  - "dbt adapters mirror underlying database capabilities"
+  - "ELT tools increasingly offer direct format output capabilities"
+  - "Snowflake and BigQuery connectors drive Iceberg adoption in BI tools"
+  - "Delta Lake support concentrated in Microsoft/Databricks ecosystem"
+  - "Hudi support remains limited across connector ecosystem"
+  - "Write capabilities often require specific connector configurations"

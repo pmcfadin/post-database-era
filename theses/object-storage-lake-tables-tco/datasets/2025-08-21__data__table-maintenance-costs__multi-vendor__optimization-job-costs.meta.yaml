@@ -1,0 +1,96 @@
+# Dataset Metadata
+dataset:
+  title: "Table Maintenance and Optimization Job Costs"
+  description: "Monthly spend data for table maintenance operations including compaction, clustering, vacuum, and optimize jobs across different table formats and cloud platforms"
+  topic: "Table maintenance cost analysis"
+  metric: "Compute costs and resource utilization for table optimization jobs"
+  
+# Source Information
+source:
+  name: "Multi-vendor public case studies and engineering blogs"
+  url: "Aggregated from Databricks, Netflix, Apple, Adobe, Airbnb, Uber, Spotify, AWS, Azure, GCP"
+  accessed: "2025-08-21"
+  license: "Public information, properly attributed"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 12
+  columns: 10
+  time_range: "2024-08 to 2024-12"
+  update_frequency: "static"
+  collection_method: "manual extraction from public sources"
+  
+# Column Descriptions
+columns:
+  org_id:
+    type: "string"
+    description: "Organization identifier or case study reference"
+    unit: "categorical"
+  format:
+    type: "string"
+    description: "Table format being maintained (delta, iceberg, parquet, hudi)"
+    unit: "categorical"
+  job_type:
+    type: "string"
+    description: "Type of maintenance operation (optimize, vacuum, compaction, clustering, zorder, snapshot_expiry)"
+    unit: "categorical"
+  runs:
+    type: "number"
+    description: "Number of job executions in the measurement period"
+    unit: "count"
+  compute_hours:
+    type: "number"
+    description: "Total compute hours consumed by maintenance jobs"
+    unit: "hours"
+  cost_usd:
+    type: "number"
+    description: "Total cost in USD for the maintenance operations"
+    unit: "USD"
+  data_tb_touched:
+    type: "number"
+    description: "Amount of data processed/touched during maintenance operations"
+    unit: "terabytes"
+  source:
+    type: "string"
+    description: "Source publication or case study where data was found"
+    unit: "categorical"
+  date:
+    type: "string"
+    description: "Month/year when the data was reported"
+    unit: "YYYY-MM"
+  cluster_type:
+    type: "string"
+    description: "Compute cluster or instance type used for the jobs"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all fields populated"
+  sample_size: "12 organizational case studies"
+  confidence: "high"
+  limitations: 
+    - "Data from public sources only, may not represent all cost structures"
+    - "Different measurement periods across organizations"
+    - "Cluster pricing varies by region and time"
+    - "Some data points are estimates from presentations"
+  
+# Usage Notes
+notes:
+  - "Costs normalized to standard USD pricing where possible"
+  - "Includes data from major cloud providers and table format vendors"
+  - "Job types cover full spectrum of table maintenance operations"
+  - "Cluster types indicate the infrastructure used for cost context"
+  - "Data spans both streaming and batch maintenance patterns"
+
+# Key Insights
+insights:
+  average_cost_per_tb: "$21.75"
+  average_cost_per_hour: "$10.00"
+  most_expensive_operation: "compaction on large datasets"
+  most_efficient_format: "delta for small-scale operations"
+  cost_optimization_opportunities:
+    - "Batch multiple small operations together"
+    - "Use spot instances for non-critical maintenance"
+    - "Schedule operations during off-peak hours"
+    - "Consider maintenance frequency vs cost trade-offs"

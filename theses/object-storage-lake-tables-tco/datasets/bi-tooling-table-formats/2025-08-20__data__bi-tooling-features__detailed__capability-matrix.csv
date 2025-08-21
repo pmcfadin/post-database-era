@@ -1,0 +1,20 @@
+category,tool,iceberg_capability,delta_capability,hudi_capability,notes
+Query Pushdown,Tableau,Full (via Snowflake/BigQuery),Full (via Databricks),Limited (via Trino),Depends on underlying database engine
+Query Pushdown,Power BI,Full (via Snowflake/BigQuery),Full (via Databricks),Limited,DirectQuery mode enables pushdown
+Query Pushdown,Looker,Full (via BigQuery/Snowflake),Full (via Databricks),Limited,LookML generates optimized SQL
+Query Pushdown,Superset,Database-dependent,Database-dependent,Database-dependent,Inherits capabilities from connected database
+Schema Evolution,dbt,Full DDL support,Full DDL support,Limited DDL support,Materialization strategy affects capabilities
+Schema Evolution,Fivetran,Automatic via destination,Automatic via destination,Not supported,Schema changes handled by destination platform
+Schema Evolution,Airbyte,Manual configuration,Manual configuration,Limited support,Requires connector-specific setup
+Time Travel,Snowflake,Full snapshot access,Via external tables,Not supported,Iceberg snapshots integrate with Snowflake time travel
+Time Travel,BigQuery,Snapshot querying,Limited support,Not supported,Iceberg snapshot metadata accessible
+Time Travel,Databricks,Full versioning,Native time travel,Timeline querying,All formats support historical queries
+Partition Pruning,Trino,Advanced pruning,Advanced pruning,Basic pruning,Metadata-driven optimization
+Partition Pruning,Tableau,Via database engine,Via database engine,Via database engine,Optimization delegated to backend
+Partition Pruning,Power BI,Via database engine,Via database engine,Via database engine,Query folding enables pruning
+Metadata Operations,dbt,"SHOW TABLES, DESCRIBE","SHOW TABLES, DESCRIBE",Limited metadata,Catalog integration varies by adapter
+Metadata Operations,Matillion,Schema discovery,Schema discovery,Basic schema info,ETL metadata integration
+Metadata Operations,Airbyte,Schema detection,Schema detection,Manual schema,Source schema propagation
+Performance,Snowflake,"Clustering, caching",Limited optimization,Not applicable,Native Iceberg optimizations
+Performance,Databricks,"Z-ordering, caching",Native optimizations,"Compaction, indexing",Format-specific optimizations
+Performance,BigQuery,Automatic optimization,Basic support,Not supported,Serverless optimization for Iceberg

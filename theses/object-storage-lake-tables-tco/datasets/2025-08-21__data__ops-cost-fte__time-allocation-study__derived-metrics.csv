@@ -1,0 +1,9 @@
+org_id,org_size,stack_type,fte_hours_month,tables,tb,incidents,fte_hours_per_tb,fte_hours_per_100_tables,incidents_per_tb,maintenance_ratio,oncall_ratio,data_source
+enterprise_bank_001,large,dw,160,2500,50,12,3.2,6.4,0.24,0.5,0.25,enterprise_banking_operations
+tech_startup_002,medium,lake,120,800,20,8,6.0,15.0,0.4,0.5,0.25,tech_startup_data_platform
+retail_corp_003,large,dw,200,4000,80,15,2.5,5.0,0.19,0.5,0.25,retail_enterprise_operations
+saas_company_004,medium,lake,100,600,15,6,6.67,16.67,0.4,0.5,0.25,saas_platform_operations
+manufacturing_005,large,dw,180,3200,65,10,2.77,5.62,0.15,0.5,0.25,manufacturing_enterprise_operations
+cloud_native_006,medium,lake,80,1200,25,4,3.2,6.67,0.16,0.3,0.2,cloud_native_managed_services
+financial_services_007,large,dw,240,5000,100,18,2.4,4.8,0.18,0.55,0.3,financial_services_regulated
+ecommerce_platform_008,large,lake,200,3500,75,12,2.67,5.71,0.16,0.45,0.25,ecommerce_high_volume_operations

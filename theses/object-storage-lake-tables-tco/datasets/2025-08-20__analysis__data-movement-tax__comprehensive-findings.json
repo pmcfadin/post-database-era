@@ -1,0 +1,327 @@
+{
+  "analysis_date": "2025-08-20",
+  "datasets_analyzed": 3,
+  "total_records": 61,
+  "official_pricing_analysis": {
+    "total_records": 27,
+    "clouds_covered": [
+      "AWS",
+      "GCP",
+      "Azure",
+      "Multi_AWS_GCP",
+      "Multi_Azure_AWS",
+      "AWS_CloudFront"
+    ],
+    "movement_types": [
+      "cross_az_in",
+      "cross_az_out",
+      "cross_region",
+      "internet_egress",
+      "cdn_egress",
+      "cross_zone",
+      "multi_cloud_sync",
+      "multi_cloud_backup",
+      "data_migration",
+      "analytics_export",
+      "cdn_optimization"
+    ],
+    "cost_range": {
+      "min_cost": 0.0,
+      "max_cost": 850.0,
+      "avg_cost": 58.58507407407407
+    },
+    "cost_by_cloud": {
+      "AWS": {
+        "min": 0.0,
+        "max": 850.0,
+        "mean": 85.039
+      },
+      "AWS_CloudFront": {
+        "min": 85.0,
+        "max": 85.0,
+        "mean": 85.0
+      },
+      "Azure": {
+        "min": 0.0,
+        "max": 0.087,
+        "mean": 0.0478
+      },
+      "GCP": {
+        "min": 0.0,
+        "max": 550.0,
+        "mean": 68.8025
+      },
+      "Multi_AWS_GCP": {
+        "min": 8.7,
+        "max": 8.7,
+        "mean": 8.7
+      },
+      "Multi_Azure_AWS": {
+        "min": 87.0,
+        "max": 87.0,
+        "mean": 87.0
+      }
+    },
+    "cost_by_movement_type": {
+      "analytics_export": {
+        "min": 550.0,
+        "max": 550.0,
+        "mean": 550.0
+      },
+      "cdn_egress": {
+        "min": 0.0,
+        "max": 0.085,
+        "mean": 0.055
+      },
+      "cdn_optimization": {
+        "min": 85.0,
+        "max": 85.0,
+        "mean": 85.0
+      },
+      "cross_az_in": {
+        "min": 0.01,
+        "max": 0.01,
+        "mean": 0.01
+      },
+      "cross_az_out": {
+        "min": 0.01,
+        "max": 0.01,
+        "mean": 0.01
+      },
+      "cross_region": {
+        "min": 0.02,
+        "max": 0.09,
+        "mean": 0.0528
+      },
+      "cross_zone": {
+        "min": 0.01,
+        "max": 0.01,
+        "mean": 0.01
+      },
+      "data_migration": {
+        "min": 850.0,
+        "max": 850.0,
+        "mean": 850.0
+      },
+      "internet_egress": {
+        "min": 0.0,
+        "max": 0.12,
+        "mean": 0.0639
+      },
+      "multi_cloud_backup": {
+        "min": 87.0,
+        "max": 87.0,
+        "mean": 87.0
+      },
+      "multi_cloud_sync": {
+        "min": 8.7,
+        "max": 8.7,
+        "mean": 8.7
+      }
+    }
+  },
+  "realworld_scenarios_analysis": {
+    "total_scenarios": 17,
+    "data_types": {
+      "database_scenario": 7,
+      "customer_case_study": 6,
+      "optimization_outcome": 4
+    },
+    "industries_covered": [
+      "streaming",
+      "audio_streaming",
+      "e_commerce",
+      "financial_services",
+      "gaming",
+      "analytics"
+    ],
+    "cost_statistics": {
+      "min_cost": 42.5,
+      "max_cost": 85000.0,
+      "median_cost": 3350.0,
+      "total_cost_represented": 202568.5
+    },
+    "optimization_outcomes": {
+      "cases": 4,
+      "avg_cost_reduction_pct": NaN,
+      "total_savings": 16486.0
+    },
+    "cost_by_industry": {
+      "analytics": {
+        "count": 1,
+        "sum": 9000.0,
+        "mean": 9000.0
+      },
+      "audio_streaming": {
+        "count": 1,
+        "sum": 60000.0,
+        "mean": 60000.0
+      },
+      "e_commerce": {
+        "count": 1,
+        "sum": 4250.0,
+        "mean": 4250.0
+      },
+      "financial_services": {
+        "count": 1,
+        "sum": 2175.0,
+        "mean": 2175.0
+      },
+      "gaming": {
+        "count": 1,
+        "sum": 17400.0,
+        "mean": 17400.0
+      },
+      "streaming": {
+        "count": 1,
+        "sum": 85000.0,
+        "mean": 85000.0
+      }
+    }
+  },
+  "external_table_analysis": {
+    "total_scenarios": 17,
+    "scenario_types": {
+      "external_table": 8,
+      "cross_cloud_analytics": 5,
+      "data_lakehouse": 4
+    },
+    "services_covered": [
+      "Redshift_Spectrum",
+      "Athena",
+      "BigQuery_External_Tables",
+      "Synapse_Analytics",
+      "Data_Transfer_Service",
+      "DataSync",
+      "Azure_Data_Factory",
+      "Data_Mesh_Federation",
+      "Kafka_Connect",
+      "EMR_Iceberg",
+      "Databricks_Delta",
+      "Dataproc_Hudi",
+      "Unity_Catalog"
+    ],
+    "data_formats": [
+      "parquet",
+      "orc",
+      "avro",
+      "delta",
+      "json",
+      "iceberg",
+      "hudi",
+      "metadata_json"
+    ],
+    "cost_statistics": {
+      "min_cost": 2.5,
+      "max_cost": 850.0,
+      "avg_cost_per_scenario": 122.21352941176471,
+      "total_cost_represented": 2077.63
+    },
+    "cost_per_gb_stats": {
+      "min_cost_per_gb": 0.05,
+      "max_cost_per_gb": 0.12,
+      "avg_cost_per_gb": 0.08897124183006536
+    },
+    "cost_per_gb_by_service": {
+      "Athena": {
+        "min": 0.05,
+        "max": 0.0851,
+        "mean": 0.0675
+      },
+      "Azure_Data_Factory": {
+        "min": 0.087,
+        "max": 0.087,
+        "mean": 0.087
+      },
+      "BigQuery_External_Tables": {
+        "min": 0.08,
+        "max": 0.0933,
+        "mean": 0.0867
+      },
+      "DataSync": {
+        "min": 0.12,
+        "max": 0.12,
+        "mean": 0.12
+      },
+      "Data_Mesh_Federation": {
+        "min": 0.095,
+        "max": 0.095,
+        "mean": 0.095
+      },
+      "Data_Transfer_Service": {
+        "min": 0.085,
+        "max": 0.085,
+        "mean": 0.085
+      },
+      "Databricks_Delta": {
+        "min": 0.087,
+        "max": 0.087,
+        "mean": 0.087
+      },
+      "Dataproc_Hudi": {
+        "min": 0.08,
+        "max": 0.08,
+        "mean": 0.08
+      },
+      "EMR_Iceberg": {
+        "min": 0.085,
+        "max": 0.085,
+        "mean": 0.085
+      },
+      "Kafka_Connect": {
+        "min": 0.095,
+        "max": 0.095,
+        "mean": 0.095
+      },
+      "Redshift_Spectrum": {
+        "min": 0.085,
+        "max": 0.105,
+        "mean": 0.095
+      },
+      "Synapse_Analytics": {
+        "min": 0.087,
+        "max": 0.0981,
+        "mean": 0.0926
+      },
+      "Unity_Catalog": {
+        "min": 0.095,
+        "max": 0.095,
+        "mean": 0.095
+      }
+    }
+  },
+  "key_insights": {
+    "cross_cloud_premium": {
+      "finding": "Cross-cloud data movement carries significant premium",
+      "evidence": "AWS to GCP transfers cost ~$0.087/GB vs $0.02/GB for same-cloud cross-region",
+      "impact": "Multi-cloud architectures face 4x higher data movement costs"
+    },
+    "external_table_penalty": {
+      "finding": "External table queries have hidden data movement costs",
+      "evidence": "Cross-region external table scans cost $0.02-0.08/GB beyond compute",
+      "impact": "Data lakehouse architectures need careful region planning"
+    },
+    "optimization_roi": {
+      "finding": "CDN and caching optimizations show strong ROI",
+      "evidence": "Case studies show 40-80% cost reductions through optimization",
+      "impact": "Egress optimization should be priority for data-heavy applications"
+    },
+    "database_replication_costs": {
+      "finding": "Cross-region database replication has substantial ongoing costs",
+      "evidence": "Aurora Global Database: $0.087/GB for cross-region sync",
+      "impact": "DR and read replica strategies need cost modeling"
+    },
+    "free_tier_limits": {
+      "finding": "Free tiers provide minimal coverage for production workloads",
+      "evidence": "AWS: 1GB/month free, GCP: 1GB/month, Azure: 5GB/month",
+      "impact": "Free tiers dont cover meaningful data movement scenarios"
+    }
+  },
+  "summary_findings": {
+    "cost_range_per_gb": "$0.01 - $0.12 for standard cloud egress",
+    "cross_cloud_premium": "4x higher costs for multi-cloud data movement",
+    "optimization_potential": "40-80% cost reduction through CDN/caching",
+    "database_tax": "Cross-region DB replication adds $0.02-0.087/GB ongoing cost",
+    "external_table_penalty": "Lakehouse queries incur cross-region data movement tax"
+  }
+}

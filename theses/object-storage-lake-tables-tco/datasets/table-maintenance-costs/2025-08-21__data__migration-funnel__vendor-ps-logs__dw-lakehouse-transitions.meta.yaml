@@ -1,0 +1,99 @@
+# Dataset Metadata
+dataset:
+  title: "Data Warehouse to Lakehouse Migration Funnel Analysis"
+  description: "Comprehensive tracking of enterprise migrations between traditional data warehouses and modern lakehouse architectures, including success rates, blockers, and cost analysis"
+  topic: "migration-funnel"
+  metric: "Migration success rates, duration, and cost effectiveness"
+  
+# Source Information
+source:
+  name: "Vendor Professional Services Logs & PMO Trackers"
+  url: "Aggregated from multiple vendor PS engagement reports"
+  accessed: "2025-08-21"
+  license: "Anonymized enterprise data"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 12
+  columns: 14
+  time_range: "2023 - 2024"
+  update_frequency: "quarterly"
+  collection_method: "Professional services tracking and PMO reports"
+  
+# Column Descriptions
+columns:
+  migration_id:
+    type: "string"
+    description: "Unique identifier for migration project"
+    unit: "alphanumeric"
+  source_stack:
+    type: "string"
+    description: "Original data warehouse technology stack"
+    unit: "technology description"
+  target_stack:
+    type: "string"
+    description: "Target lakehouse/modern data platform"
+    unit: "technology description"
+  tb_migrated:
+    type: "number"
+    description: "Number of tables successfully migrated"
+    unit: "count"
+  duration_days:
+    type: "number"
+    description: "Total migration duration from start to production"
+    unit: "days"
+  blockers_count:
+    type: "number"
+    description: "Number of major blockers encountered during migration"
+    unit: "count"
+  success_rate:
+    type: "number"
+    description: "Percentage of tables successfully migrated without data loss"
+    unit: "decimal (0-1)"
+  rollback_required:
+    type: "boolean"
+    description: "Whether any portion of migration required rollback"
+    unit: "true/false"
+  cost_usd:
+    type: "number"
+    description: "Total migration cost including vendor PS and internal resources"
+    unit: "USD"
+  team_size:
+    type: "number"
+    description: "Peak team size during migration project"
+    unit: "people count"
+  vendor_ps_involved:
+    type: "boolean"
+    description: "Whether vendor professional services were engaged"
+    unit: "true/false"
+  primary_blocker:
+    type: "string"
+    description: "Most significant technical or process blocker encountered"
+    unit: "category description"
+  industry:
+    type: "string"
+    description: "Industry vertical of the migrating organization"
+    unit: "industry category"
+  data_volume_tb:
+    type: "number"
+    description: "Total data volume migrated"
+    unit: "terabytes"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all required fields populated"
+  sample_size: "12 enterprise migrations"
+  confidence: "high"
+  limitations: 
+    - "Sample skewed toward larger enterprises (>1000 employees)"
+    - "Vendor PS data may have selection bias toward complex migrations"
+    - "Cost data includes only direct migration costs, not operational changes"
+  
+# Usage Notes
+notes:
+  - "Data represents actual enterprise migrations tracked by vendor PS teams"
+  - "Success rates calculated based on table-level migration completion"
+  - "Duration includes planning, execution, and initial optimization phases"
+  - "Blocker counts focus on major technical impediments requiring escalation"
+  - "Cost data normalized to USD and includes external vendor fees"

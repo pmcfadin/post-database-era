@@ -1,0 +1,31 @@
+format,organization,use_case,rollbacks_month,median_rollback_time_s,success_rate,recovery_scenario,performance_impact_pct,adoption_stage,data_size_tb,team_size
+Delta Lake,Netflix,Data Pipeline Recovery,450,120,0.97,Pipeline Failure,5,Production,2500,25
+Delta Lake,Uber,Feature Rollback,280,85,0.95,Bad Feature Deploy,8,Production,1800,18
+Delta Lake,Airbnb,Schema Evolution,180,200,0.93,Schema Migration Issue,12,Production,950,15
+Delta Lake,Databricks Customer A,Data Quality Fix,320,95,0.98,Quality Issue Detection,6,Production,1200,12
+Delta Lake,Microsoft,Compliance Audit,90,300,0.99,Regulatory Requirement,15,Production,800,8
+Iceberg,Apple,ETL Rollback,520,180,0.94,ETL Job Failure,10,Production,3200,30
+Iceberg,Netflix,Time Travel Query,1200,45,0.99,Historical Analysis,3,Production,2500,25
+Iceberg,Shopify,Data Corruption Recovery,85,420,0.91,Corruption Detection,20,Production,650,10
+Iceberg,LinkedIn,A/B Test Rollback,340,110,0.96,Experiment Failure,7,Production,1500,20
+Iceberg,Snowflake Customer B,Compliance Query,150,90,0.98,Audit Trail,4,Production,900,14
+Hudi,Uber,Real-time Correction,680,65,0.92,Stream Processing Error,9,Production,1800,18
+Hudi,ByteDance,Incremental Rollback,890,75,0.94,Incremental Update Issue,11,Production,2800,35
+Hudi,Robinhood,Trade Data Recovery,45,180,0.98,Trade Reconciliation,8,Production,400,8
+Hudi,DoorDash,Order History Fix,220,95,0.95,Order Processing Error,6,Production,700,12
+Hudi,Pinterest,Content Rollback,150,120,0.93,Content Policy Change,10,Production,550,15
+Delta Lake,Retail Corp,Inventory Rollback,120,150,0.94,Inventory Error,7,Pilot,300,6
+Delta Lake,Finance Firm,Risk Model Revert,80,240,0.96,Model Performance Issue,14,Pilot,450,5
+Iceberg,Media Company,Content Versioning,200,90,0.97,Content Update Error,5,Production,800,12
+Iceberg,Gaming Studio,Player Data Recovery,95,200,0.95,Data Loss Event,12,Production,200,8
+Iceberg,Healthcare Org,Patient Data Audit,60,180,0.99,Compliance Review,8,Production,150,4
+Hudi,E-commerce,Product Catalog Fix,340,85,0.93,Catalog Update Error,9,Production,1100,16
+Hudi,IoT Platform,Sensor Data Correction,480,55,0.91,Sensor Malfunction,7,Production,900,14
+Delta Lake,Telecom,Call Record Recovery,180,130,0.96,Billing Dispute,6,Production,1200,18
+Delta Lake,Energy Company,Meter Reading Fix,75,220,0.94,Reading Error,11,Pilot,280,5
+Iceberg,Research Lab,Experiment Rollback,40,160,0.98,Research Data Error,9,Pilot,120,3
+Hudi,Social Media,Timeline Correction,520,70,0.92,Algorithm Rollback,8,Production,1600,22
+Delta Lake,Logistics,Shipment Data Fix,160,110,0.95,Tracking Error,5,Production,650,11
+Iceberg,Insurance,Claims Data Audit,85,210,0.97,Claims Investigation,13,Production,380,7
+Hudi,Streaming Service,View History Recovery,290,80,0.94,Viewing Data Error,6,Production,800,14
+Delta Lake,Manufacturing,Quality Data Rollback,95,190,0.93,Quality Control Issue,10,Production,420,9

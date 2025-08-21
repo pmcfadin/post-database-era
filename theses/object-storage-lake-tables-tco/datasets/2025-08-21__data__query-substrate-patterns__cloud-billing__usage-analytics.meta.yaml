@@ -1,0 +1,91 @@
+# Dataset Metadata
+dataset:
+  title: "Cloud Billing Analytics: Query Substrate Usage Patterns"
+  description: "Query distribution patterns by storage substrate derived from cloud vendor billing data and usage analytics across different account tiers and billing models"
+  topic: "Cloud billing-derived query substrate adoption patterns"
+  metric: "Monthly query volume and cost distribution by table storage type"
+  
+# Source Information
+source:
+  name: "Cloud vendor billing systems and usage analytics"
+  methodology: "Patterns synthesized from cloud billing documentation, usage reports, and vendor cost optimization guides"
+  data_sources:
+    - "Google Cloud BigQuery billing and usage reports"
+    - "Snowflake account usage views and billing analysis"
+    - "Databricks workspace usage analytics and DBU consumption"
+    - "AWS Athena CloudTrail logs and cost allocation reports"
+  accessed: "2025-08-21"
+  license: "Synthesized from public billing documentation and cost optimization patterns"
+  credibility: "Tier B - Derived from documented billing patterns rather than raw billing data"
+  
+# Data Characteristics
+characteristics:
+  rows: 990
+  columns: 8
+  time_range: "2023-03 - 2024-08 (18 months)"
+  update_frequency: "monthly billing cycles"
+  collection_method: "pattern synthesis from cloud billing documentation and cost optimization case studies"
+  
+# Column Descriptions
+columns:
+  billing_month:
+    type: "string"
+    description: "Billing month in YYYY-MM format"
+    format: "YYYY-MM"
+  account_id:
+    type: "string"
+    description: "Account type identifier indicating tier and billing model"
+    examples: ["enterprise_committed", "midmarket_on_demand", "startup_credits"]
+  platform:
+    type: "string"
+    description: "Cloud analytics platform"
+    values: ["BigQuery", "Snowflake", "Databricks", "Athena"]
+  table_type:
+    type: "string"
+    description: "Storage substrate type as reflected in billing"
+    values: ["native", "external", "delta", "iceberg", "parquet", "hudi"]
+  query_count:
+    type: "integer"
+    description: "Number of queries executed against this substrate type"
+    unit: "monthly query executions"
+  estimated_cost_usd:
+    type: "float"
+    description: "Estimated monthly cost for these queries"
+    unit: "USD"
+  account_tier:
+    type: "string"
+    description: "Account tier category"
+    values: ["committed", "demand", "credits"]
+  billing_model:
+    type: "string"
+    description: "Billing model type"
+    values: ["committed", "on_demand"]
+    
+# Quality Indicators
+quality:
+  completeness: "100% - synthetic dataset based on documented billing patterns"
+  sample_size: "5 account types across 4 platforms over 18 months"
+  confidence: "medium - based on documented billing patterns and cost optimization guides"
+  limitations: 
+    - "Synthetic data based on billing documentation, not actual customer bills"
+    - "Cost estimates based on published pricing, actual costs may vary"
+    - "Query volume estimates derived from spend patterns, not actual logs"
+    - "Does not include private or custom pricing agreements"
+    - "Billing models simplified compared to actual cloud pricing complexity"
+  
+# Usage Notes
+notes:
+  - "Useful for understanding cost implications of substrate choices"
+  - "Shows relationship between account tiers and substrate adoption patterns"
+  - "External storage formats generally show lower per-query costs due to storage separation"
+  - "Committed accounts tend to favor native storage for predictable costs"
+  - "Startup accounts with credits show higher external format usage"
+  - "Data reflects general billing patterns, not specific customer agreements"
+  
+# Billing Context
+billing_insights:
+  cost_drivers: "Query volume and data processed are primary cost factors across all platforms"
+  native_vs_external: "Native storage often has higher per-TB costs but lower egress charges"
+  platform_differences: "Athena purely external-focused, BigQuery/Snowflake native-heavy, Databricks balanced"
+  account_tier_impact: "Enterprise committed accounts show 70%+ native usage, startups with credits favor external (60%+)"
+  growth_patterns: "External format usage growing 3% monthly across all account types"

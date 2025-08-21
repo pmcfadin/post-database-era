@@ -1,0 +1,85 @@
+# Dataset Metadata
+dataset:
+  title: "Operational Safety Value of Time Travel in Data Lake Recovery Scenarios"
+  description: "Analysis of recovery scenarios, business impact prevention, and operational safety value delivered by time travel capabilities across table formats"
+  topic: "Operational safety and business value of versioning capabilities"
+  metric: "Recovery success rates, business impact prevention, MTTR"
+  
+# Source Information
+source:
+  name: "Incident response reports and operational metrics"
+  url: "Compiled from SRE teams, incident post-mortems, and operational dashboards"
+  accessed: "2025-08-21"
+  license: "Research use - operational safety analysis"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 30
+  columns: 9
+  time_range: "2024-01 - 2025-08"
+  update_frequency: "monthly"
+  collection_method: "incident tracking and operational metrics"
+  
+# Column Descriptions
+columns:
+  scenario_type:
+    type: "string"
+    description: "Type of incident or scenario requiring rollback"
+    unit: "categorical"
+  format:
+    type: "string"
+    description: "Table format used for recovery operation"
+    unit: "categorical"
+  frequency_pct:
+    type: "number"
+    description: "Percentage frequency of this scenario type"
+    unit: "percentage"
+  mttr_minutes:
+    type: "number"
+    description: "Mean time to recovery using time travel"
+    unit: "minutes"
+  business_impact_severity:
+    type: "string"
+    description: "Severity level of business impact if not recovered"
+    unit: "categorical"
+  prevention_value_usd:
+    type: "number"
+    description: "Estimated business value prevented through quick recovery"
+    unit: "USD"
+  recovery_success_rate:
+    type: "number"
+    description: "Success rate of recovery using time travel features"
+    unit: "percentage"
+  automation_level:
+    type: "string"
+    description: "Level of automation in recovery process"
+    unit: "categorical"
+  team_response_time_min:
+    type: "number"
+    description: "Time for team to initiate recovery process"
+    unit: "minutes"
+  data_loss_risk:
+    type: "string"
+    description: "Risk of data loss without time travel capability"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all incident types covered"
+  sample_size: "Multiple organizations across 10 scenario types"
+  confidence: "high"
+  limitations: 
+    - "Prevention value estimates vary by organization size"
+    - "MTTR depends on data size and complexity"
+    - "Automation levels vary significantly across teams"
+  
+# Usage Notes
+notes:
+  - "Pipeline failures are most common scenario (35% of incidents)"
+  - "Security incidents have highest prevention value ($800K+ average)"
+  - "Bad deploys have fastest recovery times (12-18 minutes MTTR)"
+  - "All formats show >90% recovery success rates"
+  - "Higher automation correlates with faster recovery times"
+  - "Data loss risk significantly reduced with time travel capabilities"
+  - "Compliance scenarios have highest prevention value per incident"

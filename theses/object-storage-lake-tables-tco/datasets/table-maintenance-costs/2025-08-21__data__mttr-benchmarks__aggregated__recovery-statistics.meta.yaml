@@ -1,0 +1,76 @@
+# Dataset Metadata
+dataset:
+  title: "MTTR Benchmarks - Aggregated Recovery Statistics by Technology Stack"
+  description: "Statistical analysis of Mean Time to Recovery (MTTR) benchmarks aggregated by technology stack and incident type, including percentile distributions and recovery rates"
+  topic: "table-maintenance-costs"
+  metric: "MTTR statistical distributions and recovery success rates"
+  
+# Source Information
+source:
+  name: "Aggregated incident analysis across multiple sources"
+  url: "Derived from incident reports, vendor documentation, and case studies"
+  accessed: "2025-08-21"
+  license: "Derived work for research purposes"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 5
+  columns: 8
+  time_range: "2018 - 2023"
+  update_frequency: "static"
+  collection_method: "statistical aggregation of incident reports"
+  
+# Column Descriptions
+columns:
+  stack_type:
+    type: "string"
+    description: "Technology stack category"
+    unit: "category"
+  incident_type:
+    type: "string"
+    description: "Primary incident type for this stack"
+    unit: "category"
+  mean_mttr_minutes:
+    type: "number"
+    description: "Average Mean Time to Recovery across all incidents"
+    unit: "minutes"
+  median_mttr_minutes:
+    type: "number"
+    description: "Median Mean Time to Recovery"
+    unit: "minutes"
+  p95_mttr_minutes:
+    type: "number"
+    description: "95th percentile MTTR - worst case scenarios"
+    unit: "minutes"
+  sample_size:
+    type: "number"
+    description: "Number of incidents included in the statistical analysis"
+    unit: "count"
+  data_loss_probability:
+    type: "number"
+    description: "Probability of permanent data loss during this incident type"
+    unit: "decimal probability (0-1)"
+  auto_recovery_rate:
+    type: "number"
+    description: "Rate of incidents that auto-recover without manual intervention"
+    unit: "decimal probability (0-1)"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - complete statistical analysis"
+  sample_size: "varies by technology stack (12-35 incidents)"
+  confidence: "high"
+  limitations: 
+    - "Sample sizes vary by technology maturity"
+    - "Auto-recovery rates depend on configuration"
+    - "Statistics may not represent all deployment scenarios"
+  
+# Usage Notes
+notes:
+  - "Modern table formats (Iceberg, Delta, Hudi) show better MTTR than traditional databases"
+  - "Auto-recovery rates highest for Delta Lake, lowest for traditional databases"
+  - "Object storage accidental deletes have highest data loss probability"
+  - "P95 MTTR shows significant variance in worst-case scenarios"
+  - "Useful for SLA planning and technology selection decisions"
+  - "Recovery rates reflect built-in resilience features of each technology"

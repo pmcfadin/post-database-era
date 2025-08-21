@@ -1,0 +1,54 @@
+{
+  "stackoverflow": [],
+  "github_dags": [],
+  "surveys": [
+    {
+      "source": "industry_survey",
+      "survey_name": "State of Data Engineering 2024",
+      "search_query": "State of Data Engineering 2024 ETL ELT pattern adoption",
+      "status": "search_documented"
+    },
+    {
+      "source": "industry_survey",
+      "survey_name": "Databricks Data + AI Summit pipeline patterns",
+      "search_query": "Databricks Data + AI Summit pipeline patterns ETL ELT pattern adoption",
+      "status": "search_documented"
+    },
+    {
+      "source": "industry_survey",
+      "survey_name": "dbt State of Analytics Engineering",
+      "search_query": "dbt State of Analytics Engineering ETL ELT pattern adoption",
+      "status": "search_documented"
+    },
+    {
+      "source": "industry_survey",
+      "survey_name": "Fivetran Modern Data Stack Report",
+      "search_query": "Fivetran Modern Data Stack Report ETL ELT pattern adoption",
+      "status": "search_documented"
+    },
+    {
+      "source": "industry_survey",
+      "survey_name": "Airbyte State of Data Integration",
+      "search_query": "Airbyte State of Data Integration ETL ELT pattern adoption",
+      "status": "search_documented"
+    },
+    {
+      "source": "industry_survey",
+      "survey_name": "Snowflake Modern Data Stack survey",
+      "search_query": "Snowflake Modern Data Stack survey ETL ELT pattern adoption",
+      "status": "search_documented"
+    },
+    {
+      "source": "industry_survey",
+      "survey_name": "AWS re:Invent data pipeline patterns",
+      "search_query": "AWS re:Invent data pipeline patterns ETL ELT pattern adoption",
+      "status": "search_documented"
+    },
+    {
+      "source": "industry_survey",
+      "survey_name": "Google Cloud data engineering survey",
+      "search_query": "Google Cloud data engineering survey ETL ELT pattern adoption",
+      "status": "search_documented"
+    }
+  ]
+}

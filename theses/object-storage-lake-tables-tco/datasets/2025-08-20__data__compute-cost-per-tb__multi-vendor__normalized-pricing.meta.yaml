@@ -1,0 +1,77 @@
+# Dataset Metadata
+dataset:
+  title: "Compute Cost per TB Scanned - Multi-Vendor Normalized Pricing"
+  description: "Normalized cost metrics for scanning 1TB of data across different query engines and workload classes (ETL, BI, Ad-hoc)"
+  topic: "compute-cost-per-tb"
+  metric: "USD per TB scanned"
+  
+# Source Information
+source:
+  name: "Multi-vendor pricing documentation and benchmark studies"
+  url: "Various cloud provider pricing pages and performance studies"
+  accessed: "2025-08-20"
+  license: "Public pricing information"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 12
+  columns: 8
+  time_range: "2024 - 2025"
+  update_frequency: "quarterly"
+  collection_method: "manual compilation from official sources"
+  
+# Column Descriptions
+columns:
+  engine:
+    type: "string"
+    description: "Query engine or data warehouse platform"
+    unit: "categorical"
+  workload:
+    type: "string"
+    description: "Workload classification: etl, bi, or adhoc"
+    unit: "categorical"
+  tb_scanned:
+    type: "number"
+    description: "Amount of data scanned in terabytes"
+    unit: "TB"
+  compute_cost_usd:
+    type: "number"
+    description: "Total compute cost for scanning the specified data volume"
+    unit: "USD"
+  usd_per_tb:
+    type: "number"
+    description: "Normalized cost per terabyte scanned"
+    unit: "USD/TB"
+  pricing_model:
+    type: "string"
+    description: "Underlying pricing model used by the platform"
+    unit: "categorical"
+  source:
+    type: "string"
+    description: "Source of the pricing or benchmark data"
+    unit: "text"
+  notes:
+    type: "string"
+    description: "Additional context about the measurement or configuration"
+    unit: "text"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all fields populated"
+  sample_size: "12 engine-workload combinations"
+  confidence: "high"
+  limitations: 
+    - "Costs may vary based on specific query patterns and optimizations"
+    - "Some estimates based on typical resource consumption patterns"
+    - "Regional pricing variations not captured"
+    - "Storage costs not included, compute only"
+  
+# Usage Notes
+notes:
+  - "BigQuery uses pay-per-TB-processed model with consistent pricing"
+  - "Snowflake costs depend on warehouse size and query complexity"
+  - "Redshift costs based on instance hours, efficiency varies by workload"
+  - "Open source engines (Trino, DuckDB) show significant cost advantages"
+  - "Serverless options (BigQuery, Athena) have premium pricing for convenience"
+  - "ETL workloads generally cost more per TB than BI due to resource intensity"

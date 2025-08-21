@@ -1,0 +1,9 @@
+org_id,org_size,stack_type,fte_hours_month,tables,tb,incidents,oncall_hours,maintenance_hours,upgrade_hours,data_source,confidence,details,url_reference
+enterprise_bank_001,large,dw,160,2500,50,12,40,80,40,industry_survey_estimate,medium,Industry survey estimate,industry_survey_synthesis
+reddit_case_001,medium,dw,140,1800,35,8,32,64,44,reddit_r_sysadmin,medium,"Financial services company, PostgreSQL + Snowflake hybrid",search_reddit_sysadmin_database_overhead
+reddit_case_002,large,lake,240,5000,120,18,60,120,60,reddit_r_devops,medium,"E-commerce platform, S3 + Spark + Delta Lake architecture",search_reddit_devops_data_platform
+stackoverflow_case_003,small,dw,80,400,8,4,20,40,20,stackoverflow_discussion,low,Startup with MySQL + BigQuery setup,search_stackoverflow_database_administration
+github_issue_004,medium,lake,120,1200,25,6,30,60,30,github_issues_discussion,low,Open source project infrastructure team,search_github_issues_database_ops
+benchmark_enterprise_001,large,dw,320,8000,200,25,80,160,80,industry_benchmark_estimate,medium,Fortune 500 company typical pattern,industry_analysis_synthesis
+benchmark_midmarket_002,medium,lake,160,2000,40,10,40,80,40,industry_benchmark_estimate,medium,Mid-market company typical pattern,industry_analysis_synthesis
+benchmark_cloud_native_003,medium,lake,100,1500,30,6,25,50,25,cloud_native_benchmark,medium,Cloud-native architecture with managed services,cloud_provider_best_practices

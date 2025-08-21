@@ -1,0 +1,101 @@
+provider,primary_region,replica_region,stack_type,gb_replicated,policy_objects,monthly_cost_usd,governance_complexity,compliance_tier,data_sovereignty
+Policy-Engine-2-Region,multi-region-mesh,2-regions,Basic RBAC (Primary-DR),1000,50,795.0,Low,Standard,Policy-Enforced
+Policy-Engine-2-Region,multi-region-mesh,2-regions,Basic RBAC (Primary-DR),10000,125,2318.75,Low,Standard,Policy-Enforced
+Policy-Engine-2-Region,multi-region-mesh,2-regions,Basic RBAC (Primary-DR),50000,200,5962.5,Low,Standard,Policy-Enforced
+Policy-Engine-2-Region,multi-region-mesh,2-regions,Basic RBAC (Primary-DR),250000,325,17556.25,Medium,Standard,Policy-Enforced
+Policy-Engine-2-Region,multi-region-mesh,2-regions,Basic RBAC (Primary-DR),1000000,2000,79500.0,High,Standard,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,Basic RBAC (Multi-Active),1000,50,1059.0,Low,Standard,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,Basic RBAC (Multi-Active),10000,125,3088.75,Low,Standard,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,Basic RBAC (Multi-Active),50000,200,7942.5,Low,Standard,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,Basic RBAC (Multi-Active),250000,325,23386.25,Medium,Standard,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,Basic RBAC (Multi-Active),1000000,2000,105900.0,High,Standard,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,Basic RBAC (Global-Mesh),1000,50,1725.0,Low,Standard,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,Basic RBAC (Global-Mesh),10000,125,5031.25,Low,Standard,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,Basic RBAC (Global-Mesh),50000,200,12937.5,Low,Standard,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,Basic RBAC (Global-Mesh),250000,325,38093.75,Medium,Standard,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,Basic RBAC (Global-Mesh),1000000,2000,172500.0,High,Standard,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,Basic RBAC (Edge-Distributed),1000,50,2932.5,Low,Standard,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,Basic RBAC (Edge-Distributed),10000,125,8553.12,Low,Standard,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,Basic RBAC (Edge-Distributed),50000,200,21993.75,Low,Standard,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,Basic RBAC (Edge-Distributed),250000,325,64759.38,Medium,Standard,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,Basic RBAC (Edge-Distributed),1000000,2000,293250.0,High,Standard,Policy-Enforced
+Policy-Engine-2-Region,multi-region-mesh,2-regions,ABAC with Context (Primary-DR),1000,110,3829.25,Low,Professional,Policy-Enforced
+Policy-Engine-2-Region,multi-region-mesh,2-regions,ABAC with Context (Primary-DR),10000,275,10401.25,Medium,Professional,Policy-Enforced
+Policy-Engine-2-Region,multi-region-mesh,2-regions,ABAC with Context (Primary-DR),50000,440,22273.25,Medium,Professional,Policy-Enforced
+Policy-Engine-2-Region,multi-region-mesh,2-regions,ABAC with Context (Primary-DR),250000,715,55862.0,Medium,Professional,Policy-Enforced
+Policy-Engine-2-Region,multi-region-mesh,2-regions,ABAC with Context (Primary-DR),1000000,4400,272420.0,High,Professional,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,ABAC with Context (Multi-Active),1000,110,5100.85,Low,Professional,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,ABAC with Context (Multi-Active),10000,275,13855.25,Medium,Professional,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,ABAC with Context (Multi-Active),50000,440,29669.65,Medium,Professional,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,ABAC with Context (Multi-Active),250000,715,74412.4,Medium,Professional,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,ABAC with Context (Multi-Active),1000000,4400,362884.0,High,Professional,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,ABAC with Context (Global-Mesh),1000,110,8308.75,Low,Professional,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,ABAC with Context (Global-Mesh),10000,275,22568.75,Medium,Professional,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,ABAC with Context (Global-Mesh),50000,440,48328.75,Medium,Professional,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,ABAC with Context (Global-Mesh),250000,715,121210.0,Medium,Professional,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,ABAC with Context (Global-Mesh),1000000,4400,591100.0,High,Professional,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,ABAC with Context (Edge-Distributed),1000,110,14124.88,Low,Professional,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,ABAC with Context (Edge-Distributed),10000,275,38366.88,Medium,Professional,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,ABAC with Context (Edge-Distributed),50000,440,82158.88,Medium,Professional,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,ABAC with Context (Edge-Distributed),250000,715,206057.0,Medium,Professional,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,ABAC with Context (Edge-Distributed),1000000,4400,1004870.0,High,Professional,Policy-Enforced
+Policy-Engine-2-Region,multi-region-mesh,2-regions,Dynamic Policy Engine (Primary-DR),1000,175,12190.0,Low,Professional,Policy-Enforced
+Policy-Engine-2-Region,multi-region-mesh,2-regions,Dynamic Policy Engine (Primary-DR),10000,437,31932.5,Medium,Professional,Policy-Enforced
+Policy-Engine-2-Region,multi-region-mesh,2-regions,Dynamic Policy Engine (Primary-DR),50000,700,61281.25,Medium,Professional,Policy-Enforced
+Policy-Engine-2-Region,multi-region-mesh,2-regions,Dynamic Policy Engine (Primary-DR),250000,1137,134951.25,High,Professional,Policy-Enforced
+Policy-Engine-2-Region,multi-region-mesh,2-regions,Dynamic Policy Engine (Primary-DR),1000000,7000,702250.0,Very High,Professional,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,Dynamic Policy Engine (Multi-Active),1000,175,16238.0,Low,Professional,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,Dynamic Policy Engine (Multi-Active),10000,437,42536.5,Medium,Professional,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,Dynamic Policy Engine (Multi-Active),50000,700,81631.25,Medium,Professional,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,Dynamic Policy Engine (Multi-Active),250000,1137,179765.25,High,Professional,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,Dynamic Policy Engine (Multi-Active),1000000,7000,935450.0,Very High,Professional,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,Dynamic Policy Engine (Global-Mesh),1000,175,26450.0,Low,Professional,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,Dynamic Policy Engine (Global-Mesh),10000,437,69287.5,Medium,Professional,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,Dynamic Policy Engine (Global-Mesh),50000,700,132968.75,Medium,Professional,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,Dynamic Policy Engine (Global-Mesh),250000,1137,292818.75,High,Professional,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,Dynamic Policy Engine (Global-Mesh),1000000,7000,1523750.0,Very High,Professional,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,Dynamic Policy Engine (Edge-Distributed),1000,175,44965.0,Low,Professional,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,Dynamic Policy Engine (Edge-Distributed),10000,437,117788.75,Medium,Professional,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,Dynamic Policy Engine (Edge-Distributed),50000,700,226046.88,Medium,Professional,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,Dynamic Policy Engine (Edge-Distributed),250000,1137,497791.88,High,Professional,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,Dynamic Policy Engine (Edge-Distributed),1000000,7000,2590375.0,Very High,Professional,Policy-Enforced
+Policy-Engine-2-Region,multi-region-mesh,2-regions,ML-Enhanced Governance (Primary-DR),1000,250,34185.0,Medium,Advanced,Policy-Enforced
+Policy-Engine-2-Region,multi-region-mesh,2-regions,ML-Enhanced Governance (Primary-DR),10000,625,88112.5,Medium,Advanced,Policy-Enforced
+Policy-Engine-2-Region,multi-region-mesh,2-regions,ML-Enhanced Governance (Primary-DR),50000,1000,159000.0,Medium,Advanced,Policy-Enforced
+Policy-Engine-2-Region,multi-region-mesh,2-regions,ML-Enhanced Governance (Primary-DR),250000,1625,321312.5,High,Advanced,Policy-Enforced
+Policy-Engine-2-Region,multi-region-mesh,2-regions,ML-Enhanced Governance (Primary-DR),1000000,10000,1749000.0,Very High,Advanced,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,ML-Enhanced Governance (Multi-Active),1000,250,45537.0,Medium,Advanced,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,ML-Enhanced Governance (Multi-Active),10000,625,117372.5,Medium,Advanced,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,ML-Enhanced Governance (Multi-Active),50000,1000,211800.0,Medium,Advanced,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,ML-Enhanced Governance (Multi-Active),250000,1625,428012.5,High,Advanced,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,ML-Enhanced Governance (Multi-Active),1000000,10000,2329800.0,Very High,Advanced,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,ML-Enhanced Governance (Global-Mesh),1000,250,74175.0,Medium,Advanced,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,ML-Enhanced Governance (Global-Mesh),10000,625,191187.5,Medium,Advanced,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,ML-Enhanced Governance (Global-Mesh),50000,1000,345000.0,Medium,Advanced,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,ML-Enhanced Governance (Global-Mesh),250000,1625,697187.5,High,Advanced,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,ML-Enhanced Governance (Global-Mesh),1000000,10000,3795000.0,Very High,Advanced,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,ML-Enhanced Governance (Edge-Distributed),1000,250,126097.5,Medium,Advanced,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,ML-Enhanced Governance (Edge-Distributed),10000,625,325018.75,Medium,Advanced,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,ML-Enhanced Governance (Edge-Distributed),50000,1000,586500.0,Medium,Advanced,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,ML-Enhanced Governance (Edge-Distributed),250000,1625,1185218.75,High,Advanced,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,ML-Enhanced Governance (Edge-Distributed),1000000,10000,6451500.0,Very High,Advanced,Policy-Enforced
+Policy-Engine-2-Region,multi-region-mesh,2-regions,Zero-Trust Policy Mesh (Primary-DR),1000,375,86058.75,Medium,Advanced,Policy-Enforced
+Policy-Engine-2-Region,multi-region-mesh,2-regions,Zero-Trust Policy Mesh (Primary-DR),10000,937,219009.25,Medium,Advanced,Policy-Enforced
+Policy-Engine-2-Region,multi-region-mesh,2-regions,Zero-Trust Policy Mesh (Primary-DR),50000,1500,377625.0,High,Advanced,Policy-Enforced
+Policy-Engine-2-Region,multi-region-mesh,2-regions,Zero-Trust Policy Mesh (Primary-DR),250000,2437,707934.25,High,Advanced,Policy-Enforced
+Policy-Engine-2-Region,multi-region-mesh,2-regions,Zero-Trust Policy Mesh (Primary-DR),1000000,15000,4014750.0,Very High,Advanced,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,Zero-Trust Policy Mesh (Multi-Active),1000,375,114636.75,Medium,Advanced,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,Zero-Trust Policy Mesh (Multi-Active),10000,937,291736.85,Medium,Advanced,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,Zero-Trust Policy Mesh (Multi-Active),50000,1500,503025.0,High,Advanced,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,Zero-Trust Policy Mesh (Multi-Active),250000,2437,943021.85,High,Advanced,Policy-Enforced
+Policy-Engine-3-Region,multi-region-mesh,3-regions,Zero-Trust Policy Mesh (Multi-Active),1000000,15000,5347950.0,Very High,Advanced,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,Zero-Trust Policy Mesh (Global-Mesh),1000,375,186731.25,Medium,Advanced,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,Zero-Trust Policy Mesh (Global-Mesh),10000,937,475208.75,Medium,Advanced,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,Zero-Trust Policy Mesh (Global-Mesh),50000,1500,819375.0,High,Advanced,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,Zero-Trust Policy Mesh (Global-Mesh),250000,2437,1536083.75,High,Advanced,Policy-Enforced
+Policy-Engine-5-Region,multi-region-mesh,5-regions,Zero-Trust Policy Mesh (Global-Mesh),1000000,15000,8711250.0,Very High,Advanced,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,Zero-Trust Policy Mesh (Edge-Distributed),1000,375,317443.12,Medium,Advanced,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,Zero-Trust Policy Mesh (Edge-Distributed),10000,937,807854.88,Medium,Advanced,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,Zero-Trust Policy Mesh (Edge-Distributed),50000,1500,1392937.5,High,Advanced,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,Zero-Trust Policy Mesh (Edge-Distributed),250000,2437,2611342.38,High,Advanced,Policy-Enforced
+Policy-Engine-8-Region,multi-region-mesh,8-regions,Zero-Trust Policy Mesh (Edge-Distributed),1000000,15000,14809125.0,Very High,Advanced,Policy-Enforced

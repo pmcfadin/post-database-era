@@ -1,0 +1,11 @@
+{
+  "analysis_date": "2025-08-20T17:41:52.496945",
+  "datasets_analyzed": 3,
+  "total_data_points": 68,
+  "key_insights": {
+    "avg_saas_cost_monthly": 4754.95,
+    "avg_cost_per_asset_annual": 0.14850000000000002,
+    "atlas_staff_cost_ratio": 0.7564734925110341,
+    "scale_economics_factor": "10x+ cost reduction with scale"
+  }
+}

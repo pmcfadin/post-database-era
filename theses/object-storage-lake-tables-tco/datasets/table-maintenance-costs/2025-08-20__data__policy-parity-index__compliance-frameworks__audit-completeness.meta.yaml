@@ -1,0 +1,75 @@
+# Dataset Metadata
+dataset:
+  title: "Compliance Framework Support and Audit Completeness"
+  description: "Analysis of compliance framework support, certification status, and audit trail completeness across data platforms"
+  topic: "policy-parity-index"
+  metric: "compliance_audit_coverage"
+  
+# Source Information
+source:
+  name: "Platform Security Documentation and Compliance Certifications"
+  url: "https://docs.snowflake.com/en/user-guide/security-compliance, https://docs.databricks.com/security/privacy/gdpr-compliance, https://cloud.google.com/security/compliance, https://docs.aws.amazon.com/redshift/latest/mgmt/security-compliance, https://ranger.apache.org/security"
+  accessed: "2025-08-20"
+  license: "Public compliance documentation"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 18
+  columns: 7
+  time_range: "2025 current compliance status"
+  update_frequency: "annual"
+  collection_method: "compliance_documentation_review"
+  
+# Column Descriptions
+columns:
+  platform:
+    type: "string"
+    description: "Data platform or service"
+    unit: "platform_name"
+  framework:
+    type: "string"
+    description: "Compliance framework or regulation"
+    unit: "framework_name"
+  supported:
+    type: "number"
+    description: "Whether platform supports framework requirements (1=yes, 0=no)"
+    unit: "binary"
+  certified:
+    type: "number"
+    description: "Whether platform has formal certification (1=yes, 0=no)"
+    unit: "binary"
+  audit_completeness:
+    type: "number"
+    description: "Percentage of required audit events captured"
+    unit: "percentage"
+  retention_period_days:
+    type: "number"
+    description: "Audit log retention period in days"
+    unit: "days"
+  real_time_monitoring:
+    type: "number"
+    description: "Whether real-time monitoring is available (1=yes, 0=no)"
+    unit: "binary"
+  automated_reporting:
+    type: "number"
+    description: "Whether automated compliance reporting is available (1=yes, 0=no)"
+    unit: "binary"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - major platforms and frameworks covered"
+  sample_size: "18 platform-framework combinations"
+  confidence: "high"
+  limitations: 
+    - "Audit completeness percentages are estimates based on documented capabilities"
+    - "Certification status may change over time"
+    - "Retention periods may be configurable beyond documented defaults"
+  
+# Usage Notes
+notes:
+  - "Snowflake shows highest audit completeness across frameworks"
+  - "Cloud-native platforms generally have better automated reporting"
+  - "Apache Ranger lacks formal certifications but supports requirements"
+  - "GDPR compliance generally requires longest retention periods"
+  - "All major platforms support real-time monitoring"

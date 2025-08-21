@@ -1,0 +1,166 @@
+{
+  "dataset_summary": {
+    "total_records": 24,
+    "engines_count": 12,
+    "workload_types": 3,
+    "unique_engines": [
+      "Snowflake",
+      "Presto",
+      "ClickHouse",
+      "DataFusion",
+      "Spark SQL",
+      "BigQuery",
+      "Trino",
+      "Dremio",
+      "Flink SQL",
+      "Redshift",
+      "DuckDB",
+      "Athena"
+    ],
+    "workload_distribution": {
+      "BI": 13,
+      "ETL": 5,
+      "Ad-hoc": 6
+    }
+  },
+  "latency_analysis": {
+    "p50_stats": {
+      "min": 280.0,
+      "max": 15000.0,
+      "median": 2800.0,
+      "mean": 4045.0
+    },
+    "p95_stats": {
+      "min": 850.0,
+      "max": 45000.0,
+      "median": 9200.0,
+      "mean": 12710.4
+    },
+    "p99_stats": {
+      "min": 1650.0,
+      "max": 85000.0,
+      "median": 17000.0,
+      "mean": 23543.8
+    }
+  },
+  "throughput_analysis": {
+    "qps_stats": {
+      "min": 5.0,
+      "max": 450.0,
+      "median": 70.0,
+      "mean": 89.0
+    }
+  },
+  "workload_performance": {
+    "BI": {
+      "count": 13,
+      "avg_p95_latency": 7384.6,
+      "median_p95_latency": 7500.0,
+      "avg_qps_peak": 105.0,
+      "engines": [
+        "Snowflake",
+        "Presto",
+        "ClickHouse",
+        "DataFusion",
+        "Spark SQL",
+        "BigQuery",
+        "Trino",
+        "Dremio",
+        "Redshift"
+      ]
+    },
+    "ETL": {
+      "count": 5,
+      "avg_p95_latency": 29600.0,
+      "median_p95_latency": 25000.0,
+      "avg_qps_peak": 10.4,
+      "engines": [
+        "Snowflake",
+        "Spark SQL",
+        "BigQuery",
+        "Trino",
+        "Flink SQL"
+      ]
+    },
+    "Ad-hoc": {
+      "count": 6,
+      "avg_p95_latency": 10175.0,
+      "median_p95_latency": 11150.0,
+      "avg_qps_peak": 119.7,
+      "engines": [
+        "Snowflake",
+        "Spark SQL",
+        "BigQuery",
+        "Redshift",
+        "DuckDB",
+        "Athena"
+      ]
+    }
+  },
+  "engine_rankings": {
+    "bi_latency_leaders": [
+      {
+        "engine": "ClickHouse",
+        "p95_ms": 1200.0,
+        "qps_peak": 320.0,
+        "source": "ClickHouse Benchmarks"
+      },
+      {
+        "engine": "DataFusion",
+        "p95_ms": 4200.0,
+        "qps_peak": 180.0,
+        "source": "Apache Arrow Performance Benchmarks"
+      },
+      {
+        "engine": "Snowflake",
+        "p95_ms": 6200.0,
+        "qps_peak": 125.0,
+        "source": "Snowflake Performance Studies"
+      },
+      {
+        "engine": "BigQuery",
+        "p95_ms": 6500.0,
+        "qps_peak": 105.0,
+        "source": "TPC-H BigQuery Performance Study"
+      },
+      {
+        "engine": "Trino",
+        "p95_ms": 6800.0,
+        "qps_peak": 85.0,
+        "source": "Kubernetes Query Engine Study 2024"
+      }
+    ],
+    "qps_leaders": [
+      {
+        "engine": "DuckDB",
+        "workload": "Ad-hoc",
+        "qps_peak": 450.0,
+        "p95_ms": 850.0
+      },
+      {
+        "engine": "ClickHouse",
+        "workload": "BI",
+        "qps_peak": 320.0,
+        "p95_ms": 1200.0
+      },
+      {
+        "engine": "DataFusion",
+        "workload": "BI",
+        "qps_peak": 180.0,
+        "p95_ms": 4200.0
+      },
+      {
+        "engine": "Snowflake",
+        "workload": "BI",
+        "qps_peak": 125.0,
+        "p95_ms": 6200.0
+      },
+      {
+        "engine": "BigQuery",
+        "workload": "BI",
+        "qps_peak": 105.0,
+        "p95_ms": 6500.0
+      }
+    ]
+  }
+}

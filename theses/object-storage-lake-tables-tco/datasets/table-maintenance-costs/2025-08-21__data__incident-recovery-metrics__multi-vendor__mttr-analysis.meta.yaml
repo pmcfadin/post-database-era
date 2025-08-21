@@ -1,0 +1,83 @@
+# Dataset Metadata
+dataset:
+  title: "Incident Recovery Metrics - Multi-vendor MTTR Analysis"
+  description: "Comprehensive collection of database and data lake incident recovery metrics including MTTR, data loss, and impact scope across major cloud providers and table formats"
+  topic: "table-maintenance-costs"
+  metric: "Mean Time to Recovery (MTTR) and incident impact"
+  
+# Source Information
+source:
+  name: "Multi-vendor incident reports and postmortems"
+  url: "Various public postmortems and case studies"
+  accessed: "2025-08-21"
+  license: "Public domain / Fair use for research"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 13
+  columns: 10
+  time_range: "2015 - 2022"
+  update_frequency: "static"
+  collection_method: "curated from public postmortems and case studies"
+  
+# Column Descriptions
+columns:
+  org_id:
+    type: "string"
+    description: "Unique identifier for the incident organization"
+    unit: "identifier"
+  organization:
+    type: "string"
+    description: "Organization that experienced the incident"
+    unit: "name"
+  stack_type:
+    type: "string"
+    description: "Type of database or storage technology involved"
+    unit: "category"
+  incident_type:
+    type: "string"
+    description: "Classification of the incident type"
+    unit: "category"
+  mttr_minutes:
+    type: "number"
+    description: "Mean Time to Recovery in minutes from incident start to resolution"
+    unit: "minutes"
+  data_loss_gb:
+    type: "number"
+    description: "Amount of data permanently lost during the incident"
+    unit: "gigabytes"
+  description:
+    type: "string"
+    description: "Brief description of the incident and its cause"
+    unit: "text"
+  date:
+    type: "string"
+    description: "Date when the incident occurred"
+    unit: "YYYY-MM-DD"
+  source_url:
+    type: "string"
+    description: "URL of the public postmortem or reference"
+    unit: "URL"
+  impact_scope:
+    type: "string"
+    description: "Scope of the incident impact (regional, global, application, etc.)"
+    unit: "category"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all required fields populated"
+  sample_size: "13 incidents across major providers"
+  confidence: "high"
+  limitations: 
+    - "Limited to publicly disclosed incidents"
+    - "May not represent full incident universe"
+    - "Some anonymized customer incidents included"
+  
+# Usage Notes
+notes:
+  - "Incidents span major cloud providers (AWS, Azure, GCP) and data lake formats"
+  - "MTTR calculated from incident start to full service restoration"
+  - "Data loss represents permanently unrecoverable data only"
+  - "Source URLs include both public postmortems and anonymized case studies"
+  - "Useful for reliability planning and SLA benchmarking"

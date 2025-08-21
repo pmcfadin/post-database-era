@@ -1,0 +1,101 @@
+# Dataset Metadata
+dataset:
+  title: "Table Format Schema Evolution Capabilities Comparison"
+  description: "Comprehensive comparison of schema evolution capabilities across different table formats and their versions"
+  topic: "Table format schema evolution support matrix"
+  metric: "Feature support levels and compatibility guarantees"
+  
+# Source Information
+source:
+  name: "Table format documentation and capability analysis"
+  url: "Apache Iceberg, Delta Lake, Apache Hudi, Parquet, Avro, Protobuf, ORC, JSON Schema, Thrift official documentation"
+  accessed: "2025-08-21"
+  license: "Public documentation - open source projects"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 20
+  columns: 13
+  time_range: "Current versions as of 2024-2025"
+  update_frequency: "version_release_dependent"
+  collection_method: "documentation_analysis"
+  
+# Column Descriptions
+columns:
+  table_format:
+    type: "string"
+    description: "Name of the table format or serialization technology"
+    unit: "categorical"
+  format_version:
+    type: "string"
+    description: "Specific version of the format being analyzed"
+    unit: "version_string"
+  add_column_support:
+    type: "string"
+    description: "Level of support for adding new columns (full, limited, none)"
+    unit: "categorical"
+  drop_column_support:
+    type: "string"
+    description: "Level of support for dropping existing columns"
+    unit: "categorical"
+  rename_column_support:
+    type: "string"
+    description: "Level of support for renaming columns"
+    unit: "categorical"
+  change_data_type_support:
+    type: "string"
+    description: "Level of support for changing column data types"
+    unit: "categorical"
+  partition_evolution_support:
+    type: "string"
+    description: "Level of support for evolving partition schemes"
+    unit: "categorical"
+  nested_schema_support:
+    type: "string"
+    description: "Level of support for evolving nested/complex schemas"
+    unit: "categorical"
+  backward_compatibility_guarantee:
+    type: "string"
+    description: "Strength of backward compatibility guarantees (strong, moderate, weak, none)"
+    unit: "categorical"
+  forward_compatibility_guarantee:
+    type: "string"
+    description: "Strength of forward compatibility guarantees"
+    unit: "categorical"
+  schema_validation_level:
+    type: "string"
+    description: "Level of schema validation enforcement (strict, moderate, basic, none)"
+    unit: "categorical"
+  versioning_mechanism:
+    type: "string"
+    description: "Mechanism used for schema versioning and tracking"
+    unit: "categorical"
+  rollback_support:
+    type: "string"
+    description: "Level of support for rolling back schema changes"
+    unit: "categorical"
+  evolution_performance_impact:
+    type: "string"
+    description: "Performance impact of schema evolution operations (minimal, low, moderate, high, none)"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all features documented"
+  sample_size: "20 format/version combinations"
+  confidence: "high"
+  limitations: 
+    - "Based on documented capabilities - actual performance may vary"
+    - "Some features may be implementation-dependent"
+    - "Version capabilities may evolve with patches"
+    - "Performance impact varies by dataset size and complexity"
+  
+# Usage Notes
+notes:
+  - "Modern table formats (Iceberg v2, Delta v3) show superior evolution capabilities"
+  - "Standalone Parquet lacks native schema evolution support"
+  - "Schema registry-based formats provide better compatibility management"
+  - "Newer versions generally offer improved evolution capabilities"
+  - "Performance impact correlates with complexity of versioning mechanism"
+  - "Full rollback support requires sophisticated metadata management"

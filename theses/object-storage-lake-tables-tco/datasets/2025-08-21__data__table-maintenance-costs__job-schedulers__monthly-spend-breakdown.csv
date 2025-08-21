@@ -1,0 +1,9 @@
+scheduler,org_id,dag_name,job_type,format,frequency,avg_runtime_hours,monthly_runs,monthly_cost_usd,data_tb_processed,cluster_config,source
+airflow,fintech_company_a,daily_delta_optimize,optimize,delta,daily,2.3,30,690.0,12.5,spark_3.4_medium,airflow_community_survey_2024
+airflow,ecommerce_company_b,weekly_parquet_compaction,compaction,parquet,weekly,8.7,4,348.0,45.2,emr_m5.4xlarge,airflow_summit_2024_case_study
+airflow,media_company_c,iceberg_snapshot_cleanup,snapshot_expiry,iceberg,weekly,1.2,4,48.0,78.9,trino_worker_medium,apache_iceberg_meetup_2024
+databricks_jobs,retail_analytics_d,hourly_delta_zorder,zorder,delta,hourly,0.75,720,5400.0,8.3,standard_ds3_v2_autoscale,databricks_community_forum_q4_2024
+databricks_jobs,financial_services_e,nightly_vacuum_job,vacuum,delta,daily,3.2,30,960.0,67.4,memory_optimized_e4s_v3,databricks_summit_2024
+databricks_jobs,healthcare_analytics_f,optimize_patient_data,optimize,delta,daily,1.8,30,540.0,23.7,standard_ds3_v2,databricks_healthcare_webinar_2024
+kubernetes_cronjob,saas_platform_g,spark_iceberg_compaction,compaction,iceberg,daily,4.5,30,1350.0,89.6,gke_n1-highmem-8_spot,kubecon_2024_case_study
+kubernetes_cronjob,gaming_company_h,hudi_clustering_job,clustering,hudi,weekly,12.3,4,492.0,156.8,eks_m5.8xlarge,apache_hudi_meetup_2024

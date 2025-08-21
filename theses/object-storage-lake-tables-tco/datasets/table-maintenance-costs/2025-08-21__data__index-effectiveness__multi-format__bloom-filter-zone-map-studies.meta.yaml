@@ -1,0 +1,118 @@
+# Dataset Metadata
+dataset:
+  title: "Index Effectiveness Studies - Bloom Filters and Zone Maps"
+  description: "Performance analysis of different indexing strategies including bloom filters, zone maps, and column statistics effectiveness"
+  topic: "Table Maintenance Costs and Index Performance"
+  metric: "Index hit rates, false positive rates, and data reduction ratios"
+
+# Source Information
+source:
+  name: "Database vendor whitepapers and performance studies"
+  url: "Aggregated from Hudi, Delta Lake, Snowflake, Vertica, Parquet, and Iceberg documentation"
+  accessed: "2025-08-21"
+  license: "Mixed - vendor documentation and published studies"
+  credibility: "Tier A"
+
+# Data Characteristics
+characteristics:
+  rows: 6
+  columns: 17
+  time_range: "2023 - 2024"
+  update_frequency: "static"
+  collection_method: "manual aggregation from performance studies"
+
+# Column Descriptions
+columns:
+  source:
+    type: "string"
+    description: "Source publication or documentation"
+    unit: "text"
+  index_type:
+    type: "string"
+    description: "Type of index or filtering mechanism"
+    unit: "categorical"
+  table_format:
+    type: "string"
+    description: "Table format or database system"
+    unit: "categorical"
+  dataset_size_gb:
+    type: "number"
+    description: "Total dataset size in gigabytes"
+    unit: "GB"
+  num_records_millions:
+    type: "number"
+    description: "Number of records in millions"
+    unit: "millions"
+  false_positive_rate:
+    type: "number"
+    description: "False positive rate for the index"
+    unit: "ratio (0-1)"
+  lookup_queries_tested:
+    type: "number"
+    description: "Number of lookup queries in the test"
+    unit: "count"
+  files_total:
+    type: "number"
+    description: "Total number of files in dataset"
+    unit: "count"
+  files_candidate_bloom:
+    type: "number"
+    description: "Files identified as candidates by index"
+    unit: "count"
+  files_actually_scanned:
+    type: "number"
+    description: "Files actually scanned after index filtering"
+    unit: "count"
+  bloom_filter_hit_rate:
+    type: "number"
+    description: "Effectiveness rate of the filtering mechanism"
+    unit: "ratio (0-1)"
+  bytes_saved_gb:
+    type: "number"
+    description: "Data volume saved from scanning due to index"
+    unit: "GB"
+  query_latency_improvement:
+    type: "number"
+    description: "Query performance improvement ratio"
+    unit: "ratio (0-1)"
+  memory_overhead_mb:
+    type: "number"
+    description: "Memory overhead for maintaining index"
+    unit: "MB"
+  filter_size_mb:
+    type: "number"
+    description: "Storage size of the index/filter"
+    unit: "MB"
+  study_year:
+    type: "number"
+    description: "Year the study was conducted"
+    unit: "year"
+  index_selectivity:
+    type: "number"
+    description: "Ratio of files actually scanned to candidate files"
+    unit: "ratio"
+  data_reduction_ratio:
+    type: "number"
+    description: "Percentage of data saved relative to total dataset"
+    unit: "ratio (0-1)"
+  filter_efficiency:
+    type: "number"
+    description: "GB saved per MB of filter size"
+    unit: "GB/MB"
+
+# Quality Indicators
+quality:
+  completeness: "100% - all fields populated"
+  sample_size: "6 index effectiveness studies"
+  confidence: "high"
+  limitations:
+    - "Results vary significantly based on data distribution"
+    - "Query patterns affect index effectiveness"
+    - "Different implementations may have varying performance"
+
+# Usage Notes
+notes:
+  - "Lower false positive rates indicate more accurate indexes"
+  - "Higher filter efficiency shows better space/performance tradeoff"
+  - "Bloom filter effectiveness depends on data cardinality and distribution"
+  - "Zone maps work best with sorted or clustered data"

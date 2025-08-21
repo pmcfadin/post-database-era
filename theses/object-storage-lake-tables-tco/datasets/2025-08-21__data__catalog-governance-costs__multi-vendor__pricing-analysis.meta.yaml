@@ -1,0 +1,85 @@
+# Dataset Metadata
+dataset:
+  title: "Data Catalog and Governance Service Cost Analysis"
+  description: "Comprehensive pricing analysis of data catalog, lineage, and governance platforms across cloud providers and vendors"
+  topic: "catalog-governance-costs"
+  metric: "pricing_models_cost_structures"
+  
+# Source Information
+source:
+  name: "Multi-vendor pricing research"
+  url: "Aggregated from vendor pricing pages, documentation, and industry discussions"
+  accessed: "2025-08-21"
+  license: "Research compilation - cite original vendor sources"
+  credibility: "Tier A/B"
+  
+# Data Characteristics
+characteristics:
+  rows: 29
+  columns: 10
+  time_range: "2024-10-01 to 2025-01-01"
+  update_frequency: "quarterly"
+  collection_method: "manual_research_vendor_sources"
+  
+# Column Descriptions
+columns:
+  service:
+    type: "string"
+    description: "Name of the data catalog or governance service"
+    unit: "text"
+  vendor:
+    type: "string"
+    description: "Company providing the service"
+    unit: "text"
+  pricing_model:
+    type: "string"
+    description: "How the service is priced (pay_per_request, subscription, etc.)"
+    unit: "categorical"
+  monthly_active_objects:
+    type: "number"
+    description: "Number of data objects/assets managed per month"
+    unit: "count"
+  cost_usd:
+    type: "number"
+    description: "Monthly cost in US dollars for the specified object count"
+    unit: "USD"
+  cost_unit:
+    type: "string"
+    description: "Unit of cost measurement (per million objects, monthly subscription, etc.)"
+    unit: "categorical"
+  tier:
+    type: "string"
+    description: "Service tier or plan level"
+    unit: "categorical"
+  additional_costs:
+    type: "string"
+    description: "Additional costs not included in base pricing"
+    unit: "text"
+  data_source:
+    type: "string"
+    description: "Source of the pricing information"
+    unit: "categorical"
+  last_updated:
+    type: "date"
+    description: "When the pricing information was last verified"
+    unit: "YYYY-MM-DD"
+    
+# Quality Indicators
+quality:
+  completeness: "100% for core pricing fields"
+  sample_size: "29 service configurations across 15+ vendors"
+  confidence: "high"
+  limitations: 
+    - "Enterprise pricing often requires sales contact"
+    - "Hidden costs in infrastructure, support, and integration"
+    - "Pricing changes frequently in SaaS market"
+    - "Volume discounts not reflected in standard pricing"
+  
+# Usage Notes
+notes:
+  - "Free tiers often have significant limitations on features or object counts"
+  - "Open source solutions require separate infrastructure and operational costs"
+  - "Many enterprise solutions bundle catalog with broader data platform"
+  - "Consumption-based pricing can vary significantly with actual usage"
+  - "Support and professional services often add 20-40% to base costs"
+  - "Multi-year contracts typically offer 15-25% discounts"

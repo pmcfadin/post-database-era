@@ -1,0 +1,93 @@
+{
+  "summary": {
+    "total_platforms_analyzed": 6,
+    "total_governance_controls": 5,
+    "total_policy_engines": 5,
+    "total_compliance_frameworks": 4,
+    "total_lineage_platforms": 10
+  },
+  "governance_capability_analysis": {
+    "platforms_by_stack_type": {
+      "cloud_native": 1,
+      "data_lake": 1,
+      "data_warehouse": 3,
+      "hadoop_ecosystem": 1
+    },
+    "control_support_rates": {
+      "audit_trail": 1.0,
+      "column_level_security": 1.0,
+      "data_masking": 1.0,
+      "lineage_tracking": 0.6666666666666666,
+      "row_level_security": 1.0
+    },
+    "control_enforcement_rates": {
+      "audit_trail": 1.0,
+      "column_level_security": 1.0,
+      "data_masking": 0.5,
+      "lineage_tracking": 0.16666666666666666,
+      "row_level_security": 1.0
+    },
+    "strongest_governance_platform": "Databricks_Unity_Catalog"
+  },
+  "policy_engine_analysis": {
+    "engine_types": {
+      "centralized": 4,
+      "native": 4,
+      "hybrid": 3,
+      "traditional": 3
+    },
+    "average_complexity_by_engine": {
+      "centralized": 3.0,
+      "hybrid": 1.6666666666666667,
+      "native": 1.5,
+      "traditional": 3.3333333333333335
+    },
+    "performance_impact_by_control": {
+      "audit_trail": 2.0,
+      "column_level_security": 2.6,
+      "data_masking": 4.0,
+      "lineage_tracking": 1.0,
+      "row_level_security": 2.6
+    }
+  },
+  "compliance_analysis": {
+    "framework_certification_rates": {
+      "GDPR": 0.6666666666666666,
+      "HIPAA": 1.0,
+      "PCI_DSS": 1.0,
+      "SOC2_Type2": 0.8333333333333334
+    },
+    "average_audit_completeness": {
+      "AWS_Lake_Formation": 89.33333333333333,
+      "Apache_Ranger": 72.5,
+      "BigQuery": 92.66666666666667,
+      "Databricks_Unity_Catalog": 90.0,
+      "Redshift": 87.0,
+      "Snowflake": 94.5
+    },
+    "automated_reporting_adoption": 0.7222222222222222,
+    "best_compliance_platform": "Snowflake"
+  },
+  "lineage_analysis": {
+    "column_level_platforms": [
+      "Databricks_Unity_Catalog",
+      "Apache_Atlas",
+      "DataHub",
+      "Collibra"
+    ],
+    "average_accuracy_by_scope": {
+      "column_level": 86.25,
+      "none_native": 0.0,
+      "table_level": 80.5
+    },
+    "real_time_capability_rate": 0.5,
+    "most_accurate_lineage_platform": "Databricks_Unity_Catalog"
+  },
+  "key_insights": [
+    "Unity Catalog emerges as the strongest overall governance platform with high enforcement rates and column-level lineage",
+    "Data warehouses excel at row/column security but lag in native lineage capabilities",
+    "Traditional Hadoop tools (Ranger) strong in policy management but weak in modern compliance frameworks",
+    "Cloud-native platforms show best automated reporting and compliance certification rates",
+    "Column-level lineage tracking is becoming a key differentiator for modern governance"
+  ]
+}

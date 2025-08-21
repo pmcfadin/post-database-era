@@ -1,0 +1,83 @@
+# Dataset Metadata
+dataset:
+  title: "Data Lineage Tracking Accuracy and Capabilities"
+  description: "Comprehensive analysis of data lineage tracking capabilities, accuracy metrics, and feature completeness across platforms"
+  topic: "policy-parity-index"
+  metric: "lineage_tracking_effectiveness"
+  
+# Source Information
+source:
+  name: "Platform Documentation and Lineage Capability Analysis"
+  url: "https://docs.databricks.com/data-governance/unity-catalog/data-lineage, https://docs.snowflake.com/en/user-guide/object-dependencies, https://cloud.google.com/data-catalog/docs/data-lineage, https://atlas.apache.org, https://datahubproject.io, https://www.collibra.com, https://docs.microsoft.com/en-us/azure/purview"
+  accessed: "2025-08-20"
+  license: "Public documentation analysis"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 10
+  columns: 9
+  time_range: "2025 current lineage capabilities"
+  update_frequency: "quarterly"
+  collection_method: "feature_documentation_analysis"
+  
+# Column Descriptions
+columns:
+  platform:
+    type: "string"
+    description: "Data platform or lineage tracking system"
+    unit: "platform_name"
+  lineage_scope:
+    type: "string"
+    description: "Granularity level of lineage tracking"
+    unit: "tracking_scope"
+  accuracy_percentage:
+    type: "number"
+    description: "Estimated accuracy of lineage information captured"
+    unit: "percentage"
+  real_time_updates:
+    type: "number"
+    description: "Whether lineage updates in real-time (1=yes, 0=no)"
+    unit: "binary"
+  cross_platform_tracking:
+    type: "number"
+    description: "Whether lineage tracks across different platforms (1=yes, 0=no)"
+    unit: "binary"
+  api_accessible:
+    type: "number"
+    description: "Whether lineage data is accessible via API (1=yes, 0=no)"
+    unit: "binary"
+  visual_interface:
+    type: "number"
+    description: "Whether visual lineage interface is available (1=yes, 0=no)"
+    unit: "binary"
+  transformation_tracking:
+    type: "number"
+    description: "Whether data transformations are tracked (1=yes, 0=no)"
+    unit: "binary"
+  schema_evolution_tracking:
+    type: "number"
+    description: "Whether schema changes are tracked in lineage (1=yes, 0=no)"
+    unit: "binary"
+  data_quality_integration:
+    type: "number"
+    description: "Whether data quality metrics integrate with lineage (1=yes, 0=no)"
+    unit: "binary"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - major lineage platforms covered"
+  sample_size: "10 lineage tracking platforms"
+  confidence: "high"
+  limitations: 
+    - "Accuracy percentages are estimates based on documented capabilities"
+    - "Feature availability may depend on platform configuration"
+    - "Cross-platform tracking capabilities vary by integration setup"
+  
+# Usage Notes
+notes:
+  - "Unity Catalog leads in accuracy and real-time capabilities"
+  - "Traditional data warehouses (Snowflake, Redshift) have limited native lineage"
+  - "Dedicated lineage platforms (DataHub, Collibra) offer strongest cross-platform support"
+  - "Column-level tracking significantly improves governance capabilities"
+  - "Real-time updates critical for operational data governance"

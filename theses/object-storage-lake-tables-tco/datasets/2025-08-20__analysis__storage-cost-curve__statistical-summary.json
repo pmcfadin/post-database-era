@@ -1,0 +1,20 @@
+{
+  "analysis_date": "2025-08-20T17:41:37.700458",
+  "datasets_analyzed": [
+    "2025-08-20__data__storage-cost-curve__multi-vendor__substrate-pricing.csv",
+    "2025-08-20__data__storage-cost-curve__comprehensive__substrate-pricing-analysis.csv"
+  ],
+  "key_findings": {
+    "object_vs_dw_price_parity": "Object storage $1.01-$163.84 vs DW-native $20.48-$35.84 per TB/month",
+    "archive_tier_savings": "95.8% cost savings with archive tiers",
+    "price_stability": "AWS S3 pricing stable since 2019 with initial 2018-2019 decrease",
+    "cost_variation": "162x cost difference between storage tiers"
+  },
+  "price_statistics": {
+    "min_price_per_tb_month": 1.01376,
+    "max_price_per_tb_month": 163.84,
+    "median_price_per_tb_month": 21.2992,
+    "average_price_per_tb_month": 26.559841103448278,
+    "total_data_points": 29
+  }
+}

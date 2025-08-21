@@ -1,0 +1,127 @@
+# Dataset Metadata
+dataset:
+  title: "File Layout and Partitioning Strategy Impact Analysis"
+  description: "Performance comparison of different file organization strategies including file sizes, partitioning schemes, and clustering approaches"
+  topic: "Table Maintenance Costs and File Layout Optimization"
+  metric: "Read amplification, scan efficiency, and I/O operation counts across layout strategies"
+
+# Source Information
+source:
+  name: "Table format performance studies and optimization guides"
+  url: "Aggregated from Iceberg, Delta Lake, Hudi, and Snowflake optimization documentation"
+  accessed: "2025-08-21"
+  license: "Published performance studies and vendor documentation"
+  credibility: "Tier A"
+
+# Data Characteristics
+characteristics:
+  rows: 7
+  columns: 21
+  time_range: "2023 - 2025"
+  update_frequency: "static"
+  collection_method: "performance study aggregation"
+
+# Column Descriptions
+columns:
+  source:
+    type: "string"
+    description: "Source publication or study"
+    unit: "text"
+  table_format:
+    type: "string"
+    description: "Table format being analyzed"
+    unit: "categorical"
+  layout_strategy:
+    type: "string"
+    description: "File organization and layout strategy"
+    unit: "categorical"
+  avg_file_size_mb:
+    type: "number"
+    description: "Average file size in megabytes"
+    unit: "MB"
+  files_count:
+    type: "number"
+    description: "Total number of files in the table"
+    unit: "count"
+  total_table_size_gb:
+    type: "number"
+    description: "Total table size in gigabytes"
+    unit: "GB"
+  query_type:
+    type: "string"
+    description: "Type of query used for testing"
+    unit: "categorical"
+  files_scanned_avg:
+    type: "number"
+    description: "Average number of files scanned per query"
+    unit: "count"
+  bytes_scanned_gb:
+    type: "number"
+    description: "Bytes scanned from storage"
+    unit: "GB"
+  bytes_returned_gb:
+    type: "number"
+    description: "Bytes returned after filtering"
+    unit: "GB"
+  metadata_overhead_mb:
+    type: "number"
+    description: "Metadata storage overhead"
+    unit: "MB"
+  planning_time_ms:
+    type: "number"
+    description: "Query planning time in milliseconds"
+    unit: "milliseconds"
+  execution_time_ms:
+    type: "number"
+    description: "Query execution time in milliseconds"
+    unit: "milliseconds"
+  read_amplification:
+    type: "number"
+    description: "Ratio of bytes scanned to bytes returned"
+    unit: "ratio"
+  io_operations:
+    type: "number"
+    description: "Number of I/O operations performed"
+    unit: "count"
+  study_context:
+    type: "string"
+    description: "Context or focus of the performance study"
+    unit: "categorical"
+  scan_efficiency:
+    type: "number"
+    description: "Ratio of bytes returned to bytes scanned"
+    unit: "ratio (0-1)"
+  file_hit_rate:
+    type: "number"
+    description: "Percentage of files that were scanned"
+    unit: "ratio (0-1)"
+  metadata_to_data_ratio:
+    type: "number"
+    description: "Metadata overhead as percentage of total data"
+    unit: "ratio"
+  total_query_time_ms:
+    type: "number"
+    description: "Total query time including planning and execution"
+    unit: "milliseconds"
+  mb_per_io_operation:
+    type: "number"
+    description: "Megabytes processed per I/O operation"
+    unit: "MB/operation"
+
+# Quality Indicators
+quality:
+  completeness: "100% - all fields populated"
+  sample_size: "7 layout strategy comparisons"
+  confidence: "high"
+  limitations:
+    - "Performance varies significantly based on data characteristics"
+    - "Query patterns greatly influence optimal layout strategies"
+    - "Hardware and configuration differences affect results"
+
+# Usage Notes
+notes:
+  - "Smaller files reduce read amplification but increase metadata overhead"
+  - "Partitioning effectiveness depends on query predicate selectivity"
+  - "Clustering and sorting improve scan efficiency for range queries"
+  - "File size optimization involves tradeoffs between metadata and I/O efficiency"
+  - "Multi-level partitioning can reduce file scanning but complicates maintenance"

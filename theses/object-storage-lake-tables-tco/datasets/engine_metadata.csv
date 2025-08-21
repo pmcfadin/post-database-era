@@ -1,0 +1,5 @@
+platform,native_format,external_formats,billing_unit,typical_native_cost,typical_external_cost,query_metadata_source
+BigQuery,BigQuery Native,"['BigLake External Tables', 'Cloud Storage External Tables']",TB processed,0.02,0.015,INFORMATION_SCHEMA.JOBS_BY_PROJECT
+Snowflake,Snowflake Native Tables,['External Tables via External Stages'],Compute credits,2.5,2.5,QUERY_HISTORY view
+Databricks,Delta Lake,"['Iceberg', 'Hudi', 'Parquet']",DBU hours,0.5,0.5,system.query.history
+Athena,None (serverless),"['Iceberg', 'Delta Lake', 'Hudi', 'Parquet', 'ORC']",TB scanned,0.0,5.0,CloudTrail logs and Athena query history

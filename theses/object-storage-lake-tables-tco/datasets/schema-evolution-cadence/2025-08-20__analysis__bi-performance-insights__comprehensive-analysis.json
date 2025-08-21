@@ -1,0 +1,26 @@
+{
+  "analysis_timestamp": "2025-08-20T20:07:11.524086",
+  "performance_analysis": {
+    "latency_comparison": {
+      "native_dw_median_ms": 7496.0625,
+      "lake_tables_median_ms": 12185.7125,
+      "latency_penalty_percent": 62.56151146018325
+    },
+    "cost_comparison": {
+      "native_dw_avg_cost": 0.16065,
+      "lake_tables_avg_cost": 0.10081500000000002,
+      "cost_savings_percent": 37.2455648926237
+    },
+    "cold_start_impact": {
+      "cold_start_records": 32,
+      "avg_cold_start_latency": 9058.875,
+      "avg_warm_query_latency": 3716.0625
+    },
+    "concurrency_impact": {
+      "single_user_latency": 6387.46875,
+      "concurrent_20_latency": 20439.21875
+    }
+  },
+  "cost_analysis": {
+    "cost_by_architecture": {
+      

@@ -1,0 +1,6 @@
+org_id,org_size,stack_type,fte_hours_month,tables,tb,incidents,oncall_hours,maintenance_hours,upgrade_hours,data_source,confidence
+enterprise_bank_001,large,dw,160,2500,50,12,40,80,40,industry_survey_estimate,medium
+tech_startup_002,medium,lake,120,800,20,8,30,60,30,industry_survey_estimate,medium
+retail_corp_003,large,dw,200,4000,80,15,50,100,50,industry_survey_estimate,medium
+saas_company_004,medium,lake,100,600,15,6,25,50,25,industry_survey_estimate,medium
+manufacturing_005,large,dw,180,3200,65,10,45,90,45,industry_survey_estimate,medium

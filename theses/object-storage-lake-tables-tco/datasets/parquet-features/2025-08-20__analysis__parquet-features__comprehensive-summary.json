@@ -1,0 +1,234 @@
+{
+  "analysis_date": "2025-08-20T20:06:26.822454",
+  "datasets_analyzed": [
+    "2025-08-20__data__parquet-features__comprehensive__feature-adoption.csv",
+    "2025-08-20__data__parquet-features__performance-studies__benchmark-results.csv",
+    "2025-08-20__data__parquet-features__production-adoption__real-world-usage.csv"
+  ],
+  "key_findings": {
+    "feature_adoption": {
+      "feature_adoption_summary": {
+        "total_features": 22,
+        "enabled_features": 21,
+        "disabled_features": 1,
+        "adoption_rate": 95.45454545454545
+      },
+      "by_feature_type": {
+        "count": {
+          "bloom_filter": 3,
+          "compression": 4,
+          "consistency": 3,
+          "encoding": 3,
+          "optimization": 3,
+          "production_config": 3,
+          "statistics": 3
+        },
+        "sum": {
+          "bloom_filter": 3,
+          "compression": 4,
+          "consistency": 3,
+          "encoding": 3,
+          "optimization": 3,
+          "production_config": 3,
+          "statistics": 2
+        },
+        "mean": {
+          "bloom_filter": 1.0,
+          "compression": 1.0,
+          "consistency": 1.0,
+          "encoding": 1.0,
+          "optimization": 1.0,
+          "production_config": 1.0,
+          "statistics": 0.6666666666666666
+        }
+      },
+      "by_adoption_level": {
+        "standard": 8,
+        "production_ready": 2,
+        "best_practice": 2,
+        "production_proven": 2,
+        "common": 1,
+        "limited": 1,
+        "very_high": 1,
+        "medium": 1,
+        "growing": 1,
+        "rapidly_growing": 1,
+        "emerging": 1,
+        "enterprise_standard": 1
+      },
+      "compression_algorithms": [
+        {
+          "parquet_feature": "Snappy Compression",
+          "adoption_level": "very_high",
+          "performance_impact": "balanced_speed_size"
+        },
+        {
+          "parquet_feature": "GZIP Compression",
+          "adoption_level": "medium",
+          "performance_impact": "high_compression_slow"
+        },
+        {
+          "parquet_feature": "LZ4 Compression",
+          "adoption_level": "growing",
+          "performance_impact": "very_fast_moderate_size"
+        },
+        {
+          "parquet_feature": "ZSTD Compression",
+          "adoption_level": "rapidly_growing",
+          "performance_impact": "optimal_balance"
+        }
+      ],
+      "encoding_types": [
+        {
+          "parquet_feature": "Dictionary Encoding",
+          "adoption_level": "standard",
+          "performance_impact": "high_compression"
+        },
+        {
+          "parquet_feature": "RLE Encoding",
+          "adoption_level": "standard",
+          "performance_impact": "high_compression"
+        },
+        {
+          "parquet_feature": "Delta Encoding",
+          "adoption_level": "common",
+          "performance_impact": "medium_compression"
+        }
+      ]
+    },
+    "performance_benchmarks": {
+      "compression_performance": {
+        "by_algorithm": {
+          "compression_ratio": {
+            "GZIP Compression": 5.8,
+            "LZ4 Compression": 2.1,
+            "Snappy Compression": 3.2,
+            "ZSTD Compression": 4.7
+          },
+          "compress_speed_mbps": {
+            "GZIP Compression": 45.0,
+            "LZ4 Compression": 420.0,
+            "Snappy Compression": 250.0,
+            "ZSTD Compression": 120.0
+          },
+          "decompress_speed_mbps": {
+            "GZIP Compression": 180.0,
+            "LZ4 Compression": 1200.0,
+            "Snappy Compression": 800.0,
+            "ZSTD Compression": 380.0
+          },
+          "query_speedup_factor": {
+            "GZIP Compression": 1.4,
+            "LZ4 Compression": 2.8,
+            "Snappy Compression": 2.1,
+            "ZSTD Compression": 1.9
+          }
+        },
+        "best_compression_ratio": {
+          "parquet_feature": "RLE Encoding",
+          "compression_ratio": 12.3
+        },
+        "fastest_compression": {
+          "parquet_feature": "LZ4 Compression",
+          "compress_speed_mbps": 420.0
+        }
+      },
+      "encoding_performance": {
+        "by_encoding": {
+          "compression_ratio": {
+            "Delta Encoding": 6.2,
+            "Dictionary Encoding": 8.5,
+            "Plain Encoding": 1.0,
+            "RLE Encoding": 12.3
+          },
+          "encode_speed_mbps": {
+            "Delta Encoding": 1500.0,
+            "Dictionary Encoding": 1200.0,
+            "Plain Encoding": 3000.0,
+            "RLE Encoding": 800.0
+          },
+          "decode_speed_mbps": {
+            "Delta Encoding": 2200.0,
+            "Dictionary Encoding": 2400.0,
+            "Plain Encoding": 4000.0,
+            "RLE Encoding": 1800.0
+          }
+        }
+      },
+      "bloom_filter_effectiveness": {
+        "point_lookup_speedup": 11.95,
+        "scan_reduction": 78.5,
+        "false_positive_rate": 0.030000000000000002
+      }
+    },
+    "production_adoption": {
+      "enterprise_adoption": {
+        "companies_analyzed": 4,
+        "average_data_scale_tb": 236666.66666666666,
+        "cost_savings_range": {
+          "min": 25.0,
+          "max": 60.0,
+          "mean": 39.166666666666664
+        },
+        "most_common_features": {
+          "Dictionary Encoding": 1,
+          "Snappy Compression": 1,
+          "ZSTD Compression": 1,
+          "Column Statistics": 1,
+          "Bloom Filters": 1,
+          "RLE Encoding": 1
+        }
+      },
+      "cloud_provider_support": {
+        "providers_analyzed": 4,
+        "bloom_filter_support_rate": 75.0,
+        "default_compression": {
+          "snappy": 4
+        }
+      },
+      "open_source_adoption": {
+        "projects_analyzed": 5,
+        "average_adoption_rate": 83.0,
+        "feature_support_matrix": {
+          "write_support": {
+            "Apache Arrow": 1.0,
+            "Apache Iceberg": 1.0,
+            "Apache Spark": 1.0,
+            "DuckDB": 1.0,
+            "Polars": 1.0
+          },
+          "read_support": {
+            "Apache Arrow": 1.0,
+            "Apache Iceberg": 1.0,
+            "Apache Spark": 1.0,
+            "DuckDB": 1.0,
+            "Polars": 1.0
+          },
+          "adoption_rate_percent": {
+            "Apache Arrow": 85.0,
+            "Apache Iceberg": 80.0,
+            "Apache Spark": 65.0,
+            "DuckDB": 90.0,
+            "Polars": 95.0
+          }
+        }
+      },
+      "industry_survey_insights": {
+        "general_parquet_adoption": 78.0,
+        "bloom_filter_awareness": 45.0,
+        "compression_usage_breakdown": {
+          "snappy": 65.0,
+          "gzip": 20.0,
+          "zstd": 15.0
+        }
+      }
+    }
+  },
+  "actionable_insights": [
+    "Parquet adoption rate across analyzed features: 95.5%",
+    "Enterprise companies save average 39.2% on storage costs",
+    "Snappy compression dominates with 65.0% market share",
+    "Bloom filters show 11.9x speedup but only 45.0% awareness",
+    "Strong consistency now available across all major cloud providers"
+  ]
+}

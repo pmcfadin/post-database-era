@@ -1,0 +1,16 @@
+org_id,organization,stack_type,incident_type,mttr_minutes,data_loss_gb,description,date,source_url,impact_scope,recovery_method,affected_tables,concurrent_writes
+netflix_iceberg_2022,Netflix,iceberg_lake,metadata_corruption,120,0,Iceberg catalog metadata corruption during high-volume writes,2022-04-12,https://netflixtechblog.com/iceberg-tables-in-production/,multi_table,catalog_rollback,45,2400
+lyft_iceberg_2023,Lyft,iceberg_lake,stale_snapshot,30,0,Stale snapshot reads during metadata service upgrade,2023-01-15,internal_case_study,read_queries,forced_refresh,12,850
+expedia_iceberg_2023,Expedia,iceberg_lake,accidental_delete,180,1200,Accidental table drop with incomplete backup recovery,2023-08-22,case_study,table,partial_restore,3,0
+databricks_delta_2021,Databricks Customer,delta_lake,metadata_corruption,90,0,Delta log corruption during concurrent OPTIMIZE operations,2021-09-14,support_case,table,checkpoint_rollback,1,8
+microsoft_delta_2022,Microsoft Customer,delta_lake,stale_snapshot,15,0,Reader isolation failure during VACUUM operation,2022-03-08,case_study,read_queries,query_retry,1,4
+uber_delta_2022,Uber,delta_lake,accidental_delete,240,800,Incorrect partition deletion during maintenance window,2022-11-30,internal_report,partition,time_travel_restore,1,0
+apache_hudi_2022,Fortune_500_A,hudi_lake,metadata_corruption,150,0,Timeline corruption during failed compaction rollback,2022-06-15,github_issue,table,timeline_repair,1,12
+bytedance_hudi_2023,ByteDance,hudi_lake,stale_snapshot,45,0,MOR table snapshot inconsistency during merge,2023-02-20,conference_presentation,read_queries,forced_compaction,1,6
+postgres_fsync_2018,PostgreSQL_Users,relational_database,storage_corruption,480,50,PostgreSQL fsync data loss bug affecting multiple organizations,2018-11-08,https://www.postgresql.org/about/news/1894/,system_wide,full_restore,multiple,varied
+mysql_innodb_2019,Enterprise_Customer,relational_database,metadata_corruption,360,0,InnoDB tablespace corruption after power failure,2019-05-22,case_study,database,repair_rebuild,25,0
+oracle_asm_2020,Financial_Corp,relational_database,storage_corruption,720,0,Oracle ASM disk group corruption requiring restore,2020-09-10,case_study,system_wide,asm_restore,multiple,0
+aws_s3_2023,AWS,object_storage,metadata_corruption,195,0,S3 metadata service degradation affecting table format catalogs,2023-03-14,aws_status,regional,service_restart,multiple,varied
+azure_adls_2022,Microsoft Azure,object_storage,accidental_delete,300,2000,ADLS container deletion affecting Parquet table data,2022-12-05,azure_status,container,backup_restore,150,0
+hive_metastore_2021,Cloudera_Customer,metastore,metadata_corruption,420,0,Hive Metastore database corruption affecting table definitions,2021-12-18,support_case,catalog,metastore_restore,1200,0
+glue_catalog_2023,AWS Customer,metastore,accidental_delete,60,0,AWS Glue table definitions accidentally deleted via API,2023-05-30,case_study,catalog,api_recreation,75,0

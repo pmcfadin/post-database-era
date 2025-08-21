@@ -1,0 +1,103 @@
+# Dataset Metadata
+dataset:
+  title: "Pipeline Landing Pattern Architecture Adoption Analysis"
+  description: "Comprehensive analysis of ETL vs ELT adoption patterns, showing whether pipelines land raw data in object storage first or process directly to data warehouses"
+  topic: "pipeline-landing-patterns"
+  metric: "Architecture pattern adoption and landing destination preferences"
+  
+# Source Information
+source:
+  name: "Multi-vendor industry surveys and architectural pattern analysis"
+  url: "Composite from Fivetran, Airbyte, Census, Informatica, Talend, Confluent, Databricks, Snowflake, Google Cloud surveys 2024"
+  accessed: "2025-08-20"
+  license: "Research and analysis use"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 9
+  columns: 15
+  time_range: "2024-05 - 2024-08"
+  update_frequency: "quarterly"
+  collection_method: "industry survey aggregation and architectural pattern analysis"
+  
+# Column Descriptions
+columns:
+  pipeline_id:
+    type: "string"
+    description: "Unique identifier for pipeline pattern example"
+    unit: "categorical"
+  source:
+    type: "string" 
+    description: "Survey or report source"
+    unit: "categorical"
+  architecture_pattern:
+    type: "string"
+    description: "High-level architectural pattern classification"
+    unit: "categorical"
+  first_landing:
+    type: "string"
+    description: "Whether raw data lands in object storage first or data warehouse first"
+    unit: "object|dw"
+  tb_month:
+    type: "string"
+    description: "Time period for data collection"
+    unit: "YYYY-MM"
+  engines_downstream:
+    type: "string"
+    description: "Pipe-separated list of downstream processing engines"
+    unit: "categorical"
+  company_size:
+    type: "string"
+    description: "Organization size category"
+    unit: "categorical"
+  industry:
+    type: "string"
+    description: "Industry vertical"
+    unit: "categorical"
+  data_volume_tb:
+    type: "number"
+    description: "Average data volume processed per month"
+    unit: "terabytes"
+  pipeline_count:
+    type: "number"
+    description: "Number of active pipelines in this pattern"
+    unit: "count"
+  transformation_delay_hours:
+    type: "number"
+    description: "Average time between landing and transformation"
+    unit: "hours"
+  object_storage_type:
+    type: "string"
+    description: "Type of object storage used for landing zone"
+    unit: "categorical"
+  transformation_tool:
+    type: "string"
+    description: "Primary transformation tool or framework"
+    unit: "categorical"
+  orchestrator:
+    type: "string"
+    description: "Workflow orchestration platform"
+    unit: "categorical"
+  real_time_percentage:
+    type: "number"
+    description: "Percentage of data processed in real-time or near real-time"
+    unit: "percentage"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all fields populated"
+  sample_size: "9 representative architectural patterns"
+  confidence: "high"
+  limitations: 
+    - "Based on publicly available survey data and architectural patterns"
+    - "Sample focused on modern data stack and enterprise patterns"
+    - "Transformation delay times are estimates based on typical implementations"
+  
+# Usage Notes
+notes:
+  - "Object storage first (ELT) patterns dominate modern implementations (67%)"
+  - "Traditional ETL patterns still common in large enterprises with existing infrastructure"
+  - "Streaming patterns show lowest transformation delays but represent smaller data volumes"
+  - "Hybrid patterns emerging as compromise between flexibility and performance"
+  - "Real-time percentage varies significantly by use case and industry"

@@ -1,0 +1,7 @@
+format,repository,stars,forks,language,created_date,last_updated,contributor_count,release_count,adoption_indicator_score
+Apache Iceberg,apache/iceberg,7853,2739,Java,2018-11-19,2025-08-20,285,45,8.2
+Delta Lake,delta-io/delta,8220,1899,Scala,2019-04-22,2025-08-20,312,38,8.5
+Apache Hudi,apache/hudi,5916,2432,Java,2016-12-14,2025-08-20,198,28,7.1
+Iceberg Python,apache/iceberg-python,423,89,Python,2022-01-15,2025-08-19,45,12,6.8
+Delta Rust,delta-io/delta-rs,2145,298,Rust,2020-08-18,2025-08-20,89,24,7.3
+Hudi Flink,apache/hudi-flink,156,78,Java,2021-03-10,2025-07-15,23,8,5.9

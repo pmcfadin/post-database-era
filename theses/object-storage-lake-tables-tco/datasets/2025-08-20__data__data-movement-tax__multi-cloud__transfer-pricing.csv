@@ -1,0 +1,28 @@
+cloud,movement_type,gb_moved,cost_usd,source_region,dest_region,service,notes,collection_date,data_source
+AWS,cross_az_in,per_gb,0.01,any_az,different_az_same_region,ec2_rds_data_transfer,Cross-AZ data transfer IN,2025-08-20,official_pricing_documentation
+AWS,cross_az_out,per_gb,0.01,any_az,different_az_same_region,ec2_rds_data_transfer,Cross-AZ data transfer OUT,2025-08-20,official_pricing_documentation
+AWS,cross_region,per_gb,0.02,us_east_1,us_west_2,general_data_transfer,Cross-region within US,2025-08-20,official_pricing_documentation
+AWS,cross_region,per_gb,0.09,us_east_1,eu_west_1,general_data_transfer,Cross-region intercontinental,2025-08-20,official_pricing_documentation
+AWS,internet_egress,first_1gb_free,0.0,any,internet,cloudfront_s3_egress,First 1GB free per month,2025-08-20,official_pricing_documentation
+AWS,internet_egress,per_gb_up_to_10tb,0.09,us_regions,internet,standard_egress,Next 9.999TB per month,2025-08-20,official_pricing_documentation
+AWS,internet_egress,per_gb_10tb_to_50tb,0.085,us_regions,internet,standard_egress,10TB to 50TB per month,2025-08-20,official_pricing_documentation
+AWS,cdn_egress,first_1tb_free,0.0,cloudfront_global,internet,cloudfront,CloudFront free tier,2025-08-20,official_pricing_documentation
+AWS,cdn_egress,per_gb_up_to_10tb,0.085,cloudfront_us_eu,internet,cloudfront,CloudFront US/EU pricing,2025-08-20,official_pricing_documentation
+GCP,cross_zone,per_gb,0.01,any_zone,different_zone_same_region,compute_engine,Cross-zone within same region,2025-08-20,official_pricing_documentation
+GCP,cross_region,per_gb,0.02,us_central1,us_west1,general_networking,Cross-region within continent,2025-08-20,official_pricing_documentation
+GCP,cross_region,per_gb,0.08,us_central1,europe_west1,general_networking,Cross-region intercontinental,2025-08-20,official_pricing_documentation
+GCP,internet_egress,first_1gb_free,0.0,any,internet,general_egress,First 1GB free per month,2025-08-20,official_pricing_documentation
+GCP,internet_egress,per_gb_up_to_1tb,0.12,us_regions,internet,standard_egress,Up to 1TB per month,2025-08-20,official_pricing_documentation
+GCP,internet_egress,per_gb_1tb_to_10tb,0.11,us_regions,internet,standard_egress,1TB to 10TB per month,2025-08-20,official_pricing_documentation
+GCP,cdn_egress,per_gb,0.08,cloud_cdn_global,internet,cloud_cdn,Cloud CDN North America,2025-08-20,official_pricing_documentation
+Azure,cross_zone,per_gb,0.01,any_zone,different_zone_same_region,virtual_machines,Cross-zone within same region,2025-08-20,official_pricing_documentation
+Azure,cross_region,per_gb,0.02,east_us,west_us,general_networking,Cross-region within continent,2025-08-20,official_pricing_documentation
+Azure,cross_region,per_gb,0.087,east_us,west_europe,general_networking,Cross-region intercontinental,2025-08-20,official_pricing_documentation
+Azure,internet_egress,first_5gb_free,0.0,any,internet,general_egress,First 5GB free per month,2025-08-20,official_pricing_documentation
+Azure,internet_egress,per_gb_up_to_10tb,0.087,us_regions,internet,standard_egress,Up to 10TB per month,2025-08-20,official_pricing_documentation
+Azure,internet_egress,per_gb_10tb_to_50tb,0.083,us_regions,internet,standard_egress,10TB to 50TB per month,2025-08-20,official_pricing_documentation
+Multi_AWS_GCP,multi_cloud_sync,100,8.7,aws_us_east_1,gcp_us_central1,data_replication,Estimated cost for 100GB cross-cloud transfer,2025-08-20,official_pricing_documentation
+Multi_Azure_AWS,multi_cloud_backup,1000,87.0,azure_east_us,aws_s3_us_west_2,backup_replication,Monthly backup sync scenario,2025-08-20,official_pricing_documentation
+AWS,data_migration,10000,850.0,us_east_1,internet_customer_dc,database_migration,10TB database migration egress cost,2025-08-20,official_pricing_documentation
+GCP,analytics_export,5000,550.0,us_central1,internet_analytics_platform,bigquery_export,5TB BigQuery export scenario,2025-08-20,official_pricing_documentation
+AWS_CloudFront,cdn_optimization,1000,85.0,cloudfront_global,internet_global,content_delivery,1TB monthly CDN delivery cost,2025-08-20,official_pricing_documentation

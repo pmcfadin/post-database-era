@@ -1,0 +1,87 @@
+# Dataset Metadata
+dataset:
+  title: "Autoscaler Efficiency Metrics: Performance Analysis Across Database Engines"
+  description: "Comprehensive analysis of different autoscaling technologies including HPA, VPA, cluster autoscaler, and serverless autoscaling performance metrics for database workloads"
+  topic: "compute-utilization-idle-metrics"
+  metric: "autoscaler_performance_scaling_accuracy_response_times"
+  
+# Source Information
+source:
+  name: "Autoscaling Performance Research"
+  url: "internal_autoscaler_study"
+  accessed: "2025-08-21"
+  license: "Research Use"
+  credibility: "Tier B"
+  
+# Data Characteristics
+characteristics:
+  rows: 32
+  columns: 11
+  time_range: "continuous_monitoring"
+  update_frequency: "static"
+  collection_method: "synthetic_autoscaler_analysis"
+  
+# Column Descriptions
+columns:
+  autoscaler_type:
+    type: "string"
+    description: "Type of autoscaling technology"
+    unit: "categorical"
+  engine:
+    type: "string"
+    description: "Database engine being scaled"
+    unit: "categorical"
+  trigger_metric:
+    type: "string"
+    description: "Metric used to trigger scaling decisions"
+    unit: "categorical"
+  scale_up_threshold:
+    type: "number"
+    description: "Threshold percentage for scaling up"
+    unit: "percentage"
+  scale_down_threshold:
+    type: "number"
+    description: "Threshold percentage for scaling down"
+    unit: "percentage"
+  avg_scale_events_day:
+    type: "number"
+    description: "Average scaling events per day"
+    unit: "count"
+  scale_accuracy_pct:
+    type: "number"
+    description: "Percentage of scaling decisions that were correct"
+    unit: "percentage"
+  false_positive_rate:
+    type: "number"
+    description: "Rate of unnecessary scaling events"
+    unit: "percentage"
+  response_time_seconds:
+    type: "number"
+    description: "Time to complete scaling action"
+    unit: "seconds"
+  cpu_util_improvement:
+    type: "number"
+    description: "Improvement in CPU utilization from autoscaling"
+    unit: "percentage"
+  cost_savings_pct:
+    type: "number"
+    description: "Cost savings achieved through autoscaling"
+    unit: "percentage"
+    
+# Quality Indicators
+quality:
+  completeness: "100%"
+  sample_size: "4 autoscaler types x 8 samples each"
+  confidence: "medium"
+  limitations: 
+    - "Synthetic data based on autoscaler behavior patterns"
+    - "Workload-specific tuning not captured"
+    - "Cold start penalties not fully modeled"
+  
+# Usage Notes
+notes:
+  - "Serverless autoscalers have highest event frequency (50-500/day)"
+  - "HPA and VPA show 70-95% scaling accuracy"
+  - "Response times vary significantly: 10s (serverless) to 300s (cluster)"
+  - "Cost savings range from 10-40% depending on workload pattern"
+  - "False positive rates are inversely correlated with response time"

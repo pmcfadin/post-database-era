@@ -1,0 +1,13 @@
+report_date,source,study,engine_category,native_query_percent,external_query_percent,sample_size,region,notes
+2024-06-10,Databricks Data + AI Summit 2024,Unity Catalog Adoption Survey,Lakehouse Platforms,65.2,34.8,450,Global,Delta Lake treated as native for Databricks workloads
+2024-04-09,Google Cloud Next 2024,BigQuery Analytics Modernization Trends,Cloud Data Warehouses,78.5,21.5,320,Global,External tables primarily for data lake integration
+2024-06-03,Snowflake Summit 2024,External Tables Adoption Panel,Cloud Data Warehouses,82.1,17.9,280,North America,Conservative external table adoption in enterprise environments
+2023-11-27,AWS re:Invent 2023,Athena Iceberg Adoption Metrics,Serverless Query Engines,25.3,74.7,520,Global,Athena primarily used for external data lake queries
+2024-04-30,Trino Community Survey 2024,Connector Usage and Query Patterns,Federated Query Engines,18.7,81.3,340,Global,Trino designed for federating across external systems
+2024-05-15,Databricks State of Data and AI 2024,Cross-Platform Analytics Survey,Multi-Engine,58.9,41.1,1200,Global,Aggregated across multiple analytics platforms
+2024-03-20,Gartner Magic Quadrant for Cloud DBMS,Market Analysis and Usage Patterns,Enterprise Platforms,71.4,28.6,850,Global,Focus on enterprise cloud database management systems
+2024-02-14,Netflix Technology Blog,Data Platform Evolution Case Study,Media/Streaming,35.2,64.8,1,Global,Post-Iceberg migration query distribution at Netflix
+2023-12-08,Airbnb Engineering Blog,Data Lake Migration Performance Study,Travel/Hospitality,42.7,57.3,1,Global,Query performance comparison across table formats
+2024-01-22,ACM SIGMOD 2024,TPC-DS Lakehouse Performance Benchmark,Academic Benchmark,45.0,55.0,99,Global,Standardized benchmark queries across storage substrates
+2024-07-18,Starburst Data Survey 2024,Enterprise Analytics Engine Adoption,Federated Query Engines,22.1,77.9,180,North America,Enterprise focus on data virtualization and federation
+2024-08-05,Dremio State of Data Lake Analytics 2024,Open Table Format Adoption Survey,Self-Service Analytics,38.6,61.4,290,Global,Focus on self-service analytics and open table formats

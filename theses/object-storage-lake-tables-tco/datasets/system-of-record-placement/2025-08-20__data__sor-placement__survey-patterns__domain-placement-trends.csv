@@ -1,0 +1,7 @@
+domain,pattern,percentage,primary_reason,typical_size_tb,consumer_range
+financial_transactions,warehouse_first,75,compliance_audit,10-100,20-100
+customer_events,lake_first,65,schema_evolution,100-1000,50-200
+product_catalog,hybrid,55,access_patterns,1-50,10-100
+operational_metrics,warehouse_first,80,query_performance,1-20,5-50
+ml_features,lake_first,85,model_training,50-500,20-80
+user_profiles,warehouse_first,70,personalization_speed,5-100,30-150

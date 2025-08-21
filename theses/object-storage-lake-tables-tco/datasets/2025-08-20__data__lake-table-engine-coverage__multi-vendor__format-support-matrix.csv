@@ -1,0 +1,31 @@
+engine,format,read_support,write_support,version_added,notes,source_url
+Trino,Iceberg,Yes,Yes,0.355,Native Iceberg connector with full CRUD support,https://trino.io/docs/current/connector/iceberg.html
+Trino,Delta Lake,Yes,Yes,0.380,Delta Lake connector with read/write support,https://trino.io/docs/current/connector/delta-lake.html
+Trino,Hudi,Yes,Limited,0.370,Hudi connector primarily for reading,https://trino.io/docs/current/connector/hudi.html
+Spark SQL,Iceberg,Yes,Yes,3.0.0,Apache Iceberg native support with Spark catalog,https://iceberg.apache.org/spark-quickstart/
+Spark SQL,Delta Lake,Yes,Yes,2.4.0,Native Delta Lake support from Databricks,https://docs.delta.io/latest/quick-start.html
+Spark SQL,Hudi,Yes,Yes,2.4.0,Apache Hudi native integration,https://hudi.apache.org/docs/quick-start-guide
+Flink SQL,Iceberg,Yes,Yes,1.12.0,Iceberg Flink connector for streaming and batch,https://iceberg.apache.org/flink/
+Flink SQL,Delta Lake,Yes,Limited,1.15.0,Delta connector via Delta-Flink integration,https://github.com/delta-io/delta/tree/master/connectors/flink
+Flink SQL,Hudi,Yes,Yes,1.13.0,Hudi Flink connector for real-time lakehouse,https://hudi.apache.org/docs/flink-quick-start-guide
+DuckDB,Iceberg,Yes,No,0.8.0,Iceberg extension for reading tables,https://duckdb.org/docs/extensions/iceberg
+DuckDB,Delta Lake,Yes,No,0.8.0,Delta extension for reading Delta tables,https://duckdb.org/docs/extensions/delta
+DuckDB,Hudi,No,No,N/A,Hudi support not yet available,https://duckdb.org/docs/extensions/
+Snowflake,Iceberg,Yes,Limited,6.0,Iceberg tables via external tables and Snowflake catalog,https://docs.snowflake.com/en/user-guide/tables-iceberg
+Snowflake,Delta Lake,Yes,No,5.0,Delta Lake via external tables (read-only),https://docs.snowflake.com/en/user-guide/tables-external-intro
+Snowflake,Hudi,Limited,No,N/A,Limited Hudi support via external tables,https://docs.snowflake.com/en/user-guide/tables-external-intro
+BigQuery,Iceberg,Yes,Limited,2023-Q2,Iceberg tables via BigLake and external tables,https://cloud.google.com/bigquery/docs/iceberg-tables
+BigQuery,Delta Lake,Yes,No,2022-Q4,Delta Lake via BigLake external tables,https://cloud.google.com/bigquery/docs/biglake-intro
+BigQuery,Hudi,Limited,No,2023-Q1,Hudi support via BigLake (limited),https://cloud.google.com/bigquery/docs/biglake-intro
+AWS Athena,Iceberg,Yes,Yes,Engine v3,Native Iceberg support with ACID transactions,https://docs.aws.amazon.com/athena/latest/ug/querying-iceberg.html
+AWS Athena,Delta Lake,Yes,No,Engine v3,Delta Lake read support via external tables,https://docs.aws.amazon.com/athena/latest/ug/delta-lake-tables.html
+AWS Athena,Hudi,Yes,Yes,Engine v2,Hudi support for COW and MOR tables,https://docs.aws.amazon.com/athena/latest/ug/querying-hudi.html
+Databricks SQL,Delta Lake,Yes,Yes,Native,Native Delta Lake engine from Databricks,https://docs.databricks.com/delta/index.html
+Databricks SQL,Iceberg,Yes,Yes,DBR 11.3,Iceberg support via Unity Catalog,https://docs.databricks.com/lakehouse/iceberg.html
+Databricks SQL,Hudi,Yes,Limited,DBR 9.1,Hudi integration for reading and limited writes,https://docs.databricks.com/external-data/hudi.html
+Starburst,Iceberg,Yes,Yes,375-e,Enterprise Trino with enhanced Iceberg support,https://docs.starburst.io/connectors/iceberg.html
+Starburst,Delta Lake,Yes,Yes,380-e,Enterprise Delta Lake connector,https://docs.starburst.io/connectors/delta-lake.html
+Starburst,Hudi,Yes,Limited,370-e,Enterprise Hudi connector,https://docs.starburst.io/connectors/hudi.html
+Dremio,Iceberg,Yes,Yes,4.9,Native Iceberg with Nessie catalog,https://docs.dremio.com/data-formats/apache-iceberg/
+Dremio,Delta Lake,Yes,No,21.0,Delta Lake read support,https://docs.dremio.com/data-formats/delta-lake/
+Dremio,Hudi,Yes,No,20.0,Hudi read support for COW tables,https://docs.dremio.com/data-formats/apache-hudi/

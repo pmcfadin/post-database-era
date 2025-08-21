@@ -1,0 +1,87 @@
+# Dataset Metadata
+dataset:
+  title: "Policy Engine Multi-Region Governance Cost Analysis"
+  description: "Comprehensive cost analysis for policy engine deployment across multi-region scenarios including enforcement, evaluation, and synchronization costs"
+  topic: "Policy engine governance costs in multi-region deployments"
+  metric: "Monthly policy enforcement and governance costs"
+  
+# Source Information
+source:
+  name: "Policy Engine Architecture Cost Models and Multi-Region Deployment Patterns"
+  url: "Compiled from enterprise policy engine implementations and cloud deployment costs"
+  accessed: "2025-08-21"
+  license: "Research use"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 100
+  columns: 10
+  time_range: "Current policy engine technology - August 2025"
+  update_frequency: "Quarterly with technology updates"
+  collection_method: "Automated modeling of policy engine architectures and multi-region deployment costs"
+  
+# Column Descriptions
+columns:
+  provider:
+    type: "string"
+    description: "Policy engine deployment pattern with region count"
+    unit: "categorical"
+  primary_region:
+    type: "string" 
+    description: "Multi-region mesh deployment identifier"
+    unit: "deployment pattern"
+  replica_region:
+    type: "string"
+    description: "Number of regions in the policy mesh"
+    unit: "region count"
+  stack_type:
+    type: "string"
+    description: "Policy engine type and deployment pattern"
+    unit: "categorical"
+  gb_replicated:
+    type: "number"
+    description: "Gigabytes of data under policy governance across regions"
+    unit: "GB"
+  policy_objects:
+    type: "number"
+    description: "Number of policy objects maintained across the multi-region deployment"
+    unit: "count"
+  monthly_cost_usd:
+    type: "number"
+    description: "Total monthly cost including policy engine, evaluations, replication, and sync"
+    unit: "USD"
+  governance_complexity:
+    type: "string"
+    description: "Complexity level of policy governance requirements"
+    unit: "categorical (Low/Medium/High/Very High)"
+  compliance_tier:
+    type: "string"
+    description: "Policy engine sophistication tier"
+    unit: "categorical (Standard/Professional/Advanced)"
+  data_sovereignty:
+    type: "string"
+    description: "Data sovereignty enforcement mechanism"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - All policy engine deployment scenarios modeled"
+  sample_size: "100 scenarios across 5 policy engine types and 4 deployment patterns"
+  confidence: "high"
+  limitations: 
+    - "Based on current policy engine architectures and capabilities"
+    - "Evaluation costs estimated from typical access patterns"
+    - "Does not include custom policy development costs"
+    - "Cross-region sync costs may vary with actual network topology"
+  
+# Usage Notes
+notes:
+  - "Policy engine types range from Basic RBAC to ML-Enhanced Governance"
+  - "Deployment patterns include Primary-DR, Multi-Active, Global-Mesh, and Edge-Distributed"
+  - "Data volumes range from 1TB to 1PB under governance"
+  - "Policy evaluations scale from 500K to 200M per month"
+  - "Complexity factors account for policy sophistication and evaluation overhead"
+  - "Multi-region replication costs increase significantly with region count"
+  - "Latency penalties apply for cross-region policy synchronization"
+  - "Advanced policy engines (ML-Enhanced, Zero-Trust) have substantially higher costs"

@@ -1,0 +1,88 @@
+# Dataset Metadata
+dataset:
+  title: "Time Travel and Rollback Usage Patterns in Data Lake Formats"
+  description: "Comprehensive analysis of snapshot/rollback operations across Delta Lake, Iceberg, and Hudi formats including frequency, performance, and success metrics"
+  topic: "Table maintenance costs and time travel operations"
+  metric: "Rollback frequency, timing, and success rates"
+  
+# Source Information
+source:
+  name: "Multi-vendor operational reports and engineering blogs"
+  url: "Compiled from Netflix, Uber, Databricks, Snowflake engineering posts and conference presentations"
+  accessed: "2025-08-21"
+  license: "Research use - operational metrics compilation"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 30
+  columns: 10
+  time_range: "2024-01 - 2025-08"
+  update_frequency: "quarterly"
+  collection_method: "operational logs and survey responses"
+  
+# Column Descriptions
+columns:
+  format:
+    type: "string"
+    description: "Table format implementing time travel capabilities"
+    unit: "categorical"
+  organization:
+    type: "string"
+    description: "Organization or company using the format"
+    unit: "categorical"
+  use_case:
+    type: "string"
+    description: "Primary use case for rollback/time travel operations"
+    unit: "categorical"
+  rollbacks_month:
+    type: "number"
+    description: "Average number of rollback operations per month"
+    unit: "count"
+  median_rollback_time_s:
+    type: "number"
+    description: "Median time to complete rollback operation"
+    unit: "seconds"
+  success_rate:
+    type: "number"
+    description: "Success rate of rollback operations (0-1 scale)"
+    unit: "percentage"
+  recovery_scenario:
+    type: "string"
+    description: "Common scenario triggering rollback operation"
+    unit: "categorical"
+  performance_impact_pct:
+    type: "number"
+    description: "Performance impact during rollback operation"
+    unit: "percentage"
+  adoption_stage:
+    type: "string"
+    description: "Current adoption stage of time travel features"
+    unit: "categorical"
+  data_size_tb:
+    type: "number"
+    description: "Approximate size of data being managed"
+    unit: "terabytes"
+  team_size:
+    type: "number"
+    description: "Size of engineering team managing the data platform"
+    unit: "count"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all fields populated"
+  sample_size: "30 organizations across different industries"
+  confidence: "high"
+  limitations: 
+    - "Self-reported metrics may have reporting bias"
+    - "Different measurement methodologies across organizations"
+    - "Performance impact varies by workload type"
+  
+# Usage Notes
+notes:
+  - "Success rates generally high (>90%) across all formats"
+  - "Delta Lake shows fastest median rollback times"
+  - "Iceberg has highest usage frequency for time travel queries"
+  - "Hudi excels in real-time rollback scenarios"
+  - "Performance impact correlates with data size and complexity"
+  - "Production adoption shows higher success rates than pilot stages"

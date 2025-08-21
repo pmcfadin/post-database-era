@@ -1,0 +1,82 @@
+# Dataset Metadata
+dataset:
+  title: "Data Product Ownership and Governance Patterns"
+  description: "How data product ownership models correlate with SOR placement decisions and access patterns"
+  topic: "Data Product Ownership and SOR Strategy"
+  metric: "Governance models, SLAs, and access patterns by SOR location"
+  
+# Source Information
+source:
+  name: "Data Product Governance Patterns"
+  url: "Synthesized from data mesh implementation patterns"
+  accessed: "2025-08-21"
+  license: "Pattern synthesis"
+  credibility: "Tier B"
+  
+# Data Characteristics
+characteristics:
+  rows: 5
+  columns: 10
+  time_range: "2024 - 2025"
+  update_frequency: "quarterly"
+  collection_method: "synthesis from data mesh governance patterns"
+  
+# Column Descriptions
+columns:
+  data_product:
+    type: "string"
+    description: "Name of the data product"
+    unit: "text"
+  domain_owner:
+    type: "string"
+    description: "Business domain responsible for the data product"
+    unit: "text"
+  technical_owner:
+    type: "string"
+    description: "Technical team responsible for implementation"
+    unit: "text"
+  sor_location:
+    type: "string"
+    description: "Where the system of record is maintained"
+    unit: "categorical"
+  governance_model:
+    type: "string"
+    description: "Approach to data governance and stewardship"
+    unit: "categorical"
+  access_pattern:
+    type: "string"
+    description: "Primary method for consuming the data product"
+    unit: "categorical"
+  sla_read:
+    type: "string"
+    description: "Availability SLA for read operations"
+    unit: "percentage"
+  sla_freshness:
+    type: "string"
+    description: "Data freshness guarantee"
+    unit: "time"
+  consumer_count:
+    type: "number"
+    description: "Number of active consumers of this data product"
+    unit: "count"
+  monthly_queries:
+    type: "number"
+    description: "Average monthly query volume"
+    unit: "count"
+    
+# Quality Indicators
+quality:
+  completeness: "100%"
+  sample_size: "5 representative data products"
+  confidence: "medium"
+  limitations: 
+    - "Based on observed patterns, not actual measurements"
+    - "SLA and query volumes are estimates"
+    - "Governance models simplified for analysis"
+  
+# Usage Notes
+notes:
+  - "Shows correlation between ownership models and SOR placement"
+  - "Warehouse SOR tends toward centralized governance"
+  - "Lake SOR enables more federated ownership"
+  - "API access patterns common with warehouse placement"

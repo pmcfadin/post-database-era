@@ -1,0 +1,43 @@
+tool_name,vendor,category,table_format,read_support,write_support,pushdown_support,support_status,native_or_connector,documentation_source,last_verified,notes
+Snowflake,Snowflake Inc,Analytics Engine,Iceberg,Yes,Yes,Yes,GA,Native,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Snowflake,Snowflake Inc,Analytics Engine,Delta Lake,Limited,No,Limited,Preview,External,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Snowflake,Snowflake Inc,Analytics Engine,Hudi,No,No,No,Not Supported,N/A,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+BigQuery,Google,Analytics Engine,Iceberg,Yes,Yes,Yes,GA,Native,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+BigQuery,Google,Analytics Engine,Delta Lake,Limited,No,Limited,Preview,External,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+BigQuery,Google,Analytics Engine,Hudi,No,No,No,Not Supported,N/A,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Databricks,Databricks Inc,Analytics Engine,Delta Lake,Yes,Yes,Yes,GA,Native,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Databricks,Databricks Inc,Analytics Engine,Iceberg,Yes,Yes,Yes,GA,Native,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Databricks,Databricks Inc,Analytics Engine,Hudi,Yes,Limited,Yes,GA,Native,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Trino,Trino Software Foundation,Analytics Engine,Iceberg,Yes,Yes,Yes,GA,Native,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Trino,Trino Software Foundation,Analytics Engine,Delta Lake,Yes,Yes,Yes,GA,Native,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Trino,Trino Software Foundation,Analytics Engine,Hudi,Yes,Limited,Yes,GA,Native,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+dbt,dbt Labs,ELT Platform,Iceberg,Yes,Yes,Adapter-dependent,GA,Via Adapter,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+dbt,dbt Labs,ELT Platform,Delta Lake,Yes,Yes,Adapter-dependent,GA,Via Adapter,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+dbt,dbt Labs,ELT Platform,Hudi,Limited,Limited,Adapter-dependent,Limited,Via Adapter,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Tableau,Salesforce,BI Tool,Iceberg,Yes,No,Via Connector,GA,Via Database Connector,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Tableau,Salesforce,BI Tool,Delta Lake,Yes,No,Via Connector,GA,Via Database Connector,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Tableau,Salesforce,BI Tool,Hudi,Limited,No,Via Connector,Limited,Via Database Connector,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Power BI,Microsoft,BI Tool,Iceberg,Yes,No,Via Connector,GA,Via Database Connector,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Power BI,Microsoft,BI Tool,Delta Lake,Yes,No,Via Connector,GA,Via Database Connector,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Power BI,Microsoft,BI Tool,Hudi,Limited,No,Via Connector,Limited,Via Database Connector,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Looker,Google,BI Tool,Iceberg,Yes,No,Via Connector,GA,Via Database Connector,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Looker,Google,BI Tool,Delta Lake,Yes,No,Via Connector,GA,Via Database Connector,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Looker,Google,BI Tool,Hudi,Limited,No,Via Connector,Limited,Via Database Connector,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Apache Superset,Apache Software Foundation,BI Tool,Iceberg,Yes,No,Via Database,GA,Via Database Driver,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Apache Superset,Apache Software Foundation,BI Tool,Delta Lake,Yes,No,Via Database,GA,Via Database Driver,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Apache Superset,Apache Software Foundation,BI Tool,Hudi,Limited,No,Via Database,Limited,Via Database Driver,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Metabase,Metabase Inc,BI Tool,Iceberg,Yes,No,Via Database,GA,Via Database Driver,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Metabase,Metabase Inc,BI Tool,Delta Lake,Yes,No,Via Database,GA,Via Database Driver,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Metabase,Metabase Inc,BI Tool,Hudi,Limited,No,Via Database,Limited,Via Database Driver,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Fivetran,Fivetran Inc,ELT Platform,Iceberg,Yes,Yes,N/A,GA,Native Destination,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Fivetran,Fivetran Inc,ELT Platform,Delta Lake,Yes,Yes,N/A,GA,Native Destination,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Fivetran,Fivetran Inc,ELT Platform,Hudi,No,No,N/A,Not Supported,N/A,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Airbyte,Airbyte Inc,ELT Platform,Iceberg,Yes,Yes,N/A,GA,Connector,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Airbyte,Airbyte Inc,ELT Platform,Delta Lake,Yes,Yes,N/A,GA,Connector,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Airbyte,Airbyte Inc,ELT Platform,Hudi,Limited,Limited,N/A,Preview,Connector,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Stitch,Talend,ELT Platform,Iceberg,Via Destination,Via Destination,N/A,Dependent,Via Destination,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Stitch,Talend,ELT Platform,Delta Lake,Via Destination,Via Destination,N/A,Dependent,Via Destination,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Stitch,Talend,ELT Platform,Hudi,Via Destination,Via Destination,N/A,Dependent,Via Destination,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Matillion,Matillion Ltd,ELT Platform,Iceberg,Yes,Yes,Via Database,GA,Via Database Connector,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Matillion,Matillion Ltd,ELT Platform,Delta Lake,Yes,Yes,Via Database,GA,Via Database Connector,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices
+Matillion,Matillion Ltd,ELT Platform,Hudi,Limited,Limited,Via Database,Limited,Via Database Connector,Vendor Documentation Research,2025-08-20,Researched from official documentation and compatibility matrices

@@ -1,0 +1,116 @@
+# Dataset Metadata
+dataset:
+  title: "File Count Impact on Query Performance Analysis"
+  description: "Detailed analysis of how file fragmentation affects query latency, planning time, and scan costs across table formats"
+  topic: "table-maintenance-roi"
+  metric: "Query performance degradation due to file fragmentation"
+  
+# Source Information
+source:
+  name: "Performance modeling based on production observations"
+  url: "Modeled from Databricks, Trino, and EMR performance patterns"
+  accessed: "2025-08-20"
+  license: "Performance modeling based on public documentation"
+  credibility: "Tier B"
+  
+# Data Characteristics
+characteristics:
+  rows: 15
+  columns: 18
+  time_range: "Performance modeling scenarios"
+  update_frequency: "static"
+  collection_method: "Mathematical modeling based on observed performance patterns"
+  
+# Column Descriptions
+columns:
+  dataset_id:
+    type: "string"
+    description: "Identifier for the dataset being analyzed"
+    unit: "identifier"
+  table_format:
+    type: "string"
+    description: "Table format technology"
+    unit: "categorical"
+  platform:
+    type: "string"
+    description: "Compute platform"
+    unit: "categorical"
+  data_size_gb:
+    type: "number"
+    description: "Total dataset size"
+    unit: "gigabytes"
+  file_count:
+    type: "number"
+    description: "Number of files in the dataset"
+    unit: "count"
+  avg_file_size_mb:
+    type: "number"
+    description: "Average file size"
+    unit: "megabytes"
+  fragmentation_scenario:
+    type: "string"
+    description: "Level of file fragmentation"
+    unit: "categorical"
+  query_type:
+    type: "string"
+    description: "Type of query being executed"
+    unit: "categorical"
+  partition_strategy:
+    type: "string"
+    description: "Table partitioning approach"
+    unit: "categorical"
+  query_latency_ms:
+    type: "number"
+    description: "Total query execution time"
+    unit: "milliseconds"
+  planning_time_ms:
+    type: "number"
+    description: "Query planning and metadata reading time"
+    unit: "milliseconds"
+  execution_time_ms:
+    type: "number"
+    description: "Actual data processing time"
+    unit: "milliseconds"
+  scan_efficiency_pct:
+    type: "number"
+    description: "Percentage of efficient data scanning"
+    unit: "percentage"
+  total_scan_cost_usd:
+    type: "number"
+    description: "Total cost for scanning the data"
+    unit: "USD"
+  metadata_overhead_cost_usd:
+    type: "number"
+    description: "Additional cost due to metadata operations"
+    unit: "USD"
+  files_scanned:
+    type: "number"
+    description: "Number of files actually scanned"
+    unit: "count"
+  io_operations:
+    type: "number"
+    description: "Total I/O operations required"
+    unit: "count"
+  memory_usage_mb:
+    type: "number"
+    description: "Memory required for metadata handling"
+    unit: "megabytes"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - modeled data with calculated metrics"
+  sample_size: "15 scenarios across 3 datasets and 5 fragmentation levels"
+  confidence: "medium"
+  limitations: 
+    - "Based on performance modeling, not direct measurements"
+    - "Actual performance may vary based on specific workloads"
+    - "Cost calculations use simplified pricing models"
+    - "Results are representative but not exact"
+  
+# Usage Notes
+notes:
+  - "Shows logarithmic relationship between file count and query latency"
+  - "Planning time increases significantly with file count"
+  - "Iceberg shows best metadata efficiency"
+  - "Aggregation queries most sensitive to fragmentation"
+  - "Extreme fragmentation (50k files) shows 5-10x performance degradation"

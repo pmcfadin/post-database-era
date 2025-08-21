@@ -1,0 +1,31 @@
+cloud,region,substrate,service,tier,redundancy,price_per_gb_month,price_per_tb_month,effective_date,source
+AWS,us-east-1,object,S3,Standard,Standard,0.023,23.552,2025-01-01,aws.amazon.com/s3/pricing
+AWS,us-east-1,object,S3,Standard-IA,Infrequent Access,0.0125,12.8,2025-01-01,aws.amazon.com/s3/pricing
+AWS,us-east-1,object,S3,One Zone-IA,One Zone IA,0.01,10.24,2025-01-01,aws.amazon.com/s3/pricing
+AWS,us-east-1,object,S3,Glacier Instant Retrieval,Archive,0.004,4.096,2025-01-01,aws.amazon.com/s3/pricing
+AWS,us-east-1,object,S3,Glacier Flexible Retrieval,Archive,0.0036,3.6864,2025-01-01,aws.amazon.com/s3/pricing
+AWS,us-east-1,object,S3,Glacier Deep Archive,Deep Archive,0.00099,1.01376,2025-01-01,aws.amazon.com/s3/pricing
+AWS,us-east-1,dw-native,Redshift,Managed Storage,Standard,0.024,24.576,2025-01-01,aws.amazon.com/redshift/pricing
+AWS,us-east-1,dw-native,Redshift,RA3 Storage,Standard,0.024,24.576,2025-01-01,aws.amazon.com/redshift/pricing
+Google Cloud,us-central1,object,Cloud Storage,Standard,Standard,0.02,20.48,2025-01-01,cloud.google.com/storage/pricing
+Google Cloud,us-central1,object,Cloud Storage,Nearline,Nearline,0.01,10.24,2025-01-01,cloud.google.com/storage/pricing
+Google Cloud,us-central1,object,Cloud Storage,Coldline,Coldline,0.004,4.096,2025-01-01,cloud.google.com/storage/pricing
+Google Cloud,us-central1,object,Cloud Storage,Archive,Archive,0.0012,1.2288,2025-01-01,cloud.google.com/storage/pricing
+Google Cloud,us-central1,dw-native,BigQuery,Active Storage,Standard,0.02,20.48,2025-01-01,cloud.google.com/bigquery/pricing
+Google Cloud,us-central1,dw-native,BigQuery,Long-term Storage,Long-term,0.01,10.24,2025-01-01,cloud.google.com/bigquery/pricing
+Microsoft Azure,East US,object,Blob Storage,Hot,LRS,0.0208,21.2992,2025-01-01,azure.microsoft.com/en-us/pricing/details/storage/blobs
+Microsoft Azure,East US,object,Blob Storage,Cool,LRS,0.01,10.24,2025-01-01,azure.microsoft.com/en-us/pricing/details/storage/blobs
+Microsoft Azure,East US,object,Blob Storage,Archive,LRS,0.00099,1.01376,2025-01-01,azure.microsoft.com/en-us/pricing/details/storage/blobs
+Microsoft Azure,East US,object,Blob Storage,Hot,GRS,0.0265,27.136,2025-01-01,azure.microsoft.com/en-us/pricing/details/storage/blobs
+Microsoft Azure,East US,object,Blob Storage,Cool,GRS,0.0125,12.8,2025-01-01,azure.microsoft.com/en-us/pricing/details/storage/blobs
+Microsoft Azure,East US,dw-native,Synapse Analytics,Standard,LRS,0.023,23.552,2025-01-01,azure.microsoft.com/en-us/pricing/details/synapse-analytics
+Microsoft Azure,East US,dw-native,Synapse Analytics,Premium,LRS,0.125,128.0,2025-01-01,azure.microsoft.com/en-us/pricing/details/synapse-analytics
+Snowflake on AWS,us-east-1,dw-native,Snowflake,Standard,Standard,0.023,23.552,2025-01-01,snowflake.com/pricing
+Snowflake on AWS,us-west-2,dw-native,Snowflake,Standard,Standard,0.025,25.6,2025-01-01,snowflake.com/pricing
+Snowflake on Google Cloud,us-central1,dw-native,Snowflake,Standard,Standard,0.023,23.552,2025-01-01,snowflake.com/pricing
+Snowflake on Azure,East US,dw-native,Snowflake,Standard,Standard,0.023,23.552,2025-01-01,snowflake.com/pricing
+AWS,us-east-1,object,S3,Standard,Standard,0.023,23.552,2020-01-01,Historical pricing archives
+AWS,us-east-1,object,S3,Standard,Standard,0.023,23.552,2021-01-01,Historical pricing archives
+AWS,us-east-1,object,S3,Standard,Standard,0.023,23.552,2022-01-01,Historical pricing archives
+AWS,us-east-1,object,S3,Standard,Standard,0.023,23.552,2023-01-01,Historical pricing archives
+AWS,us-east-1,object,S3,Standard,Standard,0.023,23.552,2024-01-01,Historical pricing archives

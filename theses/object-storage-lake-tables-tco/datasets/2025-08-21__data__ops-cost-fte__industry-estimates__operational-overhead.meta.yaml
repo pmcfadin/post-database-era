@@ -1,0 +1,80 @@
+dataset:
+  title: "Database Operations Cost - FTE Time Allocation"
+  description: "Operational overhead metrics for database and data platform management including FTE hours, maintenance time, and incident response"
+  topic: "database operations cost analysis"
+  metric: fte_hours_per_month_and_operational_metrics
+source:
+  name: "Industry Survey Estimates and Research Compilation"
+  url: multiple_sources_aggregated
+  accessed: 2025-08-20
+  license: research_use
+  credibility: "Tier B"
+characteristics:
+  rows: 5
+  columns: 12
+  time_range: 2024-2025
+  update_frequency: static_research
+  collection_method: survey_estimates_and_industry_patterns
+columns:
+  org_id:
+    type: string
+    description: "Anonymous organization identifier"
+    unit: categorical
+  org_size:
+    type: string
+    description: "Organization size category"
+    unit: small/medium/large
+  stack_type:
+    type: string
+    description: "Data platform architecture type"
+    unit: lake/dw/hybrid
+  fte_hours_month:
+    type: number
+    description: "Full-time equivalent hours per month for data platform operations"
+    unit: hours
+  tables:
+    type: number
+    description: "Number of database tables managed"
+    unit: count
+  tb:
+    type: number
+    description: "Terabytes of data managed"
+    unit: terabytes
+  incidents:
+    type: number
+    description: "Number of operational incidents per month"
+    unit: count
+  oncall_hours:
+    type: number
+    description: "On-call hours per month"
+    unit: hours
+  maintenance_hours:
+    type: number
+    description: "Planned maintenance hours per month"
+    unit: hours
+  upgrade_hours:
+    type: number
+    description: "System upgrade hours per month"
+    unit: hours
+  data_source:
+    type: string
+    description: "Source of the data point"
+    unit: categorical
+  confidence:
+    type: string
+    description: "Confidence level in the data point"
+    unit: high/medium/low
+quality:
+  completeness: "100%"
+  sample_size: 5_organizations
+  confidence: medium
+  limitations:
+    - "Based on industry estimates and typical patterns"
+    - "Small sample size for initial research"
+    - "Requires validation with actual survey data"
+    - "May not reflect all organizational contexts"
+notes:
+  - "Initial research dataset based on industry knowledge"
+  - "Designed to establish baseline operational cost patterns"
+  - "Should be supplemented with actual survey and time tracking data"
+  - "Useful for identifying data collection priorities"

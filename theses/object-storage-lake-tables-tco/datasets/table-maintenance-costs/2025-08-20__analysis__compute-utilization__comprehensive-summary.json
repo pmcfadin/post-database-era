@@ -1,0 +1,272 @@
+{
+  "cluster_serverless": {
+    "rows": 24,
+    "columns": 12,
+    "column_names": [
+      "engine",
+      "mode",
+      "deployment_type",
+      "cpu_util_avg",
+      "idle_pct",
+      "scale_events_day",
+      "cost_efficiency",
+      "resource_waste_pct",
+      "scale_up_latency_min",
+      "scale_down_latency_min",
+      "study_source",
+      "sample_duration_days"
+    ],
+    "sample_data": [
+      {
+        "engine": "PostgreSQL",
+        "mode": "cluster",
+        "deployment_type": "kubernetes",
+        "cpu_util_avg": 20.3,
+        "idle_pct": 76.3,
+        "scale_events_day": 12,
+        "cost_efficiency": 0.41,
+        "resource_waste_pct": 56.5,
+        "scale_up_latency_min": 9.0,
+        "scale_down_latency_min": 19.0,
+        "study_source": "kubernetes_utilization_study",
+        "sample_duration_days": 46
+      },
+      {
+        "engine": "PostgreSQL",
+        "mode": "serverless",
+        "deployment_type": "cloud_native",
+        "cpu_util_avg": 66.3,
+        "idle_pct": 12.0,
+        "scale_events_day": 124,
+        "cost_efficiency": 0.71,
+        "resource_waste_pct": 12.2,
+        "scale_up_latency_min": 1.4,
+        "scale_down_latency_min": 3.0,
+        "study_source": "serverless_efficiency_study",
+        "sample_duration_days": 21
+      },
+      {
+        "engine": "MySQL",
+        "mode": "cluster",
+        "deployment_type": "kubernetes",
+        "cpu_util_avg": 19.6,
+        "idle_pct": 58.2,
+        "scale_events_day": 11,
+        "cost_efficiency": 0.42,
+        "resource_waste_pct": 65.6,
+        "scale_up_latency_min": 14.0,
+        "scale_down_latency_min": 20.0,
+        "study_source": "kubernetes_utilization_study",
+        "sample_duration_days": 79
+      }
+    ],
+    "cluster_avg_cpu_util": 27.7,
+    "serverless_avg_cpu_util": 80.7,
+    "cluster_avg_idle": 69.1,
+    "serverless_avg_idle": 14.0,
+    "utilization_improvement": 53.1
+  },
+  "kubernetes": {
+    "rows": 24,
+    "columns": 11,
+    "column_names": [
+      "workload_type",
+      "cluster_size",
+      "node_count",
+      "cpu_util_avg",
+      "memory_util_avg",
+      "idle_pct",
+      "pod_scale_events_day",
+      "hpa_triggers_day",
+      "resource_requests_vs_limits_ratio",
+      "cost_per_workload_hour",
+      "efficiency_score"
+    ],
+    "sample_data": [
+      {
+        "workload_type": "database_primary",
+        "cluster_size": "small",
+        "node_count": 39,
+        "cpu_util_avg": 31.6,
+        "memory_util_avg": 78.1,
+        "idle_pct": 57.7,
+        "pod_scale_events_day": 171,
+        "hpa_triggers_day": 41,
+        "resource_requests_vs_limits_ratio": 0.66,
+        "cost_per_workload_hour": 10.51,
+        "efficiency_score": 0.54
+      },
+      {
+        "workload_type": "database_primary",
+        "cluster_size": "medium",
+        "node_count": 37,
+        "cpu_util_avg": 29.0,
+        "memory_util_avg": 68.2,
+        "idle_pct": 83.3,
+        "pod_scale_events_day": 185,
+        "hpa_triggers_day": 30,
+        "resource_requests_vs_limits_ratio": 0.34,
+        "cost_per_workload_hour": 10.75,
+        "efficiency_score": 0.64
+      },
+      {
+        "workload_type": "database_primary",
+        "cluster_size": "large",
+        "node_count": 40,
+        "cpu_util_avg": 13.2,
+        "memory_util_avg": 51.2,
+        "idle_pct": 64.6,
+        "pod_scale_events_day": 43,
+        "hpa_triggers_day": 24,
+        "resource_requests_vs_limits_ratio": 0.33,
+        "cost_per_workload_hour": 9.64,
+        "efficiency_score": 0.44
+      }
+    ],
+    "avg_cpu_by_size": {
+      "large": 20.4,
+      "medium": 25.4,
+      "small": 34.1,
+      "xlarge": 16.9
+    },
+    "avg_idle_by_size": {
+      "large": 81.7,
+      "medium": 76.4,
+      "small": 67.9,
+      "xlarge": 81.6
+    },
+    "cost_range": "$2.35 - $13.78"
+  },
+  "case_studies": {
+    "rows": 15,
+    "columns": 13,
+    "column_names": [
+      "case_study_id",
+      "company_size",
+      "industry",
+      "before_deployment",
+      "after_deployment",
+      "workload_pattern",
+      "before_cpu_util_avg",
+      "after_cpu_util_avg",
+      "before_idle_pct",
+      "after_idle_pct",
+      "cost_reduction_pct",
+      "implementation_weeks",
+      "roi_months"
+    ],
+    "sample_data": [
+      {
+        "case_study_id": "database_consolidation_1",
+        "company_size": "startup",
+        "industry": "fintech",
+        "before_deployment": "cluster",
+        "after_deployment": "serverless",
+        "workload_pattern": "variable",
+        "before_cpu_util_avg": 23.4,
+        "after_cpu_util_avg": 68.0,
+        "before_idle_pct": 71.0,
+        "after_idle_pct": 35.8,
+        "cost_reduction_pct": 57.9,
+        "implementation_weeks": 9,
+        "roi_months": 6
+      },
+      {
+        "case_study_id": "database_consolidation_2",
+        "company_size": "startup",
+        "industry": "saas",
+        "before_deployment": "cluster",
+        "after_deployment": "serverless",
+        "workload_pattern": "variable",
+        "before_cpu_util_avg": 16.0,
+        "after_cpu_util_avg": 81.2,
+        "before_idle_pct": 65.1,
+        "after_idle_pct": 34.6,
+        "cost_reduction_pct": 52.5,
+        "implementation_weeks": 6,
+        "roi_months": 1
+      },
+      {
+        "case_study_id": "database_consolidation_3",
+        "company_size": "startup",
+        "industry": "saas",
+        "before_deployment": "cluster",
+        "after_deployment": "serverless",
+        "workload_pattern": "variable",
+        "before_cpu_util_avg": 27.0,
+        "after_cpu_util_avg": 89.6,
+        "before_idle_pct": 77.8,
+        "after_idle_pct": 29.6,
+        "cost_reduction_pct": 56.7,
+        "implementation_weeks": 9,
+        "roi_months": 2
+      }
+    ],
+    "avg_cost_reduction": 41.5,
+    "avg_roi_months": 3.0,
+    "scenarios": {
+      "cluster": 15
+    }
+  },
+  "autoscaler": {
+    "rows": 32,
+    "columns": 11,
+    "column_names": [
+      "autoscaler_type",
+      "engine",
+      "trigger_metric",
+      "scale_up_threshold",
+      "scale_down_threshold",
+      "avg_scale_events_day",
+      "scale_accuracy_pct",
+      "false_positive_rate",
+      "response_time_seconds",
+      "cpu_util_improvement",
+      "cost_savings_pct"
+    ],
+    "sample_data": [
+      {
+        "autoscaler_type": "horizontal_pod_autoscaler",
+        "engine": "Elasticsearch",
+        "trigger_metric": "custom_metric",
+        "scale_up_threshold": 73.2,
+        "scale_down_threshold": 21.2,
+        "avg_scale_events_day": 102,
+        "scale_accuracy_pct": 81.0,
+        "false_positive_rate": 17.3,
+        "response_time_seconds": 181.2,
+        "cpu_util_improvement": 42.3,
+        "cost_savings_pct": 37.2
+      },
+      {
+        "autoscaler_type": "horizontal_pod_autoscaler",
+        "engine": "MongoDB",
+        "trigger_metric": "memory",
+        "scale_up_threshold": 61.7,
+        "scale_down_threshold": 28.8,
+        "avg_scale_events_day": 157,
+        "scale_accuracy_pct": 72.7,
+        "false_positive_rate": 9.9,
+        "response_time_seconds": 132.8,
+        "cpu_util_improvement": 47.4,
+        "cost_savings_pct": 35.3
+      },
+      {
+        "autoscaler_type": "horizontal_pod_autoscaler",
+        "engine": "Elasticsearch",
+        "trigger_metric": "cpu",
+        "scale_up_threshold": 64.0,
+        "scale_down_threshold": 26.7,
+        "avg_scale_events_day": 96,
+        "scale_accuracy_pct": 75.9,
+        "false_positive_rate": 5.8,
+        "response_time_seconds": 101.8,
+        "cpu_util_improvement": 35.0,
+        "cost_savings_pct": 17.9
+      }
+    ],
+    "avg_accuracy": 85.2,
+    "avg_response_time": 174.0,
+    "avg_cost_savings": 24.8
+  }
+}

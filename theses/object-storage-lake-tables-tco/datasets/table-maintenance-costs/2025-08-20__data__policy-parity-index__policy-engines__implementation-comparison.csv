@@ -1,0 +1,15 @@
+engine_type,platform,control,supported,enforced,integration_complexity,performance_impact,ecosystem_coverage
+centralized,Open_Policy_Agent,row_level_security,1,1,high,medium,universal
+centralized,Open_Policy_Agent,column_level_security,1,1,high,medium,universal
+centralized,Open_Policy_Agent,data_masking,1,1,very_high,high,universal
+centralized,Open_Policy_Agent,audit_trail,1,1,medium,low,universal
+native,Snowflake_RBAC,row_level_security,1,1,low,low,snowflake_only
+native,Snowflake_RBAC,column_level_security,1,1,low,low,snowflake_only
+native,BigQuery_IAM,row_level_security,1,1,medium,medium,gcp_ecosystem
+native,BigQuery_IAM,column_level_security,1,1,medium,medium,gcp_ecosystem
+hybrid,Unity_Catalog,row_level_security,1,1,medium,low,databricks_plus_oss
+hybrid,Unity_Catalog,column_level_security,1,1,medium,low,databricks_plus_oss
+hybrid,Unity_Catalog,lineage_tracking,1,1,low,very_low,databricks_plus_oss
+traditional,Apache_Ranger,row_level_security,1,1,high,medium,hadoop_ecosystem
+traditional,Apache_Ranger,column_level_security,1,1,high,medium,hadoop_ecosystem
+traditional,Apache_Ranger,data_masking,1,1,very_high,high,hadoop_ecosystem

@@ -1,0 +1,200 @@
+{
+  "summary_stats": {
+    "total_releases": 55,
+    "production_patterns": 48,
+    "migration_phases": 36,
+    "feature_flags": 15
+  },
+  "generated_at": "2025-08-20T20:06:55.705734",
+  "release_patterns": {
+    "Apache Iceberg": {
+      "total_releases": 20,
+      "latest_version": "1.9.2",
+      "feature_rich_releases": 10
+    },
+    "Delta Lake": {
+      "total_releases": 20,
+      "latest_version": "4.0.0",
+      "feature_rich_releases": 18
+    },
+    "Apache Hudi": {
+      "total_releases": 15,
+      "latest_version": "1.0.2",
+      "feature_rich_releases": 0
+    }
+  },
+  "feature_adoption": {
+    "Apache Iceberg": [
+      {
+        "feature": "position-deletes",
+        "adoption_rate": 0.8,
+        "stability": "stable",
+        "default_enabled": true
+      },
+      {
+        "feature": "row-level-delete",
+        "adoption_rate": 0.75,
+        "stability": "stable",
+        "default_enabled": true
+      },
+      {
+        "feature": "partition-evolution",
+        "adoption_rate": 0.6,
+        "stability": "stable",
+        "default_enabled": false
+      },
+      {
+        "feature": "merge-on-read",
+        "adoption_rate": 0.45,
+        "stability": "stable",
+        "default_enabled": false
+      },
+      {
+        "feature": "branching",
+        "adoption_rate": 0.3,
+        "stability": "preview",
+        "default_enabled": false
+      }
+    ],
+    "Delta Lake": [
+      {
+        "feature": "auto",
+        "adoption_rate": 0.85,
+        "stability": "stable",
+        "default_enabled": true
+      },
+      {
+        "feature": "column-mapping",
+        "adoption_rate": 0.7,
+        "stability": "stable",
+        "default_enabled": false
+      },
+      {
+        "feature": "deletion-vectors",
+        "adoption_rate": 0.65,
+        "stability": "stable",
+        "default_enabled": false
+      },
+      {
+        "feature": "change-data-feed",
+        "adoption_rate": 0.55,
+        "stability": "stable",
+        "default_enabled": false
+      },
+      {
+        "feature": "liquid-clustering",
+        "adoption_rate": 0.4,
+        "stability": "preview",
+        "default_enabled": false
+      }
+    ],
+    "Apache Hudi": [
+      {
+        "feature": "async-compaction",
+        "adoption_rate": 0.75,
+        "stability": "stable",
+        "default_enabled": true
+      },
+      {
+        "feature": "timeline-service",
+        "adoption_rate": 0.6,
+        "stability": "stable",
+        "default_enabled": false
+      },
+      {
+        "feature": "metadata-table",
+        "adoption_rate": 0.5,
+        "stability": "stable",
+        "default_enabled": false
+      },
+      {
+        "feature": "clustering",
+        "adoption_rate": 0.45,
+        "stability": "stable",
+        "default_enabled": false
+      },
+      {
+        "feature": "record-level-index",
+        "adoption_rate": 0.35,
+        "stability": "preview",
+        "default_enabled": false
+      }
+    ]
+  },
+  "production_patterns": {
+    "by_format": {
+      "Apache Iceberg": 33,
+      "Delta Lake": 13,
+      "Apache Hudi": 2
+    },
+    "by_org_type": {
+      "individual": 26,
+      "foundation": 6,
+      "organization": 8,
+      "enterprise": 6,
+      "startup": 1,
+      "midsize": 1
+    },
+    "by_source_type": {
+      "github-repository": 40,
+      "community-survey": 5,
+      "official-documentation": 3
+    }
+  },
+  "migration_patterns": {
+    "by_strategy": {
+      "phased-rollout": 12,
+      "big-bang": 6,
+      "blue-green": 9,
+      "parallel-validation": 9
+    },
+    "by_org_type": {
+      "enterprise": 21,
+      "startup": 6,
+      "midsize": 9
+    },
+    "common_blockers": {
+      "stakeholder-alignment": 3,
+      "environment-setup": 3,
+      "schema-compatibility": 3,
+      "performance-validation": 3,
+      "monitoring-alerts": 3,
+      "testing-coverage": 3,
+      "downtime-window": 3,
+      "infrastructure-provisioning": 3,
+      "data-validation": 3,
+      "rollback-plan": 3
+    },
+    "success_criteria": {
+      "migration-plan-approved": 3,
+      "dev-tests-passing": 3,
+      "performance-benchmarks": 3,
+      "query-performance": 3,
+      "data-freshness": 3,
+      "cost-reduction": 3,
+      "rollback-tested": 3,
+      "developer-velocity": 3,
+      "storage-efficiency": 3,
+      "environment-parity": 3
+    }
+  },
+  "key_insights": [
+    "Apache Iceberg has the most active release schedule with 20 releases",
+    "Apache Iceberg: highest adoption feature is 'position-deletes' at 80.0%",
+    "Delta Lake: highest adoption feature is 'auto' at 85.0%",
+    "Apache Hudi: highest adoption feature is 'async-compaction' at 75.0%",
+    "Most common migration blocker: 'stakeholder-alignment' (3 occurrences)",
+    "Apache Iceberg shows the most production usage signals (33 instances)"
+  ],
+  "recommendations": [
+    "Focus on stable, high-adoption features for production deployments",
+    "  - Apache Iceberg: position-deletes (80.0% adoption)",
+    "  - Apache Iceberg: row-level-delete (75.0% adoption)",
+    "  - Delta Lake: auto (85.0% adoption)",
+    "Consider 'phased-rollout' migration strategy - most commonly used approach",
+    "Plan for common migration blockers:",
+    "  - stakeholder-alignment",
+    "  - environment-setup",
+    "  - schema-compatibility"
+  ]
+}

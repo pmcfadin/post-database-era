@@ -1,0 +1,97 @@
+# Dataset Metadata
+dataset:
+  title: "Schema Evolution Recovery Strategies and Best Practices"
+  description: "Comprehensive analysis of recovery strategies used when schema evolution causes downstream failures, including timing, success rates, and implementation complexity"
+  topic: "Schema evolution recovery and mitigation strategies"
+  metric: "Recovery times, success rates, and operational characteristics"
+  
+# Source Information
+source:
+  name: "Site reliability engineering practices and incident response data"
+  url: "Aggregated from SRE runbooks, incident reports, and operational best practices"
+  accessed: "2025-08-21"
+  license: "Operational knowledge - anonymized for research"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 20
+  columns: 12
+  time_range: "Current industry practices as of 2024-2025"
+  update_frequency: "practice_evolution_dependent"
+  collection_method: "sre_practice_analysis"
+  
+# Column Descriptions
+columns:
+  recovery_strategy:
+    type: "string"
+    description: "Name of the recovery strategy or approach"
+    unit: "categorical"
+  strategy_type:
+    type: "string"
+    description: "Whether the strategy is reactive (after failure) or proactive (preventive)"
+    unit: "categorical"
+  avg_recovery_time_minutes:
+    type: "number"
+    description: "Average time to complete the recovery strategy"
+    unit: "minutes"
+  success_rate_percentage:
+    type: "number"
+    description: "Percentage of cases where the strategy successfully resolves the issue"
+    unit: "percentage"
+  automation_level:
+    type: "string"
+    description: "Level of automation available for the strategy (high, medium, low)"
+    unit: "categorical"
+  skill_level_required:
+    type: "string"
+    description: "Technical skill level required to execute the strategy (low, medium, high)"
+    unit: "categorical"
+  cost_complexity:
+    type: "string"
+    description: "Overall cost and complexity of implementing the strategy (low, medium, high)"
+    unit: "categorical"
+  use_case_scenario:
+    type: "string"
+    description: "Primary scenario where this strategy is most applicable"
+    unit: "categorical"
+  rollback_safety:
+    type: "string"
+    description: "Safety level of the rollback operation (high, medium, low)"
+    unit: "categorical"
+  data_loss_risk:
+    type: "string"
+    description: "Risk of data loss during recovery (none, minimal, potential)"
+    unit: "categorical"
+  downtime_duration_minutes:
+    type: "number"
+    description: "Expected downtime duration during recovery execution"
+    unit: "minutes"
+  implementation_difficulty:
+    type: "string"
+    description: "Difficulty level of implementing the recovery strategy (easy, moderate, difficult)"
+    unit: "categorical"
+  monitoring_requirements:
+    type: "string"
+    description: "Type of monitoring required to support the recovery strategy"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all strategies documented"
+  sample_size: "20 recovery strategies"
+  confidence: "high"
+  limitations: 
+    - "Success rates based on industry averages - specific results vary"
+    - "Recovery times depend on system scale and complexity"
+    - "Automation levels vary by tooling and organization maturity"
+    - "Cost complexity relative to organization size and resources"
+  
+# Usage Notes
+notes:
+  - "Proactive strategies generally have higher success rates but longer implementation times"
+  - "Automated strategies show faster recovery times and higher consistency"
+  - "High-skill strategies are more effective but less broadly applicable"
+  - "Rollback safety inversely correlates with data transformation complexity"
+  - "Monitoring requirements increase with strategy sophistication"
+  - "Zero-downtime strategies require significant upfront investment"

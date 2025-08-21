@@ -1,0 +1,37 @@
+dataset_id,format,spec_version,features,organization_type,migration_strategy,phase_name,phase_duration_weeks,blockers_encountered,success_criteria,last_upgraded_at
+apache-iceberg-migration-1-phase-1,Apache Iceberg,0.14.x -> 1.4.x,compatibility-analysis,enterprise,phased-rollout,planning-assessment,7,stakeholder-alignment,migration-plan-approved,2024-02-19
+apache-iceberg-migration-1-phase-2,Apache Iceberg,0.14.x -> 1.4.x,row-level-deletes,enterprise,phased-rollout,dev-environment,5,environment-setup,dev-tests-passing,2024-03-25
+apache-iceberg-migration-1-phase-3,Apache Iceberg,0.14.x -> 1.4.x,row-level-deletes; partition-evolution,enterprise,phased-rollout,staging-validation,11,schema-compatibility; performance-validation,performance-benchmarks,2024-06-10
+apache-iceberg-migration-1-phase-4,Apache Iceberg,0.14.x -> 1.4.x,row-level-deletes; partition-evolution; time-travel,enterprise,phased-rollout,production-rollout,21,monitoring-alerts,query-performance; data-freshness; cost-reduction,2024-11-04
+apache-iceberg-migration-2-phase-1,Apache Iceberg,0.14.x -> 1.4.x,compatibility-analysis,enterprise,phased-rollout,planning-assessment,6,stakeholder-alignment,migration-plan-approved,2024-02-12
+apache-iceberg-migration-2-phase-2,Apache Iceberg,0.14.x -> 1.4.x,row-level-deletes,enterprise,phased-rollout,dev-environment,5,environment-setup,dev-tests-passing,2024-03-18
+apache-iceberg-migration-2-phase-3,Apache Iceberg,0.14.x -> 1.4.x,row-level-deletes; partition-evolution,enterprise,phased-rollout,staging-validation,10,schema-compatibility; performance-validation,performance-benchmarks,2024-05-27
+apache-iceberg-migration-2-phase-4,Apache Iceberg,0.14.x -> 1.4.x,row-level-deletes; partition-evolution; time-travel,enterprise,phased-rollout,production-rollout,19,monitoring-alerts,query-performance; data-freshness; cost-reduction,2024-10-07
+apache-iceberg-migration-3-phase-1,Apache Iceberg,0.14.x -> 1.4.x,compatibility-analysis,enterprise,phased-rollout,planning-assessment,6,stakeholder-alignment,migration-plan-approved,2024-02-12
+apache-iceberg-migration-3-phase-2,Apache Iceberg,0.14.x -> 1.4.x,row-level-deletes,enterprise,phased-rollout,dev-environment,5,environment-setup,dev-tests-passing,2024-03-18
+apache-iceberg-migration-3-phase-3,Apache Iceberg,0.14.x -> 1.4.x,row-level-deletes; partition-evolution,enterprise,phased-rollout,staging-validation,10,schema-compatibility; performance-validation,performance-benchmarks,2024-05-27
+apache-iceberg-migration-3-phase-4,Apache Iceberg,0.14.x -> 1.4.x,row-level-deletes; partition-evolution; time-travel,enterprise,phased-rollout,production-rollout,19,monitoring-alerts,query-performance; data-freshness; cost-reduction,2024-10-07
+delta-lake-migration-1-phase-1,Delta Lake,2.0.x -> 3.0.x,testing-framework,startup,big-bang,preparation,12,testing-coverage,rollback-tested,2024-03-25
+delta-lake-migration-1-phase-2,Delta Lake,2.0.x -> 3.0.x,liquid-clustering; deletion-vectors,startup,big-bang,migration-execution,12,downtime-window,developer-velocity; storage-efficiency,2024-06-17
+delta-lake-migration-2-phase-1,Delta Lake,2.0.x -> 3.0.x,testing-framework,startup,big-bang,preparation,2,testing-coverage,rollback-tested,2024-01-15
+delta-lake-migration-2-phase-2,Delta Lake,2.0.x -> 3.0.x,liquid-clustering; deletion-vectors,startup,big-bang,migration-execution,2,downtime-window,developer-velocity; storage-efficiency,2024-01-29
+delta-lake-migration-3-phase-1,Delta Lake,2.0.x -> 3.0.x,testing-framework,startup,big-bang,preparation,2,testing-coverage,rollback-tested,2024-01-15
+delta-lake-migration-3-phase-2,Delta Lake,2.0.x -> 3.0.x,liquid-clustering; deletion-vectors,startup,big-bang,migration-execution,2,downtime-window,developer-velocity; storage-efficiency,2024-01-29
+apache-hudi-migration-1-phase-1,Apache Hudi,0.12.x -> 0.14.x,metadata-table,midsize,blue-green,green-environment-setup,8,infrastructure-provisioning,environment-parity,2024-02-26
+apache-hudi-migration-1-phase-2,Apache Hudi,0.12.x -> 0.14.x,metadata-table; record-level-index,midsize,blue-green,data-sync-validation,8,data-validation; rollback-plan,data-consistency,2024-04-22
+apache-hudi-migration-1-phase-3,Apache Hudi,0.12.x -> 0.14.x,metadata-table; record-level-index,midsize,blue-green,traffic-cutover,8,monitoring-setup,query-latency; write-throughput,2024-06-17
+apache-hudi-migration-2-phase-1,Apache Hudi,0.12.x -> 0.14.x,metadata-table,midsize,blue-green,green-environment-setup,6,infrastructure-provisioning,environment-parity,2024-02-12
+apache-hudi-migration-2-phase-2,Apache Hudi,0.12.x -> 0.14.x,metadata-table; record-level-index,midsize,blue-green,data-sync-validation,6,data-validation; rollback-plan,data-consistency,2024-03-25
+apache-hudi-migration-2-phase-3,Apache Hudi,0.12.x -> 0.14.x,metadata-table; record-level-index,midsize,blue-green,traffic-cutover,6,monitoring-setup,query-latency; write-throughput,2024-05-06
+apache-hudi-migration-3-phase-1,Apache Hudi,0.12.x -> 0.14.x,metadata-table,midsize,blue-green,green-environment-setup,8,infrastructure-provisioning,environment-parity,2024-02-26
+apache-hudi-migration-3-phase-2,Apache Hudi,0.12.x -> 0.14.x,metadata-table; record-level-index,midsize,blue-green,data-sync-validation,8,data-validation; rollback-plan,data-consistency,2024-04-22
+apache-hudi-migration-3-phase-3,Apache Hudi,0.12.x -> 0.14.x,metadata-table; record-level-index,midsize,blue-green,traffic-cutover,8,monitoring-setup,query-latency; write-throughput,2024-06-17
+delta-lake-migration-1-phase-1,Delta Lake,1.2.x -> 2.4.x,dual-write-pattern,enterprise,parallel-validation,parallel-write-setup,11,write-amplification,consistency-validation,2024-03-18
+delta-lake-migration-1-phase-2,Delta Lake,1.2.x -> 2.4.x,change-data-feed; optimize,enterprise,parallel-validation,read-traffic-migration,22,compliance-review; cross-team-coordination,read-performance,2024-08-19
+delta-lake-migration-1-phase-3,Delta Lake,1.2.x -> 2.4.x,change-data-feed; optimize; vacuum,enterprise,parallel-validation,write-traffic-migration,11,consistency-guarantees,data-quality; operational-overhead,2024-11-04
+delta-lake-migration-2-phase-1,Delta Lake,1.2.x -> 2.4.x,dual-write-pattern,enterprise,parallel-validation,parallel-write-setup,10,write-amplification,consistency-validation,2024-03-11
+delta-lake-migration-2-phase-2,Delta Lake,1.2.x -> 2.4.x,change-data-feed; optimize,enterprise,parallel-validation,read-traffic-migration,20,compliance-review; cross-team-coordination,read-performance,2024-07-29
+delta-lake-migration-2-phase-3,Delta Lake,1.2.x -> 2.4.x,change-data-feed; optimize; vacuum,enterprise,parallel-validation,write-traffic-migration,10,consistency-guarantees,data-quality; operational-overhead,2024-10-07
+delta-lake-migration-3-phase-1,Delta Lake,1.2.x -> 2.4.x,dual-write-pattern,enterprise,parallel-validation,parallel-write-setup,7,write-amplification,consistency-validation,2024-02-19
+delta-lake-migration-3-phase-2,Delta Lake,1.2.x -> 2.4.x,change-data-feed; optimize,enterprise,parallel-validation,read-traffic-migration,14,compliance-review; cross-team-coordination,read-performance,2024-05-27
+delta-lake-migration-3-phase-3,Delta Lake,1.2.x -> 2.4.x,change-data-feed; optimize; vacuum,enterprise,parallel-validation,write-traffic-migration,7,consistency-guarantees,data-quality; operational-overhead,2024-07-15

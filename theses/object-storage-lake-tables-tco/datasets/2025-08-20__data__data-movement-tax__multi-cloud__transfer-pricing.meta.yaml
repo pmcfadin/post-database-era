@@ -1,0 +1,82 @@
+# Dataset Metadata
+dataset:
+  title: "Multi-Cloud Data Transfer Pricing Matrix"
+  description: "Comprehensive pricing data for data movement across AWS, GCP, and Azure including cross-AZ, cross-region, and internet egress costs"
+  topic: "data-movement-tax"
+  metric: "transfer_pricing_per_gb"
+
+# Source Information
+source:
+  name: "Official Cloud Provider Documentation"
+  url: "AWS/GCP/Azure pricing pages and documentation"
+  accessed: "2025-08-20"
+  license: "Public pricing information"
+  credibility: "Tier A"
+
+# Data Characteristics
+characteristics:
+  rows: 27
+  columns: 10
+  time_range: "2024-2025 current pricing"
+  update_frequency: "quarterly"
+  collection_method: "official_documentation_compilation"
+
+# Column Descriptions
+columns:
+  cloud:
+    type: "string"
+    description: "Cloud provider or multi-cloud scenario"
+    unit: "categorical"
+  movement_type:
+    type: "string"
+    description: "Type of data movement (cross_az, cross_region, internet_egress, etc.)"
+    unit: "categorical"
+  gb_moved:
+    type: "string"
+    description: "Volume tier or pricing unit (per_gb, first_1gb_free, etc.)"
+    unit: "mixed"
+  cost_usd:
+    type: "number"
+    description: "Cost in USD for the specified volume tier"
+    unit: "USD"
+  source_region:
+    type: "string"
+    description: "Source region or availability zone"
+    unit: "categorical"
+  dest_region:
+    type: "string"
+    description: "Destination region or endpoint"
+    unit: "categorical"
+  service:
+    type: "string"
+    description: "Specific cloud service or product"
+    unit: "categorical"
+  notes:
+    type: "string"
+    description: "Additional context and pricing details"
+    unit: "text"
+  collection_date:
+    type: "date"
+    description: "Date when pricing data was collected"
+    unit: "YYYY-MM-DD"
+  data_source:
+    type: "string"
+    description: "Source type of the data"
+    unit: "categorical"
+
+# Quality Indicators
+quality:
+  completeness: "100% - All required fields populated"
+  sample_size: "27 pricing scenarios across 3 major cloud providers"
+  confidence: "high"
+  limitations: 
+    - "Pricing subject to change without notice"
+    - "Enterprise discounts not reflected"
+    - "Regional variations may exist"
+
+# Usage Notes
+notes:
+  - "Covers AWS, GCP, Azure standard pricing as of August 2025"
+  - "Includes both intra-cloud and inter-cloud movement scenarios"
+  - "Prices are list prices, actual costs may vary with volume discounts"
+  - "Cross-cloud scenarios are estimated based on egress + ingress costs"

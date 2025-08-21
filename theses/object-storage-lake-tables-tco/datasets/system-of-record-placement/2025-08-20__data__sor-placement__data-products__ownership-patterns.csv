@@ -1,0 +1,6 @@
+data_product,domain_owner,technical_owner,sor_location,governance_model,access_pattern,sla_read,sla_freshness,consumer_count,monthly_queries
+customer_master,Customer Experience,Customer Data Platform Team,warehouse,centralized_stewardship,api_first,99.9%,15_minutes,45,2500000
+product_catalog,Product Management,Commerce Platform Team,lake,federated_ownership,direct_query,99.5%,1_hour,28,850000
+financial_transactions,Finance,Financial Systems Team,warehouse,centralized_control,api_only,99.99%,5_minutes,12,450000
+user_behavior_events,Analytics,Analytics Engineering Team,lake,self_service,sql_interface,99.0%,2_hours,67,1200000
+marketing_campaigns,Marketing,MarTech Platform Team,hybrid,domain_ownership,multi_modal,99.5%,30_minutes,22,380000

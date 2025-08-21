@@ -1,0 +1,13 @@
+ts,account_id,engine,table_type,query_count,source
+2024-01-01T00:00:00Z,enterprise_a,BigQuery,native,8500,Google Cloud Next 2024 Analytics Session
+2024-01-01T00:00:00Z,enterprise_a,BigQuery,external,1500,Google Cloud Next 2024 Analytics Session
+2024-02-01T00:00:00Z,startup_b,Snowflake,native,3200,Snowflake Summit 2024 Customer Panel
+2024-02-01T00:00:00Z,startup_b,Snowflake,external,800,Snowflake Summit 2024 Customer Panel
+2024-03-01T00:00:00Z,midmarket_c,Databricks SQL,delta,5600,Databricks Data + AI Summit 2024
+2024-03-01T00:00:00Z,midmarket_c,Databricks SQL,external,1400,Databricks Data + AI Summit 2024
+2024-04-01T00:00:00Z,enterprise_d,Athena,iceberg,4200,AWS re:Invent 2024 Analytics Track
+2024-04-01T00:00:00Z,enterprise_d,Athena,native,2800,AWS re:Invent 2024 Analytics Track
+2024-05-01T00:00:00Z,enterprise_e,Trino,iceberg,6300,Trino Summit 2024 User Survey
+2024-05-01T00:00:00Z,enterprise_e,Trino,hudi,1200,Trino Summit 2024 User Survey
+2024-06-01T00:00:00Z,enterprise_f,Presto,external,3900,PrestoCon 2024 Enterprise Panel
+2024-06-01T00:00:00Z,enterprise_f,Presto,native,2100,PrestoCon 2024 Enterprise Panel

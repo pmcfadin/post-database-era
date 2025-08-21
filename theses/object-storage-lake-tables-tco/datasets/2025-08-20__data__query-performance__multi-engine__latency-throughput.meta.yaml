@@ -1,0 +1,98 @@
+# Dataset Metadata
+dataset:
+  title: "Query Performance Latency and Throughput by Engine and Workload"
+  description: "Comprehensive performance benchmark data showing P50/P95/P99 latency distributions and peak QPS for different query engines across BI, ETL, and Ad-hoc workloads"
+  topic: "Database query performance and workload optimization"
+  metric: "Query latency percentiles (P50/P95/P99) and queries per second"
+  
+# Source Information
+source:
+  name: "Multi-vendor performance studies compilation"
+  url: "Academic studies, vendor benchmarks, industry case studies"
+  accessed: "2025-08-20"
+  license: "Public benchmark data compilation"
+  credibility: "Tier A/B"
+  
+# Data Characteristics
+characteristics:
+  rows: 24
+  columns: 9
+  time_range: "2024 - 2025"
+  update_frequency: "static"
+  collection_method: "Manual compilation from academic papers, vendor studies, and case studies"
+  
+# Column Descriptions
+columns:
+  engine:
+    type: "string"
+    description: "Query engine or database platform name"
+    unit: "categorical"
+  workload:
+    type: "string"
+    description: "Type of workload (BI, ETL, Ad-hoc)"
+    unit: "categorical"
+  p50_ms:
+    type: "number"
+    description: "50th percentile query latency"
+    unit: "milliseconds"
+  p95_ms:
+    type: "number"
+    description: "95th percentile query latency"
+    unit: "milliseconds"
+  p99_ms:
+    type: "number"
+    description: "99th percentile query latency"
+    unit: "milliseconds"
+  qps_peak:
+    type: "number"
+    description: "Peak queries per second sustainable"
+    unit: "queries/second"
+  source:
+    type: "string"
+    description: "Original benchmark study or documentation source"
+    unit: "text"
+  notes:
+    type: "string"
+    description: "Additional context about test conditions"
+    unit: "text"
+  collected_date:
+    type: "date"
+    description: "Date when data was collected"
+    unit: "YYYY-MM-DD"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all required fields populated"
+  sample_size: "24 data points across 11 engines and 3 workload types"
+  confidence: "medium-high - compiled from diverse credible sources"
+  limitations: 
+    - "Different test environments and conditions across studies"
+    - "Hardware specifications may vary between benchmarks"
+    - "Some data points are representative rather than exact measurements"
+    - "Test scales and query complexity vary across sources"
+    - "Cloud vs on-premise configurations mixed"
+  
+# Coverage Analysis
+coverage:
+  engines_included: ["Trino", "Spark SQL", "Snowflake", "BigQuery", "ClickHouse", "Dremio", "Athena", "Redshift", "Presto", "DuckDB", "DataFusion", "Flink SQL"]
+  workload_distribution:
+    BI: "15 data points"
+    ETL: "5 data points" 
+    Ad-hoc: "4 data points"
+  source_types:
+    - "Academic conference papers (VLDB, SIGMOD)"
+    - "Vendor performance documentation"
+    - "Industry case studies (Netflix, Uber, Airbnb)"
+    - "TPC benchmark adaptations"
+    - "Cloud-native performance studies"
+    
+# Usage Notes
+notes:
+  - "BI workloads typically show lowest latency due to optimization for interactive queries"
+  - "ETL workloads show highest latency but focus on throughput over response time"
+  - "Ad-hoc queries fall between BI and ETL in performance characteristics"
+  - "QPS peaks vary significantly based on query complexity and system resources"
+  - "Lake table performance (Iceberg, Delta) included for modern data architecture context"
+  - "Single-node engines (DuckDB) show different performance profiles than distributed systems"
+  - "Streaming engines (Flink SQL) included for real-time ETL context"
+  - "Performance data spans both cloud-managed and self-hosted deployments"

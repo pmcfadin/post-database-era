@@ -1,0 +1,380 @@
+[
+  {
+    "tool": "Snowflake",
+    "format": "Iceberg",
+    "read": "Yes",
+    "write": "Yes",
+    "pushdown": "Yes",
+    "status": "GA",
+    "type": "Native"
+  },
+  {
+    "tool": "Snowflake",
+    "format": "Delta Lake",
+    "read": "Limited",
+    "write": "No",
+    "pushdown": "Limited",
+    "status": "Preview",
+    "type": "External"
+  },
+  {
+    "tool": "Snowflake",
+    "format": "Hudi",
+    "read": "No",
+    "write": "No",
+    "pushdown": "No",
+    "status": "Not Supported",
+    "type": "N/A"
+  },
+  {
+    "tool": "BigQuery",
+    "format": "Iceberg",
+    "read": "Yes",
+    "write": "Yes",
+    "pushdown": "Yes",
+    "status": "GA",
+    "type": "Native"
+  },
+  {
+    "tool": "BigQuery",
+    "format": "Delta Lake",
+    "read": "Limited",
+    "write": "No",
+    "pushdown": "Limited",
+    "status": "Preview",
+    "type": "External"
+  },
+  {
+    "tool": "BigQuery",
+    "format": "Hudi",
+    "read": "No",
+    "write": "No",
+    "pushdown": "No",
+    "status": "Not Supported",
+    "type": "N/A"
+  },
+  {
+    "tool": "Databricks",
+    "format": "Delta Lake",
+    "read": "Yes",
+    "write": "Yes",
+    "pushdown": "Yes",
+    "status": "GA",
+    "type": "Native"
+  },
+  {
+    "tool": "Databricks",
+    "format": "Iceberg",
+    "read": "Yes",
+    "write": "Yes",
+    "pushdown": "Yes",
+    "status": "GA",
+    "type": "Native"
+  },
+  {
+    "tool": "Databricks",
+    "format": "Hudi",
+    "read": "Yes",
+    "write": "Limited",
+    "pushdown": "Yes",
+    "status": "GA",
+    "type": "Native"
+  },
+  {
+    "tool": "Trino",
+    "format": "Iceberg",
+    "read": "Yes",
+    "write": "Yes",
+    "pushdown": "Yes",
+    "status": "GA",
+    "type": "Native"
+  },
+  {
+    "tool": "Trino",
+    "format": "Delta Lake",
+    "read": "Yes",
+    "write": "Yes",
+    "pushdown": "Yes",
+    "status": "GA",
+    "type": "Native"
+  },
+  {
+    "tool": "Trino",
+    "format": "Hudi",
+    "read": "Yes",
+    "write": "Limited",
+    "pushdown": "Yes",
+    "status": "GA",
+    "type": "Native"
+  },
+  {
+    "tool": "dbt",
+    "format": "Iceberg",
+    "read": "Yes",
+    "write": "Yes",
+    "pushdown": "Adapter-dependent",
+    "status": "GA",
+    "type": "Via Adapter"
+  },
+  {
+    "tool": "dbt",
+    "format": "Delta Lake",
+    "read": "Yes",
+    "write": "Yes",
+    "pushdown": "Adapter-dependent",
+    "status": "GA",
+    "type": "Via Adapter"
+  },
+  {
+    "tool": "dbt",
+    "format": "Hudi",
+    "read": "Limited",
+    "write": "Limited",
+    "pushdown": "Adapter-dependent",
+    "status": "Limited",
+    "type": "Via Adapter"
+  },
+  {
+    "tool": "Tableau",
+    "format": "Iceberg",
+    "read": "Yes",
+    "write": "No",
+    "pushdown": "Via Connector",
+    "status": "GA",
+    "type": "Via Database Connector"
+  },
+  {
+    "tool": "Tableau",
+    "format": "Delta Lake",
+    "read": "Yes",
+    "write": "No",
+    "pushdown": "Via Connector",
+    "status": "GA",
+    "type": "Via Database Connector"
+  },
+  {
+    "tool": "Tableau",
+    "format": "Hudi",
+    "read": "Limited",
+    "write": "No",
+    "pushdown": "Via Connector",
+    "status": "Limited",
+    "type": "Via Database Connector"
+  },
+  {
+    "tool": "Power BI",
+    "format": "Iceberg",
+    "read": "Yes",
+    "write": "No",
+    "pushdown": "Via Connector",
+    "status": "GA",
+    "type": "Via Database Connector"
+  },
+  {
+    "tool": "Power BI",
+    "format": "Delta Lake",
+    "read": "Yes",
+    "write": "No",
+    "pushdown": "Via Connector",
+    "status": "GA",
+    "type": "Via Database Connector"
+  },
+  {
+    "tool": "Power BI",
+    "format": "Hudi",
+    "read": "Limited",
+    "write": "No",
+    "pushdown": "Via Connector",
+    "status": "Limited",
+    "type": "Via Database Connector"
+  },
+  {
+    "tool": "Looker",
+    "format": "Iceberg",
+    "read": "Yes",
+    "write": "No",
+    "pushdown": "Via Connector",
+    "status": "GA",
+    "type": "Via Database Connector"
+  },
+  {
+    "tool": "Looker",
+    "format": "Delta Lake",
+    "read": "Yes",
+    "write": "No",
+    "pushdown": "Via Connector",
+    "status": "GA",
+    "type": "Via Database Connector"
+  },
+  {
+    "tool": "Looker",
+    "format": "Hudi",
+    "read": "Limited",
+    "write": "No",
+    "pushdown": "Via Connector",
+    "status": "Limited",
+    "type": "Via Database Connector"
+  },
+  {
+    "tool": "Apache Superset",
+    "format": "Iceberg",
+    "read": "Yes",
+    "write": "No",
+    "pushdown": "Via Database",
+    "status": "GA",
+    "type": "Via Database Driver"
+  },
+  {
+    "tool": "Apache Superset",
+    "format": "Delta Lake",
+    "read": "Yes",
+    "write": "No",
+    "pushdown": "Via Database",
+    "status": "GA",
+    "type": "Via Database Driver"
+  },
+  {
+    "tool": "Apache Superset",
+    "format": "Hudi",
+    "read": "Limited",
+    "write": "No",
+    "pushdown": "Via Database",
+    "status": "Limited",
+    "type": "Via Database Driver"
+  },
+  {
+    "tool": "Metabase",
+    "format": "Iceberg",
+    "read": "Yes",
+    "write": "No",
+    "pushdown": "Via Database",
+    "status": "GA",
+    "type": "Via Database Driver"
+  },
+  {
+    "tool": "Metabase",
+    "format": "Delta Lake",
+    "read": "Yes",
+    "write": "No",
+    "pushdown": "Via Database",
+    "status": "GA",
+    "type": "Via Database Driver"
+  },
+  {
+    "tool": "Metabase",
+    "format": "Hudi",
+    "read": "Limited",
+    "write": "No",
+    "pushdown": "Via Database",
+    "status": "Limited",
+    "type": "Via Database Driver"
+  },
+  {
+    "tool": "Fivetran",
+    "format": "Iceberg",
+    "read": "Yes",
+    "write": "Yes",
+    "pushdown": "N/A",
+    "status": "GA",
+    "type": "Native Destination"
+  },
+  {
+    "tool": "Fivetran",
+    "format": "Delta Lake",
+    "read": "Yes",
+    "write": "Yes",
+    "pushdown": "N/A",
+    "status": "GA",
+    "type": "Native Destination"
+  },
+  {
+    "tool": "Fivetran",
+    "format": "Hudi",
+    "read": "No",
+    "write": "No",
+    "pushdown": "N/A",
+    "status": "Not Supported",
+    "type": "N/A"
+  },
+  {
+    "tool": "Airbyte",
+    "format": "Iceberg",
+    "read": "Yes",
+    "write": "Yes",
+    "pushdown": "N/A",
+    "status": "GA",
+    "type": "Connector"
+  },
+  {
+    "tool": "Airbyte",
+    "format": "Delta Lake",
+    "read": "Yes",
+    "write": "Yes",
+    "pushdown": "N/A",
+    "status": "GA",
+    "type": "Connector"
+  },
+  {
+    "tool": "Airbyte",
+    "format": "Hudi",
+    "read": "Limited",
+    "write": "Limited",
+    "pushdown": "N/A",
+    "status": "Preview",
+    "type": "Connector"
+  },
+  {
+    "tool": "Stitch",
+    "format": "Iceberg",
+    "read": "Via Destination",
+    "write": "Via Destination",
+    "pushdown": "N/A",
+    "status": "Dependent",
+    "type": "Via Destination"
+  },
+  {
+    "tool": "Stitch",
+    "format": "Delta Lake",
+    "read": "Via Destination",
+    "write": "Via Destination",
+    "pushdown": "N/A",
+    "status": "Dependent",
+    "type": "Via Destination"
+  },
+  {
+    "tool": "Stitch",
+    "format": "Hudi",
+    "read": "Via Destination",
+    "write": "Via Destination",
+    "pushdown": "N/A",
+    "status": "Dependent",
+    "type": "Via Destination"
+  },
+  {
+    "tool": "Matillion",
+    "format": "Iceberg",
+    "read": "Yes",
+    "write": "Yes",
+    "pushdown": "Via Database",
+    "status": "GA",
+    "type": "Via Database Connector"
+  },
+  {
+    "tool": "Matillion",
+    "format": "Delta Lake",
+    "read": "Yes",
+    "write": "Yes",
+    "pushdown": "Via Database",
+    "status": "GA",
+    "type": "Via Database Connector"
+  },
+  {
+    "tool": "Matillion",
+    "format": "Hudi",
+    "read": "Limited",
+    "write": "Limited",
+    "pushdown": "Via Database",
+    "status": "Limited",
+    "type": "Via Database Connector"
+  }
+]

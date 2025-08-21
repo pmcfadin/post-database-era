@@ -1,0 +1,25 @@
+tool,connector_type,format,read,write,status,notes
+Tableau,Snowflake Connector,Iceberg,Yes,No,GA,Full Iceberg read via Snowflake
+Tableau,Databricks Connector,Delta Lake,Yes,No,GA,Native Delta read via Databricks
+Tableau,BigQuery Connector,Iceberg,Yes,No,GA,Iceberg table support via BigQuery
+Tableau,Trino Connector,All Formats,Yes,No,GA,Universal format access via Trino
+Power BI,Snowflake Connector,Iceberg,Yes,No,GA,Iceberg via Snowflake external tables
+Power BI,Databricks Connector,Delta Lake,Yes,No,GA,Native Delta Lake connector
+Power BI,Azure Data Lake Connector,Delta Lake,Yes,No,GA,Direct Delta Lake file access
+Looker,BigQuery Connection,Iceberg,Yes,No,GA,Iceberg tables via BigQuery
+Looker,Snowflake Connection,Iceberg,Yes,No,GA,External Iceberg tables
+Looker,Databricks Connection,Delta Lake,Yes,No,GA,Delta Lake via Databricks SQL
+dbt,dbt-snowflake,Iceberg,Yes,Yes,GA,Full Iceberg DDL/DML support
+dbt,dbt-databricks,Delta Lake,Yes,Yes,GA,Native Delta operations
+dbt,dbt-bigquery,Iceberg,Yes,Yes,GA,Iceberg table materialization
+dbt,dbt-trino,All Formats,Yes,Yes,GA,Universal format support
+Fivetran,Snowflake Destination,Iceberg,Yes,Yes,Preview,Iceberg table creation
+Fivetran,Databricks Destination,Delta Lake,Yes,Yes,GA,Delta Lake as default format
+Fivetran,BigQuery Destination,Iceberg,Yes,Yes,Preview,Iceberg table loading
+Airbyte,S3 Destination,Iceberg,No,Yes,GA,Iceberg format output to S3
+Airbyte,S3 Destination,Delta Lake,No,Yes,GA,Delta Lake format output
+Airbyte,Snowflake Destination,Iceberg,Via Snowflake,Yes,GA,Creates Iceberg tables in Snowflake
+Airbyte,Databricks Destination,Delta Lake,Via Databricks,Yes,GA,Native Delta Lake writes
+Matillion,Snowflake Connector,Iceberg,Yes,Yes,GA,Iceberg ETL operations
+Matillion,Databricks Connector,Delta Lake,Yes,Yes,GA,Delta Lake transformations
+Matillion,S3 Connector,All Formats,Limited,Yes,GA,File-based format operations

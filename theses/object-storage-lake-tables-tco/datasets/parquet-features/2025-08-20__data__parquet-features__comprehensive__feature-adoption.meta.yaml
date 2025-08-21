@@ -1,0 +1,94 @@
+# Dataset Metadata
+dataset:
+  title: "Comprehensive Parquet Feature Adoption Analysis"
+  description: "Analysis of Parquet format features including encodings, compression, statistics, bloom filters, and optimization patterns across different implementations and use cases"
+  topic: "parquet-features"
+  metric: "feature_adoption_enabled_boolean"
+  
+# Source Information
+source:
+  name: "Multi-source compilation"
+  url: "https://parquet.apache.org/docs/"
+  accessed: "2025-08-20"
+  license: "Public documentation and best practices"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 22
+  columns: 13
+  time_range: "2019 - 2024"
+  update_frequency: "manual_compilation"
+  collection_method: "documentation_synthesis"
+  
+# Column Descriptions
+columns:
+  dataset_id:
+    type: "string"
+    description: "Identifier for the dataset category"
+    unit: "categorical"
+  source:
+    type: "string"
+    description: "Source of the feature information"
+    unit: "categorical"
+  parquet_feature:
+    type: "string"
+    description: "Name of the Parquet feature being analyzed"
+    unit: "categorical"
+  enabled:
+    type: "number"
+    description: "Whether the feature is enabled/available (1=yes, 0=no)"
+    unit: "boolean"
+  feature_type:
+    type: "string"
+    description: "Category of feature (encoding, compression, statistics, etc.)"
+    unit: "categorical"
+  description:
+    type: "string"
+    description: "Detailed description of the feature"
+    unit: "text"
+  performance_impact:
+    type: "string"
+    description: "Primary performance impact of the feature"
+    unit: "categorical"
+  adoption_level:
+    type: "string"
+    description: "Level of industry adoption (standard, common, emerging, etc.)"
+    unit: "categorical"
+  compression_ratio:
+    type: "string"
+    description: "Typical compression ratio achieved"
+    unit: "ratio"
+  cpu_overhead:
+    type: "string"
+    description: "CPU overhead level (low, medium, high)"
+    unit: "categorical"
+  supported_since:
+    type: "string"
+    description: "Version when feature was introduced"
+    unit: "version"
+  use_case:
+    type: "string"
+    description: "Primary use case for the feature"
+    unit: "categorical"
+  implementation:
+    type: "string"
+    description: "Implementation details or requirements"
+    unit: "text"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all records have core fields"
+  sample_size: "22 features across major categories"
+  confidence: "high"
+  limitations: 
+    - "Based on documentation and best practices, not empirical measurement"
+    - "Adoption levels are qualitative estimates"
+    - "Performance impacts vary by workload"
+  
+# Usage Notes
+notes:
+  - "Covers major Parquet features from format specification"
+  - "Includes both standard and emerging features"
+  - "Performance impacts are general guidelines"
+  - "Adoption levels based on community feedback and documentation"

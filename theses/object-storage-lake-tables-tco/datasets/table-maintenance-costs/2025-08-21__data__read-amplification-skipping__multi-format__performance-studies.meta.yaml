@@ -1,0 +1,110 @@
+# Dataset Metadata
+dataset:
+  title: "Read Amplification and Data Skipping Effectiveness Studies"
+  description: "Performance analysis of data skipping techniques across table formats including bytes scanned vs returned ratios, file hit rates, and index effectiveness"
+  topic: "Table Maintenance Costs and Query Performance Optimization"
+  metric: "Read amplification ratios, data skipping rates, and scan efficiency metrics"
+
+# Source Information
+source:
+  name: "Multi-vendor performance studies and documentation"
+  url: "Aggregated from Apache Iceberg, Delta Lake, Hudi docs and case studies"
+  accessed: "2025-08-21"
+  license: "Mixed - documentation and published case studies"
+  credibility: "Tier A/B"
+
+# Data Characteristics
+characteristics:
+  rows: 8
+  columns: 16
+  time_range: "2023 - 2025"
+  update_frequency: "static"
+  collection_method: "manual aggregation from published studies"
+
+# Column Descriptions
+columns:
+  source:
+    type: "string"
+    description: "Organization or documentation source"
+    unit: "text"
+  format:
+    type: "string" 
+    description: "Table format (Iceberg, Delta Lake, Hudi, Parquet, Snowflake)"
+    unit: "categorical"
+  table_type:
+    type: "string"
+    description: "Table organization strategy (partitioned, z-ordered, etc.)"
+    unit: "categorical"
+  query_type:
+    type: "string"
+    description: "Type of query pattern analyzed"
+    unit: "categorical"
+  files_total:
+    type: "number"
+    description: "Total number of files in the table"
+    unit: "count"
+  files_scanned:
+    type: "number"
+    description: "Number of files actually scanned during query"
+    unit: "count"
+  bytes_total_gb:
+    type: "number"
+    description: "Total table size in gigabytes"
+    unit: "GB"
+  bytes_scanned_gb:
+    type: "number"
+    description: "Bytes actually read from storage during query"
+    unit: "GB"
+  bytes_returned_gb:
+    type: "number"
+    description: "Bytes returned to client after filtering/aggregation"
+    unit: "GB"
+  skipping_rate:
+    type: "number"
+    description: "Percentage of data skipped (1 - bytes_scanned/bytes_total)"
+    unit: "ratio (0-1)"
+  data_skipping_method:
+    type: "string"
+    description: "Technique used for data skipping"
+    unit: "categorical"
+  index_type:
+    type: "string"
+    description: "Type of index or statistics used"
+    unit: "categorical"
+  query_engine:
+    type: "string"
+    description: "Query engine used (Spark, Trino, Snowflake, etc.)"
+    unit: "categorical"
+  study_type:
+    type: "string"
+    description: "Type of study or source documentation"
+    unit: "categorical"
+  read_amplification:
+    type: "number"
+    description: "Ratio of bytes scanned to bytes returned (higher = more amplification)"
+    unit: "ratio"
+  file_hit_rate:
+    type: "number"
+    description: "Percentage of files that were scanned"
+    unit: "ratio (0-1)"
+  scan_efficiency:
+    type: "number"
+    description: "Ratio of bytes returned to bytes scanned (higher = more efficient)"
+    unit: "ratio (0-1)"
+
+# Quality Indicators
+quality:
+  completeness: "100% - all fields populated"
+  sample_size: "8 performance studies"
+  confidence: "high"
+  limitations: 
+    - "Limited to published case studies and documentation"
+    - "Metrics may vary significantly based on data characteristics"
+    - "Query patterns and table sizes vary across studies"
+
+# Usage Notes
+notes:
+  - "Read amplification calculated as bytes_scanned / bytes_returned"
+  - "Higher skipping rates indicate more effective data pruning"
+  - "Results highly dependent on query selectivity and table layout"
+  - "Production results may vary based on data distribution"

@@ -1,0 +1,83 @@
+# Dataset Metadata
+dataset:
+  title: "Lake Table Format GitHub Adoption Indicators"
+  description: "GitHub metrics for major lake table formats including stars, forks, and development activity as proxies for adoption"
+  topic: "Lake table format penetration analysis"
+  metric: "Repository engagement and development activity"
+  
+# Source Information
+source:
+  name: "GitHub API"
+  url: "https://api.github.com/repos/"
+  accessed: "2025-08-21"
+  license: "Public API data"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 6
+  columns: 10
+  time_range: "2016-12-14 - 2025-08-20"
+  update_frequency: "daily"
+  collection_method: "automated API calls"
+  
+# Column Descriptions
+columns:
+  format:
+    type: "string"
+    description: "Name of the lake table format"
+    unit: "categorical"
+  repository:
+    type: "string"
+    description: "GitHub repository identifier"
+    unit: "org/repo format"
+  stars:
+    type: "number"
+    description: "Number of GitHub stars (community interest)"
+    unit: "count"
+  forks:
+    type: "number"
+    description: "Number of repository forks (developer engagement)"
+    unit: "count"
+  language:
+    type: "string"
+    description: "Primary programming language"
+    unit: "categorical"
+  created_date:
+    type: "date"
+    description: "Repository creation date"
+    unit: "YYYY-MM-DD"
+  last_updated:
+    type: "date"
+    description: "Last update timestamp"
+    unit: "YYYY-MM-DD"
+  contributor_count:
+    type: "number"
+    description: "Estimated unique contributors"
+    unit: "count"
+  release_count:
+    type: "number"
+    description: "Number of formal releases"
+    unit: "count"
+  adoption_indicator_score:
+    type: "number"
+    description: "Weighted score based on stars, forks, and activity (0-10 scale)"
+    unit: "score"
+    
+# Quality Indicators
+quality:
+  completeness: "100%"
+  sample_size: "6 major repositories"
+  confidence: "high"
+  limitations: 
+    - "GitHub metrics are proxies, not direct adoption measures"
+    - "Enterprise usage may not correlate with GitHub activity"
+    - "Some projects have multiple repositories"
+  
+# Usage Notes
+notes:
+  - "Delta Lake shows highest GitHub engagement"
+  - "Iceberg has strong corporate backing (Apache Foundation)"
+  - "Hudi is oldest but shows lower recent activity"
+  - "Python and Rust implementations indicate language diversity"
+  - "Adoption indicator score uses weighted formula of engagement metrics"

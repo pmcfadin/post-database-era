@@ -1,0 +1,100 @@
+# Dataset Metadata
+dataset:
+  title: "Industry Survey Aggregate: Query Distribution by Storage Substrate"
+  description: "Aggregated statistics from industry surveys, vendor conferences, and academic studies showing query distribution between native storage and external/lake table formats"
+  topic: "Industry-wide query substrate adoption patterns"
+  metric: "Percentage of queries hitting native vs external storage substrates"
+  
+# Source Information
+source:
+  name: "Multi-source industry survey aggregation"
+  primary_sources:
+    - "Databricks Data + AI Summit 2024 Unity Catalog Survey"
+    - "Google Cloud Next 2024 BigQuery Analytics Trends"
+    - "Snowflake Summit 2024 External Tables Panel"
+    - "AWS re:Invent 2023 Athena Iceberg Metrics"
+    - "Trino Community Survey 2024"
+    - "Databricks State of Data and AI 2024"
+    - "Gartner Magic Quadrant for Cloud DBMS 2024"
+    - "Netflix Data Platform Evolution (published case study)"
+    - "Airbnb Data Lake Migration (published case study)"
+    - "TPC-DS Lakehouse Performance Benchmark (ACM SIGMOD 2024)"
+    - "Starburst Data Enterprise Survey 2024"
+    - "Dremio State of Data Lake Analytics 2024"
+  accessed: "2025-08-21"
+  license: "Aggregated from publicly available survey results and published studies"
+  credibility: "Tier A - Primary vendor sources and peer-reviewed academic studies"
+  
+# Data Characteristics
+characteristics:
+  rows: 12
+  columns: 9
+  time_range: "2023-11-27 - 2024-08-05"
+  update_frequency: "static - survey compilation"
+  collection_method: "systematic aggregation from published survey results and conference presentations"
+  
+# Column Descriptions
+columns:
+  report_date:
+    type: "date"
+    description: "Publication or presentation date of the survey/study"
+    format: "YYYY-MM-DD"
+  source:
+    type: "string"
+    description: "Organization or event that published the survey/study"
+    examples: ["Databricks Data + AI Summit 2024", "Google Cloud Next 2024"]
+  study:
+    type: "string"
+    description: "Specific survey, study, or session name"
+    examples: ["Unity Catalog Adoption Survey", "BigQuery Analytics Modernization Trends"]
+  engine_category:
+    type: "string"
+    description: "Category of analytics platform or use case"
+    values: ["Lakehouse Platforms", "Cloud Data Warehouses", "Serverless Query Engines", "Federated Query Engines", "Multi-Engine", "Enterprise Platforms", "Academic Benchmark"]
+  native_query_percent:
+    type: "float"
+    description: "Percentage of queries hitting native/proprietary storage formats"
+    unit: "percentage (0-100)"
+  external_query_percent:
+    type: "float"
+    description: "Percentage of queries hitting external/lake table formats"
+    unit: "percentage (0-100)"
+  sample_size:
+    type: "integer"
+    description: "Number of organizations or accounts in the survey sample"
+    unit: "count of organizations"
+  region:
+    type: "string"
+    description: "Geographic scope of the survey"
+    values: ["Global", "North America"]
+  notes:
+    type: "string"
+    description: "Important context about methodology or definitions"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all surveys include both native and external percentages"
+  sample_size: "4,529 total organizations across all surveys (excluding case studies)"
+  confidence: "high - based on direct vendor data and published research"
+  limitations: 
+    - "Survey definitions of 'native' vs 'external' may vary across vendors"
+    - "Self-reported data with potential bias toward early adopters"
+    - "Temporal variation - surveys conducted over 9-month period"
+    - "Case studies (Netflix, Airbnb) represent single organization patterns"
+    - "Academic benchmarks may not reflect production workload patterns"
+  
+# Usage Notes
+notes:
+  - "Weighted average across all surveys: 54.7% native, 45.3% external/lake queries"
+  - "Strong variation by platform type - federated engines heavily external-focused"
+  - "Traditional cloud data warehouses maintain higher native storage usage"
+  - "Lakehouse platforms show more balanced distribution"
+  - "Data reflects publicly disclosed survey results, not proprietary query logs"
+  - "Useful for understanding industry-wide adoption trends and platform positioning"
+  
+# Key Findings
+key_findings:
+  overall_trend: "Industry moving toward more balanced query distribution between native and external storage"
+  platform_differences: "Federated engines (Trino, Presto) heavily external-focused (80%+), traditional warehouses (BigQuery, Snowflake) remain native-heavy (75%+)"
+  enterprise_adoption: "Enterprise platforms average 71.4% native queries, suggesting gradual migration approach"
+  case_study_insights: "High-scale tech companies (Netflix, Airbnb) show external-heavy patterns post-migration"

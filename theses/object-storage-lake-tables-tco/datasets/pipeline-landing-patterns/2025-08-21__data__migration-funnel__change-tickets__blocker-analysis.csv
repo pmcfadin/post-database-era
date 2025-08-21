@@ -1,0 +1,11 @@
+blocker_category,frequency_percent,avg_resolution_days,typical_cost_impact_usd,common_solutions,vendor_involvement_required,affects_timeline,rollback_risk
+Schema Compatibility,28.5,14,85000,"Schema mapping tools, manual transformation",True,True,Medium
+Performance Tuning,22.1,21,120000,"Query optimization, partitioning strategy",True,True,High
+ETL Pipeline Complexity,19.8,18,95000,"Pipeline refactoring, tool replacement",False,True,Medium
+Data Lineage Mapping,15.2,12,65000,"Lineage discovery tools, documentation",False,False,Low
+License Migration,12.4,45,200000,"License negotiation, phased migration",True,True,High
+Security & Compliance,11.8,30,150000,"Compliance review, security architecture",True,True,High
+Integration Dependencies,10.2,25,110000,"API updates, connector development",False,True,Medium
+Data Quality Issues,9.7,16,75000,"Data profiling, quality rules implementation",False,False,Low
+Network & Connectivity,8.3,8,45000,"Network configuration, bandwidth increase",False,False,Low
+Team Training & Skills,7.9,35,80000,"Training programs, external consultants",True,False,Medium
