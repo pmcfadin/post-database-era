@@ -1,0 +1,87 @@
+# Dataset Metadata
+dataset:
+  title: "Historical Marketplace Positioning Evolution: Single-API to Multi-API Transition"
+  description: "Tracking database vendors' evolution from single-purpose to multi-API positioning in cloud marketplaces over time, documenting the transition towards unified data platforms"
+  topic: "marketplace-tile-taxonomy"
+  metric: "positioning evolution, API expansion timeline"
+  
+# Source Information
+source:
+  name: "Industry Analysis & Vendor Announcements"
+  url: "Vendor press releases, product announcements, marketplace listings"
+  accessed: "2025-08-20"
+  license: "Research compilation from public sources"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 17
+  columns: 6
+  time_range: "2020-Q1 - 2024-Q2"
+  update_frequency: "quarterly based on vendor announcements"
+  collection_method: "systematic tracking of vendor capability announcements"
+  
+# Column Descriptions
+columns:
+  vendor:
+    type: "string"
+    description: "Database vendor/company name"
+    unit: "company name"
+  service:
+    type: "string"
+    description: "Specific database service/product name"
+    unit: "product name"
+  period:
+    type: "string"
+    description: "Time period when positioning change occurred"
+    format: "YYYY-QN"
+  positioning:
+    type: "string"
+    description: "Market positioning category at this time"
+    values: ["single-api", "dual-api", "multi-api"]
+  apis:
+    type: "string"
+    description: "Semicolon-separated list of supported API types"
+    unit: "API types"
+  description:
+    type: "string"
+    description: "Description of the capability change or announcement"
+    unit: "text description"
+    
+# Quality Indicators
+quality:
+  completeness: "90% - covers major database vendors with documented evolution"
+  sample_size: "17 positioning changes across 6 major database vendors"
+  confidence: "high"
+  limitations: 
+    - "Based on public announcements and may not reflect exact capability dates"
+    - "Some vendors may have capabilities that weren't publicly marketed"
+    - "Focus on cloud-native database services only"
+    - "Limited to vendors with clear multi-API evolution patterns"
+  
+# Usage Notes
+notes:
+  - "Clear trend showing acceleration in multi-API adoption post-2022"
+  - "Vector search capabilities driving latest wave of expansion (2023-2024)"
+  - "All tracked vendors show progression toward multi-API positioning"
+  - "Search functionality often the first API expansion beyond core data model"
+  - "Analytics and vector capabilities emerging as key differentiators"
+  - "Useful for validating database industry convergence thesis"
+  
+# Analysis Insights
+insights:
+  evolution_timeline:
+    - "2020-2021: Initial single-purpose positioning dominant"
+    - "2021-2022: Search capabilities drive first multi-API transition"
+    - "2022-2023: Analytics integration becomes common"
+    - "2023-2024: Vector search creates new expansion wave"
+  vendor_patterns:
+    - "MongoDB: Document → Document+Search → Document+Search+Vector"
+    - "Redis: Key-Value → Key-Value+Search → Key-Value+Search+TimeSeries+Vector"
+    - "DataStax: NoSQL → NoSQL+Vector → NoSQL+Vector+Search"
+    - "Couchbase: Already multi-model, continued expansion"
+  market_drivers:
+    - "AI/ML workloads driving vector database adoption"
+    - "Full-text search becoming table stakes"
+    - "Real-time analytics requirements"
+    - "Developer productivity demands for unified platforms"

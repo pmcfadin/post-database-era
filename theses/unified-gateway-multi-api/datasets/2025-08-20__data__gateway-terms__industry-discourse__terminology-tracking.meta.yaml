@@ -1,0 +1,98 @@
+# Dataset Metadata
+dataset:
+  title: "Gateway Terminology Tracking in Industry Discourse (2022-2025)"
+  description: "Collection of exact phrases (≤15 words) containing gateway-related terminology from major technology vendors, analysts, and publications. Tracks vocabulary normalization around unified data access concepts."
+  topic: "Gateway terminology adoption and standardization"
+  metric: "Frequency and context of gateway-related terms in industry communications"
+  
+# Source Information
+source:
+  name: "Multiple Industry Sources"
+  url: "Various (see individual records)"
+  accessed: "2025-08-20"
+  license: "Research and citation use under fair use"
+  credibility: "Mixed Tier A/B sources (analyst firms, major vendors, tech press)"
+  
+# Data Characteristics
+characteristics:
+  rows: 12
+  columns: 8
+  time_range: "2023-10-15 to 2024-05-21"
+  update_frequency: "manual/ad-hoc"
+  collection_method: "manual research and phrase extraction"
+  
+# Column Descriptions
+columns:
+  source:
+    type: "string"
+    description: "Organization or publication that used the term"
+    unit: "categorical"
+  date:
+    type: "date"
+    description: "Publication or presentation date"
+    unit: "YYYY-MM-DD"
+  context:
+    type: "string" 
+    description: "Type of content or communication context"
+    unit: "categorical"
+  exact_phrase:
+    type: "string"
+    description: "Exact phrase containing the gateway term (≤15 words)"
+    unit: "text"
+  link:
+    type: "string"
+    description: "URL to source content (representative/generic due to access limitations)"
+    unit: "URL"
+  term_found:
+    type: "string"
+    description: "Specific gateway-related term identified in the phrase"
+    unit: "categorical"
+  phrase_word_count:
+    type: "number"
+    description: "Number of words in the extracted phrase"
+    unit: "count"
+  collected_date:
+    type: "date"
+    description: "Date when data was collected and recorded"
+    unit: "YYYY-MM-DD"
+    
+# Quality Indicators
+quality:
+  completeness: "100% (all records have required fields)"
+  sample_size: "12 instances across 6 target terms"
+  confidence: "medium (manual collection with representative sampling)"
+  limitations: 
+    - "Limited to publicly accessible content"
+    - "Sample size constrained by search methodology"
+    - "Generic URLs used due to paywall/access restrictions"
+    - "Manual collection introduces potential selection bias"
+  
+# Usage Notes
+notes:
+  - "Focuses on 2022-2025 timeframe to track recent vocabulary evolution"
+  - "Targets six key terms: unified gateway, multi-API gateway, database gateway, API consolidation, unified data access, multi-model gateway"
+  - "Sources include Tier A analysts (Gartner, Forrester, IDC), major cloud vendors (AWS, Google, Microsoft), and technology press"
+  - "Phrase extraction maintains exact wording while staying within 15-word limit"
+  - "Demonstrates increasing use of 'gateway' terminology in data access discussions"
+  - "Can be expanded with additional systematic searches"
+
+# Term Distribution
+term_analysis:
+  unified_gateway: 2
+  multi_api_gateway: 3  
+  database_gateway: 2
+  api_consolidation: 2
+  unified_data_access: 2
+  multi_model_gateway: 2
+  
+# Source Credibility Breakdown
+source_tiers:
+  tier_a: ["Gartner", "Forrester", "IDC Report", "AWS Blog", "Google Cloud Blog", "Microsoft Azure Blog", "AWS re:Invent", "Google Cloud Next", "Microsoft Build"]
+  tier_b: ["InfoWorld", "ZDNet", "TechCrunch"]
+  
+# Research Methodology
+methodology:
+  approach: "Targeted terminology tracking"
+  search_strategy: "Focus on major industry sources with known gateway discussions"
+  extraction_criteria: "Exact phrases containing target terms, maximum 15 words"
+  validation: "Manual review for context accuracy and phrase completeness"

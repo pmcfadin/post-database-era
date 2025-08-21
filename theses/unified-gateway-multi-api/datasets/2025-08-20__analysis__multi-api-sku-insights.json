@@ -1,0 +1,82 @@
+{
+  "analysis_date": "2025-08-20T16:43:31.546330",
+  "total_skus": 24,
+  "multi_api_skus": 19,
+  "gateway_skus": 5,
+  "api_support_counts": {
+    "sql": 17,
+    "doc": 9,
+    "kv": 13,
+    "graph": 7,
+    "search": 10
+  },
+  "vendor_categories": {
+    "cloud_hyperscaler": 15,
+    "specialist_vendor": 5,
+    "emerging_vendor": 4
+  },
+  "temporal_stats": {
+    "2019": {
+      "total": 2,
+      "multi_api": 2,
+      "gateway": 0
+    },
+    "2012": {
+      "total": 1,
+      "multi_api": 1,
+      "gateway": 0
+    },
+    "2017": {
+      "total": 6,
+      "multi_api": 5,
+      "gateway": 2
+    },
+    "2015": {
+      "total": 3,
+      "multi_api": 2,
+      "gateway": 0
+    },
+    "2020": {
+      "total": 4,
+      "multi_api": 2,
+      "gateway": 1
+    },
+    "2021": {
+      "total": 1,
+      "multi_api": 1,
+      "gateway": 0
+    },
+    "2024": {
+      "total": 1,
+      "multi_api": 0,
+      "gateway": 0
+    },
+    "2022": {
+      "total": 2,
+      "multi_api": 2,
+      "gateway": 1
+    },
+    "2014": {
+      "total": 2,
+      "multi_api": 2,
+      "gateway": 0
+    },
+    "2016": {
+      "total": 1,
+      "multi_api": 1,
+      "gateway": 0
+    },
+    "2018": {
+      "total": 1,
+      "multi_api": 1,
+      "gateway": 1
+    }
+  },
+  "top_api_combinations": {
+    "kv+search+sql": 3,
+    "kv+search": 3,
+    "doc+sql": 2,
+    "graph+sql": 2,
+    "doc+graph+kv+sql": 2
+  }
+}

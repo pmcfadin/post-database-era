@@ -1,0 +1,32 @@
+platform,launch_date,default_multi_api,description,link
+SurrealDB,2022-03-01,True,"Multi-model database with SQL, GraphQL, and REST APIs built-in",https://surrealdb.com
+EdgeDB,2022-02-01,False,"Graph-relational database with custom EdgeQL, later added GraphQL",https://edgedb.com
+Xata,2022-05-01,True,"Serverless database with REST API, GraphQL, and SQL support",https://xata.io
+PlanetScale,2021-06-01,False,"MySQL-compatible serverless database, initially SQL-only",https://planetscale.com
+Neon,2022-06-01,False,"Serverless Postgres with branching, SQL-focused initially",https://neon.tech
+Turso,2023-03-01,True,Edge SQLite with HTTP API and SQL support from launch,https://turso.tech
+Weaviate,2021-01-01,True,"Vector database with GraphQL, REST, and gRPC APIs",https://weaviate.io
+Qdrant,2021-05-01,True,Vector database with REST API and gRPC support,https://qdrant.tech
+Chroma,2022-10-01,True,"AI-native vector database with Python, REST APIs",https://trychroma.com
+LanceDB,2023-05-01,True,Vector database with SQL and Python APIs,https://lancedb.com
+Amazon DocumentDB (with MongoDB compatibility),2020-01-01,False,MongoDB-compatible document database service,https://aws.amazon.com/documentdb/
+Amazon Timestream,2020-09-01,False,Time series database service with SQL interface,https://aws.amazon.com/timestream/
+Azure Cosmos DB for PostgreSQL,2021-05-01,True,"Distributed PostgreSQL with SQL, MongoDB, Cassandra APIs",https://azure.microsoft.com/en-us/services/cosmos-db/
+Google Cloud Spanner Graph,2023-08-01,True,Graph capabilities added to Spanner with SQL and GQL support,https://cloud.google.com/spanner
+Google AlloyDB,2022-05-01,False,"PostgreSQL-compatible database service, SQL-focused",https://cloud.google.com/alloydb
+Pinecone,2021-01-01,True,Managed vector database with REST API and Python SDK,https://pinecone.io
+Milvus,2020-10-01,True,"Open-source vector database with gRPC, REST, Python APIs",https://milvus.io
+Vespa,2020-09-01,True,"Big data serving engine with REST, gRPC, and Java APIs",https://vespa.ai
+ClickHouse Cloud,2022-10-01,True,"Managed ClickHouse with SQL, HTTP, and gRPC interfaces",https://clickhouse.com/cloud
+Databricks SQL Serverless,2021-06-01,True,Serverless SQL with REST API and JDBC/ODBC support,https://databricks.com/product/sql
+SingleStore Helios,2021-09-01,True,"Cloud-native database with SQL, REST, and streaming APIs",https://singlestore.com
+FaunaDB (now Fauna),2020-06-01,True,"Serverless database with GraphQL, FQL, and REST APIs",https://fauna.com
+Upstash Redis,2021-03-01,True,Serverless Redis with REST API and Redis protocol,https://upstash.com
+TigerGraph Cloud,2020-04-01,True,Graph database cloud service with REST API and GSQL,https://tigergraph.com
+Neo4j AuraDB,2020-11-01,True,"Managed graph database with Cypher, REST, and GraphQL APIs",https://neo4j.com/aura/
+ArangoDB Oasis,2020-02-01,True,"Multi-model cloud database with AQL, REST, and GraphQL",https://arangodb.com/managed-service/
+TileDB Cloud,2021-04-01,True,"Universal data engine with SQL, REST, and Python APIs",https://tiledb.com
+Dolt,2021-08-01,True,Git-like database with SQL and REST API interfaces,https://doltdb.com
+Convex,2023-01-01,True,Backend-as-a-service with real-time database and multiple APIs,https://convex.dev
+Supabase Edge Functions,2022-08-01,True,"Postgres with REST API, GraphQL, and real-time subscriptions",https://supabase.com
+PolyScale,2022-11-01,True,Database cache with REST API and SQL protocol support,https://polyscale.ai

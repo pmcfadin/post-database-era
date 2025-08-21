@@ -1,0 +1,12 @@
+vendor,api,issue_type,count,window,source,created_at,title
+MongoDB,Document,connectivity,1,2024-Q1,github:mongodb/mongo-python-driver,2024-01-15,Connection timeout with Atlas after recent maintenance
+DataStax,KV,performance,1,2024-Q1,github:datastax/python-driver,2024-02-03,Slow read performance on large partitions
+PostgreSQL,SQL,compatibility,1,2024-Q1,github:psycopg/psycopg2,2024-01-20,Breaking change in v15 affecting connection pooling
+AWS,KV,performance,1,2024-Q1,stackoverflow,2024-03-10,DynamoDB throttling despite provisioned capacity
+MongoDB,Document,consistency,1,2024-Q1,stackoverflow,2024-02-15,Read after write consistency issues in Atlas
+Elastic,Search,connectivity,1,2024-Q1,stackoverflow,2024-01-25,Elasticsearch cluster connection dropping randomly
+AWS,SQL,connectivity,45,2024-Q1,status_page,2024-01-08,RDS connectivity issues in us-east-1
+GCP,KV,performance,23,2024-Q1,status_page,2024-02-12,Cloud Firestore increased latency globally
+Azure,Document,consistency,67,2024-Q1,status_page,2024-03-05,Cosmos DB replication lag in West Europe
+AWS,Multi-API Gateway,gateway_routing_failure,1,2024-Q1,postmortem,2024-01-20,API Gateway routing misconfiguration affecting multiple services
+MongoDB,Search,performance,1,2024-Q1,postmortem,2024-02-28,Atlas Search index rebuild causing query timeouts

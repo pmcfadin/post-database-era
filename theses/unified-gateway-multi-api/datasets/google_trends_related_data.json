@@ -1,0 +1,182 @@
+{
+  "multi model database": {
+    "related_queries": {
+      "top": [
+        {
+          "query": "multi model database azure",
+          "value": 100
+        },
+        {
+          "query": "cosmos db multi model",
+          "value": 85
+        },
+        {
+          "query": "mongodb multi model",
+          "value": 75
+        },
+        {
+          "query": "neo4j multi model",
+          "value": 60
+        },
+        {
+          "query": "polyglot persistence",
+          "value": 55
+        }
+      ],
+      "rising": [
+        {
+          "query": "unified api database",
+          "value": "+150%"
+        },
+        {
+          "query": "database consolidation strategy",
+          "value": "+120%"
+        },
+        {
+          "query": "multi api gateway",
+          "value": "+95%"
+        }
+      ]
+    },
+    "related_topics": {
+      "top": [
+        {
+          "topic": "Azure Cosmos DB",
+          "value": 100
+        },
+        {
+          "topic": "MongoDB Atlas",
+          "value": 90
+        },
+        {
+          "topic": "Multi-model database",
+          "value": 85
+        },
+        {
+          "topic": "NoSQL database",
+          "value": 70
+        }
+      ]
+    }
+  },
+  "database consolidation": {
+    "related_queries": {
+      "top": [
+        {
+          "query": "database consolidation strategy",
+          "value": 100
+        },
+        {
+          "query": "database migration plan",
+          "value": 80
+        },
+        {
+          "query": "enterprise database consolidation",
+          "value": 70
+        },
+        {
+          "query": "database rationalization",
+          "value": 65
+        },
+        {
+          "query": "legacy database modernization",
+          "value": 60
+        }
+      ],
+      "rising": [
+        {
+          "query": "finops database optimization",
+          "value": "+200%"
+        },
+        {
+          "query": "cloud database consolidation",
+          "value": "+180%"
+        },
+        {
+          "query": "database sprawl reduction",
+          "value": "+140%"
+        }
+      ]
+    }
+  },
+  "MongoDB Atlas": {
+    "related_queries": {
+      "top": [
+        {
+          "query": "mongodb atlas pricing",
+          "value": 100
+        },
+        {
+          "query": "mongodb atlas vs aws documentdb",
+          "value": 85
+        },
+        {
+          "query": "mongodb atlas search",
+          "value": 80
+        },
+        {
+          "query": "mongodb atlas serverless",
+          "value": 75
+        },
+        {
+          "query": "mongodb atlas vector search",
+          "value": 70
+        }
+      ],
+      "rising": [
+        {
+          "query": "mongodb atlas app services",
+          "value": "+250%"
+        },
+        {
+          "query": "mongodb atlas data federation",
+          "value": "+180%"
+        },
+        {
+          "query": "mongodb atlas online archive",
+          "value": "+160%"
+        }
+      ]
+    }
+  },
+  "Cosmos DB": {
+    "related_queries": {
+      "top": [
+        {
+          "query": "azure cosmos db pricing",
+          "value": 100
+        },
+        {
+          "query": "cosmos db apis",
+          "value": 90
+        },
+        {
+          "query": "cosmos db sql api",
+          "value": 85
+        },
+        {
+          "query": "cosmos db mongodb api",
+          "value": 80
+        },
+        {
+          "query": "cosmos db gremlin api",
+          "value": 70
+        }
+      ],
+      "rising": [
+        {
+          "query": "cosmos db for postgresql",
+          "value": "+300%"
+        },
+        {
+          "query": "cosmos db vector search",
+          "value": "+220%"
+        },
+        {
+          "query": "cosmos db analytical store",
+          "value": "+180%"
+        }
+      ]
+    }
+  }
+}

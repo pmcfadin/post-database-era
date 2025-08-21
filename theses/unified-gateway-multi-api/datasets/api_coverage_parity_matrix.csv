@@ -1,0 +1,176 @@
+vendor,service,api,feature,status,added_date,doc_url
+AWS,DocumentDB,MongoDB Wire Protocol,Create Operations,GA,2019-01-09,https://docs.aws.amazon.com/documentdb/latest/developerguide/mongo-apis.html
+AWS,DocumentDB,MongoDB Wire Protocol,Read Operations,GA,2019-01-09,https://docs.aws.amazon.com/documentdb/latest/developerguide/mongo-apis.html
+AWS,DocumentDB,MongoDB Wire Protocol,Update Operations,GA,2019-01-09,https://docs.aws.amazon.com/documentdb/latest/developerguide/mongo-apis.html
+AWS,DocumentDB,MongoDB Wire Protocol,Delete Operations,GA,2019-01-09,https://docs.aws.amazon.com/documentdb/latest/developerguide/mongo-apis.html
+AWS,DocumentDB,MongoDB Wire Protocol,Primary Index,GA,2019-01-09,https://docs.aws.amazon.com/documentdb/latest/developerguide/indexes.html
+AWS,DocumentDB,MongoDB Wire Protocol,Secondary Index,GA,2019-01-09,https://docs.aws.amazon.com/documentdb/latest/developerguide/indexes.html
+AWS,DocumentDB,MongoDB Wire Protocol,Compound Index,GA,2019-01-09,https://docs.aws.amazon.com/documentdb/latest/developerguide/indexes.html
+AWS,DocumentDB,MongoDB Wire Protocol,Text Search Index,GA,2019-01-09,https://docs.aws.amazon.com/documentdb/latest/developerguide/text-search.html
+AWS,DocumentDB,MongoDB Wire Protocol,Pagination (skip/limit),GA,2019-01-09,https://docs.aws.amazon.com/documentdb/latest/developerguide/mongo-apis.html
+AWS,DocumentDB,MongoDB Wire Protocol,Cursor-based Pagination,GA,2019-01-09,https://docs.aws.amazon.com/documentdb/latest/developerguide/mongo-apis.html
+AWS,DocumentDB,MongoDB Wire Protocol,Multi-document Transactions,GA,2020-11-18,https://docs.aws.amazon.com/documentdb/latest/developerguide/transactions.html
+AWS,DocumentDB,MongoDB Wire Protocol,Read Concern - Local,GA,2019-01-09,https://docs.aws.amazon.com/documentdb/latest/developerguide/consistency.html
+AWS,DocumentDB,MongoDB Wire Protocol,Read Concern - Available,GA,2019-01-09,https://docs.aws.amazon.com/documentdb/latest/developerguide/consistency.html
+AWS,DocumentDB,MongoDB Wire Protocol,Read Concern - Majority,GA,2020-05-11,https://docs.aws.amazon.com/documentdb/latest/developerguide/consistency.html
+AWS,DocumentDB,MongoDB Wire Protocol,Eventual Consistency,GA,2019-01-09,https://docs.aws.amazon.com/documentdb/latest/developerguide/consistency.html
+AWS,DynamoDB,DynamoDB API,Create Operations (PutItem),GA,2012-01-25,https://docs.aws.amazon.com/dynamodb/latest/APIReference/API_PutItem.html
+AWS,DynamoDB,DynamoDB API,Read Operations (GetItem),GA,2012-01-25,https://docs.aws.amazon.com/dynamodb/latest/APIReference/API_GetItem.html
+AWS,DynamoDB,DynamoDB API,Update Operations (UpdateItem),GA,2012-01-25,https://docs.aws.amazon.com/dynamodb/latest/APIReference/API_UpdateItem.html
+AWS,DynamoDB,DynamoDB API,Delete Operations (DeleteItem),GA,2012-01-25,https://docs.aws.amazon.com/dynamodb/latest/APIReference/API_DeleteItem.html
+AWS,DynamoDB,DynamoDB API,Primary Index (Hash),GA,2012-01-25,https://docs.aws.amazon.com/dynamodb/latest/developerguide/HowItWorks.CoreComponents.html
+AWS,DynamoDB,DynamoDB API,Primary Index (Hash+Range),GA,2012-01-25,https://docs.aws.amazon.com/dynamodb/latest/developerguide/HowItWorks.CoreComponents.html
+AWS,DynamoDB,DynamoDB API,Global Secondary Index,GA,2013-12-12,https://docs.aws.amazon.com/dynamodb/latest/developerguide/GSI.html
+AWS,DynamoDB,DynamoDB API,Local Secondary Index,GA,2013-04-18,https://docs.aws.amazon.com/dynamodb/latest/developerguide/LSI.html
+AWS,DynamoDB,DynamoDB API,Full Text Search,NA,NA,https://docs.aws.amazon.com/dynamodb/latest/developerguide/Searching.html
+AWS,DynamoDB,DynamoDB API,Pagination (LastEvaluatedKey),GA,2012-01-25,https://docs.aws.amazon.com/dynamodb/latest/APIReference/API_Query.html#DDB-Query-request-ExclusiveStartKey
+AWS,DynamoDB,DynamoDB API,Token-based Pagination,GA,2012-01-25,https://docs.aws.amazon.com/dynamodb/latest/developerguide/Query.Pagination.html
+AWS,DynamoDB,DynamoDB API,Transactions,GA,2018-11-27,https://docs.aws.amazon.com/dynamodb/latest/developerguide/transaction-apis.html
+AWS,DynamoDB,DynamoDB API,Strong Consistency,GA,2012-01-25,https://docs.aws.amazon.com/dynamodb/latest/developerguide/HowItWorks.ReadConsistency.html
+AWS,DynamoDB,DynamoDB API,Eventual Consistency,GA,2012-01-25,https://docs.aws.amazon.com/dynamodb/latest/developerguide/HowItWorks.ReadConsistency.html
+AWS,Neptune,Gremlin API,Create Operations (addV/addE),GA,2018-05-30,https://docs.aws.amazon.com/neptune/latest/userguide/access-graph-gremlin.html
+AWS,Neptune,Gremlin API,Read Operations (V/E),GA,2018-05-30,https://docs.aws.amazon.com/neptune/latest/userguide/access-graph-gremlin.html
+AWS,Neptune,Gremlin API,Update Operations (property),GA,2018-05-30,https://docs.aws.amazon.com/neptune/latest/userguide/access-graph-gremlin.html
+AWS,Neptune,Gremlin API,Delete Operations (drop),GA,2018-05-30,https://docs.aws.amazon.com/neptune/latest/userguide/access-graph-gremlin.html
+AWS,Neptune,SPARQL API,Create Operations (INSERT),GA,2018-05-30,https://docs.aws.amazon.com/neptune/latest/userguide/access-graph-sparql.html
+AWS,Neptune,SPARQL API,Read Operations (SELECT),GA,2018-05-30,https://docs.aws.amazon.com/neptune/latest/userguide/access-graph-sparql.html
+AWS,Neptune,SPARQL API,Update Operations (UPDATE),GA,2018-05-30,https://docs.aws.amazon.com/neptune/latest/userguide/access-graph-sparql.html
+AWS,Neptune,SPARQL API,Delete Operations (DELETE),GA,2018-05-30,https://docs.aws.amazon.com/neptune/latest/userguide/access-graph-sparql.html
+AWS,Neptune,Gremlin API,Automatic Indexing,GA,2018-05-30,https://docs.aws.amazon.com/neptune/latest/userguide/feature-overview-indexing.html
+AWS,Neptune,SPARQL API,Triple Index,GA,2018-05-30,https://docs.aws.amazon.com/neptune/latest/userguide/feature-overview-indexing.html
+AWS,Neptune,Gremlin API,Composite Index,Preview,2023-09-01,https://docs.aws.amazon.com/neptune/latest/userguide/feature-overview-indexing.html
+AWS,Neptune,Gremlin API,Full Text Search,Preview,2022-03-15,https://docs.aws.amazon.com/neptune/latest/userguide/full-text-search.html
+AWS,Neptune,Gremlin API,Pagination (range/limit),GA,2018-05-30,https://docs.aws.amazon.com/neptune/latest/userguide/access-graph-gremlin.html
+AWS,Neptune,SPARQL API,Pagination (LIMIT/OFFSET),GA,2018-05-30,https://docs.aws.amazon.com/neptune/latest/userguide/access-graph-sparql.html
+AWS,Neptune,Gremlin API,Multi-statement Transactions,NA,NA,https://docs.aws.amazon.com/neptune/latest/userguide/transactions.html
+AWS,Neptune,SPARQL API,Multi-statement Transactions,NA,NA,https://docs.aws.amazon.com/neptune/latest/userguide/transactions.html
+AWS,Neptune,Gremlin API,Strong Read Consistency,GA,2018-05-30,https://docs.aws.amazon.com/neptune/latest/userguide/consistency.html
+AWS,Neptune,SPARQL API,Strong Read Consistency,GA,2018-05-30,https://docs.aws.amazon.com/neptune/latest/userguide/consistency.html
+AWS,Neptune,Gremlin API,Eventual Consistency,GA,2018-05-30,https://docs.aws.amazon.com/neptune/latest/userguide/consistency.html
+Azure,Cosmos DB,SQL API,Create Operations (CREATE),GA,2017-05-10,https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-api-introduction
+Azure,Cosmos DB,SQL API,Read Operations (SELECT),GA,2017-05-10,https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-api-introduction
+Azure,Cosmos DB,SQL API,Update Operations (REPLACE),GA,2017-05-10,https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-api-introduction
+Azure,Cosmos DB,SQL API,Delete Operations (DELETE),GA,2017-05-10,https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-api-introduction
+Azure,Cosmos DB,MongoDB API,Create Operations,GA,2017-05-10,https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb/introduction
+Azure,Cosmos DB,MongoDB API,Read Operations,GA,2017-05-10,https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb/introduction
+Azure,Cosmos DB,MongoDB API,Update Operations,GA,2017-05-10,https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb/introduction
+Azure,Cosmos DB,MongoDB API,Delete Operations,GA,2017-05-10,https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb/introduction
+Azure,Cosmos DB,Gremlin API,Create Operations,GA,2017-11-15,https://docs.microsoft.com/en-us/azure/cosmos-db/gremlin/introduction
+Azure,Cosmos DB,Gremlin API,Read Operations,GA,2017-11-15,https://docs.microsoft.com/en-us/azure/cosmos-db/gremlin/introduction
+Azure,Cosmos DB,Gremlin API,Update Operations,GA,2017-11-15,https://docs.microsoft.com/en-us/azure/cosmos-db/gremlin/introduction
+Azure,Cosmos DB,Gremlin API,Delete Operations,GA,2017-11-15,https://docs.microsoft.com/en-us/azure/cosmos-db/gremlin/introduction
+Azure,Cosmos DB,Table API,Create Operations,GA,2017-05-10,https://docs.microsoft.com/en-us/azure/cosmos-db/table/introduction
+Azure,Cosmos DB,Table API,Read Operations,GA,2017-05-10,https://docs.microsoft.com/en-us/azure/cosmos-db/table/introduction
+Azure,Cosmos DB,Table API,Update Operations,GA,2017-05-10,https://docs.microsoft.com/en-us/azure/cosmos-db/table/introduction
+Azure,Cosmos DB,Table API,Delete Operations,GA,2017-05-10,https://docs.microsoft.com/en-us/azure/cosmos-db/table/introduction
+Azure,Cosmos DB,SQL API,Automatic Indexing,GA,2017-05-10,https://docs.microsoft.com/en-us/azure/cosmos-db/index-policy
+Azure,Cosmos DB,SQL API,Composite Index,GA,2017-05-10,https://docs.microsoft.com/en-us/azure/cosmos-db/index-policy
+Azure,Cosmos DB,SQL API,Spatial Index,GA,2017-05-10,https://docs.microsoft.com/en-us/azure/cosmos-db/sql/geospatial
+Azure,Cosmos DB,SQL API,Full Text Search,Preview,2023-05-15,https://docs.microsoft.com/en-us/azure/cosmos-db/vector-search
+Azure,Cosmos DB,MongoDB API,Index Support,GA,2017-05-10,https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb/indexing
+Azure,Cosmos DB,SQL API,Offset/Limit Pagination,GA,2017-05-10,https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-query-offset-limit
+Azure,Cosmos DB,SQL API,Continuation Token,GA,2017-05-10,https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-query-pagination
+Azure,Cosmos DB,MongoDB API,Skip/Limit Pagination,GA,2017-05-10,https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb/introduction
+Azure,Cosmos DB,SQL API,Multi-document Transactions,Preview,2023-11-15,https://docs.microsoft.com/en-us/azure/cosmos-db/sql/transactional-batch
+Azure,Cosmos DB,MongoDB API,Multi-document Transactions,GA,2019-06-13,https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb/transactions
+Azure,Cosmos DB,SQL API,Strong Consistency,GA,2017-05-10,https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels
+Azure,Cosmos DB,SQL API,Bounded Staleness,GA,2017-05-10,https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels
+Azure,Cosmos DB,SQL API,Session Consistency,GA,2017-05-10,https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels
+Azure,Cosmos DB,SQL API,Consistent Prefix,GA,2017-05-10,https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels
+Azure,Cosmos DB,SQL API,Eventual Consistency,GA,2017-05-10,https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels
+GCP,Firestore,Native API,Create Operations,GA,2019-01-31,https://cloud.google.com/firestore/docs/manage-data/add-data
+GCP,Firestore,Native API,Read Operations,GA,2019-01-31,https://cloud.google.com/firestore/docs/query-data/get-data
+GCP,Firestore,Native API,Update Operations,GA,2019-01-31,https://cloud.google.com/firestore/docs/manage-data/add-data#update_data
+GCP,Firestore,Native API,Delete Operations,GA,2019-01-31,https://cloud.google.com/firestore/docs/manage-data/delete-data
+GCP,Firestore,Native API,Single-field Index,GA,2019-01-31,https://cloud.google.com/firestore/docs/query-data/indexing
+GCP,Firestore,Native API,Composite Index,GA,2019-01-31,https://cloud.google.com/firestore/docs/query-data/indexing
+GCP,Firestore,Native API,Array-contains Index,GA,2019-01-31,https://cloud.google.com/firestore/docs/query-data/indexing
+GCP,Firestore,Native API,Full Text Search,Preview,2023-03-14,https://cloud.google.com/firestore/docs/vector-search
+GCP,Firestore,Native API,Cursor-based Pagination,GA,2019-01-31,https://cloud.google.com/firestore/docs/query-data/query-cursors
+GCP,Firestore,Native API,Offset Pagination,GA,2019-01-31,https://cloud.google.com/firestore/docs/query-data/query-cursors
+GCP,Firestore,Native API,Multi-document Transactions,GA,2019-01-31,https://cloud.google.com/firestore/docs/manage-data/transactions
+GCP,Firestore,Native API,Strong Consistency,GA,2019-01-31,https://cloud.google.com/firestore/docs/data-model#data_consistency
+GCP,Firestore,Native API,Eventual Consistency,GA,2019-01-31,https://cloud.google.com/firestore/docs/data-model#data_consistency
+GCP,Cloud SQL,MySQL API,Create Operations,GA,2011-10-06,https://cloud.google.com/sql/docs/mysql
+GCP,Cloud SQL,MySQL API,Read Operations,GA,2011-10-06,https://cloud.google.com/sql/docs/mysql
+GCP,Cloud SQL,MySQL API,Update Operations,GA,2011-10-06,https://cloud.google.com/sql/docs/mysql
+GCP,Cloud SQL,MySQL API,Delete Operations,GA,2011-10-06,https://cloud.google.com/sql/docs/mysql
+GCP,Cloud SQL,PostgreSQL API,Create Operations,GA,2017-03-28,https://cloud.google.com/sql/docs/postgres
+GCP,Cloud SQL,PostgreSQL API,Read Operations,GA,2017-03-28,https://cloud.google.com/sql/docs/postgres
+GCP,Cloud SQL,PostgreSQL API,Update Operations,GA,2017-03-28,https://cloud.google.com/sql/docs/postgres
+GCP,Cloud SQL,PostgreSQL API,Delete Operations,GA,2017-03-28,https://cloud.google.com/sql/docs/postgres
+GCP,Cloud SQL,MySQL API,Primary Index,GA,2011-10-06,https://cloud.google.com/sql/docs/mysql/indexes
+GCP,Cloud SQL,MySQL API,Secondary Index,GA,2011-10-06,https://cloud.google.com/sql/docs/mysql/indexes
+GCP,Cloud SQL,MySQL API,Full Text Index,GA,2011-10-06,https://cloud.google.com/sql/docs/mysql/indexes
+GCP,Cloud SQL,PostgreSQL API,Primary Index,GA,2017-03-28,https://cloud.google.com/sql/docs/postgres/indexes
+GCP,Cloud SQL,PostgreSQL API,Secondary Index,GA,2017-03-28,https://cloud.google.com/sql/docs/postgres/indexes
+GCP,Cloud SQL,PostgreSQL API,GIN Index,GA,2017-03-28,https://cloud.google.com/sql/docs/postgres/indexes
+GCP,Cloud SQL,MySQL API,LIMIT/OFFSET Pagination,GA,2011-10-06,https://cloud.google.com/sql/docs/mysql
+GCP,Cloud SQL,PostgreSQL API,LIMIT/OFFSET Pagination,GA,2017-03-28,https://cloud.google.com/sql/docs/postgres
+GCP,Cloud SQL,MySQL API,ACID Transactions,GA,2011-10-06,https://cloud.google.com/sql/docs/mysql
+GCP,Cloud SQL,PostgreSQL API,ACID Transactions,GA,2017-03-28,https://cloud.google.com/sql/docs/postgres
+GCP,Cloud SQL,MySQL API,Strong Consistency,GA,2011-10-06,https://cloud.google.com/sql/docs/mysql
+GCP,Cloud SQL,PostgreSQL API,Strong Consistency,GA,2017-03-28,https://cloud.google.com/sql/docs/postgres
+MongoDB,Atlas,MongoDB API,Create Operations,GA,2016-06-28,https://docs.mongodb.com/manual/crud/#create-operations
+MongoDB,Atlas,MongoDB API,Read Operations,GA,2016-06-28,https://docs.mongodb.com/manual/crud/#read-operations
+MongoDB,Atlas,MongoDB API,Update Operations,GA,2016-06-28,https://docs.mongodb.com/manual/crud/#update-operations
+MongoDB,Atlas,MongoDB API,Delete Operations,GA,2016-06-28,https://docs.mongodb.com/manual/crud/#delete-operations
+MongoDB,Atlas,MongoDB API,Primary Index (_id),GA,2016-06-28,https://docs.mongodb.com/manual/indexes/#default-id-index
+MongoDB,Atlas,MongoDB API,Secondary Index,GA,2016-06-28,https://docs.mongodb.com/manual/indexes/#secondary-indexes
+MongoDB,Atlas,MongoDB API,Compound Index,GA,2016-06-28,https://docs.mongodb.com/manual/core/index-compound/
+MongoDB,Atlas,MongoDB API,Text Search Index,GA,2016-06-28,https://docs.mongodb.com/manual/core/index-text/
+MongoDB,Atlas,MongoDB API,Atlas Search,GA,2020-06-23,https://docs.atlas.mongodb.com/atlas-search/
+MongoDB,Atlas,MongoDB API,Skip/Limit Pagination,GA,2016-06-28,https://docs.mongodb.com/manual/reference/method/cursor.skip/
+MongoDB,Atlas,MongoDB API,Cursor Pagination,GA,2016-06-28,https://docs.mongodb.com/manual/tutorial/iterate-a-cursor/
+MongoDB,Atlas,MongoDB API,Multi-document Transactions,GA,2018-06-27,https://docs.mongodb.com/manual/core/transactions/
+MongoDB,Atlas,MongoDB API,Read Concern - Local,GA,2016-06-28,https://docs.mongodb.com/manual/reference/read-concern/
+MongoDB,Atlas,MongoDB API,Read Concern - Available,GA,2016-06-28,https://docs.mongodb.com/manual/reference/read-concern/
+MongoDB,Atlas,MongoDB API,Read Concern - Majority,GA,2016-06-28,https://docs.mongodb.com/manual/reference/read-concern/
+MongoDB,Atlas,MongoDB API,Read Concern - Linearizable,GA,2016-06-28,https://docs.mongodb.com/manual/reference/read-concern/
+DataStax,Astra DB,CQL API,Create Operations (INSERT),GA,2020-07-14,https://docs.datastax.com/en/astra/docs/
+DataStax,Astra DB,CQL API,Read Operations (SELECT),GA,2020-07-14,https://docs.datastax.com/en/astra/docs/
+DataStax,Astra DB,CQL API,Update Operations (UPDATE),GA,2020-07-14,https://docs.datastax.com/en/astra/docs/
+DataStax,Astra DB,CQL API,Delete Operations (DELETE),GA,2020-07-14,https://docs.datastax.com/en/astra/docs/
+DataStax,Astra DB,Document API,Create Operations,GA,2021-07-20,https://docs.datastax.com/en/astra/docs/document-api.html
+DataStax,Astra DB,Document API,Read Operations,GA,2021-07-20,https://docs.datastax.com/en/astra/docs/document-api.html
+DataStax,Astra DB,Document API,Update Operations,GA,2021-07-20,https://docs.datastax.com/en/astra/docs/document-api.html
+DataStax,Astra DB,Document API,Delete Operations,GA,2021-07-20,https://docs.datastax.com/en/astra/docs/document-api.html
+DataStax,Astra DB,CQL API,Primary Index,GA,2020-07-14,https://docs.datastax.com/en/astra/docs/
+DataStax,Astra DB,CQL API,Secondary Index,GA,2020-07-14,https://docs.datastax.com/en/astra/docs/
+DataStax,Astra DB,CQL API,Custom Index,GA,2020-07-14,https://docs.datastax.com/en/astra/docs/
+DataStax,Astra DB,CQL API,Full Text Search (Solr),Preview,2021-03-15,https://docs.datastax.com/en/astra/docs/search-indexes.html
+DataStax,Astra DB,Document API,Automatic Indexing,GA,2021-07-20,https://docs.datastax.com/en/astra/docs/document-api.html
+DataStax,Astra DB,CQL API,Token-based Pagination,GA,2020-07-14,https://docs.datastax.com/en/astra/docs/
+DataStax,Astra DB,Document API,Cursor Pagination,GA,2021-07-20,https://docs.datastax.com/en/astra/docs/document-api.html
+DataStax,Astra DB,CQL API,Lightweight Transactions,GA,2020-07-14,https://docs.datastax.com/en/astra/docs/
+DataStax,Astra DB,CQL API,Tunable Consistency,GA,2020-07-14,https://docs.datastax.com/en/astra/docs/
+DataStax,Astra DB,CQL API,Eventual Consistency,GA,2020-07-14,https://docs.datastax.com/en/astra/docs/
+DataStax,Astra DB,Document API,Eventual Consistency,GA,2021-07-20,https://docs.datastax.com/en/astra/docs/document-api.html
+Neo4j,Aura,Cypher API,Create Operations (CREATE),GA,2021-06-29,https://neo4j.com/docs/aura/auradb/
+Neo4j,Aura,Cypher API,Read Operations (MATCH),GA,2021-06-29,https://neo4j.com/docs/aura/auradb/
+Neo4j,Aura,Cypher API,Update Operations (SET),GA,2021-06-29,https://neo4j.com/docs/aura/auradb/
+Neo4j,Aura,Cypher API,Delete Operations (DELETE),GA,2021-06-29,https://neo4j.com/docs/aura/auradb/
+Neo4j,Aura,Cypher API,Node Property Index,GA,2021-06-29,https://neo4j.com/docs/cypher-manual/current/indexes-for-search-performance/
+Neo4j,Aura,Cypher API,Relationship Property Index,GA,2021-06-29,https://neo4j.com/docs/cypher-manual/current/indexes-for-search-performance/
+Neo4j,Aura,Cypher API,Composite Index,GA,2021-06-29,https://neo4j.com/docs/cypher-manual/current/indexes-for-search-performance/
+Neo4j,Aura,Cypher API,Full Text Index,GA,2021-06-29,https://neo4j.com/docs/cypher-manual/current/indexes-for-full-text-search/
+Neo4j,Aura,Cypher API,Range/Vector Index,Preview,2023-08-15,https://neo4j.com/docs/cypher-manual/current/indexes-for-vector-search/
+Neo4j,Aura,Cypher API,Skip/Limit Pagination,GA,2021-06-29,https://neo4j.com/docs/cypher-manual/current/clauses/skip-limit/
+Neo4j,Aura,Cypher API,ACID Transactions,GA,2021-06-29,https://neo4j.com/docs/cypher-manual/current/transactions/
+Neo4j,Aura,Cypher API,Strong Consistency,GA,2021-06-29,https://neo4j.com/docs/operations-manual/current/clustering/
+Elastic,Elasticsearch Service,REST API,Create Operations (Index),GA,2015-02-11,https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-index_.html
+Elastic,Elasticsearch Service,REST API,Read Operations (Get/Search),GA,2015-02-11,https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-get.html
+Elastic,Elasticsearch Service,REST API,Update Operations (Update),GA,2015-02-11,https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-update.html
+Elastic,Elasticsearch Service,REST API,Delete Operations (Delete),GA,2015-02-11,https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-delete.html
+Elastic,Elasticsearch Service,REST API,Inverted Index,GA,2015-02-11,https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis.html
+Elastic,Elasticsearch Service,REST API,Doc Values Index,GA,2015-02-11,https://www.elastic.co/guide/en/elasticsearch/reference/current/doc-values.html
+Elastic,Elasticsearch Service,REST API,Keyword Index,GA,2015-02-11,https://www.elastic.co/guide/en/elasticsearch/reference/current/keyword.html
+Elastic,Elasticsearch Service,REST API,Full Text Search,GA,2015-02-11,https://www.elastic.co/guide/en/elasticsearch/reference/current/full-text-queries.html
+Elastic,Elasticsearch Service,REST API,Vector Search,GA,2019-11-05,https://www.elastic.co/guide/en/elasticsearch/reference/current/knn-search.html
+Elastic,Elasticsearch Service,REST API,From/Size Pagination,GA,2015-02-11,https://www.elastic.co/guide/en/elasticsearch/reference/current/paginate-search-results.html
+Elastic,Elasticsearch Service,REST API,Scroll Pagination,GA,2015-02-11,https://www.elastic.co/guide/en/elasticsearch/reference/current/scroll-api.html
+Elastic,Elasticsearch Service,REST API,Search After Pagination,GA,2015-02-11,https://www.elastic.co/guide/en/elasticsearch/reference/current/paginate-search-results.html#search-after
+Elastic,Elasticsearch Service,REST API,Multi-document Operations,GA,2015-02-11,https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-multi-get.html
+Elastic,Elasticsearch Service,REST API,Optimistic Concurrency,GA,2015-02-11,https://www.elastic.co/guide/en/elasticsearch/reference/current/optimistic-concurrency-control.html
+Elastic,Elasticsearch Service,REST API,Near Real-time Search,GA,2015-02-11,https://www.elastic.co/guide/en/elasticsearch/reference/current/near-real-time.html
+Elastic,Elasticsearch Service,REST API,Eventual Consistency,GA,2015-02-11,https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-refresh.html

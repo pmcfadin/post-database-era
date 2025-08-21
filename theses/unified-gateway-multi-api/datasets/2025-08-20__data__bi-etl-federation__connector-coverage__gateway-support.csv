@@ -1,0 +1,17 @@
+tool,vendor,gateway_supported,api_modes,version,link,category,notes
+Tableau,Salesforce,True,SQL|REST|OData,2023.1,https://help.tableau.com/current/pro/desktop/en-us/examples_web_data_connector.htm,BI,Web Data Connector framework supports unified gateways; native Cosmos DB connector
+Power BI,Microsoft,True,SQL|REST|OData|GraphQL,2023.06,https://docs.microsoft.com/en-us/power-bi/connect-data/desktop-data-sources,BI,Native Cosmos DB connector; supports unified APIs through data gateway
+Looker,Google Cloud,True,SQL|REST,22.20,https://cloud.google.com/looker/docs/connecting-to-your-db,BI,LookML supports custom connections to unified gateways
+Grafana,Grafana Labs,True,SQL|REST|GraphQL,10.0,https://grafana.com/docs/grafana/latest/datasources/,BI,Plugin architecture supports custom gateway connectors
+Metabase,Metabase Inc,False,SQL,0.47,https://www.metabase.com/docs/latest/databases/connecting,BI,Limited to JDBC/ODBC; no native gateway support
+Apache Superset,Apache Foundation,True,SQL|REST,3.0,https://superset.apache.org/docs/databases/installing-database-drivers,BI,SQLAlchemy-based; can connect through gateway SQL interfaces
+Fivetran,Fivetran Inc,False,REST,2024.1,https://fivetran.com/docs/databases,ETL,Individual API connectors only; no unified gateway support
+Stitch,Talend,False,REST,4.5,https://www.stitchdata.com/docs/destinations,ETL,Point-to-point connectors; no gateway abstraction
+Airbyte,Airbyte Inc,True,REST|SQL,0.50,https://docs.airbyte.com/integrations/,ETL,Custom connector framework can support unified gateways
+Apache Airflow,Apache Foundation,True,SQL|REST|GraphQL,2.7,https://airflow.apache.org/docs/apache-airflow-providers/,ETL,Provider packages support gateway connections via hooks
+dbt,dbt Labs,True,SQL,1.6,https://docs.getdbt.com/docs/supported-data-platforms,ETL,Adapter framework supports SQL gateways like Trino
+Kafka Connect,Apache Foundation,True,REST|SQL,7.4,https://docs.confluent.io/platform/current/connect/index.html,ETL,Connector plugins can interface with unified gateways
+Trino,Trino Foundation,True,SQL,430,https://trino.io/docs/current/connector.html,Query Engine,Primary unified gateway for multi-database SQL access
+Presto,Meta,True,SQL,0.281,https://prestodb.io/docs/current/connector.html,Query Engine,Federated query engine; predecessor to Trino
+Apache Drill,Apache Foundation,True,SQL|REST,1.21,https://drill.apache.org/docs/connect-a-data-source/,Query Engine,Schema-free SQL engine with plugin architecture
+Dremio,Dremio Corp,True,SQL|REST,24.1,https://docs.dremio.com/current/sonar/data-sources/,Query Engine,Data lakehouse platform with unified SQL interface

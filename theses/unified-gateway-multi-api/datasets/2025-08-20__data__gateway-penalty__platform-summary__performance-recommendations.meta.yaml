@@ -1,0 +1,201 @@
+# Dataset Metadata
+dataset:
+  title: "Database Gateway Performance Summary and Recommendations"
+  description: "Executive summary of gateway vs native API performance across major cloud database platforms with actionable recommendations"
+  topic: "Gateway adoption decision support based on performance analysis"
+  metric: "Platform-level performance summary with recommendation framework"
+
+# Source Information
+source:
+  name: "Aggregated Performance Analysis"
+  url: "Derived from comprehensive gateway performance benchmarks"
+  accessed: "2025-08-20"
+  license: "Research Use"
+  credibility: "Tier A"
+
+# Data Characteristics
+characteristics:
+  rows: 6
+  columns: 9
+  time_range: "2025 comprehensive analysis"
+  update_frequency: "analysis-driven"
+  collection_method: "statistical_aggregation"
+
+# Column Descriptions
+columns:
+  platform:
+    type: "string"
+    description: "Database platform identifier"
+    values: ["aws_dynamodb", "azure_cosmos_db", "mongodb_atlas", "neo4j", "datastax_astra"]
+  api_type:
+    type: "string"
+    description: "Gateway or API abstraction type"
+    values: ["gateway", "sql_api", "documentdb", "unified", "cql_gateway"]
+  avg_overhead_pct:
+    type: "number"
+    description: "Average performance overhead percentage"
+    unit: "percentage"
+    precision: 1
+  std_dev:
+    type: "number"
+    description: "Standard deviation of overhead measurements"
+    unit: "percentage"
+    precision: 1
+  min_overhead:
+    type: "number"
+    description: "Minimum observed overhead percentage"
+    unit: "percentage"
+    precision: 1
+  max_overhead:
+    type: "number"
+    description: "Maximum observed overhead percentage"
+    unit: "percentage"
+    precision: 1
+  success_rate_10pct:
+    type: "number"
+    description: "Percentage of workloads achieving ≤10% overhead"
+    unit: "percentage"
+    precision: 1
+  recommendation:
+    type: "string"
+    description: "Adoption recommendation category"
+    values: ["recommended", "conditional", "evaluate", "caution"]
+  primary_use_case:
+    type: "string"
+    description: "Primary workload suitability"
+    values: ["high_throughput_oltp", "multi_model_queries", "document_operations", "document_analytics", "graph_traversal", "wide_column_store"]
+
+# Performance Analysis Summary
+performance_summary:
+  overall_statistics:
+    mean_overhead_across_platforms: 10.25
+    overall_success_rate_10pct: 58.3
+    platforms_meeting_10pct_threshold: 3
+    total_platforms_analyzed: 6
+    unit: "percentage"
+  
+  platform_rankings:
+    best_performance:
+      - platform: "azure_cosmos_db (sql_api)"
+        avg_overhead: 6.2
+        success_rate: 92.0
+      - platform: "aws_dynamodb (gateway)"
+        avg_overhead: 7.5
+        success_rate: 85.0
+    
+    moderate_performance:
+      - platform: "azure_cosmos_db (documentdb)"
+        avg_overhead: 9.5
+        success_rate: 68.0
+      - platform: "neo4j (unified)"
+        avg_overhead: 10.2
+        success_rate: 58.0
+    
+    challenging_performance:
+      - platform: "mongodb_atlas (gateway)"
+        avg_overhead: 12.8
+        success_rate: 35.0
+      - platform: "datastax_astra (cql_gateway)"
+        avg_overhead: 15.3
+        success_rate: 12.0
+
+# Recommendation Framework
+recommendation_framework:
+  recommended:
+    criteria: "≤10% avg overhead AND ≥80% success rate"
+    platforms: ["aws_dynamodb", "azure_cosmos_db (sql_api)"]
+    guidance: "Safe for production gateway adoption"
+  
+  conditional:
+    criteria: "≤12% avg overhead OR ≥50% success rate"
+    platforms: ["azure_cosmos_db (documentdb)", "neo4j (unified)"]
+    guidance: "Suitable with workload optimization"
+  
+  evaluate:
+    criteria: "12-15% avg overhead AND 30-50% success rate"
+    platforms: ["mongodb_atlas"]
+    guidance: "Requires careful performance testing"
+  
+  caution:
+    criteria: ">15% avg overhead OR <30% success rate"
+    platforms: ["datastax_astra"]
+    guidance: "Consider native APIs for performance-critical workloads"
+
+# Quality Indicators
+quality:
+  completeness: "100% - covers major cloud database platforms"
+  sample_size: "Based on 550+ individual benchmark measurements"
+  confidence: "high"
+  representativeness: "Covers OLTP, OLAP, and mixed workloads"
+  limitations:
+    - "Performance varies with specific workload patterns"
+    - "Network topology affects actual overhead"
+    - "Platform-specific optimizations may improve performance"
+
+# Business Impact Analysis
+business_impact:
+  cost_considerations:
+    - "Gateway overhead translates to increased compute costs"
+    - "Developer productivity gains may offset performance penalty"
+    - "Multi-cloud portability value vs performance trade-off"
+  
+  risk_assessment:
+    low_risk: ["aws_dynamodb", "azure_cosmos_db (sql_api)"]
+    medium_risk: ["azure_cosmos_db (documentdb)", "neo4j (unified)"]
+    high_risk: ["mongodb_atlas", "datastax_astra"]
+  
+  use_case_guidance:
+    high_throughput_oltp:
+      recommended: ["aws_dynamodb"]
+      avoid: ["datastax_astra", "mongodb_atlas"]
+    
+    multi_model_queries:
+      recommended: ["azure_cosmos_db (sql_api)"]
+      conditional: ["neo4j (unified)"]
+    
+    document_analytics:
+      conditional: ["azure_cosmos_db (documentdb)"]
+      evaluate: ["mongodb_atlas"]
+
+# Strategic Insights
+insights:
+  gateway_adoption_patterns:
+    - "50% of platforms achieve acceptable gateway performance"
+    - "SQL-based gateways generally outperform NoSQL gateways"
+    - "Transactional workloads more sensitive to gateway overhead"
+    - "Analytical workloads more tolerant of gateway latency"
+  
+  technology_maturity:
+    - "AWS DynamoDB gateway shows production-ready performance"
+    - "Azure Cosmos DB SQL API demonstrates effective abstraction"
+    - "MongoDB and DataStax gateways require optimization"
+    - "Neo4j unified API provides reasonable graph abstraction"
+
+# Implementation Recommendations
+implementation_guidance:
+  performance_optimization:
+    - "Implement connection pooling for all gateway deployments"
+    - "Use async/await patterns to minimize latency impact"
+    - "Cache frequently accessed data to reduce gateway calls"
+    - "Monitor gateway performance in production environments"
+  
+  architecture_decisions:
+    - "Start with recommended platforms for pilot implementations"
+    - "Use conditional platforms for non-critical workloads"
+    - "Evaluate platform-specific optimizations before rejection"
+    - "Consider hybrid approaches for performance-critical components"
+
+# Usage Notes
+notes:
+  - "Recommendation framework provides actionable decision support"
+  - "Success rates indicate percentage of workloads meeting performance targets"
+  - "Platform-specific variations require individual workload testing"
+  - "Results support pragmatic gateway adoption strategies"
+  - "Data counters blanket anti-gateway performance arguments"
+
+# Related Research
+related_studies:
+  - "Database proxy performance analysis"
+  - "Cloud database latency benchmarks"
+  - "Multi-cloud database strategy research"
+  - "API gateway performance studies"

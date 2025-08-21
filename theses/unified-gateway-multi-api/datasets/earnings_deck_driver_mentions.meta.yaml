@@ -1,0 +1,69 @@
+# Dataset Metadata
+dataset:
+  title: "Earnings Deck Driver Mentions - Multi-API Database Platforms"
+  description: "Analysis of multi-API and unified platform mentions as top-3 business drivers in quarterly earnings presentations from major database vendors"
+  topic: "Multi-API SKU business validation through earnings driver analysis"
+  metric: "Driver ranking and mention frequency of multi-API/unified platform capabilities"
+  
+# Source Information
+source:
+  name: "Multiple Vendor Investor Relations"
+  url: "Various SEC filings and investor presentations"
+  accessed: "2025-08-20"
+  license: "Public company disclosure information"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 38
+  columns: 6
+  time_range: "Q2-2023 to Q4-2024"
+  update_frequency: "quarterly"
+  collection_method: "Manual extraction from earnings presentations and transcripts"
+  
+# Column Descriptions
+columns:
+  vendor:
+    type: "string"
+    description: "Database vendor company name"
+    unit: "categorical"
+  quarter:
+    type: "string"
+    description: "Quarterly reporting period in Q#-YYYY format"
+    unit: "time_period"
+  slide_ref:
+    type: "string"
+    description: "Reference to specific earnings presentation slide or section"
+    unit: "categorical"
+  driver_rank:
+    type: "number"
+    description: "Ranking of multi-API capability as business driver (1=top, 2=second, 3=third)"
+    unit: "ordinal_rank"
+  phrasing:
+    type: "string"
+    description: "Exact or paraphrased mention of multi-API/unified platform as business driver"
+    unit: "text"
+  link:
+    type: "string"
+    description: "URL to investor relations page or earnings material"
+    unit: "url"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all required fields populated"
+  sample_size: "38 quarterly mentions across 6 major vendors"
+  confidence: "high"
+  limitations: 
+    - "Paraphrased mentions may not capture exact executive phrasing"
+    - "Driver ranking interpretation may vary between analyst interpretation"
+    - "Some earnings materials may be behind investor login portals"
+  
+# Usage Notes
+notes:
+  - "Data shows consistent elevation of multi-API capabilities to top-3 driver status"
+  - "MongoDB and Snowflake most frequently cite platform consolidation as #1 driver"
+  - "Microsoft and Oracle emphasize TCO reduction through database consolidation"
+  - "Amazon focuses on operational complexity reduction messaging"
+  - "Google emphasizes workload consolidation and customer wins"
+  - "Trend shows increasing prominence from Q2-2023 to Q4-2024"
+  - "All vendors position multi-API as revenue growth enabler, not just cost optimization"

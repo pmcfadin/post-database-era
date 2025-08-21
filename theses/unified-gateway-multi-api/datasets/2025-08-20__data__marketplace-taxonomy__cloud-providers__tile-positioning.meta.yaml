@@ -1,0 +1,83 @@
+# Dataset Metadata
+dataset:
+  title: "Cloud Marketplace Tile Taxonomy for Multi-API Database Services"
+  description: "Analysis of how multi-API database services are categorized and positioned across major cloud marketplaces to determine if multi-API SKUs are first-class offerings vs niche add-ons"
+  topic: "Multi-API database service marketplace positioning"
+  metric: "Marketplace tile placement, categorization, and API prominence"
+  
+# Source Information
+source:
+  name: "AWS Marketplace, Azure Marketplace, Google Cloud Marketplace"
+  url: "https://aws.amazon.com/marketplace/, https://azuremarketplace.microsoft.com/, https://console.cloud.google.com/marketplace/"
+  accessed: "2025-08-20"
+  license: "Public marketplace information compiled under fair use"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 39
+  columns: 10
+  time_range: "2009-10-27 - 2025-08-20"
+  update_frequency: "quarterly"
+  collection_method: "manual compilation from public marketplace listings"
+  
+# Column Descriptions
+columns:
+  marketplace:
+    type: "string"
+    description: "Cloud marketplace platform"
+    unit: "categorical"
+  vendor:
+    type: "string"
+    description: "Service provider (first-party or third-party)"
+    unit: "categorical"
+  listing_id:
+    type: "string"
+    description: "Marketplace listing identifier or service name"
+    unit: "string"
+  tile_category:
+    type: "string"
+    description: "Primary marketplace category classification"
+    unit: "categorical"
+  apis_on_tile:
+    type: "string"
+    description: "API types and capabilities highlighted in tile description"
+    unit: "space-delimited list"
+  first_seen:
+    type: "date"
+    description: "Approximate date service first appeared in marketplace"
+    unit: "YYYY-MM-DD"
+  last_seen:
+    type: "date"
+    description: "Most recent verification of marketplace presence"
+    unit: "YYYY-MM-DD"
+  tile_placement:
+    type: "string"
+    description: "Prominence level in marketplace (Primary/Secondary)"
+    unit: "categorical"
+  partner_status:
+    type: "string"
+    description: "Relationship to marketplace owner (First-party/Third-party)"
+    unit: "categorical"
+  api_prominence:
+    type: "string"
+    description: "How prominently multi-API capabilities are featured"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100% for major services, representative sample"
+  sample_size: "39 major database/analytics services across 3 marketplaces"
+  confidence: "high"
+  limitations: 
+    - "Exact first_seen dates are approximations based on public announcements"
+    - "Tile positioning may vary by user and region"
+    - "Category taxonomy evolves over time"
+  
+# Usage Notes
+notes:
+  - "Data focuses on multi-API and traditional database services for comparison"
+  - "First-party services generally receive primary placement"
+  - "Multi-API capabilities are increasingly featured prominently"
+  - "Third-party vendors achieve primary placement through marketplace partnerships"
+  - "Analytics category often overlaps with Database for search/warehouse services"

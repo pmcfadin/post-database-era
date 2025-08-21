@@ -1,0 +1,30 @@
+vendor,service,step_number,step_description,step_category,time_estimate_minutes,requires_cli,requires_console
+AWS,DynamoDB,1,Sign up for AWS account,account_setup,5,false,true
+AWS,DynamoDB,2,Navigate to DynamoDB console,console_navigation,1,false,true
+AWS,DynamoDB,3,Create table with schema definition,resource_creation,3,false,true
+AWS,DynamoDB,4,Configure table settings and provisioning,configuration,2,false,true
+AWS,DynamoDB,5,Install AWS SDK/CLI,tool_installation,5,true,false
+AWS,DynamoDB,6,Execute first PutItem/GetItem operation,first_query,2,true,false
+GCP,Firestore,1,Create Google Cloud account,account_setup,5,false,true
+GCP,Firestore,2,Enable Firestore API,api_enablement,2,false,true
+GCP,Firestore,3,Install Google Cloud SDK,tool_installation,5,true,false
+GCP,Firestore,4,Authenticate and set project,authentication,3,true,false
+GCP,Firestore,5,Execute first document write/read,first_query,2,true,false
+Azure,Cosmos DB,1,Create Azure account,account_setup,5,false,true
+Azure,Cosmos DB,2,Create Cosmos DB account,resource_creation,3,false,true
+Azure,Cosmos DB,3,Create database and container,schema_setup,2,false,true
+Azure,Cosmos DB,4,Configure throughput settings,configuration,2,false,true
+Azure,Cosmos DB,5,Install Azure SDK,tool_installation,5,true,false
+Azure,Cosmos DB,6,Execute first CRUD operation,first_query,2,true,false
+MongoDB,Atlas,1,Sign up for MongoDB Atlas,account_setup,3,false,true
+MongoDB,Atlas,2,Create cluster (free tier),resource_creation,2,false,true
+MongoDB,Atlas,3,Configure network access,security_setup,2,false,true
+MongoDB,Atlas,4,Execute first insert/find operation,first_query,2,false,true
+Supabase,Database,1,Sign up for Supabase account,account_setup,2,false,true
+Supabase,Database,2,Create new project,project_setup,2,false,true
+Supabase,Database,3,Execute first SQL query in dashboard,first_query,1,false,true
+PlanetScale,Database,1,Sign up for PlanetScale account,account_setup,2,false,true
+PlanetScale,Database,2,Create database branch,resource_creation,1,false,true
+PlanetScale,Database,3,Execute first query via console,first_query,1,false,true
+Vercel,KV,1,Connect Vercel account,account_setup,1,false,true
+Vercel,KV,2,Execute first set/get operation via dashboard,first_query,1,false,true

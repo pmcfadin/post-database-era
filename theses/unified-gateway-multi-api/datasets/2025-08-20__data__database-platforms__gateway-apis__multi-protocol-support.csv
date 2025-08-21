@@ -1,0 +1,13 @@
+platform,vendor,unified_gateway,sql_api,rest_api,graphql_api,document_api,key_value_api,native_connectors,version,link
+Cosmos DB,Microsoft,True,True,True,False,True,True,Power BI|Tableau|Grafana,2024.1,https://docs.microsoft.com/en-us/azure/cosmos-db/
+MongoDB Atlas,MongoDB Inc,True,True,True,True,True,False,Tableau|Looker|Airbyte,7.0,https://docs.atlas.mongodb.com/api/
+DataStax Astra,DataStax,True,True,True,True,False,True,Grafana|Airflow|dbt,4.0,https://docs.datastax.com/en/astra/docs/
+AWS DynamoDB,Amazon,False,False,True,False,True,True,Power BI|Fivetran,2024.8,https://docs.aws.amazon.com/dynamodb/
+AWS RDS Proxy,Amazon,True,True,True,False,False,False,All SQL tools,2024.8,https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/
+GCP Cloud SQL,Google,True,True,True,False,False,False,Looker|Tableau|dbt,2024.7,https://cloud.google.com/sql/docs
+Azure Database,Microsoft,True,True,True,False,False,False,Power BI|Grafana,2024.6,https://docs.microsoft.com/en-us/azure/azure-sql/
+Neo4j AuraDB,Neo4j Inc,True,False,True,True,False,False,Grafana|Tableau,5.12,https://neo4j.com/docs/aura/
+Pinecone,Pinecone Systems,False,False,True,False,False,True,Custom only,2024.1,https://docs.pinecone.io/
+CockroachDB,Cockroach Labs,True,True,True,False,False,False,All SQL tools,23.2,https://www.cockroachlabs.com/docs/
+SingleStore,SingleStore Inc,True,True,True,False,True,True,Tableau|Grafana|dbt,8.5,https://docs.singlestore.com/
+ClickHouse Cloud,ClickHouse Inc,True,True,True,False,False,False,Grafana|Superset,23.8,https://clickhouse.com/docs

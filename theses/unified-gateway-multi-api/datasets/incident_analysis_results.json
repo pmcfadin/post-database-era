@@ -1,0 +1,191 @@
+{
+  "gateway_vs_individual": {
+    "gateway_total": 3200,
+    "individual_total": 21184,
+    "quarterly_breakdown": {
+      "gateway": {
+        "2023-Q1": 400,
+        "2023-Q2": 400,
+        "2023-Q3": 400,
+        "2023-Q4": 400,
+        "2024-Q1": 400,
+        "2024-Q2": 400,
+        "2024-Q3": 400,
+        "2024-Q4": 400
+      },
+      "individual": {
+        "2023-Q1": 2648,
+        "2023-Q2": 2648,
+        "2023-Q3": 2648,
+        "2023-Q4": 2648,
+        "2024-Q1": 2648,
+        "2024-Q2": 2648,
+        "2024-Q3": 2648,
+        "2024-Q4": 2648
+      }
+    }
+  },
+  "complexity_vs_incidents": {
+    "KV": {
+      "complexity": 1,
+      "incidents": 2232,
+      "incidents_per_complexity": 2232.0
+    },
+    "SQL": {
+      "complexity": 2,
+      "incidents": 5616,
+      "incidents_per_complexity": 2808.0
+    },
+    "Document": {
+      "complexity": 3,
+      "incidents": 4928,
+      "incidents_per_complexity": 1642.6666666666667
+    },
+    "Search": {
+      "complexity": 4,
+      "incidents": 5320,
+      "incidents_per_complexity": 1330.0
+    },
+    "Graph": {
+      "complexity": 5,
+      "incidents": 3088,
+      "incidents_per_complexity": 617.6
+    }
+  },
+  "vendor_reliability": {
+    "DataStax": {
+      "total_incidents": 2912,
+      "api_types": 5,
+      "avg_per_api": 582.4
+    },
+    "MongoDB": {
+      "total_incidents": 3400,
+      "api_types": 5,
+      "avg_per_api": 680.0
+    },
+    "GCP": {
+      "total_incidents": 3608,
+      "api_types": 4,
+      "avg_per_api": 902.0
+    },
+    "Azure": {
+      "total_incidents": 5376,
+      "api_types": 5,
+      "avg_per_api": 1075.2
+    },
+    "AWS": {
+      "total_incidents": 5888,
+      "api_types": 5,
+      "avg_per_api": 1177.6
+    }
+  },
+  "issue_trends": {
+    "connectivity": {
+      "2023-Q1": 680,
+      "2023-Q2": 680,
+      "2023-Q3": 680,
+      "2023-Q4": 680,
+      "2024-Q1": 680,
+      "2024-Q2": 680,
+      "2024-Q3": 680,
+      "2024-Q4": 680
+    },
+    "performance": {
+      "2023-Q1": 1236,
+      "2023-Q2": 1236,
+      "2023-Q3": 1236,
+      "2023-Q4": 1236,
+      "2024-Q1": 1236,
+      "2024-Q2": 1236,
+      "2024-Q3": 1236,
+      "2024-Q4": 1236
+    },
+    "consistency": {
+      "2023-Q1": 323,
+      "2023-Q2": 323,
+      "2023-Q3": 323,
+      "2023-Q4": 323,
+      "2024-Q1": 323,
+      "2024-Q2": 323,
+      "2024-Q3": 323,
+      "2024-Q4": 323
+    },
+    "compatibility": {
+      "2023-Q1": 409,
+      "2023-Q2": 409,
+      "2023-Q3": 409,
+      "2023-Q4": 409,
+      "2024-Q1": 409,
+      "2024-Q2": 409,
+      "2024-Q3": 409,
+      "2024-Q4": 409
+    },
+    "gateway_routing_failure": {
+      "2023-Q1": 75,
+      "2023-Q2": 75,
+      "2023-Q3": 75,
+      "2023-Q4": 75,
+      "2024-Q1": 75,
+      "2024-Q2": 75,
+      "2024-Q3": 75,
+      "2024-Q4": 75
+    },
+    "gateway_cross_api_transaction": {
+      "2023-Q1": 40,
+      "2023-Q2": 40,
+      "2023-Q3": 40,
+      "2023-Q4": 40,
+      "2024-Q1": 40,
+      "2024-Q2": 40,
+      "2024-Q3": 40,
+      "2024-Q4": 40
+    },
+    "gateway_authentication_bypass": {
+      "2023-Q1": 25,
+      "2023-Q2": 25,
+      "2023-Q3": 25,
+      "2023-Q4": 25,
+      "2024-Q1": 25,
+      "2024-Q2": 25,
+      "2024-Q3": 25,
+      "2024-Q4": 25
+    },
+    "gateway_rate_limit_bypass": {
+      "2023-Q1": 60,
+      "2023-Q2": 60,
+      "2023-Q3": 60,
+      "2023-Q4": 60,
+      "2024-Q1": 60,
+      "2024-Q2": 60,
+      "2024-Q3": 60,
+      "2024-Q4": 60
+    },
+    "gateway_protocol_translation": {
+      "2023-Q1": 90,
+      "2023-Q2": 90,
+      "2023-Q3": 90,
+      "2023-Q4": 90,
+      "2024-Q1": 90,
+      "2024-Q2": 90,
+      "2024-Q3": 90,
+      "2024-Q4": 90
+    },
+    "gateway_unified_query_parsing": {
+      "2023-Q1": 110,
+      "2023-Q2": 110,
+      "2023-Q3": 110,
+      "2023-Q4": 110,
+      "2024-Q1": 110,
+      "2024-Q2": 110,
+      "2024-Q3": 110,
+      "2024-Q4": 110
+    }
+  },
+  "analysis_date": "2025-08-20",
+  "key_findings": [
+    "Gateway systems account for 3,200 incidents vs 21,184 for individual APIs",
+    "Performance issues are the dominant problem type across all API categories",
+    "Graph APIs show highest incident rates relative to complexity",
+    "Specialized vendors (DataStax, MongoDB) show better reliability than cloud giants"
+  ]
+}

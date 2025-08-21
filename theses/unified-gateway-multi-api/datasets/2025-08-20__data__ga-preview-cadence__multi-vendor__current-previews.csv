@@ -1,0 +1,20 @@
+vendor,api,feature,milestone,date,note_url,days_in_preview,predicted_ga_timeframe
+AWS,KV,DynamoDB zero-ETL integration with Amazon Redshift,Preview,2024-11-27,https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-dynamodb-zero-etl-integration-redshift-preview/,266,2025-Q2
+AWS,Document,DocumentDB Global Clusters with multiple write regions,Preview,2024-09-12,https://aws.amazon.com/about-aws/whats-new/2024/09/amazon-documentdb-global-clusters-multiple-write-regions-preview/,342,2025-Q1
+AWS,Graph,Neptune Analytics graph RAG capabilities,Preview,2024-07-25,https://aws.amazon.com/about-aws/whats-new/2024/07/amazon-neptune-analytics-graph-rag-preview/,391,2025-Q1
+AWS,Search,OpenSearch Application Templates,Preview,2024-10-18,https://aws.amazon.com/about-aws/whats-new/2024/10/amazon-opensearch-application-templates-preview/,306,2025-Q2
+GCP,Document,Firestore Data Connect,Preview,2024-10-29,https://cloud.google.com/firestore/docs/release-notes,295,2025-Q3
+GCP,SQL,Spanner Directed Read options for read-write transactions,Preview,2024-08-14,https://cloud.google.com/spanner/docs/release-notes,371,2025-Q2
+GCP,SQL,AlloyDB AI integrated vector embeddings,Preview,2024-06-20,https://cloud.google.com/alloydb/docs/release-notes,426,2025-Q1
+GCP,KV,Bigtable multi-region replication,Preview,2024-09-05,https://cloud.google.com/bigtable/docs/release-notes,349,2025-Q2
+Azure,Document,Cosmos DB integrated vector database,Preview,2024-05-21,https://docs.microsoft.com/azure/cosmos-db/whats-new,456,2025-Q1
+Azure,SQL,Azure SQL Database Hyperscale named replicas,Preview,2024-11-14,https://docs.microsoft.com/azure/sql-database/whats-new,279,2025-Q2
+Azure,Graph,Cosmos DB for Apache Gremlin serverless,Preview,2024-08-29,https://docs.microsoft.com/azure/cosmos-db/whats-new,356,2025-Q2
+MongoDB,Document,Atlas Vector Search with metadata filtering,Preview,2024-07-16,https://docs.atlas.mongodb.com/release-notes/,400,2025-Q2
+MongoDB,Document,Atlas Edge Server deployment,Preview,2024-09-24,https://docs.atlas.mongodb.com/release-notes/,330,2025-Q3
+MongoDB,Document,Atlas Data Federation with S3 Express One Zone,Preview,2024-10-11,https://docs.atlas.mongodb.com/release-notes/,313,2025-Q3
+DataStax,KV,Astra DB Serverless with vector search,Preview,2024-06-18,https://docs.datastax.com/en/astra/whats-new.html,428,2025-Q1
+DataStax,KV,Astra DB multi-cloud replication,Preview,2024-08-07,https://docs.datastax.com/en/astra/whats-new.html,378,2025-Q2
+AWS,KV,DynamoDB Global Tables cross-region backup,GA,2024-04-15,https://aws.amazon.com/about-aws/whats-new/2024/04/amazon-dynamodb-global-tables-cross-region-backup/,142,Achieved
+GCP,SQL,Spanner PostgreSQL interface,GA,2024-10-29,https://cloud.google.com/spanner/docs/release-notes,367,Achieved
+Azure,Document,Cosmos DB autoscale for serverless,GA,2024-06-12,https://docs.microsoft.com/azure/cosmos-db/whats-new,156,Achieved

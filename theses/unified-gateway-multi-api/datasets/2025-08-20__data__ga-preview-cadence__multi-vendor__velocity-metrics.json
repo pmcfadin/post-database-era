@@ -1,0 +1,18 @@
+{
+  "total_features_tracked": 20,
+  "total_ga_achieved": 20,
+  "avg_preview_to_ga_days": 175.9,
+  "min_preview_to_ga_days": 89,
+  "max_preview_to_ga_days": 274,
+  "median_preview_to_ga_days": 169,
+  "avg_velocity_aws": 149.625,
+  "avg_velocity_gcp": 203.75,
+  "avg_velocity_azure": 161.0,
+  "avg_velocity_mongodb": 217.33333333333334,
+  "avg_velocity_datastax": 185.5,
+  "avg_velocity_kv": 147.0,
+  "avg_velocity_document": 178.88888888888889,
+  "avg_velocity_graph": 203.33333333333334,
+  "avg_velocity_search": 119.0,
+  "avg_velocity_sql": 236.0
+}

@@ -1,0 +1,90 @@
+# Dataset Metadata
+dataset:
+  title: "Egress Cost Optimization from Database Consolidation"
+  description: "Specific focus on data egress cost reductions achieved through database consolidation initiatives, measuring actual traffic reduction and cost impact"
+  topic: "Database consolidation egress cost optimization"
+  metric: "Monthly egress traffic reduction (GB) and annual cost savings (USD)"
+  
+# Source Information
+source:
+  name: "Engineering Blog Posts and Conference Presentations"
+  url: "Various - see individual link column"
+  accessed: "2025-08-20"
+  license: "Public information from engineering blogs - fair use for research"
+  credibility: "Tier A (Direct from engineering teams with specific metrics)"
+  
+# Data Characteristics
+characteristics:
+  rows: 15
+  columns: 11
+  time_range: "2019-04 - 2021-07"
+  update_frequency: "static"
+  collection_method: "manual extraction from engineering posts with egress metrics"
+  
+# Column Descriptions
+columns:
+  company:
+    type: "string"
+    description: "Company that implemented database consolidation with measured egress impact"
+    unit: "categorical"
+  service_type:
+    type: "string"
+    description: "Primary business model/service type"
+    unit: "categorical"
+  before_egress_gb_monthly:
+    type: "number"
+    description: "Monthly data egress in gigabytes before consolidation"
+    unit: "gigabytes per month"
+  after_egress_gb_monthly:
+    type: "number"
+    description: "Monthly data egress in gigabytes after consolidation"
+    unit: "gigabytes per month"
+  delta_pct:
+    type: "number"
+    description: "Percentage reduction in egress traffic"
+    unit: "percentage (negative values indicate reduction)"
+  cost_impact_annual:
+    type: "string"
+    description: "Annual cost savings from reduced egress charges"
+    unit: "USD annual savings"
+  consolidation_approach:
+    type: "string"
+    description: "Specific database consolidation strategy that reduced egress"
+    unit: "text description"
+  notes:
+    type: "string"
+    description: "Technical details about how consolidation reduced data transfer"
+    unit: "text"
+  source:
+    type: "string"
+    description: "Publication source"
+    unit: "categorical"
+  link:
+    type: "string"
+    description: "URL to original source material"
+    unit: "URL"
+  date_published:
+    type: "string"
+    description: "Publication date"
+    unit: "YYYY-MM format"
+    
+# Quality Indicators
+quality:
+  completeness: "100% for traffic metrics, 95% for cost calculations"
+  sample_size: "15 companies with specific egress metrics"
+  confidence: "high"
+  limitations:
+    - "Egress costs calculated using AWS standard rates (may not reflect actual negotiated pricing)"
+    - "Some traffic metrics estimated from percentage improvements in posts"
+    - "Cross-region vs cross-AZ traffic not always distinguished"
+    - "Cost savings may not account for increased compute costs of consolidated systems"
+    - "Time periods for measurement vary (3-12 months post-consolidation)"
+  
+# Usage Notes
+notes:
+  - "Cost calculations assume $0.12/GB egress pricing (AWS standard tier)"
+  - "Focus specifically on database consolidation impact, not general architecture changes"
+  - "Companies selected based on availability of specific egress traffic metrics"
+  - "Particularly relevant for multi-database architectures with high inter-service communication"
+  - "Egress reductions primarily from eliminating duplicate data transfers and reducing API calls"
+  - "Most significant savings from companies with microservice architectures"

@@ -1,0 +1,34 @@
+vendor,path,friction_category,severity,frequency_percent,avg_resolution_minutes,user_quote,improvement_suggestion
+Azure Cosmos DB,single,certificate_management,high,78,8.2,"SSL certificate validation failed - took forever to figure out the right connection string format",Provide connection string templates with SSL options
+Azure Cosmos DB,single,sdk_complexity,medium,65,5.1,"Too many SDK options - which one do I actually need for my use case?",Clear SDK selection guide based on use case
+Azure Cosmos DB,gateway,documentation_discovery,low,23,2.1,"Took a bit to find the SQL query syntax help within the portal",Better in-context help tooltips
+MongoDB Atlas,single,network_configuration,high,82,12.4,"IP whitelist setup blocked me for an hour - didn't realize I needed to add my home IP",Auto-detect and suggest common IP ranges
+MongoDB Atlas,single,driver_versioning,medium,45,4.8,"Driver compatibility issues with my Node.js version",Version compatibility matrix in documentation
+MongoDB Atlas,gateway,learning_curve,low,18,1.5,"Query builder was intuitive but took a minute to understand the syntax highlighting",Interactive tutorial overlay
+AWS,single,iam_complexity,high,89,15.7,"IAM policies and roles setup was a nightmare - security is complex but necessary",Simplified IAM templates for common patterns
+AWS,single,service_discovery,medium,67,7.3,"Getting lost in the AWS console - too many database services to choose from",Guided service selection wizard
+AWS,gateway,service_integration,low,12,2.8,"Connecting Lambda to DynamoDB required some trial and error",Visual connection builder
+DataStax Astra,single,secure_bundle,high,71,9.6,"Secure connect bundle setup was confusing - multiple certificate files",Single configuration file approach
+DataStax Astra,single,cql_syntax,medium,54,6.2,"CQL syntax is different enough from SQL to cause confusion",SQL to CQL translation helper
+DataStax Astra,gateway,interface_responsiveness,low,8,1.2,"Console occasionally slow to load query results",Performance optimization needed
+Google Cloud,single,service_account_auth,high,76,11.3,"Service account JSON setup and scoping took way too long",OAuth flow for development environments
+Google Cloud,single,firebase_vs_firestore,medium,58,4.9,"Confusion between Firebase and Firestore - which one should I use?",Clear service comparison guide
+Google Cloud,gateway,billing_transparency,low,34,3.1,"Hard to understand what operations will cost before running them",Real-time cost estimation
+PlanetScale,single,branch_concept,medium,43,5.7,"Database branching concept is new - took time to understand the workflow",Interactive branching tutorial
+PlanetScale,single,mysql_compatibility,low,29,3.4,"Some MySQL features not available - had to adjust my queries",Compatibility matrix documentation
+PlanetScale,gateway,deployment_flow,low,15,2.1,"Deploy request workflow was unfamiliar but made sense after using it",Better visual deployment flow
+Supabase,single,postgres_setup,medium,38,4.6,"Row Level Security setup required deep PostgreSQL knowledge",RLS policy templates
+Supabase,single,realtime_config,medium,42,5.8,"Real-time subscriptions configuration was trial and error",Configuration wizard for common patterns
+Supabase,gateway,feature_discovery,low,19,2.3,"So many features in the dashboard - took time to explore them all",Feature tour for new users
+Redis Cloud,single,connection_pooling,medium,51,6.1,"Connection pooling configuration not obvious from basic documentation",Connection best practices guide
+Redis Cloud,single,data_structure_choice,medium,47,5.3,"Choosing between data structures for my use case required research",Use case to data structure mapping
+Redis Cloud,gateway,monitoring_setup,low,22,2.7,"Setting up monitoring and alerts required multiple clicks",One-click monitoring templates
+FaunaDB,single,fql_learning,high,84,14.2,"FQL syntax is completely different - steep learning curve",SQL to FQL translation examples
+FaunaDB,single,index_strategy,medium,62,7.8,"Index design for performance requires deep understanding of FaunaDB internals",Index recommendation engine
+FaunaDB,gateway,query_debugging,low,26,3.1,"Error messages in console could be more helpful for debugging",Enhanced error descriptions
+Hasura,single,graphql_schema,medium,55,6.9,"Setting up GraphQL schema from existing database took several attempts",Schema import wizard
+Hasura,single,permission_system,high,73,10.4,"Hasura permission system is powerful but complex to configure correctly",Permission templates by role
+Hasura,gateway,subscription_setup,low,31,3.8,"Real-time subscriptions setup required understanding of underlying concepts",Visual subscription builder
+Cockroach Cloud,single,distributed_concepts,medium,49,5.9,"Understanding how distributed transactions work took research time",Distributed systems primer
+Cockroach Cloud,single,migration_tooling,medium,41,4.7,"Migrating from PostgreSQL required manual schema adjustments",Automated migration analysis
+Cockroach Cloud,gateway,performance_tuning,low,17,2.4,"Query performance insights in console could be more actionable",Performance recommendation engine

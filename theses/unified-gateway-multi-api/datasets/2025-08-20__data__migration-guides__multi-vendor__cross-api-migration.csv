@@ -1,0 +1,29 @@
+vendor,from_api,to_api,guide_url,maintained,last_updated,tool_name,maturity
+AWS,SQL,DynamoDB,https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Target.DynamoDB.html,True,2024-12-01,AWS Database Migration Service,Production
+AWS,MongoDB,DocumentDB,https://docs.aws.amazon.com/documentdb/latest/developerguide/docdb-migration.html,True,2024-11-15,MongoDB to DocumentDB Migration,Production
+AWS,Redis,ElastiCache,https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/backups-restoring.html,True,2024-10-30,ElastiCache Migration Tools,Production
+GCP,SQL,Firestore,https://cloud.google.com/firestore/docs/manage-data/move-data,True,2024-11-20,Cloud SQL to Firestore Migration,Production
+GCP,MongoDB,Firestore,https://cloud.google.com/firestore/docs/manage-data/migrate-from-mongodb,True,2024-10-15,MongoDB to Firestore Migration,Production
+GCP,Redis,Memorystore,https://cloud.google.com/memorystore/docs/redis/migrating-data,True,2024-09-25,Redis to Memorystore Migration,Production
+Azure,SQL,CosmosDB,https://docs.microsoft.com/en-us/azure/cosmos-db/migrate-relational-to-cosmos-sql-api,True,2024-12-05,Azure Database Migration Service,Production
+Azure,MongoDB,CosmosDB,https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb/migrate-from-mongodb,True,2024-11-10,MongoDB to Cosmos DB Migration,Production
+MongoDB,SQL,Document,https://www.mongodb.com/docs/relational-migrator/,True,2024-12-01,MongoDB Relational Migrator,Production
+MongoDB,Oracle,Document,https://www.mongodb.com/docs/atlas/import/oracle/,True,2024-10-20,Oracle to MongoDB Migration,Production
+Neo4j,SQL,Graph,https://neo4j.com/docs/operations-manual/current/tools/neo4j-admin/neo4j-admin-import/,True,2024-11-15,Neo4j Import Tool,Production
+Neo4j,Document,Graph,https://neo4j.com/docs/apoc/current/import/json/,True,2024-10-30,APOC JSON Import,Production
+Elastic,SQL,Search,https://www.elastic.co/guide/en/elasticsearch/reference/current/sql-migration.html,True,2024-11-25,Elasticsearch SQL Migration,Production
+Elastic,Document,Search,https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-bulk.html,True,2024-12-01,Bulk API for Document Migration,Production
+DataStax,SQL,Wide-Column,https://docs.datastax.com/en/migration/docs/cassandra-migration.html,True,2024-09-15,DataStax Migration Tools,Production
+Community,PostgreSQL,MongoDB,https://github.com/mongodb-labs/postgres-to-mongo,False,2023-06-15,postgres-to-mongo,Beta
+Community,Redis,MongoDB,https://github.com/redis-to-mongo/redis-to-mongo,False,2022-12-01,redis-to-mongo,Alpha
+Community,MongoDB,Neo4j,https://github.com/neo4j-contrib/neo4j-mongodb-connector,True,2024-08-20,MongoDB to Neo4j Connector,Beta
+Community,Neo4j,PostgreSQL,https://github.com/neo4j-contrib/graph-to-sql,False,2023-03-10,Graph to SQL Export,Alpha
+FerretDB,MongoDB,PostgreSQL,https://docs.ferretdb.io/quickstart-guide/,True,2024-12-10,FerretDB MongoDB Compatibility,Production
+Prisma,Multi-API,Unified,https://www.prisma.io/docs/concepts/database-connectors,True,2024-12-01,Prisma ORM Multi-Database,Production
+Hasura,SQL,GraphQL,https://hasura.io/docs/latest/graphql/core/databases/index.html,True,2024-11-30,Hasura GraphQL Gateway,Production
+PostgREST,SQL,REST,https://postgrest.org/en/stable/,True,2024-10-15,PostgREST API Gateway,Production
+Flyway,SQL,SQL,https://flywaydb.org/documentation/migration-guide,True,2024-12-05,Flyway Database Migration,Production
+Liquibase,SQL,SQL,https://docs.liquibase.com/concepts/changelogs/home.html,True,2024-11-20,Liquibase Database Migration,Production
+Stargate,Cassandra,Multi-API,https://stargate.io/docs/stargate/1.0/quickstart/quickstart.html,True,2024-09-30,Stargate Multi-API Gateway,Production
+Apache Drill,Multi-Source,SQL,https://drill.apache.org/docs/connect-to-data-sources/,True,2024-08-15,Apache Drill Query Engine,Production
+Trino,Multi-Source,SQL,https://trino.io/docs/current/connector.html,True,2024-12-01,Trino Distributed Query Engine,Production

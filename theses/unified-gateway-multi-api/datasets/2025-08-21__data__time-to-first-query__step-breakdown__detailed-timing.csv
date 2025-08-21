@@ -1,0 +1,82 @@
+vendor,path,step_number,step_description,duration_minutes,cumulative_minutes,blocker_encountered,complexity_rating
+Azure Cosmos DB,gateway,1,Account login via Azure portal,1.2,1.2,none,low
+Azure Cosmos DB,gateway,2,Navigate to Cosmos DB service,0.8,2.0,none,low
+Azure Cosmos DB,gateway,3,Create new database account,2.3,4.3,none,medium
+Azure Cosmos DB,gateway,4,Wait for deployment completion,3.1,7.4,none,low
+Azure Cosmos DB,gateway,5,Open Data Explorer,0.7,8.1,none,low
+Azure Cosmos DB,gateway,6,Create sample database and container,1.8,9.9,none,medium
+Azure Cosmos DB,gateway,7,Load sample data,1.4,11.3,none,low
+Azure Cosmos DB,gateway,8,Execute first SQL query,1.2,12.5,none,low
+Azure Cosmos DB,single,1,Account login via Azure portal,1.2,1.2,none,low
+Azure Cosmos DB,single,2,Navigate to Cosmos DB service,0.8,2.0,none,low
+Azure Cosmos DB,single,3,Create new database account,2.3,4.3,none,medium
+Azure Cosmos DB,single,4,Wait for deployment completion,3.1,7.4,none,low
+Azure Cosmos DB,single,5,Copy connection string,0.5,7.9,none,low
+Azure Cosmos DB,single,6,Install Node.js and npm,2.8,10.7,package_manager,medium
+Azure Cosmos DB,single,7,Install @azure/cosmos SDK,1.4,12.1,none,low
+Azure Cosmos DB,single,8,Create database programmatically,2.1,14.2,none,medium
+Azure Cosmos DB,single,9,Create container programmatically,1.8,16.0,none,medium
+Azure Cosmos DB,single,10,Insert sample data,2.2,18.2,none,medium
+Azure Cosmos DB,single,11,Configure query client,1.9,20.1,none,medium
+Azure Cosmos DB,single,12,Write first query code,3.1,23.2,syntax_reference,high
+Azure Cosmos DB,single,13,Debug connection issues,2.7,25.9,authentication,high
+Azure Cosmos DB,single,14,Execute successful query,0.8,26.7,none,low
+Azure Cosmos DB,single,15,Verify query results,0.6,27.3,none,low
+MongoDB Atlas,gateway,1,Sign up for MongoDB Atlas,1.5,1.5,none,low
+MongoDB Atlas,gateway,2,Create new cluster (free tier),2.1,3.6,none,medium
+MongoDB Atlas,gateway,3,Wait for cluster deployment,1.8,5.4,none,low
+MongoDB Atlas,gateway,4,Load sample dataset,1.2,6.6,none,low
+MongoDB Atlas,gateway,5,Open Atlas Data Explorer,0.9,7.5,none,low
+MongoDB Atlas,gateway,6,Execute first find query,0.7,8.2,none,low
+MongoDB Atlas,single,1,Sign up for MongoDB Atlas,1.5,1.5,none,low
+MongoDB Atlas,single,2,Create new cluster (free tier),2.1,3.6,none,medium
+MongoDB Atlas,single,3,Wait for cluster deployment,1.8,5.4,none,low
+MongoDB Atlas,single,4,Configure database access (user),1.1,6.5,none,medium
+MongoDB Atlas,single,5,Configure network access (IP),0.8,7.3,none,medium
+MongoDB Atlas,single,6,Copy connection string,0.4,7.7,none,low
+MongoDB Atlas,single,7,Install Node.js and npm,2.2,9.9,package_manager,medium
+MongoDB Atlas,single,8,Install mongodb driver,1.1,11.0,none,low
+MongoDB Atlas,single,9,Create connection script,2.8,13.8,none,medium
+MongoDB Atlas,single,10,Debug SSL/auth issues,3.2,17.0,certificate_validation,high
+MongoDB Atlas,single,11,Insert sample document,1.1,18.1,none,medium
+MongoDB Atlas,single,12,Execute first find query,0.6,18.7,none,low
+AWS,gateway,1,AWS console login,0.8,0.8,none,low
+AWS,gateway,2,Navigate to DynamoDB service,0.6,1.4,none,low
+AWS,gateway,3,Create new table via console,1.9,3.3,none,medium
+AWS,gateway,4,Wait for table creation,2.1,5.4,none,low
+AWS,gateway,5,Add sample items via console,2.8,8.2,none,medium
+AWS,gateway,6,Use console query builder,1.4,9.6,none,low
+AWS,gateway,7,Execute first scan operation,2.2,11.8,none,low
+DataStax Astra,gateway,1,Sign up for DataStax Astra,1.1,1.1,none,low
+DataStax Astra,gateway,2,Create serverless database,1.8,2.9,none,medium
+DataStax Astra,gateway,3,Wait for database provisioning,1.6,4.5,none,low
+DataStax Astra,gateway,4,Open CQL console,0.7,5.2,none,low
+DataStax Astra,gateway,5,Execute first CQL query,2.2,7.4,none,medium
+DataStax Astra,single,1,Sign up for DataStax Astra,1.1,1.1,none,low
+DataStax Astra,single,2,Create serverless database,1.8,2.9,none,medium
+DataStax Astra,single,3,Wait for database provisioning,1.6,4.5,none,low
+DataStax Astra,single,4,Download secure connect bundle,0.8,5.3,none,low
+DataStax Astra,single,5,Generate application token,1.2,6.5,none,medium
+DataStax Astra,single,6,Install Java and Maven,3.1,9.6,dependency_management,high
+DataStax Astra,single,7,Install DataStax Java driver,1.4,11.0,none,medium
+DataStax Astra,single,8,Configure secure bundle path,1.8,12.8,none,medium
+DataStax Astra,single,9,Write connection code,2.7,15.5,none,high
+DataStax Astra,single,10,Debug SSL configuration,3.2,18.7,certificate_issues,high
+DataStax Astra,single,11,Create keyspace and table,1.9,20.6,none,medium
+DataStax Astra,single,12,Insert sample data,0.8,21.4,none,medium
+DataStax Astra,single,13,Execute first CQL query,0.5,21.9,none,low
+PlanetScale,gateway,1,Sign up for PlanetScale,0.9,0.9,none,low
+PlanetScale,gateway,2,Create new database,1.2,2.1,none,low
+PlanetScale,gateway,3,Open web console,0.8,2.9,none,low
+PlanetScale,gateway,4,Execute first SQL query,3.9,6.8,none,medium
+PlanetScale,single,1,Sign up for PlanetScale,0.9,0.9,none,low
+PlanetScale,single,2,Create new database,1.2,2.1,none,low
+PlanetScale,single,3,Generate connection password,1.1,3.2,none,medium
+PlanetScale,single,4,Copy connection string,0.4,3.6,none,low
+PlanetScale,single,5,Install MySQL client,2.8,6.4,package_manager,medium
+PlanetScale,single,6,Configure SSL certificates,2.1,8.5,none,high
+PlanetScale,single,7,Test connection,1.9,10.4,certificate_validation,medium
+PlanetScale,single,8,Create sample table,2.7,13.1,none,medium
+PlanetScale,single,9,Insert sample data,1.8,14.9,none,medium
+PlanetScale,single,10,Write query script,2.4,17.3,none,medium
+PlanetScale,single,11,Execute first SQL query,1.9,19.2,none,medium

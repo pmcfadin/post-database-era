@@ -1,0 +1,41 @@
+vendor,api,feature,milestone,date,note_url,velocity_days
+AWS,KV,DynamoDB Global Tables cross-region replication encryption,Preview,2023-03-15,https://aws.amazon.com/about-aws/whats-new/2023/03/amazon-dynamodb-global-tables-cross-region-replication-encryption-preview/,
+AWS,KV,DynamoDB Global Tables cross-region replication encryption,GA,2023-06-12,https://aws.amazon.com/about-aws/whats-new/2023/06/amazon-dynamodb-global-tables-cross-region-replication-encryption/,89
+AWS,KV,DynamoDB Point-in-time Recovery for Global Tables,Preview,2023-09-18,https://aws.amazon.com/about-aws/whats-new/2023/09/amazon-dynamodb-point-time-recovery-global-tables-preview/,
+AWS,KV,DynamoDB Point-in-time Recovery for Global Tables,GA,2024-01-24,https://aws.amazon.com/about-aws/whats-new/2024/01/amazon-dynamodb-point-time-recovery-global-tables/,128
+AWS,Document,DocumentDB Elastic Clusters,Preview,2022-11-30,https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-documentdb-elastic-clusters-preview/,
+AWS,Document,DocumentDB Elastic Clusters,GA,2023-05-25,https://aws.amazon.com/about-aws/whats-new/2023/05/amazon-documentdb-elastic-clusters-generally-available/,176
+AWS,Document,DocumentDB I/O-Optimized storage,Preview,2023-07-13,https://aws.amazon.com/about-aws/whats-new/2023/07/amazon-documentdb-io-optimized-storage-preview/,
+AWS,Document,DocumentDB I/O-Optimized storage,GA,2023-11-15,https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-documentdb-io-optimized-storage/,125
+AWS,Graph,Neptune Analytics,Preview,2023-11-28,https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-neptune-analytics-preview/,
+AWS,Graph,Neptune Analytics,GA,2024-06-19,https://aws.amazon.com/about-aws/whats-new/2024/06/amazon-neptune-analytics-generally-available/,204
+AWS,Graph,Neptune Serverless,Preview,2022-12-01,https://aws.amazon.com/about-aws/whats-new/2022/12/amazon-neptune-serverless-preview/,
+AWS,Graph,Neptune Serverless,GA,2023-07-26,https://aws.amazon.com/about-aws/whats-new/2023/07/amazon-neptune-serverless-generally-available/,237
+AWS,Search,OpenSearch Serverless,Preview,2022-10-11,https://aws.amazon.com/about-aws/whats-new/2022/10/amazon-opensearch-serverless-preview/,
+AWS,Search,OpenSearch Serverless,GA,2023-01-24,https://aws.amazon.com/about-aws/whats-new/2023/01/amazon-opensearch-serverless-generally-available/,105
+AWS,Search,OpenSearch Ingestion,Preview,2023-05-11,https://aws.amazon.com/about-aws/whats-new/2023/05/amazon-opensearch-ingestion-preview/,
+AWS,Search,OpenSearch Ingestion,GA,2023-09-21,https://aws.amazon.com/about-aws/whats-new/2023/09/amazon-opensearch-ingestion-generally-available/,133
+GCP,Document,Firestore Backup and Restore,Preview,2023-02-14,https://cloud.google.com/firestore/docs/release-notes,
+GCP,Document,Firestore Backup and Restore,GA,2023-08-29,https://cloud.google.com/firestore/docs/release-notes,196
+GCP,Document,Firestore Multi-region support,Preview,2023-10-17,https://cloud.google.com/firestore/docs/release-notes,
+GCP,Document,Firestore Multi-region support,GA,2024-03-12,https://cloud.google.com/firestore/docs/release-notes,147
+GCP,SQL,Spanner Graph support,Preview,2023-05-10,https://cloud.google.com/spanner/docs/release-notes,
+GCP,SQL,Spanner Graph support,GA,2024-01-18,https://cloud.google.com/spanner/docs/release-notes,253
+GCP,SQL,Spanner Change Streams,Preview,2022-11-15,https://cloud.google.com/spanner/docs/release-notes,
+GCP,SQL,Spanner Change Streams,GA,2023-06-22,https://cloud.google.com/spanner/docs/release-notes,219
+Azure,Document,Cosmos DB for PostgreSQL,Preview,2022-10-04,https://docs.microsoft.com/azure/cosmos-db/whats-new,
+Azure,Document,Cosmos DB for PostgreSQL,GA,2023-03-21,https://docs.microsoft.com/azure/cosmos-db/whats-new,168
+Azure,Document,Cosmos DB Serverless for MongoDB API,Preview,2023-06-15,https://docs.microsoft.com/azure/cosmos-db/whats-new,
+Azure,Document,Cosmos DB Serverless for MongoDB API,GA,2023-11-08,https://docs.microsoft.com/azure/cosmos-db/whats-new,146
+Azure,Graph,Cosmos DB for Apache Gremlin autoscale,Preview,2023-08-14,https://docs.microsoft.com/azure/cosmos-db/whats-new,
+Azure,Graph,Cosmos DB for Apache Gremlin autoscale,GA,2024-01-30,https://docs.microsoft.com/azure/cosmos-db/whats-new,169
+MongoDB,Document,Atlas Search with Vector Search,Preview,2023-06-20,https://docs.atlas.mongodb.com/release-notes/,
+MongoDB,Document,Atlas Search with Vector Search,GA,2023-11-14,https://docs.atlas.mongodb.com/release-notes/,147
+MongoDB,Document,Atlas Stream Processing,Preview,2023-08-29,https://docs.atlas.mongodb.com/release-notes/,
+MongoDB,Document,Atlas Stream Processing,GA,2024-04-16,https://docs.atlas.mongodb.com/release-notes/,231
+MongoDB,Document,Atlas Serverless,Preview,2021-10-12,https://docs.atlas.mongodb.com/release-notes/,
+MongoDB,Document,Atlas Serverless,GA,2022-07-13,https://docs.atlas.mongodb.com/release-notes/,274
+DataStax,KV,Astra Streaming,Preview,2023-04-11,https://docs.datastax.com/en/astra/whats-new.html,
+DataStax,KV,Astra Streaming,GA,2023-09-26,https://docs.datastax.com/en/astra/whats-new.html,168
+DataStax,KV,Astra Vector Search,Preview,2023-07-18,https://docs.datastax.com/en/astra/whats-new.html,
+DataStax,KV,Astra Vector Search,GA,2024-02-06,https://docs.datastax.com/en/astra/whats-new.html,203

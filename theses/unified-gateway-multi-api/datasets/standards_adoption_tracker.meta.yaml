@@ -1,0 +1,75 @@
+# Dataset Metadata
+dataset:
+  title: "Database Standards Adoption Tracker"
+  description: "Comprehensive tracking of SQL:2023, ISO GQL, JSONPath, GraphQL, and OpenAPI 3.x adoption across major database vendors and platforms"
+  topic: "Database Standards Homogenization"
+  metric: "Implementation status and timeline of modern database standards"
+  
+# Source Information
+source:
+  name: "Multi-vendor Documentation Analysis"
+  url: "Various vendor documentation sites"
+  accessed: "2025-01-20"
+  license: "Public documentation, fair use"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 48
+  columns: 6
+  time_range: "2019-01-01 - 2025-12-01"
+  update_frequency: "quarterly"
+  collection_method: "manual review of vendor documentation"
+  
+# Column Descriptions
+columns:
+  standard:
+    type: "string"
+    description: "Database standard being tracked"
+    unit: "categorical"
+    values: ["SQL:2023", "ISO GQL", "JSONPath", "GraphQL", "OpenAPI 3.x"]
+  vendor:
+    type: "string"
+    description: "Database vendor or platform implementing the standard"
+    unit: "categorical"
+  feature_subset:
+    type: "string"
+    description: "Specific feature or capability within the standard"
+    unit: "categorical"
+  status:
+    type: "string"
+    description: "Current implementation status"
+    unit: "categorical"
+    values: ["GA", "Preview", "Roadmap", "NA"]
+  date:
+    type: "date"
+    description: "Date of implementation or expected availability"
+    unit: "YYYY-MM-DD"
+  link:
+    type: "string"
+    description: "URL to vendor documentation or announcement"
+    unit: "URL"
+    
+# Quality Indicators
+quality:
+  completeness: "95%"
+  sample_size: "48 vendor-standard combinations"
+  confidence: "high"
+  limitations: 
+    - "Roadmap dates are estimates and subject to change"
+    - "GA status reflects current public documentation"
+    - "Some preview features may have limited availability"
+    - "Link validity depends on vendor documentation stability"
+  
+# Usage Notes
+notes:
+  - "SQL:2023 focuses on multi-dimensional arrays, graph queries, and JSON features"
+  - "ISO GQL (ISO/IEC 39075:2024) is the new international standard for graph queries"
+  - "JSONPath (RFC 9535) provides standardized JSON query expressions"
+  - "GraphQL adoption shows database API standardization trends"
+  - "OpenAPI 3.x indicates REST API standardization in database services"
+  - "Status definitions: GA=Generally Available, Preview=Beta/Limited, Roadmap=Planned, NA=Not Applicable"
+  - "Dates represent earliest known implementation or announcement dates"
+  - "Major cloud providers (AWS, Azure, GCP) and enterprise databases prioritized"
+  - "Open source databases included for completeness"
+  - "Related datasets: vendor_feature_matrix.csv, api_convergence_timeline.csv"

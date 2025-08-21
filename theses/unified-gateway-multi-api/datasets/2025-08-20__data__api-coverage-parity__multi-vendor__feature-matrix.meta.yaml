@@ -1,0 +1,103 @@
+# Dataset Metadata
+dataset:
+  title: "API Coverage & Parity Matrix Across Database Vendors"
+  description: "Comprehensive analysis of CRUD operations, indexing, pagination, transactions, and cross-API capabilities across SQL, Key-Value, Document, Graph, and Search APIs for major database vendors"
+  topic: "Database API convergence and multi-paradigm support"
+  metric: "Feature availability status (GA/Preview/NA) across vendors and API types"
+  
+# Source Information
+source:
+  name: "Multi-vendor documentation analysis"
+  url: "Composite from AWS, GCP, Azure, MongoDB, DataStax, Neo4j official documentation"
+  accessed: "2025-08-20"
+  license: "Public documentation, fair use for research"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 156
+  columns: 6
+  time_range: "2009-02-01 to 2024-01-01"
+  update_frequency: "static snapshot"
+  collection_method: "manual documentation review and API feature tracking"
+  
+# Column Descriptions
+columns:
+  vendor:
+    type: "string"
+    description: "Database vendor or cloud provider"
+    unit: "categorical"
+    values: ["AWS", "Azure", "DataStax", "GCP", "MongoDB", "Neo4j"]
+  api:
+    type: "string"
+    description: "Database service and API paradigm combination"
+    unit: "categorical"
+    examples: ["DynamoDB-KV", "CosmosDB-SQL", "MongoDB-Document", "Neo4j-Graph"]
+  feature:
+    type: "string"
+    description: "Specific database capability or operation"
+    unit: "categorical"
+    examples: ["CRUD operations", "indexing", "pagination", "transactions", "cross-API queries"]
+  status:
+    type: "string"
+    description: "Feature availability status"
+    unit: "categorical"
+    values: ["GA", "Preview", "NA"]
+    notes: "GA=Generally Available, Preview=Beta/Preview, NA=Not Available"
+  added_date:
+    type: "date"
+    description: "Approximate date when feature became available"
+    unit: "YYYY-MM-DD"
+    notes: "Empty for NA status features"
+  doc_url:
+    type: "string"
+    description: "Official documentation URL for the feature"
+    unit: "URL"
+    notes: "Empty for NA status features"
+    
+# Quality Indicators
+quality:
+  completeness: "100% for tracked vendors and major features"
+  sample_size: "6 major vendors, 67 API combinations, 156 feature points"
+  confidence: "high"
+  limitations: 
+    - "Focus on major vendors only"
+    - "Feature availability dates are approximate"
+    - "Preview features may have changed status since data collection"
+    - "Some vendor-specific terminology normalized for comparison"
+  
+# Analysis Insights
+insights:
+  key_findings:
+    - "SQL APIs most universally supported (100% GA where offered)"
+    - "Key-Value APIs have highest feature parity across vendors"
+    - "Graph APIs concentrated in specialized vendors (Neo4j, AWS Neptune)"
+    - "Search APIs increasingly common but implementation varies"
+    - "Cross-API query capabilities still limited (mostly NA status)"
+  vendor_patterns:
+    - "AWS: Broad coverage across all paradigms, service-specific APIs"
+    - "MongoDB: Strong document focus with expanding SQL and search"
+    - "Azure Cosmos DB: True multi-API platform with unified backend"
+    - "GCP: Service-specific APIs with limited cross-paradigm support"
+    - "DataStax: CQL/Cassandra core with document and search extensions"
+    - "Neo4j: Graph-specialized with emerging vector search capabilities"
+  temporal_trends:
+    - "2009-2012: Single-paradigm era (SQL, early NoSQL)"
+    - "2013-2017: API diversification period"
+    - "2018-2020: Transaction support addition across paradigms"
+    - "2021-2024: Vector search and AI/ML integration wave"
+    
+# Usage Notes
+notes:
+  - "Data represents point-in-time snapshot as of August 2025"
+  - "Preview features may have graduated to GA since collection"
+  - "API naming follows vendor-service-paradigm convention"
+  - "Cross-reference with individual vendor release notes for latest status"
+  - "Suitable for trend analysis, competitive positioning, and convergence research"
+  
+# Related Research
+related_datasets:
+  - "Database market adoption metrics"
+  - "Developer survey API preferences" 
+  - "Performance benchmarks across paradigms"
+  - "Enterprise architecture pattern adoption"

@@ -1,0 +1,85 @@
+vendor,api,feature,milestone,date,note_url
+AWS,DynamoDB,DynamoDB Streams,ga,2015-07-02,https://aws.amazon.com/blogs/aws/dynamodb-update-streams/
+Azure,Cosmos DB,Table API,ga,2017-04-05,https://azure.microsoft.com/en-us/updates/
+Azure,Cosmos DB,Multi-API Support,ga,2017-05-10,https://azure.microsoft.com/en-us/updates/
+Azure,Cosmos DB,Gremlin API,ga,2017-05-10,https://azure.microsoft.com/en-us/updates/
+AWS,Neptune,general,ga,2018-05-30,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2018-06-22,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2018-07-24,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2018-09-06,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2018-10-29,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2018-11-08,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2018-11-14,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2018-11-19,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2018-12-13,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2019-01-21,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+GCP,Firestore,Multi-region,ga,2019-01-31,https://cloud.google.com/firestore/docs/release-notes
+AWS,DocumentDB,aggregation,ga,2019-02-28,https://docs.aws.amazon.com/documentdb/latest/developerguide/doc-history.html
+AWS,DocumentDB,aggregation,ga,2019-04-04,https://docs.aws.amazon.com/documentdb/latest/developerguide/doc-history.html
+Elastic,Cloud,SQL Support,ga,2019-04-10,https://www.elastic.co/guide/en/cloud/current/ec-restapi-changes.html
+AWS,Neptune,general,ga,2019-05-01,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2019-06-12,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,DocumentDB,general,ga,2019-06-13,https://docs.aws.amazon.com/documentdb/latest/developerguide/doc-history.html
+AWS,Neptune,general,ga,2019-07-02,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2019-07-26,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,DocumentDB,aggregation,ga,2019-07-31,https://docs.aws.amazon.com/documentdb/latest/developerguide/doc-history.html
+AWS,Neptune,general,ga,2019-08-13,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2019-09-19,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,DocumentDB,general,ga,2019-10-14,https://docs.aws.amazon.com/documentdb/latest/developerguide/doc-history.html
+AWS,Neptune,general,ga,2019-10-15,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2019-10-31,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2019-11-08,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,DynamoDB,Global Tables v2,ga,2019-11-21,https://aws.amazon.com/about-aws/whats-new/2019/11/amazon-dynamodb-global-tables-version-2019-11-21/
+AWS,Neptune,general,ga,2019-11-21,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2019-11-22,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2019-11-25,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2019-12-12,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2019-12-20,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2020-02-19,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2020-03-17,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,DocumentDB,general,ga,2020-03-23,https://docs.aws.amazon.com/documentdb/latest/developerguide/doc-history.html
+AWS,Neptune,general,ga,2020-04-08,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2020-05-12,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,deprecated,2020-05-19,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+Elastic,Cloud,Machine Learning,ga,2020-06-18,https://www.elastic.co/guide/en/cloud/current/ec-restapi-changes.html
+AWS,DocumentDB,aggregation,ga,2020-06-22,https://docs.aws.amazon.com/documentdb/latest/developerguide/doc-history.html
+MongoDB,Atlas,Atlas Search,preview,2020-06-23,https://www.mongodb.com/docs/atlas/release-notes/
+Azure,Cosmos DB,MongoDB API 4.0,preview,2020-07-15,https://azure.microsoft.com/en-us/updates/
+AWS,Neptune,general,ga,2020-08-12,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,graph queries,unknown,2020-09-16,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+Azure,Cosmos DB,MongoDB API 4.0,ga,2020-09-22,https://azure.microsoft.com/en-us/updates/
+AWS,DynamoDB,PartiQL Support,ga,2020-11-19,https://aws.amazon.com/about-aws/whats-new/2020/11/you-now-can-use-a-sql-compatible-query-language-to-query-insert-update-and-delete-table-data-in-amazon-dynamodb/
+AWS,DocumentDB,aggregation,ga,2021-01-15,https://docs.aws.amazon.com/documentdb/latest/developerguide/doc-history.html
+AWS,Neptune,general,ga,2021-01-18,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,deprecated,2021-04-26,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+DataStax,Astra,REST API,ga,2021-05-25,https://docs.datastax.com/en/astra-serverless/docs/release-notes.html
+DataStax,Astra,GraphQL API,preview,2021-06-01,https://docs.datastax.com/en/astra-serverless/docs/release-notes.html
+AWS,DocumentDB,Global Clusters,ga,2021-06-02,https://docs.aws.amazon.com/documentdb/latest/developerguide/doc-history.html
+MongoDB,Atlas,Atlas GraphQL API,ga,2021-06-08,https://www.mongodb.com/docs/atlas/release-notes/
+MongoDB,Atlas,Atlas Search,ga,2021-07-13,https://www.mongodb.com/docs/atlas/release-notes/
+DataStax,Astra,GraphQL API,ga,2021-09-14,https://docs.datastax.com/en/astra-serverless/docs/release-notes.html
+AWS,Neptune,general,ga,2021-10-15,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+DataStax,Astra,Document API,ga,2021-12-07,https://docs.datastax.com/en/astra-serverless/docs/release-notes.html
+AWS,Neptune,general,ga,2022-01-22,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2022-02-01,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2022-02-01,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2022-02-22,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+GCP,Firestore,TTL (Time-to-live),ga,2022-03-29,https://cloud.google.com/firestore/docs/release-notes
+Neo4j,Aura,GDS (Graph Data Science),ga,2022-03-31,https://neo4j.com/release-notes/
+AWS,Neptune,general,ga,2022-04-22,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2022-05-18,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+Neo4j,Aura,AuraDB Enterprise,ga,2022-06-21,https://neo4j.com/release-notes/
+MongoDB,Atlas,Atlas Data API,ga,2022-09-13,https://www.mongodb.com/docs/atlas/release-notes/
+AWS,DocumentDB,Elastic Clusters,preview,2022-09-15,https://aws.amazon.com/about-aws/whats-new/
+AWS,Neptune,general,ga,2022-10-26,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,DocumentDB,Elastic Clusters,ga,2022-11-30,https://docs.aws.amazon.com/documentdb/latest/developerguide/doc-history.html
+AWS,Neptune,general,ga,2022-12-16,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2022-12-20,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2022-12-20,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2022-12-20,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2023-01-03,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,DocumentDB,MongoDB 5.0 Compatibility,ga,2023-03-01,https://docs.aws.amazon.com/documentdb/latest/developerguide/doc-history.html
+AWS,Neptune,general,ga,2023-05-26,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2023-05-26,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2023-05-26,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html
+AWS,Neptune,general,ga,2023-05-28,https://docs.aws.amazon.com/neptune/latest/userguide/doc-history.html

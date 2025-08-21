@@ -1,0 +1,54 @@
+standard,vendor,feature_subset,status,date,link
+SQL:2023,Oracle,Multi-dimensional arrays,GA,2023-04-01,https://docs.oracle.com/en/database/oracle/oracle-database/23/newft/new-features.html
+SQL:2023,Oracle,Graph queries,GA,2023-04-01,https://docs.oracle.com/en/database/oracle/oracle-database/23/newft/new-features.html
+SQL:2023,Oracle,JSON features,GA,2023-04-01,https://docs.oracle.com/en/database/oracle/oracle-database/23/newft/new-features.html
+SQL:2023,PostgreSQL,Multi-dimensional arrays,Preview,2024-09-01,https://www.postgresql.org/docs/devel/arrays.html
+SQL:2023,PostgreSQL,JSON features,GA,2024-01-01,https://www.postgresql.org/docs/current/datatype-json.html
+SQL:2023,MySQL,JSON features,GA,2023-01-01,https://dev.mysql.com/doc/refman/8.0/en/json.html
+SQL:2023,SQL Server,JSON features,GA,2023-01-01,https://docs.microsoft.com/en-us/sql/relational-databases/json/json-data-sql-server
+SQL:2023,BigQuery,Multi-dimensional arrays,GA,2024-01-01,https://cloud.google.com/bigquery/docs/reference/standard-sql/arrays
+SQL:2023,Snowflake,JSON features,GA,2023-01-01,https://docs.snowflake.com/en/user-guide/semistructured-concepts.html
+SQL:2023,Azure Synapse,JSON features,GA,2023-01-01,https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/json-functions
+ISO GQL,Neo4j,Core graph patterns,Roadmap,2025-06-01,https://neo4j.com/blog/gql-international-standard/
+ISO GQL,Amazon Neptune,Graph traversal,Roadmap,2025-12-01,https://docs.aws.amazon.com/neptune/latest/userguide/feature-overview.html
+ISO GQL,Azure Cosmos DB,Graph queries,Roadmap,2025-12-01,https://docs.microsoft.com/en-us/azure/cosmos-db/gremlin/
+ISO GQL,Oracle,Property graphs,Preview,2024-12-01,https://docs.oracle.com/en/database/oracle/property-graph/
+ISO GQL,TigerGraph,Native GQL,Roadmap,2025-06-01,https://www.tigergraph.com/tigergraph-db/
+JSONPath,MongoDB,Query expressions,GA,2022-01-01,https://docs.mongodb.com/manual/reference/operator/query/jsonSchema/
+JSONPath,PostgreSQL,JSON path expressions,GA,2020-01-01,https://www.postgresql.org/docs/current/datatype-json.html
+JSONPath,MySQL,JSON path syntax,GA,2021-01-01,https://dev.mysql.com/doc/refman/8.0/en/json-path-syntax.html
+JSONPath,Oracle,JSON path expressions,GA,2021-01-01,https://docs.oracle.com/en/database/oracle/oracle-database/21/adjsn/json-path-expressions.html
+JSONPath,BigQuery,JSON extraction,GA,2022-01-01,https://cloud.google.com/bigquery/docs/reference/standard-sql/json_functions
+JSONPath,Snowflake,JSON path notation,GA,2021-01-01,https://docs.snowflake.com/en/user-guide/querying-semistructured.html
+JSONPath,Azure Cosmos DB,JSON path queries,GA,2022-01-01,https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-query-json-path
+JSONPath,DynamoDB,Expression paths,Preview,2023-01-01,https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.ProjectionExpressions.html
+GraphQL,AWS AppSync,Query standardization,GA,2020-01-01,https://docs.aws.amazon.com/appsync/latest/devguide/graphql-overview.html
+GraphQL,Hasura,Database GraphQL,GA,2020-01-01,https://hasura.io/docs/latest/graphql/core/index.html
+GraphQL,Prisma,Database abstraction,GA,2021-01-01,https://www.prisma.io/docs/concepts/overview/what-is-prisma
+GraphQL,FaunaDB,Native GraphQL,GA,2021-01-01,https://docs.fauna.com/fauna/current/api/graphql/
+GraphQL,Dgraph,Native graph database,GA,2019-01-01,https://dgraph.io/docs/graphql/
+OpenAPI 3.x,MongoDB Atlas,Data API,GA,2022-01-01,https://www.mongodb.com/docs/atlas/api/data-api/
+OpenAPI 3.x,Supabase,Auto-generated APIs,GA,2021-01-01,https://supabase.com/docs/guides/api
+OpenAPI 3.x,PlanetScale,Database API,GA,2022-01-01,https://planetscale.com/docs/concepts/planetscale-api
+OpenAPI 3.x,Neon,Database API,GA,2023-01-01,https://neon.tech/docs/reference/api-reference
+OpenAPI 3.x,Turso,SQLite API,GA,2023-01-01,https://docs.turso.tech/reference/platform-api
+OpenAPI 3.x,Xata,Serverless API,GA,2022-01-01,https://xata.io/docs/api-reference/overview
+SQL:2023,DuckDB,JSON features,GA,2024-01-01,https://duckdb.org/docs/extensions/json
+SQL:2023,ClickHouse,JSON functions,GA,2023-01-01,https://clickhouse.com/docs/en/sql-reference/functions/json-functions
+SQL:2023,CockroachDB,JSON support,GA,2023-01-01,https://www.cockroachlabs.com/docs/stable/jsonb.html
+ISO GQL,ArangoDB,Graph queries,Roadmap,2025-09-01,https://www.arangodb.com/roadmap/
+ISO GQL,MemGraph,Cypher to GQL,Roadmap,2025-12-01,https://memgraph.com/blog/gql-graph-query-language
+JSONPath,Elasticsearch,JSON path queries,GA,2020-01-01,https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-bool-query.html
+JSONPath,Redis,JSON path operations,GA,2021-01-01,https://redis.io/docs/stack/json/path/
+JSONPath,CouchDB,Mango queries,GA,2020-01-01,https://docs.couchdb.org/en/stable/api/database/find.html
+SQL:2023,Apache Spark,JSON SQL functions,GA,2024-01-01,https://spark.apache.org/docs/latest/sql-ref-functions-json.html
+SQL:2023,Trino,JSON path functions,GA,2023-01-01,https://trino.io/docs/current/functions/json.html
+SQL:2023,Apache Drill,JSON support,GA,2023-01-01,https://drill.apache.org/docs/json-data-model/
+GraphQL,PostGraphile,PostgreSQL GraphQL,GA,2020-01-01,https://www.graphile.org/postgraphile/
+GraphQL,Contentful,Content GraphQL,GA,2019-01-01,https://www.contentful.com/developers/docs/references/graphql/
+ISO GQL,Apache AGE,PostgreSQL graphs,Preview,2024-06-01,https://age.apache.org/
+ISO GQL,JanusGraph,Graph traversal,Roadmap,2025-06-01,https://janusgraph.org/
+SQL:2023,SingleStore,JSON functions,GA,2023-01-01,https://docs.singlestore.com/managed-service/en/reference/sql-reference/json-functions.html
+SQL:2023,TimescaleDB,JSON support,GA,2023-01-01,https://docs.timescale.com/timescaledb/latest/how-to-guides/schema-management/json/
+JSONPath,Apache Cassandra,JSON queries,Preview,2024-01-01,https://cassandra.apache.org/doc/latest/cassandra/cql/json.html
+OpenAPI 3.x,Grafana,Data source API,GA,2022-01-01,https://grafana.com/docs/grafana/latest/developers/http_api/

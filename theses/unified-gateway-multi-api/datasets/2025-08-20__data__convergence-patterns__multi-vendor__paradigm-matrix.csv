@@ -1,0 +1,7 @@
+vendor,sql_apis,kv_apis,document_apis,graph_apis,search_apis,total_paradigms,multi_api_score,convergence_tier
+AWS,2,2,1,1,1,5,0.91,"Tier 1: Universal Multi-API"
+Azure,2,1,1,1,1,5,0.85,"Tier 1: Universal Multi-API"  
+DataStax,1,1,2,0,1,4,0.71,"Tier 2: Selective Multi-API"
+GCP,3,1,1,0,1,4,0.68,"Tier 2: Selective Multi-API"
+MongoDB,1,0,1,0,1,3,0.82,"Tier 2: Selective Multi-API"
+Neo4j,0,0,0,1,1,2,0.65,"Tier 3: Paradigm-Specialized"

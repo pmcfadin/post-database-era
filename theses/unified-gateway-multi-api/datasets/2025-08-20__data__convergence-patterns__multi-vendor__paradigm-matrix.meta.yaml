@@ -1,0 +1,112 @@
+# Dataset Metadata
+dataset:
+  title: "Database Vendor Convergence Patterns and Multi-API Scoring"
+  description: "Analysis of how major database vendors have converged toward multi-API platforms, with scoring metrics for cross-paradigm capability maturity"
+  topic: "Database industry convergence toward multi-paradigm platforms"
+  metric: "Multi-API score and convergence tier classification"
+  
+# Source Information
+source:
+  name: "Derived analysis from API Coverage & Parity Matrix dataset"
+  url: "Based on 2025-08-20__data__api-coverage-parity__multi-vendor__feature-matrix.csv"
+  accessed: "2025-08-20"
+  license: "Derived work for research analysis"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 6
+  columns: 8
+  time_range: "Point-in-time analysis for 2025"
+  update_frequency: "static analytical snapshot"
+  collection_method: "aggregated from detailed feature matrix"
+  
+# Column Descriptions
+columns:
+  vendor:
+    type: "string"
+    description: "Database vendor or cloud provider"
+    unit: "categorical"
+  sql_apis:
+    type: "number"
+    description: "Number of distinct SQL API services offered"
+    unit: "count"
+  kv_apis:
+    type: "number" 
+    description: "Number of distinct Key-Value API services offered"
+    unit: "count"
+  document_apis:
+    type: "number"
+    description: "Number of distinct Document API services offered" 
+    unit: "count"
+  graph_apis:
+    type: "number"
+    description: "Number of distinct Graph API services offered"
+    unit: "count"
+  search_apis:
+    type: "number"
+    description: "Number of distinct Search API services offered"
+    unit: "count"
+  total_paradigms:
+    type: "number"
+    description: "Total number of different API paradigms supported"
+    unit: "count"
+    range: "2-5"
+  multi_api_score:
+    type: "number"
+    description: "Composite score for multi-API platform maturity (0-1 scale)"
+    unit: "score"
+    calculation: "Based on paradigm breadth, feature completeness, and GA ratio"
+    range: "0.65-0.91"
+  convergence_tier:
+    type: "string" 
+    description: "Classification tier for convergence maturity"
+    unit: "categorical"
+    values: 
+      - "Tier 1: Universal Multi-API (5 paradigms, high maturity)"
+      - "Tier 2: Selective Multi-API (3-4 paradigms, good maturity)"
+      - "Tier 3: Paradigm-Specialized (2 paradigms, focused approach)"
+    
+# Quality Indicators
+quality:
+  completeness: "100% for tracked major vendors"
+  sample_size: "6 major database vendors"
+  confidence: "high"
+  limitations:
+    - "Scoring methodology is analytical interpretation"
+    - "Tier classifications are relative to current market"
+    - "Does not account for performance or cost factors"
+    - "Based on feature availability, not implementation quality"
+  
+# Analysis Insights
+insights:
+  convergence_findings:
+    - "83% of vendors achieved Tier 1 or Tier 2 multi-API status"
+    - "All vendors support at least 2 paradigms (no single-paradigm vendors remain)"
+    - "SQL + Document + Search emerges as most common paradigm combination"
+    - "Graph APIs remain concentrated in specialized vendors"
+  scoring_methodology:
+    - "Multi-API score combines paradigm count, feature completeness, and GA ratio"
+    - "Higher scores indicate more mature multi-paradigm platforms"
+    - "Tier 1 vendors score >0.80 with 5 paradigms"
+    - "Tier 2 vendors score 0.65-0.80 with 3-4 paradigms"
+  strategic_implications:
+    - "Multi-API capability is now competitive necessity"
+    - "Specialized vendors must expand or risk marginalization" 
+    - "Platform consolidation opportunities significant for enterprises"
+    - "Cross-API query engines become differentiating capability"
+    
+# Usage Notes
+notes:
+  - "Derived from detailed 156-feature analysis dataset"
+  - "Scoring methodology documented in analysis scripts"
+  - "Suitable for vendor positioning and strategic analysis"
+  - "Tier classifications may evolve as market matures"
+  - "Consider alongside performance, cost, and ecosystem factors"
+  
+# Related Research
+related_datasets:
+  - "2025-08-20__data__api-coverage-parity__multi-vendor__feature-matrix.csv"
+  - "Developer survey API preference data"
+  - "Database market share and adoption metrics"
+  - "Enterprise architecture pattern analysis"

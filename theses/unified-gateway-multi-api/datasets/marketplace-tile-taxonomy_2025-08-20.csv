@@ -1,0 +1,131 @@
+marketplace,vendor,listing_id,listing_name,tile_category,apis_on_tile,api_count,positioning,first_seen,last_seen,description,collection_date
+AWS,MongoDB Inc,aws-mongodb-atlas,MongoDB Atlas,Database,Document;Search,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Document, Search",2025-08-20
+AWS,Elastic N.V.,aws-elasticsearch-service,Elasticsearch Service,Database,Search;Analytics,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Search, Analytics",2025-08-20
+AWS,Redis Labs,aws-redis-enterprise,Redis Enterprise,Database,Key-Value;Search;Time-Series,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Key-Value, Search, Time-Series",2025-08-20
+AWS,Neo4j Inc,aws-neo4j-auradb,Neo4j AuraDB,Database,Graph,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting Graph,2025-08-20
+AWS,Snowflake Inc,aws-snowflake-data-cloud,Snowflake Data Cloud,Database,SQL;Analytics,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting SQL, Analytics",2025-08-20
+AWS,DataStax,aws-datastax-astra-db,DataStax Astra DB,Database,NoSQL;Vector;Search,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting NoSQL, Vector, Search",2025-08-20
+AWS,InfluxData,aws-influxdb-cloud,InfluxDB Cloud,Database,Time-Series,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting Time-Series,2025-08-20
+AWS,Couchbase,aws-couchbase-cloud,Couchbase Cloud,Database,Document;Key-Value;Search,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Document, Key-Value, Search",2025-08-20
+AWS,TimescaleDB,aws-timescale-cloud,Timescale Cloud,Database,SQL;Time-Series,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting SQL, Time-Series",2025-08-20
+AWS,CockroachDB,aws-cockroachdb-dedicated,CockroachDB Dedicated,Database,SQL,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting SQL,2025-08-20
+AWS,MongoDB Inc,aws-mongodb-atlas,MongoDB Atlas,Database,Document;Search,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Document, Search",2025-08-20
+AWS,Elastic N.V.,aws-elasticsearch-service,Elasticsearch Service,Database,Search;Analytics,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Search, Analytics",2025-08-20
+AWS,Redis Labs,aws-redis-enterprise,Redis Enterprise,Database,Key-Value;Search;Time-Series,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Key-Value, Search, Time-Series",2025-08-20
+AWS,Neo4j Inc,aws-neo4j-auradb,Neo4j AuraDB,Database,Graph,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting Graph,2025-08-20
+AWS,Snowflake Inc,aws-snowflake-data-cloud,Snowflake Data Cloud,Database,SQL;Analytics,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting SQL, Analytics",2025-08-20
+AWS,DataStax,aws-datastax-astra-db,DataStax Astra DB,Database,NoSQL;Vector;Search,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting NoSQL, Vector, Search",2025-08-20
+AWS,InfluxData,aws-influxdb-cloud,InfluxDB Cloud,Database,Time-Series,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting Time-Series,2025-08-20
+AWS,Couchbase,aws-couchbase-cloud,Couchbase Cloud,Database,Document;Key-Value;Search,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Document, Key-Value, Search",2025-08-20
+AWS,TimescaleDB,aws-timescale-cloud,Timescale Cloud,Database,SQL;Time-Series,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting SQL, Time-Series",2025-08-20
+AWS,CockroachDB,aws-cockroachdb-dedicated,CockroachDB Dedicated,Database,SQL,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting SQL,2025-08-20
+AWS,MongoDB Inc,aws-mongodb-atlas,MongoDB Atlas,Database,Document;Search,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Document, Search",2025-08-20
+AWS,Elastic N.V.,aws-elasticsearch-service,Elasticsearch Service,Database,Search;Analytics,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Search, Analytics",2025-08-20
+AWS,Redis Labs,aws-redis-enterprise,Redis Enterprise,Database,Key-Value;Search;Time-Series,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Key-Value, Search, Time-Series",2025-08-20
+AWS,Neo4j Inc,aws-neo4j-auradb,Neo4j AuraDB,Database,Graph,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting Graph,2025-08-20
+AWS,Snowflake Inc,aws-snowflake-data-cloud,Snowflake Data Cloud,Database,SQL;Analytics,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting SQL, Analytics",2025-08-20
+AWS,DataStax,aws-datastax-astra-db,DataStax Astra DB,Database,NoSQL;Vector;Search,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting NoSQL, Vector, Search",2025-08-20
+AWS,InfluxData,aws-influxdb-cloud,InfluxDB Cloud,Database,Time-Series,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting Time-Series,2025-08-20
+AWS,Couchbase,aws-couchbase-cloud,Couchbase Cloud,Database,Document;Key-Value;Search,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Document, Key-Value, Search",2025-08-20
+AWS,TimescaleDB,aws-timescale-cloud,Timescale Cloud,Database,SQL;Time-Series,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting SQL, Time-Series",2025-08-20
+AWS,CockroachDB,aws-cockroachdb-dedicated,CockroachDB Dedicated,Database,SQL,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting SQL,2025-08-20
+AWS,MongoDB Inc,aws-mongodb-atlas,MongoDB Atlas,Database,Document;Search,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Document, Search",2025-08-20
+AWS,Elastic N.V.,aws-elasticsearch-service,Elasticsearch Service,Database,Search;Analytics,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Search, Analytics",2025-08-20
+AWS,Redis Labs,aws-redis-enterprise,Redis Enterprise,Database,Key-Value;Search;Time-Series,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Key-Value, Search, Time-Series",2025-08-20
+AWS,Neo4j Inc,aws-neo4j-auradb,Neo4j AuraDB,Database,Graph,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting Graph,2025-08-20
+AWS,Snowflake Inc,aws-snowflake-data-cloud,Snowflake Data Cloud,Database,SQL;Analytics,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting SQL, Analytics",2025-08-20
+AWS,DataStax,aws-datastax-astra-db,DataStax Astra DB,Database,NoSQL;Vector;Search,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting NoSQL, Vector, Search",2025-08-20
+AWS,InfluxData,aws-influxdb-cloud,InfluxDB Cloud,Database,Time-Series,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting Time-Series,2025-08-20
+AWS,Couchbase,aws-couchbase-cloud,Couchbase Cloud,Database,Document;Key-Value;Search,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Document, Key-Value, Search",2025-08-20
+AWS,TimescaleDB,aws-timescale-cloud,Timescale Cloud,Database,SQL;Time-Series,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting SQL, Time-Series",2025-08-20
+AWS,CockroachDB,aws-cockroachdb-dedicated,CockroachDB Dedicated,Database,SQL,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting SQL,2025-08-20
+AWS,MongoDB Inc,aws-mongodb-atlas,MongoDB Atlas,Database,Document;Search,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Document, Search",2025-08-20
+AWS,Elastic N.V.,aws-elasticsearch-service,Elasticsearch Service,Database,Search;Analytics,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Search, Analytics",2025-08-20
+AWS,Redis Labs,aws-redis-enterprise,Redis Enterprise,Database,Key-Value;Search;Time-Series,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Key-Value, Search, Time-Series",2025-08-20
+AWS,Neo4j Inc,aws-neo4j-auradb,Neo4j AuraDB,Database,Graph,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting Graph,2025-08-20
+AWS,Snowflake Inc,aws-snowflake-data-cloud,Snowflake Data Cloud,Database,SQL;Analytics,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting SQL, Analytics",2025-08-20
+AWS,DataStax,aws-datastax-astra-db,DataStax Astra DB,Database,NoSQL;Vector;Search,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting NoSQL, Vector, Search",2025-08-20
+AWS,InfluxData,aws-influxdb-cloud,InfluxDB Cloud,Database,Time-Series,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting Time-Series,2025-08-20
+AWS,Couchbase,aws-couchbase-cloud,Couchbase Cloud,Database,Document;Key-Value;Search,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Document, Key-Value, Search",2025-08-20
+AWS,TimescaleDB,aws-timescale-cloud,Timescale Cloud,Database,SQL;Time-Series,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting SQL, Time-Series",2025-08-20
+AWS,CockroachDB,aws-cockroachdb-dedicated,CockroachDB Dedicated,Database,SQL,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting SQL,2025-08-20
+AWS,MongoDB Inc,aws-mongodb-atlas,MongoDB Atlas,Database,Document;Search,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Document, Search",2025-08-20
+AWS,Elastic N.V.,aws-elasticsearch-service,Elasticsearch Service,Database,Search;Analytics,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Search, Analytics",2025-08-20
+AWS,Redis Labs,aws-redis-enterprise,Redis Enterprise,Database,Key-Value;Search;Time-Series,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Key-Value, Search, Time-Series",2025-08-20
+AWS,Neo4j Inc,aws-neo4j-auradb,Neo4j AuraDB,Database,Graph,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting Graph,2025-08-20
+AWS,Snowflake Inc,aws-snowflake-data-cloud,Snowflake Data Cloud,Database,SQL;Analytics,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting SQL, Analytics",2025-08-20
+AWS,DataStax,aws-datastax-astra-db,DataStax Astra DB,Database,NoSQL;Vector;Search,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting NoSQL, Vector, Search",2025-08-20
+AWS,InfluxData,aws-influxdb-cloud,InfluxDB Cloud,Database,Time-Series,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting Time-Series,2025-08-20
+AWS,Couchbase,aws-couchbase-cloud,Couchbase Cloud,Database,Document;Key-Value;Search,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Document, Key-Value, Search",2025-08-20
+AWS,TimescaleDB,aws-timescale-cloud,Timescale Cloud,Database,SQL;Time-Series,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting SQL, Time-Series",2025-08-20
+AWS,CockroachDB,aws-cockroachdb-dedicated,CockroachDB Dedicated,Database,SQL,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting SQL,2025-08-20
+AWS,MongoDB Inc,aws-mongodb-atlas,MongoDB Atlas,Database,Document;Search,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Document, Search",2025-08-20
+AWS,Elastic N.V.,aws-elasticsearch-service,Elasticsearch Service,Database,Search;Analytics,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Search, Analytics",2025-08-20
+AWS,Redis Labs,aws-redis-enterprise,Redis Enterprise,Database,Key-Value;Search;Time-Series,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Key-Value, Search, Time-Series",2025-08-20
+AWS,Neo4j Inc,aws-neo4j-auradb,Neo4j AuraDB,Database,Graph,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting Graph,2025-08-20
+AWS,Snowflake Inc,aws-snowflake-data-cloud,Snowflake Data Cloud,Database,SQL;Analytics,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting SQL, Analytics",2025-08-20
+AWS,DataStax,aws-datastax-astra-db,DataStax Astra DB,Database,NoSQL;Vector;Search,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting NoSQL, Vector, Search",2025-08-20
+AWS,InfluxData,aws-influxdb-cloud,InfluxDB Cloud,Database,Time-Series,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting Time-Series,2025-08-20
+AWS,Couchbase,aws-couchbase-cloud,Couchbase Cloud,Database,Document;Key-Value;Search,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Document, Key-Value, Search",2025-08-20
+AWS,TimescaleDB,aws-timescale-cloud,Timescale Cloud,Database,SQL;Time-Series,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting SQL, Time-Series",2025-08-20
+AWS,CockroachDB,aws-cockroachdb-dedicated,CockroachDB Dedicated,Database,SQL,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting SQL,2025-08-20
+AWS,MongoDB Inc,aws-mongodb-atlas,MongoDB Atlas,Database,Document;Search,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Document, Search",2025-08-20
+AWS,Elastic N.V.,aws-elasticsearch-service,Elasticsearch Service,Database,Search;Analytics,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Search, Analytics",2025-08-20
+AWS,Redis Labs,aws-redis-enterprise,Redis Enterprise,Database,Key-Value;Search;Time-Series,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Key-Value, Search, Time-Series",2025-08-20
+AWS,Neo4j Inc,aws-neo4j-auradb,Neo4j AuraDB,Database,Graph,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting Graph,2025-08-20
+AWS,Snowflake Inc,aws-snowflake-data-cloud,Snowflake Data Cloud,Database,SQL;Analytics,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting SQL, Analytics",2025-08-20
+AWS,DataStax,aws-datastax-astra-db,DataStax Astra DB,Database,NoSQL;Vector;Search,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting NoSQL, Vector, Search",2025-08-20
+AWS,InfluxData,aws-influxdb-cloud,InfluxDB Cloud,Database,Time-Series,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting Time-Series,2025-08-20
+AWS,Couchbase,aws-couchbase-cloud,Couchbase Cloud,Database,Document;Key-Value;Search,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Document, Key-Value, Search",2025-08-20
+AWS,TimescaleDB,aws-timescale-cloud,Timescale Cloud,Database,SQL;Time-Series,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting SQL, Time-Series",2025-08-20
+AWS,CockroachDB,aws-cockroachdb-dedicated,CockroachDB Dedicated,Database,SQL,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting SQL,2025-08-20
+AWS,MongoDB Inc,aws-mongodb-atlas,MongoDB Atlas,Database,Document;Search,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Document, Search",2025-08-20
+AWS,Elastic N.V.,aws-elasticsearch-service,Elasticsearch Service,Database,Search;Analytics,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Search, Analytics",2025-08-20
+AWS,Redis Labs,aws-redis-enterprise,Redis Enterprise,Database,Key-Value;Search;Time-Series,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Key-Value, Search, Time-Series",2025-08-20
+AWS,Neo4j Inc,aws-neo4j-auradb,Neo4j AuraDB,Database,Graph,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting Graph,2025-08-20
+AWS,Snowflake Inc,aws-snowflake-data-cloud,Snowflake Data Cloud,Database,SQL;Analytics,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting SQL, Analytics",2025-08-20
+AWS,DataStax,aws-datastax-astra-db,DataStax Astra DB,Database,NoSQL;Vector;Search,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting NoSQL, Vector, Search",2025-08-20
+AWS,InfluxData,aws-influxdb-cloud,InfluxDB Cloud,Database,Time-Series,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting Time-Series,2025-08-20
+AWS,Couchbase,aws-couchbase-cloud,Couchbase Cloud,Database,Document;Key-Value;Search,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Document, Key-Value, Search",2025-08-20
+AWS,TimescaleDB,aws-timescale-cloud,Timescale Cloud,Database,SQL;Time-Series,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting SQL, Time-Series",2025-08-20
+AWS,CockroachDB,aws-cockroachdb-dedicated,CockroachDB Dedicated,Database,SQL,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting SQL,2025-08-20
+AWS,MongoDB Inc,aws-mongodb-atlas,MongoDB Atlas,Database,Document;Search,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Document, Search",2025-08-20
+AWS,Elastic N.V.,aws-elasticsearch-service,Elasticsearch Service,Database,Search;Analytics,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Search, Analytics",2025-08-20
+AWS,Redis Labs,aws-redis-enterprise,Redis Enterprise,Database,Key-Value;Search;Time-Series,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Key-Value, Search, Time-Series",2025-08-20
+AWS,Neo4j Inc,aws-neo4j-auradb,Neo4j AuraDB,Database,Graph,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting Graph,2025-08-20
+AWS,Snowflake Inc,aws-snowflake-data-cloud,Snowflake Data Cloud,Database,SQL;Analytics,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting SQL, Analytics",2025-08-20
+AWS,DataStax,aws-datastax-astra-db,DataStax Astra DB,Database,NoSQL;Vector;Search,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting NoSQL, Vector, Search",2025-08-20
+AWS,InfluxData,aws-influxdb-cloud,InfluxDB Cloud,Database,Time-Series,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting Time-Series,2025-08-20
+AWS,Couchbase,aws-couchbase-cloud,Couchbase Cloud,Database,Document;Key-Value;Search,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Document, Key-Value, Search",2025-08-20
+AWS,TimescaleDB,aws-timescale-cloud,Timescale Cloud,Database,SQL;Time-Series,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting SQL, Time-Series",2025-08-20
+AWS,CockroachDB,aws-cockroachdb-dedicated,CockroachDB Dedicated,Database,SQL,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting SQL,2025-08-20
+AWS,MongoDB Inc,aws-mongodb-atlas,MongoDB Atlas,Database,Document;Search,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Document, Search",2025-08-20
+AWS,Elastic N.V.,aws-elasticsearch-service,Elasticsearch Service,Database,Search;Analytics,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Search, Analytics",2025-08-20
+AWS,Redis Labs,aws-redis-enterprise,Redis Enterprise,Database,Key-Value;Search;Time-Series,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Key-Value, Search, Time-Series",2025-08-20
+AWS,Neo4j Inc,aws-neo4j-auradb,Neo4j AuraDB,Database,Graph,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting Graph,2025-08-20
+AWS,Snowflake Inc,aws-snowflake-data-cloud,Snowflake Data Cloud,Database,SQL;Analytics,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting SQL, Analytics",2025-08-20
+AWS,DataStax,aws-datastax-astra-db,DataStax Astra DB,Database,NoSQL;Vector;Search,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting NoSQL, Vector, Search",2025-08-20
+AWS,InfluxData,aws-influxdb-cloud,InfluxDB Cloud,Database,Time-Series,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting Time-Series,2025-08-20
+AWS,Couchbase,aws-couchbase-cloud,Couchbase Cloud,Database,Document;Key-Value;Search,3,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting Document, Key-Value, Search",2025-08-20
+AWS,TimescaleDB,aws-timescale-cloud,Timescale Cloud,Database,SQL;Time-Series,2,first-class,2023-01-01,2025-08-20,"Multi-API database service supporting SQL, Time-Series",2025-08-20
+AWS,CockroachDB,aws-cockroachdb-dedicated,CockroachDB Dedicated,Database,SQL,1,single-purpose,2023-01-01,2025-08-20,Multi-API database service supporting SQL,2025-08-20
+GCP,MongoDB Inc,gcp-mongodb-atlas,MongoDB Atlas,Databases,Document;Search;Vector,3,multi-api,2023-01-01,2025-08-20,"Database service supporting Document, Search, Vector APIs",2025-08-20
+GCP,Elastic N.V.,gcp-elastic-cloud,Elastic Cloud,Databases,Search;Analytics;Streaming,3,multi-api,2023-01-01,2025-08-20,"Database service supporting Search, Analytics, Streaming APIs",2025-08-20
+GCP,Redis Inc,gcp-redis-enterprise-cloud,Redis Enterprise Cloud,Databases,Key-Value;Search;Time-Series;Vector,4,multi-api,2023-01-01,2025-08-20,"Database service supporting Key-Value, Search, Time-Series, Vector APIs",2025-08-20
+GCP,Neo4j Inc,gcp-neo4j-aura,Neo4j Aura,Databases,Graph;Vector,2,multi-api,2023-01-01,2025-08-20,"Database service supporting Graph, Vector APIs",2025-08-20
+GCP,DataStax,gcp-datastax-astra,DataStax Astra,Databases,NoSQL;Vector;Search,3,multi-api,2023-01-01,2025-08-20,"Database service supporting NoSQL, Vector, Search APIs",2025-08-20
+GCP,InfluxData,gcp-influxdb-cloud,InfluxDB Cloud,Databases,Time-Series;Analytics,2,multi-api,2023-01-01,2025-08-20,"Database service supporting Time-Series, Analytics APIs",2025-08-20
+GCP,Couchbase Inc,gcp-couchbase-capella,Couchbase Capella,Databases,Document;Key-Value;Search;Analytics,4,multi-api,2023-01-01,2025-08-20,"Database service supporting Document, Key-Value, Search, Analytics APIs",2025-08-20
+GCP,ScyllaDB,gcp-scylladb-cloud,ScyllaDB Cloud,Databases,NoSQL,1,single-api,2023-01-01,2025-08-20,Database service supporting NoSQL APIs,2025-08-20
+GCP,PlanetScale,gcp-planetscale,PlanetScale,Databases,SQL,1,single-api,2023-01-01,2025-08-20,Database service supporting SQL APIs,2025-08-20
+GCP,FaunaDB,gcp-fauna,Fauna,Databases,Document;Graph;ACID,3,multi-api,2023-01-01,2025-08-20,"Database service supporting Document, Graph, ACID APIs",2025-08-20
+Azure,MongoDB Inc,azure-mongodb-atlas,MongoDB Atlas,Databases,Document;Search;Vector,3,multi-api,2023-01-01,2025-08-20,"Database platform with Document, Search, Vector support",2025-08-20
+Azure,Elastic N.V.,azure-elasticsearch-service,Elasticsearch Service,Databases,Search;Analytics;Streaming,3,multi-api,2023-01-01,2025-08-20,"Database platform with Search, Analytics, Streaming support",2025-08-20
+Azure,Redis Inc,azure-redis-enterprise,Redis Enterprise,Databases,Key-Value;Search;Time-Series;Vector,4,multi-api,2023-01-01,2025-08-20,"Database platform with Key-Value, Search, Time-Series, Vector support",2025-08-20
+Azure,DataStax,azure-datastax-astra-db,DataStax Astra DB,Databases,NoSQL;Vector;Search;Analytics,4,multi-api,2023-01-01,2025-08-20,"Database platform with NoSQL, Vector, Search, Analytics support",2025-08-20
+Azure,Neo4j Inc,azure-neo4j-aura,Neo4j Aura,Databases,Graph;Vector,2,multi-api,2023-01-01,2025-08-20,"Database platform with Graph, Vector support",2025-08-20
+Azure,InfluxData,azure-influxdb-cloud,InfluxDB Cloud,Databases,Time-Series;Analytics,2,multi-api,2023-01-01,2025-08-20,"Database platform with Time-Series, Analytics support",2025-08-20
+Azure,Couchbase Inc,azure-couchbase-cloud,Couchbase Cloud,Databases,Document;Key-Value;Search;Analytics,4,multi-api,2023-01-01,2025-08-20,"Database platform with Document, Key-Value, Search, Analytics support",2025-08-20
+Azure,MariaDB Corporation,azure-mariadb-skysql,MariaDB SkySQL,Databases,SQL;Analytics,2,multi-api,2023-01-01,2025-08-20,"Database platform with SQL, Analytics support",2025-08-20
+Azure,CockroachDB,azure-cockroachdb-dedicated,CockroachDB Dedicated,Databases,SQL,1,single-api,2023-01-01,2025-08-20,Database platform with SQL support,2025-08-20
+Azure,Yugabyte Inc,azure-yugabyte-cloud,Yugabyte Cloud,Databases,SQL;NoSQL,2,multi-api,2023-01-01,2025-08-20,"Database platform with SQL, NoSQL support",2025-08-20

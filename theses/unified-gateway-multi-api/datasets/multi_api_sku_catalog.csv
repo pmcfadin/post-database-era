@@ -1,0 +1,22 @@
+vendor,platform,sku_id,sku_name,apis_supported,gateway_default,first_listed_date,pricing_model,documentation_url,product_page_url
+Microsoft,Azure Cosmos DB,cosmos-db-nosql,Azure Cosmos DB for NoSQL,"[""doc"", ""kv"", ""search""]",true,2017-05-10,per-RU,https://docs.microsoft.com/azure/cosmos-db/,https://azure.microsoft.com/products/cosmos-db/
+Microsoft,Azure Cosmos DB,cosmos-db-mongodb,Azure Cosmos DB for MongoDB,"[""doc"", ""kv"", ""search""]",true,2016-11-15,per-RU,https://docs.microsoft.com/azure/cosmos-db/mongodb/,https://azure.microsoft.com/products/cosmos-db/
+Microsoft,Azure Cosmos DB,cosmos-db-cassandra,Azure Cosmos DB for Apache Cassandra,"[""kv"", ""sql""]",true,2017-10-10,per-RU,https://docs.microsoft.com/azure/cosmos-db/cassandra/,https://azure.microsoft.com/products/cosmos-db/
+Microsoft,Azure Cosmos DB,cosmos-db-gremlin,Azure Cosmos DB for Apache Gremlin,"[""graph"", ""kv""]",true,2017-05-10,per-RU,https://docs.microsoft.com/azure/cosmos-db/gremlin/,https://azure.microsoft.com/products/cosmos-db/
+Microsoft,Azure Cosmos DB,cosmos-db-table,Azure Cosmos DB for Table,"[""kv""]",true,2017-05-10,per-RU,https://docs.microsoft.com/azure/cosmos-db/table/,https://azure.microsoft.com/products/cosmos-db/
+AWS,Amazon DynamoDB,dynamodb,Amazon DynamoDB,"[""kv"", ""doc""]",true,2012-01-18,per-request,https://docs.aws.amazon.com/dynamodb/,https://aws.amazon.com/dynamodb/
+AWS,Amazon DocumentDB,documentdb,Amazon DocumentDB with MongoDB compatibility,"[""doc"", ""kv""]",true,2019-01-09,per-instance,https://docs.aws.amazon.com/documentdb/,https://aws.amazon.com/documentdb/
+AWS,Amazon Neptune,neptune,Amazon Neptune,"[""graph"", ""kv""]",true,2017-11-29,per-instance,https://docs.aws.amazon.com/neptune/,https://aws.amazon.com/neptune/
+AWS,Amazon OpenSearch,opensearch,Amazon OpenSearch Service,"[""search"", ""kv"", ""doc""]",true,2015-10-01,per-instance,https://docs.aws.amazon.com/opensearch-service/,https://aws.amazon.com/opensearch-service/
+AWS,Amazon Aurora,aurora-postgresql,Amazon Aurora PostgreSQL-Compatible Edition,"[""sql"", ""kv"", ""doc""]",false,2017-10-24,per-instance,https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/,https://aws.amazon.com/rds/aurora/
+Google,Cloud Firestore,firestore,Cloud Firestore,"[""doc"", ""kv""]",true,2017-10-03,per-operation,https://cloud.google.com/firestore/docs,https://cloud.google.com/firestore
+Google,Cloud Bigtable,bigtable,Cloud Bigtable,"[""kv""]",true,2015-05-06,per-node,https://cloud.google.com/bigtable/docs,https://cloud.google.com/bigtable
+Google,AlloyDB,alloydb,AlloyDB for PostgreSQL,"[""sql"", ""kv"", ""doc"", ""search""]",false,2022-05-11,per-vCPU,https://cloud.google.com/alloydb/docs,https://cloud.google.com/alloydb
+MongoDB,Atlas,atlas-m10,MongoDB Atlas M10,"[""doc"", ""kv"", ""search""]",true,2016-06-28,per-cluster,https://docs.atlas.mongodb.com/,https://www.mongodb.com/atlas
+MongoDB,Atlas,atlas-search,MongoDB Atlas Search,"[""search"", ""doc"", ""kv""]",false,2020-06-23,per-cluster-addon,https://docs.atlas.mongodb.com/atlas-search/,https://www.mongodb.com/atlas/search
+DataStax,Astra DB,astra-db,DataStax Astra DB,"[""kv"", ""doc"", ""search""]",true,2020-05-26,per-operation,https://docs.datastax.com/en/astra/,https://astra.datastax.com/
+Neo4j,Aura,aura-db,Neo4j Aura,"[""graph"", ""kv""]",true,2020-03-12,per-instance,https://neo4j.com/docs/aura/,https://neo4j.com/cloud/aura/
+Elastic,Cloud,elastic-cloud,Elastic Cloud,"[""search"", ""kv"", ""doc""]",true,2015-03-19,per-hour,https://www.elastic.co/guide/en/cloud/,https://www.elastic.co/cloud/
+FaunaDB,Fauna,fauna-db,Fauna,"[""doc"", ""graph"", ""kv""]",true,2016-04-13,per-operation,https://docs.fauna.com/,https://fauna.com/
+PlanetScale,MySQL,planetscale-db,PlanetScale,"[""sql"", ""kv""]",false,2020-06-10,per-connection,https://docs.planetscale.com/,https://planetscale.com/
+Supabase,PostgreSQL,supabase-db,Supabase,"[""sql"", ""kv"", ""doc"", ""search""]",false,2020-04-02,per-project,https://supabase.com/docs,https://supabase.com/

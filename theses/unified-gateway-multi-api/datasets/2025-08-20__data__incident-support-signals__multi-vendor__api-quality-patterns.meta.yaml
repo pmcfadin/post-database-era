@@ -1,0 +1,66 @@
+dataset:
+  title: Incident and Support Signals for API Quality Research
+  description: Service quality and incident patterns across API types and vendors,
+    including connectivity issues, performance degradation, and gateway-specific problems
+  topic: incident-support-signals
+  metric: incident_count_by_api_type_and_vendor
+source:
+  name: Multiple Sources
+  url: Various status pages and issue trackers
+  accessed: '2025-08-20'
+  license: Research use
+  credibility: Tier B - Mixed synthetic and real patterns
+characteristics:
+  rows: 1008
+  columns: 8
+  time_range: 2023-Q1 - 2024-Q4
+  update_frequency: static
+  collection_method: automated + synthetic patterns
+columns:
+  vendor:
+    type: string
+    description: Service provider or platform vendor
+    unit: categorical
+  api:
+    type: string
+    description: API type (SQL, KV, Document, Graph, Search, Multi-API Gateway)
+    unit: categorical
+  issue_type:
+    type: string
+    description: Category of incident or support issue
+    unit: categorical
+  count:
+    type: number
+    description: Number of incidents in the time window
+    unit: count
+  window:
+    type: string
+    description: Time period for incident aggregation
+    unit: quarters
+  source:
+    type: string
+    description: Data source (status pages, GitHub, Stack Overflow, synthetic)
+    unit: categorical
+  created_at:
+    type: date
+    description: Incident creation timestamp
+    unit: ISO8601
+  title:
+    type: string
+    description: Brief incident description or title
+    unit: text
+quality:
+  completeness: 95%
+  sample_size: Multi-source aggregation
+  confidence: medium
+  limitations:
+  - Some data is synthetic based on industry patterns
+  - GitHub API rate limits may affect completeness
+  - Stack Overflow data filtered for problem signals only
+  - Status page data may be incomplete for older incidents
+notes:
+- Combines real incident data with synthetic patterns based on industry research
+- Gateway-specific incidents are primarily synthetic due to limited public data
+- Data designed to support research on unified gateway vs individual API quality
+- Issue classification based on text analysis patterns
+- Vendor multipliers applied based on known reliability patterns

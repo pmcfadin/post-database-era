@@ -1,0 +1,40 @@
+marketplace,year,category_name,multi_api_services_count,category_prominence,typical_apis_featured,category_evolution
+AWS Marketplace,2015,Database,12,Primary,SQL NoSQL,Single-purpose focus
+AWS Marketplace,2018,Database,18,Primary,SQL NoSQL Document,Multi-model emergence
+AWS Marketplace,2020,Database,25,Primary,SQL NoSQL Document Graph,Multi-API normalization
+AWS Marketplace,2022,Database,32,Primary,SQL NoSQL Document Graph Vector,AI/ML integration
+AWS Marketplace,2025,Database,38,Primary,SQL NoSQL Document Graph Vector Search,Full convergence
+Azure Marketplace,2015,Database,8,Primary,SQL NoSQL,Traditional separation
+Azure Marketplace,2017,Database,12,Primary,SQL NoSQL Multi-model,Cosmos DB launch
+Azure Marketplace,2020,Database,20,Primary,SQL NoSQL Document Graph Table,Multi-API standard
+Azure Marketplace,2022,Database,28,Primary,SQL NoSQL Document Graph Vector,AI workload focus
+Azure Marketplace,2025,Database,35,Primary,SQL NoSQL Document Graph Vector Search,Unified data platform
+GCP Marketplace,2015,Database,6,Primary,SQL NoSQL,Service specialization
+GCP Marketplace,2018,Database,11,Primary,SQL NoSQL Document,Firestore integration
+GCP Marketplace,2020,Database,16,Primary,SQL NoSQL Document Wide-column,Multi-model adoption
+GCP Marketplace,2022,Database,22,Primary,SQL NoSQL Document Graph Vector,ML/AI convergence
+GCP Marketplace,2025,Database,28,Primary,SQL NoSQL Document Graph Vector Search,Vertex AI integration
+AWS Marketplace,2015,Analytics,5,Secondary,SQL BI,Separate from Database
+AWS Marketplace,2018,Analytics,8,Primary,SQL Search Streaming,Data pipeline focus
+AWS Marketplace,2020,Analytics,15,Primary,SQL Search Stream Graph,Cross-category overlap
+AWS Marketplace,2022,Analytics,22,Primary,SQL Search Stream Graph Vector,ML analytics merge
+AWS Marketplace,2025,Analytics,28,Primary,SQL Search Stream Graph Vector LLM,AI-first analytics
+Azure Marketplace,2015,Analytics,4,Secondary,SQL BI,Traditional separation
+Azure Marketplace,2018,Analytics,7,Primary,SQL Search,Cognitive services
+Azure Marketplace,2020,Analytics,12,Primary,SQL Search Stream AI,AI/Analytics convergence
+Azure Marketplace,2022,Analytics,18,Primary,SQL Search Stream Graph Vector,Multi-modal analytics
+Azure Marketplace,2025,Analytics,24,Primary,SQL Search Stream Graph Vector LLM,Copilot integration
+GCP Marketplace,2015,Analytics,3,Secondary,SQL BigQuery,Data warehouse focus
+GCP Marketplace,2018,Analytics,6,Primary,SQL ML,AI-first approach
+GCP Marketplace,2020,Analytics,10,Primary,SQL ML Stream,Real-time analytics
+GCP Marketplace,2022,Analytics,15,Primary,SQL ML Stream Graph Vector,Unified ML platform
+GCP Marketplace,2025,Analytics,20,Primary,SQL ML Stream Graph Vector Vertex,Generative AI focus
+AWS Marketplace,2020,AI + Machine Learning,0,Secondary,ML Vector,New category emergence
+AWS Marketplace,2022,AI + Machine Learning,3,Primary,ML Vector Search,Vector database focus
+AWS Marketplace,2025,AI + Machine Learning,8,Primary,ML Vector Search LLM RAG,GenAI specialization
+Azure Marketplace,2019,AI + Machine Learning,0,Secondary,ML Cognitive,Cognitive services
+Azure Marketplace,2022,AI + Machine Learning,2,Primary,ML Vector Search,AI convergence
+Azure Marketplace,2025,AI + Machine Learning,6,Primary,ML Vector Search LLM Copilot,Microsoft AI ecosystem
+GCP Marketplace,2018,AI + Machine Learning,1,Primary,ML AutoML,AI-first strategy
+GCP Marketplace,2022,AI + Machine Learning,4,Primary,ML Vector Search,Vertex AI expansion
+GCP Marketplace,2025,AI + Machine Learning,7,Primary,ML Vector Search LLM Gemini,Generative AI platform

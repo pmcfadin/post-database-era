@@ -1,0 +1,65 @@
+dataset:
+  title: Multi-API Database SKU Catalog
+  description: Comprehensive catalog of database SKUs supporting multiple API types
+    (SQL, KV, Document, Graph, Search)
+  topic: Multi-API SKU convergence and unified database offerings
+  metric: API support coverage and gateway capabilities across database vendors
+source:
+  name: Multiple vendor websites and documentation
+  url: Various vendor product pages
+  accessed: '2025-08-20'
+  license: Publicly available product information
+  credibility: Tier A
+characteristics:
+  rows: 24
+  columns: 8
+  time_range: 2012-2024
+  update_frequency: irregular
+  collection_method: manual curation from vendor documentation
+columns:
+  vendor:
+    type: string
+    description: Database vendor or company name
+    unit: text
+  platform:
+    type: string
+    description: Cloud platform or service brand
+    unit: text
+  sku_id:
+    type: string
+    description: Unique SKU identifier or product code
+    unit: text
+  sku_name:
+    type: string
+    description: Official product or service name
+    unit: text
+  apis_supported:
+    type: string
+    description: 'Pipe-separated list of supported API types: sql|kv|doc|graph|search'
+    unit: categorical
+  gateway_default:
+    type: boolean
+    description: Whether the service is designed as a unified gateway/multi-model
+      by default
+    unit: true/false
+  first_listed_date:
+    type: date
+    description: Date when the SKU was first publicly available or announced
+    unit: YYYY-MM-DD
+  links:
+    type: string
+    description: Pipe-separated list of relevant URLs for the SKU
+    unit: URLs
+quality:
+  completeness: 100%
+  sample_size: 24
+  confidence: high
+  limitations:
+  - First listed dates are approximate and based on public announcements
+  - API support classification may vary based on native vs plugin support
+  - Gateway classification is subjective based on vendor positioning
+notes:
+- Data collected from vendor websites and public documentation
+- Multi-API support determined by native features and documented capabilities
+- Gateway default indicates services designed as unified multi-model databases
+- Some dates estimated from press releases and product announcements

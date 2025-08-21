@@ -1,0 +1,72 @@
+# Dataset Metadata
+dataset:
+  title: "Developer Platform Adoption and Growth Metrics for Multi-API Database Services"
+  description: "Growth indicators and adoption metrics showing developer preference for unified platforms and multi-API database services"
+  topic: "Developer adoption patterns driving revenue attribution to unified database platforms"
+  metric: "Growth percentages, adoption rates, and platform utilization metrics"
+  
+# Source Information
+source:
+  name: "Vendor Product Documentation and Growth Indicators"
+  url: "Compiled from product blogs, documentation, and growth announcements"
+  accessed: "2025-08-20"
+  license: "Public product information compilation"
+  credibility: "Tier B"
+  
+# Data Characteristics
+characteristics:
+  rows: 22
+  columns: 7
+  time_range: "2024-Q3 to 2024-Q4"
+  update_frequency: "quarterly"
+  collection_method: "manual compilation from vendor communications and product metrics"
+  
+# Column Descriptions
+columns:
+  vendor:
+    type: "string"
+    description: "Company or cloud provider name"
+    unit: "categorical"
+  segment:
+    type: "string"
+    description: "Product or service segment"
+    unit: "categorical"
+  metric:
+    type: "string"
+    description: "Type of growth or adoption measurement"
+    unit: "categorical"
+  value:
+    type: "number"
+    description: "Numeric value of the metric (percentages, counts, or volume)"
+    unit: "varies by metric type"
+  period:
+    type: "string"
+    description: "Reporting period (quarter and year)"
+    unit: "YYYY-QN format"
+  source_link:
+    type: "string"
+    description: "URL to source documentation or announcement"
+    unit: "URL"
+  inference_note:
+    type: "string"
+    description: "Context and methodology for metric derivation"
+    unit: "text"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all fields populated"
+  sample_size: "22 growth metrics across 11 vendors"
+  confidence: "medium"
+  limitations: 
+    - "Some metrics derived from product announcements rather than financial filings"
+    - "Growth percentages may include estimated components"
+    - "Adoption rates often based on vendor-reported platform usage"
+    - "Volume metrics (petabytes, billions of requests) provide relative scale indicators"
+  
+# Usage Notes
+notes:
+  - "Metrics focus on multi-API and unified platform adoption patterns"
+  - "Higher adoption rates correlate with revenue attribution opportunities"
+  - "Developer workflow integration drives platform stickiness and revenue growth"
+  - "Cross-cloud and multi-model capabilities show strong adoption trends"
+  - "Serverless and auto-scaling features indicate platform modernization drivers"

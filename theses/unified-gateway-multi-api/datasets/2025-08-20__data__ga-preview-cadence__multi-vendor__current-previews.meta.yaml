@@ -1,0 +1,116 @@
+# Dataset Metadata
+dataset:
+  title: "Current Database Features in Preview Status (2024-2025)"
+  description: "Active tracking of database features currently in Preview status across major cloud providers, with predicted GA timeframes based on historical velocity patterns"
+  topic: "Current preview features and GA prediction modeling"
+  metric: "Days in preview status and predicted GA timeline"
+  
+# Source Information
+source:
+  name: "Multi-vendor release notes - current preview tracking"
+  url: "Various vendor release note pages and developer previews"
+  accessed: "2025-08-20"
+  license: "Public release information - vendor attribution required"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 19
+  columns: 8
+  time_range: "2024-05-21 to 2024-11-27"
+  update_frequency: "manual/event-driven"
+  collection_method: "manual curation from official preview announcements"
+  
+# Column Descriptions
+columns:
+  vendor:
+    type: "string"
+    description: "Database service provider"
+    unit: "categorical"
+    values: ["AWS", "GCP", "Azure", "MongoDB", "DataStax"]
+  api:
+    type: "string"
+    description: "API/interface type of the database service"
+    unit: "categorical"
+    values: ["KV", "Document", "Graph", "Search", "SQL"]
+  feature:
+    type: "string"
+    description: "Name and brief description of the database feature"
+    unit: "text"
+  milestone:
+    type: "string"
+    description: "Current release milestone stage"
+    unit: "categorical"
+    values: ["Preview", "GA"]
+  date:
+    type: "date"
+    description: "Preview announcement or GA release date"
+    unit: "ISO date"
+  note_url:
+    type: "string"
+    description: "URL to official release announcement"
+    unit: "URL"
+  days_in_preview:
+    type: "number"
+    description: "Days since preview announcement (calculated to 2025-08-20)"
+    unit: "days"
+  predicted_ga_timeframe:
+    type: "string"
+    description: "Predicted GA release timeframe based on historical velocity"
+    unit: "quarter/year"
+    values: ["2025-Q1", "2025-Q2", "2025-Q3", "Achieved"]
+    
+# Quality Indicators
+quality:
+  completeness: "100% for tracked preview features"
+  sample_size: "16 active preview features, 3 recent GA releases"
+  confidence: "high for current status, medium for predictions"
+  limitations:
+    - "Predictions based on historical averages only"
+    - "Does not account for feature complexity variations"
+    - "Limited to publicly announced previews"
+    - "Vendor priorities may accelerate or delay timelines"
+  
+# Prediction Methodology
+prediction_model:
+  basis: "Historical velocity averages from companion dataset"
+  aws_avg_velocity: "150 days"
+  gcp_avg_velocity: "204 days" 
+  azure_avg_velocity: "161 days"
+  mongodb_avg_velocity: "217 days"
+  datastax_avg_velocity: "186 days"
+  prediction_confidence: "Medium - historical patterns may not predict future performance"
+
+# Current Preview Analysis
+current_status:
+  total_active_previews: 16
+  avg_days_in_preview: "~180 days (varies by feature age)"
+  features_likely_ga_q1_2025: 5
+  features_likely_ga_q2_2025: 8
+  features_likely_ga_q3_2025: 3
+  
+# Vendor Preview Activity
+vendor_activity:
+  AWS: "4 active previews - fastest historical velocity"
+  GCP: "4 active previews - longer maturation cycles"
+  Azure: "3 active previews - moderate velocity"
+  MongoDB: "3 active previews - longest historical cycles"
+  DataStax: "2 active previews - smaller portfolio"
+
+# API Type Distribution
+api_distribution:
+  Document: "6 features - highest activity area"
+  SQL: "3 features - complex integrations"
+  KV: "4 features - vector/AI enhancements"
+  Graph: "2 features - RAG and serverless focus"
+  Search: "1 feature - application templates"
+
+# Usage Notes
+notes:
+  - "Predictions based on historical velocity patterns only"
+  - "Actual GA dates may vary due to technical complexity"
+  - "Vector/AI features showing increased activity across vendors"
+  - "Serverless capabilities common theme in current previews"
+  - "Multi-cloud and edge deployment emerging trends"
+  - "Updates needed as features transition to GA"
+  - "Cross-reference with historical dataset for velocity context"

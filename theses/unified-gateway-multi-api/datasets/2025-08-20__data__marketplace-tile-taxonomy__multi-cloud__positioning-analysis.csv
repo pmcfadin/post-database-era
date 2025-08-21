@@ -1,0 +1,40 @@
+marketplace,vendor,listing_id,listing_name,tile_category,apis_on_tile,api_count,api_positioning,tile_positioning,first_seen,last_seen,collection_date
+AWS,MongoDB Inc,aws-mongodb-atlas,MongoDB Atlas,NoSQL Database,Document;Search;Vector,3,multi-api,first-class,2023-01-01,2025-08-20,2025-08-20
+AWS,Elastic N.V.,aws-elasticsearch-service,Elasticsearch Service,Search & Analytics,Search;Analytics,2,dual-api,emerging-multi-api,2023-01-01,2025-08-20,2025-08-20
+AWS,Redis Inc,aws-redis-enterprise,Redis Enterprise,In-Memory Database,Key-Value;Search;Time-Series;Vector,4,multi-api,emerging-multi-api,2023-01-01,2025-08-20,2025-08-20
+AWS,Neo4j Inc,aws-neo4j-auradb,Neo4j AuraDB,Graph Database,Graph,1,single-purpose,niche,2023-01-01,2025-08-20,2025-08-20
+AWS,Snowflake Inc,aws-snowflake-data-cloud,Snowflake Data Cloud,Data Warehouse,SQL;Analytics,2,dual-api,first-class,2023-01-01,2025-08-20,2025-08-20
+AWS,DataStax,aws-datastax-astra-db,DataStax Astra DB,Multi-Model Database,NoSQL;Vector;Search,3,multi-api,first-class,2023-01-01,2025-08-20,2025-08-20
+AWS,InfluxData,aws-influxdb-cloud,InfluxDB Cloud,Time Series Database,Time-Series,1,single-purpose,niche,2023-01-01,2025-08-20,2025-08-20
+AWS,Couchbase Inc,aws-couchbase-cloud,Couchbase Cloud,Multi-Model Database,Document;Key-Value;Search;Analytics,4,multi-api,first-class,2023-01-01,2025-08-20,2025-08-20
+AWS,TimescaleDB,aws-timescale-cloud,Timescale Cloud,Time Series Database,SQL;Time-Series,2,dual-api,emerging-multi-api,2023-01-01,2025-08-20,2025-08-20
+AWS,CockroachDB,aws-cockroachdb-dedicated,CockroachDB Dedicated,Distributed SQL,SQL,1,single-purpose,first-class,2023-01-01,2025-08-20,2025-08-20
+AWS,PlanetScale,aws-planetscale,PlanetScale,Serverless MySQL,SQL,1,single-purpose,specialized,2023-01-01,2025-08-20,2025-08-20
+AWS,Yugabyte Inc,aws-yugabyte-cloud,Yugabyte Cloud,Distributed SQL,SQL;NoSQL,2,dual-api,first-class,2023-01-01,2025-08-20,2025-08-20
+AWS,SingleStore,aws-singlestore-cloud,SingleStore Cloud,Distributed SQL,SQL;Analytics;Vector,3,multi-api,first-class,2023-01-01,2025-08-20,2025-08-20
+AWS,Pinecone,aws-pinecone,Pinecone,Vector Database,Vector,1,single-purpose,niche,2023-01-01,2025-08-20,2025-08-20
+AWS,Weaviate,aws-weaviate-cloud,Weaviate Cloud,Vector Database,Vector;Search,2,dual-api,emerging-multi-api,2023-01-01,2025-08-20,2025-08-20
+GCP,MongoDB Inc,gcp-mongodb-atlas,MongoDB Atlas,NoSQL Database,Document;Search;Vector,3,multi-api,first-class,2023-01-01,2025-08-20,2025-08-20
+GCP,Elastic N.V.,gcp-elastic-cloud,Elastic Cloud,Search & Analytics,Search;Analytics;Streaming,3,multi-api,emerging-multi-api,2023-01-01,2025-08-20,2025-08-20
+GCP,Redis Inc,gcp-redis-enterprise-cloud,Redis Enterprise Cloud,In-Memory Database,Key-Value;Search;Time-Series;Vector,4,multi-api,emerging-multi-api,2023-01-01,2025-08-20,2025-08-20
+GCP,Neo4j Inc,gcp-neo4j-aura,Neo4j Aura,Graph Database,Graph;Vector,2,dual-api,emerging-multi-api,2023-01-01,2025-08-20,2025-08-20
+GCP,DataStax,gcp-datastax-astra,DataStax Astra,Multi-Model Database,NoSQL;Vector;Search,3,multi-api,first-class,2023-01-01,2025-08-20,2025-08-20
+GCP,InfluxData,gcp-influxdb-cloud,InfluxDB Cloud,Time Series Database,Time-Series;Analytics,2,dual-api,emerging-multi-api,2023-01-01,2025-08-20,2025-08-20
+GCP,Couchbase Inc,gcp-couchbase-capella,Couchbase Capella,Multi-Model Database,Document;Key-Value;Search;Analytics,4,multi-api,first-class,2023-01-01,2025-08-20,2025-08-20
+GCP,ScyllaDB,gcp-scylladb-cloud,ScyllaDB Cloud,Wide-Column Database,NoSQL,1,single-purpose,specialized,2023-01-01,2025-08-20,2025-08-20
+GCP,PlanetScale,gcp-planetscale,PlanetScale,Serverless MySQL,SQL,1,single-purpose,specialized,2023-01-01,2025-08-20,2025-08-20
+GCP,FaunaDB,gcp-fauna,Fauna,Serverless Database,Document;Graph,2,dual-api,specialized,2023-01-01,2025-08-20,2025-08-20
+GCP,Yugabyte Inc,gcp-yugabyte-cloud,Yugabyte Cloud,Distributed SQL,SQL;NoSQL,2,dual-api,first-class,2023-01-01,2025-08-20,2025-08-20
+GCP,Pinecone,gcp-pinecone,Pinecone,Vector Database,Vector,1,single-purpose,niche,2023-01-01,2025-08-20,2025-08-20
+Azure,MongoDB Inc,azure-mongodb-atlas,MongoDB Atlas,NoSQL Database,Document;Search;Vector,3,multi-api,first-class,2023-01-01,2025-08-20,2025-08-20
+Azure,Elastic N.V.,azure-elasticsearch-service,Elasticsearch Service,Search & Analytics,Search;Analytics;Streaming,3,multi-api,emerging-multi-api,2023-01-01,2025-08-20,2025-08-20
+Azure,Redis Inc,azure-redis-enterprise,Redis Enterprise,In-Memory Database,Key-Value;Search;Time-Series;Vector,4,multi-api,emerging-multi-api,2023-01-01,2025-08-20,2025-08-20
+Azure,DataStax,azure-datastax-astra-db,DataStax Astra DB,Multi-Model Database,NoSQL;Vector;Search;Analytics,4,multi-api,first-class,2023-01-01,2025-08-20,2025-08-20
+Azure,Neo4j Inc,azure-neo4j-aura,Neo4j Aura,Graph Database,Graph;Vector,2,dual-api,emerging-multi-api,2023-01-01,2025-08-20,2025-08-20
+Azure,InfluxData,azure-influxdb-cloud,InfluxDB Cloud,Time Series Database,Time-Series;Analytics,2,dual-api,emerging-multi-api,2023-01-01,2025-08-20,2025-08-20
+Azure,Couchbase Inc,azure-couchbase-cloud,Couchbase Cloud,Multi-Model Database,Document;Key-Value;Search;Analytics,4,multi-api,first-class,2023-01-01,2025-08-20,2025-08-20
+Azure,MariaDB Corporation,azure-mariadb-skysql,MariaDB SkySQL,Cloud Database,SQL;Analytics,2,dual-api,first-class,2023-01-01,2025-08-20,2025-08-20
+Azure,CockroachDB,azure-cockroachdb-dedicated,CockroachDB Dedicated,Distributed SQL,SQL,1,single-purpose,first-class,2023-01-01,2025-08-20,2025-08-20
+Azure,Yugabyte Inc,azure-yugabyte-cloud,Yugabyte Cloud,Distributed SQL,SQL;NoSQL,2,dual-api,first-class,2023-01-01,2025-08-20,2025-08-20
+Azure,SingleStore,azure-singlestore-cloud,SingleStore Cloud,Distributed SQL,SQL;Analytics;Vector,3,multi-api,first-class,2023-01-01,2025-08-20,2025-08-20
+Azure,Pinecone,azure-pinecone,Pinecone,Vector Database,Vector,1,single-purpose,niche,2023-01-01,2025-08-20,2025-08-20

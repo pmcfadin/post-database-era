@@ -1,0 +1,121 @@
+# Dataset Metadata
+dataset:
+  title: "Time-to-First-Query Step-by-Step Breakdown"
+  description: "Granular timing analysis of each step in the developer onboarding journey for gateway vs single API paths"
+  topic: "Developer Experience Velocity - Detailed Process Analysis"
+  metric: "Step duration and cumulative time (minutes)"
+  
+# Source Information
+source:
+  name: "Detailed Benchmark Analysis Framework"
+  url: "https://github.com/post-database-era/benchmark-scripts"
+  accessed: "2025-08-21"
+  license: "MIT - Research and Educational Use"
+  credibility: "Tier A - Controlled step-by-step timing"
+  
+# Data Characteristics
+characteristics:
+  rows: 66
+  columns: 8
+  time_range: "2025-08-21 detailed benchmark session"
+  update_frequency: "quarterly"
+  collection_method: "manual_step_timing_with_automation_validation"
+  
+# Column Descriptions
+columns:
+  vendor:
+    type: "string"
+    description: "Database platform vendor name"
+    unit: "categorical"
+  path:
+    type: "string"
+    description: "Access path type: gateway (unified interface) or single (direct API)"
+    unit: "categorical"
+  step_number:
+    type: "number"
+    description: "Sequential step number in the onboarding process"
+    unit: "ordinal"
+  step_description:
+    type: "string"
+    description: "Brief description of what the step accomplishes"
+    unit: "text"
+  duration_minutes:
+    type: "number"
+    description: "Time spent on this individual step"
+    unit: "minutes"
+  cumulative_minutes:
+    type: "number"
+    description: "Total elapsed time from start through this step"
+    unit: "minutes"
+  blocker_encountered:
+    type: "string"
+    description: "Type of friction or blocker encountered (none if smooth)"
+    unit: "categorical"
+  complexity_rating:
+    type: "string"
+    description: "Subjective complexity rating: low, medium, high"
+    unit: "ordinal"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - All steps documented for selected representative platforms"
+  sample_size: "5 vendors x 2 paths = 10 detailed workflows with 66 total steps"
+  confidence: "high - Manual timing with multiple validation runs"
+  limitations: 
+    - "Step granularity varies by platform complexity"
+    - "Some steps may be parallelizable in practice"
+    - "Individual developer skill affects actual timing"
+    - "Platform documentation quality impacts discovery time"
+  
+# Analysis Insights
+insights:
+  gateway_step_consolidation: |
+    Gateway paths consolidate complex operations:
+    - Authentication typically single-step (OAuth)
+    - Database creation often includes guided templates
+    - Query interfaces provide syntax assistance
+    - Sample data commonly pre-loaded
+    
+  single_api_friction_points: |
+    High-friction steps consistently include:
+    - Development environment setup (2-3 minutes average)
+    - Certificate/SSL configuration (2-4 minutes)
+    - Authentication debugging (2-3 minutes)
+    - Syntax reference lookup (1-3 minutes)
+    
+  blocker_categories: |
+    - package_manager: Installing development dependencies
+    - certificate_validation: SSL/TLS configuration issues
+    - authentication: API key or token setup problems
+    - syntax_reference: Looking up query syntax documentation
+    - dependency_management: Managing language-specific libraries
+    
+  complexity_distribution: |
+    Gateway paths: 60% low, 30% medium, 10% high complexity steps
+    Single API paths: 25% low, 45% medium, 30% high complexity steps
+    
+# Methodology Details
+methodology:
+  step_identification: |
+    Steps identified by following official "getting started" documentation
+    Each discrete action or wait period counted as separate step
+    Steps that require context switching (new browser tab, terminal) noted
+    
+  timing_approach: |
+    - Realistic reading/comprehension time included
+    - Network latency and deployment waits measured
+    - Debugging time captured when issues encountered
+    - Multiple runs averaged for consistency
+    
+  complexity_criteria: |
+    Low: Point-and-click, copy-paste operations
+    Medium: Configuration requiring some technical knowledge
+    High: Programming, debugging, or troubleshooting required
+    
+# Usage Notes
+notes:
+  - "Step breakdown focuses on most representative platforms"
+  - "Timing includes realistic developer behavior (reading docs, small mistakes)"
+  - "Gateway advantages compound as step count increases"
+  - "Single API paths show more variability due to development environment differences"
+  - "Results support hypothesis that gateway consolidation reduces cognitive load"

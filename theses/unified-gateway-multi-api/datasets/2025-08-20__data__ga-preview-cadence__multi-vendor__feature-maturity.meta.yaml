@@ -1,0 +1,102 @@
+# Dataset Metadata
+dataset:
+  title: "Database Feature GA/Preview Cadence Analysis (2021-2024)"
+  description: "Tracking of database features progressing from Preview to General Availability across major cloud providers, measuring velocity of feature maturation"
+  topic: "Database feature maturity and vendor velocity comparison"
+  metric: "Days from Preview to GA release"
+  
+# Source Information
+source:
+  name: "Multi-vendor release notes aggregation"
+  url: "Various vendor release note pages"
+  accessed: "2025-08-20"
+  license: "Public release information - vendor attribution required"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 40
+  columns: 7
+  time_range: "2021-10-12 to 2024-06-19"
+  update_frequency: "manual/event-driven"
+  collection_method: "manual curation from official release notes"
+  
+# Column Descriptions
+columns:
+  vendor:
+    type: "string"
+    description: "Database service provider"
+    unit: "categorical"
+    values: ["AWS", "GCP", "Azure", "MongoDB", "DataStax"]
+  api:
+    type: "string" 
+    description: "API/interface type of the database service"
+    unit: "categorical"
+    values: ["KV", "Document", "Graph", "Search", "SQL"]
+  feature:
+    type: "string"
+    description: "Name and brief description of the database feature"
+    unit: "text"
+  milestone:
+    type: "string"
+    description: "Release milestone stage"
+    unit: "categorical"
+    values: ["Preview", "GA"]
+  date:
+    type: "date"
+    description: "Release date in YYYY-MM-DD format"
+    unit: "ISO date"
+  note_url:
+    type: "string"
+    description: "URL to official release announcement"
+    unit: "URL"
+  velocity_days:
+    type: "number"
+    description: "Days between Preview and GA release (null for Preview entries)"
+    unit: "days"
+    
+# Quality Indicators
+quality:
+  completeness: "100% for tracked features"
+  sample_size: "20 feature pairs across 5 vendors"
+  confidence: "high"
+  limitations: 
+    - "Manual curation - may miss some features"
+    - "Limited to major cloud providers"
+    - "Focus on significant feature releases only"
+    - "Date precision limited to announcement dates"
+  
+# Key Findings
+analytics:
+  avg_preview_to_ga_velocity: "176 days (5.8 months)"
+  velocity_range: "89-274 days"
+  fastest_vendor: "AWS (150 days average)"
+  slowest_vendor: "MongoDB (217 days average)"
+  fastest_api_type: "Search (119 days average)"
+  slowest_api_type: "SQL (236 days average)"
+  
+# Vendor Velocity Analysis
+vendor_performance:
+  AWS: "149.6 days average - fastest overall"
+  Azure: "161.0 days average - second fastest"  
+  DataStax: "185.5 days average - mid-range"
+  GCP: "203.8 days average - slower"
+  MongoDB: "217.3 days average - slowest"
+  
+# API Type Velocity Analysis  
+api_performance:
+  Search: "119.0 days average - fastest to mature"
+  KV: "147.0 days average - fast maturation"
+  Document: "178.9 days average - moderate"
+  Graph: "203.3 days average - slower maturation"
+  SQL: "236.0 days average - slowest to mature"
+
+# Usage Notes
+notes:
+  - "Each feature tracked from Preview announcement to GA release"
+  - "Velocity calculated only for features that achieved GA"
+  - "URLs point to official vendor announcements"
+  - "Dates reflect public announcement timing, not internal development"
+  - "Sample includes major feature releases, not minor updates"
+  - "Graph and SQL features show longer maturation cycles"
+  - "Search and KV features demonstrate faster velocity"

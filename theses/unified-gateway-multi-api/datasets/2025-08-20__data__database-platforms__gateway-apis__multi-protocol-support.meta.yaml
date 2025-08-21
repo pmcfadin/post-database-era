@@ -1,0 +1,88 @@
+# Dataset Metadata
+dataset:
+  title: "Database Platform Gateway API Support Matrix"
+  description: "Analysis of major cloud database platforms and their unified gateway capabilities supporting multiple API protocols"
+  topic: "Database Platform Gateway Support"
+  metric: "Multi-protocol API gateway coverage across database platforms"
+  
+# Source Information
+source:
+  name: "Cloud provider and database vendor documentation"
+  url: "Various official platform documentation"
+  accessed: "2025-08-20"
+  license: "Public documentation analysis"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 12
+  columns: 10
+  time_range: "2023 - 2024"
+  update_frequency: "quarterly"
+  collection_method: "vendor documentation and platform analysis"
+  
+# Column Descriptions
+columns:
+  platform:
+    type: "string"
+    description: "Name of the database platform or service"
+    unit: "platform name"
+  vendor:
+    type: "string"
+    description: "Company providing the platform"
+    unit: "organization name"
+  unified_gateway:
+    type: "boolean"
+    description: "Whether platform provides unified gateway for multiple protocols"
+    unit: "true/false"
+  sql_api:
+    type: "boolean"
+    description: "Supports SQL query interface"
+    unit: "true/false"
+  rest_api:
+    type: "boolean"
+    description: "Supports REST API interface"
+    unit: "true/false"
+  graphql_api:
+    type: "boolean"
+    description: "Supports GraphQL query interface"
+    unit: "true/false"
+  document_api:
+    type: "boolean"
+    description: "Supports document-oriented API"
+    unit: "true/false"
+  key_value_api:
+    type: "boolean"
+    description: "Supports key-value store API"
+    unit: "true/false"
+  native_connectors:
+    type: "string"
+    description: "BI/ETL tools with native platform connectors (pipe-separated)"
+    unit: "tool names"
+  version:
+    type: "string"
+    description: "Current platform version or API version"
+    unit: "version number"
+  link:
+    type: "string"
+    description: "URL to platform documentation"
+    unit: "URL"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all major platforms covered"
+  sample_size: "12 major cloud database platforms"
+  confidence: "high"
+  limitations: 
+    - "Feature availability may vary by pricing tier"
+    - "Beta features not consistently documented"
+    - "Regional availability differences not captured"
+  
+# Usage Notes
+notes:
+  - "Unified gateway indicates single endpoint supporting multiple API protocols"
+  - "Native connectors show which BI/ETL tools have pre-built platform integrations"
+  - "Multi-protocol support enables tool flexibility and reduces integration complexity"
+  - "Cloud providers lead in unified gateway adoption"
+  - "Traditional SQL databases adding REST/GraphQL interfaces"
+  - "Complements BI/ETL tool gateway support analysis"

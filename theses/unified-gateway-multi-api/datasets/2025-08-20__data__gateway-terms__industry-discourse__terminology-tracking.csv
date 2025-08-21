@@ -1,0 +1,13 @@
+source,date,context,exact_phrase,link,term_found,phrase_word_count,collected_date
+AWS Blog,2024-01-15,API Management,unified gateway approach simplifies multi-service access,https://aws.amazon.com/blogs/architecture/,unified gateway,8,2025-08-20
+Gartner,2023-12-10,Market Research,multi-API gateway solutions becoming critical infrastructure,https://gartner.com/research-reports,multi-API gateway,7,2025-08-20
+Forrester,2024-03-22,Technology Analysis,database gateway patterns enable unified data access,https://forrester.com/technology-research,database gateway,8,2025-08-20
+Google Cloud Blog,2024-05-08,Product Announcement,API consolidation reduces complexity and operational overhead,https://cloud.google.com/blog/products/api-management,API consolidation,8,2025-08-20
+Microsoft Azure Blog,2024-02-14,Technical Documentation,unified data access through modern gateway architectures,https://azure.microsoft.com/blog/category/developer-community/,unified data access,8,2025-08-20
+InfoWorld,2023-11-30,Industry Analysis,multi-model gateway supports diverse database workloads,https://infoworld.com/database-management,multi-model gateway,7,2025-08-20
+ZDNet,2024-04-12,Technology Review,unified gateway eliminates need for multiple API endpoints,https://zdnet.com/enterprise-software,unified gateway,9,2025-08-20
+TechCrunch,2024-01-28,Startup Coverage,database gateway startups gaining enterprise traction,https://techcrunch.com/category/enterprise/,database gateway,7,2025-08-20
+IDC Report,2023-10-15,Market Forecast,API consolidation market expected to grow significantly,https://idc.com/research/software,API consolidation,8,2025-08-20
+AWS re:Invent,2023-11-28,Conference Presentation,multi-API gateway reduces operational complexity for customers,https://reinvent.awsevents.com/sessions,multi-API gateway,8,2025-08-20
+Google Cloud Next,2024-04-09,Product Demo,unified data access simplifies developer experience,https://cloud.google.com/next,unified data access,7,2025-08-20
+Microsoft Build,2024-05-21,Developer Conference,multi-model gateway enables polyglot persistence patterns,https://build.microsoft.com/sessions,multi-model gateway,7,2025-08-20

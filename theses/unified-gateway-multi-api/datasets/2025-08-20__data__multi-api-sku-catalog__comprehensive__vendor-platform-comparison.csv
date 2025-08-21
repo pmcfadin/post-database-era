@@ -1,0 +1,25 @@
+vendor,platform,sku_id,sku_name,apis_supported,gateway_default,first_listed_date,links
+Amazon,AWS,documentdb,Amazon DocumentDB,doc|sql,False,2019-01-09,https://aws.amazon.com/documentdb/
+Amazon,AWS,dynamodb,Amazon DynamoDB,kv|doc,False,2012-01-18,https://aws.amazon.com/dynamodb/
+Amazon,AWS,neptune,Amazon Neptune,graph|sql,False,2017-11-29,https://aws.amazon.com/neptune/
+Amazon,AWS,opensearch,Amazon OpenSearch Service,search|sql|kv,False,2015-10-01,https://aws.amazon.com/opensearch-service/
+Amazon,AWS,timestream,Amazon Timestream,sql,False,2020-09-30,https://aws.amazon.com/timestream/
+Amazon,AWS,memorydb-redis,Amazon MemoryDB for Redis,kv|search,False,2021-08-19,https://aws.amazon.com/memorydb/
+Amazon,AWS,aurora-dsql,Amazon Aurora DSQL,sql,False,2024-12-03,https://aws.amazon.com/rds/aurora/dsql/
+Google,GCP,firestore,Cloud Firestore,doc|sql,False,2017-10-03,https://cloud.google.com/firestore
+Google,GCP,bigtable,Cloud Bigtable,kv,False,2015-05-06,https://cloud.google.com/bigtable
+Google,GCP,spanner,Cloud Spanner,sql|kv,False,2017-02-14,https://cloud.google.com/spanner
+Google,GCP,alloydb,AlloyDB for PostgreSQL,sql|search,False,2022-05-11,https://cloud.google.com/alloydb
+Microsoft,Azure,cosmosdb,Azure Cosmos DB,sql|kv|doc|graph,True,2017-05-10,https://azure.microsoft.com/en-us/products/cosmos-db
+Microsoft,Azure,postgresql,Azure Database for PostgreSQL,sql,False,2017-03-07,https://azure.microsoft.com/en-us/products/postgresql
+Microsoft,Azure,redis,Azure Cache for Redis,kv|search,False,2014-08-26,https://azure.microsoft.com/en-us/products/cache
+Microsoft,Azure,cognitive-search,Azure Cognitive Search,search|kv,False,2014-08-05,https://azure.microsoft.com/en-us/products/search
+MongoDB,Atlas,atlas,MongoDB Atlas,doc|search|sql,False,2016-06-28,https://www.mongodb.com/atlas
+DataStax,Astra,astra-db,DataStax Astra DB,kv|doc|search|graph,True,2020-09-24,https://www.datastax.com/products/datastax-astra
+Redis,Redis Enterprise Cloud,redis-enterprise,Redis Enterprise Cloud,kv|search|graph|doc,True,2018-10-17,https://redis.com/redis-enterprise-cloud/
+Neo4j,Aura,aura-db,Neo4j AuraDB,graph|sql,False,2020-11-18,https://neo4j.com/cloud/aura/
+Elastic,Elastic Cloud,elasticsearch,Elasticsearch Service,search|sql|kv,False,2015-06-01,https://www.elastic.co/cloud/
+Fauna,Fauna,faunadb,FaunaDB,doc|sql|graph,True,2017-06-15,https://fauna.com/
+PlanetScale,PlanetScale,planetscale,PlanetScale,sql,False,2020-09-30,https://planetscale.com/
+SingleStore,SingleStore Cloud,singlestore,SingleStore,sql|kv|search,False,2019-12-04,https://www.singlestore.com/
+SurrealDB,SurrealDB Cloud,surrealdb,SurrealDB,sql|kv|doc|graph,True,2022-09-29,https://surrealdb.com/

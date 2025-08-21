@@ -1,0 +1,130 @@
+dataset:
+  title: Enhanced Multi-API Database SKU Catalog
+  description: Comprehensive catalog of database SKUs with detailed API support classification
+    and historical research
+  topic: Multi-API SKU convergence, unified database offerings, and vendor positioning
+    analysis
+  metric: API support coverage, gateway capabilities, and temporal evolution across
+    database vendors
+source:
+  name: Multiple vendor websites, press releases, and announcement archives
+  url: Various vendor product pages and historical announcements
+  accessed: '2025-08-20'
+  license: Publicly available product information
+  credibility: Tier A
+characteristics:
+  rows: 24
+  columns: 23
+  time_range: 2012-2024
+  update_frequency: irregular
+  collection_method: manual curation with historical verification
+columns:
+  vendor:
+    type: string
+    description: Database vendor or company name
+    unit: text
+  platform:
+    type: string
+    description: Cloud platform or service brand
+    unit: text
+  sku_id:
+    type: string
+    description: Unique SKU identifier or product code
+    unit: text
+  sku_name:
+    type: string
+    description: Official product or service name
+    unit: text
+  apis_supported:
+    type: string
+    description: 'Pipe-separated list of supported API types: sql|kv|doc|graph|search'
+    unit: categorical
+  native_apis:
+    type: string
+    description: APIs natively supported without compatibility layers
+    unit: categorical
+  compatible_apis:
+    type: string
+    description: APIs supported through compatibility layers or translation
+    unit: categorical
+  gateway_apis:
+    type: string
+    description: APIs exposed through unified gateway interface
+    unit: categorical
+  plugin_apis:
+    type: string
+    description: APIs supported through plugins or modules
+    unit: categorical
+  gateway_default:
+    type: boolean
+    description: Whether the service is designed as a unified gateway/multi-model
+      by default
+    unit: true/false
+  first_listed_date:
+    type: date
+    description: Date when the SKU was first publicly available or announced
+    unit: YYYY-MM-DD
+  date_source:
+    type: string
+    description: Source of the first listed date information
+    unit: text
+  date_confidence:
+    type: string
+    description: 'Confidence level in the first listed date: high/medium/low'
+    unit: categorical
+  vendor_category:
+    type: string
+    description: 'Category of vendor: cloud_hyperscaler/specialist_vendor/emerging_vendor'
+    unit: categorical
+  total_api_count:
+    type: number
+    description: Total number of supported API types
+    unit: count
+  is_multi_api:
+    type: boolean
+    description: Whether the SKU supports multiple API types
+    unit: true/false
+  supports_sql:
+    type: boolean
+    description: Whether SQL API is supported
+    unit: true/false
+  supports_kv:
+    type: boolean
+    description: Whether Key-Value API is supported
+    unit: true/false
+  supports_doc:
+    type: boolean
+    description: Whether Document API is supported
+    unit: true/false
+  supports_graph:
+    type: boolean
+    description: Whether Graph API is supported
+    unit: true/false
+  supports_search:
+    type: boolean
+    description: Whether Search API is supported
+    unit: true/false
+  api_notes:
+    type: string
+    description: Additional notes about API support implementation
+    unit: text
+  links:
+    type: string
+    description: Pipe-separated list of relevant URLs for the SKU
+    unit: URLs
+quality:
+  completeness: 100%
+  sample_size: 24
+  confidence: high
+  limitations:
+  - First listed dates verified against public announcements where possible
+  - API support classification distinguishes between native, compatible, gateway,
+    and plugin support
+  - Gateway classification based on vendor positioning and architecture design
+  - Some compatibility APIs may require additional configuration or setup
+notes:
+- Enhanced dataset with detailed API support classification
+- Historical dates verified against press releases and official announcements
+- API support categorized by implementation method (native/compatible/gateway/plugin)
+- Includes vendor categorization and boolean flags for analysis
+- Gateway default indicates services architecturally designed as multi-model platforms

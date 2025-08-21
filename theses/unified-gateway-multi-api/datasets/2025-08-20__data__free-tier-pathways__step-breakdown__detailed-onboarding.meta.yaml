@@ -1,0 +1,76 @@
+# Dataset Metadata
+dataset:
+  title: "Detailed Free-Tier Database Onboarding Step Breakdown"
+  description: "Granular analysis of individual steps required in free-tier database onboarding flows, categorized by step type and complexity"
+  topic: "Free-Tier Default Pathways - Step Analysis"
+  metric: "Individual onboarding steps with time estimates and tool requirements"
+  
+# Source Information
+source:
+  name: "Cloud Provider Quickstart Documentation"
+  url: "Vendor-specific getting started guides"
+  accessed: "2025-08-20"
+  license: "Public documentation analysis"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 27
+  columns: 8
+  time_range: "2025 current state"
+  update_frequency: "quarterly"
+  collection_method: "manual documentation analysis"
+  
+# Column Descriptions
+columns:
+  vendor:
+    type: "string"
+    description: "Cloud provider or database service vendor"
+    unit: "categorical"
+  service:
+    type: "string"
+    description: "Specific database service being analyzed"
+    unit: "categorical"
+  step_number:
+    type: "number"
+    description: "Sequential step number in onboarding flow"
+    unit: "count"
+  step_description:
+    type: "string"
+    description: "Brief description of what the step involves"
+    unit: "text"
+  step_category:
+    type: "string"
+    description: "Category of onboarding step type"
+    unit: "categorical"
+  time_estimate_minutes:
+    type: "number"
+    description: "Estimated time to complete step for average developer"
+    unit: "minutes"
+  requires_cli:
+    type: "boolean"
+    description: "Whether step requires command-line interface usage"
+    unit: "true/false"
+  requires_console:
+    type: "boolean"
+    description: "Whether step requires web console/dashboard usage"
+    unit: "true/false"
+    
+# Quality Indicators
+quality:
+  completeness: "90% - covers major providers with representative services"
+  sample_size: "7 vendors, 27 distinct steps"
+  confidence: "high"
+  limitations: 
+    - "Time estimates based on experienced developer assumptions"
+    - "Some vendors offer alternative onboarding paths not captured"
+    - "Step complexity may vary based on developer familiarity"
+  
+# Usage Notes
+notes:
+  - "Gateway-based services (Supabase, PlanetScale, Vercel) show 2-3 step flows"
+  - "Traditional cloud providers require 5-6 steps with CLI/SDK installation"
+  - "Account setup represents 15-25% of total onboarding time"
+  - "Tool installation steps add 5+ minutes per onboarding flow"
+  - "Console-only workflows reduce barrier to first query execution"
+  - "Step categories reveal friction points: tool_installation, authentication, configuration"

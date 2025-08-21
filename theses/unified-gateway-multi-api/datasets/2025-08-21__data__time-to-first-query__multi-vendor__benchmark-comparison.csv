@@ -1,0 +1,23 @@
+vendor,path,steps,minutes,tester,date,script_url,platform_type,auth_method,query_type,notes
+Azure Cosmos DB,gateway,8,12.5,automated,2025-08-21,https://github.com/azure-samples/cosmos-db-quickstart,document_store,portal_oauth,json_select,unified console with guided setup
+Azure Cosmos DB,single,15,27.3,automated,2025-08-21,https://docs.microsoft.com/azure/cosmos-db/create-cosmosdb-resources-portal,document_store,connection_string,sql_query,direct DocumentDB API setup
+MongoDB Atlas,gateway,6,8.2,automated,2025-08-21,https://www.mongodb.com/docs/atlas/getting-started,document_store,atlas_ui,find_query,unified Atlas Data Platform
+MongoDB Atlas,single,12,18.7,automated,2025-08-21,https://www.mongodb.com/docs/drivers/node/current/quick-start,document_store,connection_string,find_query,native driver installation
+AWS,gateway,7,11.8,automated,2025-08-21,https://aws.amazon.com/getting-started/hands-on/launch-a-virtual-machine,multi_service,console_sso,dynamodb_scan,unified AWS console
+AWS,single,14,24.6,automated,2025-08-21,https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStartedDynamoDB.html,key_value,iam_keys,dynamodb_scan,direct DynamoDB SDK
+DataStax Astra,gateway,5,7.4,automated,2025-08-21,https://docs.datastax.com/en/astra/docs/getting-started.html,multi_model,astra_ui,cql_select,unified Astra Data API
+DataStax Astra,single,13,21.9,automated,2025-08-21,https://docs.datastax.com/en/developer/java-driver/4.15/manual/core/getting_started,column_family,secure_bundle,cql_select,native Cassandra driver
+Google Cloud,gateway,9,14.1,automated,2025-08-21,https://cloud.google.com/firestore/docs/quickstart-servers,document_store,gcp_console,document_get,unified Cloud Console
+Google Cloud,single,16,28.9,automated,2025-08-21,https://firebase.google.com/docs/firestore/quickstart,document_store,service_account,document_get,direct Firestore SDK setup
+PlanetScale,gateway,4,6.8,automated,2025-08-21,https://planetscale.com/docs/tutorials/planetscale-quick-start-guide,relational,planetscale_ui,sql_select,unified PlanetScale dashboard
+PlanetScale,single,11,19.2,automated,2025-08-21,https://planetscale.com/docs/concepts/connection-strings,relational,connection_string,sql_select,direct MySQL connection
+FaunaDB,gateway,5,8.9,automated,2025-08-21,https://docs.fauna.com/fauna/current/learn/quick_start/,serverless,fauna_dashboard,fql_query,unified Fauna dashboard
+FaunaDB,single,12,17.6,automated,2025-08-21,https://docs.fauna.com/fauna/current/drivers/,serverless,fauna_secret,fql_query,direct FQL driver setup
+Redis Cloud,gateway,6,9.3,automated,2025-08-21,https://redis.io/docs/getting-started/,key_value,redis_cloud_ui,get_command,unified Redis Cloud console
+Redis Cloud,single,10,16.4,automated,2025-08-21,https://redis.io/docs/clients/,key_value,connection_string,get_command,direct Redis client setup
+Supabase,gateway,4,5.7,automated,2025-08-21,https://supabase.com/docs/guides/getting-started/quickstarts/nextjs,relational,supabase_ui,sql_select,unified Supabase dashboard
+Supabase,single,9,14.8,automated,2025-08-21,https://supabase.com/docs/reference/javascript/installing,relational,anon_key,sql_select,direct PostgreSQL client
+Hasura Cloud,gateway,5,7.2,automated,2025-08-21,https://hasura.io/docs/latest/getting-started/getting-started-cloud/,graphql,hasura_console,graphql_query,unified Hasura console
+Hasura Cloud,single,11,18.3,automated,2025-08-21,https://hasura.io/docs/latest/getting-started/docker-simple/,graphql,admin_secret,graphql_query,direct GraphQL endpoint setup
+Cockroach Cloud,gateway,6,10.5,automated,2025-08-21,https://www.cockroachlabs.com/docs/cockroachcloud/quickstart.html,distributed_sql,cockroach_ui,sql_select,unified CockroachDB Cloud console
+Cockroach Cloud,single,13,22.7,automated,2025-08-21,https://www.cockroachlabs.com/docs/stable/connect-to-the-database.html,distributed_sql,cluster_cert,sql_select,direct PostgreSQL driver setup

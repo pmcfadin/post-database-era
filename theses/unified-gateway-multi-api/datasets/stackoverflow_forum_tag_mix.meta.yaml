@@ -1,0 +1,100 @@
+# Dataset Metadata
+dataset:
+  title: "Stack Overflow and Forum Tag Mix Data - Multi-API Gateway Trends"
+  description: "Developer attention tracking through forum tag co-occurrence patterns, focusing on shift from single-API to multi-API and unified gateway discussions"
+  topic: "Unified Gateway Multi-API Convergence"
+  metric: "Question/discussion counts by platform and tag category"
+  
+# Source Information
+source:
+  name: "Stack Overflow API, Reddit APIs, Vendor Forums"
+  url: "https://api.stackexchange.com/2.3, reddit.com/r/Database, vendor forums"
+  accessed: "2025-08-20"
+  license: "Stack Exchange API terms, Fair use for analysis"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 69
+  columns: 11
+  time_range: "2023-Q1 - 2025-08"
+  update_frequency: "quarterly"
+  collection_method: "API automated + manual research"
+  
+# Column Descriptions
+columns:
+  platform_tag:
+    type: "string"
+    description: "Discussion platform where tag was found"
+    unit: "platform name"
+  api_tag:
+    type: "string" 
+    description: "Specific technology or concept tag being tracked"
+    unit: "tag name"
+  tag_category:
+    type: "string"
+    description: "Category classification of the tag"
+    unit: "multi-api/gateway/cross-api/platform"
+  count:
+    type: "number"
+    description: "Number of questions/discussions containing this tag"
+    unit: "count"
+  month:
+    type: "string"
+    description: "Time period for the measurement (YYYY-MM or YYYY-QX format)"
+    unit: "time period"
+  total_score:
+    type: "number"
+    description: "Sum of upvotes/scores for all questions with this tag"
+    unit: "score points"
+  total_views:
+    type: "number"
+    description: "Total view count across all questions with this tag"
+    unit: "view count"
+  answered_count:
+    type: "number"
+    description: "Number of questions that received accepted answers"
+    unit: "count"
+  answer_rate:
+    type: "number"
+    description: "Percentage of questions that were answered"
+    unit: "percentage (0-1)"
+  avg_score:
+    type: "number"
+    description: "Average score per question for this tag"
+    unit: "score per question"
+  avg_views:
+    type: "number"
+    description: "Average views per question for this tag"
+    unit: "views per question"
+    
+# Quality Indicators
+quality:
+  completeness: "85% - Stack Overflow data complete for available periods, forum data estimated based on research"
+  sample_size: "69 tag-platform-period combinations"
+  confidence: "high for Stack Overflow, medium for forums"
+  limitations: 
+    - "Stack Overflow API rate limits prevented full historical collection"
+    - "Forum data partially estimated based on manual research patterns"
+    - "Tag co-occurrence patterns not captured in this dataset"
+    - "Some gateway terminology may be too new to show strong signals"
+  
+# Usage Notes
+notes:
+  - "Multi-API category includes platforms supporting multiple data models/APIs"
+  - "Gateway category tracks concepts related to unified access patterns"
+  - "Cross-API category captures discussions spanning multiple database types"
+  - "Platform category includes traditional single-purpose databases for comparison"
+  - "Reddit and forum data estimated based on community observation and search sampling"
+  - "GitHub Discussions data represents developer conversations about database tooling"
+  - "Vendor forum data focuses on official community discussions"
+  
+# Research Insights
+insights:
+  - "MongoDB dominates multi-API discussions with 176K+ Stack Overflow questions"
+  - "Firebase shows strong platform adoption with 144K+ questions"  
+  - "Azure Cosmos DB has 7.8K questions, indicating growing multi-API adoption"
+  - "Gateway concepts (api-gateway, multi-model) have limited explicit discussion"
+  - "Multi-API platforms show high answer rates (0.5-0.7) indicating active communities"
+  - "Cross-API discussions (nosql, document-database) suggest convergence thinking"
+  - "Vendor forums show increasing multi-API feature discussions in 2024"

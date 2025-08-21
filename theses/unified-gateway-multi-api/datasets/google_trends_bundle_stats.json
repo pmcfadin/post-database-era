@@ -1,0 +1,76 @@
+{
+  "total_records": 4680,
+  "date_range": {
+    "start": "2023-08-23",
+    "end": "2025-08-13"
+  },
+  "terms_covered": 9,
+  "regions_covered": 5,
+  "average_index_by_term": {
+    "multi-API database": 12.3,
+    "unified gateway": 22.1,
+    "multi model database": 37.6,
+    "database consolidation": 30.0,
+    "API gateway database": 16.8,
+    "polyglot persistence": 23.5,
+    "Cosmos DB": 61.8,
+    "MongoDB Atlas": 69.9,
+    "DataStax Astra": 33.3
+  },
+  "peak_interest_by_term": [
+    {
+      "term": "multi-API database",
+      "week": "2023-12-20",
+      "index": 28,
+      "region": "Global"
+    },
+    {
+      "term": "unified gateway",
+      "week": "2024-11-27",
+      "index": 68,
+      "region": "Global"
+    },
+    {
+      "term": "multi model database",
+      "week": "2024-12-25",
+      "index": 84,
+      "region": "Global"
+    },
+    {
+      "term": "database consolidation",
+      "week": "2023-11-01",
+      "index": 80,
+      "region": "Global"
+    },
+    {
+      "term": "API gateway database",
+      "week": "2024-11-27",
+      "index": 50,
+      "region": "Global"
+    },
+    {
+      "term": "polyglot persistence",
+      "week": "2023-11-15",
+      "index": 60,
+      "region": "Global"
+    },
+    {
+      "term": "Cosmos DB",
+      "week": "2023-09-06",
+      "index": 100,
+      "region": "Global"
+    },
+    {
+      "term": "MongoDB Atlas",
+      "week": "2023-08-23",
+      "index": 100,
+      "region": "Global"
+    },
+    {
+      "term": "DataStax Astra",
+      "week": "2024-11-13",
+      "index": 78,
+      "region": "Global"
+    }
+  ]
+}

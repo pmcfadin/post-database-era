@@ -1,0 +1,1009 @@
+vendor,api,issue_type,count,window,source,created_at,title
+AWS,SQL,connectivity,54,2023-Q1,synthetic_patterns,2023-03-15,Synthetic connectivity incidents for AWS SQL
+AWS,SQL,performance,93,2023-Q1,synthetic_patterns,2023-03-15,Synthetic performance incidents for AWS SQL
+AWS,SQL,consistency,14,2023-Q1,synthetic_patterns,2023-03-15,Synthetic consistency incidents for AWS SQL
+AWS,SQL,compatibility,27,2023-Q1,synthetic_patterns,2023-03-15,Synthetic compatibility incidents for AWS SQL
+AWS,SQL,connectivity,54,2023-Q2,synthetic_patterns,2023-06-15,Synthetic connectivity incidents for AWS SQL
+AWS,SQL,performance,93,2023-Q2,synthetic_patterns,2023-06-15,Synthetic performance incidents for AWS SQL
+AWS,SQL,consistency,14,2023-Q2,synthetic_patterns,2023-06-15,Synthetic consistency incidents for AWS SQL
+AWS,SQL,compatibility,27,2023-Q2,synthetic_patterns,2023-06-15,Synthetic compatibility incidents for AWS SQL
+AWS,SQL,connectivity,54,2023-Q3,synthetic_patterns,2023-09-15,Synthetic connectivity incidents for AWS SQL
+AWS,SQL,performance,93,2023-Q3,synthetic_patterns,2023-09-15,Synthetic performance incidents for AWS SQL
+AWS,SQL,consistency,14,2023-Q3,synthetic_patterns,2023-09-15,Synthetic consistency incidents for AWS SQL
+AWS,SQL,compatibility,27,2023-Q3,synthetic_patterns,2023-09-15,Synthetic compatibility incidents for AWS SQL
+AWS,SQL,connectivity,54,2023-Q4,synthetic_patterns,2023-12-15,Synthetic connectivity incidents for AWS SQL
+AWS,SQL,performance,93,2023-Q4,synthetic_patterns,2023-12-15,Synthetic performance incidents for AWS SQL
+AWS,SQL,consistency,14,2023-Q4,synthetic_patterns,2023-12-15,Synthetic consistency incidents for AWS SQL
+AWS,SQL,compatibility,27,2023-Q4,synthetic_patterns,2023-12-15,Synthetic compatibility incidents for AWS SQL
+AWS,SQL,connectivity,54,2024-Q1,synthetic_patterns,2024-03-15,Synthetic connectivity incidents for AWS SQL
+AWS,SQL,performance,93,2024-Q1,synthetic_patterns,2024-03-15,Synthetic performance incidents for AWS SQL
+AWS,SQL,consistency,14,2024-Q1,synthetic_patterns,2024-03-15,Synthetic consistency incidents for AWS SQL
+AWS,SQL,compatibility,27,2024-Q1,synthetic_patterns,2024-03-15,Synthetic compatibility incidents for AWS SQL
+AWS,SQL,connectivity,54,2024-Q2,synthetic_patterns,2024-06-15,Synthetic connectivity incidents for AWS SQL
+AWS,SQL,performance,93,2024-Q2,synthetic_patterns,2024-06-15,Synthetic performance incidents for AWS SQL
+AWS,SQL,consistency,14,2024-Q2,synthetic_patterns,2024-06-15,Synthetic consistency incidents for AWS SQL
+AWS,SQL,compatibility,27,2024-Q2,synthetic_patterns,2024-06-15,Synthetic compatibility incidents for AWS SQL
+AWS,SQL,connectivity,54,2024-Q3,synthetic_patterns,2024-09-15,Synthetic connectivity incidents for AWS SQL
+AWS,SQL,performance,93,2024-Q3,synthetic_patterns,2024-09-15,Synthetic performance incidents for AWS SQL
+AWS,SQL,consistency,14,2024-Q3,synthetic_patterns,2024-09-15,Synthetic consistency incidents for AWS SQL
+AWS,SQL,compatibility,27,2024-Q3,synthetic_patterns,2024-09-15,Synthetic compatibility incidents for AWS SQL
+AWS,SQL,connectivity,54,2024-Q4,synthetic_patterns,2024-12-15,Synthetic connectivity incidents for AWS SQL
+AWS,SQL,performance,93,2024-Q4,synthetic_patterns,2024-12-15,Synthetic performance incidents for AWS SQL
+AWS,SQL,consistency,14,2024-Q4,synthetic_patterns,2024-12-15,Synthetic consistency incidents for AWS SQL
+AWS,SQL,compatibility,27,2024-Q4,synthetic_patterns,2024-12-15,Synthetic compatibility incidents for AWS SQL
+AWS,KV,connectivity,22,2023-Q1,synthetic_patterns,2023-03-15,Synthetic connectivity incidents for AWS KV
+AWS,KV,performance,32,2023-Q1,synthetic_patterns,2023-03-15,Synthetic performance incidents for AWS KV
+AWS,KV,consistency,7,2023-Q1,synthetic_patterns,2023-03-15,Synthetic consistency incidents for AWS KV
+AWS,KV,compatibility,14,2023-Q1,synthetic_patterns,2023-03-15,Synthetic compatibility incidents for AWS KV
+AWS,KV,connectivity,22,2023-Q2,synthetic_patterns,2023-06-15,Synthetic connectivity incidents for AWS KV
+AWS,KV,performance,32,2023-Q2,synthetic_patterns,2023-06-15,Synthetic performance incidents for AWS KV
+AWS,KV,consistency,7,2023-Q2,synthetic_patterns,2023-06-15,Synthetic consistency incidents for AWS KV
+AWS,KV,compatibility,14,2023-Q2,synthetic_patterns,2023-06-15,Synthetic compatibility incidents for AWS KV
+AWS,KV,connectivity,22,2023-Q3,synthetic_patterns,2023-09-15,Synthetic connectivity incidents for AWS KV
+AWS,KV,performance,32,2023-Q3,synthetic_patterns,2023-09-15,Synthetic performance incidents for AWS KV
+AWS,KV,consistency,7,2023-Q3,synthetic_patterns,2023-09-15,Synthetic consistency incidents for AWS KV
+AWS,KV,compatibility,14,2023-Q3,synthetic_patterns,2023-09-15,Synthetic compatibility incidents for AWS KV
+AWS,KV,connectivity,22,2023-Q4,synthetic_patterns,2023-12-15,Synthetic connectivity incidents for AWS KV
+AWS,KV,performance,32,2023-Q4,synthetic_patterns,2023-12-15,Synthetic performance incidents for AWS KV
+AWS,KV,consistency,7,2023-Q4,synthetic_patterns,2023-12-15,Synthetic consistency incidents for AWS KV
+AWS,KV,compatibility,14,2023-Q4,synthetic_patterns,2023-12-15,Synthetic compatibility incidents for AWS KV
+AWS,KV,connectivity,22,2024-Q1,synthetic_patterns,2024-03-15,Synthetic connectivity incidents for AWS KV
+AWS,KV,performance,32,2024-Q1,synthetic_patterns,2024-03-15,Synthetic performance incidents for AWS KV
+AWS,KV,consistency,7,2024-Q1,synthetic_patterns,2024-03-15,Synthetic consistency incidents for AWS KV
+AWS,KV,compatibility,14,2024-Q1,synthetic_patterns,2024-03-15,Synthetic compatibility incidents for AWS KV
+AWS,KV,connectivity,22,2024-Q2,synthetic_patterns,2024-06-15,Synthetic connectivity incidents for AWS KV
+AWS,KV,performance,32,2024-Q2,synthetic_patterns,2024-06-15,Synthetic performance incidents for AWS KV
+AWS,KV,consistency,7,2024-Q2,synthetic_patterns,2024-06-15,Synthetic consistency incidents for AWS KV
+AWS,KV,compatibility,14,2024-Q2,synthetic_patterns,2024-06-15,Synthetic compatibility incidents for AWS KV
+AWS,KV,connectivity,22,2024-Q3,synthetic_patterns,2024-09-15,Synthetic connectivity incidents for AWS KV
+AWS,KV,performance,32,2024-Q3,synthetic_patterns,2024-09-15,Synthetic performance incidents for AWS KV
+AWS,KV,consistency,7,2024-Q3,synthetic_patterns,2024-09-15,Synthetic consistency incidents for AWS KV
+AWS,KV,compatibility,14,2024-Q3,synthetic_patterns,2024-09-15,Synthetic compatibility incidents for AWS KV
+AWS,KV,connectivity,22,2024-Q4,synthetic_patterns,2024-12-15,Synthetic connectivity incidents for AWS KV
+AWS,KV,performance,32,2024-Q4,synthetic_patterns,2024-12-15,Synthetic performance incidents for AWS KV
+AWS,KV,consistency,7,2024-Q4,synthetic_patterns,2024-12-15,Synthetic consistency incidents for AWS KV
+AWS,KV,compatibility,14,2024-Q4,synthetic_patterns,2024-12-15,Synthetic compatibility incidents for AWS KV
+AWS,Document,connectivity,44,2023-Q1,synthetic_patterns,2023-03-15,Synthetic connectivity incidents for AWS Document
+AWS,Document,performance,73,2023-Q1,synthetic_patterns,2023-03-15,Synthetic performance incidents for AWS Document
+AWS,Document,consistency,23,2023-Q1,synthetic_patterns,2023-03-15,Synthetic consistency incidents for AWS Document
+AWS,Document,compatibility,25,2023-Q1,synthetic_patterns,2023-03-15,Synthetic compatibility incidents for AWS Document
+AWS,Document,connectivity,44,2023-Q2,synthetic_patterns,2023-06-15,Synthetic connectivity incidents for AWS Document
+AWS,Document,performance,73,2023-Q2,synthetic_patterns,2023-06-15,Synthetic performance incidents for AWS Document
+AWS,Document,consistency,23,2023-Q2,synthetic_patterns,2023-06-15,Synthetic consistency incidents for AWS Document
+AWS,Document,compatibility,25,2023-Q2,synthetic_patterns,2023-06-15,Synthetic compatibility incidents for AWS Document
+AWS,Document,connectivity,44,2023-Q3,synthetic_patterns,2023-09-15,Synthetic connectivity incidents for AWS Document
+AWS,Document,performance,73,2023-Q3,synthetic_patterns,2023-09-15,Synthetic performance incidents for AWS Document
+AWS,Document,consistency,23,2023-Q3,synthetic_patterns,2023-09-15,Synthetic consistency incidents for AWS Document
+AWS,Document,compatibility,25,2023-Q3,synthetic_patterns,2023-09-15,Synthetic compatibility incidents for AWS Document
+AWS,Document,connectivity,44,2023-Q4,synthetic_patterns,2023-12-15,Synthetic connectivity incidents for AWS Document
+AWS,Document,performance,73,2023-Q4,synthetic_patterns,2023-12-15,Synthetic performance incidents for AWS Document
+AWS,Document,consistency,23,2023-Q4,synthetic_patterns,2023-12-15,Synthetic consistency incidents for AWS Document
+AWS,Document,compatibility,25,2023-Q4,synthetic_patterns,2023-12-15,Synthetic compatibility incidents for AWS Document
+AWS,Document,connectivity,44,2024-Q1,synthetic_patterns,2024-03-15,Synthetic connectivity incidents for AWS Document
+AWS,Document,performance,73,2024-Q1,synthetic_patterns,2024-03-15,Synthetic performance incidents for AWS Document
+AWS,Document,consistency,23,2024-Q1,synthetic_patterns,2024-03-15,Synthetic consistency incidents for AWS Document
+AWS,Document,compatibility,25,2024-Q1,synthetic_patterns,2024-03-15,Synthetic compatibility incidents for AWS Document
+AWS,Document,connectivity,44,2024-Q2,synthetic_patterns,2024-06-15,Synthetic connectivity incidents for AWS Document
+AWS,Document,performance,73,2024-Q2,synthetic_patterns,2024-06-15,Synthetic performance incidents for AWS Document
+AWS,Document,consistency,23,2024-Q2,synthetic_patterns,2024-06-15,Synthetic consistency incidents for AWS Document
+AWS,Document,compatibility,25,2024-Q2,synthetic_patterns,2024-06-15,Synthetic compatibility incidents for AWS Document
+AWS,Document,connectivity,44,2024-Q3,synthetic_patterns,2024-09-15,Synthetic connectivity incidents for AWS Document
+AWS,Document,performance,73,2024-Q3,synthetic_patterns,2024-09-15,Synthetic performance incidents for AWS Document
+AWS,Document,consistency,23,2024-Q3,synthetic_patterns,2024-09-15,Synthetic consistency incidents for AWS Document
+AWS,Document,compatibility,25,2024-Q3,synthetic_patterns,2024-09-15,Synthetic compatibility incidents for AWS Document
+AWS,Document,connectivity,44,2024-Q4,synthetic_patterns,2024-12-15,Synthetic connectivity incidents for AWS Document
+AWS,Document,performance,73,2024-Q4,synthetic_patterns,2024-12-15,Synthetic performance incidents for AWS Document
+AWS,Document,consistency,23,2024-Q4,synthetic_patterns,2024-12-15,Synthetic consistency incidents for AWS Document
+AWS,Document,compatibility,25,2024-Q4,synthetic_patterns,2024-12-15,Synthetic compatibility incidents for AWS Document
+AWS,Graph,connectivity,28,2023-Q1,synthetic_patterns,2023-03-15,Synthetic connectivity incidents for AWS Graph
+AWS,Graph,performance,45,2023-Q1,synthetic_patterns,2023-03-15,Synthetic performance incidents for AWS Graph
+AWS,Graph,consistency,39,2023-Q1,synthetic_patterns,2023-03-15,Synthetic consistency incidents for AWS Graph
+AWS,Graph,compatibility,18,2023-Q1,synthetic_patterns,2023-03-15,Synthetic compatibility incidents for AWS Graph
+AWS,Graph,connectivity,28,2023-Q2,synthetic_patterns,2023-06-15,Synthetic connectivity incidents for AWS Graph
+AWS,Graph,performance,45,2023-Q2,synthetic_patterns,2023-06-15,Synthetic performance incidents for AWS Graph
+AWS,Graph,consistency,39,2023-Q2,synthetic_patterns,2023-06-15,Synthetic consistency incidents for AWS Graph
+AWS,Graph,compatibility,18,2023-Q2,synthetic_patterns,2023-06-15,Synthetic compatibility incidents for AWS Graph
+AWS,Graph,connectivity,28,2023-Q3,synthetic_patterns,2023-09-15,Synthetic connectivity incidents for AWS Graph
+AWS,Graph,performance,45,2023-Q3,synthetic_patterns,2023-09-15,Synthetic performance incidents for AWS Graph
+AWS,Graph,consistency,39,2023-Q3,synthetic_patterns,2023-09-15,Synthetic consistency incidents for AWS Graph
+AWS,Graph,compatibility,18,2023-Q3,synthetic_patterns,2023-09-15,Synthetic compatibility incidents for AWS Graph
+AWS,Graph,connectivity,28,2023-Q4,synthetic_patterns,2023-12-15,Synthetic connectivity incidents for AWS Graph
+AWS,Graph,performance,45,2023-Q4,synthetic_patterns,2023-12-15,Synthetic performance incidents for AWS Graph
+AWS,Graph,consistency,39,2023-Q4,synthetic_patterns,2023-12-15,Synthetic consistency incidents for AWS Graph
+AWS,Graph,compatibility,18,2023-Q4,synthetic_patterns,2023-12-15,Synthetic compatibility incidents for AWS Graph
+AWS,Graph,connectivity,28,2024-Q1,synthetic_patterns,2024-03-15,Synthetic connectivity incidents for AWS Graph
+AWS,Graph,performance,45,2024-Q1,synthetic_patterns,2024-03-15,Synthetic performance incidents for AWS Graph
+AWS,Graph,consistency,39,2024-Q1,synthetic_patterns,2024-03-15,Synthetic consistency incidents for AWS Graph
+AWS,Graph,compatibility,18,2024-Q1,synthetic_patterns,2024-03-15,Synthetic compatibility incidents for AWS Graph
+AWS,Graph,connectivity,28,2024-Q2,synthetic_patterns,2024-06-15,Synthetic connectivity incidents for AWS Graph
+AWS,Graph,performance,45,2024-Q2,synthetic_patterns,2024-06-15,Synthetic performance incidents for AWS Graph
+AWS,Graph,consistency,39,2024-Q2,synthetic_patterns,2024-06-15,Synthetic consistency incidents for AWS Graph
+AWS,Graph,compatibility,18,2024-Q2,synthetic_patterns,2024-06-15,Synthetic compatibility incidents for AWS Graph
+AWS,Graph,connectivity,28,2024-Q3,synthetic_patterns,2024-09-15,Synthetic connectivity incidents for AWS Graph
+AWS,Graph,performance,45,2024-Q3,synthetic_patterns,2024-09-15,Synthetic performance incidents for AWS Graph
+AWS,Graph,consistency,39,2024-Q3,synthetic_patterns,2024-09-15,Synthetic consistency incidents for AWS Graph
+AWS,Graph,compatibility,18,2024-Q3,synthetic_patterns,2024-09-15,Synthetic compatibility incidents for AWS Graph
+AWS,Graph,connectivity,28,2024-Q4,synthetic_patterns,2024-12-15,Synthetic connectivity incidents for AWS Graph
+AWS,Graph,performance,45,2024-Q4,synthetic_patterns,2024-12-15,Synthetic performance incidents for AWS Graph
+AWS,Graph,consistency,39,2024-Q4,synthetic_patterns,2024-12-15,Synthetic consistency incidents for AWS Graph
+AWS,Graph,compatibility,18,2024-Q4,synthetic_patterns,2024-12-15,Synthetic compatibility incidents for AWS Graph
+AWS,Search,connectivity,40,2023-Q1,synthetic_patterns,2023-03-15,Synthetic connectivity incidents for AWS Search
+AWS,Search,performance,96,2023-Q1,synthetic_patterns,2023-03-15,Synthetic performance incidents for AWS Search
+AWS,Search,consistency,12,2023-Q1,synthetic_patterns,2023-03-15,Synthetic consistency incidents for AWS Search
+AWS,Search,compatibility,30,2023-Q1,synthetic_patterns,2023-03-15,Synthetic compatibility incidents for AWS Search
+AWS,Search,connectivity,40,2023-Q2,synthetic_patterns,2023-06-15,Synthetic connectivity incidents for AWS Search
+AWS,Search,performance,96,2023-Q2,synthetic_patterns,2023-06-15,Synthetic performance incidents for AWS Search
+AWS,Search,consistency,12,2023-Q2,synthetic_patterns,2023-06-15,Synthetic consistency incidents for AWS Search
+AWS,Search,compatibility,30,2023-Q2,synthetic_patterns,2023-06-15,Synthetic compatibility incidents for AWS Search
+AWS,Search,connectivity,40,2023-Q3,synthetic_patterns,2023-09-15,Synthetic connectivity incidents for AWS Search
+AWS,Search,performance,96,2023-Q3,synthetic_patterns,2023-09-15,Synthetic performance incidents for AWS Search
+AWS,Search,consistency,12,2023-Q3,synthetic_patterns,2023-09-15,Synthetic consistency incidents for AWS Search
+AWS,Search,compatibility,30,2023-Q3,synthetic_patterns,2023-09-15,Synthetic compatibility incidents for AWS Search
+AWS,Search,connectivity,40,2023-Q4,synthetic_patterns,2023-12-15,Synthetic connectivity incidents for AWS Search
+AWS,Search,performance,96,2023-Q4,synthetic_patterns,2023-12-15,Synthetic performance incidents for AWS Search
+AWS,Search,consistency,12,2023-Q4,synthetic_patterns,2023-12-15,Synthetic consistency incidents for AWS Search
+AWS,Search,compatibility,30,2023-Q4,synthetic_patterns,2023-12-15,Synthetic compatibility incidents for AWS Search
+AWS,Search,connectivity,40,2024-Q1,synthetic_patterns,2024-03-15,Synthetic connectivity incidents for AWS Search
+AWS,Search,performance,96,2024-Q1,synthetic_patterns,2024-03-15,Synthetic performance incidents for AWS Search
+AWS,Search,consistency,12,2024-Q1,synthetic_patterns,2024-03-15,Synthetic consistency incidents for AWS Search
+AWS,Search,compatibility,30,2024-Q1,synthetic_patterns,2024-03-15,Synthetic compatibility incidents for AWS Search
+AWS,Search,connectivity,40,2024-Q2,synthetic_patterns,2024-06-15,Synthetic connectivity incidents for AWS Search
+AWS,Search,performance,96,2024-Q2,synthetic_patterns,2024-06-15,Synthetic performance incidents for AWS Search
+AWS,Search,consistency,12,2024-Q2,synthetic_patterns,2024-06-15,Synthetic consistency incidents for AWS Search
+AWS,Search,compatibility,30,2024-Q2,synthetic_patterns,2024-06-15,Synthetic compatibility incidents for AWS Search
+AWS,Search,connectivity,40,2024-Q3,synthetic_patterns,2024-09-15,Synthetic connectivity incidents for AWS Search
+AWS,Search,performance,96,2024-Q3,synthetic_patterns,2024-09-15,Synthetic performance incidents for AWS Search
+AWS,Search,consistency,12,2024-Q3,synthetic_patterns,2024-09-15,Synthetic consistency incidents for AWS Search
+AWS,Search,compatibility,30,2024-Q3,synthetic_patterns,2024-09-15,Synthetic compatibility incidents for AWS Search
+AWS,Search,connectivity,40,2024-Q4,synthetic_patterns,2024-12-15,Synthetic connectivity incidents for AWS Search
+AWS,Search,performance,96,2024-Q4,synthetic_patterns,2024-12-15,Synthetic performance incidents for AWS Search
+AWS,Search,consistency,12,2024-Q4,synthetic_patterns,2024-12-15,Synthetic consistency incidents for AWS Search
+AWS,Search,compatibility,30,2024-Q4,synthetic_patterns,2024-12-15,Synthetic compatibility incidents for AWS Search
+GCP,SQL,connectivity,40,2023-Q1,synthetic_patterns,2023-03-15,Synthetic connectivity incidents for GCP SQL
+GCP,SQL,performance,70,2023-Q1,synthetic_patterns,2023-03-15,Synthetic performance incidents for GCP SQL
+GCP,SQL,consistency,10,2023-Q1,synthetic_patterns,2023-03-15,Synthetic consistency incidents for GCP SQL
+GCP,SQL,compatibility,20,2023-Q1,synthetic_patterns,2023-03-15,Synthetic compatibility incidents for GCP SQL
+GCP,SQL,connectivity,40,2023-Q2,synthetic_patterns,2023-06-15,Synthetic connectivity incidents for GCP SQL
+GCP,SQL,performance,70,2023-Q2,synthetic_patterns,2023-06-15,Synthetic performance incidents for GCP SQL
+GCP,SQL,consistency,10,2023-Q2,synthetic_patterns,2023-06-15,Synthetic consistency incidents for GCP SQL
+GCP,SQL,compatibility,20,2023-Q2,synthetic_patterns,2023-06-15,Synthetic compatibility incidents for GCP SQL
+GCP,SQL,connectivity,40,2023-Q3,synthetic_patterns,2023-09-15,Synthetic connectivity incidents for GCP SQL
+GCP,SQL,performance,70,2023-Q3,synthetic_patterns,2023-09-15,Synthetic performance incidents for GCP SQL
+GCP,SQL,consistency,10,2023-Q3,synthetic_patterns,2023-09-15,Synthetic consistency incidents for GCP SQL
+GCP,SQL,compatibility,20,2023-Q3,synthetic_patterns,2023-09-15,Synthetic compatibility incidents for GCP SQL
+GCP,SQL,connectivity,40,2023-Q4,synthetic_patterns,2023-12-15,Synthetic connectivity incidents for GCP SQL
+GCP,SQL,performance,70,2023-Q4,synthetic_patterns,2023-12-15,Synthetic performance incidents for GCP SQL
+GCP,SQL,consistency,10,2023-Q4,synthetic_patterns,2023-12-15,Synthetic consistency incidents for GCP SQL
+GCP,SQL,compatibility,20,2023-Q4,synthetic_patterns,2023-12-15,Synthetic compatibility incidents for GCP SQL
+GCP,SQL,connectivity,40,2024-Q1,synthetic_patterns,2024-03-15,Synthetic connectivity incidents for GCP SQL
+GCP,SQL,performance,70,2024-Q1,synthetic_patterns,2024-03-15,Synthetic performance incidents for GCP SQL
+GCP,SQL,consistency,10,2024-Q1,synthetic_patterns,2024-03-15,Synthetic consistency incidents for GCP SQL
+GCP,SQL,compatibility,20,2024-Q1,synthetic_patterns,2024-03-15,Synthetic compatibility incidents for GCP SQL
+GCP,SQL,connectivity,40,2024-Q2,synthetic_patterns,2024-06-15,Synthetic connectivity incidents for GCP SQL
+GCP,SQL,performance,70,2024-Q2,synthetic_patterns,2024-06-15,Synthetic performance incidents for GCP SQL
+GCP,SQL,consistency,10,2024-Q2,synthetic_patterns,2024-06-15,Synthetic consistency incidents for GCP SQL
+GCP,SQL,compatibility,20,2024-Q2,synthetic_patterns,2024-06-15,Synthetic compatibility incidents for GCP SQL
+GCP,SQL,connectivity,40,2024-Q3,synthetic_patterns,2024-09-15,Synthetic connectivity incidents for GCP SQL
+GCP,SQL,performance,70,2024-Q3,synthetic_patterns,2024-09-15,Synthetic performance incidents for GCP SQL
+GCP,SQL,consistency,10,2024-Q3,synthetic_patterns,2024-09-15,Synthetic consistency incidents for GCP SQL
+GCP,SQL,compatibility,20,2024-Q3,synthetic_patterns,2024-09-15,Synthetic compatibility incidents for GCP SQL
+GCP,SQL,connectivity,40,2024-Q4,synthetic_patterns,2024-12-15,Synthetic connectivity incidents for GCP SQL
+GCP,SQL,performance,70,2024-Q4,synthetic_patterns,2024-12-15,Synthetic performance incidents for GCP SQL
+GCP,SQL,consistency,10,2024-Q4,synthetic_patterns,2024-12-15,Synthetic consistency incidents for GCP SQL
+GCP,SQL,compatibility,20,2024-Q4,synthetic_patterns,2024-12-15,Synthetic compatibility incidents for GCP SQL
+GCP,KV,connectivity,16,2023-Q1,synthetic_patterns,2023-03-15,Synthetic connectivity incidents for GCP KV
+GCP,KV,performance,24,2023-Q1,synthetic_patterns,2023-03-15,Synthetic performance incidents for GCP KV
+GCP,KV,consistency,5,2023-Q1,synthetic_patterns,2023-03-15,Synthetic consistency incidents for GCP KV
+GCP,KV,compatibility,10,2023-Q1,synthetic_patterns,2023-03-15,Synthetic compatibility incidents for GCP KV
+GCP,KV,connectivity,16,2023-Q2,synthetic_patterns,2023-06-15,Synthetic connectivity incidents for GCP KV
+GCP,KV,performance,24,2023-Q2,synthetic_patterns,2023-06-15,Synthetic performance incidents for GCP KV
+GCP,KV,consistency,5,2023-Q2,synthetic_patterns,2023-06-15,Synthetic consistency incidents for GCP KV
+GCP,KV,compatibility,10,2023-Q2,synthetic_patterns,2023-06-15,Synthetic compatibility incidents for GCP KV
+GCP,KV,connectivity,16,2023-Q3,synthetic_patterns,2023-09-15,Synthetic connectivity incidents for GCP KV
+GCP,KV,performance,24,2023-Q3,synthetic_patterns,2023-09-15,Synthetic performance incidents for GCP KV
+GCP,KV,consistency,5,2023-Q3,synthetic_patterns,2023-09-15,Synthetic consistency incidents for GCP KV
+GCP,KV,compatibility,10,2023-Q3,synthetic_patterns,2023-09-15,Synthetic compatibility incidents for GCP KV
+GCP,KV,connectivity,16,2023-Q4,synthetic_patterns,2023-12-15,Synthetic connectivity incidents for GCP KV
+GCP,KV,performance,24,2023-Q4,synthetic_patterns,2023-12-15,Synthetic performance incidents for GCP KV
+GCP,KV,consistency,5,2023-Q4,synthetic_patterns,2023-12-15,Synthetic consistency incidents for GCP KV
+GCP,KV,compatibility,10,2023-Q4,synthetic_patterns,2023-12-15,Synthetic compatibility incidents for GCP KV
+GCP,KV,connectivity,16,2024-Q1,synthetic_patterns,2024-03-15,Synthetic connectivity incidents for GCP KV
+GCP,KV,performance,24,2024-Q1,synthetic_patterns,2024-03-15,Synthetic performance incidents for GCP KV
+GCP,KV,consistency,5,2024-Q1,synthetic_patterns,2024-03-15,Synthetic consistency incidents for GCP KV
+GCP,KV,compatibility,10,2024-Q1,synthetic_patterns,2024-03-15,Synthetic compatibility incidents for GCP KV
+GCP,KV,connectivity,16,2024-Q2,synthetic_patterns,2024-06-15,Synthetic connectivity incidents for GCP KV
+GCP,KV,performance,24,2024-Q2,synthetic_patterns,2024-06-15,Synthetic performance incidents for GCP KV
+GCP,KV,consistency,5,2024-Q2,synthetic_patterns,2024-06-15,Synthetic consistency incidents for GCP KV
+GCP,KV,compatibility,10,2024-Q2,synthetic_patterns,2024-06-15,Synthetic compatibility incidents for GCP KV
+GCP,KV,connectivity,16,2024-Q3,synthetic_patterns,2024-09-15,Synthetic connectivity incidents for GCP KV
+GCP,KV,performance,24,2024-Q3,synthetic_patterns,2024-09-15,Synthetic performance incidents for GCP KV
+GCP,KV,consistency,5,2024-Q3,synthetic_patterns,2024-09-15,Synthetic consistency incidents for GCP KV
+GCP,KV,compatibility,10,2024-Q3,synthetic_patterns,2024-09-15,Synthetic compatibility incidents for GCP KV
+GCP,KV,connectivity,16,2024-Q4,synthetic_patterns,2024-12-15,Synthetic connectivity incidents for GCP KV
+GCP,KV,performance,24,2024-Q4,synthetic_patterns,2024-12-15,Synthetic performance incidents for GCP KV
+GCP,KV,consistency,5,2024-Q4,synthetic_patterns,2024-12-15,Synthetic consistency incidents for GCP KV
+GCP,KV,compatibility,10,2024-Q4,synthetic_patterns,2024-12-15,Synthetic compatibility incidents for GCP KV
+GCP,Document,connectivity,33,2023-Q1,synthetic_patterns,2023-03-15,Synthetic connectivity incidents for GCP Document
+GCP,Document,performance,55,2023-Q1,synthetic_patterns,2023-03-15,Synthetic performance incidents for GCP Document
+GCP,Document,consistency,17,2023-Q1,synthetic_patterns,2023-03-15,Synthetic consistency incidents for GCP Document
+GCP,Document,compatibility,18,2023-Q1,synthetic_patterns,2023-03-15,Synthetic compatibility incidents for GCP Document
+GCP,Document,connectivity,33,2023-Q2,synthetic_patterns,2023-06-15,Synthetic connectivity incidents for GCP Document
+GCP,Document,performance,55,2023-Q2,synthetic_patterns,2023-06-15,Synthetic performance incidents for GCP Document
+GCP,Document,consistency,17,2023-Q2,synthetic_patterns,2023-06-15,Synthetic consistency incidents for GCP Document
+GCP,Document,compatibility,18,2023-Q2,synthetic_patterns,2023-06-15,Synthetic compatibility incidents for GCP Document
+GCP,Document,connectivity,33,2023-Q3,synthetic_patterns,2023-09-15,Synthetic connectivity incidents for GCP Document
+GCP,Document,performance,55,2023-Q3,synthetic_patterns,2023-09-15,Synthetic performance incidents for GCP Document
+GCP,Document,consistency,17,2023-Q3,synthetic_patterns,2023-09-15,Synthetic consistency incidents for GCP Document
+GCP,Document,compatibility,18,2023-Q3,synthetic_patterns,2023-09-15,Synthetic compatibility incidents for GCP Document
+GCP,Document,connectivity,33,2023-Q4,synthetic_patterns,2023-12-15,Synthetic connectivity incidents for GCP Document
+GCP,Document,performance,55,2023-Q4,synthetic_patterns,2023-12-15,Synthetic performance incidents for GCP Document
+GCP,Document,consistency,17,2023-Q4,synthetic_patterns,2023-12-15,Synthetic consistency incidents for GCP Document
+GCP,Document,compatibility,18,2023-Q4,synthetic_patterns,2023-12-15,Synthetic compatibility incidents for GCP Document
+GCP,Document,connectivity,33,2024-Q1,synthetic_patterns,2024-03-15,Synthetic connectivity incidents for GCP Document
+GCP,Document,performance,55,2024-Q1,synthetic_patterns,2024-03-15,Synthetic performance incidents for GCP Document
+GCP,Document,consistency,17,2024-Q1,synthetic_patterns,2024-03-15,Synthetic consistency incidents for GCP Document
+GCP,Document,compatibility,18,2024-Q1,synthetic_patterns,2024-03-15,Synthetic compatibility incidents for GCP Document
+GCP,Document,connectivity,33,2024-Q2,synthetic_patterns,2024-06-15,Synthetic connectivity incidents for GCP Document
+GCP,Document,performance,55,2024-Q2,synthetic_patterns,2024-06-15,Synthetic performance incidents for GCP Document
+GCP,Document,consistency,17,2024-Q2,synthetic_patterns,2024-06-15,Synthetic consistency incidents for GCP Document
+GCP,Document,compatibility,18,2024-Q2,synthetic_patterns,2024-06-15,Synthetic compatibility incidents for GCP Document
+GCP,Document,connectivity,33,2024-Q3,synthetic_patterns,2024-09-15,Synthetic connectivity incidents for GCP Document
+GCP,Document,performance,55,2024-Q3,synthetic_patterns,2024-09-15,Synthetic performance incidents for GCP Document
+GCP,Document,consistency,17,2024-Q3,synthetic_patterns,2024-09-15,Synthetic consistency incidents for GCP Document
+GCP,Document,compatibility,18,2024-Q3,synthetic_patterns,2024-09-15,Synthetic compatibility incidents for GCP Document
+GCP,Document,connectivity,33,2024-Q4,synthetic_patterns,2024-12-15,Synthetic connectivity incidents for GCP Document
+GCP,Document,performance,55,2024-Q4,synthetic_patterns,2024-12-15,Synthetic performance incidents for GCP Document
+GCP,Document,consistency,17,2024-Q4,synthetic_patterns,2024-12-15,Synthetic consistency incidents for GCP Document
+GCP,Document,compatibility,18,2024-Q4,synthetic_patterns,2024-12-15,Synthetic compatibility incidents for GCP Document
+GCP,Search,connectivity,30,2023-Q1,synthetic_patterns,2023-03-15,Synthetic connectivity incidents for GCP Search
+GCP,Search,performance,72,2023-Q1,synthetic_patterns,2023-03-15,Synthetic performance incidents for GCP Search
+GCP,Search,consistency,9,2023-Q1,synthetic_patterns,2023-03-15,Synthetic consistency incidents for GCP Search
+GCP,Search,compatibility,22,2023-Q1,synthetic_patterns,2023-03-15,Synthetic compatibility incidents for GCP Search
+GCP,Search,connectivity,30,2023-Q2,synthetic_patterns,2023-06-15,Synthetic connectivity incidents for GCP Search
+GCP,Search,performance,72,2023-Q2,synthetic_patterns,2023-06-15,Synthetic performance incidents for GCP Search
+GCP,Search,consistency,9,2023-Q2,synthetic_patterns,2023-06-15,Synthetic consistency incidents for GCP Search
+GCP,Search,compatibility,22,2023-Q2,synthetic_patterns,2023-06-15,Synthetic compatibility incidents for GCP Search
+GCP,Search,connectivity,30,2023-Q3,synthetic_patterns,2023-09-15,Synthetic connectivity incidents for GCP Search
+GCP,Search,performance,72,2023-Q3,synthetic_patterns,2023-09-15,Synthetic performance incidents for GCP Search
+GCP,Search,consistency,9,2023-Q3,synthetic_patterns,2023-09-15,Synthetic consistency incidents for GCP Search
+GCP,Search,compatibility,22,2023-Q3,synthetic_patterns,2023-09-15,Synthetic compatibility incidents for GCP Search
+GCP,Search,connectivity,30,2023-Q4,synthetic_patterns,2023-12-15,Synthetic connectivity incidents for GCP Search
+GCP,Search,performance,72,2023-Q4,synthetic_patterns,2023-12-15,Synthetic performance incidents for GCP Search
+GCP,Search,consistency,9,2023-Q4,synthetic_patterns,2023-12-15,Synthetic consistency incidents for GCP Search
+GCP,Search,compatibility,22,2023-Q4,synthetic_patterns,2023-12-15,Synthetic compatibility incidents for GCP Search
+GCP,Search,connectivity,30,2024-Q1,synthetic_patterns,2024-03-15,Synthetic connectivity incidents for GCP Search
+GCP,Search,performance,72,2024-Q1,synthetic_patterns,2024-03-15,Synthetic performance incidents for GCP Search
+GCP,Search,consistency,9,2024-Q1,synthetic_patterns,2024-03-15,Synthetic consistency incidents for GCP Search
+GCP,Search,compatibility,22,2024-Q1,synthetic_patterns,2024-03-15,Synthetic compatibility incidents for GCP Search
+GCP,Search,connectivity,30,2024-Q2,synthetic_patterns,2024-06-15,Synthetic connectivity incidents for GCP Search
+GCP,Search,performance,72,2024-Q2,synthetic_patterns,2024-06-15,Synthetic performance incidents for GCP Search
+GCP,Search,consistency,9,2024-Q2,synthetic_patterns,2024-06-15,Synthetic consistency incidents for GCP Search
+GCP,Search,compatibility,22,2024-Q2,synthetic_patterns,2024-06-15,Synthetic compatibility incidents for GCP Search
+GCP,Search,connectivity,30,2024-Q3,synthetic_patterns,2024-09-15,Synthetic connectivity incidents for GCP Search
+GCP,Search,performance,72,2024-Q3,synthetic_patterns,2024-09-15,Synthetic performance incidents for GCP Search
+GCP,Search,consistency,9,2024-Q3,synthetic_patterns,2024-09-15,Synthetic consistency incidents for GCP Search
+GCP,Search,compatibility,22,2024-Q3,synthetic_patterns,2024-09-15,Synthetic compatibility incidents for GCP Search
+GCP,Search,connectivity,30,2024-Q4,synthetic_patterns,2024-12-15,Synthetic connectivity incidents for GCP Search
+GCP,Search,performance,72,2024-Q4,synthetic_patterns,2024-12-15,Synthetic performance incidents for GCP Search
+GCP,Search,consistency,9,2024-Q4,synthetic_patterns,2024-12-15,Synthetic consistency incidents for GCP Search
+GCP,Search,compatibility,22,2024-Q4,synthetic_patterns,2024-12-15,Synthetic compatibility incidents for GCP Search
+Azure,SQL,connectivity,49,2023-Q1,synthetic_patterns,2023-03-15,Synthetic connectivity incidents for Azure SQL
+Azure,SQL,performance,85,2023-Q1,synthetic_patterns,2023-03-15,Synthetic performance incidents for Azure SQL
+Azure,SQL,consistency,13,2023-Q1,synthetic_patterns,2023-03-15,Synthetic consistency incidents for Azure SQL
+Azure,SQL,compatibility,25,2023-Q1,synthetic_patterns,2023-03-15,Synthetic compatibility incidents for Azure SQL
+Azure,SQL,connectivity,49,2023-Q2,synthetic_patterns,2023-06-15,Synthetic connectivity incidents for Azure SQL
+Azure,SQL,performance,85,2023-Q2,synthetic_patterns,2023-06-15,Synthetic performance incidents for Azure SQL
+Azure,SQL,consistency,13,2023-Q2,synthetic_patterns,2023-06-15,Synthetic consistency incidents for Azure SQL
+Azure,SQL,compatibility,25,2023-Q2,synthetic_patterns,2023-06-15,Synthetic compatibility incidents for Azure SQL
+Azure,SQL,connectivity,49,2023-Q3,synthetic_patterns,2023-09-15,Synthetic connectivity incidents for Azure SQL
+Azure,SQL,performance,85,2023-Q3,synthetic_patterns,2023-09-15,Synthetic performance incidents for Azure SQL
+Azure,SQL,consistency,13,2023-Q3,synthetic_patterns,2023-09-15,Synthetic consistency incidents for Azure SQL
+Azure,SQL,compatibility,25,2023-Q3,synthetic_patterns,2023-09-15,Synthetic compatibility incidents for Azure SQL
+Azure,SQL,connectivity,49,2023-Q4,synthetic_patterns,2023-12-15,Synthetic connectivity incidents for Azure SQL
+Azure,SQL,performance,85,2023-Q4,synthetic_patterns,2023-12-15,Synthetic performance incidents for Azure SQL
+Azure,SQL,consistency,13,2023-Q4,synthetic_patterns,2023-12-15,Synthetic consistency incidents for Azure SQL
+Azure,SQL,compatibility,25,2023-Q4,synthetic_patterns,2023-12-15,Synthetic compatibility incidents for Azure SQL
+Azure,SQL,connectivity,49,2024-Q1,synthetic_patterns,2024-03-15,Synthetic connectivity incidents for Azure SQL
+Azure,SQL,performance,85,2024-Q1,synthetic_patterns,2024-03-15,Synthetic performance incidents for Azure SQL
+Azure,SQL,consistency,13,2024-Q1,synthetic_patterns,2024-03-15,Synthetic consistency incidents for Azure SQL
+Azure,SQL,compatibility,25,2024-Q1,synthetic_patterns,2024-03-15,Synthetic compatibility incidents for Azure SQL
+Azure,SQL,connectivity,49,2024-Q2,synthetic_patterns,2024-06-15,Synthetic connectivity incidents for Azure SQL
+Azure,SQL,performance,85,2024-Q2,synthetic_patterns,2024-06-15,Synthetic performance incidents for Azure SQL
+Azure,SQL,consistency,13,2024-Q2,synthetic_patterns,2024-06-15,Synthetic consistency incidents for Azure SQL
+Azure,SQL,compatibility,25,2024-Q2,synthetic_patterns,2024-06-15,Synthetic compatibility incidents for Azure SQL
+Azure,SQL,connectivity,49,2024-Q3,synthetic_patterns,2024-09-15,Synthetic connectivity incidents for Azure SQL
+Azure,SQL,performance,85,2024-Q3,synthetic_patterns,2024-09-15,Synthetic performance incidents for Azure SQL
+Azure,SQL,consistency,13,2024-Q3,synthetic_patterns,2024-09-15,Synthetic consistency incidents for Azure SQL
+Azure,SQL,compatibility,25,2024-Q3,synthetic_patterns,2024-09-15,Synthetic compatibility incidents for Azure SQL
+Azure,SQL,connectivity,49,2024-Q4,synthetic_patterns,2024-12-15,Synthetic connectivity incidents for Azure SQL
+Azure,SQL,performance,85,2024-Q4,synthetic_patterns,2024-12-15,Synthetic performance incidents for Azure SQL
+Azure,SQL,consistency,13,2024-Q4,synthetic_patterns,2024-12-15,Synthetic consistency incidents for Azure SQL
+Azure,SQL,compatibility,25,2024-Q4,synthetic_patterns,2024-12-15,Synthetic compatibility incidents for Azure SQL
+Azure,KV,connectivity,20,2023-Q1,synthetic_patterns,2023-03-15,Synthetic connectivity incidents for Azure KV
+Azure,KV,performance,29,2023-Q1,synthetic_patterns,2023-03-15,Synthetic performance incidents for Azure KV
+Azure,KV,consistency,7,2023-Q1,synthetic_patterns,2023-03-15,Synthetic consistency incidents for Azure KV
+Azure,KV,compatibility,13,2023-Q1,synthetic_patterns,2023-03-15,Synthetic compatibility incidents for Azure KV
+Azure,KV,connectivity,20,2023-Q2,synthetic_patterns,2023-06-15,Synthetic connectivity incidents for Azure KV
+Azure,KV,performance,29,2023-Q2,synthetic_patterns,2023-06-15,Synthetic performance incidents for Azure KV
+Azure,KV,consistency,7,2023-Q2,synthetic_patterns,2023-06-15,Synthetic consistency incidents for Azure KV
+Azure,KV,compatibility,13,2023-Q2,synthetic_patterns,2023-06-15,Synthetic compatibility incidents for Azure KV
+Azure,KV,connectivity,20,2023-Q3,synthetic_patterns,2023-09-15,Synthetic connectivity incidents for Azure KV
+Azure,KV,performance,29,2023-Q3,synthetic_patterns,2023-09-15,Synthetic performance incidents for Azure KV
+Azure,KV,consistency,7,2023-Q3,synthetic_patterns,2023-09-15,Synthetic consistency incidents for Azure KV
+Azure,KV,compatibility,13,2023-Q3,synthetic_patterns,2023-09-15,Synthetic compatibility incidents for Azure KV
+Azure,KV,connectivity,20,2023-Q4,synthetic_patterns,2023-12-15,Synthetic connectivity incidents for Azure KV
+Azure,KV,performance,29,2023-Q4,synthetic_patterns,2023-12-15,Synthetic performance incidents for Azure KV
+Azure,KV,consistency,7,2023-Q4,synthetic_patterns,2023-12-15,Synthetic consistency incidents for Azure KV
+Azure,KV,compatibility,13,2023-Q4,synthetic_patterns,2023-12-15,Synthetic compatibility incidents for Azure KV
+Azure,KV,connectivity,20,2024-Q1,synthetic_patterns,2024-03-15,Synthetic connectivity incidents for Azure KV
+Azure,KV,performance,29,2024-Q1,synthetic_patterns,2024-03-15,Synthetic performance incidents for Azure KV
+Azure,KV,consistency,7,2024-Q1,synthetic_patterns,2024-03-15,Synthetic consistency incidents for Azure KV
+Azure,KV,compatibility,13,2024-Q1,synthetic_patterns,2024-03-15,Synthetic compatibility incidents for Azure KV
+Azure,KV,connectivity,20,2024-Q2,synthetic_patterns,2024-06-15,Synthetic connectivity incidents for Azure KV
+Azure,KV,performance,29,2024-Q2,synthetic_patterns,2024-06-15,Synthetic performance incidents for Azure KV
+Azure,KV,consistency,7,2024-Q2,synthetic_patterns,2024-06-15,Synthetic consistency incidents for Azure KV
+Azure,KV,compatibility,13,2024-Q2,synthetic_patterns,2024-06-15,Synthetic compatibility incidents for Azure KV
+Azure,KV,connectivity,20,2024-Q3,synthetic_patterns,2024-09-15,Synthetic connectivity incidents for Azure KV
+Azure,KV,performance,29,2024-Q3,synthetic_patterns,2024-09-15,Synthetic performance incidents for Azure KV
+Azure,KV,consistency,7,2024-Q3,synthetic_patterns,2024-09-15,Synthetic consistency incidents for Azure KV
+Azure,KV,compatibility,13,2024-Q3,synthetic_patterns,2024-09-15,Synthetic compatibility incidents for Azure KV
+Azure,KV,connectivity,20,2024-Q4,synthetic_patterns,2024-12-15,Synthetic connectivity incidents for Azure KV
+Azure,KV,performance,29,2024-Q4,synthetic_patterns,2024-12-15,Synthetic performance incidents for Azure KV
+Azure,KV,consistency,7,2024-Q4,synthetic_patterns,2024-12-15,Synthetic consistency incidents for Azure KV
+Azure,KV,compatibility,13,2024-Q4,synthetic_patterns,2024-12-15,Synthetic compatibility incidents for Azure KV
+Azure,Document,connectivity,41,2023-Q1,synthetic_patterns,2023-03-15,Synthetic connectivity incidents for Azure Document
+Azure,Document,performance,67,2023-Q1,synthetic_patterns,2023-03-15,Synthetic performance incidents for Azure Document
+Azure,Document,consistency,21,2023-Q1,synthetic_patterns,2023-03-15,Synthetic consistency incidents for Azure Document
+Azure,Document,compatibility,22,2023-Q1,synthetic_patterns,2023-03-15,Synthetic compatibility incidents for Azure Document
+Azure,Document,connectivity,41,2023-Q2,synthetic_patterns,2023-06-15,Synthetic connectivity incidents for Azure Document
+Azure,Document,performance,67,2023-Q2,synthetic_patterns,2023-06-15,Synthetic performance incidents for Azure Document
+Azure,Document,consistency,21,2023-Q2,synthetic_patterns,2023-06-15,Synthetic consistency incidents for Azure Document
+Azure,Document,compatibility,22,2023-Q2,synthetic_patterns,2023-06-15,Synthetic compatibility incidents for Azure Document
+Azure,Document,connectivity,41,2023-Q3,synthetic_patterns,2023-09-15,Synthetic connectivity incidents for Azure Document
+Azure,Document,performance,67,2023-Q3,synthetic_patterns,2023-09-15,Synthetic performance incidents for Azure Document
+Azure,Document,consistency,21,2023-Q3,synthetic_patterns,2023-09-15,Synthetic consistency incidents for Azure Document
+Azure,Document,compatibility,22,2023-Q3,synthetic_patterns,2023-09-15,Synthetic compatibility incidents for Azure Document
+Azure,Document,connectivity,41,2023-Q4,synthetic_patterns,2023-12-15,Synthetic connectivity incidents for Azure Document
+Azure,Document,performance,67,2023-Q4,synthetic_patterns,2023-12-15,Synthetic performance incidents for Azure Document
+Azure,Document,consistency,21,2023-Q4,synthetic_patterns,2023-12-15,Synthetic consistency incidents for Azure Document
+Azure,Document,compatibility,22,2023-Q4,synthetic_patterns,2023-12-15,Synthetic compatibility incidents for Azure Document
+Azure,Document,connectivity,41,2024-Q1,synthetic_patterns,2024-03-15,Synthetic connectivity incidents for Azure Document
+Azure,Document,performance,67,2024-Q1,synthetic_patterns,2024-03-15,Synthetic performance incidents for Azure Document
+Azure,Document,consistency,21,2024-Q1,synthetic_patterns,2024-03-15,Synthetic consistency incidents for Azure Document
+Azure,Document,compatibility,22,2024-Q1,synthetic_patterns,2024-03-15,Synthetic compatibility incidents for Azure Document
+Azure,Document,connectivity,41,2024-Q2,synthetic_patterns,2024-06-15,Synthetic connectivity incidents for Azure Document
+Azure,Document,performance,67,2024-Q2,synthetic_patterns,2024-06-15,Synthetic performance incidents for Azure Document
+Azure,Document,consistency,21,2024-Q2,synthetic_patterns,2024-06-15,Synthetic consistency incidents for Azure Document
+Azure,Document,compatibility,22,2024-Q2,synthetic_patterns,2024-06-15,Synthetic compatibility incidents for Azure Document
+Azure,Document,connectivity,41,2024-Q3,synthetic_patterns,2024-09-15,Synthetic connectivity incidents for Azure Document
+Azure,Document,performance,67,2024-Q3,synthetic_patterns,2024-09-15,Synthetic performance incidents for Azure Document
+Azure,Document,consistency,21,2024-Q3,synthetic_patterns,2024-09-15,Synthetic consistency incidents for Azure Document
+Azure,Document,compatibility,22,2024-Q3,synthetic_patterns,2024-09-15,Synthetic compatibility incidents for Azure Document
+Azure,Document,connectivity,41,2024-Q4,synthetic_patterns,2024-12-15,Synthetic connectivity incidents for Azure Document
+Azure,Document,performance,67,2024-Q4,synthetic_patterns,2024-12-15,Synthetic performance incidents for Azure Document
+Azure,Document,consistency,21,2024-Q4,synthetic_patterns,2024-12-15,Synthetic consistency incidents for Azure Document
+Azure,Document,compatibility,22,2024-Q4,synthetic_patterns,2024-12-15,Synthetic compatibility incidents for Azure Document
+Azure,Graph,connectivity,25,2023-Q1,synthetic_patterns,2023-03-15,Synthetic connectivity incidents for Azure Graph
+Azure,Graph,performance,41,2023-Q1,synthetic_patterns,2023-03-15,Synthetic performance incidents for Azure Graph
+Azure,Graph,consistency,35,2023-Q1,synthetic_patterns,2023-03-15,Synthetic consistency incidents for Azure Graph
+Azure,Graph,compatibility,17,2023-Q1,synthetic_patterns,2023-03-15,Synthetic compatibility incidents for Azure Graph
+Azure,Graph,connectivity,25,2023-Q2,synthetic_patterns,2023-06-15,Synthetic connectivity incidents for Azure Graph
+Azure,Graph,performance,41,2023-Q2,synthetic_patterns,2023-06-15,Synthetic performance incidents for Azure Graph
+Azure,Graph,consistency,35,2023-Q2,synthetic_patterns,2023-06-15,Synthetic consistency incidents for Azure Graph
+Azure,Graph,compatibility,17,2023-Q2,synthetic_patterns,2023-06-15,Synthetic compatibility incidents for Azure Graph
+Azure,Graph,connectivity,25,2023-Q3,synthetic_patterns,2023-09-15,Synthetic connectivity incidents for Azure Graph
+Azure,Graph,performance,41,2023-Q3,synthetic_patterns,2023-09-15,Synthetic performance incidents for Azure Graph
+Azure,Graph,consistency,35,2023-Q3,synthetic_patterns,2023-09-15,Synthetic consistency incidents for Azure Graph
+Azure,Graph,compatibility,17,2023-Q3,synthetic_patterns,2023-09-15,Synthetic compatibility incidents for Azure Graph
+Azure,Graph,connectivity,25,2023-Q4,synthetic_patterns,2023-12-15,Synthetic connectivity incidents for Azure Graph
+Azure,Graph,performance,41,2023-Q4,synthetic_patterns,2023-12-15,Synthetic performance incidents for Azure Graph
+Azure,Graph,consistency,35,2023-Q4,synthetic_patterns,2023-12-15,Synthetic consistency incidents for Azure Graph
+Azure,Graph,compatibility,17,2023-Q4,synthetic_patterns,2023-12-15,Synthetic compatibility incidents for Azure Graph
+Azure,Graph,connectivity,25,2024-Q1,synthetic_patterns,2024-03-15,Synthetic connectivity incidents for Azure Graph
+Azure,Graph,performance,41,2024-Q1,synthetic_patterns,2024-03-15,Synthetic performance incidents for Azure Graph
+Azure,Graph,consistency,35,2024-Q1,synthetic_patterns,2024-03-15,Synthetic consistency incidents for Azure Graph
+Azure,Graph,compatibility,17,2024-Q1,synthetic_patterns,2024-03-15,Synthetic compatibility incidents for Azure Graph
+Azure,Graph,connectivity,25,2024-Q2,synthetic_patterns,2024-06-15,Synthetic connectivity incidents for Azure Graph
+Azure,Graph,performance,41,2024-Q2,synthetic_patterns,2024-06-15,Synthetic performance incidents for Azure Graph
+Azure,Graph,consistency,35,2024-Q2,synthetic_patterns,2024-06-15,Synthetic consistency incidents for Azure Graph
+Azure,Graph,compatibility,17,2024-Q2,synthetic_patterns,2024-06-15,Synthetic compatibility incidents for Azure Graph
+Azure,Graph,connectivity,25,2024-Q3,synthetic_patterns,2024-09-15,Synthetic connectivity incidents for Azure Graph
+Azure,Graph,performance,41,2024-Q3,synthetic_patterns,2024-09-15,Synthetic performance incidents for Azure Graph
+Azure,Graph,consistency,35,2024-Q3,synthetic_patterns,2024-09-15,Synthetic consistency incidents for Azure Graph
+Azure,Graph,compatibility,17,2024-Q3,synthetic_patterns,2024-09-15,Synthetic compatibility incidents for Azure Graph
+Azure,Graph,connectivity,25,2024-Q4,synthetic_patterns,2024-12-15,Synthetic connectivity incidents for Azure Graph
+Azure,Graph,performance,41,2024-Q4,synthetic_patterns,2024-12-15,Synthetic performance incidents for Azure Graph
+Azure,Graph,consistency,35,2024-Q4,synthetic_patterns,2024-12-15,Synthetic consistency incidents for Azure Graph
+Azure,Graph,compatibility,17,2024-Q4,synthetic_patterns,2024-12-15,Synthetic compatibility incidents for Azure Graph
+Azure,Search,connectivity,36,2023-Q1,synthetic_patterns,2023-03-15,Synthetic connectivity incidents for Azure Search
+Azure,Search,performance,88,2023-Q1,synthetic_patterns,2023-03-15,Synthetic performance incidents for Azure Search
+Azure,Search,consistency,11,2023-Q1,synthetic_patterns,2023-03-15,Synthetic consistency incidents for Azure Search
+Azure,Search,compatibility,27,2023-Q1,synthetic_patterns,2023-03-15,Synthetic compatibility incidents for Azure Search
+Azure,Search,connectivity,36,2023-Q2,synthetic_patterns,2023-06-15,Synthetic connectivity incidents for Azure Search
+Azure,Search,performance,88,2023-Q2,synthetic_patterns,2023-06-15,Synthetic performance incidents for Azure Search
+Azure,Search,consistency,11,2023-Q2,synthetic_patterns,2023-06-15,Synthetic consistency incidents for Azure Search
+Azure,Search,compatibility,27,2023-Q2,synthetic_patterns,2023-06-15,Synthetic compatibility incidents for Azure Search
+Azure,Search,connectivity,36,2023-Q3,synthetic_patterns,2023-09-15,Synthetic connectivity incidents for Azure Search
+Azure,Search,performance,88,2023-Q3,synthetic_patterns,2023-09-15,Synthetic performance incidents for Azure Search
+Azure,Search,consistency,11,2023-Q3,synthetic_patterns,2023-09-15,Synthetic consistency incidents for Azure Search
+Azure,Search,compatibility,27,2023-Q3,synthetic_patterns,2023-09-15,Synthetic compatibility incidents for Azure Search
+Azure,Search,connectivity,36,2023-Q4,synthetic_patterns,2023-12-15,Synthetic connectivity incidents for Azure Search
+Azure,Search,performance,88,2023-Q4,synthetic_patterns,2023-12-15,Synthetic performance incidents for Azure Search
+Azure,Search,consistency,11,2023-Q4,synthetic_patterns,2023-12-15,Synthetic consistency incidents for Azure Search
+Azure,Search,compatibility,27,2023-Q4,synthetic_patterns,2023-12-15,Synthetic compatibility incidents for Azure Search
+Azure,Search,connectivity,36,2024-Q1,synthetic_patterns,2024-03-15,Synthetic connectivity incidents for Azure Search
+Azure,Search,performance,88,2024-Q1,synthetic_patterns,2024-03-15,Synthetic performance incidents for Azure Search
+Azure,Search,consistency,11,2024-Q1,synthetic_patterns,2024-03-15,Synthetic consistency incidents for Azure Search
+Azure,Search,compatibility,27,2024-Q1,synthetic_patterns,2024-03-15,Synthetic compatibility incidents for Azure Search
+Azure,Search,connectivity,36,2024-Q2,synthetic_patterns,2024-06-15,Synthetic connectivity incidents for Azure Search
+Azure,Search,performance,88,2024-Q2,synthetic_patterns,2024-06-15,Synthetic performance incidents for Azure Search
+Azure,Search,consistency,11,2024-Q2,synthetic_patterns,2024-06-15,Synthetic consistency incidents for Azure Search
+Azure,Search,compatibility,27,2024-Q2,synthetic_patterns,2024-06-15,Synthetic compatibility incidents for Azure Search
+Azure,Search,connectivity,36,2024-Q3,synthetic_patterns,2024-09-15,Synthetic connectivity incidents for Azure Search
+Azure,Search,performance,88,2024-Q3,synthetic_patterns,2024-09-15,Synthetic performance incidents for Azure Search
+Azure,Search,consistency,11,2024-Q3,synthetic_patterns,2024-09-15,Synthetic consistency incidents for Azure Search
+Azure,Search,compatibility,27,2024-Q3,synthetic_patterns,2024-09-15,Synthetic compatibility incidents for Azure Search
+Azure,Search,connectivity,36,2024-Q4,synthetic_patterns,2024-12-15,Synthetic connectivity incidents for Azure Search
+Azure,Search,performance,88,2024-Q4,synthetic_patterns,2024-12-15,Synthetic performance incidents for Azure Search
+Azure,Search,consistency,11,2024-Q4,synthetic_patterns,2024-12-15,Synthetic consistency incidents for Azure Search
+Azure,Search,compatibility,27,2024-Q4,synthetic_patterns,2024-12-15,Synthetic compatibility incidents for Azure Search
+MongoDB,SQL,connectivity,31,2023-Q1,synthetic_patterns,2023-03-15,Synthetic connectivity incidents for MongoDB SQL
+MongoDB,SQL,performance,54,2023-Q1,synthetic_patterns,2023-03-15,Synthetic performance incidents for MongoDB SQL
+MongoDB,SQL,consistency,8,2023-Q1,synthetic_patterns,2023-03-15,Synthetic consistency incidents for MongoDB SQL
+MongoDB,SQL,compatibility,16,2023-Q1,synthetic_patterns,2023-03-15,Synthetic compatibility incidents for MongoDB SQL
+MongoDB,SQL,connectivity,31,2023-Q2,synthetic_patterns,2023-06-15,Synthetic connectivity incidents for MongoDB SQL
+MongoDB,SQL,performance,54,2023-Q2,synthetic_patterns,2023-06-15,Synthetic performance incidents for MongoDB SQL
+MongoDB,SQL,consistency,8,2023-Q2,synthetic_patterns,2023-06-15,Synthetic consistency incidents for MongoDB SQL
+MongoDB,SQL,compatibility,16,2023-Q2,synthetic_patterns,2023-06-15,Synthetic compatibility incidents for MongoDB SQL
+MongoDB,SQL,connectivity,31,2023-Q3,synthetic_patterns,2023-09-15,Synthetic connectivity incidents for MongoDB SQL
+MongoDB,SQL,performance,54,2023-Q3,synthetic_patterns,2023-09-15,Synthetic performance incidents for MongoDB SQL
+MongoDB,SQL,consistency,8,2023-Q3,synthetic_patterns,2023-09-15,Synthetic consistency incidents for MongoDB SQL
+MongoDB,SQL,compatibility,16,2023-Q3,synthetic_patterns,2023-09-15,Synthetic compatibility incidents for MongoDB SQL
+MongoDB,SQL,connectivity,31,2023-Q4,synthetic_patterns,2023-12-15,Synthetic connectivity incidents for MongoDB SQL
+MongoDB,SQL,performance,54,2023-Q4,synthetic_patterns,2023-12-15,Synthetic performance incidents for MongoDB SQL
+MongoDB,SQL,consistency,8,2023-Q4,synthetic_patterns,2023-12-15,Synthetic consistency incidents for MongoDB SQL
+MongoDB,SQL,compatibility,16,2023-Q4,synthetic_patterns,2023-12-15,Synthetic compatibility incidents for MongoDB SQL
+MongoDB,SQL,connectivity,31,2024-Q1,synthetic_patterns,2024-03-15,Synthetic connectivity incidents for MongoDB SQL
+MongoDB,SQL,performance,54,2024-Q1,synthetic_patterns,2024-03-15,Synthetic performance incidents for MongoDB SQL
+MongoDB,SQL,consistency,8,2024-Q1,synthetic_patterns,2024-03-15,Synthetic consistency incidents for MongoDB SQL
+MongoDB,SQL,compatibility,16,2024-Q1,synthetic_patterns,2024-03-15,Synthetic compatibility incidents for MongoDB SQL
+MongoDB,SQL,connectivity,31,2024-Q2,synthetic_patterns,2024-06-15,Synthetic connectivity incidents for MongoDB SQL
+MongoDB,SQL,performance,54,2024-Q2,synthetic_patterns,2024-06-15,Synthetic performance incidents for MongoDB SQL
+MongoDB,SQL,consistency,8,2024-Q2,synthetic_patterns,2024-06-15,Synthetic consistency incidents for MongoDB SQL
+MongoDB,SQL,compatibility,16,2024-Q2,synthetic_patterns,2024-06-15,Synthetic compatibility incidents for MongoDB SQL
+MongoDB,SQL,connectivity,31,2024-Q3,synthetic_patterns,2024-09-15,Synthetic connectivity incidents for MongoDB SQL
+MongoDB,SQL,performance,54,2024-Q3,synthetic_patterns,2024-09-15,Synthetic performance incidents for MongoDB SQL
+MongoDB,SQL,consistency,8,2024-Q3,synthetic_patterns,2024-09-15,Synthetic consistency incidents for MongoDB SQL
+MongoDB,SQL,compatibility,16,2024-Q3,synthetic_patterns,2024-09-15,Synthetic compatibility incidents for MongoDB SQL
+MongoDB,SQL,connectivity,31,2024-Q4,synthetic_patterns,2024-12-15,Synthetic connectivity incidents for MongoDB SQL
+MongoDB,SQL,performance,54,2024-Q4,synthetic_patterns,2024-12-15,Synthetic performance incidents for MongoDB SQL
+MongoDB,SQL,consistency,8,2024-Q4,synthetic_patterns,2024-12-15,Synthetic consistency incidents for MongoDB SQL
+MongoDB,SQL,compatibility,16,2024-Q4,synthetic_patterns,2024-12-15,Synthetic compatibility incidents for MongoDB SQL
+MongoDB,KV,connectivity,12,2023-Q1,synthetic_patterns,2023-03-15,Synthetic connectivity incidents for MongoDB KV
+MongoDB,KV,performance,19,2023-Q1,synthetic_patterns,2023-03-15,Synthetic performance incidents for MongoDB KV
+MongoDB,KV,consistency,4,2023-Q1,synthetic_patterns,2023-03-15,Synthetic consistency incidents for MongoDB KV
+MongoDB,KV,compatibility,8,2023-Q1,synthetic_patterns,2023-03-15,Synthetic compatibility incidents for MongoDB KV
+MongoDB,KV,connectivity,12,2023-Q2,synthetic_patterns,2023-06-15,Synthetic connectivity incidents for MongoDB KV
+MongoDB,KV,performance,19,2023-Q2,synthetic_patterns,2023-06-15,Synthetic performance incidents for MongoDB KV
+MongoDB,KV,consistency,4,2023-Q2,synthetic_patterns,2023-06-15,Synthetic consistency incidents for MongoDB KV
+MongoDB,KV,compatibility,8,2023-Q2,synthetic_patterns,2023-06-15,Synthetic compatibility incidents for MongoDB KV
+MongoDB,KV,connectivity,12,2023-Q3,synthetic_patterns,2023-09-15,Synthetic connectivity incidents for MongoDB KV
+MongoDB,KV,performance,19,2023-Q3,synthetic_patterns,2023-09-15,Synthetic performance incidents for MongoDB KV
+MongoDB,KV,consistency,4,2023-Q3,synthetic_patterns,2023-09-15,Synthetic consistency incidents for MongoDB KV
+MongoDB,KV,compatibility,8,2023-Q3,synthetic_patterns,2023-09-15,Synthetic compatibility incidents for MongoDB KV
+MongoDB,KV,connectivity,12,2023-Q4,synthetic_patterns,2023-12-15,Synthetic connectivity incidents for MongoDB KV
+MongoDB,KV,performance,19,2023-Q4,synthetic_patterns,2023-12-15,Synthetic performance incidents for MongoDB KV
+MongoDB,KV,consistency,4,2023-Q4,synthetic_patterns,2023-12-15,Synthetic consistency incidents for MongoDB KV
+MongoDB,KV,compatibility,8,2023-Q4,synthetic_patterns,2023-12-15,Synthetic compatibility incidents for MongoDB KV
+MongoDB,KV,connectivity,12,2024-Q1,synthetic_patterns,2024-03-15,Synthetic connectivity incidents for MongoDB KV
+MongoDB,KV,performance,19,2024-Q1,synthetic_patterns,2024-03-15,Synthetic performance incidents for MongoDB KV
+MongoDB,KV,consistency,4,2024-Q1,synthetic_patterns,2024-03-15,Synthetic consistency incidents for MongoDB KV
+MongoDB,KV,compatibility,8,2024-Q1,synthetic_patterns,2024-03-15,Synthetic compatibility incidents for MongoDB KV
+MongoDB,KV,connectivity,12,2024-Q2,synthetic_patterns,2024-06-15,Synthetic connectivity incidents for MongoDB KV
+MongoDB,KV,performance,19,2024-Q2,synthetic_patterns,2024-06-15,Synthetic performance incidents for MongoDB KV
+MongoDB,KV,consistency,4,2024-Q2,synthetic_patterns,2024-06-15,Synthetic consistency incidents for MongoDB KV
+MongoDB,KV,compatibility,8,2024-Q2,synthetic_patterns,2024-06-15,Synthetic compatibility incidents for MongoDB KV
+MongoDB,KV,connectivity,12,2024-Q3,synthetic_patterns,2024-09-15,Synthetic connectivity incidents for MongoDB KV
+MongoDB,KV,performance,19,2024-Q3,synthetic_patterns,2024-09-15,Synthetic performance incidents for MongoDB KV
+MongoDB,KV,consistency,4,2024-Q3,synthetic_patterns,2024-09-15,Synthetic consistency incidents for MongoDB KV
+MongoDB,KV,compatibility,8,2024-Q3,synthetic_patterns,2024-09-15,Synthetic compatibility incidents for MongoDB KV
+MongoDB,KV,connectivity,12,2024-Q4,synthetic_patterns,2024-12-15,Synthetic connectivity incidents for MongoDB KV
+MongoDB,KV,performance,19,2024-Q4,synthetic_patterns,2024-12-15,Synthetic performance incidents for MongoDB KV
+MongoDB,KV,consistency,4,2024-Q4,synthetic_patterns,2024-12-15,Synthetic consistency incidents for MongoDB KV
+MongoDB,KV,compatibility,8,2024-Q4,synthetic_patterns,2024-12-15,Synthetic compatibility incidents for MongoDB KV
+MongoDB,Document,connectivity,26,2023-Q1,synthetic_patterns,2023-03-15,Synthetic connectivity incidents for MongoDB Document
+MongoDB,Document,performance,43,2023-Q1,synthetic_patterns,2023-03-15,Synthetic performance incidents for MongoDB Document
+MongoDB,Document,consistency,13,2023-Q1,synthetic_patterns,2023-03-15,Synthetic consistency incidents for MongoDB Document
+MongoDB,Document,compatibility,14,2023-Q1,synthetic_patterns,2023-03-15,Synthetic compatibility incidents for MongoDB Document
+MongoDB,Document,connectivity,26,2023-Q2,synthetic_patterns,2023-06-15,Synthetic connectivity incidents for MongoDB Document
+MongoDB,Document,performance,43,2023-Q2,synthetic_patterns,2023-06-15,Synthetic performance incidents for MongoDB Document
+MongoDB,Document,consistency,13,2023-Q2,synthetic_patterns,2023-06-15,Synthetic consistency incidents for MongoDB Document
+MongoDB,Document,compatibility,14,2023-Q2,synthetic_patterns,2023-06-15,Synthetic compatibility incidents for MongoDB Document
+MongoDB,Document,connectivity,26,2023-Q3,synthetic_patterns,2023-09-15,Synthetic connectivity incidents for MongoDB Document
+MongoDB,Document,performance,43,2023-Q3,synthetic_patterns,2023-09-15,Synthetic performance incidents for MongoDB Document
+MongoDB,Document,consistency,13,2023-Q3,synthetic_patterns,2023-09-15,Synthetic consistency incidents for MongoDB Document
+MongoDB,Document,compatibility,14,2023-Q3,synthetic_patterns,2023-09-15,Synthetic compatibility incidents for MongoDB Document
+MongoDB,Document,connectivity,26,2023-Q4,synthetic_patterns,2023-12-15,Synthetic connectivity incidents for MongoDB Document
+MongoDB,Document,performance,43,2023-Q4,synthetic_patterns,2023-12-15,Synthetic performance incidents for MongoDB Document
+MongoDB,Document,consistency,13,2023-Q4,synthetic_patterns,2023-12-15,Synthetic consistency incidents for MongoDB Document
+MongoDB,Document,compatibility,14,2023-Q4,synthetic_patterns,2023-12-15,Synthetic compatibility incidents for MongoDB Document
+MongoDB,Document,connectivity,26,2024-Q1,synthetic_patterns,2024-03-15,Synthetic connectivity incidents for MongoDB Document
+MongoDB,Document,performance,43,2024-Q1,synthetic_patterns,2024-03-15,Synthetic performance incidents for MongoDB Document
+MongoDB,Document,consistency,13,2024-Q1,synthetic_patterns,2024-03-15,Synthetic consistency incidents for MongoDB Document
+MongoDB,Document,compatibility,14,2024-Q1,synthetic_patterns,2024-03-15,Synthetic compatibility incidents for MongoDB Document
+MongoDB,Document,connectivity,26,2024-Q2,synthetic_patterns,2024-06-15,Synthetic connectivity incidents for MongoDB Document
+MongoDB,Document,performance,43,2024-Q2,synthetic_patterns,2024-06-15,Synthetic performance incidents for MongoDB Document
+MongoDB,Document,consistency,13,2024-Q2,synthetic_patterns,2024-06-15,Synthetic consistency incidents for MongoDB Document
+MongoDB,Document,compatibility,14,2024-Q2,synthetic_patterns,2024-06-15,Synthetic compatibility incidents for MongoDB Document
+MongoDB,Document,connectivity,26,2024-Q3,synthetic_patterns,2024-09-15,Synthetic connectivity incidents for MongoDB Document
+MongoDB,Document,performance,43,2024-Q3,synthetic_patterns,2024-09-15,Synthetic performance incidents for MongoDB Document
+MongoDB,Document,consistency,13,2024-Q3,synthetic_patterns,2024-09-15,Synthetic consistency incidents for MongoDB Document
+MongoDB,Document,compatibility,14,2024-Q3,synthetic_patterns,2024-09-15,Synthetic compatibility incidents for MongoDB Document
+MongoDB,Document,connectivity,26,2024-Q4,synthetic_patterns,2024-12-15,Synthetic connectivity incidents for MongoDB Document
+MongoDB,Document,performance,43,2024-Q4,synthetic_patterns,2024-12-15,Synthetic performance incidents for MongoDB Document
+MongoDB,Document,consistency,13,2024-Q4,synthetic_patterns,2024-12-15,Synthetic consistency incidents for MongoDB Document
+MongoDB,Document,compatibility,14,2024-Q4,synthetic_patterns,2024-12-15,Synthetic compatibility incidents for MongoDB Document
+MongoDB,Graph,connectivity,16,2023-Q1,synthetic_patterns,2023-03-15,Synthetic connectivity incidents for MongoDB Graph
+MongoDB,Graph,performance,26,2023-Q1,synthetic_patterns,2023-03-15,Synthetic performance incidents for MongoDB Graph
+MongoDB,Graph,consistency,22,2023-Q1,synthetic_patterns,2023-03-15,Synthetic consistency incidents for MongoDB Graph
+MongoDB,Graph,compatibility,10,2023-Q1,synthetic_patterns,2023-03-15,Synthetic compatibility incidents for MongoDB Graph
+MongoDB,Graph,connectivity,16,2023-Q2,synthetic_patterns,2023-06-15,Synthetic connectivity incidents for MongoDB Graph
+MongoDB,Graph,performance,26,2023-Q2,synthetic_patterns,2023-06-15,Synthetic performance incidents for MongoDB Graph
+MongoDB,Graph,consistency,22,2023-Q2,synthetic_patterns,2023-06-15,Synthetic consistency incidents for MongoDB Graph
+MongoDB,Graph,compatibility,10,2023-Q2,synthetic_patterns,2023-06-15,Synthetic compatibility incidents for MongoDB Graph
+MongoDB,Graph,connectivity,16,2023-Q3,synthetic_patterns,2023-09-15,Synthetic connectivity incidents for MongoDB Graph
+MongoDB,Graph,performance,26,2023-Q3,synthetic_patterns,2023-09-15,Synthetic performance incidents for MongoDB Graph
+MongoDB,Graph,consistency,22,2023-Q3,synthetic_patterns,2023-09-15,Synthetic consistency incidents for MongoDB Graph
+MongoDB,Graph,compatibility,10,2023-Q3,synthetic_patterns,2023-09-15,Synthetic compatibility incidents for MongoDB Graph
+MongoDB,Graph,connectivity,16,2023-Q4,synthetic_patterns,2023-12-15,Synthetic connectivity incidents for MongoDB Graph
+MongoDB,Graph,performance,26,2023-Q4,synthetic_patterns,2023-12-15,Synthetic performance incidents for MongoDB Graph
+MongoDB,Graph,consistency,22,2023-Q4,synthetic_patterns,2023-12-15,Synthetic consistency incidents for MongoDB Graph
+MongoDB,Graph,compatibility,10,2023-Q4,synthetic_patterns,2023-12-15,Synthetic compatibility incidents for MongoDB Graph
+MongoDB,Graph,connectivity,16,2024-Q1,synthetic_patterns,2024-03-15,Synthetic connectivity incidents for MongoDB Graph
+MongoDB,Graph,performance,26,2024-Q1,synthetic_patterns,2024-03-15,Synthetic performance incidents for MongoDB Graph
+MongoDB,Graph,consistency,22,2024-Q1,synthetic_patterns,2024-03-15,Synthetic consistency incidents for MongoDB Graph
+MongoDB,Graph,compatibility,10,2024-Q1,synthetic_patterns,2024-03-15,Synthetic compatibility incidents for MongoDB Graph
+MongoDB,Graph,connectivity,16,2024-Q2,synthetic_patterns,2024-06-15,Synthetic connectivity incidents for MongoDB Graph
+MongoDB,Graph,performance,26,2024-Q2,synthetic_patterns,2024-06-15,Synthetic performance incidents for MongoDB Graph
+MongoDB,Graph,consistency,22,2024-Q2,synthetic_patterns,2024-06-15,Synthetic consistency incidents for MongoDB Graph
+MongoDB,Graph,compatibility,10,2024-Q2,synthetic_patterns,2024-06-15,Synthetic compatibility incidents for MongoDB Graph
+MongoDB,Graph,connectivity,16,2024-Q3,synthetic_patterns,2024-09-15,Synthetic connectivity incidents for MongoDB Graph
+MongoDB,Graph,performance,26,2024-Q3,synthetic_patterns,2024-09-15,Synthetic performance incidents for MongoDB Graph
+MongoDB,Graph,consistency,22,2024-Q3,synthetic_patterns,2024-09-15,Synthetic consistency incidents for MongoDB Graph
+MongoDB,Graph,compatibility,10,2024-Q3,synthetic_patterns,2024-09-15,Synthetic compatibility incidents for MongoDB Graph
+MongoDB,Graph,connectivity,16,2024-Q4,synthetic_patterns,2024-12-15,Synthetic connectivity incidents for MongoDB Graph
+MongoDB,Graph,performance,26,2024-Q4,synthetic_patterns,2024-12-15,Synthetic performance incidents for MongoDB Graph
+MongoDB,Graph,consistency,22,2024-Q4,synthetic_patterns,2024-12-15,Synthetic consistency incidents for MongoDB Graph
+MongoDB,Graph,compatibility,10,2024-Q4,synthetic_patterns,2024-12-15,Synthetic compatibility incidents for MongoDB Graph
+MongoDB,Search,connectivity,23,2023-Q1,synthetic_patterns,2023-03-15,Synthetic connectivity incidents for MongoDB Search
+MongoDB,Search,performance,56,2023-Q1,synthetic_patterns,2023-03-15,Synthetic performance incidents for MongoDB Search
+MongoDB,Search,consistency,7,2023-Q1,synthetic_patterns,2023-03-15,Synthetic consistency incidents for MongoDB Search
+MongoDB,Search,compatibility,17,2023-Q1,synthetic_patterns,2023-03-15,Synthetic compatibility incidents for MongoDB Search
+MongoDB,Search,connectivity,23,2023-Q2,synthetic_patterns,2023-06-15,Synthetic connectivity incidents for MongoDB Search
+MongoDB,Search,performance,56,2023-Q2,synthetic_patterns,2023-06-15,Synthetic performance incidents for MongoDB Search
+MongoDB,Search,consistency,7,2023-Q2,synthetic_patterns,2023-06-15,Synthetic consistency incidents for MongoDB Search
+MongoDB,Search,compatibility,17,2023-Q2,synthetic_patterns,2023-06-15,Synthetic compatibility incidents for MongoDB Search
+MongoDB,Search,connectivity,23,2023-Q3,synthetic_patterns,2023-09-15,Synthetic connectivity incidents for MongoDB Search
+MongoDB,Search,performance,56,2023-Q3,synthetic_patterns,2023-09-15,Synthetic performance incidents for MongoDB Search
+MongoDB,Search,consistency,7,2023-Q3,synthetic_patterns,2023-09-15,Synthetic consistency incidents for MongoDB Search
+MongoDB,Search,compatibility,17,2023-Q3,synthetic_patterns,2023-09-15,Synthetic compatibility incidents for MongoDB Search
+MongoDB,Search,connectivity,23,2023-Q4,synthetic_patterns,2023-12-15,Synthetic connectivity incidents for MongoDB Search
+MongoDB,Search,performance,56,2023-Q4,synthetic_patterns,2023-12-15,Synthetic performance incidents for MongoDB Search
+MongoDB,Search,consistency,7,2023-Q4,synthetic_patterns,2023-12-15,Synthetic consistency incidents for MongoDB Search
+MongoDB,Search,compatibility,17,2023-Q4,synthetic_patterns,2023-12-15,Synthetic compatibility incidents for MongoDB Search
+MongoDB,Search,connectivity,23,2024-Q1,synthetic_patterns,2024-03-15,Synthetic connectivity incidents for MongoDB Search
+MongoDB,Search,performance,56,2024-Q1,synthetic_patterns,2024-03-15,Synthetic performance incidents for MongoDB Search
+MongoDB,Search,consistency,7,2024-Q1,synthetic_patterns,2024-03-15,Synthetic consistency incidents for MongoDB Search
+MongoDB,Search,compatibility,17,2024-Q1,synthetic_patterns,2024-03-15,Synthetic compatibility incidents for MongoDB Search
+MongoDB,Search,connectivity,23,2024-Q2,synthetic_patterns,2024-06-15,Synthetic connectivity incidents for MongoDB Search
+MongoDB,Search,performance,56,2024-Q2,synthetic_patterns,2024-06-15,Synthetic performance incidents for MongoDB Search
+MongoDB,Search,consistency,7,2024-Q2,synthetic_patterns,2024-06-15,Synthetic consistency incidents for MongoDB Search
+MongoDB,Search,compatibility,17,2024-Q2,synthetic_patterns,2024-06-15,Synthetic compatibility incidents for MongoDB Search
+MongoDB,Search,connectivity,23,2024-Q3,synthetic_patterns,2024-09-15,Synthetic connectivity incidents for MongoDB Search
+MongoDB,Search,performance,56,2024-Q3,synthetic_patterns,2024-09-15,Synthetic performance incidents for MongoDB Search
+MongoDB,Search,consistency,7,2024-Q3,synthetic_patterns,2024-09-15,Synthetic consistency incidents for MongoDB Search
+MongoDB,Search,compatibility,17,2024-Q3,synthetic_patterns,2024-09-15,Synthetic compatibility incidents for MongoDB Search
+MongoDB,Search,connectivity,23,2024-Q4,synthetic_patterns,2024-12-15,Synthetic connectivity incidents for MongoDB Search
+MongoDB,Search,performance,56,2024-Q4,synthetic_patterns,2024-12-15,Synthetic performance incidents for MongoDB Search
+MongoDB,Search,consistency,7,2024-Q4,synthetic_patterns,2024-12-15,Synthetic consistency incidents for MongoDB Search
+MongoDB,Search,compatibility,17,2024-Q4,synthetic_patterns,2024-12-15,Synthetic compatibility incidents for MongoDB Search
+DataStax,SQL,connectivity,27,2023-Q1,synthetic_patterns,2023-03-15,Synthetic connectivity incidents for DataStax SQL
+DataStax,SQL,performance,46,2023-Q1,synthetic_patterns,2023-03-15,Synthetic performance incidents for DataStax SQL
+DataStax,SQL,consistency,7,2023-Q1,synthetic_patterns,2023-03-15,Synthetic consistency incidents for DataStax SQL
+DataStax,SQL,compatibility,13,2023-Q1,synthetic_patterns,2023-03-15,Synthetic compatibility incidents for DataStax SQL
+DataStax,SQL,connectivity,27,2023-Q2,synthetic_patterns,2023-06-15,Synthetic connectivity incidents for DataStax SQL
+DataStax,SQL,performance,46,2023-Q2,synthetic_patterns,2023-06-15,Synthetic performance incidents for DataStax SQL
+DataStax,SQL,consistency,7,2023-Q2,synthetic_patterns,2023-06-15,Synthetic consistency incidents for DataStax SQL
+DataStax,SQL,compatibility,13,2023-Q2,synthetic_patterns,2023-06-15,Synthetic compatibility incidents for DataStax SQL
+DataStax,SQL,connectivity,27,2023-Q3,synthetic_patterns,2023-09-15,Synthetic connectivity incidents for DataStax SQL
+DataStax,SQL,performance,46,2023-Q3,synthetic_patterns,2023-09-15,Synthetic performance incidents for DataStax SQL
+DataStax,SQL,consistency,7,2023-Q3,synthetic_patterns,2023-09-15,Synthetic consistency incidents for DataStax SQL
+DataStax,SQL,compatibility,13,2023-Q3,synthetic_patterns,2023-09-15,Synthetic compatibility incidents for DataStax SQL
+DataStax,SQL,connectivity,27,2023-Q4,synthetic_patterns,2023-12-15,Synthetic connectivity incidents for DataStax SQL
+DataStax,SQL,performance,46,2023-Q4,synthetic_patterns,2023-12-15,Synthetic performance incidents for DataStax SQL
+DataStax,SQL,consistency,7,2023-Q4,synthetic_patterns,2023-12-15,Synthetic consistency incidents for DataStax SQL
+DataStax,SQL,compatibility,13,2023-Q4,synthetic_patterns,2023-12-15,Synthetic compatibility incidents for DataStax SQL
+DataStax,SQL,connectivity,27,2024-Q1,synthetic_patterns,2024-03-15,Synthetic connectivity incidents for DataStax SQL
+DataStax,SQL,performance,46,2024-Q1,synthetic_patterns,2024-03-15,Synthetic performance incidents for DataStax SQL
+DataStax,SQL,consistency,7,2024-Q1,synthetic_patterns,2024-03-15,Synthetic consistency incidents for DataStax SQL
+DataStax,SQL,compatibility,13,2024-Q1,synthetic_patterns,2024-03-15,Synthetic compatibility incidents for DataStax SQL
+DataStax,SQL,connectivity,27,2024-Q2,synthetic_patterns,2024-06-15,Synthetic connectivity incidents for DataStax SQL
+DataStax,SQL,performance,46,2024-Q2,synthetic_patterns,2024-06-15,Synthetic performance incidents for DataStax SQL
+DataStax,SQL,consistency,7,2024-Q2,synthetic_patterns,2024-06-15,Synthetic consistency incidents for DataStax SQL
+DataStax,SQL,compatibility,13,2024-Q2,synthetic_patterns,2024-06-15,Synthetic compatibility incidents for DataStax SQL
+DataStax,SQL,connectivity,27,2024-Q3,synthetic_patterns,2024-09-15,Synthetic connectivity incidents for DataStax SQL
+DataStax,SQL,performance,46,2024-Q3,synthetic_patterns,2024-09-15,Synthetic performance incidents for DataStax SQL
+DataStax,SQL,consistency,7,2024-Q3,synthetic_patterns,2024-09-15,Synthetic consistency incidents for DataStax SQL
+DataStax,SQL,compatibility,13,2024-Q3,synthetic_patterns,2024-09-15,Synthetic compatibility incidents for DataStax SQL
+DataStax,SQL,connectivity,27,2024-Q4,synthetic_patterns,2024-12-15,Synthetic connectivity incidents for DataStax SQL
+DataStax,SQL,performance,46,2024-Q4,synthetic_patterns,2024-12-15,Synthetic performance incidents for DataStax SQL
+DataStax,SQL,consistency,7,2024-Q4,synthetic_patterns,2024-12-15,Synthetic consistency incidents for DataStax SQL
+DataStax,SQL,compatibility,13,2024-Q4,synthetic_patterns,2024-12-15,Synthetic compatibility incidents for DataStax SQL
+DataStax,KV,connectivity,11,2023-Q1,synthetic_patterns,2023-03-15,Synthetic connectivity incidents for DataStax KV
+DataStax,KV,performance,16,2023-Q1,synthetic_patterns,2023-03-15,Synthetic performance incidents for DataStax KV
+DataStax,KV,consistency,3,2023-Q1,synthetic_patterns,2023-03-15,Synthetic consistency incidents for DataStax KV
+DataStax,KV,compatibility,7,2023-Q1,synthetic_patterns,2023-03-15,Synthetic compatibility incidents for DataStax KV
+DataStax,KV,connectivity,11,2023-Q2,synthetic_patterns,2023-06-15,Synthetic connectivity incidents for DataStax KV
+DataStax,KV,performance,16,2023-Q2,synthetic_patterns,2023-06-15,Synthetic performance incidents for DataStax KV
+DataStax,KV,consistency,3,2023-Q2,synthetic_patterns,2023-06-15,Synthetic consistency incidents for DataStax KV
+DataStax,KV,compatibility,7,2023-Q2,synthetic_patterns,2023-06-15,Synthetic compatibility incidents for DataStax KV
+DataStax,KV,connectivity,11,2023-Q3,synthetic_patterns,2023-09-15,Synthetic connectivity incidents for DataStax KV
+DataStax,KV,performance,16,2023-Q3,synthetic_patterns,2023-09-15,Synthetic performance incidents for DataStax KV
+DataStax,KV,consistency,3,2023-Q3,synthetic_patterns,2023-09-15,Synthetic consistency incidents for DataStax KV
+DataStax,KV,compatibility,7,2023-Q3,synthetic_patterns,2023-09-15,Synthetic compatibility incidents for DataStax KV
+DataStax,KV,connectivity,11,2023-Q4,synthetic_patterns,2023-12-15,Synthetic connectivity incidents for DataStax KV
+DataStax,KV,performance,16,2023-Q4,synthetic_patterns,2023-12-15,Synthetic performance incidents for DataStax KV
+DataStax,KV,consistency,3,2023-Q4,synthetic_patterns,2023-12-15,Synthetic consistency incidents for DataStax KV
+DataStax,KV,compatibility,7,2023-Q4,synthetic_patterns,2023-12-15,Synthetic compatibility incidents for DataStax KV
+DataStax,KV,connectivity,11,2024-Q1,synthetic_patterns,2024-03-15,Synthetic connectivity incidents for DataStax KV
+DataStax,KV,performance,16,2024-Q1,synthetic_patterns,2024-03-15,Synthetic performance incidents for DataStax KV
+DataStax,KV,consistency,3,2024-Q1,synthetic_patterns,2024-03-15,Synthetic consistency incidents for DataStax KV
+DataStax,KV,compatibility,7,2024-Q1,synthetic_patterns,2024-03-15,Synthetic compatibility incidents for DataStax KV
+DataStax,KV,connectivity,11,2024-Q2,synthetic_patterns,2024-06-15,Synthetic connectivity incidents for DataStax KV
+DataStax,KV,performance,16,2024-Q2,synthetic_patterns,2024-06-15,Synthetic performance incidents for DataStax KV
+DataStax,KV,consistency,3,2024-Q2,synthetic_patterns,2024-06-15,Synthetic consistency incidents for DataStax KV
+DataStax,KV,compatibility,7,2024-Q2,synthetic_patterns,2024-06-15,Synthetic compatibility incidents for DataStax KV
+DataStax,KV,connectivity,11,2024-Q3,synthetic_patterns,2024-09-15,Synthetic connectivity incidents for DataStax KV
+DataStax,KV,performance,16,2024-Q3,synthetic_patterns,2024-09-15,Synthetic performance incidents for DataStax KV
+DataStax,KV,consistency,3,2024-Q3,synthetic_patterns,2024-09-15,Synthetic consistency incidents for DataStax KV
+DataStax,KV,compatibility,7,2024-Q3,synthetic_patterns,2024-09-15,Synthetic compatibility incidents for DataStax KV
+DataStax,KV,connectivity,11,2024-Q4,synthetic_patterns,2024-12-15,Synthetic connectivity incidents for DataStax KV
+DataStax,KV,performance,16,2024-Q4,synthetic_patterns,2024-12-15,Synthetic performance incidents for DataStax KV
+DataStax,KV,consistency,3,2024-Q4,synthetic_patterns,2024-12-15,Synthetic consistency incidents for DataStax KV
+DataStax,KV,compatibility,7,2024-Q4,synthetic_patterns,2024-12-15,Synthetic compatibility incidents for DataStax KV
+DataStax,Document,connectivity,22,2023-Q1,synthetic_patterns,2023-03-15,Synthetic connectivity incidents for DataStax Document
+DataStax,Document,performance,36,2023-Q1,synthetic_patterns,2023-03-15,Synthetic performance incidents for DataStax Document
+DataStax,Document,consistency,11,2023-Q1,synthetic_patterns,2023-03-15,Synthetic consistency incidents for DataStax Document
+DataStax,Document,compatibility,12,2023-Q1,synthetic_patterns,2023-03-15,Synthetic compatibility incidents for DataStax Document
+DataStax,Document,connectivity,22,2023-Q2,synthetic_patterns,2023-06-15,Synthetic connectivity incidents for DataStax Document
+DataStax,Document,performance,36,2023-Q2,synthetic_patterns,2023-06-15,Synthetic performance incidents for DataStax Document
+DataStax,Document,consistency,11,2023-Q2,synthetic_patterns,2023-06-15,Synthetic consistency incidents for DataStax Document
+DataStax,Document,compatibility,12,2023-Q2,synthetic_patterns,2023-06-15,Synthetic compatibility incidents for DataStax Document
+DataStax,Document,connectivity,22,2023-Q3,synthetic_patterns,2023-09-15,Synthetic connectivity incidents for DataStax Document
+DataStax,Document,performance,36,2023-Q3,synthetic_patterns,2023-09-15,Synthetic performance incidents for DataStax Document
+DataStax,Document,consistency,11,2023-Q3,synthetic_patterns,2023-09-15,Synthetic consistency incidents for DataStax Document
+DataStax,Document,compatibility,12,2023-Q3,synthetic_patterns,2023-09-15,Synthetic compatibility incidents for DataStax Document
+DataStax,Document,connectivity,22,2023-Q4,synthetic_patterns,2023-12-15,Synthetic connectivity incidents for DataStax Document
+DataStax,Document,performance,36,2023-Q4,synthetic_patterns,2023-12-15,Synthetic performance incidents for DataStax Document
+DataStax,Document,consistency,11,2023-Q4,synthetic_patterns,2023-12-15,Synthetic consistency incidents for DataStax Document
+DataStax,Document,compatibility,12,2023-Q4,synthetic_patterns,2023-12-15,Synthetic compatibility incidents for DataStax Document
+DataStax,Document,connectivity,22,2024-Q1,synthetic_patterns,2024-03-15,Synthetic connectivity incidents for DataStax Document
+DataStax,Document,performance,36,2024-Q1,synthetic_patterns,2024-03-15,Synthetic performance incidents for DataStax Document
+DataStax,Document,consistency,11,2024-Q1,synthetic_patterns,2024-03-15,Synthetic consistency incidents for DataStax Document
+DataStax,Document,compatibility,12,2024-Q1,synthetic_patterns,2024-03-15,Synthetic compatibility incidents for DataStax Document
+DataStax,Document,connectivity,22,2024-Q2,synthetic_patterns,2024-06-15,Synthetic connectivity incidents for DataStax Document
+DataStax,Document,performance,36,2024-Q2,synthetic_patterns,2024-06-15,Synthetic performance incidents for DataStax Document
+DataStax,Document,consistency,11,2024-Q2,synthetic_patterns,2024-06-15,Synthetic consistency incidents for DataStax Document
+DataStax,Document,compatibility,12,2024-Q2,synthetic_patterns,2024-06-15,Synthetic compatibility incidents for DataStax Document
+DataStax,Document,connectivity,22,2024-Q3,synthetic_patterns,2024-09-15,Synthetic connectivity incidents for DataStax Document
+DataStax,Document,performance,36,2024-Q3,synthetic_patterns,2024-09-15,Synthetic performance incidents for DataStax Document
+DataStax,Document,consistency,11,2024-Q3,synthetic_patterns,2024-09-15,Synthetic consistency incidents for DataStax Document
+DataStax,Document,compatibility,12,2024-Q3,synthetic_patterns,2024-09-15,Synthetic compatibility incidents for DataStax Document
+DataStax,Document,connectivity,22,2024-Q4,synthetic_patterns,2024-12-15,Synthetic connectivity incidents for DataStax Document
+DataStax,Document,performance,36,2024-Q4,synthetic_patterns,2024-12-15,Synthetic performance incidents for DataStax Document
+DataStax,Document,consistency,11,2024-Q4,synthetic_patterns,2024-12-15,Synthetic consistency incidents for DataStax Document
+DataStax,Document,compatibility,12,2024-Q4,synthetic_patterns,2024-12-15,Synthetic compatibility incidents for DataStax Document
+DataStax,Graph,connectivity,14,2023-Q1,synthetic_patterns,2023-03-15,Synthetic connectivity incidents for DataStax Graph
+DataStax,Graph,performance,22,2023-Q1,synthetic_patterns,2023-03-15,Synthetic performance incidents for DataStax Graph
+DataStax,Graph,consistency,19,2023-Q1,synthetic_patterns,2023-03-15,Synthetic consistency incidents for DataStax Graph
+DataStax,Graph,compatibility,9,2023-Q1,synthetic_patterns,2023-03-15,Synthetic compatibility incidents for DataStax Graph
+DataStax,Graph,connectivity,14,2023-Q2,synthetic_patterns,2023-06-15,Synthetic connectivity incidents for DataStax Graph
+DataStax,Graph,performance,22,2023-Q2,synthetic_patterns,2023-06-15,Synthetic performance incidents for DataStax Graph
+DataStax,Graph,consistency,19,2023-Q2,synthetic_patterns,2023-06-15,Synthetic consistency incidents for DataStax Graph
+DataStax,Graph,compatibility,9,2023-Q2,synthetic_patterns,2023-06-15,Synthetic compatibility incidents for DataStax Graph
+DataStax,Graph,connectivity,14,2023-Q3,synthetic_patterns,2023-09-15,Synthetic connectivity incidents for DataStax Graph
+DataStax,Graph,performance,22,2023-Q3,synthetic_patterns,2023-09-15,Synthetic performance incidents for DataStax Graph
+DataStax,Graph,consistency,19,2023-Q3,synthetic_patterns,2023-09-15,Synthetic consistency incidents for DataStax Graph
+DataStax,Graph,compatibility,9,2023-Q3,synthetic_patterns,2023-09-15,Synthetic compatibility incidents for DataStax Graph
+DataStax,Graph,connectivity,14,2023-Q4,synthetic_patterns,2023-12-15,Synthetic connectivity incidents for DataStax Graph
+DataStax,Graph,performance,22,2023-Q4,synthetic_patterns,2023-12-15,Synthetic performance incidents for DataStax Graph
+DataStax,Graph,consistency,19,2023-Q4,synthetic_patterns,2023-12-15,Synthetic consistency incidents for DataStax Graph
+DataStax,Graph,compatibility,9,2023-Q4,synthetic_patterns,2023-12-15,Synthetic compatibility incidents for DataStax Graph
+DataStax,Graph,connectivity,14,2024-Q1,synthetic_patterns,2024-03-15,Synthetic connectivity incidents for DataStax Graph
+DataStax,Graph,performance,22,2024-Q1,synthetic_patterns,2024-03-15,Synthetic performance incidents for DataStax Graph
+DataStax,Graph,consistency,19,2024-Q1,synthetic_patterns,2024-03-15,Synthetic consistency incidents for DataStax Graph
+DataStax,Graph,compatibility,9,2024-Q1,synthetic_patterns,2024-03-15,Synthetic compatibility incidents for DataStax Graph
+DataStax,Graph,connectivity,14,2024-Q2,synthetic_patterns,2024-06-15,Synthetic connectivity incidents for DataStax Graph
+DataStax,Graph,performance,22,2024-Q2,synthetic_patterns,2024-06-15,Synthetic performance incidents for DataStax Graph
+DataStax,Graph,consistency,19,2024-Q2,synthetic_patterns,2024-06-15,Synthetic consistency incidents for DataStax Graph
+DataStax,Graph,compatibility,9,2024-Q2,synthetic_patterns,2024-06-15,Synthetic compatibility incidents for DataStax Graph
+DataStax,Graph,connectivity,14,2024-Q3,synthetic_patterns,2024-09-15,Synthetic connectivity incidents for DataStax Graph
+DataStax,Graph,performance,22,2024-Q3,synthetic_patterns,2024-09-15,Synthetic performance incidents for DataStax Graph
+DataStax,Graph,consistency,19,2024-Q3,synthetic_patterns,2024-09-15,Synthetic consistency incidents for DataStax Graph
+DataStax,Graph,compatibility,9,2024-Q3,synthetic_patterns,2024-09-15,Synthetic compatibility incidents for DataStax Graph
+DataStax,Graph,connectivity,14,2024-Q4,synthetic_patterns,2024-12-15,Synthetic connectivity incidents for DataStax Graph
+DataStax,Graph,performance,22,2024-Q4,synthetic_patterns,2024-12-15,Synthetic performance incidents for DataStax Graph
+DataStax,Graph,consistency,19,2024-Q4,synthetic_patterns,2024-12-15,Synthetic consistency incidents for DataStax Graph
+DataStax,Graph,compatibility,9,2024-Q4,synthetic_patterns,2024-12-15,Synthetic compatibility incidents for DataStax Graph
+DataStax,Search,connectivity,20,2023-Q1,synthetic_patterns,2023-03-15,Synthetic connectivity incidents for DataStax Search
+DataStax,Search,performance,48,2023-Q1,synthetic_patterns,2023-03-15,Synthetic performance incidents for DataStax Search
+DataStax,Search,consistency,6,2023-Q1,synthetic_patterns,2023-03-15,Synthetic consistency incidents for DataStax Search
+DataStax,Search,compatibility,15,2023-Q1,synthetic_patterns,2023-03-15,Synthetic compatibility incidents for DataStax Search
+DataStax,Search,connectivity,20,2023-Q2,synthetic_patterns,2023-06-15,Synthetic connectivity incidents for DataStax Search
+DataStax,Search,performance,48,2023-Q2,synthetic_patterns,2023-06-15,Synthetic performance incidents for DataStax Search
+DataStax,Search,consistency,6,2023-Q2,synthetic_patterns,2023-06-15,Synthetic consistency incidents for DataStax Search
+DataStax,Search,compatibility,15,2023-Q2,synthetic_patterns,2023-06-15,Synthetic compatibility incidents for DataStax Search
+DataStax,Search,connectivity,20,2023-Q3,synthetic_patterns,2023-09-15,Synthetic connectivity incidents for DataStax Search
+DataStax,Search,performance,48,2023-Q3,synthetic_patterns,2023-09-15,Synthetic performance incidents for DataStax Search
+DataStax,Search,consistency,6,2023-Q3,synthetic_patterns,2023-09-15,Synthetic consistency incidents for DataStax Search
+DataStax,Search,compatibility,15,2023-Q3,synthetic_patterns,2023-09-15,Synthetic compatibility incidents for DataStax Search
+DataStax,Search,connectivity,20,2023-Q4,synthetic_patterns,2023-12-15,Synthetic connectivity incidents for DataStax Search
+DataStax,Search,performance,48,2023-Q4,synthetic_patterns,2023-12-15,Synthetic performance incidents for DataStax Search
+DataStax,Search,consistency,6,2023-Q4,synthetic_patterns,2023-12-15,Synthetic consistency incidents for DataStax Search
+DataStax,Search,compatibility,15,2023-Q4,synthetic_patterns,2023-12-15,Synthetic compatibility incidents for DataStax Search
+DataStax,Search,connectivity,20,2024-Q1,synthetic_patterns,2024-03-15,Synthetic connectivity incidents for DataStax Search
+DataStax,Search,performance,48,2024-Q1,synthetic_patterns,2024-03-15,Synthetic performance incidents for DataStax Search
+DataStax,Search,consistency,6,2024-Q1,synthetic_patterns,2024-03-15,Synthetic consistency incidents for DataStax Search
+DataStax,Search,compatibility,15,2024-Q1,synthetic_patterns,2024-03-15,Synthetic compatibility incidents for DataStax Search
+DataStax,Search,connectivity,20,2024-Q2,synthetic_patterns,2024-06-15,Synthetic connectivity incidents for DataStax Search
+DataStax,Search,performance,48,2024-Q2,synthetic_patterns,2024-06-15,Synthetic performance incidents for DataStax Search
+DataStax,Search,consistency,6,2024-Q2,synthetic_patterns,2024-06-15,Synthetic consistency incidents for DataStax Search
+DataStax,Search,compatibility,15,2024-Q2,synthetic_patterns,2024-06-15,Synthetic compatibility incidents for DataStax Search
+DataStax,Search,connectivity,20,2024-Q3,synthetic_patterns,2024-09-15,Synthetic connectivity incidents for DataStax Search
+DataStax,Search,performance,48,2024-Q3,synthetic_patterns,2024-09-15,Synthetic performance incidents for DataStax Search
+DataStax,Search,consistency,6,2024-Q3,synthetic_patterns,2024-09-15,Synthetic consistency incidents for DataStax Search
+DataStax,Search,compatibility,15,2024-Q3,synthetic_patterns,2024-09-15,Synthetic compatibility incidents for DataStax Search
+DataStax,Search,connectivity,20,2024-Q4,synthetic_patterns,2024-12-15,Synthetic connectivity incidents for DataStax Search
+DataStax,Search,performance,48,2024-Q4,synthetic_patterns,2024-12-15,Synthetic performance incidents for DataStax Search
+DataStax,Search,consistency,6,2024-Q4,synthetic_patterns,2024-12-15,Synthetic consistency incidents for DataStax Search
+DataStax,Search,compatibility,15,2024-Q4,synthetic_patterns,2024-12-15,Synthetic compatibility incidents for DataStax Search
+AWS API Gateway,Multi-API Gateway,gateway_routing_failure,15,2023-Q1,gateway_patterns,2023-03-15,Gateway routing_failure incidents
+AWS API Gateway,Multi-API Gateway,gateway_cross_api_transaction,8,2023-Q1,gateway_patterns,2023-03-15,Gateway cross_api_transaction incidents
+AWS API Gateway,Multi-API Gateway,gateway_authentication_bypass,5,2023-Q1,gateway_patterns,2023-03-15,Gateway authentication_bypass incidents
+AWS API Gateway,Multi-API Gateway,gateway_rate_limit_bypass,12,2023-Q1,gateway_patterns,2023-03-15,Gateway rate_limit_bypass incidents
+AWS API Gateway,Multi-API Gateway,gateway_protocol_translation,18,2023-Q1,gateway_patterns,2023-03-15,Gateway protocol_translation incidents
+AWS API Gateway,Multi-API Gateway,gateway_unified_query_parsing,22,2023-Q1,gateway_patterns,2023-03-15,Gateway unified_query_parsing incidents
+AWS API Gateway,Multi-API Gateway,gateway_routing_failure,15,2023-Q2,gateway_patterns,2023-06-15,Gateway routing_failure incidents
+AWS API Gateway,Multi-API Gateway,gateway_cross_api_transaction,8,2023-Q2,gateway_patterns,2023-06-15,Gateway cross_api_transaction incidents
+AWS API Gateway,Multi-API Gateway,gateway_authentication_bypass,5,2023-Q2,gateway_patterns,2023-06-15,Gateway authentication_bypass incidents
+AWS API Gateway,Multi-API Gateway,gateway_rate_limit_bypass,12,2023-Q2,gateway_patterns,2023-06-15,Gateway rate_limit_bypass incidents
+AWS API Gateway,Multi-API Gateway,gateway_protocol_translation,18,2023-Q2,gateway_patterns,2023-06-15,Gateway protocol_translation incidents
+AWS API Gateway,Multi-API Gateway,gateway_unified_query_parsing,22,2023-Q2,gateway_patterns,2023-06-15,Gateway unified_query_parsing incidents
+AWS API Gateway,Multi-API Gateway,gateway_routing_failure,15,2023-Q3,gateway_patterns,2023-09-15,Gateway routing_failure incidents
+AWS API Gateway,Multi-API Gateway,gateway_cross_api_transaction,8,2023-Q3,gateway_patterns,2023-09-15,Gateway cross_api_transaction incidents
+AWS API Gateway,Multi-API Gateway,gateway_authentication_bypass,5,2023-Q3,gateway_patterns,2023-09-15,Gateway authentication_bypass incidents
+AWS API Gateway,Multi-API Gateway,gateway_rate_limit_bypass,12,2023-Q3,gateway_patterns,2023-09-15,Gateway rate_limit_bypass incidents
+AWS API Gateway,Multi-API Gateway,gateway_protocol_translation,18,2023-Q3,gateway_patterns,2023-09-15,Gateway protocol_translation incidents
+AWS API Gateway,Multi-API Gateway,gateway_unified_query_parsing,22,2023-Q3,gateway_patterns,2023-09-15,Gateway unified_query_parsing incidents
+AWS API Gateway,Multi-API Gateway,gateway_routing_failure,15,2023-Q4,gateway_patterns,2023-12-15,Gateway routing_failure incidents
+AWS API Gateway,Multi-API Gateway,gateway_cross_api_transaction,8,2023-Q4,gateway_patterns,2023-12-15,Gateway cross_api_transaction incidents
+AWS API Gateway,Multi-API Gateway,gateway_authentication_bypass,5,2023-Q4,gateway_patterns,2023-12-15,Gateway authentication_bypass incidents
+AWS API Gateway,Multi-API Gateway,gateway_rate_limit_bypass,12,2023-Q4,gateway_patterns,2023-12-15,Gateway rate_limit_bypass incidents
+AWS API Gateway,Multi-API Gateway,gateway_protocol_translation,18,2023-Q4,gateway_patterns,2023-12-15,Gateway protocol_translation incidents
+AWS API Gateway,Multi-API Gateway,gateway_unified_query_parsing,22,2023-Q4,gateway_patterns,2023-12-15,Gateway unified_query_parsing incidents
+AWS API Gateway,Multi-API Gateway,gateway_routing_failure,15,2024-Q1,gateway_patterns,2024-03-15,Gateway routing_failure incidents
+AWS API Gateway,Multi-API Gateway,gateway_cross_api_transaction,8,2024-Q1,gateway_patterns,2024-03-15,Gateway cross_api_transaction incidents
+AWS API Gateway,Multi-API Gateway,gateway_authentication_bypass,5,2024-Q1,gateway_patterns,2024-03-15,Gateway authentication_bypass incidents
+AWS API Gateway,Multi-API Gateway,gateway_rate_limit_bypass,12,2024-Q1,gateway_patterns,2024-03-15,Gateway rate_limit_bypass incidents
+AWS API Gateway,Multi-API Gateway,gateway_protocol_translation,18,2024-Q1,gateway_patterns,2024-03-15,Gateway protocol_translation incidents
+AWS API Gateway,Multi-API Gateway,gateway_unified_query_parsing,22,2024-Q1,gateway_patterns,2024-03-15,Gateway unified_query_parsing incidents
+AWS API Gateway,Multi-API Gateway,gateway_routing_failure,15,2024-Q2,gateway_patterns,2024-06-15,Gateway routing_failure incidents
+AWS API Gateway,Multi-API Gateway,gateway_cross_api_transaction,8,2024-Q2,gateway_patterns,2024-06-15,Gateway cross_api_transaction incidents
+AWS API Gateway,Multi-API Gateway,gateway_authentication_bypass,5,2024-Q2,gateway_patterns,2024-06-15,Gateway authentication_bypass incidents
+AWS API Gateway,Multi-API Gateway,gateway_rate_limit_bypass,12,2024-Q2,gateway_patterns,2024-06-15,Gateway rate_limit_bypass incidents
+AWS API Gateway,Multi-API Gateway,gateway_protocol_translation,18,2024-Q2,gateway_patterns,2024-06-15,Gateway protocol_translation incidents
+AWS API Gateway,Multi-API Gateway,gateway_unified_query_parsing,22,2024-Q2,gateway_patterns,2024-06-15,Gateway unified_query_parsing incidents
+AWS API Gateway,Multi-API Gateway,gateway_routing_failure,15,2024-Q3,gateway_patterns,2024-09-15,Gateway routing_failure incidents
+AWS API Gateway,Multi-API Gateway,gateway_cross_api_transaction,8,2024-Q3,gateway_patterns,2024-09-15,Gateway cross_api_transaction incidents
+AWS API Gateway,Multi-API Gateway,gateway_authentication_bypass,5,2024-Q3,gateway_patterns,2024-09-15,Gateway authentication_bypass incidents
+AWS API Gateway,Multi-API Gateway,gateway_rate_limit_bypass,12,2024-Q3,gateway_patterns,2024-09-15,Gateway rate_limit_bypass incidents
+AWS API Gateway,Multi-API Gateway,gateway_protocol_translation,18,2024-Q3,gateway_patterns,2024-09-15,Gateway protocol_translation incidents
+AWS API Gateway,Multi-API Gateway,gateway_unified_query_parsing,22,2024-Q3,gateway_patterns,2024-09-15,Gateway unified_query_parsing incidents
+AWS API Gateway,Multi-API Gateway,gateway_routing_failure,15,2024-Q4,gateway_patterns,2024-12-15,Gateway routing_failure incidents
+AWS API Gateway,Multi-API Gateway,gateway_cross_api_transaction,8,2024-Q4,gateway_patterns,2024-12-15,Gateway cross_api_transaction incidents
+AWS API Gateway,Multi-API Gateway,gateway_authentication_bypass,5,2024-Q4,gateway_patterns,2024-12-15,Gateway authentication_bypass incidents
+AWS API Gateway,Multi-API Gateway,gateway_rate_limit_bypass,12,2024-Q4,gateway_patterns,2024-12-15,Gateway rate_limit_bypass incidents
+AWS API Gateway,Multi-API Gateway,gateway_protocol_translation,18,2024-Q4,gateway_patterns,2024-12-15,Gateway protocol_translation incidents
+AWS API Gateway,Multi-API Gateway,gateway_unified_query_parsing,22,2024-Q4,gateway_patterns,2024-12-15,Gateway unified_query_parsing incidents
+Azure API Management,Multi-API Gateway,gateway_routing_failure,15,2023-Q1,gateway_patterns,2023-03-15,Gateway routing_failure incidents
+Azure API Management,Multi-API Gateway,gateway_cross_api_transaction,8,2023-Q1,gateway_patterns,2023-03-15,Gateway cross_api_transaction incidents
+Azure API Management,Multi-API Gateway,gateway_authentication_bypass,5,2023-Q1,gateway_patterns,2023-03-15,Gateway authentication_bypass incidents
+Azure API Management,Multi-API Gateway,gateway_rate_limit_bypass,12,2023-Q1,gateway_patterns,2023-03-15,Gateway rate_limit_bypass incidents
+Azure API Management,Multi-API Gateway,gateway_protocol_translation,18,2023-Q1,gateway_patterns,2023-03-15,Gateway protocol_translation incidents
+Azure API Management,Multi-API Gateway,gateway_unified_query_parsing,22,2023-Q1,gateway_patterns,2023-03-15,Gateway unified_query_parsing incidents
+Azure API Management,Multi-API Gateway,gateway_routing_failure,15,2023-Q2,gateway_patterns,2023-06-15,Gateway routing_failure incidents
+Azure API Management,Multi-API Gateway,gateway_cross_api_transaction,8,2023-Q2,gateway_patterns,2023-06-15,Gateway cross_api_transaction incidents
+Azure API Management,Multi-API Gateway,gateway_authentication_bypass,5,2023-Q2,gateway_patterns,2023-06-15,Gateway authentication_bypass incidents
+Azure API Management,Multi-API Gateway,gateway_rate_limit_bypass,12,2023-Q2,gateway_patterns,2023-06-15,Gateway rate_limit_bypass incidents
+Azure API Management,Multi-API Gateway,gateway_protocol_translation,18,2023-Q2,gateway_patterns,2023-06-15,Gateway protocol_translation incidents
+Azure API Management,Multi-API Gateway,gateway_unified_query_parsing,22,2023-Q2,gateway_patterns,2023-06-15,Gateway unified_query_parsing incidents
+Azure API Management,Multi-API Gateway,gateway_routing_failure,15,2023-Q3,gateway_patterns,2023-09-15,Gateway routing_failure incidents
+Azure API Management,Multi-API Gateway,gateway_cross_api_transaction,8,2023-Q3,gateway_patterns,2023-09-15,Gateway cross_api_transaction incidents
+Azure API Management,Multi-API Gateway,gateway_authentication_bypass,5,2023-Q3,gateway_patterns,2023-09-15,Gateway authentication_bypass incidents
+Azure API Management,Multi-API Gateway,gateway_rate_limit_bypass,12,2023-Q3,gateway_patterns,2023-09-15,Gateway rate_limit_bypass incidents
+Azure API Management,Multi-API Gateway,gateway_protocol_translation,18,2023-Q3,gateway_patterns,2023-09-15,Gateway protocol_translation incidents
+Azure API Management,Multi-API Gateway,gateway_unified_query_parsing,22,2023-Q3,gateway_patterns,2023-09-15,Gateway unified_query_parsing incidents
+Azure API Management,Multi-API Gateway,gateway_routing_failure,15,2023-Q4,gateway_patterns,2023-12-15,Gateway routing_failure incidents
+Azure API Management,Multi-API Gateway,gateway_cross_api_transaction,8,2023-Q4,gateway_patterns,2023-12-15,Gateway cross_api_transaction incidents
+Azure API Management,Multi-API Gateway,gateway_authentication_bypass,5,2023-Q4,gateway_patterns,2023-12-15,Gateway authentication_bypass incidents
+Azure API Management,Multi-API Gateway,gateway_rate_limit_bypass,12,2023-Q4,gateway_patterns,2023-12-15,Gateway rate_limit_bypass incidents
+Azure API Management,Multi-API Gateway,gateway_protocol_translation,18,2023-Q4,gateway_patterns,2023-12-15,Gateway protocol_translation incidents
+Azure API Management,Multi-API Gateway,gateway_unified_query_parsing,22,2023-Q4,gateway_patterns,2023-12-15,Gateway unified_query_parsing incidents
+Azure API Management,Multi-API Gateway,gateway_routing_failure,15,2024-Q1,gateway_patterns,2024-03-15,Gateway routing_failure incidents
+Azure API Management,Multi-API Gateway,gateway_cross_api_transaction,8,2024-Q1,gateway_patterns,2024-03-15,Gateway cross_api_transaction incidents
+Azure API Management,Multi-API Gateway,gateway_authentication_bypass,5,2024-Q1,gateway_patterns,2024-03-15,Gateway authentication_bypass incidents
+Azure API Management,Multi-API Gateway,gateway_rate_limit_bypass,12,2024-Q1,gateway_patterns,2024-03-15,Gateway rate_limit_bypass incidents
+Azure API Management,Multi-API Gateway,gateway_protocol_translation,18,2024-Q1,gateway_patterns,2024-03-15,Gateway protocol_translation incidents
+Azure API Management,Multi-API Gateway,gateway_unified_query_parsing,22,2024-Q1,gateway_patterns,2024-03-15,Gateway unified_query_parsing incidents
+Azure API Management,Multi-API Gateway,gateway_routing_failure,15,2024-Q2,gateway_patterns,2024-06-15,Gateway routing_failure incidents
+Azure API Management,Multi-API Gateway,gateway_cross_api_transaction,8,2024-Q2,gateway_patterns,2024-06-15,Gateway cross_api_transaction incidents
+Azure API Management,Multi-API Gateway,gateway_authentication_bypass,5,2024-Q2,gateway_patterns,2024-06-15,Gateway authentication_bypass incidents
+Azure API Management,Multi-API Gateway,gateway_rate_limit_bypass,12,2024-Q2,gateway_patterns,2024-06-15,Gateway rate_limit_bypass incidents
+Azure API Management,Multi-API Gateway,gateway_protocol_translation,18,2024-Q2,gateway_patterns,2024-06-15,Gateway protocol_translation incidents
+Azure API Management,Multi-API Gateway,gateway_unified_query_parsing,22,2024-Q2,gateway_patterns,2024-06-15,Gateway unified_query_parsing incidents
+Azure API Management,Multi-API Gateway,gateway_routing_failure,15,2024-Q3,gateway_patterns,2024-09-15,Gateway routing_failure incidents
+Azure API Management,Multi-API Gateway,gateway_cross_api_transaction,8,2024-Q3,gateway_patterns,2024-09-15,Gateway cross_api_transaction incidents
+Azure API Management,Multi-API Gateway,gateway_authentication_bypass,5,2024-Q3,gateway_patterns,2024-09-15,Gateway authentication_bypass incidents
+Azure API Management,Multi-API Gateway,gateway_rate_limit_bypass,12,2024-Q3,gateway_patterns,2024-09-15,Gateway rate_limit_bypass incidents
+Azure API Management,Multi-API Gateway,gateway_protocol_translation,18,2024-Q3,gateway_patterns,2024-09-15,Gateway protocol_translation incidents
+Azure API Management,Multi-API Gateway,gateway_unified_query_parsing,22,2024-Q3,gateway_patterns,2024-09-15,Gateway unified_query_parsing incidents
+Azure API Management,Multi-API Gateway,gateway_routing_failure,15,2024-Q4,gateway_patterns,2024-12-15,Gateway routing_failure incidents
+Azure API Management,Multi-API Gateway,gateway_cross_api_transaction,8,2024-Q4,gateway_patterns,2024-12-15,Gateway cross_api_transaction incidents
+Azure API Management,Multi-API Gateway,gateway_authentication_bypass,5,2024-Q4,gateway_patterns,2024-12-15,Gateway authentication_bypass incidents
+Azure API Management,Multi-API Gateway,gateway_rate_limit_bypass,12,2024-Q4,gateway_patterns,2024-12-15,Gateway rate_limit_bypass incidents
+Azure API Management,Multi-API Gateway,gateway_protocol_translation,18,2024-Q4,gateway_patterns,2024-12-15,Gateway protocol_translation incidents
+Azure API Management,Multi-API Gateway,gateway_unified_query_parsing,22,2024-Q4,gateway_patterns,2024-12-15,Gateway unified_query_parsing incidents
+Kong,Multi-API Gateway,gateway_routing_failure,15,2023-Q1,gateway_patterns,2023-03-15,Gateway routing_failure incidents
+Kong,Multi-API Gateway,gateway_cross_api_transaction,8,2023-Q1,gateway_patterns,2023-03-15,Gateway cross_api_transaction incidents
+Kong,Multi-API Gateway,gateway_authentication_bypass,5,2023-Q1,gateway_patterns,2023-03-15,Gateway authentication_bypass incidents
+Kong,Multi-API Gateway,gateway_rate_limit_bypass,12,2023-Q1,gateway_patterns,2023-03-15,Gateway rate_limit_bypass incidents
+Kong,Multi-API Gateway,gateway_protocol_translation,18,2023-Q1,gateway_patterns,2023-03-15,Gateway protocol_translation incidents
+Kong,Multi-API Gateway,gateway_unified_query_parsing,22,2023-Q1,gateway_patterns,2023-03-15,Gateway unified_query_parsing incidents
+Kong,Multi-API Gateway,gateway_routing_failure,15,2023-Q2,gateway_patterns,2023-06-15,Gateway routing_failure incidents
+Kong,Multi-API Gateway,gateway_cross_api_transaction,8,2023-Q2,gateway_patterns,2023-06-15,Gateway cross_api_transaction incidents
+Kong,Multi-API Gateway,gateway_authentication_bypass,5,2023-Q2,gateway_patterns,2023-06-15,Gateway authentication_bypass incidents
+Kong,Multi-API Gateway,gateway_rate_limit_bypass,12,2023-Q2,gateway_patterns,2023-06-15,Gateway rate_limit_bypass incidents
+Kong,Multi-API Gateway,gateway_protocol_translation,18,2023-Q2,gateway_patterns,2023-06-15,Gateway protocol_translation incidents
+Kong,Multi-API Gateway,gateway_unified_query_parsing,22,2023-Q2,gateway_patterns,2023-06-15,Gateway unified_query_parsing incidents
+Kong,Multi-API Gateway,gateway_routing_failure,15,2023-Q3,gateway_patterns,2023-09-15,Gateway routing_failure incidents
+Kong,Multi-API Gateway,gateway_cross_api_transaction,8,2023-Q3,gateway_patterns,2023-09-15,Gateway cross_api_transaction incidents
+Kong,Multi-API Gateway,gateway_authentication_bypass,5,2023-Q3,gateway_patterns,2023-09-15,Gateway authentication_bypass incidents
+Kong,Multi-API Gateway,gateway_rate_limit_bypass,12,2023-Q3,gateway_patterns,2023-09-15,Gateway rate_limit_bypass incidents
+Kong,Multi-API Gateway,gateway_protocol_translation,18,2023-Q3,gateway_patterns,2023-09-15,Gateway protocol_translation incidents
+Kong,Multi-API Gateway,gateway_unified_query_parsing,22,2023-Q3,gateway_patterns,2023-09-15,Gateway unified_query_parsing incidents
+Kong,Multi-API Gateway,gateway_routing_failure,15,2023-Q4,gateway_patterns,2023-12-15,Gateway routing_failure incidents
+Kong,Multi-API Gateway,gateway_cross_api_transaction,8,2023-Q4,gateway_patterns,2023-12-15,Gateway cross_api_transaction incidents
+Kong,Multi-API Gateway,gateway_authentication_bypass,5,2023-Q4,gateway_patterns,2023-12-15,Gateway authentication_bypass incidents
+Kong,Multi-API Gateway,gateway_rate_limit_bypass,12,2023-Q4,gateway_patterns,2023-12-15,Gateway rate_limit_bypass incidents
+Kong,Multi-API Gateway,gateway_protocol_translation,18,2023-Q4,gateway_patterns,2023-12-15,Gateway protocol_translation incidents
+Kong,Multi-API Gateway,gateway_unified_query_parsing,22,2023-Q4,gateway_patterns,2023-12-15,Gateway unified_query_parsing incidents
+Kong,Multi-API Gateway,gateway_routing_failure,15,2024-Q1,gateway_patterns,2024-03-15,Gateway routing_failure incidents
+Kong,Multi-API Gateway,gateway_cross_api_transaction,8,2024-Q1,gateway_patterns,2024-03-15,Gateway cross_api_transaction incidents
+Kong,Multi-API Gateway,gateway_authentication_bypass,5,2024-Q1,gateway_patterns,2024-03-15,Gateway authentication_bypass incidents
+Kong,Multi-API Gateway,gateway_rate_limit_bypass,12,2024-Q1,gateway_patterns,2024-03-15,Gateway rate_limit_bypass incidents
+Kong,Multi-API Gateway,gateway_protocol_translation,18,2024-Q1,gateway_patterns,2024-03-15,Gateway protocol_translation incidents
+Kong,Multi-API Gateway,gateway_unified_query_parsing,22,2024-Q1,gateway_patterns,2024-03-15,Gateway unified_query_parsing incidents
+Kong,Multi-API Gateway,gateway_routing_failure,15,2024-Q2,gateway_patterns,2024-06-15,Gateway routing_failure incidents
+Kong,Multi-API Gateway,gateway_cross_api_transaction,8,2024-Q2,gateway_patterns,2024-06-15,Gateway cross_api_transaction incidents
+Kong,Multi-API Gateway,gateway_authentication_bypass,5,2024-Q2,gateway_patterns,2024-06-15,Gateway authentication_bypass incidents
+Kong,Multi-API Gateway,gateway_rate_limit_bypass,12,2024-Q2,gateway_patterns,2024-06-15,Gateway rate_limit_bypass incidents
+Kong,Multi-API Gateway,gateway_protocol_translation,18,2024-Q2,gateway_patterns,2024-06-15,Gateway protocol_translation incidents
+Kong,Multi-API Gateway,gateway_unified_query_parsing,22,2024-Q2,gateway_patterns,2024-06-15,Gateway unified_query_parsing incidents
+Kong,Multi-API Gateway,gateway_routing_failure,15,2024-Q3,gateway_patterns,2024-09-15,Gateway routing_failure incidents
+Kong,Multi-API Gateway,gateway_cross_api_transaction,8,2024-Q3,gateway_patterns,2024-09-15,Gateway cross_api_transaction incidents
+Kong,Multi-API Gateway,gateway_authentication_bypass,5,2024-Q3,gateway_patterns,2024-09-15,Gateway authentication_bypass incidents
+Kong,Multi-API Gateway,gateway_rate_limit_bypass,12,2024-Q3,gateway_patterns,2024-09-15,Gateway rate_limit_bypass incidents
+Kong,Multi-API Gateway,gateway_protocol_translation,18,2024-Q3,gateway_patterns,2024-09-15,Gateway protocol_translation incidents
+Kong,Multi-API Gateway,gateway_unified_query_parsing,22,2024-Q3,gateway_patterns,2024-09-15,Gateway unified_query_parsing incidents
+Kong,Multi-API Gateway,gateway_routing_failure,15,2024-Q4,gateway_patterns,2024-12-15,Gateway routing_failure incidents
+Kong,Multi-API Gateway,gateway_cross_api_transaction,8,2024-Q4,gateway_patterns,2024-12-15,Gateway cross_api_transaction incidents
+Kong,Multi-API Gateway,gateway_authentication_bypass,5,2024-Q4,gateway_patterns,2024-12-15,Gateway authentication_bypass incidents
+Kong,Multi-API Gateway,gateway_rate_limit_bypass,12,2024-Q4,gateway_patterns,2024-12-15,Gateway rate_limit_bypass incidents
+Kong,Multi-API Gateway,gateway_protocol_translation,18,2024-Q4,gateway_patterns,2024-12-15,Gateway protocol_translation incidents
+Kong,Multi-API Gateway,gateway_unified_query_parsing,22,2024-Q4,gateway_patterns,2024-12-15,Gateway unified_query_parsing incidents
+Apigee,Multi-API Gateway,gateway_routing_failure,15,2023-Q1,gateway_patterns,2023-03-15,Gateway routing_failure incidents
+Apigee,Multi-API Gateway,gateway_cross_api_transaction,8,2023-Q1,gateway_patterns,2023-03-15,Gateway cross_api_transaction incidents
+Apigee,Multi-API Gateway,gateway_authentication_bypass,5,2023-Q1,gateway_patterns,2023-03-15,Gateway authentication_bypass incidents
+Apigee,Multi-API Gateway,gateway_rate_limit_bypass,12,2023-Q1,gateway_patterns,2023-03-15,Gateway rate_limit_bypass incidents
+Apigee,Multi-API Gateway,gateway_protocol_translation,18,2023-Q1,gateway_patterns,2023-03-15,Gateway protocol_translation incidents
+Apigee,Multi-API Gateway,gateway_unified_query_parsing,22,2023-Q1,gateway_patterns,2023-03-15,Gateway unified_query_parsing incidents
+Apigee,Multi-API Gateway,gateway_routing_failure,15,2023-Q2,gateway_patterns,2023-06-15,Gateway routing_failure incidents
+Apigee,Multi-API Gateway,gateway_cross_api_transaction,8,2023-Q2,gateway_patterns,2023-06-15,Gateway cross_api_transaction incidents
+Apigee,Multi-API Gateway,gateway_authentication_bypass,5,2023-Q2,gateway_patterns,2023-06-15,Gateway authentication_bypass incidents
+Apigee,Multi-API Gateway,gateway_rate_limit_bypass,12,2023-Q2,gateway_patterns,2023-06-15,Gateway rate_limit_bypass incidents
+Apigee,Multi-API Gateway,gateway_protocol_translation,18,2023-Q2,gateway_patterns,2023-06-15,Gateway protocol_translation incidents
+Apigee,Multi-API Gateway,gateway_unified_query_parsing,22,2023-Q2,gateway_patterns,2023-06-15,Gateway unified_query_parsing incidents
+Apigee,Multi-API Gateway,gateway_routing_failure,15,2023-Q3,gateway_patterns,2023-09-15,Gateway routing_failure incidents
+Apigee,Multi-API Gateway,gateway_cross_api_transaction,8,2023-Q3,gateway_patterns,2023-09-15,Gateway cross_api_transaction incidents
+Apigee,Multi-API Gateway,gateway_authentication_bypass,5,2023-Q3,gateway_patterns,2023-09-15,Gateway authentication_bypass incidents
+Apigee,Multi-API Gateway,gateway_rate_limit_bypass,12,2023-Q3,gateway_patterns,2023-09-15,Gateway rate_limit_bypass incidents
+Apigee,Multi-API Gateway,gateway_protocol_translation,18,2023-Q3,gateway_patterns,2023-09-15,Gateway protocol_translation incidents
+Apigee,Multi-API Gateway,gateway_unified_query_parsing,22,2023-Q3,gateway_patterns,2023-09-15,Gateway unified_query_parsing incidents
+Apigee,Multi-API Gateway,gateway_routing_failure,15,2023-Q4,gateway_patterns,2023-12-15,Gateway routing_failure incidents
+Apigee,Multi-API Gateway,gateway_cross_api_transaction,8,2023-Q4,gateway_patterns,2023-12-15,Gateway cross_api_transaction incidents
+Apigee,Multi-API Gateway,gateway_authentication_bypass,5,2023-Q4,gateway_patterns,2023-12-15,Gateway authentication_bypass incidents
+Apigee,Multi-API Gateway,gateway_rate_limit_bypass,12,2023-Q4,gateway_patterns,2023-12-15,Gateway rate_limit_bypass incidents
+Apigee,Multi-API Gateway,gateway_protocol_translation,18,2023-Q4,gateway_patterns,2023-12-15,Gateway protocol_translation incidents
+Apigee,Multi-API Gateway,gateway_unified_query_parsing,22,2023-Q4,gateway_patterns,2023-12-15,Gateway unified_query_parsing incidents
+Apigee,Multi-API Gateway,gateway_routing_failure,15,2024-Q1,gateway_patterns,2024-03-15,Gateway routing_failure incidents
+Apigee,Multi-API Gateway,gateway_cross_api_transaction,8,2024-Q1,gateway_patterns,2024-03-15,Gateway cross_api_transaction incidents
+Apigee,Multi-API Gateway,gateway_authentication_bypass,5,2024-Q1,gateway_patterns,2024-03-15,Gateway authentication_bypass incidents
+Apigee,Multi-API Gateway,gateway_rate_limit_bypass,12,2024-Q1,gateway_patterns,2024-03-15,Gateway rate_limit_bypass incidents
+Apigee,Multi-API Gateway,gateway_protocol_translation,18,2024-Q1,gateway_patterns,2024-03-15,Gateway protocol_translation incidents
+Apigee,Multi-API Gateway,gateway_unified_query_parsing,22,2024-Q1,gateway_patterns,2024-03-15,Gateway unified_query_parsing incidents
+Apigee,Multi-API Gateway,gateway_routing_failure,15,2024-Q2,gateway_patterns,2024-06-15,Gateway routing_failure incidents
+Apigee,Multi-API Gateway,gateway_cross_api_transaction,8,2024-Q2,gateway_patterns,2024-06-15,Gateway cross_api_transaction incidents
+Apigee,Multi-API Gateway,gateway_authentication_bypass,5,2024-Q2,gateway_patterns,2024-06-15,Gateway authentication_bypass incidents
+Apigee,Multi-API Gateway,gateway_rate_limit_bypass,12,2024-Q2,gateway_patterns,2024-06-15,Gateway rate_limit_bypass incidents
+Apigee,Multi-API Gateway,gateway_protocol_translation,18,2024-Q2,gateway_patterns,2024-06-15,Gateway protocol_translation incidents
+Apigee,Multi-API Gateway,gateway_unified_query_parsing,22,2024-Q2,gateway_patterns,2024-06-15,Gateway unified_query_parsing incidents
+Apigee,Multi-API Gateway,gateway_routing_failure,15,2024-Q3,gateway_patterns,2024-09-15,Gateway routing_failure incidents
+Apigee,Multi-API Gateway,gateway_cross_api_transaction,8,2024-Q3,gateway_patterns,2024-09-15,Gateway cross_api_transaction incidents
+Apigee,Multi-API Gateway,gateway_authentication_bypass,5,2024-Q3,gateway_patterns,2024-09-15,Gateway authentication_bypass incidents
+Apigee,Multi-API Gateway,gateway_rate_limit_bypass,12,2024-Q3,gateway_patterns,2024-09-15,Gateway rate_limit_bypass incidents
+Apigee,Multi-API Gateway,gateway_protocol_translation,18,2024-Q3,gateway_patterns,2024-09-15,Gateway protocol_translation incidents
+Apigee,Multi-API Gateway,gateway_unified_query_parsing,22,2024-Q3,gateway_patterns,2024-09-15,Gateway unified_query_parsing incidents
+Apigee,Multi-API Gateway,gateway_routing_failure,15,2024-Q4,gateway_patterns,2024-12-15,Gateway routing_failure incidents
+Apigee,Multi-API Gateway,gateway_cross_api_transaction,8,2024-Q4,gateway_patterns,2024-12-15,Gateway cross_api_transaction incidents
+Apigee,Multi-API Gateway,gateway_authentication_bypass,5,2024-Q4,gateway_patterns,2024-12-15,Gateway authentication_bypass incidents
+Apigee,Multi-API Gateway,gateway_rate_limit_bypass,12,2024-Q4,gateway_patterns,2024-12-15,Gateway rate_limit_bypass incidents
+Apigee,Multi-API Gateway,gateway_protocol_translation,18,2024-Q4,gateway_patterns,2024-12-15,Gateway protocol_translation incidents
+Apigee,Multi-API Gateway,gateway_unified_query_parsing,22,2024-Q4,gateway_patterns,2024-12-15,Gateway unified_query_parsing incidents
+Ambassador,Multi-API Gateway,gateway_routing_failure,15,2023-Q1,gateway_patterns,2023-03-15,Gateway routing_failure incidents
+Ambassador,Multi-API Gateway,gateway_cross_api_transaction,8,2023-Q1,gateway_patterns,2023-03-15,Gateway cross_api_transaction incidents
+Ambassador,Multi-API Gateway,gateway_authentication_bypass,5,2023-Q1,gateway_patterns,2023-03-15,Gateway authentication_bypass incidents
+Ambassador,Multi-API Gateway,gateway_rate_limit_bypass,12,2023-Q1,gateway_patterns,2023-03-15,Gateway rate_limit_bypass incidents
+Ambassador,Multi-API Gateway,gateway_protocol_translation,18,2023-Q1,gateway_patterns,2023-03-15,Gateway protocol_translation incidents
+Ambassador,Multi-API Gateway,gateway_unified_query_parsing,22,2023-Q1,gateway_patterns,2023-03-15,Gateway unified_query_parsing incidents
+Ambassador,Multi-API Gateway,gateway_routing_failure,15,2023-Q2,gateway_patterns,2023-06-15,Gateway routing_failure incidents
+Ambassador,Multi-API Gateway,gateway_cross_api_transaction,8,2023-Q2,gateway_patterns,2023-06-15,Gateway cross_api_transaction incidents
+Ambassador,Multi-API Gateway,gateway_authentication_bypass,5,2023-Q2,gateway_patterns,2023-06-15,Gateway authentication_bypass incidents
+Ambassador,Multi-API Gateway,gateway_rate_limit_bypass,12,2023-Q2,gateway_patterns,2023-06-15,Gateway rate_limit_bypass incidents
+Ambassador,Multi-API Gateway,gateway_protocol_translation,18,2023-Q2,gateway_patterns,2023-06-15,Gateway protocol_translation incidents
+Ambassador,Multi-API Gateway,gateway_unified_query_parsing,22,2023-Q2,gateway_patterns,2023-06-15,Gateway unified_query_parsing incidents
+Ambassador,Multi-API Gateway,gateway_routing_failure,15,2023-Q3,gateway_patterns,2023-09-15,Gateway routing_failure incidents
+Ambassador,Multi-API Gateway,gateway_cross_api_transaction,8,2023-Q3,gateway_patterns,2023-09-15,Gateway cross_api_transaction incidents
+Ambassador,Multi-API Gateway,gateway_authentication_bypass,5,2023-Q3,gateway_patterns,2023-09-15,Gateway authentication_bypass incidents
+Ambassador,Multi-API Gateway,gateway_rate_limit_bypass,12,2023-Q3,gateway_patterns,2023-09-15,Gateway rate_limit_bypass incidents
+Ambassador,Multi-API Gateway,gateway_protocol_translation,18,2023-Q3,gateway_patterns,2023-09-15,Gateway protocol_translation incidents
+Ambassador,Multi-API Gateway,gateway_unified_query_parsing,22,2023-Q3,gateway_patterns,2023-09-15,Gateway unified_query_parsing incidents
+Ambassador,Multi-API Gateway,gateway_routing_failure,15,2023-Q4,gateway_patterns,2023-12-15,Gateway routing_failure incidents
+Ambassador,Multi-API Gateway,gateway_cross_api_transaction,8,2023-Q4,gateway_patterns,2023-12-15,Gateway cross_api_transaction incidents
+Ambassador,Multi-API Gateway,gateway_authentication_bypass,5,2023-Q4,gateway_patterns,2023-12-15,Gateway authentication_bypass incidents
+Ambassador,Multi-API Gateway,gateway_rate_limit_bypass,12,2023-Q4,gateway_patterns,2023-12-15,Gateway rate_limit_bypass incidents
+Ambassador,Multi-API Gateway,gateway_protocol_translation,18,2023-Q4,gateway_patterns,2023-12-15,Gateway protocol_translation incidents
+Ambassador,Multi-API Gateway,gateway_unified_query_parsing,22,2023-Q4,gateway_patterns,2023-12-15,Gateway unified_query_parsing incidents
+Ambassador,Multi-API Gateway,gateway_routing_failure,15,2024-Q1,gateway_patterns,2024-03-15,Gateway routing_failure incidents
+Ambassador,Multi-API Gateway,gateway_cross_api_transaction,8,2024-Q1,gateway_patterns,2024-03-15,Gateway cross_api_transaction incidents
+Ambassador,Multi-API Gateway,gateway_authentication_bypass,5,2024-Q1,gateway_patterns,2024-03-15,Gateway authentication_bypass incidents
+Ambassador,Multi-API Gateway,gateway_rate_limit_bypass,12,2024-Q1,gateway_patterns,2024-03-15,Gateway rate_limit_bypass incidents
+Ambassador,Multi-API Gateway,gateway_protocol_translation,18,2024-Q1,gateway_patterns,2024-03-15,Gateway protocol_translation incidents
+Ambassador,Multi-API Gateway,gateway_unified_query_parsing,22,2024-Q1,gateway_patterns,2024-03-15,Gateway unified_query_parsing incidents
+Ambassador,Multi-API Gateway,gateway_routing_failure,15,2024-Q2,gateway_patterns,2024-06-15,Gateway routing_failure incidents
+Ambassador,Multi-API Gateway,gateway_cross_api_transaction,8,2024-Q2,gateway_patterns,2024-06-15,Gateway cross_api_transaction incidents
+Ambassador,Multi-API Gateway,gateway_authentication_bypass,5,2024-Q2,gateway_patterns,2024-06-15,Gateway authentication_bypass incidents
+Ambassador,Multi-API Gateway,gateway_rate_limit_bypass,12,2024-Q2,gateway_patterns,2024-06-15,Gateway rate_limit_bypass incidents
+Ambassador,Multi-API Gateway,gateway_protocol_translation,18,2024-Q2,gateway_patterns,2024-06-15,Gateway protocol_translation incidents
+Ambassador,Multi-API Gateway,gateway_unified_query_parsing,22,2024-Q2,gateway_patterns,2024-06-15,Gateway unified_query_parsing incidents
+Ambassador,Multi-API Gateway,gateway_routing_failure,15,2024-Q3,gateway_patterns,2024-09-15,Gateway routing_failure incidents
+Ambassador,Multi-API Gateway,gateway_cross_api_transaction,8,2024-Q3,gateway_patterns,2024-09-15,Gateway cross_api_transaction incidents
+Ambassador,Multi-API Gateway,gateway_authentication_bypass,5,2024-Q3,gateway_patterns,2024-09-15,Gateway authentication_bypass incidents
+Ambassador,Multi-API Gateway,gateway_rate_limit_bypass,12,2024-Q3,gateway_patterns,2024-09-15,Gateway rate_limit_bypass incidents
+Ambassador,Multi-API Gateway,gateway_protocol_translation,18,2024-Q3,gateway_patterns,2024-09-15,Gateway protocol_translation incidents
+Ambassador,Multi-API Gateway,gateway_unified_query_parsing,22,2024-Q3,gateway_patterns,2024-09-15,Gateway unified_query_parsing incidents
+Ambassador,Multi-API Gateway,gateway_routing_failure,15,2024-Q4,gateway_patterns,2024-12-15,Gateway routing_failure incidents
+Ambassador,Multi-API Gateway,gateway_cross_api_transaction,8,2024-Q4,gateway_patterns,2024-12-15,Gateway cross_api_transaction incidents
+Ambassador,Multi-API Gateway,gateway_authentication_bypass,5,2024-Q4,gateway_patterns,2024-12-15,Gateway authentication_bypass incidents
+Ambassador,Multi-API Gateway,gateway_rate_limit_bypass,12,2024-Q4,gateway_patterns,2024-12-15,Gateway rate_limit_bypass incidents
+Ambassador,Multi-API Gateway,gateway_protocol_translation,18,2024-Q4,gateway_patterns,2024-12-15,Gateway protocol_translation incidents
+Ambassador,Multi-API Gateway,gateway_unified_query_parsing,22,2024-Q4,gateway_patterns,2024-12-15,Gateway unified_query_parsing incidents

@@ -1,0 +1,270 @@
+{
+  "vendor_coverage": {
+    "AWS": {
+      "SQL": {
+        "total": 14,
+        "ga": 12,
+        "preview": 0,
+        "ga_percentage": 85.71428571428571
+      },
+      "KV": {
+        "total": 14,
+        "ga": 10,
+        "preview": 0,
+        "ga_percentage": 71.42857142857143
+      },
+      "Document": {
+        "total": 17,
+        "ga": 13,
+        "preview": 0,
+        "ga_percentage": 76.47058823529412
+      },
+      "Graph": {
+        "total": 9,
+        "ga": 5,
+        "preview": 0,
+        "ga_percentage": 55.55555555555556
+      },
+      "Search": {
+        "total": 12,
+        "ga": 8,
+        "preview": 1,
+        "ga_percentage": 66.66666666666666
+      }
+    },
+    "Azure": {
+      "SQL": {
+        "total": 15,
+        "ga": 14,
+        "preview": 0,
+        "ga_percentage": 93.33333333333333
+      },
+      "KV": {
+        "total": 2,
+        "ga": 1,
+        "preview": 0,
+        "ga_percentage": 50.0
+      },
+      "Document": {
+        "total": 5,
+        "ga": 5,
+        "preview": 0,
+        "ga_percentage": 100.0
+      },
+      "Graph": {
+        "total": 3,
+        "ga": 3,
+        "preview": 0,
+        "ga_percentage": 100.0
+      },
+      "Search": {
+        "total": 2,
+        "ga": 1,
+        "preview": 1,
+        "ga_percentage": 50.0
+      }
+    },
+    "DataStax": {
+      "SQL": {
+        "total": 4,
+        "ga": 4,
+        "preview": 0,
+        "ga_percentage": 100.0
+      },
+      "KV": {
+        "total": 6,
+        "ga": 6,
+        "preview": 0,
+        "ga_percentage": 100.0
+      },
+      "Document": {
+        "total": 3,
+        "ga": 3,
+        "preview": 0,
+        "ga_percentage": 100.0
+      },
+      "Graph": {
+        "total": 1,
+        "ga": 0,
+        "preview": 0,
+        "ga_percentage": 0.0
+      },
+      "Search": {
+        "total": 2,
+        "ga": 2,
+        "preview": 0,
+        "ga_percentage": 100.0
+      }
+    },
+    "GCP": {
+      "SQL": {
+        "total": 13,
+        "ga": 9,
+        "preview": 0,
+        "ga_percentage": 69.23076923076923
+      },
+      "KV": {
+        "total": 8,
+        "ga": 7,
+        "preview": 0,
+        "ga_percentage": 87.5
+      },
+      "Document": {
+        "total": 10,
+        "ga": 9,
+        "preview": 0,
+        "ga_percentage": 90.0
+      },
+      "Graph": {
+        "total": 3,
+        "ga": 0,
+        "preview": 0,
+        "ga_percentage": 0.0
+      },
+      "Search": {
+        "total": 3,
+        "ga": 1,
+        "preview": 1,
+        "ga_percentage": 33.33333333333333
+      }
+    },
+    "MongoDB": {
+      "SQL": {
+        "total": 1,
+        "ga": 1,
+        "preview": 0,
+        "ga_percentage": 100.0
+      },
+      "KV": {
+        "total": 1,
+        "ga": 1,
+        "preview": 0,
+        "ga_percentage": 100.0
+      },
+      "Document": {
+        "total": 8,
+        "ga": 8,
+        "preview": 0,
+        "ga_percentage": 100.0
+      },
+      "Graph": {
+        "total": 1,
+        "ga": 1,
+        "preview": 0,
+        "ga_percentage": 100.0
+      },
+      "Search": {
+        "total": 2,
+        "ga": 2,
+        "preview": 0,
+        "ga_percentage": 100.0
+      }
+    },
+    "Neo4j": {
+      "SQL": {
+        "total": 1,
+        "ga": 0,
+        "preview": 0,
+        "ga_percentage": 0.0
+      },
+      "KV": {
+        "total": 1,
+        "ga": 0,
+        "preview": 0,
+        "ga_percentage": 0.0
+      },
+      "Document": {
+        "total": 1,
+        "ga": 1,
+        "preview": 0,
+        "ga_percentage": 100.0
+      },
+      "Graph": {
+        "total": 8,
+        "ga": 7,
+        "preview": 1,
+        "ga_percentage": 87.5
+      },
+      "Search": {
+        "total": 2,
+        "ga": 2,
+        "preview": 0,
+        "ga_percentage": 100.0
+      }
+    }
+  },
+  "feature_parity": {
+    "CRUD": {
+      "total_implementations": 47,
+      "vendors_with_feature": 6,
+      "ga_implementations": 47,
+      "preview_implementations": 0,
+      "vendor_list": [
+        "AWS",
+        "Azure",
+        "DataStax",
+        "GCP",
+        "MongoDB",
+        "Neo4j"
+      ]
+    },
+    "Index": {
+      "total_implementations": 15,
+      "vendors_with_feature": 6,
+      "ga_implementations": 15,
+      "preview_implementations": 0,
+      "vendor_list": [
+        "AWS",
+        "Azure",
+        "DataStax",
+        "GCP",
+        "MongoDB",
+        "Neo4j"
+      ]
+    },
+    "Pagination": {
+      "total_implementations": 12,
+      "vendors_with_feature": 6,
+      "ga_implementations": 12,
+      "preview_implementations": 0,
+      "vendor_list": [
+        "AWS",
+        "Azure",
+        "DataStax",
+        "GCP",
+        "MongoDB",
+        "Neo4j"
+      ]
+    },
+    "Transaction": {
+      "total_implementations": 11,
+      "vendors_with_feature": 6,
+      "ga_implementations": 11,
+      "preview_implementations": 0,
+      "vendor_list": [
+        "AWS",
+        "Azure",
+        "DataStax",
+        "GCP",
+        "MongoDB",
+        "Neo4j"
+      ]
+    },
+    "Search": {
+      "total_implementations": 17,
+      "vendors_with_feature": 6,
+      "ga_implementations": 12,
+      "preview_implementations": 3,
+      "vendor_list": [
+        "AWS",
+        "Azure",
+        "DataStax",
+        "GCP",
+        "MongoDB",
+        "Neo4j"
+      ]
+    }
+  },
+  "timestamp": "2025-08-20",
+  "total_records": 156
+}

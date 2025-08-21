@@ -1,0 +1,93 @@
+# Dataset Metadata
+dataset:
+  title: "SDK Client Unification Scores Across Database Vendors"
+  description: "Analysis of how database vendors are unifying their SDKs to support multiple API modes, measuring developer experience convergence trends"
+  topic: "SDK/Client Unification and API Convergence"
+  metric: "Unification Score (0-5 scale) measuring SDK consolidation approach"
+  
+# Source Information
+source:
+  name: "Multi-source aggregation"
+  urls: 
+    - "GitHub API for repository statistics"
+    - "npm registry for JavaScript package downloads"
+    - "PyPI for Python package statistics (estimated)"
+    - "NuGet for .NET package statistics (estimated)"
+    - "Maven Central for Java package statistics (estimated)"
+  accessed: "2025-08-20"
+  license: "Public API data, fair use for research"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 40
+  columns: 8
+  time_range: "2025-07-12 - 2025-08-20"
+  update_frequency: "manual research snapshot"
+  collection_method: "API aggregation and manual analysis"
+  
+# Column Descriptions
+columns:
+  vendor:
+    type: "string"
+    description: "Database vendor or service provider name"
+    unit: "categorical"
+  language:
+    type: "string"
+    description: "Programming language for the SDK/client"
+    unit: "categorical"
+  client_repo:
+    type: "string"
+    description: "Primary GitHub repository name for the client/SDK"
+    unit: "string"
+  unified_modes:
+    type: "string"
+    description: "JSON array of API modes supported by the unified client"
+    unit: "list of strings"
+  monthly_downloads:
+    type: "number"
+    description: "Estimated monthly downloads from package registries"
+    unit: "count"
+  stars:
+    type: "number"
+    description: "GitHub repository star count as of collection date"
+    unit: "count"
+  last_release_date:
+    type: "string"
+    description: "Date of most recent release"
+    unit: "ISO date"
+  unification_score:
+    type: "number"
+    description: "Unification score from 0-5 based on SDK architecture approach"
+    unit: "ordinal scale"
+  notes:
+    type: "string"
+    description: "Additional context about the unification approach"
+    unit: "text"
+    
+# Quality Indicators
+quality:
+  completeness: "100% for GitHub stats, 80% estimated for download counts"
+  sample_size: "40 SDK implementations across 10 major database vendors"
+  confidence: "high"
+  limitations: 
+    - "Download statistics are estimated for some package registries"
+    - "Unification scores based on documentation analysis and SDK architecture review"
+    - "Some newer multi-modal capabilities may not be fully captured"
+  
+# Unification Scoring Methodology
+scoring_criteria:
+  score_0: "Separate SDKs per API with no shared components"
+  score_1: "Separate SDKs with shared authentication/connection management"
+  score_2: "Common base SDK with API-specific extensions or modules"
+  score_3: "Single SDK with explicit mode switching between API types"
+  score_4: "Single SDK with unified interface that abstracts API differences"
+  score_5: "Single SDK with intelligent routing that automatically selects optimal API"
+
+# Usage Notes
+notes:
+  - "Download counts combine estimates from multiple package registries"
+  - "Unified modes reflect documented multi-API capabilities as of August 2025"
+  - "Scores reflect architectural approach rather than feature completeness"
+  - "Higher scores indicate better developer experience for multi-modal applications"
+  - "This data supports analysis of API convergence trends in database ecosystem"

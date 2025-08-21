@@ -1,0 +1,16 @@
+vendor,plan,entry_guide_url,default_path,steps_to_first_query,path_type,console_integration,sdk_requirement
+AWS,DynamoDB Free Tier,https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStartedDynamoDB.html,single_api,6,direct_service,aws_console,boto3
+AWS,RDS Free Tier,https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.html,single_api,8,direct_service,aws_console,boto3
+GCP,Firestore Free Tier,https://cloud.google.com/firestore/docs/quickstart-servers,single_api,5,direct_service,gcp_console,google_cloud_sdk
+GCP,Cloud SQL Free Tier,https://cloud.google.com/sql/docs/mysql/quickstart,single_api,7,direct_service,gcp_console,google_cloud_sdk
+Azure,Cosmos DB Free Tier,https://docs.microsoft.com/en-us/azure/cosmos-db/create-cosmosdb-resources-portal,single_api,6,direct_service,azure_portal,azure_sdk
+Azure,SQL Database Free Tier,https://docs.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart,single_api,8,direct_service,azure_portal,azure_sdk
+MongoDB,Atlas Free Tier,https://docs.atlas.mongodb.com/getting-started/,single_api,4,direct_service,atlas_ui,mongodb_drivers
+DataStax,Astra Free Tier,https://docs.datastax.com/en/astra/docs/quickstart.html,single_api,5,direct_service,astra_ui,cassandra_drivers
+PlanetScale,Free Tier,https://docs.planetscale.com/tutorials/planetscale-quick-start-guide,gateway,3,serverless_gateway,planetscale_ui,mysql_compatible
+Supabase,Free Tier,https://supabase.com/docs/guides/getting-started,gateway,3,unified_gateway,supabase_dashboard,rest_api
+Firebase,Realtime Database Free,https://firebase.google.com/docs/database/web/start,gateway,4,unified_gateway,firebase_console,firebase_sdk
+Vercel,KV Free Tier,https://vercel.com/docs/storage/vercel-kv/quickstart,gateway,2,edge_gateway,vercel_dashboard,vercel_sdk
+Railway,Database Free Tier,https://docs.railway.app/databases/postgresql,gateway,3,platform_gateway,railway_dashboard,standard_drivers
+Render,Database Free Tier,https://render.com/docs/databases,single_api,4,direct_service,render_dashboard,standard_drivers
+DigitalOcean,Managed Database Free Trial,https://docs.digitalocean.com/products/databases/,single_api,5,direct_service,do_console,standard_drivers

@@ -1,0 +1,76 @@
+# Dataset Metadata
+dataset:
+  title: "BI/ETL Tool Support for Unified Database Gateways"
+  description: "Analysis of major BI, ETL, and query engine tools and their support for unified database gateway connections versus individual API endpoints"
+  topic: "Connector/BI Federation Coverage"
+  metric: "Gateway support coverage across data ecosystem tools"
+  
+# Source Information
+source:
+  name: "Multiple vendor documentation and product analysis"
+  url: "Various official documentation sources"
+  accessed: "2025-08-20"
+  license: "Public documentation analysis"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 16
+  columns: 8
+  time_range: "2023 - 2024"
+  update_frequency: "quarterly"
+  collection_method: "manual research and documentation analysis"
+  
+# Column Descriptions
+columns:
+  tool:
+    type: "string"
+    description: "Name of the BI/ETL/query engine tool"
+    unit: "name"
+  vendor:
+    type: "string"
+    description: "Company or organization that develops the tool"
+    unit: "organization name"
+  gateway_supported:
+    type: "boolean"
+    description: "Whether the tool natively supports unified database gateways"
+    unit: "true/false"
+  api_modes:
+    type: "string"
+    description: "Supported API connection modes (pipe-separated)"
+    unit: "protocol names"
+  version:
+    type: "string"
+    description: "Version when gateway support was introduced or current version"
+    unit: "version number"
+  link:
+    type: "string"
+    description: "URL to official documentation about connector capabilities"
+    unit: "URL"
+  category:
+    type: "string"
+    description: "Tool category: BI, ETL, or Query Engine"
+    unit: "category name"
+  notes:
+    type: "string"
+    description: "Additional details about gateway support implementation"
+    unit: "descriptive text"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all tools researched have complete data"
+  sample_size: "16 major tools across 3 categories"
+  confidence: "high"
+  limitations: 
+    - "Version numbers may not reflect exact gateway support introduction"
+    - "Some tools may have beta or experimental gateway features not documented"
+    - "Enterprise vs open-source feature differences not captured"
+  
+# Usage Notes
+notes:
+  - "Gateway support indicates ability to connect through unified APIs rather than individual database APIs"
+  - "API modes show which protocols the tool can use for connections"
+  - "Query engines are inherently gateway-like tools themselves"
+  - "BI tools show mixed adoption - enterprise tools lead in gateway support"
+  - "ETL tools are transitioning from point-to-point to gateway-mediated connections"
+  - "Related to unified gateway adoption trends and database consolidation patterns"

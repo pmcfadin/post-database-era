@@ -1,0 +1,87 @@
+# Dataset Metadata
+dataset:
+  title: "FinOps Outcomes from Database Consolidation - Public Engineering Posts"
+  description: "Financial outcomes and cost impacts from database consolidation initiatives as reported in public engineering blogs, conference talks, and case studies"
+  topic: "Database consolidation FinOps outcomes"
+  metric: "Cost reduction percentages, operational efficiency gains, and infrastructure savings"
+  
+# Source Information
+source:
+  name: "Multiple Engineering Blogs and Conference Presentations"
+  url: "Various - see individual link column"
+  accessed: "2025-08-20"
+  license: "Public information from engineering blogs - fair use for research"
+  credibility: "Tier A-B (Direct from company engineering teams)"
+  
+# Data Characteristics
+characteristics:
+  rows: 25
+  columns: 10
+  time_range: "2019-04 - 2021-07"
+  update_frequency: "static"
+  collection_method: "manual curation from public sources"
+  
+# Column Descriptions
+columns:
+  company:
+    type: "string"
+    description: "Company name that implemented database consolidation"
+    unit: "categorical"
+  before_cost:
+    type: "string"
+    description: "Annual cost before consolidation (infrastructure, licensing, or operational)"
+    unit: "USD annual or FTE count"
+  after_cost:
+    type: "string" 
+    description: "Annual cost after consolidation"
+    unit: "USD annual or FTE count"
+  delta_pct:
+    type: "number"
+    description: "Percentage change in costs (negative = reduction, positive = increase)"
+    unit: "percentage"
+  outcome_type:
+    type: "string"
+    description: "Category of cost impact measured"
+    unit: "categorical: infrastructure_cost, licensing_consolidation, operational_complexity, operational_cost, storage_deduplication, egress_optimization, cost_increase_counterexample"
+  notes:
+    type: "string"
+    description: "Description of the consolidation approach and specific outcomes achieved"
+    unit: "text"
+  source:
+    type: "string"
+    description: "Publication source (engineering blog, conference, etc.)"
+    unit: "categorical"
+  link:
+    type: "string"
+    description: "URL to original source material"
+    unit: "URL"
+  date_published:
+    type: "string"
+    description: "Publication date of the source material"
+    unit: "YYYY-MM format"
+  validation_status:
+    type: "string"
+    description: "Verification status of the claims"
+    unit: "categorical: verified, needs_verification"
+    
+# Quality Indicators
+quality:
+  completeness: "100% for core fields, 95% for links (some engineering blogs have moved)"
+  sample_size: "25 companies across different industries and scales"
+  confidence: "high"
+  limitations: 
+    - "Self-reported metrics from engineering teams may have selection bias"
+    - "Different companies measure costs differently (infrastructure vs total cost)"
+    - "Timeframes for measuring outcomes vary (6 months to 2 years post-implementation)"
+    - "Some cost figures estimated from percentage improvements mentioned in posts"
+    - "Limited counterexamples where consolidation increased costs"
+  
+# Usage Notes
+notes:
+  - "Delta percentages calculated from before/after costs where both provided"
+  - "Some entries extrapolated from operational metrics (e.g., DBA count reduction)"
+  - "WeWork entry included as counterexample showing consolidation can increase costs"
+  - "Validation status indicates confidence level in reported figures"
+  - "Focus on infrastructure and operational cost impacts, not development velocity"
+  - "Most sources from 2019-2021 period when database consolidation became mainstream"
+  - "Companies selected based on public availability of specific cost metrics"

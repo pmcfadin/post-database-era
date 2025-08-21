@@ -1,0 +1,72 @@
+# Dataset Metadata
+dataset:
+  title: "ARR/Revenue Attribution for Multi-API Gateway and Database Platform SKUs"
+  description: "Conservative revenue estimates attributed to multi-API, gateway, and unified platform capabilities across major cloud and database vendors"
+  topic: "Revenue attribution for multi-API and gateway convergence trends"
+  metric: "Annual Recurring Revenue (ARR) in billions USD"
+  
+# Source Information
+source:
+  name: "Multiple Vendor Investor Relations and Financial Filings"
+  url: "Compiled from public earnings reports and investor presentations"
+  accessed: "2025-08-20"
+  license: "Public financial data compilation"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 22
+  columns: 7
+  time_range: "2024-Q3 to 2024-Q4"
+  update_frequency: "quarterly"
+  collection_method: "manual compilation from public financial reports"
+  
+# Column Descriptions
+columns:
+  vendor:
+    type: "string"
+    description: "Company or cloud provider name"
+    unit: "categorical"
+  segment:
+    type: "string"
+    description: "Product segment or service category"
+    unit: "categorical"
+  metric:
+    type: "string"
+    description: "Revenue measurement type (Annual Revenue)"
+    unit: "categorical"
+  value:
+    type: "number"
+    description: "Revenue amount in billions USD"
+    unit: "billions USD"
+  period:
+    type: "string"
+    description: "Reporting period (quarter and year)"
+    unit: "YYYY-QN format"
+  source_link:
+    type: "string"
+    description: "URL to primary source or investor relations page"
+    unit: "URL"
+  inference_note:
+    type: "string"
+    description: "Methodology and limitations of revenue attribution estimate"
+    unit: "text"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all fields populated"
+  sample_size: "22 revenue attributions across 11 vendors"
+  confidence: "medium"
+  limitations: 
+    - "Revenue attributions are conservative estimates based on segment reporting"
+    - "Multi-API and gateway revenue often bundled with broader platform metrics"
+    - "Some estimates derived from pricing models and adoption indicators"
+    - "Private companies (PlanetScale, Neon) have estimated figures"
+  
+# Usage Notes
+notes:
+  - "All values represent annual run-rate or trailing twelve months revenue"
+  - "Conservative methodology to avoid over-attribution to multi-API capabilities"
+  - "Focus on unified platform and gateway convergence revenue drivers"
+  - "Major cloud providers dominate with established multi-service platforms"
+  - "Emerging vendors show rapid growth in unified data platform segments"

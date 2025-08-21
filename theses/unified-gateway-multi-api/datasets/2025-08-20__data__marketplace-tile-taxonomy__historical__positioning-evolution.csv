@@ -1,0 +1,18 @@
+vendor,service,period,positioning,apis,description
+MongoDB Inc,MongoDB Atlas,2020-Q1,single-api,Document,Positioned as document database service
+MongoDB Inc,MongoDB Atlas,2021-Q2,dual-api,Document;Search,Added Atlas Search capabilities
+MongoDB Inc,MongoDB Atlas,2023-Q3,multi-api,Document;Search;Vector,Added Vector Search for AI workloads
+DataStax,DataStax Astra DB,2020-Q1,single-api,NoSQL,Cassandra-as-a-Service positioning
+DataStax,DataStax Astra DB,2022-Q1,dual-api,NoSQL;Vector,Added vector search capabilities
+DataStax,DataStax Astra DB,2023-Q2,multi-api,NoSQL;Vector;Search,Expanded to multi-model platform
+Redis Inc,Redis Enterprise,2020-Q1,single-api,Key-Value,In-memory cache/database positioning
+Redis Inc,Redis Enterprise,2021-Q3,dual-api,Key-Value;Search,Added RediSearch module
+Redis Inc,Redis Enterprise,2022-Q4,multi-api,Key-Value;Search;Time-Series,Added RedisTimeSeries capabilities
+Redis Inc,Redis Enterprise,2024-Q1,multi-api,Key-Value;Search;Time-Series;Vector,Added vector similarity search
+Couchbase Inc,Couchbase Cloud,2020-Q1,dual-api,Document;Key-Value,Document and KV access patterns
+Couchbase Inc,Couchbase Cloud,2021-Q1,multi-api,Document;Key-Value;Search,Added full-text search
+Couchbase Inc,Couchbase Cloud,2023-Q1,multi-api,Document;Key-Value;Search;Analytics,Added analytics service
+SingleStore,SingleStore Cloud,2020-Q1,dual-api,SQL;Analytics,HTAP database positioning
+SingleStore,SingleStore Cloud,2024-Q2,multi-api,SQL;Analytics;Vector,Added vector database capabilities
+Neo4j Inc,Neo4j Aura,2020-Q1,single-api,Graph,Pure graph database service
+Neo4j Inc,Neo4j Aura,2024-Q1,dual-api,Graph;Vector,Added vector similarity search

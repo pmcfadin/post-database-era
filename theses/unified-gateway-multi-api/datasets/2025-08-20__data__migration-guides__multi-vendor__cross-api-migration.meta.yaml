@@ -1,0 +1,104 @@
+# Dataset Metadata
+dataset:
+  title: "Cross-API Database Migration Guides and Shims Registry"
+  description: "Comprehensive catalog of migration tools, guides, and compatibility layers for cross-API database migrations across major vendors and open-source projects"
+  topic: "Migration Guides & Shims Registry"
+  metric: "Migration tool availability and maintenance status across API paradigms"
+  
+# Source Information
+source:
+  name: "Multi-vendor documentation aggregation"
+  url: "Various vendor documentation sites and GitHub repositories"
+  accessed: "2025-08-20"
+  license: "Mixed - vendor documentation and open source tools"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 28
+  columns: 8
+  time_range: "2022-12-01 - 2024-12-10"
+  update_frequency: "irregular_vendor_dependent"
+  collection_method: "manual_documentation_review"
+  
+# Column Descriptions
+columns:
+  vendor:
+    type: "string"
+    description: "Organization or entity providing the migration tool/guide"
+    unit: "categorical"
+  from_api:
+    type: "string"
+    description: "Source API paradigm or specific database technology"
+    unit: "categorical"
+  to_api:
+    type: "string"
+    description: "Target API paradigm or specific database technology"
+    unit: "categorical"
+  guide_url:
+    type: "string"
+    description: "URL to official documentation or repository"
+    unit: "URL"
+  maintained:
+    type: "boolean"
+    description: "Whether the tool/guide is actively maintained"
+    unit: "true/false"
+  last_updated:
+    type: "date"
+    description: "Date of most recent update to tool or documentation"
+    unit: "YYYY-MM-DD"
+  tool_name:
+    type: "string"
+    description: "Name of the migration tool or service"
+    unit: "text"
+  maturity:
+    type: "string"
+    description: "Development maturity level of the migration solution"
+    unit: "Production/Beta/Alpha"
+    
+# Quality Indicators
+quality:
+  completeness: "100% (all required fields populated)"
+  sample_size: "28 migration tools/guides"
+  confidence: "high"
+  limitations: 
+    - "Community tools maintenance status may change rapidly"
+    - "Last updated dates based on documentation timestamps"
+    - "Some beta/alpha tools may have limited production readiness"
+    - "URLs may become outdated as vendor documentation restructures"
+  
+# Usage Notes
+notes:
+  - "Production maturity indicates vendor-supported, enterprise-ready solutions"
+  - "Beta/Alpha maturity typically indicates community or experimental tools"
+  - "Multi-API gateways provide abstraction layers rather than direct migration"
+  - "Cross-vendor migrations often require custom scripting beyond provided tools"
+  - "Maintained=False indicates stale or abandoned community projects"
+  - "Focus on 2022-2025 timeframe reflects recent migration tool ecosystem"
+  
+# Analysis Insights
+insights:
+  vendor_distribution:
+    - "AWS: 3 official migration paths"
+    - "GCP: 3 official migration paths" 
+    - "Azure: 2 official migration paths"
+    - "MongoDB: 2 specialized migration tools"
+    - "Community: 4 projects (mixed maintenance)"
+    - "Multi-API gateways: 6 abstraction solutions"
+  
+  api_migration_patterns:
+    - "SQL to NoSQL (Document/KV/Graph): Most common enterprise migration"
+    - "MongoDB compatibility layers: High adoption (FerretDB, vendor tools)"
+    - "Multi-API gateways: Emerging trend for API unification"
+    - "Cross-cloud migrations: Well-supported by major cloud vendors"
+  
+  maintenance_status:
+    - "Production tools: 21/28 (75%) actively maintained"
+    - "Community projects: 50% maintenance rate"
+    - "Vendor tools: 100% maintenance rate"
+    - "Recent activity: 23/28 updated in 2024"
+  
+  maturity_levels:
+    - "Production: 21 tools (enterprise-ready)"
+    - "Beta: 3 tools (feature-complete, testing phase)"
+    - "Alpha: 4 tools (experimental, community-driven)"

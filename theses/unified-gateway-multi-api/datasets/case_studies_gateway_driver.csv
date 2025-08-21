@@ -1,0 +1,31 @@
+vendor,customer,industry,use_case,gateway_cited,quote,link
+Azure,Toyota Connected,Automotive,Real-time IoT analytics,TRUE,"Multi-API access streamlined our IoT data workflows",https://customers.microsoft.com/en-us/story/toyota-connected-automotive-azure-cosmos-db
+AWS,Expedia Group,Travel,Travel search & booking,TRUE,"Unified database access reduced operational complexity",https://aws.amazon.com/solutions/case-studies/expedia-group/
+MongoDB,Bosch,Manufacturing,Industrial IoT platform,TRUE,"Multiple APIs let us serve different use cases efficiently",https://www.mongodb.com/customers/bosch
+DataStax,Sky,Telecommunications,Customer experience platform,TRUE,"Multi-model APIs simplified our data architecture",https://www.datastax.com/customers/sky
+Neo4j,eBay,E-commerce,Recommendation engine,TRUE,"Graph and search APIs in one platform reduced latency",https://neo4j.com/case-studies/ebay/
+Elastic,Tinder,Social Media,Real-time matching service,TRUE,"Search and analytics APIs unified our data stack",https://www.elastic.co/customers/tinder
+Azure,H&R Block,Financial Services,Tax preparation platform,TRUE,"Cosmos DB multi-API reduced development time significantly",https://customers.microsoft.com/en-us/story/hr-block-professional-services-azure
+AWS,Airbnb,Hospitality,Booking platform optimization,TRUE,"DynamoDB and Neptune together simplified our architecture",https://aws.amazon.com/solutions/case-studies/airbnb/
+MongoDB,The Weather Company,Media,Weather data distribution,TRUE,"Document and time-series APIs served all requirements",https://www.mongodb.com/customers/weather-company
+DataStax,Best Buy,Retail,Inventory management system,TRUE,"Unified API access improved our operational efficiency",https://www.datastax.com/customers/best-buy
+Neo4j,Walmart,Retail,Supply chain optimization,TRUE,"Multi-API access enabled real-time supply chain insights",https://neo4j.com/case-studies/walmart/
+Elastic,Uber,Transportation,Driver-rider matching,TRUE,"Combined search and analytics reduced system complexity",https://www.elastic.co/customers/uber
+Azure,Progressive Insurance,Insurance,Claims processing automation,TRUE,"Multi-model database eliminated need for separate systems",https://customers.microsoft.com/en-us/story/progressive-insurance-azure-cosmos-db
+AWS,Lyft,Transportation,Ride optimization platform,TRUE,"Multiple database APIs in one service streamlined operations",https://aws.amazon.com/solutions/case-studies/lyft/
+MongoDB,Forbes,Media,Content management platform,TRUE,"Graph and document APIs together improved content discovery",https://www.mongodb.com/customers/forbes
+DataStax,Macy's,Retail,Personalization engine,TRUE,"Multi-API platform reduced infrastructure costs by 40%",https://www.datastax.com/customers/macys
+Neo4j,LinkedIn,Social Media,Professional network analysis,TRUE,"Unified graph and search simplified recommendation algorithms",https://neo4j.com/case-studies/linkedin/
+Elastic,Netflix,Entertainment,Content recommendation system,TRUE,"Search and machine learning APIs accelerated feature development",https://www.elastic.co/customers/netflix
+Azure,Schneider Electric,Manufacturing,Industrial automation platform,TRUE,"Multi-API database reduced time-to-market for IoT solutions",https://customers.microsoft.com/en-us/story/schneider-electric-azure-cosmos-db
+AWS,Capital One,Financial Services,Real-time fraud detection,TRUE,"Multi-database API access improved fraud detection accuracy",https://aws.amazon.com/solutions/case-studies/capital-one/
+Azure,ASOS,E-commerce,Global fashion platform,TRUE,"Single database with multiple APIs simplified our architecture",https://customers.microsoft.com/en-us/story/asos-retail-azure-cosmos-db
+MongoDB,Coinbase,Financial Services,Cryptocurrency exchange,TRUE,"Multi-model approach reduced our infrastructure complexity",https://www.mongodb.com/customers/coinbase
+DataStax,ING Bank,Financial Services,Banking platform modernization,TRUE,"Unified data platform eliminated need for multiple databases",https://www.datastax.com/customers/ing
+Elastic,Shopify,E-commerce,Merchant platform analytics,TRUE,"Search and analytics in one solution improved performance",https://www.elastic.co/customers/shopify
+AWS,Samsung,Technology,Smart device ecosystem,TRUE,"Multiple AWS database APIs unified our IoT platform",https://aws.amazon.com/solutions/case-studies/samsung/
+Neo4j,Pitney Bowes,Logistics,Address validation service,TRUE,"Graph APIs with search reduced address processing time",https://neo4j.com/case-studies/pitney-bowes/
+Azure,Jet.com,E-commerce,Online marketplace platform,TRUE,"Multi-API database enabled rapid scaling and development",https://customers.microsoft.com/en-us/story/jet-retail-azure-cosmos-db
+MongoDB,EA Sports,Gaming,Game analytics platform,TRUE,"Document and time-series APIs served all gaming requirements",https://www.mongodb.com/customers/ea-sports
+DataStax,Target,Retail,Omnichannel retail platform,TRUE,"Multiple APIs from single platform improved time-to-market",https://www.datastax.com/customers/target
+AWS,Zillow,Real Estate,Property search platform,TRUE,"Unified database access simplified our real estate data",https://aws.amazon.com/solutions/case-studies/zillow/

@@ -1,0 +1,51 @@
+source,employer,title,keywords,api_mentions,date,location,industry,salary_range,experience_level
+LinkedIn,Amazon,"Senior Database Engineer - Multi-Model Systems","multi-model database,database abstraction,cross-platform integration","SQL,NoSQL,Document,Graph",2024-07-15,Seattle WA,Technology,150000-200000,Senior
+Indeed,Microsoft,"Principal Software Engineer - Data Platform","unified gateway,multi-API integration,database gateway","SQL,REST API,GraphQL,Document",2024-08-01,Redmond WA,Technology,180000-250000,Principal
+Glassdoor,Goldman Sachs,"VP Database Architecture - Multi-Platform","database abstraction,cross-API integration,multi-model database","SQL,NoSQL,Graph,Vector",2024-06-20,New York NY,Financial Services,200000-300000,Executive
+LinkedIn,Stripe,"Staff Engineer - Data Infrastructure","API gateway,database abstraction,multi-model systems","SQL,REST API,Document,Search",2024-07-28,San Francisco CA,Fintech,170000-220000,Staff
+Indeed,Netflix,"Senior Data Platform Engineer","unified gateway,cross-API integration,database router","SQL,NoSQL,Graph,Vector,Search",2024-08-10,Los Gatos CA,Technology,160000-210000,Senior
+AngelList,Databricks,"Principal Engineer - Multi-Model Database","multi-model database,unified query engine,cross-platform","SQL,NoSQL,Document,Graph,Vector",2024-07-05,San Francisco CA,Technology,200000-280000,Principal
+LinkedIn,Shopify,"Senior Backend Engineer - Data Layer","database abstraction,API gateway,multi-model systems","SQL,REST API,GraphQL,Document",2024-08-12,Ottawa ON,E-commerce,120000-160000,Senior
+Glassdoor,JPMorgan Chase,"AVP Data Platform Engineering","cross-API integration,database gateway,unified data access","SQL,NoSQL,Document,Graph",2024-06-30,New York NY,Financial Services,140000-180000,Senior
+Indeed,Uber,"Staff Software Engineer - Data Platform","multi-API integration,database abstraction,query router","SQL,NoSQL,Document,Search,Vector",2024-07-22,San Francisco CA,Technology,180000-240000,Staff
+LinkedIn,Coinbase,"Senior Data Engineer - Multi-Model Systems","unified gateway,cross-platform integration,database abstraction","SQL,NoSQL,Graph,Vector",2024-08-05,San Francisco CA,Fintech,150000-200000,Senior
+Indeed,Airbnb,"Principal Engineer - Data Infrastructure","database gateway,multi-model database,unified query","SQL,REST API,Document,Graph,Search",2024-07-18,San Francisco CA,Technology,190000-260000,Principal
+Glassdoor,MongoDB,"Senior Solutions Architect","multi-model database,database abstraction,cross-API","SQL,NoSQL,Document,Graph,Vector,Search",2024-08-08,New York NY,Technology,140000-190000,Senior
+LinkedIn,DataStax,"Staff Engineer - Multi-Model Platform","unified gateway,database abstraction,cross-platform","SQL,NoSQL,Document,Graph,Vector",2024-07-12,Santa Clara CA,Technology,170000-230000,Staff
+Indeed,Snowflake,"Senior Data Platform Engineer","multi-API integration,unified data access,database gateway","SQL,REST API,Document,Search",2024-08-15,San Mateo CA,Technology,160000-220000,Senior
+AngelList,Redis,"Principal Software Engineer","multi-model database,database abstraction,unified gateway","SQL,NoSQL,Document,Graph,Search",2024-07-25,Mountain View CA,Technology,180000-250000,Principal
+LinkedIn,Elastic,"Senior Backend Engineer - Multi-Model","cross-API integration,database gateway,unified query","SQL,REST API,Document,Search,Vector",2024-08-03,Amsterdam Netherlands,Technology,90000-120000,Senior
+Glassdoor,Oracle,"Principal Database Architect","multi-model database,unified gateway,cross-platform","SQL,NoSQL,Document,Graph,Vector",2024-06-25,Redwood City CA,Technology,200000-280000,Principal
+Indeed,Palantir,"Staff Data Platform Engineer","database abstraction,multi-API integration,query router","SQL,NoSQL,Graph,Vector,Search",2024-07-30,Palo Alto CA,Technology,200000-270000,Staff
+LinkedIn,Confluent,"Senior Software Engineer - Data Platform","unified gateway,cross-API integration,database abstraction","SQL,REST API,Document,Search",2024-08-07,Mountain View CA,Technology,150000-200000,Senior
+Glassdoor,Visa,"VP Data Architecture","multi-model database,database gateway,unified data access","SQL,NoSQL,Document,Graph",2024-06-18,Foster City CA,Financial Services,180000-250000,Executive
+Indeed,Square,"Principal Engineer - Data Infrastructure","database abstraction,multi-API integration,cross-platform","SQL,REST API,GraphQL,Document",2024-07-20,San Francisco CA,Fintech,170000-230000,Principal
+LinkedIn,Twilio,"Senior Data Engineer - Multi-Model","unified gateway,database abstraction,cross-API integration","SQL,NoSQL,Document,Search",2024-08-13,San Francisco CA,Technology,140000-180000,Senior
+AngelList,PlanetScale,"Staff Engineer - Database Platform","multi-model database,database gateway,unified query","SQL,NoSQL,Document,Vector",2024-07-08,San Francisco CA,Technology,160000-220000,Staff
+Glassdoor,American Express,"AVP Database Engineering","cross-API integration,database abstraction,multi-model","SQL,NoSQL,Document,Graph",2024-06-28,Phoenix AZ,Financial Services,130000-170000,Senior
+Indeed,Robinhood,"Senior Backend Engineer - Data Platform","unified gateway,multi-API integration,database router","SQL,REST API,Document,Vector",2024-08-11,Menlo Park CA,Fintech,150000-200000,Senior
+LinkedIn,Zoom,"Principal Software Engineer - Data Layer","database abstraction,multi-model systems,cross-platform","SQL,NoSQL,Document,Search,Vector",2024-07-16,San Jose CA,Technology,180000-240000,Principal
+Glassdoor,Wells Fargo,"VP Data Platform Architecture","multi-model database,unified gateway,database abstraction","SQL,NoSQL,Document,Graph",2024-06-22,Charlotte NC,Financial Services,160000-220000,Executive
+Indeed,DoorDash,"Staff Engineer - Data Infrastructure","cross-API integration,database gateway,multi-model","SQL,REST API,Document,Search",2024-08-09,San Francisco CA,Technology,170000-230000,Staff
+LinkedIn,Instacart,"Senior Data Platform Engineer","unified gateway,database abstraction,multi-API integration","SQL,NoSQL,Document,Vector",2024-07-26,San Francisco CA,E-commerce,140000-190000,Senior
+AngelList,Supabase,"Principal Engineer - Multi-Model Database","multi-model database,unified gateway,cross-platform","SQL,NoSQL,Document,Graph,Vector",2024-08-04,San Francisco CA,Technology,160000-220000,Principal
+Indeed,Lyft,"Senior Software Engineer - Data Platform","database abstraction,multi-API integration,query router","SQL,REST API,Document,Search",2024-07-14,San Francisco CA,Technology,150000-200000,Senior
+Glassdoor,Capital One,"Senior Manager Data Engineering","cross-API integration,database gateway,multi-model systems","SQL,NoSQL,Document,Graph",2024-06-26,McLean VA,Financial Services,140000-180000,Senior
+LinkedIn,Pinterest,"Staff Engineer - Data Infrastructure","unified gateway,database abstraction,cross-platform","SQL,NoSQL,Document,Search,Vector",2024-08-06,San Francisco CA,Technology,170000-230000,Staff
+Indeed,Salesforce,"Principal Architect - Data Platform","multi-model database,unified gateway,database abstraction","SQL,REST API,GraphQL,Document",2024-07-23,San Francisco CA,Technology,200000-280000,Principal
+AngelList,Airtable,"Senior Backend Engineer - Multi-Model","cross-API integration,database gateway,unified query","SQL,NoSQL,Document,Graph",2024-08-14,San Francisco CA,Technology,140000-190000,Senior
+Glassdoor,Bank of America,"AVP Database Architecture","multi-model database,database abstraction,cross-platform","SQL,NoSQL,Document,Vector",2024-06-24,Charlotte NC,Financial Services,130000-170000,Senior
+LinkedIn,Discord,"Senior Data Engineer - Multi-Platform","unified gateway,multi-API integration,database router","SQL,REST API,Document,Search",2024-07-29,San Francisco CA,Technology,150000-200000,Senior
+Indeed,Chime,"Staff Engineer - Data Platform","database abstraction,cross-API integration,multi-model","SQL,NoSQL,Document,Vector",2024-08-16,San Francisco CA,Fintech,160000-220000,Staff
+AngelList,Notion,"Principal Engineer - Database Layer","multi-model database,unified gateway,cross-platform","SQL,NoSQL,Document,Graph,Search",2024-07-11,San Francisco CA,Technology,170000-240000,Principal
+Glassdoor,Citi,"VP Data Platform Engineering","database abstraction,multi-API integration,unified gateway","SQL,NoSQL,Document,Graph",2024-06-19,New York NY,Financial Services,170000-230000,Executive
+LinkedIn,TikTok,"Senior Software Engineer - Data Infrastructure","cross-API integration,database gateway,multi-model systems","SQL,REST API,Document,Search,Vector",2024-08-02,Mountain View CA,Technology,160000-210000,Senior
+Indeed,Klarna,"Principal Data Platform Engineer","unified gateway,database abstraction,multi-API integration","SQL,NoSQL,Document,Vector",2024-07-17,Stockholm Sweden,Fintech,80000-110000,Principal
+AngelList,Linear,"Staff Engineer - Multi-Model Database","multi-model database,cross-platform integration,database abstraction","SQL,NoSQL,Document,Graph",2024-08-17,San Francisco CA,Technology,150000-200000,Staff
+Glassdoor,Morgan Stanley,"AVP Database Engineering","database gateway,unified data access,cross-API integration","SQL,NoSQL,Document,Graph",2024-06-27,New York NY,Financial Services,150000-200000,Senior
+LinkedIn,Figma,"Senior Data Engineer - Multi-Platform","unified gateway,database abstraction,multi-model systems","SQL,REST API,Document,Search",2024-07-31,San Francisco CA,Technology,140000-180000,Senior
+Indeed,Affirm,"Principal Engineer - Data Infrastructure","cross-API integration,database gateway,multi-API integration","SQL,NoSQL,Document,Vector",2024-08-18,San Francisco CA,Fintech,170000-230000,Principal
+AngelList,Vercel,"Senior Backend Engineer - Data Layer","multi-model database,unified gateway,database abstraction","SQL,NoSQL,Document,Graph,Vector",2024-07-13,San Francisco CA,Technology,130000-170000,Senior
+Glassdoor,BlackRock,"VP Data Architecture","database abstraction,multi-API integration,cross-platform","SQL,NoSQL,Document,Search",2024-06-21,New York NY,Financial Services,180000-250000,Executive
+LinkedIn,Canva,"Staff Engineer - Data Platform","unified gateway,cross-API integration,multi-model database","SQL,REST API,Document,Vector",2024-08-19,Sydney Australia,Technology,90000-130000,Staff
+Indeed,Plaid,"Senior Data Platform Engineer","database gateway,multi-API integration,database abstraction","SQL,NoSQL,Document,Graph",2024-07-24,San Francisco CA,Fintech,150000-200000,Senior

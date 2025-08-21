@@ -1,0 +1,76 @@
+# Dataset Metadata
+dataset:
+  title: "Platform Launches with Multi-API Support Analysis"
+  description: "Database platform launches from 2020-2025 analyzing default multi-API support vs single-API launches"
+  topic: "Multi-API platform convergence trends"
+  metric: "Default multi-API support at platform launch"
+  
+# Source Information
+source:
+  name: "Multiple Sources - TechCrunch, VentureBeat, Vendor Documentation"
+  url: "Various platform documentation and launch announcements"
+  accessed: "2025-08-20"
+  license: "Research and analysis use - cite original sources"
+  credibility: "Tier A/B"
+  
+# Data Characteristics
+characteristics:
+  rows: 31
+  columns: 5
+  time_range: "2020-01-01 - 2023-08-01"
+  update_frequency: "manual/research-driven"
+  collection_method: "manual research and vendor documentation review"
+  
+# Column Descriptions
+columns:
+  platform:
+    type: "string"
+    description: "Name of the database platform or service"
+    unit: "text"
+  launch_date:
+    type: "date"
+    description: "Date when platform was publicly launched or became generally available"
+    unit: "YYYY-MM-DD"
+  default_multi_api:
+    type: "boolean"
+    description: "Whether platform launched with multiple API support by default (not as add-on)"
+    unit: "true/false"
+  description:
+    type: "string"
+    description: "Brief description of platform capabilities and API support"
+    unit: "text"
+  link:
+    type: "string"
+    description: "Official website or primary documentation URL"
+    unit: "URL"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all fields populated"
+  sample_size: "31 platforms across major categories"
+  confidence: "high"
+  limitations: 
+    - "Launch dates are approximate for some platforms"
+    - "Multi-API classification based on documented features at launch"
+    - "Focus on English-language platforms and major cloud providers"
+    - "Some platforms may have evolved API support post-launch"
+  
+# Usage Notes
+notes:
+  - "Platform categories include: Serverless databases, Vector databases, Cloud provider services, Analytics platforms, Edge/IoT platforms"
+  - "Multi-API defined as 2+ supported interfaces (SQL, REST, GraphQL, gRPC, protocol-specific)"
+  - "Launch date represents general availability, not beta or preview releases"
+  - "Includes both startup and enterprise vendor platforms"
+  - "Useful for analyzing trends in default multi-API adoption over time"
+
+# Analysis Insights
+insights:
+  total_platforms: 31
+  multi_api_default: 23
+  single_api_default: 8
+  multi_api_percentage: 74.2
+  key_trends:
+    - "Vector databases consistently launch with multi-API support"
+    - "Cloud provider services increasingly default to multi-API"
+    - "Serverless platforms favor multi-API from launch"
+    - "Traditional SQL-focused platforms less likely to default multi-API"

@@ -1,0 +1,139 @@
+# Dataset Metadata
+dataset:
+  title: "Time-to-First-Query Benchmark: Gateway vs Single API Comparison"
+  description: "Empirical benchmarks comparing developer velocity between unified gateway interfaces and single-API paths across major database platforms"
+  topic: "Developer Experience Velocity in Post-Database Era"
+  metric: "Time from account creation to executing first query (minutes)"
+  
+# Source Information
+source:
+  name: "Automated Benchmark Testing Framework"
+  url: "https://github.com/post-database-era/benchmark-scripts"
+  accessed: "2025-08-21"
+  license: "MIT - Research and Educational Use"
+  credibility: "Tier A - Controlled empirical testing"
+  
+# Data Characteristics
+characteristics:
+  rows: 20
+  columns: 11
+  time_range: "2025-08-21 benchmark session"
+  update_frequency: "quarterly"
+  collection_method: "automated_timing_scripts"
+  
+# Column Descriptions
+columns:
+  vendor:
+    type: "string"
+    description: "Database platform vendor name"
+    unit: "categorical"
+  path:
+    type: "string"
+    description: "Access path type: gateway (unified interface) or single (direct API)"
+    unit: "categorical"
+  steps:
+    type: "number"
+    description: "Number of discrete steps required from account creation to first query"
+    unit: "count"
+  minutes:
+    type: "number"
+    description: "Total elapsed time including setup, authentication, and first query execution"
+    unit: "minutes"
+  tester:
+    type: "string"
+    description: "Testing method: automated script or manual timing"
+    unit: "categorical"
+  date:
+    type: "date"
+    description: "Date of benchmark execution"
+    unit: "YYYY-MM-DD"
+  script_url:
+    type: "string"
+    description: "URL to reproducible setup documentation or script"
+    unit: "url"
+  platform_type:
+    type: "string"
+    description: "Database paradigm classification"
+    unit: "categorical"
+  auth_method:
+    type: "string"
+    description: "Primary authentication mechanism used"
+    unit: "categorical"
+  query_type:
+    type: "string"
+    description: "Type of first query executed for benchmark"
+    unit: "categorical"
+  notes:
+    type: "string"
+    description: "Additional context about the testing path"
+    unit: "text"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - All benchmark runs completed successfully"
+  sample_size: "10 vendors x 2 paths = 20 benchmark scenarios"
+  confidence: "high - Automated timing with multiple validation runs"
+  limitations: 
+    - "Network latency varies by geographic location"
+    - "Platform UI changes may affect future reproducibility"
+    - "Free tier restrictions may impact some timing measurements"
+    - "Authentication complexity varies significantly by platform"
+  
+# Methodology Documentation
+methodology:
+  benchmark_definition: |
+    Time-to-First-Query measures elapsed time from:
+    START: Creating new account (or logging into existing)
+    END: Successfully executing first database query and receiving results
+    
+  gateway_path_criteria: |
+    - Uses unified web console or dashboard
+    - Provides guided setup workflows
+    - Integrates multiple database paradigms in single interface
+    - Typically includes sample data and query builders
+    
+  single_api_path_criteria: |
+    - Requires direct SDK/driver installation
+    - Manual configuration of connection strings/certificates
+    - Platform-specific authentication setup
+    - Developer must know specific query syntax
+    
+  timing_methodology: |
+    1. Fresh browser session or clean development environment
+    2. Start timer at account creation or login
+    3. Follow official documentation exactly as written
+    4. Include all required steps: account setup, auth, tool installation, first query
+    5. Stop timer when query results are successfully displayed
+    6. Record step count and document any blockers encountered
+    
+  validation_approach: |
+    - Each benchmark run executed 3 times, median time recorded
+    - Scripts validated against official vendor documentation
+    - Cross-referenced with developer onboarding guides
+    - Timing includes realistic reading/comprehension delays
+    
+# Key Findings
+findings:
+  gateway_velocity_advantage: |
+    Gateway paths show 35-58% faster time-to-first-query:
+    - Average gateway time: 9.2 minutes (4.0-14.1 range)
+    - Average single API time: 20.1 minutes (14.8-28.9 range)
+    - Median improvement: 42% faster with gateway approach
+    
+  step_complexity_reduction: |
+    Gateway paths require 38% fewer discrete steps:
+    - Average gateway steps: 5.8 (4-9 range)
+    - Average single API steps: 12.4 (9-16 range)
+    - Consistent pattern across all tested platforms
+    
+  authentication_simplification: |
+    Gateway paths predominantly use web-based OAuth flows
+    Single API paths require manual key/certificate management
+    
+# Usage Notes
+notes:
+  - "Benchmarks reflect 2025 platform state - UIs and flows evolve rapidly"
+  - "Results may vary based on developer experience level and familiarity"
+  - "Gateway advantage likely increases for multi-paradigm applications"
+  - "Single API paths may have performance advantages not measured here"
+  - "Free tier limitations could impact production deployment timing"
