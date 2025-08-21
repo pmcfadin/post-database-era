@@ -1,0 +1,13 @@
+dataset:
+  title: Cache Hit Rate Comparative Studies
+  description: Comparative analysis of cache hit rates between separated and coupled
+    architectures
+  topic: Database Cache Performance Analysis
+  metric: Cache hit rates, efficiency ratios, IO reduction
+source:
+  name: Performance Research Studies
+  accessed: '2025-08-20'
+  credibility: Tier A
+quality:
+  completeness: 90%
+  confidence: High

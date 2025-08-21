@@ -1,0 +1,56 @@
+characteristics:
+  collection_method: research_synthesis
+  columns: 9
+  rows: 7
+  time_range: '2025-08-20'
+  update_frequency: static
+columns:
+  decision_factor:
+    description: Factor to evaluate for suitability
+    type: string
+  evaluation_method:
+    description: How to assess this factor
+    type: string
+  green_flags:
+    description: Positive indicators for separation
+    type: string
+  high_separation_suitability:
+    description: Characteristics indicating excellent fit
+    type: string
+  low_separation_suitability:
+    description: Characteristics indicating poor fit
+    type: string
+  medium_separation_suitability:
+    description: Characteristics indicating moderate fit
+    type: string
+  questions_to_ask:
+    description: Key questions for evaluation
+    type: string
+  red_flags:
+    description: Warning signs against separation
+    type: string
+  weight:
+    description: Relative importance weight (0-1)
+    type: number
+    unit: weight
+dataset:
+  description: Decision criteria and weights for evaluating workload suitability for
+    compute-storage separation
+  metric: weight
+  title: Workload Suitability Decision Framework
+  topic: database-compute-storage-separation
+notes:
+- Weights sum to 1.0 for scoring calculations
+- Use as starting point - adjust weights for specific context
+- Consider multiple factors together, not in isolation
+quality:
+  completeness: 100%
+  confidence: high
+  limitations:
+  - Weights may need adjustment based on specific organizational priorities
+source:
+  accessed: '2025-08-20'
+  credibility: Tier A
+  license: CC-BY-4.0
+  name: Research Synthesis
+  url: Best practices from cloud-native database implementations

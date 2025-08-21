@@ -1,0 +1,95 @@
+# Dataset Metadata
+dataset:
+  title: "Enterprise Database Contract Terms for Compute/Storage Separation"
+  description: "Anonymized contract structures showing compute and storage pricing independence across database vendors"
+  topic: "organizational-procurement-contracts"
+  metric: "pricing_independence_and_terms"
+  
+# Source Information
+source:
+  name: "Enterprise Contract Analysis, Vendor Pricing Pages, Industry Analyst Reports"
+  url: "Compiled from public pricing pages and anonymized enterprise procurement data"
+  accessed: "2025-08-21"
+  license: "Research use, commercially sensitive data anonymized"
+  credibility: "Tier B"
+  
+# Data Characteristics
+characteristics:
+  rows: 10
+  columns: 14
+  time_range: "2024 - 2025"
+  update_frequency: "annual"
+  collection_method: "procurement_analysis_and_vendor_research"
+  
+# Column Descriptions
+columns:
+  vendor_category:
+    type: "string"
+    description: "Database vendor business model category"
+    unit: "categorical"
+  contract_model:
+    type: "string"
+    description: "Primary pricing and commitment structure"
+    unit: "categorical"
+  compute_pricing_independence:
+    type: "string"
+    description: "Whether compute can be priced separately from storage"
+    unit: "boolean_partial"
+  storage_pricing_independence:
+    type: "string"
+    description: "Whether storage can be priced separately from compute"
+    unit: "boolean_partial"
+  min_commit_compute_usd:
+    type: "number"
+    description: "Minimum annual commitment for compute resources"
+    unit: "USD"
+  min_commit_storage_usd:
+    type: "number"
+    description: "Minimum annual commitment for storage resources"
+    unit: "USD"
+  bursting_allowance_percent:
+    type: "number"
+    description: "Percentage over commitment allowed before overage rates"
+    unit: "percentage"
+  overage_rate_multiplier:
+    type: "number"
+    description: "Multiplier applied to base rates for usage over commitment"
+    unit: "ratio"
+  contract_term_months:
+    type: "number"
+    description: "Standard contract duration in months"
+    unit: "months"
+  auto_scaling_rights:
+    type: "string"
+    description: "Contractual rights for automatic resource scaling"
+    unit: "categorical"
+  cross_region_portability:
+    type: "string"
+    description: "Whether commitments can be used across cloud regions"
+    unit: "boolean_partial"
+  discount_tier_compute:
+    type: "string"
+    description: "Basis for compute pricing discounts"
+    unit: "categorical"
+  discount_tier_storage:
+    type: "string"
+    description: "Basis for storage pricing discounts"
+    unit: "categorical"
+  commitment_flexibility:
+    type: "string"
+    description: "How often commitments can be adjusted"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100%"
+  sample_size: "10 major database vendor categories"
+  confidence: "medium"
+  limitations: ["Specific contract terms vary significantly by enterprise size", "Some terms are based on publicly available pricing rather than actual contracts", "Rapidly evolving pricing models may not reflect latest changes"]
+  
+# Usage Notes
+notes:
+  - "Commitment amounts are representative of mid-market enterprise deals"
+  - "Overage multipliers reflect penalty for exceeding committed usage"
+  - "Independence ratings: yes=fully independent, partial=some coupling, no=tightly coupled"
+  - "Cross-region portability crucial for multi-cloud strategies"

@@ -1,0 +1,88 @@
+# Dataset Metadata
+dataset:
+  title: "Procurement Policy Evolution Patterns for Cloud Resource Governance"
+  description: "How organizations evolve procurement policies and governance for independent compute/storage management"
+  topic: "organizational-procurement-policy-evolution"
+  metric: "governance_maturity_and_authority_distribution"
+  
+# Source Information
+source:
+  name: "Cloud Governance Reports, Procurement Best Practices, Enterprise IT Surveys"
+  url: "Compiled from enterprise IT governance studies and cloud adoption reports"
+  accessed: "2025-08-21"
+  license: "Research use, governance patterns anonymized"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 10
+  columns: 12
+  time_range: "2024 - 2025"
+  update_frequency: "annual"
+  collection_method: "governance_survey_and_policy_analysis"
+  
+# Column Descriptions
+columns:
+  organization_type:
+    type: "string"
+    description: "Organizational archetype and transformation stage"
+    unit: "categorical"
+  policy_evolution_stage:
+    type: "string"
+    description: "Current stage of procurement policy evolution"
+    unit: "categorical"
+  compute_procurement_authority:
+    type: "string"
+    description: "Which team/role has authority over compute procurement"
+    unit: "categorical"
+  storage_procurement_authority:
+    type: "string"
+    description: "Which team/role has authority over storage procurement"
+    unit: "categorical"
+  budget_approval_threshold_usd:
+    type: "number"
+    description: "Dollar threshold requiring formal budget approval"
+    unit: "USD"
+  vendor_evaluation_process:
+    type: "string"
+    description: "Process used for evaluating and selecting vendors"
+    unit: "categorical"
+  compliance_requirements:
+    type: "string"
+    description: "Level of compliance oversight required"
+    unit: "ordinal"
+  cost_allocation_automation:
+    type: "string"
+    description: "Degree of automation in cost allocation and tracking"
+    unit: "categorical"
+  resource_tagging_enforcement:
+    type: "string"
+    description: "Rigor of resource tagging requirements and enforcement"
+    unit: "categorical"
+  cross_cloud_governance:
+    type: "string"
+    description: "Approach to governing resources across multiple clouds"
+    unit: "categorical"
+  reserved_capacity_strategy:
+    type: "string"
+    description: "Organizational approach to reserved instance purchasing"
+    unit: "categorical"
+  spot_market_policy:
+    type: "string"
+    description: "Policy regarding use of spot/preemptible instances"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100%"
+  sample_size: "10 organizational archetypes"
+  confidence: "high"
+  limitations: ["Policy evolution is ongoing and varies by specific organizational context", "Compliance requirements vary significantly by jurisdiction", "Budget thresholds are representative averages"]
+  
+# Usage Notes
+notes:
+  - "Traditional enterprises show gradual evolution toward federated governance"
+  - "Startups begin with decentralized authority, may centralize as they scale"
+  - "Regulated industries maintain stricter oversight of both compute and storage"
+  - "Spot market policies reflect risk tolerance and workload characteristics"
+  - "Cost allocation automation correlates with organizational cloud maturity"

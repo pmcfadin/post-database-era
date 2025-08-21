@@ -1,0 +1,6 @@
+service,architecture,primary_region,backup_region,database_size_gb,initial_copy_time_hours,ongoing_replication_lag_seconds,cross_region_restore_time_minutes,bandwidth_utilization_mbps,cost_per_gb_per_month,automatic_failover,rpo_cross_region_seconds,rto_cross_region_minutes,collection_date,transfer_efficiency_score,disaster_recovery_score,cost_efficiency_score,overall_dr_score
+Aurora Global Database,Separated,us-east-1,us-west-2,500,4,100,15,1000,0.02,Yes,1,1,2025-08-20,0.9,0.99,0.5,0.95
+RDS Cross-Region Snapshots,Separated,us-east-1,eu-west-1,500,8,0,45,200,0.015,No,86400,60,2025-08-20,0.48,0.1,0.67,0.29
+Snowflake Cross-Cloud Replication,Separated,AWS us-east-1,Azure eastus,2000,6,300,5,800,0.025,Yes,300,4,2025-08-20,0.77,0.94,0.4,0.85
+BigQuery Cross-Region Dataset Copy,Separated,us-central1,europe-west1,10000,12,0,2,2000,0.01,No,86400,5,2025-08-20,0.7,0.47,1.0,0.58
+Traditional MySQL Master-Slave,Coupled,us-east-1,us-west-2,500,24,2,180,50,0.05,Manual,2,300,2025-08-20,0.02,0.5,0.2,0.26

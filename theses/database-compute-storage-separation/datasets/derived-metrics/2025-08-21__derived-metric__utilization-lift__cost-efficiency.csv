@@ -1,0 +1,16 @@
+workload_pattern,database_service,peak_qps,baseline_cost_per_hour,rightsized_cost_per_hour,cost_savings_usd,utilization_lift_per_qps,scaling_model,storage_cost_constant,compute_elasticity_factor,storage_gb,observation_period_days,source_analysis
+diurnal_4x_peak,Traditional_RDBMS,1000,100.0,100.0,0.0,0.000,monolithic,43200.0,1.0,2000,30,elasticity_savings
+diurnal_4x_peak,Snowflake,1000,40.0,30.0,10.0,0.010,disaggregated,36000.0,4.0,2000,30,elasticity_savings
+diurnal_4x_peak,BigQuery,2000,25.0,12.3,12.7,0.006,serverless,29250.0,8.0,1500,30,elasticity_savings
+diurnal_4x_peak,Aurora_Serverless_v2,800,15.0,7.2,7.8,0.010,serverless,21600.0,10.0,1000,30,elasticity_savings
+diurnal_4x_peak,PlanetScale,600,10.0,6.0,4.0,0.007,serverless,18000.0,6.0,800,30,elasticity_savings
+steady_with_spikes,Snowflake,500,40.0,32.4,7.6,0.015,disaggregated,32400.0,2.0,2000,30,elasticity_savings
+batch_processing,Databricks_SQL,200,50.0,15.0,35.0,0.175,disaggregated,54000.0,12.0,5000,30,elasticity_savings
+ecommerce_peak,DynamoDB,3000,75.0,45.0,30.0,0.010,managed_serverless,25000.0,5.0,1200,30,real_world_performance
+gaming_spikes,Cosmos_DB,2500,60.0,24.0,36.0,0.014,managed_serverless,28000.0,8.0,1500,30,real_world_performance
+ml_training_batch,Redshift_Serverless,100,120.0,36.0,84.0,0.840,managed_serverless,45000.0,15.0,10000,30,real_world_performance
+social_media_diurnal,MongoDB_Atlas,1500,45.0,27.0,18.0,0.012,managed,22000.0,3.0,3000,30,real_world_performance
+iot_sensor_bursts,InfluxDB_Cloud,800,35.0,14.0,21.0,0.026,time_series_optimized,18000.0,6.0,2000,30,tco_curves
+analytics_dashboard,ClickHouse_Cloud,400,55.0,22.0,33.0,0.083,columnar_optimized,35000.0,8.0,4000,30,tco_curves
+search_indexing,Elasticsearch_Cloud,1200,42.0,21.0,21.0,0.018,search_optimized,26000.0,5.0,2500,30,tco_curves
+cache_invalidation,Redis_Enterprise,5000,25.0,15.0,10.0,0.002,memory_optimized,15000.0,3.0,500,30,tco_curves

@@ -1,0 +1,57 @@
+{
+  "analysis_date": "2025-08-20 21:52:51",
+  "dataset_coverage": {
+    "total_records": 52,
+    "separated_architecture_records": 35,
+    "coupled_architecture_records": 11,
+    "separation_coverage_percentage": 76.1
+  },
+  "cache_analysis": {
+    "cache_buffer_analysis": {
+      "separated_avg_hit_rate": 93.2,
+      "coupled_avg_hit_rate": 86.5,
+      "hit_rate_advantage": 6.7,
+      "separated_avg_warmup_minutes": 13.0,
+      "coupled_avg_warmup_minutes": 32.5,
+      "warmup_advantage_minutes": 19.5,
+      "separated_effectiveness_score": 0.89,
+      "coupled_effectiveness_score": 0.77,
+      "effectiveness_advantage": 0.13
+    }
+  },
+  "backup_analysis": {
+    "backup_snapshot_analysis": {
+      "separated_backup_efficiency": 0.78,
+      "coupled_backup_efficiency": 0.23,
+      "backup_efficiency_advantage": 0.55,
+      "separated_recovery_efficiency": 0.73,
+      "coupled_recovery_efficiency": 0.18,
+      "recovery_efficiency_advantage": 0.55,
+      "separated_avg_rto_minutes": 21.2,
+      "coupled_avg_rto_minutes": 165.0,
+      "rto_improvement_minutes": 143.8,
+      "separated_avg_rpo_seconds": 650.3,
+      "coupled_avg_rpo_seconds": 45000.0
+    }
+  },
+  "sla_analysis": {
+    "sla_analysis": {
+      "avg_sla_percentage": 99.956,
+      "min_sla_percentage": 99.9,
+      "max_sla_percentage": 99.99,
+      "avg_rpo_seconds": 1.2,
+      "avg_rto_minutes": 3.4,
+      "services_with_zero_rpo": 3,
+      "total_services": 5
+    }
+  },
+  "key_findings": [
+    "Separated architectures achieve 6.7% higher cache hit rates",
+    "Separated architectures have 19.5 minutes faster cache warm-up",
+    "Cache effectiveness scores are 0.13 points higher for separated architectures",
+    "Separated architectures improve RTO by 143.8 minutes on average",
+    "Backup efficiency is 0.55 points higher for separated architectures",
+    "60% of modern separated services achieve zero RPO",
+    "Average SLA commitment is 99.956% availability"
+  ]
+}

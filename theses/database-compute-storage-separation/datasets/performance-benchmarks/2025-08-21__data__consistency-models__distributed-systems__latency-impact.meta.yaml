@@ -1,0 +1,82 @@
+# Dataset Metadata
+dataset:
+  title: "Consistency Model Impact on Database Latency and Availability"
+  description: "Performance trade-offs between different consistency models in distributed database systems"
+  topic: "Database Consistency Models Performance Analysis"
+  metric: "Latency, availability, throughput penalties for different consistency guarantees"
+  
+# Source Information
+source:
+  name: "Distributed Systems Research"
+  url: "SOSP/OSDI papers on distributed database consistency"
+  accessed: "2025-08-21"
+  license: "Academic research compilation"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 15
+  columns: 9
+  time_range: "2020 - 2024"
+  update_frequency: "annual"
+  collection_method: "compiled from distributed systems research and vendor studies"
+  
+# Column Descriptions
+columns:
+  consistency_model:
+    type: "string"
+    description: "Type of consistency guarantee provided by the system"
+    unit: "categorical"
+  replication_factor:
+    type: "number"
+    description: "Number of replicas maintained for fault tolerance"
+    unit: "count"
+  write_latency_ms:
+    type: "number"
+    description: "Average latency for write operations requiring consensus"
+    unit: "milliseconds"
+  read_latency_ms:
+    type: "number"
+    description: "Average latency for read operations"
+    unit: "milliseconds"
+  availability_pct:
+    type: "number"
+    description: "System availability percentage under normal conditions"
+    unit: "percentage"
+  partition_tolerance:
+    type: "string"
+    description: "Ability to continue operating during network partitions"
+    unit: "categorical"
+  throughput_penalty_pct:
+    type: "number"
+    description: "Throughput reduction compared to eventual consistency"
+    unit: "percentage"
+  use_case:
+    type: "string"
+    description: "Typical application scenario for this consistency model"
+    unit: "categorical"
+  failure_recovery_time_sec:
+    type: "number"
+    description: "Time to detect and recover from node failures"
+    unit: "seconds"
+    
+# Quality Indicators
+quality:
+  completeness: "100%"
+  sample_size: "Multiple distributed database implementations"
+  confidence: "high"
+  limitations:
+    - "Performance varies significantly with network topology"
+    - "Workload characteristics affect consistency overhead"
+    - "Implementation quality varies between database systems"
+    - "Geographic distribution amplifies latency differences"
+  
+# Usage Notes
+notes:
+  - "CAP theorem trade-offs clearly visible in the data"
+  - "Linearizable consistency provides strongest guarantees but highest latency"
+  - "Eventual consistency offers best performance but weaker guarantees"
+  - "Session consistency models balance usability and performance"
+  - "Replication factor significantly affects write latency"
+  - "Partition tolerance critical for geo-distributed deployments"
+  - "Throughput penalties compound with storage separation latency"

@@ -1,0 +1,12 @@
+dataset:
+  title: Cold Start Penalties in Database Scaling
+  description: Performance penalties and recovery times during database scaling events
+  topic: Database Scaling and Cache Behavior
+  metric: Performance penalty percentage, recovery time, affected queries
+source:
+  name: Performance Studies and Cloud Provider Documentation
+  accessed: '2025-08-20'
+  credibility: Tier A
+quality:
+  completeness: 85%
+  confidence: High

@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "title": "Data Movement and Interoperability Pattern Analysis",
+    "date": "2025-08-20",
+    "scope": "Pipeline patterns, hybrid storage, query engine integration"
+  },
+  "pipeline_patterns": {
+    "pattern_adoption": {
+      "ETL": 65,
+      "ELT": 45,
+      "Real-time Streaming": 30,
+      "Micro-batch": 55,
+      "Log-based CDC": 40,
+      "Trigger-based CDC": 25
+    },
+    "latency_characteristics": {
+      "ETL": "Hours to Days",
+      "ELT": "Minutes to Hours",
+      "Real-time Streaming": "Milliseconds to Seconds",
+      "Micro-batch": "1-15 Minutes",
+      "Log-based CDC": "Sub-second",
+      "Trigger-based CDC": "Seconds to Minutes"
+    },
+    "cost_models": {
+      "ETL": "Compute + Storage",
+      "ELT": "Storage + Query Compute",
+      "Real-time Streaming": "Continuous Compute",
+      "Micro-batch": "Scheduled Compute",
+      "Log-based CDC": "Agent + Network",
+      "Trigger-based CDC": "Database Overhead"
+    },
+    "transformation_locations": {
+      "ETL": "Dedicated Compute",
+      "ELT": "Target System",
+      "Real-time Streaming": "Stream Processor",
+      "Micro-batch": "Distributed Compute",
+      "Log-based CDC": "CDC Agent",
+      "Trigger-based CDC": "Source Database"
+    }
+  },
+  "storage_patterns": {
+    "tiering_patterns": {
+      "Hot-Warm-Cold Tiering": "60-80% vs all-SSD",
+      "Distributed Cache + Object": "40-60% vs memory-only",
+      "Intelligent Tiering": "70-85% vs single-tier",
+      "Columnar Cache + Parquet": "80-90% vs in-memory"
+    },
+    "cache_performance": {
+      "Hot-Warm-Cold Tiering": "85-95%",
+      "Distributed Cache + Object": "70-85%",
+      "Intelligent Tiering": "80-90%",
+      "Columnar Cache + Parquet": "90-98%"
+    },
+    "cost_optimizations": {
+      "Access Pattern Analysis": "30-50%",
+      "Automatic Lifecycle Policies": "40-60%",
+      "Compression + Tiering": "50-70%"
+    },
+    "performance_improvements": {
+      "Hot-Warm-Cold Tiering": "10-50x for hot data",
+      "Distributed Cache + Object": "5-20x for cached data",
+      "Intelligent Tiering": "Variable based on access",
+      "Columnar Cache + Parquet": "100-1000x for repeated queries"
+    }
+  },
+  "query_engines": {
+    "engine_adoption": {
+      "Trino (formerly Presto)": {
+        "position": "Market Leader",
+        "tier": "Enterprise",
+        "use_case": "Cross-source Analytics"
+      },
+      "DuckDB": {
+        "position": "Rapid Growth",
+        "tier": "Developer Tools",
+        "use_case": "Local Analytics"
+      },
+      "Apache DataFusion": {
+        "position": "Emerging",
+        "tier": "Infrastructure",
+        "use_case": "Custom Query Engines"
+      },
+      "Apache Drill": {
+        "position": "Stable/Niche",
+        "tier": "Specialized Use",
+        "use_case": "Exploratory Analytics"
+      }
+    },
+    "performance_profiles": {
+      "Trino (formerly Presto)": "High throughput, complex queries",
+      "DuckDB": "Low latency, medium throughput",
+      "Apache DataFusion": "High performance, customizable",
+      "Apache Drill": "Medium throughput, flexible schema"
+    },
+    "federation_tradeoffs": {
+      "Query Federation": {
+        "latency": "Higher (network dependent)",
+        "storage_cost": "Lower (no duplication)",
+        "compute_cost": "Higher (repeated processing)",
+        "best_for": "Occasional cross-source queries"
+      },
+      "Data Replication": {
+        "latency": "Lower (local access)",
+        "storage_cost": "Higher (data duplication)",
+        "compute_cost": "Lower (pre-processed)",
+        "best_for": "Frequent cross-source analytics"
+      },
+      "Hybrid (Cache + Federation)": {
+        "latency": "Variable (cache hit dependent)",
+        "storage_cost": "Medium (selective caching)",
+        "compute_cost": "Medium (smart caching)",
+        "best_for": "Mixed query patterns"
+      }
+    },
+    "deployment_models": {
+      "Trino (formerly Presto)": "Cluster-based",
+      "DuckDB": "Embedded/Serverless",
+      "Apache DataFusion": "Library/Framework",
+      "Apache Drill": "Cluster-based"
+    }
+  },
+  "insights": {
+    "key_trends": [
+      "ETL remains dominant with 65% adoption, but ELT is gaining ground for lakehouse architectures",
+      "Real-time processing (streaming + CDC) combined adoption is 70%, indicating shift toward real-time data",
+      "Query engine market shows fragmentation: Trino for enterprise, DuckDB for embedded, DataFusion for custom solutions"
+    ],
+    "architectural_patterns": [
+      "Hybrid storage tiering (hot/warm/cold) enables 60-80% cost reduction while maintaining performance",
+      "Cache hit rates of 85-95% achievable with intelligent tiering algorithms",
+      "Federation vs replication trade-off depends on query frequency and data freshness requirements"
+    ],
+    "cost_optimization_strategies": [
+      "Compression + tiering combination provides 50-70% cost savings with immediate implementation",
+      "ML-based access pattern prediction offers 30-50% savings but requires 3-6 month investment",
+      "Object storage intelligent tiering provides 70-85% cost reduction for infrequently accessed data"
+    ],
+    "performance_considerations": [
+      "Columnar caching provides 100-1000x performance improvement for repeated analytical queries",
+      "Cross-source queries in federated systems add network latency but avoid data duplication costs",
+      "Local processing (DuckDB style) eliminates network costs but limits data size and concurrency"
+    ]
+  }
+}

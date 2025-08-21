@@ -1,0 +1,16 @@
+deployment_scenario,data_location,compute_location,egress_gb_monthly,distance_factor,base_transfer_cost_per_gb,data_gravity_index,monthly_egress_cost_usd,compute_chase_frequency,architecture_penalty,optimization_potential,source_dataset
+single_az_colocation,us_east_1a,us_east_1a,0,1.0,0.0,0.0,0.0,never,none,none,data_movement_tax
+cross_az_same_region,us_east_1a,us_east_1b,500,1.2,0.01,600.0,5.0,weekly,low,cache_optimization,data_movement_tax
+cross_region_same_continent,us_east_1,us_west_2,1000,2.5,0.02,2500.0,20.0,daily,medium,regional_replicas,data_movement_tax
+cross_region_intercontinental,us_east_1,eu_west_1,800,4.5,0.09,3600.0,72.0,monthly,high,data_localization,data_movement_tax
+multi_cloud_replication,aws_us_east_1,gcp_us_central1,1200,3.8,0.087,4560.0,104.4,continuous,very_high,dedicated_links,data_movement_tax
+analytics_offload,operational_db,data_warehouse,2000,2.0,0.023,4000.0,46.0,daily,medium,streaming_replication,pipeline_patterns
+ml_training_export,production_db,ml_platform,5000,3.2,0.055,16000.0,275.0,weekly,high,model_serving_optimization,pipeline_patterns
+backup_to_cold_storage,primary_region,backup_region,10000,2.8,0.02,28000.0,200.0,monthly,low,incremental_backups,data_movement_tax
+cdc_streaming,source_system,target_system,3000,1.8,0.015,5400.0,45.0,continuous,medium,compression_optimization,pipeline_patterns
+search_index_sync,transactional_db,search_cluster,800,1.5,0.025,1200.0,20.0,hourly,medium,differential_indexing,federation_patterns
+cache_invalidation,origin_db,edge_caches,1500,2.2,0.08,2640.0,120.0,continuous,high,cdn_optimization,federation_patterns
+reporting_etl,oltp_system,reporting_system,4000,2.0,0.03,8000.0,120.0,daily,medium,incremental_etl,federation_patterns
+disaster_recovery_sync,primary_site,dr_site,6000,5.0,0.09,30000.0,540.0,continuous,very_high,async_replication,data_movement_tax
+edge_data_collection,iot_devices,central_processing,2500,3.5,0.12,8750.0,300.0,continuous,very_high,edge_preprocessing,data_movement_tax
+content_distribution,content_origin,global_cdn,8000,2.8,0.085,22400.0,680.0,continuous,high,regional_caching,data_movement_tax

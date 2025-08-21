@@ -1,0 +1,11 @@
+contract_tier,annual_compute_commit_usd,annual_storage_commit_usd,bursting_threshold_percent,overage_multiplier,discount_rate_compute,discount_rate_storage,contract_flexibility,early_termination_penalty,cross_service_credits,volume_milestone_bonus,ramp_up_period_months,support_tier_included
+tier_1_startup,25000,15000,100,1.5,15,10,quarterly_adjustment,25_percent,yes,none,3,basic
+tier_2_growth,75000,50000,75,1.8,25,20,semi_annual_adjustment,30_percent,yes,5_percent_at_2x,6,standard
+tier_3_enterprise,250000,150000,50,2.0,35,30,annual_adjustment,40_percent,yes,10_percent_at_3x,12,premium
+tier_4_strategic,750000,500000,25,2.5,45,40,fixed_term,50_percent,yes,15_percent_at_5x,18,enterprise
+tier_5_mega_deal,2000000,1500000,10,3.0,55,50,fixed_term_with_true_up,60_percent,yes,20_percent_at_10x,24,white_glove
+cloud_native_vendor_s,50000,25000,unlimited,1.2,20,15,monthly_true_up,none,yes,usage_bonus_tiers,1,self_service
+hyperscaler_managed_m,100000,75000,200,1.4,30,25,quarterly_true_up,15_percent,yes,sustained_use_bonus,3,managed
+traditional_vendor_l,300000,0,0,4.0,40,included,annual_fixed,75_percent,no,volume_discounts,12,comprehensive
+serverless_native_xs,10000,5000,unlimited,1.1,10,5,pay_as_go,none,yes,scale_discounts,0,community
+multicloud_platform_xl,500000,300000,50,1.6,38,32,bi_annual_review,35_percent,yes,cross_cloud_bonus,6,platform_support

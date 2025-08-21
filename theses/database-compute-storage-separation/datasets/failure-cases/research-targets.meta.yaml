@@ -1,0 +1,58 @@
+# Dataset Metadata
+dataset:
+  title: "Research Targets for Compute-Storage Separation Failure Case Investigation"
+  description: "Structured list of research targets and search strategies for finding additional counter-evidence and failure cases"
+  topic: "Database Compute Storage Separation Counter-Evidence Research"
+  metric: "Research methodology and target identification"
+  
+# Source Information
+source:
+  name: "Research methodology framework"
+  url: "Internally generated research strategy"
+  accessed: "2025-08-21"
+  license: "Open research methodology"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 8
+  columns: 5
+  time_range: "Research planning framework"
+  update_frequency: "updated as research progresses"
+  collection_method: "systematic research planning"
+  
+# Column Descriptions
+columns:
+  category:
+    type: "string"
+    description: "Primary failure category being researched"
+    unit: "categorical"
+  title:
+    type: "string"
+    description: "Specific research target title"
+    unit: "descriptive"
+  description:
+    type: "string"
+    description: "Detailed description of research focus"
+    unit: "descriptive"
+  search_terms:
+    type: "string"
+    description: "Key search terms and phrases for investigation"
+    unit: "search strategy"
+  expected_findings:
+    type: "string"
+    description: "Anticipated types of evidence or documentation"
+    unit: "research hypothesis"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - comprehensive research framework"
+  sample_size: "8 targeted research areas across 4 failure categories"
+  confidence: "high"
+  limitations: ["Research targets may evolve based on findings", "Availability of sources varies by category"]
+  
+# Usage Notes
+notes:
+  - "Provides systematic approach to counter-evidence research"
+  - "Can be used to guide additional data collection efforts"
+  - "Search terms optimized for academic and industry source discovery"

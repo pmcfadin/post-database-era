@@ -1,0 +1,6 @@
+survey_source,year,respondent_role,experience_years,company_size,current_architecture,preferred_architecture,adoption_driver_primary,adoption_driver_secondary,main_blocker,time_to_adopt_months,sla_target_ms,topology_preference,confidence_level,adoption_readiness_score,complexity_preference,confidence_numeric
+Stack Overflow Developer Survey,2024,Backend Developer,5-9,100-499,Coupled,Separated,Scalability,Cost Optimization,Operational Complexity,12,100,Multi-Region,High,3,4,4
+Stack Overflow Developer Survey,2024,Database Administrator,10+,1000+,Hybrid,Separated,Reliability,Scalability,Latency Concerns,18,50,Single-Region,Medium,4,4,3
+CNCF Annual Survey,2024,Platform Engineer,3-5,50-99,Coupled,Coupled,Simplicity,Tooling Maturity,Team Skills,6,200,Single-AZ,Medium,2,2,3
+CNCF Annual Survey,2024,Site Reliability Engineer,5-9,500-999,Separated,Separated,Reliability,Independent Scaling,Latency Overhead,24,75,Multi-AZ,High,4,4,4
+Gartner Database Architecture Study,2024,Enterprise Architect,10+,1000+,Hybrid,Hybrid,Cost Optimization,Vendor Flexibility,Integration Complexity,36,25,Multi-Cloud,High,3,3,4

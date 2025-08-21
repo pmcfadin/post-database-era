@@ -1,0 +1,16 @@
+workload_type,engine_type,local_storage,remote_storage,p95_local_ms,p95_remote_ms,latency_tax_percent,operation_type,stack_type,deployment_scenario,tolerance_threshold_ms,source_benchmark
+oltp_primary,PostgreSQL,local_nvme,ebs_gp3,0.045,0.500,1011.1,read_write_mixed,relational,cloud_native,2.0,latency_benchmarks
+oltp_primary,PostgreSQL,local_nvme,network_nvme_rdma,0.045,0.350,677.8,read_write_mixed,relational,disaggregated,2.0,latency_benchmarks
+oltp_primary,PostgreSQL,local_nvme,network_nvme_tcp,0.045,0.450,900.0,read_write_mixed,relational,disaggregated,2.0,latency_benchmarks
+oltp_secondary,Cassandra,local_nvme,ebs_gp3,0.045,0.500,1011.1,write_heavy,nosql,distributed,5.0,latency_benchmarks
+olap_analytics,ClickHouse,local_nvme,s3_standard,2.5,15.0,500.0,read_heavy,columnar,analytical,50.0,latency_benchmarks
+olap_analytics,Trino,local_nvme,s3_standard,2.5,15.0,500.0,scan_aggregation,query_engine,lakehouse,100.0,latency_benchmarks
+transactional,Aurora_MySQL,local_nvme,aurora_storage,0.045,2.0,4344.4,read_write_mixed,managed,cloud_native,5.0,cross_zone_penalties
+transactional,Spanner,local_nvme,multi_az,0.045,3.5,7677.8,read_write_mixed,managed,global,10.0,cross_zone_penalties
+key_value,DynamoDB,local_nvme,dynamodb_backend,0.045,1.2,2566.7,mixed_operations,nosql,managed,3.0,cross_zone_penalties
+document_store,MongoDB,local_nvme,network_storage,0.045,0.800,1677.8,document_ops,nosql,managed,5.0,cross_zone_penalties
+time_series,InfluxDB,local_nvme,object_store,0.200,5.0,2400.0,time_series_writes,specialized,iot,20.0,storage_latency
+graph_db,Neo4j,local_nvme,network_storage,0.100,2.0,1900.0,graph_traversal,graph,analytical,10.0,storage_latency
+vector_db,Pinecone,local_nvme,vector_backend,1.0,8.0,700.0,similarity_search,vector,ml,25.0,storage_latency
+search_engine,Elasticsearch,local_nvme,network_storage,0.500,3.0,500.0,text_search,search,analytical,15.0,storage_latency
+cache_layer,Redis,local_nvme,network_redis,0.030,0.200,566.7,cache_operations,cache,in_memory,1.0,storage_latency

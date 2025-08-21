@@ -1,0 +1,86 @@
+# Dataset Metadata
+dataset:
+  title: "NVMe vs Disaggregated Storage Performance and Cost Comparison"
+  description: "Comprehensive comparison of local NVMe storage vs disaggregated storage across different database engines, including performance metrics, cost analysis, and TCO implications"
+  topic: "Database Compute Storage Separation"
+  metric: "Performance per dollar, latency, throughput, IOPS"
+
+# Source Information
+source:
+  name: "Cloud Provider Pricing Analysis & Performance Studies"
+  url: "Multiple AWS, GCP, Azure pricing pages and performance documentation"
+  accessed: "2025-08-20"
+  license: "Public pricing information"
+  credibility: "Tier A"
+
+# Data Characteristics
+characteristics:
+  rows: 10
+  columns: 11
+  time_range: "2024-2025 pricing"
+  update_frequency: "quarterly"
+  collection_method: "aggregated from official pricing and performance studies"
+
+# Column Descriptions
+columns:
+  storage_type:
+    type: "string"
+    description: "Type of storage architecture"
+    unit: "categorical"
+  engine:
+    type: "string"
+    description: "Database or query engine"
+    unit: "categorical"
+  workload:
+    type: "string"
+    description: "Workload type (OLTP, OLAP, ETL)"
+    unit: "categorical"
+  iops_capability:
+    type: "number"
+    description: "Maximum IOPS capability"
+    unit: "operations per second"
+  latency_p99_ms:
+    type: "number"
+    description: "99th percentile latency"
+    unit: "milliseconds"
+  throughput_mbps:
+    type: "number"
+    description: "Maximum throughput capability"
+    unit: "megabytes per second"
+  cost_per_gb_month:
+    type: "number"
+    description: "Storage cost per GB per month"
+    unit: "USD"
+  compute_cost_per_hour:
+    type: "number"
+    description: "Compute cost per hour"
+    unit: "USD"
+  total_cost_per_tb_hour:
+    type: "number"
+    description: "Total cost per TB per hour"
+    unit: "USD"
+  source:
+    type: "string"
+    description: "Source of the data point"
+    unit: "text"
+  notes:
+    type: "string"
+    description: "Additional context and details"
+    unit: "text"
+
+# Quality Indicators
+quality:
+  completeness: "100% - all rows have complete data"
+  sample_size: "10 representative storage configurations"
+  confidence: "high"
+  limitations:
+    - "Costs based on list pricing, actual costs may vary with discounts"
+    - "Performance metrics are theoretical maximums, not sustained performance"
+    - "Workload-specific optimizations may significantly impact results"
+
+# Usage Notes
+notes:
+  - "Local NVMe shows 10-100x better IOPS but higher cost per TB"
+  - "Disaggregated storage offers better elasticity and lower TCO at scale"
+  - "Aurora Serverless provides best balance of performance and cost efficiency"
+  - "Object storage (S3) has highest latency but lowest storage costs"

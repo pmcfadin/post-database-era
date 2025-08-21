@@ -1,0 +1,65 @@
+characteristics:
+  collection_method: research_synthesis
+  columns: 12
+  rows: 6
+  time_range: '2025-08-20'
+  update_frequency: static
+columns:
+  acid_compliance:
+    description: Level of ACID compliance supported
+    type: string
+  architecture_pattern:
+    description: Compute-storage separation pattern
+    type: string
+  commit_latency_p99:
+    description: 99th percentile commit latency
+    type: string
+    unit: milliseconds
+  commit_log_type:
+    description: Type of commit logging mechanism
+    type: string
+  consistency_model:
+    description: Consistency guarantees provided
+    type: string
+  distributed_transaction_support:
+    description: Distributed transaction capabilities
+    type: string
+  durability_mechanism:
+    description: How data durability is ensured
+    type: string
+  failure_recovery_time:
+    description: Typical recovery time from failures
+    type: string
+  network_dependency:
+    description: Dependency on network performance
+    type: string
+  suitable_workloads:
+    description: Best-fit workload types
+    type: string
+  throughput_characteristics:
+    description: Throughput patterns and limitations
+    type: string
+  trade_offs:
+    description: Key architectural trade-offs
+    type: string
+dataset:
+  description: Analysis of ACID compliance, durability, and consistency trade-offs
+    in different compute-storage separation patterns
+  metric: commit_latency_p99
+  title: Transactional Requirements Matrix for Separation Architectures
+  topic: database-compute-storage-separation
+notes:
+- Latency ranges are typical values, actual performance varies by implementation
+- Network dependency impacts failure scenarios significantly
+- Consider regulatory requirements for data durability
+quality:
+  completeness: 100%
+  confidence: high
+  limitations:
+  - Performance characteristics may vary by implementation
+source:
+  accessed: '2025-08-20'
+  credibility: Tier A
+  license: CC-BY-4.0
+  name: Research Synthesis
+  url: Database vendor documentation and academic papers

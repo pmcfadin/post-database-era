@@ -1,0 +1,16 @@
+consistency_model,replication_factor,write_latency_ms,read_latency_ms,availability_pct,partition_tolerance,throughput_penalty_pct,use_case,failure_recovery_time_sec
+linearizable,3,15.2,2.1,99.9,low,45,financial_transactions,30
+sequential,3,8.4,1.8,99.95,medium,25,user_sessions,45
+causal,3,5.2,1.5,99.99,high,15,social_feeds,60
+eventual,3,2.1,1.2,99.999,high,5,content_delivery,120
+weak,3,1.8,1.1,99.999,high,2,analytics,180
+strong_session,3,6.8,1.6,99.98,medium,20,user_preferences,50
+monotonic_read,3,4.5,1.4,99.99,high,12,audit_logs,75
+monotonic_write,3,7.2,1.7,99.97,medium,22,order_processing,40
+read_your_writes,3,5.8,1.5,99.98,medium,18,user_generated_content,55
+bounded_staleness,3,3.2,1.3,99.99,high,8,real_time_dashboards,90
+linearizable,5,22.8,2.8,99.99,low,60,critical_banking,25
+sequential,5,12.1,2.2,99.995,medium,35,e_commerce,40
+causal,5,7.4,1.8,99.999,high,20,collaborative_editing,55
+eventual,5,3.2,1.4,99.9999,high,8,cdn_propagation,150
+weak,5,2.1,1.2,99.9999,high,3,batch_processing,200

@@ -1,0 +1,115 @@
+# Dataset Metadata
+dataset:
+  title: "Derived Metrics Summary - Compute-Storage Separation Quantitative Analysis"
+  description: "Statistical summary of the 5 key derived metrics measuring compute-storage separation effectiveness across multiple dimensions"
+  topic: "Database Compute Storage Separation"
+  metric: "Composite statistical analysis of SE, Latency Tax, Utilization Lift, Failure Domain Isolation, and Data Gravity Index"
+  
+# Source Information
+source:
+  name: "Statistical analysis of all 5 derived metric datasets"
+  url: "Internal metric synthesis"
+  accessed: "2025-08-21"
+  license: "Internal research use"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 5
+  columns: 12
+  time_range: "Current generation database systems"
+  update_frequency: "quarterly"
+  collection_method: "statistical aggregation of derived metrics"
+  
+# Column Descriptions
+columns:
+  metric_name:
+    type: "string"
+    description: "Name of the derived metric"
+    unit: "categorical"
+  metric_formula:
+    type: "string"
+    description: "Formula used to calculate the metric"
+    unit: "categorical"
+  sample_size:
+    type: "number"
+    description: "Number of data points used in metric calculation"
+    unit: "count"
+  mean_value:
+    type: "number"
+    description: "Statistical mean of the metric across all samples"
+    unit: "varies by metric"
+  median_value:
+    type: "number"
+    description: "Statistical median of the metric across all samples"
+    unit: "varies by metric"
+  std_deviation:
+    type: "number"
+    description: "Standard deviation indicating variability"
+    unit: "varies by metric"
+  min_value:
+    type: "number"
+    description: "Minimum observed value"
+    unit: "varies by metric"
+  max_value:
+    type: "number"
+    description: "Maximum observed value"
+    unit: "varies by metric"
+  interpretation_threshold_low:
+    type: "number"
+    description: "Lower threshold for good performance on this metric"
+    unit: "varies by metric"
+  interpretation_threshold_high:
+    type: "number"
+    description: "Upper threshold for excellent performance on this metric"
+    unit: "varies by metric"
+  key_insight:
+    type: "string"
+    description: "Primary insight derived from metric analysis"
+    unit: "categorical"
+  architectural_implication:
+    type: "string"
+    description: "Practical implication for system architecture decisions"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all derived metrics included"
+  sample_size: "75 total data points across 5 metrics"
+  confidence: "high"
+  limitations: 
+    - "Metrics measured across different time periods and contexts"
+    - "Some thresholds based on industry best practices rather than hard limits"
+    - "Cross-metric correlations not fully explored"
+    - "Regional and industry-specific variations not normalized"
+  
+# Key Findings Summary
+findings:
+  separation_elasticity:
+    - "Mean SE of 0.427 indicates moderate adoption of independent scaling"
+    - "High variability (std dev 0.196) shows workload-dependent effectiveness"
+    - "Serverless and gaming workloads lead adoption"
+  latency_tax:
+    - "Mean latency tax of 2654% indicates severe performance penalties"
+    - "OLTP workloads particularly affected by remote storage"
+    - "Sub-millisecond requirements often incompatible with separation"
+  utilization_lift:
+    - "Mean lift of $0.067 per QPS shows significant cost savings potential"
+    - "Batch processing workloads show 10x higher efficiency gains"
+    - "Traditional monolithic systems show zero utilization lift"
+  failure_domain_isolation:
+    - "Mean score of 76.3 indicates good reliability benefits from separation"
+    - "Separated architectures consistently outperform coupled systems"
+    - "Stateless compute provides significant reliability advantages"
+  data_gravity_index:
+    - "Mean index of 8486 indicates moderate data movement penalties"
+    - "Cross-region scenarios face substantial cost implications"
+    - "Data locality remains critical factor for separation viability"
+  
+# Usage Notes
+notes:
+  - "Use threshold ranges to evaluate separation viability for specific workloads"
+  - "High standard deviations indicate context-dependent metric performance"
+  - "Consider all 5 metrics together for comprehensive separation assessment"
+  - "Metrics should be weighted based on workload priorities (cost vs performance vs reliability)"
+  - "Regular metric monitoring recommended for production separation implementations"

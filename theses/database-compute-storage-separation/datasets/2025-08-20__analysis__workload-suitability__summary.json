@@ -1,0 +1,20 @@
+{
+  "analysis_date": "2025-08-20",
+  "total_workload_architecture_combinations": 90,
+  "highly_recommended_combinations": 13,
+  "recommended_combinations": 49,
+  "not_recommended_combinations": 3,
+  "average_compatibility_score": 3.78,
+  "highest_scoring_combination": "OLAP - Batch Analytics + Local Storage + Replication",
+  "lowest_scoring_combination": "OLTP - High Frequency + Eventually Consistent Object Store",
+  "ai_ml_patterns_analyzed": 7,
+  "high_priority_ai_ml_patterns": 6,
+  "excellent_separation_ai_ml_patterns": 6,
+  "top_ai_ml_pattern": "Batch Training Pipeline",
+  "key_insights": [
+    "OLAP workloads show highest compatibility with separation (avg score: 4.26)",
+    "OLTP workloads show lower compatibility (avg score: 3.01)",
+    "AI/ML batch workloads are excellent candidates for separation",
+    "Network dependency is a key factor in architecture selection"
+  ]
+}

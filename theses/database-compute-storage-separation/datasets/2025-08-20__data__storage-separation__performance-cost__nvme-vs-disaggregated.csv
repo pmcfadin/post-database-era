@@ -1,0 +1,11 @@
+storage_type,engine,workload,iops_capability,latency_p99_ms,throughput_mbps,cost_per_gb_month,compute_cost_per_hour,total_cost_per_tb_hour,source,notes
+local_nvme,PostgreSQL,OLTP,500000,0.1,6000,0.15,0.156,156.0,AWS i3.large pricing analysis,"Direct-attached NVMe, no network overhead"
+local_nvme,Cassandra,OLTP,400000,0.2,5500,0.15,0.156,156.0,AWS i3.large pricing analysis,Optimized for distributed workloads
+local_nvme,ClickHouse,OLAP,300000,2.5,4800,0.15,0.312,312.0,AWS i3.xlarge pricing analysis,Columnar analytics on local storage
+ebs_gp3,PostgreSQL_RDS,OLTP,16000,1.2,1000,0.08,0.192,248.0,AWS EBS gp3 + RDS pricing,"Network attached storage, moderate latency"
+ebs_gp3,MySQL_RDS,OLTP,16000,1.5,1000,0.08,0.192,248.0,AWS EBS gp3 + RDS pricing,Managed database with network storage
+s3_standard,Trino,OLAP,5500,15.0,3500,0.023,0.192,215.5,AWS S3 + EC2 pricing analysis,Object storage with query engine
+s3_standard,Spark_SQL,ETL,5500,20.0,3000,0.023,0.384,407.5,AWS S3 + EC2 pricing analysis,Large batch processing on object storage
+s3_standard,Athena,OLAP,5500,25.0,2500,0.023,0.0,23.0,AWS S3 + Athena pricing,"Serverless query engine, no compute costs when idle"
+ebs_io2,PostgreSQL_RDS,OLTP,64000,0.5,4000,0.125,0.384,512.0,AWS EBS io2 + RDS pricing,High-performance network storage
+aurora_storage,Aurora_Serverless_v2,OLTP,200000,2.0,2000,0.1,0.0,102.0,AWS Aurora Serverless v2 pricing,"Automatic scaling, optimized for cloud"

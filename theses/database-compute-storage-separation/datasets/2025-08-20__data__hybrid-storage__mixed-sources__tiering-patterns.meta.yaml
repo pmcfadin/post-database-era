@@ -1,0 +1,98 @@
+characteristics:
+  collection_method: architecture_analysis
+  columns: 17
+  rows: 7
+  time_range: '2024'
+  update_frequency: annual
+columns:
+  cache_hit_rate:
+    description: 'Storage architecture field: cache_hit_rate'
+    type: string
+    unit: varies
+  cache_size_ratio:
+    description: 'Storage architecture field: cache_size_ratio'
+    type: string
+    unit: varies
+  cold_storage:
+    description: 'Storage architecture field: cold_storage'
+    type: string
+    unit: varies
+  cost_reduction:
+    description: 'Storage architecture field: cost_reduction'
+    type: string
+    unit: varies
+  cost_savings:
+    description: 'Storage architecture field: cost_savings'
+    type: string
+    unit: varies
+  description:
+    description: 'Storage architecture field: description'
+    type: string
+    unit: varies
+  hot_storage:
+    description: 'Storage architecture field: hot_storage'
+    type: string
+    unit: varies
+  implementation_complexity:
+    description: 'Storage architecture field: implementation_complexity'
+    type: string
+    unit: varies
+  optimization_strategy:
+    description: 'Storage architecture field: optimization_strategy'
+    type: string
+    unit: varies
+  pattern_name:
+    description: 'Storage architecture field: pattern_name'
+    type: string
+    unit: varies
+  performance_improvement:
+    description: 'Storage architecture field: performance_improvement'
+    type: string
+    unit: varies
+  source:
+    description: 'Storage architecture field: source'
+    type: string
+    unit: varies
+  time_to_value:
+    description: 'Storage architecture field: time_to_value'
+    type: string
+    unit: varies
+  use_case:
+    description: 'Storage architecture field: use_case'
+    type: string
+    unit: varies
+  vendor:
+    description: 'Storage architecture field: vendor'
+    type: string
+    unit: varies
+  vendor_support:
+    description: 'Storage architecture field: vendor_support'
+    type: string
+    unit: varies
+  warm_storage:
+    description: 'Storage architecture field: warm_storage'
+    type: string
+    unit: varies
+dataset:
+  description: Analysis of hybrid storage patterns combining local NVMe, network storage,
+    and object storage for cost optimization
+  metric: storage_tiering_patterns
+  title: Hybrid Storage Architecture Patterns - Hot/Cold Data Tiering
+  topic: database-compute-storage-separation
+notes:
+- Data represents hybrid storage architecture patterns
+- Performance improvements are workload-dependent
+- Cost savings vary by data size and access patterns
+quality:
+  completeness: 100%
+  confidence: high
+  limitations:
+  - Vendor-specific implementations
+  - Performance varies by workload
+  sample_size: Major cloud and database vendors
+source:
+  accessed: '2025-08-20'
+  credibility: Tier A
+  license: Research Use
+  name: Mixed Cloud and Database Sources
+  url: Multiple architecture and performance studies

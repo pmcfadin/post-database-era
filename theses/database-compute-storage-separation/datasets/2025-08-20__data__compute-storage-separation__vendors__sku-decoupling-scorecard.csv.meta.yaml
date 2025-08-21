@@ -1,0 +1,107 @@
+dataset:
+  title: Database SKU Decoupling Scorecard - Pricing Model Analysis
+  description: Comprehensive analysis of database service pricing models measuring
+    compute-storage decoupling through pricing independence, scaling capabilities,
+    and billing granularity
+  topic: Database Pricing Model Evolution
+  metric: Decoupling score and pricing characteristics
+source:
+  name: Database vendor pricing pages and documentation
+  urls:
+  - https://cloud.google.com/spanner/pricing
+  - https://azure.microsoft.com/en-us/pricing/details/azure-sql-database/
+  - https://databricks.com/product/pricing
+  - https://azure.microsoft.com/en-us/pricing/details/synapse-analytics/
+  - https://cloud.google.com/bigquery/pricing
+  - https://aws.amazon.com/redshift/pricing/
+  - https://planetscale.com/pricing
+  - https://cloud.google.com/sql/pricing
+  - https://cloud.google.com/firestore/pricing
+  - https://azure.microsoft.com/en-us/pricing/details/cosmos-db/
+  - https://aws.amazon.com/rds/aurora/serverless/
+  - https://www.mongodb.com/pricing
+  - https://azure.microsoft.com/en-us/pricing/details/postgresql/
+  - https://aws.amazon.com/rds/aurora/pricing/
+  - https://fauna.com/pricing
+  - https://aws.amazon.com/dynamodb/pricing/
+  - https://aws.amazon.com/rds/mysql/pricing/
+  - https://www.snowflake.com/pricing/
+  - https://www.cockroachlabs.com/pricing/
+  accessed: '2025-08-20'
+  license: Public pricing information
+  credibility: Tier A
+characteristics:
+  rows: 19
+  columns: 18
+  time_range: 2024 pricing models
+  update_frequency: Quarterly (pricing changes)
+  collection_method: Pricing analysis and scoring methodology
+columns:
+  vendor:
+    type: string
+    description: Database vendor or cloud provider
+  service:
+    type: string
+    description: Specific database service name
+  pricing_model:
+    type: string
+    description: High-level pricing structure
+  independent_pricing:
+    type: string
+    description: Whether compute and storage are priced independently
+  compute_unit:
+    type: string
+    description: Unit of compute measurement and pricing
+  storage_unit:
+    type: string
+    description: Unit of storage measurement and pricing
+  min_storage_per_vcpu:
+    type: string
+    description: Minimum storage requirement per compute unit
+  compute_autoscaling:
+    type: string
+    description: Automatic compute scaling capability
+  storage_autoscaling:
+    type: string
+    description: Automatic storage scaling capability
+  billing_granularity:
+    type: string
+    description: Smallest billing time unit
+  elastic_scaling:
+    type: string
+    description: Real-time scaling capability
+  pricing_transparency:
+    type: string
+    description: Clarity of pricing structure
+  storage_tiers:
+    type: string
+    description: Available storage performance tiers
+  compute_pricing_per_hour:
+    type: string
+    description: Representative compute pricing
+  storage_pricing_per_gb:
+    type: string
+    description: Representative storage pricing
+  minimum_commitment:
+    type: string
+    description: Minimum usage or time commitment
+  decoupling_score:
+    type: number
+    description: Calculated decoupling score (0-100)
+  source_url:
+    type: string
+    description: Primary pricing page URL
+quality:
+  completeness: 100% - All fields populated based on available pricing information
+  confidence: High - Based on current published pricing
+  limitations:
+  - Pricing subject to frequent changes
+  - Promotional pricing not reflected
+  - Regional pricing variations not captured
+  - Volume discounts not included
+notes:
+- 'Decoupling score methodology: Independent pricing (30pts) + No minimum storage
+  (20pts) + Autoscaling (25pts) + Billing granularity (15pts) + Elastic scaling (10pts)'
+- Pricing collected from official vendor sources
+- Focus on standard pricing tiers, not enterprise or custom pricing
+- Scores reflect architectural and pricing independence

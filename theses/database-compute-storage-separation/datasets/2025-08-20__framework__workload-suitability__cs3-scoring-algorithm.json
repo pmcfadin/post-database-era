@@ -1,0 +1,100 @@
+{
+  "algorithm_name": "Compute-Storage Separation Suitability Score (CS3)",
+  "version": "1.0",
+  "description": "Multi-factor scoring algorithm to assess workload suitability for compute-storage separation",
+  "score_range": "1-5 (1=Poor fit, 5=Excellent fit)",
+  "factors": [
+    {
+      "factor_name": "Latency Sensitivity",
+      "weight": 0.25,
+      "scoring_criteria": {
+        "5": "Latency tolerance > 1 second (batch, analytics)",
+        "4": "Latency tolerance 100ms - 1s (interactive analytics)",
+        "3": "Latency tolerance 10-100ms (moderate OLTP)",
+        "2": "Latency tolerance 1-10ms (high-performance OLTP)",
+        "1": "Latency requirement < 1ms (ultra-low latency)"
+      },
+      "evaluation_method": "Measure P99 latency requirements for critical operations"
+    },
+    {
+      "factor_name": "Transaction Frequency",
+      "weight": 0.2,
+      "scoring_criteria": {
+        "5": "< 100 TPS or batch operations",
+        "4": "100-1,000 TPS with moderate ACID requirements",
+        "3": "1,000-10,000 TPS with local ACID",
+        "2": "10,000-100,000 TPS with distributed ACID",
+        "1": "> 100,000 TPS with strict ACID guarantees"
+      },
+      "evaluation_method": "Measure transaction rate and consistency requirements"
+    },
+    {
+      "factor_name": "Data Access Pattern",
+      "weight": 0.15,
+      "scoring_criteria": {
+        "5": "Sequential scans, large analytical queries",
+        "4": "Mixed patterns with mostly large reads",
+        "3": "Balanced mix of reads and writes",
+        "2": "Frequent small reads with some large operations",
+        "1": "Random small reads/writes, point queries"
+      },
+      "evaluation_method": "Analyze query patterns, I/O size distribution, and working set"
+    },
+    {
+      "factor_name": "Consistency Requirements",
+      "weight": 0.15,
+      "scoring_criteria": {
+        "5": "Eventually consistent acceptable",
+        "4": "Read-committed sufficient",
+        "3": "Snapshot isolation required",
+        "2": "Local ACID with eventual global consistency",
+        "1": "Distributed ACID transactions required"
+      },
+      "evaluation_method": "Define minimum consistency and isolation levels for correctness"
+    },
+    {
+      "factor_name": "Scale Elasticity Needs",
+      "weight": 0.1,
+      "scoring_criteria": {
+        "5": "Highly variable, unpredictable scale (10x+ variation)",
+        "4": "Moderate scale variance (2-10x variation)",
+        "3": "Some scale variance with predictable patterns",
+        "2": "Minor scale variance (< 2x variation)",
+        "1": "Fixed scale, predictable steady load"
+      },
+      "evaluation_method": "Analyze historical load patterns and scaling requirements"
+    },
+    {
+      "factor_name": "Cost Sensitivity",
+      "weight": 0.1,
+      "scoring_criteria": {
+        "5": "Cost optimization is primary concern",
+        "4": "Cost important, some performance trade-offs acceptable",
+        "3": "Balanced cost/performance requirements",
+        "2": "Performance preferred over cost",
+        "1": "Cost not a concern, performance critical"
+      },
+      "evaluation_method": "Assess business priorities and budget constraints"
+    },
+    {
+      "factor_name": "Network Reliability Tolerance",
+      "weight": 0.05,
+      "scoring_criteria": {
+        "5": "Network resilient, can handle failures gracefully",
+        "4": "Some network tolerance with graceful degradation",
+        "3": "Moderate network dependency",
+        "2": "Limited network failure tolerance",
+        "1": "Cannot tolerate network issues or partitions"
+      },
+      "evaluation_method": "Test network failure scenarios and recovery behaviors"
+    }
+  ],
+  "calculation_method": "Weighted sum: Score = \u03a3(factor_score \u00d7 weight)",
+  "interpretation": {
+    "4.5-5.0": "Excellent candidate for compute-storage separation",
+    "3.5-4.4": "Good candidate, proceed with standard implementation",
+    "2.5-3.4": "Marginal candidate, requires careful architecture and optimization",
+    "1.5-2.4": "Poor candidate, consider hybrid approaches or alternatives",
+    "1.0-1.4": "Not suitable for separation, use integrated architectures"
+  }
+}

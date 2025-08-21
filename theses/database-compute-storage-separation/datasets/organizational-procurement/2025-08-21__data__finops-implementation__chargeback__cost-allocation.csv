@@ -1,0 +1,11 @@
+implementation_pattern,compute_allocation_basis,storage_allocation_basis,tagging_coverage_percent,idle_resource_percent,reserved_instance_percent,spot_usage_percent,chargeback_accuracy_percent,automation_score,cost_variance_month_over_month,budget_prediction_accuracy,organizational_satisfaction_score
+showback_only,usage_based,capacity_based,75,25,60,15,85,6,15,70,7
+full_chargeback,department_allocation,project_allocation,90,10,70,25,95,9,8,85,8
+hybrid_model,team_based,shared_pool,80,20,65,20,90,7,12,75,7
+application_centric,microservice_allocation,data_tier_allocation,85,15,50,35,92,8,10,80,8
+cost_center_model,business_unit,business_unit,70,30,80,5,88,5,20,65,6
+usage_proportional,actual_consumption,actual_consumption,95,5,40,45,98,10,5,90,9
+department_showback,department_budget,department_budget,65,35,75,10,80,4,25,60,6
+tenant_based,tenant_usage,tenant_storage,88,12,55,30,94,8,7,82,8
+workload_specific,workload_type,workload_data,82,18,60,22,91,7,11,77,7
+resource_pool,pool_allocation,pool_allocation,78,22,70,18,87,6,14,72,7

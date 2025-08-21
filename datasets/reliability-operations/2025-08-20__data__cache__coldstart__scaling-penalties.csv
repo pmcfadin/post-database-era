@@ -1,0 +1,6 @@
+scenario,architecture,scale_trigger,scale_time_seconds,cache_impact,performance_penalty_percentage,penalty_duration_minutes,queries_affected,mitigation_strategy,collection_date,recovery_efficiency_score,architectural_advantage
+Aurora Serverless v2 Scale-up,Separated,CPU > 70%,15,Partial - Shared cluster cache retained,25,5,First 100-200 queries,Aurora cluster cache + connection pooling,2025-08-20,0.69,Yes
+Snowflake Warehouse Resume,Separated,Manual resume or query,30,"Mixed - Result cache persists, data cache empty",40,3,First 50-100 queries,Query result cache + automatic suspend/resume,2025-08-20,0.57,Yes
+BigQuery Slot Scaling,Separated,Query demand,5,Low - Distributed cache architecture,15,2,First 20-50 queries,Columnar storage + distributed caching,2025-08-20,0.82,Yes
+Redshift Elastic Resize,Separated,Manual resize,600,High - Node-local caches lost,60,20,First 500-1000 queries,Pre-warming scripts + result caching,2025-08-20,0.27,Yes
+Traditional DB VM Scale,Coupled,Manual scaling,300,Complete - All caches lost,80,45,First 1000+ queries,Limited - Manual cache warming,2025-08-20,0.05,No

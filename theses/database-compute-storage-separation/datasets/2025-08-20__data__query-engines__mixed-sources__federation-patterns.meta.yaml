@@ -1,0 +1,134 @@
+characteristics:
+  collection_method: community_analysis
+  columns: 26
+  rows: 11
+  time_range: '2024'
+  update_frequency: annual
+columns:
+  adoption_tier:
+    description: 'Query engine metric: adoption_tier'
+    type: string
+    unit: varies
+  approach:
+    description: 'Query engine metric: approach'
+    type: string
+    unit: varies
+  best_for:
+    description: 'Query engine metric: best_for'
+    type: string
+    unit: varies
+  category:
+    description: 'Query engine metric: category'
+    type: string
+    unit: varies
+  complexity:
+    description: 'Query engine metric: complexity'
+    type: string
+    unit: varies
+  compute_cost:
+    description: 'Query engine metric: compute_cost'
+    type: string
+    unit: varies
+  consistency:
+    description: 'Query engine metric: consistency'
+    type: string
+    unit: varies
+  data_freshness:
+    description: 'Query engine metric: data_freshness'
+    type: string
+    unit: varies
+  data_size:
+    description: 'Query engine metric: data_size'
+    type: string
+    unit: varies
+  data_sources:
+    description: 'Query engine metric: data_sources'
+    type: string
+    unit: varies
+  deployment_model:
+    description: 'Query engine metric: deployment_model'
+    type: string
+    unit: varies
+  engine:
+    description: 'Query engine metric: engine'
+    type: string
+    unit: varies
+  github_stars:
+    description: 'Query engine metric: github_stars'
+    type: string
+    unit: varies
+  major_users:
+    description: 'Query engine metric: major_users'
+    type: string
+    unit: varies
+  market_position:
+    description: 'Query engine metric: market_position'
+    type: string
+    unit: varies
+  network_cost:
+    description: 'Query engine metric: network_cost'
+    type: string
+    unit: varies
+  network_transfer:
+    description: 'Query engine metric: network_transfer'
+    type: string
+    unit: varies
+  optimization:
+    description: 'Query engine metric: optimization'
+    type: string
+    unit: varies
+  performance_profile:
+    description: 'Query engine metric: performance_profile'
+    type: string
+    unit: varies
+  primary_use_case:
+    description: 'Query engine metric: primary_use_case'
+    type: string
+    unit: varies
+  query_latency:
+    description: 'Query engine metric: query_latency'
+    type: string
+    unit: varies
+  query_time:
+    description: 'Query engine metric: query_time'
+    type: string
+    unit: varies
+  query_type:
+    description: 'Query engine metric: query_type'
+    type: string
+    unit: varies
+  source:
+    description: 'Query engine metric: source'
+    type: string
+    unit: varies
+  storage_cost:
+    description: 'Query engine metric: storage_cost'
+    type: string
+    unit: varies
+  supported_sources:
+    description: 'Query engine metric: supported_sources'
+    type: string
+    unit: varies
+dataset:
+  description: Analysis of unified query engines including Trino, DuckDB, DataFusion
+    adoption patterns and federation trade-offs
+  metric: query_engine_adoption
+  title: Query Engine Integration Patterns - Federation and Multi-source Analytics
+  topic: database-compute-storage-separation
+notes:
+- Data represents unified query engine adoption patterns
+- Performance benchmarks are workload-specific
+- Federation vs replication trade-offs depend on use case
+quality:
+  completeness: 100%
+  confidence: high
+  limitations:
+  - Performance varies by workload
+  - Adoption metrics are estimates
+  sample_size: Major query engine projects
+source:
+  accessed: '2025-08-20'
+  credibility: Tier A
+  license: Research Use
+  name: Query Engine Community and Performance Studies
+  url: Multiple query engine projects and benchmarks

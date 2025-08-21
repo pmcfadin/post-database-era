@@ -1,0 +1,129 @@
+# Dataset Metadata
+dataset:
+  title: "Failure Domain Isolation Score - Reliability Benefits of Storage Separation"
+  description: "Quantifies reliability improvements from compute-storage separation across multiple failure isolation dimensions"
+  topic: "Database Compute Storage Separation"
+  metric: "Failure Domain Isolation Score = weighted_sum(multi_az_score, blast_radius_score, mttr_score, stateless_score)"
+  
+# Source Information
+source:
+  name: "Synthesis of cross-zone penalty data and failure analysis datasets"
+  url: "Internal reliability analysis compilation"
+  accessed: "2025-08-21"
+  license: "Internal research use"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 15
+  columns: 13
+  time_range: "Current production systems"
+  update_frequency: "quarterly"
+  collection_method: "SLA analysis + incident reports + architecture review"
+  
+# Column Descriptions
+columns:
+  architecture_type:
+    type: "string"
+    description: "Classification of compute-storage architecture"
+    unit: "categorical"
+  vendor_service:
+    type: "string"
+    description: "Database service being evaluated"
+    unit: "categorical"
+  multi_az_support:
+    type: "string"
+    description: "Whether service supports multi-availability zone deployment"
+    unit: "boolean"
+  blast_radius_scope:
+    type: "string"
+    description: "Typical scope of failure impact"
+    unit: "categorical"
+  mttr_minutes:
+    type: "number"
+    description: "Mean Time to Recovery for typical failures"
+    unit: "minutes"
+  stateless_compute:
+    type: "string"
+    description: "Whether compute nodes are stateless and replaceable"
+    unit: "boolean/partial"
+  availability_sla:
+    type: "number"
+    description: "Vendor-provided availability SLA percentage"
+    unit: "percentage"
+  multi_az_score:
+    type: "number"
+    description: "Score for multi-AZ capability (0-25 points)"
+    unit: "points"
+  blast_radius_score:
+    type: "number"
+    description: "Score for blast radius limitation (0-25 points)"
+    unit: "points"
+  mttr_score:
+    type: "number"
+    description: "Score for mean time to recovery (0-25 points)"
+    unit: "points"
+  stateless_score:
+    type: "number"
+    description: "Score for stateless compute capability (0-25 points)"
+    unit: "points"
+  failure_domain_isolation_score:
+    type: "number"
+    description: "Total weighted score out of 100 points"
+    unit: "score (0-100)"
+  failure_scenarios_tested:
+    type: "number"
+    description: "Number of failure scenarios validated for this architecture"
+    unit: "count"
+  source_data:
+    type: "string"
+    description: "Source datasets used for reliability analysis"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all reliability metrics evaluated"
+  sample_size: "15 representative database architectures"
+  confidence: "high"
+  limitations: 
+    - "MTTR data based on vendor claims and public incident reports"
+    - "Failure scenarios may not cover all possible edge cases"
+    - "Scoring methodology weights all factors equally"
+    - "Regional differences in infrastructure reliability not fully captured"
+  
+# Scoring Methodology
+scoring:
+  multi_az_score:
+    - "25 points: Full multi-AZ with automatic failover"
+    - "15 points: Multi-AZ with manual intervention"
+    - "5 points: Multi-AZ capable but not default"
+    - "0 points: Single AZ only"
+  blast_radius_score:
+    - "25 points: Failure limited to single instance/node"
+    - "20 points: Failure limited to single region"
+    - "15 points: Failure limited to cluster/service"
+    - "10 points: Failure affects multiple clusters"
+    - "5 points: Systemic failure possible"
+  mttr_score:
+    - "25 points: <15 minutes MTTR"
+    - "22 points: 15-20 minutes MTTR"
+    - "20 points: 20-30 minutes MTTR"
+    - "15 points: 30-60 minutes MTTR"
+    - "10 points: 60-90 minutes MTTR"
+    - "<10 points: >90 minutes MTTR"
+  stateless_score:
+    - "25 points: Fully stateless compute with instant replacement"
+    - "15 points: Partially stateless with cache warm-up required"
+    - "5 points: Stateful but supports failover"
+    - "0 points: Stateful with no automatic failover"
+  
+# Usage Notes
+notes:
+  - "Scores >90 indicate excellent failure domain isolation"
+  - "Scores 70-90 indicate good failure domain isolation"
+  - "Scores 50-70 indicate moderate failure domain isolation"
+  - "Scores <50 indicate poor failure domain isolation"
+  - "Separated architectures generally score higher than coupled architectures"
+  - "Global/multi-region services show highest isolation scores"
+  - "Traditional coupled systems show lowest isolation scores"
+  - "Serverless architectures benefit most from stateless compute scoring"

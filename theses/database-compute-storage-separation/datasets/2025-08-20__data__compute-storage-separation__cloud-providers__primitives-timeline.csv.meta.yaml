@@ -1,0 +1,91 @@
+dataset:
+  title: Cloud Infrastructure Primitives Timeline - Enabling Compute-Storage Separation
+  description: Chronological timeline of cloud infrastructure primitives that enable
+    database compute-storage separation, including storage, networking, and specialized
+    services
+  topic: Cloud Infrastructure Evolution
+  metric: Service launch dates and capabilities
+source:
+  name: Multiple cloud provider announcements and documentation
+  urls:
+  - https://cloud.google.com/blog/products/compute/ssd-persistent-disks-and-price-reductions-for-compute-engine
+  - https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-amazon-fsx-for-lustre/
+  - https://azure.microsoft.com/en-us/updates/premium-storage-high-performance-storage-for-azure-virtual-machine-workloads/
+  - https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-amazon-ec2-bare-metal-instances/
+  - https://azure.microsoft.com/en-us/updates/accelerated-networking-is-now-generally-available/
+  - https://cloud.google.com/blog/products/networking/introducing-gvnic-a-new-virtual-network-interface-for-google-cloud
+  - https://cloud.google.com/blog/products/storage-data-transfer/regional-persistent-disks-ga
+  - https://azure.microsoft.com/en-us/updates/
+  - https://aws.amazon.com/about-aws/whats-new/2018/11/s3-intelligent-tiering/
+  - https://cloud.google.com/blog/products/databases/announcing-cloud-memorystore-managed-redis-and-memcached
+  - https://azure.microsoft.com/en-us/updates/azure-redis-cache-now-generally-available/
+  - https://aws.amazon.com/about-aws/whats-new/2012/07/31/announcing-provisioned-iops-for-amazon-ebs/
+  - https://azure.microsoft.com/en-us/updates/azure-data-lake-storage-gen2-available/
+  - https://cloud.google.com/blog/products/storage-data-transfer/google-cloud-storage-nearline-a-new-storage-class
+  - https://azure.microsoft.com/en-us/updates/hb-and-hc-azure-vm-sizes-with-infiniband-now-available/
+  - https://azure.microsoft.com/en-us/updates/azure-shared-disks-available/
+  - https://aws.amazon.com/about-aws/whats-new/2008/08/20/amazon-ebs/
+  - https://cloud.google.com/blog/products/networking/introducing-google-cloud-vpcs-global-virtual-cloud-networks
+  - https://cloud.google.com/blog/products/compute/google-compute-engine-is-now-generally-available
+  - https://aws.amazon.com/about-aws/whats-new/2015/06/29/enhanced-networking-for-amazon-ec2/
+  - https://aws.amazon.com/about-aws/whats-new/2016/04/19/amazon-s3-transfer-acceleration/
+  - https://aws.amazon.com/about-aws/whats-new/2011/08/22/introducing-amazon-elasticache/
+  - https://azure.microsoft.com/en-us/updates/azure-netapp-files-is-now-generally-available/
+  - https://cloud.google.com/blog/products/storage-data-transfer/google-cloud-storage-now-available
+  - https://cloud.google.com/blog/products/storage-data-transfer/cloud-filestore-managed-nfs-for-applications
+  - https://aws.amazon.com/about-aws/whats-new/2013/01/17/new-amazon-ec2-instance-types-cr1-and-hi1/
+  - https://aws.amazon.com/about-aws/whats-new/2020/02/amazon-ebs-multi-attach-available/
+  - https://aws.amazon.com/about-aws/whats-new/2020/12/introducing-new-amazon-ebs-general-purpose-volumes-gp3/
+  - https://aws.amazon.com/about-aws/whats-new/2006/03/13/amazon-s3/
+  accessed: '2025-08-20'
+  license: Public announcements and documentation
+  credibility: Tier A
+characteristics:
+  rows: 30
+  columns: 10
+  time_range: 2006 - 2024
+  update_frequency: Historical/Static
+  collection_method: Historical research and documentation analysis
+columns:
+  cloud_provider:
+    type: string
+    description: Cloud provider name (AWS, Azure, GCP)
+  primitive_category:
+    type: string
+    description: Category of infrastructure primitive
+  primitive_name:
+    type: string
+    description: Specific service or feature name
+  launch_date:
+    type: date
+    description: Service launch date (YYYY-MM-DD)
+  launch_year:
+    type: number
+    description: Year of service launch
+  key_capability:
+    type: string
+    description: Primary capability or feature
+  performance_spec:
+    type: string
+    description: Key performance specifications
+  relevance_to_separation:
+    type: string
+    description: How this primitive enables compute-storage separation
+  evolution_milestone:
+    type: string
+    description: Significance in cloud infrastructure evolution
+  source_url:
+    type: string
+    description: Primary announcement or documentation URL
+quality:
+  completeness: 100% - All fields populated based on available historical records
+  confidence: High - Based on official provider announcements
+  limitations:
+  - Launch dates may be approximate for older services
+  - Performance specifications reflect initial launch capabilities
+  - Some private beta dates may differ from public availability
+notes:
+- Timeline focuses on primitives relevant to database architecture evolution
+- Launch dates based on general availability announcements
+- Performance specifications reflect capabilities at launch
+- Emphasis on storage, networking, and memory services

@@ -1,0 +1,24 @@
+dataset:
+  title: Database Incident and Postmortem Analysis
+  description: Analysis of public postmortems focusing on separated vs coupled database
+    architectures
+  topic: Database Reliability and Operations
+  metric: Incident frequency, MTTR, failure domains
+source:
+  name: Major Cloud Provider Postmortems
+  url: Various provider status pages
+  accessed: '2025-08-20'
+  license: Public information
+  credibility: Tier A
+characteristics:
+  rows: 3
+  columns: 10
+  time_range: 2017 - 2024
+  update_frequency: As incidents occur
+  collection_method: Manual extraction from postmortems
+quality:
+  completeness: 85%
+  confidence: High
+  limitations:
+  - Limited to public postmortems
+  - Bias toward major incidents

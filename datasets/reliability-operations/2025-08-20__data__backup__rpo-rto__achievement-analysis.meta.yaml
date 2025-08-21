@@ -1,0 +1,13 @@
+dataset:
+  title: RPO/RTO Achievement Analysis
+  description: Analysis of RPO/RTO commitments vs actual achievements across database
+    services
+  topic: Database Recovery Objectives Analysis
+  metric: RPO/RTO commitments, actual achievements, SLA performance
+source:
+  name: Cloud Provider SLA Documentation and Performance Reports
+  accessed: '2025-08-20'
+  credibility: Tier A
+quality:
+  completeness: 95%
+  confidence: High

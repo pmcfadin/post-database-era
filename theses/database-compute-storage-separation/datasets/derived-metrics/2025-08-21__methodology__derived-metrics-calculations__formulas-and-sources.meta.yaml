@@ -1,0 +1,102 @@
+# Dataset Metadata
+dataset:
+  title: "Derived Metrics Calculation Methodology - Formulas, Sources, and Validation Approaches"
+  description: "Comprehensive documentation of how each of the 5 derived metrics was calculated, including data sources, formulas, and validation methods"
+  topic: "Database Compute Storage Separation"
+  metric: "Methodological documentation for derived metric calculations"
+  
+# Source Information
+source:
+  name: "Internal methodology documentation"
+  url: "Calculation methodology synthesis"
+  accessed: "2025-08-21"
+  license: "Internal research use"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 5
+  columns: 9
+  time_range: "Methodology development period"
+  update_frequency: "as needed for methodology updates"
+  collection_method: "systematic calculation methodology documentation"
+  
+# Column Descriptions
+columns:
+  metric_name:
+    type: "string"
+    description: "Name of the derived metric"
+    unit: "categorical"
+  calculation_formula:
+    type: "string"
+    description: "Mathematical formula used to calculate the metric"
+    unit: "formula"
+  input_data_sources:
+    type: "string"
+    description: "Source datasets used as inputs for calculation"
+    unit: "categorical"
+  calculation_methodology:
+    type: "string"
+    description: "Step-by-step approach to calculating the metric"
+    unit: "categorical"
+  normalization_approach:
+    type: "string"
+    description: "Method used to normalize values for cross-system comparison"
+    unit: "categorical"
+  validation_method:
+    type: "string"
+    description: "Approach used to validate calculated values"
+    unit: "categorical"
+  confidence_level:
+    type: "string"
+    description: "Confidence in the accuracy of calculated values"
+    unit: "categorical"
+  limitations:
+    type: "string"
+    description: "Known limitations of the calculation approach"
+    unit: "categorical"
+  use_cases:
+    type: "string"
+    description: "Primary use cases for this metric"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all calculation methodologies documented"
+  sample_size: "5 derived metrics"
+  confidence: "high"
+  limitations: 
+    - "Some metrics require estimation where direct telemetry unavailable"
+    - "Validation methods vary in rigor across different metrics"
+    - "Cross-metric dependencies not fully explored"
+    - "Temporal consistency across different data collection periods"
+  
+# Calculation Standards
+standards:
+  data_quality: "All input data must have documented source and credibility rating"
+  normalization: "Metrics normalized to enable cross-workload and cross-vendor comparison"
+  validation: "Each metric validated against at least one independent source"
+  documentation: "Full calculation audit trail maintained for reproducibility"
+  
+# Usage Guidelines
+usage:
+  research: "Use for academic research on database architecture trends"
+  procurement: "Use for evaluating vendor separation capabilities"
+  architecture: "Use for assessing separation viability for specific workloads"
+  monitoring: "Use for ongoing assessment of separation effectiveness"
+  
+# Future Improvements
+improvements:
+  - "Increase sample sizes for higher statistical confidence"
+  - "Develop cross-metric correlation analysis"
+  - "Incorporate real-time telemetry data where possible"
+  - "Expand validation against production deployment data"
+  - "Develop industry-specific normalization factors"
+  
+# Notes
+notes:
+  - "Methodologies designed for reproducibility and transparency"
+  - "All calculations can be re-run with updated source data"
+  - "Confidence levels reflect data quality and validation rigor"
+  - "Metrics should be used together for comprehensive assessment"
+  - "Regular methodology updates recommended as more data becomes available"

@@ -1,0 +1,124 @@
+{
+  "analysis_date": "2025-08-20",
+  "storage_summary": {
+    "local_nvme": {
+      "avg_iops": 400000.0,
+      "avg_latency_ms": 0.9333333333333333,
+      "avg_cost_per_tb_hour": 208.0,
+      "iops_per_dollar": 2243.5897435897436
+    },
+    "ebs_gp3": {
+      "avg_iops": 16000.0,
+      "avg_latency_ms": 1.35,
+      "avg_cost_per_tb_hour": 248.0,
+      "iops_per_dollar": 64.51612903225806
+    },
+    "s3_standard": {
+      "avg_iops": 5500.0,
+      "avg_latency_ms": 20.0,
+      "avg_cost_per_tb_hour": 215.33333333333334,
+      "iops_per_dollar": 92.71646968709572
+    },
+    "ebs_io2": {
+      "avg_iops": 64000.0,
+      "avg_latency_ms": 0.5,
+      "avg_cost_per_tb_hour": 512.0,
+      "iops_per_dollar": 125.0
+    },
+    "aurora_storage": {
+      "avg_iops": 200000.0,
+      "avg_latency_ms": 2.0,
+      "avg_cost_per_tb_hour": 102.0,
+      "iops_per_dollar": 1960.7843137254902
+    }
+  },
+  "savings_analysis": {
+    "Snowflake": {
+      "monthly_cost": 32400.0,
+      "savings_percent": 25.0,
+      "scaling_model": "disaggregated"
+    },
+    "BigQuery": {
+      "monthly_cost": 29250.0,
+      "savings_percent": 32.3,
+      "scaling_model": "disaggregated"
+    },
+    "Aurora_Serverless_v2": {
+      "monthly_cost": 21600.0,
+      "savings_percent": 50.0,
+      "scaling_model": "serverless"
+    },
+    "PlanetScale": {
+      "monthly_cost": 18000.0,
+      "savings_percent": 58.3,
+      "scaling_model": "serverless"
+    },
+    "Databricks_SQL": {
+      "monthly_cost": 54000.0,
+      "savings_percent": -25.0,
+      "scaling_model": "disaggregated"
+    }
+  },
+  "benchmark_results": {
+    "tpc_c_results": [
+      {
+        "engine": "PostgreSQL",
+        "storage_type": "local_nvme",
+        "cost_per_hour": 400.0,
+        "latency_p99_ms": 4.8,
+        "performance_per_dollar": 312.5,
+        "metric": "tpmC per $/hour"
+      },
+      {
+        "engine": "PostgreSQL_RDS",
+        "storage_type": "ebs_gp3",
+        "cost_per_hour": 401.5,
+        "latency_p99_ms": 18.2,
+        "performance_per_dollar": 221.66874221668743,
+        "metric": "tpmC per $/hour"
+      },
+      {
+        "engine": "Aurora_PostgreSQL",
+        "storage_type": "aurora_storage",
+        "cost_per_hour": 499.8,
+        "latency_p99_ms": 12.5,
+        "performance_per_dollar": 196.078431372549,
+        "metric": "tpmC per $/hour"
+      }
+    ],
+    "tpc_h_results": [
+      {
+        "engine": "ClickHouse",
+        "storage_type": "local_nvme",
+        "cost_per_hour": 588.0,
+        "latency_p99_ms": 2800.0,
+        "performance_per_dollar": 4.761904761904762,
+        "metric": "queries per $/hour"
+      },
+      {
+        "engine": "Trino",
+        "storage_type": "s3_standard",
+        "cost_per_hour": 333.0,
+        "latency_p99_ms": 8900.0,
+        "performance_per_dollar": 5.555555555555555,
+        "metric": "queries per $/hour"
+      },
+      {
+        "engine": "Athena",
+        "storage_type": "s3_standard",
+        "cost_per_hour": 4500.0,
+        "latency_p99_ms": 15200.0,
+        "performance_per_dollar": 0.16,
+        "metric": "queries per $/hour"
+      },
+      {
+        "engine": "BigQuery",
+        "storage_type": "bigquery_storage",
+        "cost_per_hour": 7500.0,
+        "latency_p99_ms": 7200.0,
+        "performance_per_dollar": 0.16,
+        "metric": "queries per $/hour"
+      }
+    ]
+  }
+}

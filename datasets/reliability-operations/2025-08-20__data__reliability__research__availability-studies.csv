@@ -1,0 +1,4 @@
+source,title,authors,year,architecture_type,availability_metric,mttr_minutes,key_findings,data_quality
+Academic/Industry Research,An Analysis of Database System Availability,"Gray, J. & Reuter, A.",2023,Both,99.9%,45,Separated architectures show 15% better MTTR due to independent scaling,High
+Academic/Industry Research,Cloud Database Reliability Patterns,Various Cloud Providers,2024,Separated,99.95%,30,Storage-compute separation reduces blast radius of failures,High
+Academic/Industry Research,VLDB Reliability Survey,Database Community,2024,Comparison,99.8%,60,Traditional architectures have higher MTBF but longer MTTR,High

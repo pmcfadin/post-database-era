@@ -1,0 +1,85 @@
+# Dataset Metadata
+dataset:
+  title: "Cloud Data Movement Tax and Transfer Pricing"
+  description: "Comprehensive data on cloud provider egress pricing, cross-region transfer costs, and multi-cloud data movement expenses relevant to compute-storage separation"
+  topic: "Database Compute Storage Separation"
+  metric: "Cost per GB transferred, egress pricing, cross-cloud transfer costs"
+
+# Source Information
+source:
+  name: "Multi-Cloud Provider Pricing Documentation"
+  url: "AWS, GCP, Azure official pricing pages"
+  accessed: "2025-08-20"
+  license: "Public pricing information"
+  credibility: "Tier A"
+
+# Data Characteristics
+characteristics:
+  rows: 27
+  columns: 10
+  time_range: "2024-2025 pricing"
+  update_frequency: "quarterly"
+  collection_method: "official pricing documentation and case study analysis"
+
+# Column Descriptions
+columns:
+  cloud:
+    type: "string"
+    description: "Cloud provider or multi-cloud scenario"
+    unit: "categorical"
+  movement_type:
+    type: "string"
+    description: "Type of data movement (egress, cross-region, etc.)"
+    unit: "categorical"
+  gb_moved:
+    type: "string"
+    description: "Volume tier or description of data moved"
+    unit: "text"
+  cost_usd:
+    type: "number"
+    description: "Cost per GB or total cost for scenario"
+    unit: "USD"
+  source_region:
+    type: "string"
+    description: "Source region or zone"
+    unit: "text"
+  dest_region:
+    type: "string"
+    description: "Destination region or zone"
+    unit: "text"
+  service:
+    type: "string"
+    description: "Cloud service or transfer method"
+    unit: "text"
+  notes:
+    type: "string"
+    description: "Additional details about pricing tier or scenario"
+    unit: "text"
+  collection_date:
+    type: "string"
+    description: "Date data was collected"
+    unit: "date"
+  data_source:
+    type: "string"
+    description: "Source type of the pricing data"
+    unit: "text"
+
+# Quality Indicators
+quality:
+  completeness: "100% - comprehensive coverage of major transfer scenarios"
+  sample_size: "27 transfer pricing scenarios across major cloud providers"
+  confidence: "high"
+  limitations:
+    - "Pricing based on list rates, enterprise discounts not reflected"
+    - "Free tier allowances vary by provider and may change"
+    - "Cross-cloud transfer costs may have additional networking charges"
+    - "CDN pricing varies significantly by geographic region"
+
+# Usage Notes
+notes:
+  - "Internet egress costs range from $0.08-$0.12/GB across providers"
+  - "Cross-region transfers within provider cost $0.02-$0.09/GB"
+  - "Multi-cloud transfers incur double egress charges"
+  - "First 1-5GB typically free across all providers"
+  - "CDN usage can reduce egress costs for high-volume scenarios"
+  - "Data movement costs become significant at petabyte scale"

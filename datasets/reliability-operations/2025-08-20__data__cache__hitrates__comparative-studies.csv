@@ -1,0 +1,5 @@
+study_name,study_year,workload_type,dataset_size_gb,separated_arch_hit_rate,coupled_arch_hit_rate,query_volume_per_hour,cache_size_gb,separation_advantage,key_finding,collection_date,cache_efficiency_ratio,estimated_io_reduction,confidence_level
+Aurora vs RDS Cache Performance Study,2024,OLTP,500,94,87,10000,64,7,Aurora cluster cache provides consistent hit rates across read replicas,2025-08-20,1.08,5.6,Medium
+Snowflake vs Traditional DW Cache Analysis,2024,OLAP,5000,92,73,500,256,19,Result cache eliminates repeated scans in analytical workloads,2025-08-20,1.26,15.2,High
+BigQuery vs Columnar Database Cache Study,2023,Mixed,10000,96,81,2000,512,15,Columnar format with separation enables superior cache efficiency,2025-08-20,1.19,12.0,High
+Multi-tenant Cache Efficiency Analysis,2024,Multi-tenant,2000,89,76,5000,128,13,Separated architectures handle cache isolation better in multi-tenant scenarios,2025-08-20,1.17,10.4,High

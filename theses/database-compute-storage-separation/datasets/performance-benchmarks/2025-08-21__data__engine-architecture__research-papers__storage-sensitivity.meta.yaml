@@ -1,0 +1,84 @@
+# Dataset Metadata
+dataset:
+  title: "Database Engine Architecture Sensitivity to Storage Separation"
+  description: "Performance impact analysis of different database engine architectures when using remote vs local storage"
+  topic: "Database Engine Performance on Disaggregated Storage"
+  metric: "Transactions per second and amplification factors"
+  
+# Source Information
+source:
+  name: "Academic Research Compilation"
+  url: "VLDB/SIGMOD/USENIX papers on storage separation"
+  accessed: "2025-08-21"
+  license: "Academic research compilation"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 12
+  columns: 9
+  time_range: "2020 - 2024"
+  update_frequency: "annual"
+  collection_method: "compiled from academic benchmarks and vendor studies"
+  
+# Column Descriptions
+columns:
+  engine_type:
+    type: "string"
+    description: "Database engine architecture type"
+    unit: "categorical"
+  storage_structure:
+    type: "string"
+    description: "Internal storage organization method"
+    unit: "categorical"
+  local_nvme_tps:
+    type: "number"
+    description: "Transactions per second on local NVMe storage"
+    unit: "transactions per second"
+  network_nvme_tps:
+    type: "number"
+    description: "Transactions per second on network-attached NVMe"
+    unit: "transactions per second"
+  network_ssd_tps:
+    type: "number"
+    description: "Transactions per second on network-attached SSD"
+    unit: "transactions per second"
+  write_amplification:
+    type: "number"
+    description: "Ratio of actual writes to logical writes"
+    unit: "ratio"
+  read_amplification:
+    type: "number"
+    description: "Ratio of actual reads to logical reads"
+    unit: "ratio"
+  buffer_hit_ratio:
+    type: "number"
+    description: "Percentage of reads served from memory buffer"
+    unit: "percentage (0-1)"
+  compaction_overhead:
+    type: "number"
+    description: "CPU cycles spent on background compaction/maintenance"
+    unit: "percentage (0-1)"
+  separation_penalty_pct:
+    type: "number"
+    description: "Performance penalty when moving from local to network storage"
+    unit: "percentage"
+    
+# Quality Indicators
+quality:
+  completeness: "100%"
+  sample_size: "Multiple academic studies"
+  confidence: "high"
+  limitations:
+    - "Benchmark workloads may not reflect production patterns"
+    - "Hardware configurations vary between studies"
+    - "Network conditions impact remote storage performance"
+    - "Engine tuning parameters affect results significantly"
+  
+# Usage Notes
+notes:
+  - "TPS measurements assume YCSB-style mixed workloads"
+  - "Write amplification critical for network storage efficiency"
+  - "LSM trees generally handle storage separation better than B-trees"
+  - "Buffer hit ratios become more critical with higher storage latency"
+  - "Separation penalty varies significantly by workload characteristics"

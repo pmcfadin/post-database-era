@@ -1,0 +1,82 @@
+# Dataset Metadata
+dataset:
+  title: "Edge Deployment Challenges for Compute-Storage Separation"
+  description: "Cases where network connectivity, bandwidth, or resource constraints make compute-storage separation impractical or impossible"
+  topic: "Database Compute Storage Separation Counter-Evidence"
+  metric: "Connectivity constraints and deployment feasibility"
+  
+# Source Information
+source:
+  name: "Edge computing deployment studies and industry case reports"
+  url: "Various industry deployment case studies and technical reports"
+  accessed: "2025-08-21"
+  license: "Research compilation - original sources retain copyright"
+  credibility: "Tier A/B"
+  
+# Data Characteristics
+characteristics:
+  rows: 6
+  columns: 11
+  time_range: "2019 - 2025"
+  update_frequency: "static compilation"
+  collection_method: "case study analysis from multiple industries"
+  
+# Column Descriptions
+columns:
+  case_id:
+    type: "string"
+    description: "Unique identifier for each deployment challenge"
+    unit: "categorical"
+  category:
+    type: "string"
+    description: "Type of challenge case"
+    unit: "categorical"
+  deployment_scenario:
+    type: "string"
+    description: "Specific deployment environment or use case"
+    unit: "categorical"
+  connectivity_constraints:
+    type: "string"
+    description: "Network limitations affecting remote storage access"
+    unit: "descriptive"
+  failure_mode:
+    type: "string"
+    description: "How compute-storage separation fails in this environment"
+    unit: "descriptive"
+  impact:
+    type: "string"
+    description: "Operational or business impact of failure"
+    unit: "descriptive"
+  local_requirements:
+    type: "string"
+    description: "Required local infrastructure to address constraints"
+    unit: "descriptive"
+  documented_source:
+    type: "string"
+    description: "Source of deployment case study"
+    unit: "reference"
+  cost_impact:
+    type: "string"
+    description: "Cost increase for local infrastructure vs cloud deployment"
+    unit: "percentage"
+  mitigation_challenges:
+    type: "string"
+    description: "Additional challenges in implementing local solutions"
+    unit: "descriptive"
+  evidence_strength:
+    type: "string"
+    description: "Quality of case study documentation"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all fields populated"
+  sample_size: "6 diverse deployment scenarios across industries"
+  confidence: "high"
+  limitations: ["Cost estimates vary by location and provider", "Technology improvements may address some constraints over time"]
+  
+# Usage Notes
+notes:
+  - "Covers scenarios from remote industrial sites to extreme environments"
+  - "Includes both temporary and permanent connectivity limitations"
+  - "Cost impacts reflect additional infrastructure and operational complexity"

@@ -1,0 +1,6 @@
+provider,service,sla_percentage,architecture_type,rpo_seconds,rto_minutes,backup_strategy,max_downtime_minutes_per_month,collection_date
+AWS,RDS Multi-AZ,99.95,Separated,0,5,Automated snapshots to S3,21.6,2025-08-20
+AWS,Aurora,99.99,Separated,1,1,Continuous backup to S3,4.32,2025-08-20
+GCP,Cloud SQL,99.95,Separated,0,5,Point-in-time recovery,21.6,2025-08-20
+Azure,SQL Database,99.99,Separated,5,2,Automated backup to Azure Storage,4.32,2025-08-20
+Snowflake,Enterprise,99.9,Separated,0,4,Time Travel and Fail-safe,43.2,2025-08-20

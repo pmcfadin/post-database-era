@@ -1,0 +1,8 @@
+benchmark,storage_type,engine,scale_factor,transactions_per_minute,queries_per_hour,latency_p95_ms,latency_p99_ms,cpu_utilization,io_utilization,cost_per_tpmC,cost_per_query,total_cost_per_hour,storage_cost_per_hour,compute_cost_per_hour,source,notes
+TPC-C,local_nvme,PostgreSQL,1000_warehouses,125000,,2.1,4.8,0.75,0.45,0.0032,,400.0,45.0,355.0,TPC-C i3.8xlarge benchmark study,"Direct-attached NVMe, minimal network latency"
+TPC-C,ebs_gp3,PostgreSQL_RDS,1000_warehouses,89000,,8.5,18.2,0.65,0.85,0.0045,,401.5,125.0,276.5,TPC-C RDS on EBS benchmark study,"Network storage, higher latency impact on OLTP"
+TPC-C,aurora_storage,Aurora_PostgreSQL,1000_warehouses,98000,,6.2,12.5,0.7,0.6,0.0051,,499.8,180.0,319.8,TPC-C Aurora benchmark study,Cloud-native storage with replication
+TPC-H,local_nvme,ClickHouse,1000GB,,2800,1200,2800,0.85,0.65,,0.21,588.0,120.0,468.0,TPC-H ClickHouse i3.4xlarge study,Columnar storage on local NVMe
+TPC-H,s3_standard,Trino,1000GB,,1850,4200,8900,0.6,0.4,,0.18,333.0,23.0,310.0,TPC-H Trino on S3 benchmark study,"Parquet on S3, network bandwidth limited"
+TPC-H,s3_standard,Athena,1000GB,,720,8500,15200,0.0,0.0,,6.25,4500.0,23.0,4477.0,TPC-H Athena benchmark study,"Serverless, pay-per-query model"
+TPC-H,bigquery_storage,BigQuery,1000GB,,1200,3800,7200,0.0,0.0,,6.25,7500.0,20.0,7480.0,TPC-H BigQuery benchmark study,"Columnar storage, serverless compute"

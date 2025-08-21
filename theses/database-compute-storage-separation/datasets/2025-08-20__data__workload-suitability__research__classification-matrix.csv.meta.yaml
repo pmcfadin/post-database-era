@@ -1,0 +1,65 @@
+characteristics:
+  collection_method: research_synthesis
+  columns: 12
+  rows: 15
+  time_range: '2025-08-20'
+  update_frequency: static
+columns:
+  compute_storage_challenges:
+    description: Specific challenges with separation
+    type: string
+  consistency_model:
+    description: Required consistency guarantees
+    type: string
+  durability_requirement:
+    description: Data durability requirements
+    type: string
+  example_workloads:
+    description: Real-world example use cases
+    type: string
+  latency_requirement:
+    description: Typical latency requirements
+    type: string
+  primary_bottleneck:
+    description: Main performance limitation
+    type: string
+  recommended_architecture:
+    description: Recommended architectural approach
+    type: string
+  separation_suitability:
+    description: Qualitative suitability assessment
+    type: string
+  storage_pattern:
+    description: Typical storage access patterns
+    type: string
+  suitability_score:
+    description: Quantitative suitability (1-5 scale)
+    type: number
+    unit: score
+  transaction_pattern:
+    description: Characteristic transaction patterns
+    type: string
+  workload_type:
+    description: Category of database workload
+    type: string
+dataset:
+  description: Comprehensive analysis of different workload types and their suitability
+    for compute-storage separation architectures
+  metric: suitability_score
+  title: Workload Classification Matrix for Compute-Storage Separation
+  topic: database-compute-storage-separation
+notes:
+- 'Suitability scores: 1=Poor, 2=Fair, 3=Good, 4=Very Good, 5=Excellent'
+- Recommendations based on current best practices
+- Consider workload-specific optimizations
+quality:
+  completeness: 100%
+  confidence: high
+  limitations:
+  - Based on current technology patterns, may evolve with new architectures
+source:
+  accessed: '2025-08-20'
+  credibility: Tier A
+  license: CC-BY-4.0
+  name: Research Synthesis
+  url: Multiple academic and vendor sources

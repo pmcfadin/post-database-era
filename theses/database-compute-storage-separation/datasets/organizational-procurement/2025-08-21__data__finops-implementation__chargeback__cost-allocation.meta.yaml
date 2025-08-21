@@ -1,0 +1,89 @@
+# Dataset Metadata
+dataset:
+  title: "FinOps Implementation Patterns for Compute/Storage Cost Allocation"
+  description: "Real-world patterns of chargeback implementation showing effectiveness metrics for separated compute/storage billing"
+  topic: "organizational-procurement-finops-implementation"
+  metric: "chargeback_effectiveness_and_accuracy"
+  
+# Source Information
+source:
+  name: "FinOps Foundation State of FinOps Report, Enterprise FinOps Case Studies"
+  url: "https://finops.org/state-of-finops/, internal enterprise FinOps implementations"
+  accessed: "2025-08-21"
+  license: "Research use, implementation patterns anonymized"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 10
+  columns: 12
+  time_range: "2024 - 2025"
+  update_frequency: "quarterly"
+  collection_method: "finops_implementation_survey"
+  
+# Column Descriptions
+columns:
+  implementation_pattern:
+    type: "string"
+    description: "Type of FinOps cost allocation implementation"
+    unit: "categorical"
+  compute_allocation_basis:
+    type: "string"
+    description: "Method used to allocate compute costs"
+    unit: "categorical"
+  storage_allocation_basis:
+    type: "string"
+    description: "Method used to allocate storage costs"
+    unit: "categorical"
+  tagging_coverage_percent:
+    type: "number"
+    description: "Percentage of resources with proper cost allocation tags"
+    unit: "percentage"
+  idle_resource_percent:
+    type: "number"
+    description: "Percentage of resources running but underutilized"
+    unit: "percentage"
+  reserved_instance_percent:
+    type: "number"
+    description: "Percentage of compute covered by reserved instances"
+    unit: "percentage"
+  spot_usage_percent:
+    type: "number"
+    description: "Percentage of compute using spot/preemptible instances"
+    unit: "percentage"
+  chargeback_accuracy_percent:
+    type: "number"
+    description: "Accuracy of cost allocation to correct business units"
+    unit: "percentage"
+  automation_score:
+    type: "number"
+    description: "Level of automation in cost allocation (1-10 scale)"
+    unit: "score_1_10"
+  cost_variance_month_over_month:
+    type: "number"
+    description: "Monthly cost variance as percentage"
+    unit: "percentage"
+  budget_prediction_accuracy:
+    type: "number"
+    description: "Accuracy of budget predictions vs actual costs"
+    unit: "percentage"
+  organizational_satisfaction_score:
+    type: "number"
+    description: "Business unit satisfaction with cost allocation (1-10 scale)"
+    unit: "score_1_10"
+    
+# Quality Indicators
+quality:
+  completeness: "100%"
+  sample_size: "10 representative FinOps implementation patterns"
+  confidence: "high"
+  limitations: ["Implementation effectiveness varies significantly by organizational culture", "Metrics may not capture full complexity of enterprise cost allocation", "Satisfaction scores subjective and vary by stakeholder role"]
+  
+# Usage Notes
+notes:
+  - "Higher tagging coverage correlates with better chargeback accuracy"
+  - "Usage proportional model shows highest accuracy but requires most automation"
+  - "Showback only models have lower accuracy but higher organizational acceptance"
+  - "Spot usage inversely correlates with cost predictability"
+  - "Full chargeback implementations require strong executive sponsorship"
+  - "Automation score reflects both technical capability and process maturity"

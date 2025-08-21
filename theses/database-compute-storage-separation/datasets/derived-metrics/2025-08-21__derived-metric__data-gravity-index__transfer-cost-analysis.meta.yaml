@@ -1,0 +1,111 @@
+# Dataset Metadata
+dataset:
+  title: "Data Gravity Index - Hidden Costs of Compute-Storage Separation Across Regions"
+  description: "Quantifies the hidden data transfer costs when compute resources chase data across availability zones, regions, and cloud providers"
+  topic: "Database Compute Storage Separation"
+  metric: "Data Gravity Index = egress_GB * distance_factor(region_pairs)"
+  
+# Source Information
+source:
+  name: "Analysis of data movement tax, pipeline patterns, and federation pattern datasets"
+  url: "Internal data transfer cost analysis"
+  accessed: "2025-08-21"
+  license: "Internal research use"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 15
+  columns: 11
+  time_range: "Monthly data transfer patterns"
+  update_frequency: "monthly"
+  collection_method: "cost analysis + network topology + usage patterns"
+  
+# Column Descriptions
+columns:
+  deployment_scenario:
+    type: "string"
+    description: "Type of data movement scenario"
+    unit: "categorical"
+  data_location:
+    type: "string"
+    description: "Location where data is stored"
+    unit: "categorical"
+  compute_location:
+    type: "string"
+    description: "Location where data processing occurs"
+    unit: "categorical"
+  egress_gb_monthly:
+    type: "number"
+    description: "Gigabytes of data transferred per month"
+    unit: "GB per month"
+  distance_factor:
+    type: "number"
+    description: "Multiplier based on network distance and complexity"
+    unit: "multiplier"
+  base_transfer_cost_per_gb:
+    type: "number"
+    description: "Base cost per GB for data transfer"
+    unit: "USD per GB"
+  data_gravity_index:
+    type: "number"
+    description: "Composite index of data gravity effect (egress_GB * distance_factor)"
+    unit: "gravity units"
+  monthly_egress_cost_usd:
+    type: "number"
+    description: "Total monthly cost for data egress"
+    unit: "USD per month"
+  compute_chase_frequency:
+    type: "string"
+    description: "How often compute resources need to chase data"
+    unit: "categorical"
+  architecture_penalty:
+    type: "string"
+    description: "Severity of penalty for data-compute separation"
+    unit: "categorical"
+  optimization_potential:
+    type: "string"
+    description: "Potential strategies to reduce data gravity effects"
+    unit: "categorical"
+  source_dataset:
+    type: "string"
+    description: "Source dataset used for cost analysis"
+    unit: "categorical"
+    
+# Distance Factor Methodology
+distance_factors:
+  single_az_colocation: 1.0  # No network penalty
+  cross_az_same_region: 1.2  # Minimal network latency
+  cross_region_same_continent: 2.5  # Moderate latency and cost
+  cross_region_intercontinental: 4.5  # High latency and cost
+  multi_cloud: 3.8  # High cost, moderate latency with direct connect
+  
+# Quality Indicators
+quality:
+  completeness: "100% - all transfer scenarios documented"
+  sample_size: "15 representative data movement patterns"
+  confidence: "high"
+  limitations: 
+    - "Transfer costs based on list pricing, enterprise rates may differ"
+    - "Does not account for compression which can reduce actual transfer volumes"
+    - "Distance factors are simplified - actual network topology varies"
+    - "Optimization potential assessments are qualitative"
+  
+# Usage Notes
+notes:
+  - "Data Gravity Index >10,000 indicates significant separation penalty"
+  - "Data Gravity Index <1,000 indicates manageable separation costs"
+  - "Higher frequency compute chasing increases operational complexity"
+  - "Disaster recovery scenarios show highest data gravity index values"
+  - "Single AZ colocation shows zero data gravity penalty"
+  - "Multi-cloud scenarios require careful cost analysis"
+  - "Edge and IoT scenarios particularly affected by data gravity"
+  - "Optimization strategies can significantly reduce data gravity effects"
+  
+# Architecture Implications
+implications:
+  very_high_penalty: "Consider keeping compute and storage co-located"
+  high_penalty: "Implement aggressive caching and regional optimization"
+  medium_penalty: "Use incremental/streaming data movement patterns"
+  low_penalty: "Separation viable with basic optimization"
+  no_penalty: "Ideal scenario for compute-storage separation"

@@ -1,0 +1,82 @@
+# Dataset Metadata
+dataset:
+  title: "Storage Latency Benchmarks for Database Compute-Storage Separation"
+  description: "Comprehensive latency measurements across different storage types and protocols for database workloads"
+  topic: "Database Compute Storage Separation Performance"
+  metric: "Storage access latency percentiles and throughput"
+  
+# Source Information
+source:
+  name: "Industry Standards Compilation"
+  url: "https://nvmexpress.org/specifications/ + AWS/Azure/GCP documentation"
+  accessed: "2025-08-21"
+  license: "Publicly available specifications and vendor documentation"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 12
+  columns: 9
+  time_range: "2023 - 2025"
+  update_frequency: "quarterly"
+  collection_method: "compiled from vendor specs and industry benchmarks"
+  
+# Column Descriptions
+columns:
+  storage_type:
+    type: "string"
+    description: "Type of storage medium (local_nvme, network_nvme, ebs_gp3, etc.)"
+    unit: "categorical"
+  interface:
+    type: "string" 
+    description: "Physical or logical interface protocol"
+    unit: "categorical"
+  protocol:
+    type: "string"
+    description: "Network or connection protocol used"
+    unit: "categorical"
+  p50_latency_us:
+    type: "number"
+    description: "50th percentile latency for 4KB random reads"
+    unit: "microseconds"
+  p95_latency_us:
+    type: "number"
+    description: "95th percentile latency for 4KB random reads"
+    unit: "microseconds"
+  p99_latency_us:
+    type: "number"
+    description: "99th percentile latency for 4KB random reads"
+    unit: "microseconds"
+  bandwidth_gbps:
+    type: "number"
+    description: "Sequential read bandwidth capacity"
+    unit: "gigabits per second"
+  iops_limit:
+    type: "number"
+    description: "Maximum random 4KB read IOPS"
+    unit: "operations per second"
+  use_case:
+    type: "string"
+    description: "Primary database use case for this storage configuration"
+    unit: "categorical"
+  source_type:
+    type: "string"
+    description: "Whether data is measured or from vendor specifications"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100%"
+  sample_size: "Industry standard benchmarks"
+  confidence: "high"
+  limitations: 
+    - "Vendor specifications may be optimistic"
+    - "Real-world performance varies with workload patterns"
+    - "Network conditions affect remote storage performance"
+  
+# Usage Notes
+notes:
+  - "Latency measurements assume 4KB random read operations"
+  - "Network storage latency includes protocol overhead"
+  - "RDMA requires specialized network infrastructure"
+  - "Cloud storage performance varies by region and availability zone"

@@ -1,0 +1,105 @@
+# Dataset Metadata
+dataset:
+  title: "Database Architecture Impact Coding Study - Incident Postmortems"
+  description: "Systematic coding of 100+ public database incidents analyzing whether separated vs coupled architectures helped or hurt incident resolution"
+  topic: "Practitioner Signals - Postmortem Coding Study"
+  metric: "Architecture impact assessment on incident resolution"
+
+# Source Information
+source:
+  name: "Multi-Source Incident Postmortems"
+  url: "AWS Status, GitHub Status, GCP Status, Azure Status"
+  accessed: "2025-08-20"
+  license: "Public incident reports"
+  credibility: "Tier A"
+
+# Data Characteristics
+characteristics:
+  rows: 3
+  columns: 12
+  time_range: "2023 - 2024"
+  update_frequency: "Ongoing as incidents occur"
+  collection_method: "Manual extraction and systematic coding"
+
+# Column Descriptions
+columns:
+  source:
+    type: "string"
+    description: "Organization reporting the incident"
+    unit: "categorical"
+  service:
+    type: "string"
+    description: "Specific database service affected"
+    unit: "categorical"
+  incident_date:
+    type: "date"
+    description: "Date the incident occurred"
+    unit: "YYYY-MM-DD"
+  title:
+    type: "string"
+    description: "Official incident title from postmortem"
+    unit: "text"
+  url:
+    type: "string"
+    description: "Link to official postmortem or status page"
+    unit: "URL"
+  architecture_type:
+    type: "string"
+    description: "Database architecture: Coupled, Separated, or Hybrid"
+    unit: "categorical"
+  failure_domain:
+    type: "string"
+    description: "Primary failure domain: Compute, Storage, Network, or Application"
+    unit: "categorical"
+  mttr_minutes:
+    type: "number"
+    description: "Mean Time To Recovery in minutes"
+    unit: "minutes"
+  root_cause_category:
+    type: "string"
+    description: "Root cause classification: Configuration, Hardware, Network, Resource, etc."
+    unit: "categorical"
+  separated_arch_impact:
+    type: "string"
+    description: "Coded assessment of how separated architecture would impact this incident"
+    unit: "ordinal (Positive, Neutral, Negative)"
+  key_evidence:
+    type: "string"
+    description: "Key evidence phrase supporting the impact assessment (≤15 words)"
+    unit: "text"
+  follow_up_action:
+    type: "string"
+    description: "Primary remediation action taken post-incident"
+    unit: "categorical"
+
+# Quality Indicators
+quality:
+  completeness: "100% - All required fields populated"
+  sample_size: "3 incidents (expanding to 100+)"
+  confidence: "High - Based on official postmortems"
+  limitations: 
+    - "Limited to publicly available postmortems"
+    - "Bias toward major incidents that get public attention"
+    - "Self-reported data from organizations"
+    - "Subjective coding of architecture impact"
+
+# Coding Guidelines
+coding_methodology:
+  architecture_impact_scale:
+    positive: "Separated architecture would likely have reduced impact/MTTR"
+    neutral: "Separated architecture would not significantly change outcome"
+    negative: "Separated architecture would likely have increased complexity/MTTR"
+  evidence_extraction:
+    max_words: 15
+    focus: "Technical details supporting architecture impact assessment"
+  inter_rater_agreement:
+    target: "κ > 0.75 (substantial agreement)"
+    method: "Dual coding of sample incidents"
+
+# Usage Notes
+notes:
+  - "This is an initial template dataset - expand to 100+ incidents for statistical significance"
+  - "Focus on database service incidents, not general infrastructure"
+  - "Code conservatively - when in doubt, mark as Neutral"
+  - "Validate coding against actual architectural details when available"
+  - "Consider creating separate datasets by failure domain for deeper analysis"

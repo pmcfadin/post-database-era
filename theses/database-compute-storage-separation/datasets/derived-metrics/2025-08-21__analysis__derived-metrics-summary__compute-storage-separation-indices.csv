@@ -1,0 +1,6 @@
+metric_name,metric_formula,sample_size,mean_value,median_value,std_deviation,min_value,max_value,interpretation_threshold_low,interpretation_threshold_high,key_insight,architectural_implication
+Separation_Elasticity_SE,distinct_ratios_used / days_observed,15,0.427,0.433,0.196,0.067,0.733,0.2,0.5,Gaming and serverless workloads achieve highest elasticity,Enable independent scaling for variable workloads
+Latency_Tax_Percent,(p95_remote - p95_local) / p95_local * 100,15,2653.8,1011.1,2571.4,500.0,7677.8,100.0,1000.0,OLTP workloads face severe latency penalties with separation,Critical workloads require careful storage architecture choice
+Utilization_Lift_Per_QPS,(baseline_cost - rightsized_cost) / peak_qps,15,0.067,0.015,0.203,0.000,0.840,0.01,0.1,Batch processing shows highest cost efficiency gains,Elastic workloads benefit most from separation
+Failure_Domain_Isolation_Score,weighted_sum(multi_az + blast_radius + mttr + stateless),15,76.3,81.0,25.8,18.0,99.0,50.0,90.0,Separated architectures score 40-60 points higher than coupled,Separation significantly improves reliability
+Data_Gravity_Index,egress_GB * distance_factor,15,8486.0,4000.0,10089.2,0.0,30000.0,1000.0,10000.0,Cross-region and multi-cloud scenarios face highest penalties,Data locality critical for cost-effective separation

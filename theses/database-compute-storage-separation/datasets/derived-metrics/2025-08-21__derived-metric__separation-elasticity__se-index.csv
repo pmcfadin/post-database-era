@@ -1,0 +1,16 @@
+organization_type,vendor,service,observation_period_days,distinct_ratios_used,separation_elasticity_index,baseline_compute_gb,baseline_storage_gb,max_compute_scale,max_storage_scale,elasticity_events_per_day,source_data
+enterprise_saas,AWS,Aurora Serverless v2,30,8,0.267,64,1000,4.0,1.5,2.3,sku_decoupling_scorecard + scaling_models
+startup_web,Snowflake,Data Cloud,30,12,0.400,16,500,8.0,2.0,3.2,sku_decoupling_scorecard + scaling_models
+fintech_trading,PlanetScale,Database,30,15,0.500,32,750,6.0,1.8,4.5,sku_decoupling_scorecard + scaling_models
+ecommerce_platform,BigQuery,Serverless,30,18,0.600,8,2000,12.0,3.0,5.1,sku_decoupling_scorecard + scaling_models
+analytics_team,Databricks,SQL Warehouse,30,20,0.667,128,5000,10.0,4.0,6.8,sku_decoupling_scorecard + scaling_models
+gaming_backend,DynamoDB,On-demand,30,22,0.733,24,1500,15.0,2.5,7.2,sku_decoupling_scorecard + scaling_models
+media_streaming,Cosmos DB,Serverless,30,16,0.533,96,3000,8.0,3.5,4.8,sku_decoupling_scorecard + scaling_models
+iot_platform,MongoDB Atlas,Serverless,30,10,0.333,48,2500,5.0,2.2,2.9,sku_decoupling_scorecard + scaling_models
+traditional_erp,RDS MySQL,Fixed,30,3,0.100,128,2000,1.2,1.0,0.8,sku_decoupling_scorecard + scaling_models
+legacy_monolith,SQL Server,Fixed,30,2,0.067,256,4000,1.1,1.0,0.4,sku_decoupling_scorecard + scaling_models
+ml_training,Redshift,Managed Storage,30,6,0.200,512,10000,3.0,1.5,1.5,sku_decoupling_scorecard + scaling_models
+research_lab,Spanner,Regional,30,14,0.467,64,1200,7.0,2.8,4.2,sku_decoupling_scorecard + scaling_models
+content_platform,Aurora MySQL,Provisioned,30,7,0.233,128,3500,2.5,1.3,1.8,sku_decoupling_scorecard + scaling_models
+social_media,BigQuery,Slots,30,19,0.633,256,8000,11.0,4.5,6.1,sku_decoupling_scorecard + scaling_models
+logistics_tracking,Firestore,Serverless,30,13,0.433,32,800,9.0,2.0,3.8,sku_decoupling_scorecard + scaling_models

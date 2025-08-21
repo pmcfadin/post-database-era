@@ -1,0 +1,86 @@
+# Dataset Metadata
+dataset:
+  title: "RDMA vs TCP Protocol Performance for Database Storage"
+  description: "Comparative performance analysis of RDMA and TCP protocols for database storage access patterns"
+  topic: "Network Protocol Performance for Database Storage"
+  metric: "Latency, bandwidth, CPU utilization, and deployment characteristics"
+  
+# Source Information
+source:
+  name: "Network Storage Research Studies"
+  url: "USENIX FAST, IEEE studies on storage networking protocols"
+  accessed: "2025-08-21"
+  license: "Academic research and vendor benchmarks"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 17
+  columns: 9
+  time_range: "2022 - 2024"
+  update_frequency: "annual"
+  collection_method: "compiled from networking and storage research papers"
+  
+# Column Descriptions
+columns:
+  protocol:
+    type: "string"
+    description: "Storage protocol being tested"
+    unit: "categorical"
+  transport:
+    type: "string"
+    description: "Underlying network transport mechanism"
+    unit: "categorical"
+  block_size_kb:
+    type: "number"
+    description: "I/O operation block size"
+    unit: "kilobytes"
+  latency_us:
+    type: "number"
+    description: "Average round-trip latency for storage operations"
+    unit: "microseconds"
+  cpu_utilization_pct:
+    type: "number"
+    description: "CPU overhead percentage for protocol processing"
+    unit: "percentage"
+  bandwidth_gbps:
+    type: "number"
+    description: "Maximum sustained bandwidth"
+    unit: "gigabits per second"
+  message_rate_mops:
+    type: "number"
+    description: "Maximum message rate for small operations"
+    unit: "million operations per second"
+  reliability:
+    type: "string"
+    description: "Protocol reliability characteristics"
+    unit: "categorical"
+  deployment_complexity:
+    type: "string"
+    description: "Operational complexity of deployment"
+    unit: "categorical"
+  cost_factor:
+    type: "number"
+    description: "Relative infrastructure cost (TCP ethernet = 1.0)"
+    unit: "ratio"
+    
+# Quality Indicators
+quality:
+  completeness: "100%"
+  sample_size: "Multiple protocol implementations"
+  confidence: "high"
+  limitations:
+    - "Performance varies significantly with network hardware"
+    - "RDMA requires specialized NICs and switches"
+    - "CPU utilization depends on hardware offload capabilities"
+    - "Real-world performance affected by congestion and interference"
+  
+# Usage Notes
+notes:
+  - "RDMA provides 2-3x latency improvement but higher complexity"
+  - "CPU utilization critical for database performance at scale"
+  - "InfiniBand offers best performance but highest cost"
+  - "RoCE v2 provides RDMA over standard Ethernet infrastructure"
+  - "Block size significantly affects protocol efficiency"
+  - "Message rate important for small random I/O patterns"
+  - "Deployment complexity affects operational scalability"

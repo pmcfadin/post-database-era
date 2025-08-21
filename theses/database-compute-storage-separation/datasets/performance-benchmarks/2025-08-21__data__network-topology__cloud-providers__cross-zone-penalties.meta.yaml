@@ -1,0 +1,89 @@
+# Dataset Metadata
+dataset:
+  title: "Cross-AZ and Cross-Region Database Performance Penalties"
+  description: "Network latency impact and performance penalties for database deployments across availability zones and regions"
+  topic: "Database Network Topology Performance Impact"
+  metric: "Latency, throughput penalties, and availability benefits"
+  
+# Source Information
+source:
+  name: "Cloud Provider SLA Documentation and Benchmarks"
+  url: "AWS/Azure/GCP/Oracle/Alibaba official documentation and performance studies"
+  accessed: "2025-08-21"
+  license: "Publicly available cloud provider specifications"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 18
+  columns: 10
+  time_range: "2024 - 2025"
+  update_frequency: "quarterly"
+  collection_method: "compiled from cloud provider SLAs and performance studies"
+  
+# Column Descriptions
+columns:
+  provider:
+    type: "string"
+    description: "Cloud service provider"
+    unit: "categorical"
+  region:
+    type: "string"
+    description: "Geographic region identifier"
+    unit: "categorical"
+  deployment_type:
+    type: "string"
+    description: "Network deployment configuration (single-az, multi-az, cross-region)"
+    unit: "categorical"
+  base_latency_ms:
+    type: "number"
+    description: "Baseline network latency for database operations"
+    unit: "milliseconds"
+  p95_latency_ms:
+    type: "number"
+    description: "95th percentile network latency"
+    unit: "milliseconds"
+  p99_latency_ms:
+    type: "number"
+    description: "99th percentile network latency"
+    unit: "milliseconds"
+  bandwidth_mbps:
+    type: "number"
+    description: "Available network bandwidth for database traffic"
+    unit: "megabits per second"
+  consistency_model:
+    type: "string"
+    description: "Consistency guarantee provided (strong, eventual)"
+    unit: "categorical"
+  failure_domain:
+    type: "string"
+    description: "Scope of potential simultaneous failures"
+    unit: "categorical"
+  throughput_penalty_pct:
+    type: "number"
+    description: "Percentage reduction in database throughput vs single-AZ"
+    unit: "percentage"
+  availability_benefit:
+    type: "number"
+    description: "Improved availability percentage (SLA)"
+    unit: "percentage"
+    
+# Quality Indicators
+quality:
+  completeness: "100%"
+  sample_size: "Major cloud provider regions"
+  confidence: "high"
+  limitations:
+    - "Actual performance varies with network congestion"
+    - "Database-specific optimizations can reduce penalties"
+    - "Consistency model choice affects performance significantly"
+    - "Cross-region latency varies by geographic distance"
+  
+# Usage Notes
+notes:
+  - "Latency measurements include database protocol overhead"
+  - "Multi-AZ deployments trade performance for availability"
+  - "Cross-region penalties are substantial but enable disaster recovery"
+  - "Strong consistency models amplify latency impact"
+  - "Bandwidth limitations become critical for large transactions"
+  - "Provider-specific optimizations (Aurora Global Database, Spanner) can reduce penalties"

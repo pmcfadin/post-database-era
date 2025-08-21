@@ -1,0 +1,9 @@
+pattern_type,use_case,latency,data_volume,transformation_location,cost_model,adoption_rate,source
+ETL,Data Warehouse Loading,Hours to Days,Batch (TB scale),Dedicated Compute,Compute + Storage,65%,Fivetran State of Data Integration 2024
+ELT,Data Lake Analytics,Minutes to Hours,Streaming + Batch,Target System,Storage + Query Compute,45%,Databricks Lakehouse Survey 2024
+Real-time Streaming,Event Processing,Milliseconds to Seconds,Continuous (GB/sec),Stream Processor,Continuous Compute,30%,Confluent Apache Kafka Survey 2024
+Micro-batch,Near Real-time Analytics,1-15 Minutes,Mini-batches (GB scale),Distributed Compute,Scheduled Compute,55%,Apache Spark Usage Report 2024
+Log-based CDC,Database Replication,Sub-second,Transaction Log Size,CDC Agent,Agent + Network,40%,Debezium Community Survey 2024
+Trigger-based CDC,Legacy System Integration,Seconds to Minutes,Changed Records Only,Source Database,Database Overhead,25%,Oracle GoldenGate Usage Study
+Log-based CDC,Database Replication,Sub-second,Transaction Log Size,CDC Agent,Agent + Network,40%,Debezium Community Survey 2024
+Trigger-based CDC,Legacy System Integration,Seconds to Minutes,Changed Records Only,Source Database,Database Overhead,25%,Oracle GoldenGate Usage Study

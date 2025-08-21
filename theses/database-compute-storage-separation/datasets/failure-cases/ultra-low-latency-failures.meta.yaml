@@ -1,0 +1,82 @@
+# Dataset Metadata
+dataset:
+  title: "Ultra-Low Latency Failure Cases for Compute-Storage Separation"
+  description: "Documented cases where compute-storage separation cannot meet sub-millisecond to sub-10ms latency requirements"
+  topic: "Database Compute Storage Separation Counter-Evidence"
+  metric: "Latency requirements and failure modes"
+  
+# Source Information
+source:
+  name: "Multi-source compilation from academic and industry studies"
+  url: "Various academic papers and industry performance benchmarks"
+  accessed: "2025-08-21"
+  license: "Research compilation - original sources retain copyright"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 4
+  columns: 11
+  time_range: "2020 - 2025"
+  update_frequency: "static compilation"
+  collection_method: "literature review and industry case studies"
+  
+# Column Descriptions
+columns:
+  case_id:
+    type: "string"
+    description: "Unique identifier for each failure case"
+    unit: "categorical"
+  category:
+    type: "string"
+    description: "Type of failure case"
+    unit: "categorical"
+  application:
+    type: "string"
+    description: "Application domain where failure occurs"
+    unit: "categorical"
+  requirement:
+    type: "string"
+    description: "Specific latency or performance requirement"
+    unit: "time/performance"
+  failure_mode:
+    type: "string"
+    description: "How compute-storage separation fails to meet requirements"
+    unit: "descriptive"
+  documented_latency:
+    type: "string"
+    description: "Measured latency with separated architecture"
+    unit: "time"
+  local_storage_latency:
+    type: "string"
+    description: "Latency achievable with local storage"
+    unit: "time"
+  impact:
+    type: "string"
+    description: "Business or operational impact of failure"
+    unit: "descriptive"
+  source:
+    type: "string"
+    description: "Source of documented evidence"
+    unit: "reference"
+  evidence_strength:
+    type: "string"
+    description: "Quality and reliability of evidence"
+    unit: "categorical"
+  mitigation:
+    type: "string"
+    description: "Required workarounds or alternatives"
+    unit: "descriptive"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all fields populated"
+  sample_size: "4 representative cases across critical industries"
+  confidence: "high"
+  limitations: ["Evidence quality varies by industry", "Some latency measurements are estimates"]
+  
+# Usage Notes
+notes:
+  - "Focuses on cases where physics and network limitations prevent separation"
+  - "Includes safety-critical and competitive applications"
+  - "Evidence strength indicates reliability of source documentation"

@@ -1,0 +1,9 @@
+service,architecture,storage_backend,database_size_gb,snapshot_creation_time_minutes,snapshot_restore_time_minutes,incremental_backup,continuous_backup,point_in_time_recovery,cross_region_copy_time_minutes,storage_efficiency,rpo_seconds,rto_minutes,collection_date,backup_efficiency_score,recovery_efficiency_score,overall_score,separation_advantage
+Aurora MySQL,Separated,Aurora Cluster Storage,100,2,8,Yes,Yes,Yes,15,High - Incremental only,1,5,2025-08-20,0.99,0.92,0.96,High
+Aurora PostgreSQL,Separated,Aurora Cluster Storage,100,2,10,Yes,Yes,Yes,18,High - Incremental only,1,6,2025-08-20,0.99,0.91,0.95,High
+RDS MySQL,Separated,EBS + S3 snapshots,100,12,25,Yes,No,Yes,45,Medium - EBS snapshots,300,20,2025-08-20,0.62,0.73,0.68,Low
+Snowflake,Separated,Object Storage (S3/Azure/GCS),1000,0,5,Automatic,Yes,Yes,30,Very High - Immutable storage,0,4,2025-08-20,0.85,0.92,0.89,High
+BigQuery,Separated,Google Colossus,5000,0,2,Automatic,Yes,Yes,60,Very High - Columnar immutable,0,2,2025-08-20,0.85,0.91,0.88,High
+Redshift,Separated,S3,2000,45,120,Yes,No,Limited,180,Medium - Full cluster snapshots,3600,90,2025-08-20,0.4,0.0,0.2,Low
+Traditional MySQL,Coupled,Local disk + mysqldump/xtrabackup,100,45,90,Manual setup,No,Manual,120,Low - Full backups common,86400,180,2025-08-20,0.25,0.17,0.21,Low
+Traditional PostgreSQL,Coupled,Local disk + pg_dump/pg_basebackup,100,50,85,WAL archiving,Manual setup,Manual,110,Medium - WAL archiving,3600,150,2025-08-20,0.22,0.19,0.21,Low

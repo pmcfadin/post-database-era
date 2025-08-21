@@ -1,0 +1,114 @@
+{
+  "analysis_date": "2025-08-20",
+  "key_findings": {
+    "storage_performance": {
+      "best_iops_per_dollar": "local_nvme",
+      "lowest_latency": "ebs_io2",
+      "highest_cost": "ebs_io2",
+      "performance_summary": {
+        "iops_capability": {
+          "aurora_storage": 200000.0,
+          "ebs_gp3": 16000.0,
+          "ebs_io2": 64000.0,
+          "local_nvme": 400000.0,
+          "s3_standard": 5500.0
+        },
+        "latency_p99_ms": {
+          "aurora_storage": 2.0,
+          "ebs_gp3": 1.35,
+          "ebs_io2": 0.5,
+          "local_nvme": 0.93,
+          "s3_standard": 20.0
+        },
+        "total_cost_per_tb_hour": {
+          "aurora_storage": 102.0,
+          "ebs_gp3": 248.0,
+          "ebs_io2": 512.0,
+          "local_nvme": 208.0,
+          "s3_standard": 215.33
+        },
+        "iops_per_dollar": {
+          "aurora_storage": 1960.78,
+          "ebs_gp3": 64.52,
+          "ebs_io2": 125.0,
+          "local_nvme": 2243.59,
+          "s3_standard": 92.72
+        }
+      }
+    },
+    "elasticity_savings": {
+      "highest_savings": {
+        "database": "PlanetScale",
+        "scaling_model": "serverless",
+        "monthly_cost": 18000.0,
+        "savings_percent": 58.3,
+        "compute_utilization": 0.85,
+        "storage_utilization": 1.0
+      },
+      "average_savings": 26.2,
+      "savings_range": "-25.0% - 58.3%"
+    },
+    "scale_economics": {
+      "crossover_point": 0.5,
+      "max_savings": 64.7,
+      "scale_summary": [
+        {
+          "workload_size_tb": 0.5,
+          "local_cost_per_tb": 1290.0,
+          "disaggregated_cost_per_tb": 514.0,
+          "savings_percent": 60.2,
+          "crossover_point": "disaggregated"
+        },
+        {
+          "workload_size_tb": 10.0,
+          "local_cost_per_tb": 525.0,
+          "disaggregated_cost_per_tb": 248.0,
+          "savings_percent": 52.8,
+          "crossover_point": "disaggregated"
+        },
+        {
+          "workload_size_tb": 100.0,
+          "local_cost_per_tb": 535.0,
+          "disaggregated_cost_per_tb": 189.0,
+          "savings_percent": 64.7,
+          "crossover_point": "disaggregated"
+        }
+      ]
+    },
+    "benchmark_insights": {
+      "best_oltp_performer": [
+        {
+          "benchmark": "TPC-C",
+          "engine": "PostgreSQL",
+          "storage_type": "local_nvme",
+          "performance_per_dollar": 312.5,
+          "metric": "tpmC_per_dollar_hour",
+          "latency_p99_ms": 4.8
+        }
+      ],
+      "best_olap_performer": [
+        {
+          "benchmark": "TPC-H",
+          "engine": "Trino",
+          "storage_type": "s3_standard",
+          "performance_per_dollar": 5.56,
+          "metric": "queries_per_dollar_hour",
+          "latency_p99_ms": 8900.0
+        }
+      ]
+    }
+  },
+  "recommendations": {
+    "workload_guidance": {
+      "small_oltp": "Consider Aurora Serverless for cost efficiency",
+      "large_oltp": "Local NVMe for predictable latency requirements",
+      "analytics": "Object storage (S3) with query engines for cost optimization",
+      "mixed_workloads": "Hybrid architecture with workload routing"
+    },
+    "cost_optimization": {
+      "immediate_savings": "Move analytics workloads to disaggregated storage",
+      "scaling_efficiency": "Implement serverless or auto-scaling for variable workloads",
+      "data_movement": "Minimize cross-region transfers to reduce egress costs"
+    }
+  }
+}

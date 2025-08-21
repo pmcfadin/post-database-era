@@ -1,0 +1,520 @@
+{
+  "analysis_metadata": {
+    "timestamp": "2025-08-20T21:54:07.664767",
+    "datasets_analyzed": {
+      "architecture_census": 15,
+      "primitives_timeline": 30,
+      "sku_decoupling_scorecard": 19
+    }
+  },
+  "architecture_patterns": {
+    "separation_distribution": {
+      "Limited": 4,
+      "Yes": 10,
+      "Partial": 1
+    },
+    "architecture_types": {
+      "Shared-nothing with EBS": 1,
+      "Shared-disk with distributed log": 2,
+      "Shared-nothing with local/S3 hybrid": 1,
+      "Shared-disk with page server": 1,
+      "Shared-nothing with object storage": 3,
+      "Multi-model with global distribution": 1,
+      "Shared-nothing with persistent disks": 1,
+      "Shared-disk with global consistency": 1,
+      "Shared-disk with object storage": 1,
+      "Shared-nothing with replica sets": 1,
+      "Shared-nothing with local storage": 1,
+      "Shared-disk with Exadata": 1
+    },
+    "engine_separation_matrix": {
+      "OLTP": {
+        "Limited": 2,
+        "Yes": 3
+      },
+      "OLAP": {
+        "Partial": 1,
+        "Yes": 3
+      },
+      "Multi-model (Document/Graph/KV)": {
+        "Yes": 1
+      },
+      "NewSQL/OLTP": {
+        "Yes": 1
+      },
+      "OLAP/Analytics": {
+        "Yes": 1
+      },
+      "Document/OLTP": {
+        "Limited": 1
+      },
+      "Search/Analytics": {
+        "Limited": 1
+      },
+      "OLTP/OLAP": {
+        "Yes": 1
+      }
+    },
+    "vendor_separation_percentage": {
+      "AWS": 50.0,
+      "Microsoft Azure": 100.0,
+      "Google Cloud": 66.7,
+      "Snowflake": 100.0,
+      "Databricks": 100.0,
+      "MongoDB": 0.0,
+      "Elastic": 0.0,
+      "Oracle": 100.0
+    },
+    "launch_year_trends": {
+      "2009": {
+        "total_count": 1,
+        "separated_count": 0,
+        "separation_rate": 0.0
+      },
+      "2014": {
+        "total_count": 2,
+        "separated_count": 2,
+        "separation_rate": 100.0
+      },
+      "2012": {
+        "total_count": 1,
+        "separated_count": 0,
+        "separation_rate": 0.0
+      },
+      "2022": {
+        "total_count": 1,
+        "separated_count": 1,
+        "separation_rate": 100.0
+      },
+      "2010": {
+        "total_count": 2,
+        "separated_count": 2,
+        "separation_rate": 100.0
+      },
+      "2016": {
+        "total_count": 2,
+        "separated_count": 1,
+        "separation_rate": 50.0
+      },
+      "2017": {
+        "total_count": 2,
+        "separated_count": 2,
+        "separation_rate": 100.0
+      },
+      "2011": {
+        "total_count": 1,
+        "separated_count": 0,
+        "separation_rate": 0.0
+      },
+      "2020": {
+        "total_count": 1,
+        "separated_count": 1,
+        "separation_rate": 100.0
+      },
+      "2015": {
+        "total_count": 1,
+        "separated_count": 0,
+        "separation_rate": 0.0
+      },
+      "2018": {
+        "total_count": 1,
+        "separated_count": 1,
+        "separation_rate": 100.0
+      }
+    }
+  },
+  "primitives_evolution": {
+    "category_timeline": {
+      "Object Storage": {
+        "2006": 1,
+        "2010": 2,
+        "2015": 1,
+        "2016": 1,
+        "2018": 2
+      },
+      "Block Storage": {
+        "2008": 1,
+        "2010": 1,
+        "2012": 2,
+        "2014": 2,
+        "2020": 3,
+        "2021": 1
+      },
+      "Memory Storage": {
+        "2011": 1,
+        "2014": 1,
+        "2018": 1
+      },
+      "Networking": {
+        "2013": 1,
+        "2015": 2,
+        "2016": 1,
+        "2017": 1,
+        "2018": 1,
+        "2019": 1
+      },
+      "Specialized Storage": {
+        "2018": 2,
+        "2019": 1
+      }
+    },
+    "provider_timeline": {
+      "AWS": {
+        "2006": 1,
+        "2008": 1,
+        "2011": 1,
+        "2012": 1,
+        "2013": 1,
+        "2015": 1,
+        "2016": 1,
+        "2017": 1,
+        "2018": 2,
+        "2020": 2
+      },
+      "Microsoft Azure": {
+        "2010": 2,
+        "2014": 2,
+        "2016": 1,
+        "2018": 2,
+        "2019": 1,
+        "2020": 1
+      },
+      "Google Cloud": {
+        "2010": 1,
+        "2012": 1,
+        "2014": 1,
+        "2015": 2,
+        "2018": 2,
+        "2019": 1,
+        "2021": 1
+      }
+    },
+    "decade_milestones": {
+      "2000s": {
+        "count": 2,
+        "key_innovations": [
+          {
+            "primitive_name": "EBS",
+            "evolution_milestone": "First cloud block storage service"
+          },
+          {
+            "primitive_name": "S3",
+            "evolution_milestone": "First major cloud object storage"
+          }
+        ]
+      },
+      "2010s": {
+        "count": 24,
+        "key_innovations": [
+          {
+            "primitive_name": "NetApp Files",
+            "evolution_milestone": "Enterprise file system as a service"
+          },
+          {
+            "primitive_name": "gVNIC",
+            "evolution_milestone": "Purpose-built cloud networking"
+          },
+          {
+            "primitive_name": "Data Lake Storage Gen2",
+            "evolution_milestone": "Hadoop-compatible object storage"
+          }
+        ]
+      },
+      "2020s": {
+        "count": 4,
+        "key_innovations": [
+          {
+            "primitive_name": "Multi-Regional Persistent Disk",
+            "evolution_milestone": "Regional storage resilience"
+          },
+          {
+            "primitive_name": "EBS Multi-Attach",
+            "evolution_milestone": "Shared-disk architecture support"
+          },
+          {
+            "primitive_name": "Shared Disks",
+            "evolution_milestone": "Native shared storage support"
+          }
+        ]
+      }
+    },
+    "performance_evolution": [
+      {
+        "year": 2008,
+        "primitive": "EBS",
+        "performance": "Up to 1000 IOPS"
+      },
+      {
+        "year": 2010,
+        "primitive": "Page Blobs",
+        "performance": "Up to 500 IOPS per blob"
+      },
+      {
+        "year": 2011,
+        "primitive": "ElastiCache",
+        "performance": "Sub-millisecond latency"
+      },
+      {
+        "year": 2012,
+        "primitive": "Persistent Disk",
+        "performance": "Up to 3000 IOPS"
+      },
+      {
+        "year": 2012,
+        "primitive": "EBS Provisioned IOPS",
+        "performance": "Up to 4000 IOPS"
+      },
+      {
+        "year": 2014,
+        "primitive": "SSD Persistent Disk",
+        "performance": "Up to 15000 IOPS"
+      },
+      {
+        "year": 2014,
+        "primitive": "Premium SSD",
+        "performance": "Up to 5000 IOPS"
+      },
+      {
+        "year": 2015,
+        "primitive": "Enhanced Networking",
+        "performance": "Up to 20 Gbps"
+      },
+      {
+        "year": 2016,
+        "primitive": "Accelerated Networking",
+        "performance": "Up to 30 Gbps"
+      },
+      {
+        "year": 2017,
+        "primitive": "Nitro System",
+        "performance": "Up to 100 Gbps networking"
+      },
+      {
+        "year": 2018,
+        "primitive": "InfiniBand",
+        "performance": "100 Gbps RDMA"
+      },
+      {
+        "year": 2018,
+        "primitive": "Filestore",
+        "performance": "Up to 16 GB/s"
+      },
+      {
+        "year": 2018,
+        "primitive": "FSx for Lustre",
+        "performance": "Up to hundreds of GB/s"
+      },
+      {
+        "year": 2019,
+        "primitive": "NetApp Files",
+        "performance": "Up to 4.5 GB/s"
+      },
+      {
+        "year": 2019,
+        "primitive": "gVNIC",
+        "performance": "Up to 100 Gbps"
+      },
+      {
+        "year": 2020,
+        "primitive": "EBS gp3",
+        "performance": "16000 IOPS, 1000 MiB/s baseline"
+      }
+    ]
+  },
+  "decoupling_scorecard": {
+    "score_statistics": {
+      "mean": 77.9,
+      "median": 85,
+      "min": 27,
+      "max": 100,
+      "count": 19
+    },
+    "top_performers": [
+      {
+        "vendor": "Snowflake",
+        "service": "Data Cloud",
+        "decoupling_score": 100
+      },
+      {
+        "vendor": "Databricks",
+        "service": "SQL Warehouse",
+        "decoupling_score": 100
+      },
+      {
+        "vendor": "AWS",
+        "service": "Aurora Serverless v2",
+        "decoupling_score": 100
+      },
+      {
+        "vendor": "Microsoft Azure",
+        "service": "Synapse SQL Pool",
+        "decoupling_score": 95
+      },
+      {
+        "vendor": "Microsoft Azure",
+        "service": "Cosmos DB",
+        "decoupling_score": 95
+      }
+    ],
+    "bottom_performers": [
+      {
+        "vendor": "MongoDB",
+        "service": "Atlas",
+        "decoupling_score": 55
+      },
+      {
+        "vendor": "Microsoft Azure",
+        "service": "Database for PostgreSQL",
+        "decoupling_score": 53
+      },
+      {
+        "vendor": "Google Cloud",
+        "service": "Cloud SQL",
+        "decoupling_score": 43
+      },
+      {
+        "vendor": "AWS",
+        "service": "RDS MySQL",
+        "decoupling_score": 38
+      },
+      {
+        "vendor": "AWS",
+        "service": "Redshift",
+        "decoupling_score": 27
+      }
+    ],
+    "vendor_average_scores": {
+      "AWS": {
+        "mean": 69.0,
+        "count": 5
+      },
+      "Snowflake": {
+        "mean": 100.0,
+        "count": 1
+      },
+      "Databricks": {
+        "mean": 100.0,
+        "count": 1
+      },
+      "Microsoft Azure": {
+        "mean": 79.5,
+        "count": 4
+      },
+      "Google Cloud": {
+        "mean": 77.0,
+        "count": 4
+      },
+      "PlanetScale": {
+        "mean": 85.0,
+        "count": 1
+      },
+      "FaunaDB": {
+        "mean": 85.0,
+        "count": 1
+      },
+      "CockroachDB": {
+        "mean": 85.0,
+        "count": 1
+      },
+      "MongoDB": {
+        "mean": 55.0,
+        "count": 1
+      }
+    },
+    "pricing_independence_distribution": {
+      "Yes": 15,
+      "Partial": 3,
+      "No": 1
+    },
+    "autoscaling_capabilities": {
+      "compute": {
+        "Yes": 16,
+        "Limited": 2,
+        "No": 1
+      },
+      "storage": {
+        "Yes": 18,
+        "No": 1
+      }
+    },
+    "billing_granularity_distribution": {
+      "Per second": 2,
+      "Per minute": 2,
+      "Hourly": 9,
+      "Per request": 2,
+      "Per query": 1,
+      "Per operation": 2,
+      "Per transaction": 1
+    }
+  },
+  "cross_dataset_insights": {
+    "adoption_lag": {
+      "earliest_enabling_primitive": 2006,
+      "earliest_separated_service": 2010,
+      "lag_years": 4
+    },
+    "vendor_maturity": {
+      "Elastic": {
+        "separation_rate": 0.0,
+        "average_decoupling_score": 0,
+        "service_count": 1
+      },
+      "PlanetScale": {
+        "separation_rate": 0,
+        "average_decoupling_score": 85.0,
+        "service_count": 0
+      },
+      "CockroachDB": {
+        "separation_rate": 0,
+        "average_decoupling_score": 85.0,
+        "service_count": 0
+      },
+      "FaunaDB": {
+        "separation_rate": 0,
+        "average_decoupling_score": 85.0,
+        "service_count": 0
+      },
+      "AWS": {
+        "separation_rate": 50.0,
+        "average_decoupling_score": 69.0,
+        "service_count": 4
+      },
+      "Databricks": {
+        "separation_rate": 100.0,
+        "average_decoupling_score": 100.0,
+        "service_count": 1
+      },
+      "Snowflake": {
+        "separation_rate": 100.0,
+        "average_decoupling_score": 100.0,
+        "service_count": 1
+      },
+      "Oracle": {
+        "separation_rate": 100.0,
+        "average_decoupling_score": 0,
+        "service_count": 1
+      },
+      "Google Cloud": {
+        "separation_rate": 66.7,
+        "average_decoupling_score": 77.0,
+        "service_count": 3
+      },
+      "MongoDB": {
+        "separation_rate": 0.0,
+        "average_decoupling_score": 55.0,
+        "service_count": 1
+      },
+      "Microsoft Azure": {
+        "separation_rate": 100.0,
+        "average_decoupling_score": 79.5,
+        "service_count": 3
+      }
+    },
+    "infrastructure_readiness": {
+      "storage_primitives_count": 23,
+      "networking_primitives_count": 7,
+      "first_storage_primitive": 2006,
+      "first_networking_primitive": 2013
+    }
+  }
+}

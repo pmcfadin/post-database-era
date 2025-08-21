@@ -1,0 +1,9 @@
+scaling_model,database,baseline_cost_per_hour,peak_multiplier,storage_utilization,compute_utilization,daily_cost_usd,monthly_cost_usd,workload_pattern,source,notes
+monolithic,Traditional_RDBMS,100.0,4.0,0.85,0.25,1440.0,43200.0,diurnal_4x_peak,Traditional database scaling analysis,Must scale compute and storage together
+disaggregated,Snowflake,40.0,4.0,1.0,0.75,1200.0,36000.0,diurnal_4x_peak,Snowflake auto-scaling case study,"Compute scales independently, storage constant"
+disaggregated,BigQuery,25.0,8.0,1.0,0.95,975.0,29250.0,diurnal_4x_peak,BigQuery serverless pricing analysis,"True serverless, pay only for queries executed"
+serverless,Aurora_Serverless_v2,15.0,10.0,1.0,0.9,720.0,21600.0,diurnal_4x_peak,Aurora Serverless v2 pricing study,Auto-pause during idle periods
+serverless,PlanetScale,10.0,6.0,1.0,0.85,600.0,18000.0,diurnal_4x_peak,PlanetScale serverless MySQL analysis,Branch-based scaling with automatic sleep
+disaggregated,Snowflake,40.0,2.0,1.0,0.8,1080.0,32400.0,steady_with_spikes,Snowflake steady workload analysis,More consistent load with occasional spikes
+disaggregated,Databricks_SQL,50.0,12.0,1.0,0.65,1800.0,54000.0,batch_processing,Databricks batch workload analysis,Large batch jobs with idle periods
+cost_savings,Disaggregated_vs_Monolithic,0.0,1.0,1.0,1.0,0.0,16650.0,cost_comparison,Industry analysis of scaling models,Average 38.5% savings from disaggregated scaling

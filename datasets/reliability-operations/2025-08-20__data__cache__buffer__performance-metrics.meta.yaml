@@ -1,0 +1,22 @@
+dataset:
+  title: Database Buffer Cache Performance Metrics
+  description: Performance metrics for database buffer caches in separated vs coupled
+    architectures
+  topic: Database Cache Behavior
+  metric: Cache hit rates, warm-up times, IO reduction
+source:
+  name: Cloud Provider Documentation and Performance Studies
+  accessed: '2025-08-20'
+  license: Public information and research
+  credibility: Tier A
+characteristics:
+  rows: 7
+  columns: 13
+  time_range: 2023 - 2024
+  update_frequency: Quarterly
+  collection_method: Documentation analysis and performance studies
+quality:
+  completeness: 90%
+  confidence: High
+  limitations:
+  - Based on documented performance characteristics

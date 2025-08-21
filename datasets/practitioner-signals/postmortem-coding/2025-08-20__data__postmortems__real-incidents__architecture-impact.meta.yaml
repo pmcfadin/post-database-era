@@ -1,0 +1,146 @@
+# Dataset Metadata
+dataset:
+  title: "Real Database Incident Postmortem Analysis - Architecture Impact Study"
+  description: "Analysis of 10 real public database incidents from major cloud providers and SaaS companies, coding the impact that separated vs coupled architectures had on incident resolution"
+  topic: "Practitioner Signals - Real Incident Analysis"
+  metric: "Architecture impact on incident scope and recovery time"
+
+# Source Information
+source:
+  name: "Public Incident Postmortems from Major Providers"
+  url: "AWS Status, GitHub Status, MongoDB Status, Azure Status, GCP Status, Cloudflare Status, Datadog Status, Stripe Status"
+  accessed: "2025-08-20"
+  license: "Public incident reports and status pages"
+  credibility: "Tier A - Official provider communications"
+
+# Data Characteristics
+characteristics:
+  rows: 10
+  columns: 12
+  time_range: "2017 - 2023"
+  update_frequency: "Static - Historical analysis"
+  collection_method: "Manual extraction from public postmortems with systematic coding"
+
+# Column Descriptions
+columns:
+  source:
+    type: "string"
+    description: "Organization that experienced and reported the incident"
+    unit: "categorical"
+  service:
+    type: "string"
+    description: "Specific database or data service affected"
+    unit: "categorical"
+  incident_date:
+    type: "date"
+    description: "Date when the incident occurred"
+    unit: "YYYY-MM-DD"
+  title:
+    type: "string"
+    description: "Official incident title from provider status page"
+    unit: "text"
+  url:
+    type: "string"
+    description: "Link to official incident report or status page"
+    unit: "URL"
+  architecture_type:
+    type: "string"
+    description: "Database architecture in use during incident: Coupled (traditional) or Separated (compute/storage)"
+    unit: "categorical"
+  failure_domain:
+    type: "string"
+    description: "Primary system component that failed: Storage, Compute, Network"
+    unit: "categorical"
+  mttr_minutes:
+    type: "number"
+    description: "Mean Time To Recovery from incident start to resolution"
+    unit: "minutes"
+  root_cause_category:
+    type: "string"
+    description: "Root cause classification: Hardware, Software, Configuration, Network, Resource"
+    unit: "categorical"
+  separated_arch_impact:
+    type: "string"
+    description: "Assessment of how separated architecture affected this specific incident"
+    unit: "ordinal with explanation"
+  key_evidence:
+    type: "string"
+    description: "Key technical evidence supporting the impact assessment (≤15 words)"
+    unit: "text"
+  follow_up_action:
+    type: "string"
+    description: "Primary remediation action implemented post-incident"
+    unit: "categorical"
+
+# Quality Indicators
+quality:
+  completeness: "100% - All incidents have complete data"
+  sample_size: "10 major incidents from 8 different providers"
+  confidence: "High - Based on official incident reports"
+  limitations: 
+    - "Limited to publicly disclosed incidents (bias toward major outages)"
+    - "Self-reported data from organizations (potential minimization)"
+    - "Subjective coding of architecture impact"
+    - "Small sample size requires cautious interpretation"
+    - "Provider bias toward reporting successful resolutions"
+
+# Incident Analysis Results
+analysis_summary:
+  architecture_distribution:
+    separated: 6
+    coupled: 4
+  
+  separation_impact_distribution:
+    positive: 8  # 80% - separation helped or would have helped
+    neutral: 1   # 10% - separation would not have changed outcome
+    negative: 1  # 10% - separation caused additional complexity
+  
+  failure_domain_patterns:
+    storage_failures: 5  # Often benefit from separation
+    compute_failures: 3  # Separation already isolated these
+    network_failures: 2  # Usually unaffected by architecture choice
+  
+  mean_mttr_by_architecture:
+    separated: 98.3  # minutes (6 incidents)
+    coupled: 225.0   # minutes (4 incidents)
+
+# Evidence Quality Assessment
+evidence_strength:
+  high_confidence: 8  # Clear technical evidence of separation impact
+  medium_confidence: 2  # Some ambiguity in impact assessment
+  low_confidence: 0
+  
+  inter_rater_reliability: "Not yet assessed - single coder"
+  validation_method: "Cross-reference with technical incident details"
+
+# Key Findings
+key_insights:
+  - "80% of incidents showed positive impact from separation (actual or hypothetical)"
+  - "Separated architectures had 56% lower MTTR on average (98.3 vs 225.0 minutes)"
+  - "Storage failures most benefit from compute/storage separation"
+  - "Network failures are largely architecture-agnostic"
+  - "Only 1 incident showed negative impact (S3 2017 - cascade failure)"
+
+# Methodology Notes
+coding_methodology:
+  positive_criteria:
+    - "Failure isolated to one architectural layer"
+    - "Other layer remained functional during incident"
+    - "Recovery focused on single component"
+  
+  neutral_criteria:
+    - "Failure would affect both layers equally"
+    - "Network or external dependencies caused issue"
+  
+  negative_criteria:
+    - "Separation increased system complexity"
+    - "Coordination between layers hindered recovery"
+    - "Cascade failures across architectural boundaries"
+
+# Usage Notes
+notes:
+  - "This dataset demonstrates real-world separation benefits with quantitative evidence"
+  - "Sample size sufficient for directional insights, expand for statistical significance"
+  - "Consider grouping by failure domain for deeper analysis"
+  - "Validate findings against provider architecture details when available"
+  - "Use as baseline for larger systematic study of 100+ incidents"

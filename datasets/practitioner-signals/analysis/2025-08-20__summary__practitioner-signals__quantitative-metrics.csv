@@ -1,0 +1,7 @@
+metric_type,category,value,percentage,sample_size
+architecture_preference,Separated,3,60.0,5
+architecture_preference,Coupled,1,20.0,5
+architecture_preference,Hybrid,1,20.0,5
+separation_impact,Positive - Isolated storage impact,1,33.33333333333333,3
+separation_impact,Positive - Storage unaffected,1,33.33333333333333,3
+separation_impact,Neutral - Would not help,1,33.33333333333333,3

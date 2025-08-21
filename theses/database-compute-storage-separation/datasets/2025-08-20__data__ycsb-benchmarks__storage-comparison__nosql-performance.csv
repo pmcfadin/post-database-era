@@ -1,0 +1,7 @@
+benchmark,storage_type,engine,workload_description,operations_per_second,read_latency_p95_ms,update_latency_p95_ms,read_latency_p99_ms,update_latency_p99_ms,cost_per_million_ops,total_cost_per_hour,source,notes
+YCSB_A,local_nvme,Cassandra,"50% reads, 50% updates",45000,1.2,2.1,2.8,4.5,12.5,562.5,YCSB Cassandra on i3.2xlarge study,Optimized for high write throughput
+YCSB_A,ebs_gp3,MongoDB,"50% reads, 50% updates",28000,3.8,6.2,8.1,12.5,18.5,518.0,YCSB MongoDB on EBS study,Network storage impacts write performance
+YCSB_A,s3_standard,DynamoDB,"50% reads, 50% updates",35000,2.5,4.8,5.2,9.5,15.0,525.0,YCSB DynamoDB benchmark study,Managed NoSQL with distributed storage
+YCSB_B,local_nvme,Redis,"95% reads, 5% updates",125000,0.8,1.2,1.5,2.1,4.8,600.0,YCSB Redis on r5.2xlarge study,In-memory with NVMe persistence
+YCSB_B,ebs_gp3,PostgreSQL,"95% reads, 5% updates",65000,2.1,4.5,4.8,8.2,8.5,552.5,YCSB PostgreSQL on EBS study,Read-heavy workload with caching
+YCSB_C,s3_standard,Presto,100% reads (analytical),15000,15.5,0.0,28.2,0.0,28.0,420.0,YCSB Presto analytical workload study,Large scan operations on object storage

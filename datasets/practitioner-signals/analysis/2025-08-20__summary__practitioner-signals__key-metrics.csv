@@ -1,0 +1,3 @@
+metric,value,sample_size,percentage
+survey_prefer_separated,3,5,60.0%
+incidents_positive_separation,8,10,80.0%

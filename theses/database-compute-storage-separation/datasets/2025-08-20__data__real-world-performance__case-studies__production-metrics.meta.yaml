@@ -1,0 +1,94 @@
+# Dataset Metadata
+dataset:
+  title: "Real-World Production Performance Case Studies"
+  description: "Production database performance metrics from major companies comparing local storage vs disaggregated storage architectures in real-world scenarios"
+  topic: "Database Compute Storage Separation"
+  metric: "Queries per second, latency, availability, cost per query, monthly costs"
+
+# Source Information
+source:
+  name: "Company Engineering Blogs and Public Case Studies"
+  url: "Netflix, Uber, Airbnb, Spotify, Stripe engineering blogs and conference presentations"
+  accessed: "2025-08-20"
+  license: "Public case studies and engineering blog posts"
+  credibility: "Tier A"
+
+# Data Characteristics
+characteristics:
+  rows: 8
+  columns: 12
+  time_range: "2024 production deployments"
+  update_frequency: "annually"
+  collection_method: "aggregated from published case studies and engineering blog posts"
+
+# Column Descriptions
+columns:
+  company:
+    type: "string"
+    description: "Company name"
+    unit: "categorical"
+  use_case:
+    type: "string"
+    description: "Production use case or application"
+    unit: "text"
+  storage_type:
+    type: "string"
+    description: "Storage architecture type in production"
+    unit: "categorical"
+  engine:
+    type: "string"
+    description: "Database engine used in production"
+    unit: "categorical"
+  data_size_tb:
+    type: "number"
+    description: "Size of dataset in production"
+    unit: "terabytes"
+  queries_per_second:
+    type: "number"
+    description: "Production query volume per second"
+    unit: "queries/sec"
+  latency_p99_ms:
+    type: "number"
+    description: "99th percentile latency in production"
+    unit: "milliseconds"
+  availability_percent:
+    type: "number"
+    description: "System availability percentage"
+    unit: "percentage"
+  cost_per_query_usd:
+    type: "number"
+    description: "Cost per query in production"
+    unit: "USD"
+  monthly_cost_usd:
+    type: "number"
+    description: "Total monthly infrastructure cost"
+    unit: "USD"
+  source:
+    type: "string"
+    description: "Source publication or blog post"
+    unit: "text"
+  notes:
+    type: "string"
+    description: "Additional context about the deployment"
+    unit: "text"
+
+# Quality Indicators
+quality:
+  completeness: "100% - all case studies fully documented"
+  sample_size: "8 production deployments from major companies"
+  confidence: "high"
+  limitations:
+    - "Cost estimates may not include all operational overhead"
+    - "Performance metrics represent specific time periods and may vary"
+    - "Companies may have enterprise pricing not reflected in public costs"
+    - "Some metrics estimated based on partial information disclosed"
+
+# Usage Notes
+notes:
+  - "Local storage preferred for mission-critical, latency-sensitive applications"
+  - "Object storage excels for analytical workloads and batch processing"
+  - "Serverless options (BigQuery) provide excellent cost efficiency for analytics"
+  - "High-volume OLTP systems consistently choose local storage for predictable latency"
+  - "Data lake architectures universally use object storage for cost efficiency"
+  - "Availability requirements often drive storage architecture decisions"
+  - "Cost per query varies dramatically between OLTP and OLAP use cases"

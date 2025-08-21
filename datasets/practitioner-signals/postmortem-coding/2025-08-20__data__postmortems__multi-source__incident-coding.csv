@@ -1,0 +1,4 @@
+source,service,incident_date,title,url,architecture_type,failure_domain,mttr_minutes,root_cause_category,separated_arch_impact,key_evidence,follow_up_action
+AWS,Amazon RDS,2024-01-15,RDS Multi-AZ Failover Delays,https://aws.amazon.com/message/example/,Coupled,Compute,45,Network,Positive - Isolated storage impact,Storage remained healthy,Improved failover automation
+AWS,Amazon Aurora,2024-02-20,Aurora Serverless Scaling Issues,https://aws.amazon.com/message/example2/,Separated,Compute,25,Configuration,Positive - Storage unaffected,Compute autoscaling failure,Enhanced monitoring
+GitHub,GitHub MySQL,2023-12-10,Database Connection Pool Exhaustion,https://www.githubstatus.com/incidents/example,Coupled,Network,60,Resource,Neutral - Would not help,Connection pool limits,Increased pool size

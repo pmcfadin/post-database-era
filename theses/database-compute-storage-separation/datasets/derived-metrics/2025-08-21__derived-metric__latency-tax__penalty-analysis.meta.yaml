@@ -1,0 +1,94 @@
+# Dataset Metadata
+dataset:
+  title: "Latency Tax Analysis - Storage Separation Performance Penalty"
+  description: "Quantifies the latency penalty incurred when using remote/disaggregated storage compared to local storage across different database engines and workload types"
+  topic: "Database Compute Storage Separation"
+  metric: "Latency Tax % = ((p95_remote - p95_local) / p95_local) * 100"
+  
+# Source Information
+source:
+  name: "Synthesized from latency benchmarks and cross-zone penalty datasets"
+  url: "Internal performance benchmark compilation"
+  accessed: "2025-08-21"
+  license: "Internal research use"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 15
+  columns: 11
+  time_range: "Current generation systems"
+  update_frequency: "quarterly"
+  collection_method: "performance benchmarking + vendor specifications"
+  
+# Column Descriptions
+columns:
+  workload_type:
+    type: "string"
+    description: "Primary workload characteristic (OLTP, OLAP, etc.)"
+    unit: "categorical"
+  engine_type:
+    type: "string"
+    description: "Database engine or system being measured"
+    unit: "categorical"
+  local_storage:
+    type: "string"
+    description: "Local/direct-attached storage type used as baseline"
+    unit: "categorical"
+  remote_storage:
+    type: "string"
+    description: "Remote/network storage type being compared"
+    unit: "categorical"
+  p95_local_ms:
+    type: "number"
+    description: "95th percentile latency with local storage"
+    unit: "milliseconds"
+  p95_remote_ms:
+    type: "number"
+    description: "95th percentile latency with remote storage"
+    unit: "milliseconds"
+  latency_tax_percent:
+    type: "number"
+    description: "Percentage increase in latency due to storage separation"
+    unit: "percentage"
+  operation_type:
+    type: "string"
+    description: "Type of database operation being measured"
+    unit: "categorical"
+  stack_type:
+    type: "string"
+    description: "Database technology stack category"
+    unit: "categorical"
+  deployment_scenario:
+    type: "string"
+    description: "Deployment pattern context"
+    unit: "categorical"
+  tolerance_threshold_ms:
+    type: "number"
+    description: "Typical application tolerance threshold for this workload"
+    unit: "milliseconds"
+  source_benchmark:
+    type: "string"
+    description: "Source dataset used for latency measurements"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all required measurements available"
+  sample_size: "15 representative database/workload combinations"
+  confidence: "high"
+  limitations: 
+    - "Some measurements are vendor-provided specifications rather than independent benchmarks"
+    - "Network conditions can vary significantly in production"
+    - "Cache hit rates not normalized across comparisons"
+    - "Does not account for write amplification in some storage types"
+  
+# Usage Notes
+notes:
+  - "Latency tax >1000% indicates severe performance penalty for separation"
+  - "Latency tax <100% indicates reasonable performance penalty for separation"
+  - "OLTP workloads generally show highest latency sensitivity"
+  - "Analytical workloads (OLAP) show more tolerance to latency tax"
+  - "Cache-heavy workloads (Redis) show significant degradation with network storage"
+  - "Vector and search workloads show moderate latency tax tolerance"
+  - "Results should be compared against tolerance_threshold_ms for workload viability assessment"

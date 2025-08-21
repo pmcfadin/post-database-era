@@ -1,0 +1,88 @@
+# Dataset Metadata
+dataset:
+  title: "Organizational Structure Evolution for Cloud Center of Excellence Models"
+  description: "Team structure patterns and responsibility boundaries as organizations adopt separated compute/storage models"
+  topic: "organizational-procurement-team-structure"
+  metric: "organizational_alignment_maturity"
+  
+# Source Information
+source:
+  name: "Cloud Center of Excellence Research, Platform Engineering Surveys, DevOps Reports"
+  url: "Compiled from DORA reports, platform engineering surveys, and organizational case studies"
+  accessed: "2025-08-21"
+  license: "Research use, organizational patterns anonymized"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 10
+  columns: 12
+  time_range: "2024 - 2025"
+  update_frequency: "annual"
+  collection_method: "organizational_survey_and_case_study"
+  
+# Column Descriptions
+columns:
+  company_size:
+    type: "string"
+    description: "Company size category by employee count"
+    unit: "employee_count_range"
+  industry:
+    type: "string"
+    description: "Primary industry vertical"
+    unit: "categorical"
+  ccoe_maturity:
+    type: "string"
+    description: "Cloud Center of Excellence maturity level"
+    unit: "ordinal"
+  infrastructure_team_model:
+    type: "string"
+    description: "How infrastructure teams are organized and operate"
+    unit: "categorical"
+  application_team_boundary:
+    type: "string"
+    description: "Where application teams draw ownership boundaries"
+    unit: "categorical"
+  procurement_policy_evolution:
+    type: "string"
+    description: "How procurement policies have evolved for cloud resources"
+    unit: "categorical"
+  storage_ops_ownership:
+    type: "string"
+    description: "Which team owns storage operations and decisions"
+    unit: "categorical"
+  compute_ops_ownership:
+    type: "string"
+    description: "Which team owns compute operations and decisions"
+    unit: "categorical"
+  cost_optimization_responsibility:
+    type: "string"
+    description: "Which team/role is responsible for cost optimization"
+    unit: "categorical"
+  platform_engineering_adoption:
+    type: "string"
+    description: "Level of platform engineering adoption"
+    unit: "ordinal"
+  database_administration_model:
+    type: "string"
+    description: "How database administration is organized"
+    unit: "categorical"
+  vendor_relationship_management:
+    type: "string"
+    description: "How vendor relationships are managed organizationally"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100%"
+  sample_size: "10 representative organizational patterns"
+  confidence: "high"
+  limitations: ["Organizational structures evolve rapidly", "Patterns may not capture hybrid or transitional states", "Industry variations may be more nuanced than categories suggest"]
+  
+# Usage Notes
+notes:
+  - "CCOE maturity levels: emerging, developing, mature, advanced"
+  - "Platform engineering adoption correlates with compute/storage separation capabilities"
+  - "Larger organizations tend toward more specialized teams with distinct responsibilities"
+  - "Startup patterns show high team autonomy with less separation of concerns"
+  - "Financial services and healthcare show more mature governance patterns"

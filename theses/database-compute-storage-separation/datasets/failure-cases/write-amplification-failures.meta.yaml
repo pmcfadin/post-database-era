@@ -1,0 +1,86 @@
+# Dataset Metadata
+dataset:
+  title: "Write Amplification Failure Cases for Compute-Storage Separation"
+  description: "Cases where write-heavy workloads become economically or performance-wise infeasible with separated compute and storage"
+  topic: "Database Compute Storage Separation Counter-Evidence"
+  metric: "Write amplification factors and performance degradation"
+  
+# Source Information
+source:
+  name: "Database performance studies and cloud provider benchmarks"
+  url: "Various database vendor performance documentation"
+  accessed: "2025-08-21"
+  license: "Research compilation - original sources retain copyright"
+  credibility: "Tier A/B"
+  
+# Data Characteristics
+characteristics:
+  rows: 4
+  columns: 12
+  time_range: "2020 - 2025"
+  update_frequency: "static compilation"
+  collection_method: "performance benchmark analysis and case studies"
+  
+# Column Descriptions
+columns:
+  case_id:
+    type: "string"
+    description: "Unique identifier for each failure case"
+    unit: "categorical"
+  category:
+    type: "string"
+    description: "Type of failure case"
+    unit: "categorical"
+  workload_type:
+    type: "string"
+    description: "Type of database workload experiencing issues"
+    unit: "categorical"
+  description:
+    type: "string"
+    description: "Detailed description of the workload characteristics"
+    unit: "descriptive"
+  write_amplification_factor:
+    type: "string"
+    description: "Multiplier of logical writes due to separation overhead"
+    unit: "ratio"
+  local_storage_cost:
+    type: "string"
+    description: "Baseline cost reference for local storage"
+    unit: "cost reference"
+  remote_storage_cost:
+    type: "string"
+    description: "Cost increase factor for remote storage"
+    unit: "cost multiplier"
+  performance_impact:
+    type: "string"
+    description: "Percentage degradation in performance metrics"
+    unit: "percentage"
+  specific_issue:
+    type: "string"
+    description: "Technical reason for performance degradation"
+    unit: "descriptive"
+  documented_source:
+    type: "string"
+    description: "Source of performance measurements"
+    unit: "reference"
+  evidence_strength:
+    type: "string"
+    description: "Quality of evidence documentation"
+    unit: "categorical"
+  failure_threshold:
+    type: "string"
+    description: "Workload characteristics that trigger failure mode"
+    unit: "threshold specification"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all fields populated"
+  sample_size: "4 representative workload types"
+  confidence: "high"
+  limitations: ["Performance numbers are representative ranges", "Cost impacts vary by cloud provider"]
+  
+# Usage Notes
+notes:
+  - "Focuses on workloads where separation creates unacceptable overhead"
+  - "Includes both performance and cost failure modes"
+  - "Write amplification factors include network and replication overhead"

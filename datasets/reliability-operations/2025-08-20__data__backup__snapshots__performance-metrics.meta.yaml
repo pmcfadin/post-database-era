@@ -1,0 +1,22 @@
+dataset:
+  title: Database Snapshot Performance Metrics
+  description: Performance metrics for database snapshots and backup operations across
+    architectures
+  topic: Database Backup and Recovery Performance
+  metric: Snapshot times, restore times, RPO/RTO achievements
+source:
+  name: Cloud Provider Documentation and Performance Studies
+  accessed: '2025-08-20'
+  license: Public information and research
+  credibility: Tier A
+characteristics:
+  rows: 8
+  columns: 18
+  time_range: 2023 - 2024
+  update_frequency: Quarterly
+  collection_method: Documentation analysis and performance benchmarking
+quality:
+  completeness: 95%
+  confidence: High
+  limitations:
+  - Based on documented performance characteristics

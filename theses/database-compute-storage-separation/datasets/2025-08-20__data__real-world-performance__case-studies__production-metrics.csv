@@ -1,0 +1,9 @@
+company,use_case,storage_type,engine,data_size_tb,queries_per_second,latency_p99_ms,availability_percent,cost_per_query_usd,monthly_cost_usd,source,notes
+Netflix,Real-time recommendations,local_nvme,Cassandra,50.0,75000,3.0,99.99,8e-06,156000.0,Netflix Engineering Blog 2024,Global deployment on local NVMe for latency
+Netflix,Data lake analytics,s3_standard,Presto,15000.0,850,45.0,99.9,0.025,55250.0,Netflix Engineering Blog 2024,S3 data lake for batch analytics
+Uber,Trip data processing,local_nvme,MySQL,8.0,45000,5.0,99.95,1.2e-05,142000.0,Uber Engineering Blog 2024,Sharded MySQL on local storage
+Uber,Business intelligence,s3_standard,Presto,850.0,1200,25.0,99.5,0.08,25920.0,Uber Engineering Blog 2024,Data lake for analytical workloads
+Airbnb,Search and booking,local_nvme,PostgreSQL,12.0,35000,8.0,99.99,1.5e-05,136500.0,Airbnb Engineering Blog 2024,OLTP workload requiring low latency
+Airbnb,ETL and reporting,s3_standard,Spark_SQL,240.0,125,180.0,99.0,2.85,97875.0,Airbnb Engineering Blog 2024,Batch processing on data lake
+Spotify,Music recommendation ML,gcs_standard,BigQuery,180.0,450,12.0,99.9,0.42,49140.0,Spotify Engineering Blog 2024,Serverless ML feature engineering
+Stripe,Payment processing,local_nvme,PostgreSQL,25.0,85000,2.5,99.999,6e-06,133200.0,Stripe Engineering Blog 2024,Mission-critical OLTP requiring extreme reliability

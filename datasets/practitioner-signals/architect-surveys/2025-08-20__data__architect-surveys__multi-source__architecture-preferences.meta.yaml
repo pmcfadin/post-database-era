@@ -1,0 +1,151 @@
+# Dataset Metadata
+dataset:
+  title: "Database Architecture Preferences - Practitioner Survey Analysis"
+  description: "Industry survey data on database architecture adoption preferences, drivers, and blockers from architects and engineers"
+  topic: "Practitioner Signals - Architecture Survey Panel"
+  metric: "Architecture preference distributions and adoption factors"
+
+# Source Information
+source:
+  name: "Multi-Source Industry Surveys"
+  url: "Stack Overflow Developer Survey, CNCF Annual Survey, Gartner Research"
+  accessed: "2025-08-20"
+  license: "Publicly available survey data and research synthesis"
+  credibility: "Tier A"
+
+# Data Characteristics
+characteristics:
+  rows: 5
+  columns: 17
+  time_range: "2024"
+  update_frequency: "Annual survey cycles"
+  collection_method: "Survey synthesis and qualitative-to-quantitative conversion"
+
+# Column Descriptions
+columns:
+  survey_source:
+    type: "string"
+    description: "Source survey or research study"
+    unit: "categorical"
+  year:
+    type: "number"
+    description: "Survey year"
+    unit: "year"
+  respondent_role:
+    type: "string"
+    description: "Professional role of respondent"
+    unit: "categorical"
+  experience_years:
+    type: "string"
+    description: "Years of relevant experience"
+    unit: "ordinal ranges"
+  company_size:
+    type: "string"
+    description: "Organization size by employee count"
+    unit: "ordinal ranges"
+  current_architecture:
+    type: "string"
+    description: "Currently deployed database architecture"
+    unit: "categorical (Coupled, Separated, Hybrid)"
+  preferred_architecture:
+    type: "string"
+    description: "Preferred future database architecture"
+    unit: "categorical (Coupled, Separated, Hybrid)"
+  adoption_driver_primary:
+    type: "string"
+    description: "Primary motivation for architecture choice"
+    unit: "categorical"
+  adoption_driver_secondary:
+    type: "string"
+    description: "Secondary motivation for architecture choice"
+    unit: "categorical"
+  main_blocker:
+    type: "string"
+    description: "Primary barrier to adoption"
+    unit: "categorical"
+  time_to_adopt_months:
+    type: "number"
+    description: "Estimated time to full adoption"
+    unit: "months"
+  sla_target_ms:
+    type: "number"
+    description: "Target SLA latency requirement"
+    unit: "milliseconds"
+  topology_preference:
+    type: "string"
+    description: "Preferred deployment topology"
+    unit: "categorical"
+  confidence_level:
+    type: "string"
+    description: "Confidence in architecture assessment"
+    unit: "ordinal (Low, Medium, High)"
+  adoption_readiness_score:
+    type: "number"
+    description: "Quantified readiness to adopt (1-5 scale)"
+    unit: "ordinal scale"
+  complexity_preference:
+    type: "number"
+    description: "Preferred architecture complexity (1-5 scale)"
+    unit: "ordinal scale"
+  confidence_numeric:
+    type: "number"
+    description: "Numeric confidence score (1-5)"
+    unit: "ordinal scale"
+
+# Quality Indicators
+quality:
+  completeness: "100% - All fields populated"
+  sample_size: "5 responses (representative sample)"
+  confidence: "Medium - Based on survey synthesis"
+  limitations: 
+    - "Small sample size - expand to statistical significance"
+    - "Potential response bias toward early adopters"
+    - "Synthesized from public sources, not direct survey"
+    - "Self-reported preference may differ from actual adoption"
+
+# Quantitative Conversion Methodology
+conversion_scales:
+  adoption_readiness:
+    description: "Derived from main_blocker analysis"
+    scale:
+      5: "No significant blockers identified"
+      4: "Technical concerns (latency, performance)"
+      3: "Operational concerns (complexity, integration)"
+      2: "Resource concerns (skills, tooling)"
+      1: "Fundamental barriers (budget, mandate)"
+  
+  complexity_preference:
+    description: "Derived from preferred_architecture"
+    scale:
+      5: "Very Complex (Multi-model, Federated)"
+      4: "Complex (Separated, Microservices)"
+      3: "Moderate (Hybrid, Tiered)"
+      2: "Simple (Coupled, Monolithic)"
+      1: "Very Simple (Single-instance)"
+  
+  confidence_numeric:
+    description: "Direct conversion from confidence_level"
+    scale:
+      5: "Very High confidence"
+      4: "High confidence"
+      3: "Medium confidence"
+      2: "Low confidence"
+      1: "Very Low confidence"
+
+# Survey Methodology Notes
+survey_design:
+  target_population: "Database architects, platform engineers, DBAs, SREs"
+  sampling_method: "Industry survey participants from major tech surveys"
+  response_validation: "Cross-reference with public case studies where possible"
+  bias_considerations:
+    - "Technology conference attendees may favor newer architectures"
+    - "Large company bias in survey participation"
+    - "Self-selection bias toward experienced practitioners"
+
+# Usage Notes
+notes:
+  - "This is a template/pilot dataset - expand to 200+ responses for statistical power"
+  - "Consider stratified sampling by company size and industry"
+  - "Validate quantitative scales with practitioner review"
+  - "Track architecture preference changes over time (longitudinal study)"
+  - "Consider adding regional/cultural factors in future iterations"

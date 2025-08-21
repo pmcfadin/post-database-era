@@ -1,0 +1,8 @@
+database_type,architecture,cache_size_gb,cold_start_hit_rate,warm_cache_hit_rate,warmup_time_minutes,warmup_query_count,io_reduction_percentage,scaling_event_impact,cache_persistence,collection_date,data_source,cache_effectiveness_score
+Aurora MySQL,Separated,64,15,95,12,1000,85,Medium - 5-10 min performance degradation,Partial - Aurora cluster cache,2025-08-20,Cloud Provider Documentation + Performance Studies,0.9
+Aurora PostgreSQL,Separated,96,18,94,15,1200,88,Medium - 5-10 min performance degradation,Partial - Aurora cluster cache,2025-08-20,Cloud Provider Documentation + Performance Studies,0.9
+Snowflake,Separated,128,25,92,8,800,90,Low - Result cache persists across warehouses,High - Global result cache,2025-08-20,Cloud Provider Documentation + Performance Studies,0.91
+BigQuery,Separated,256,30,96,5,500,95,Very Low - Columnar storage + cache,High - Persistent across slots,2025-08-20,Cloud Provider Documentation + Performance Studies,0.95
+Redshift,Separated,512,20,89,25,2000,75,High - Node-local caches lost on resize,Low - Node-local only,2025-08-20,Cloud Provider Documentation + Performance Studies,0.81
+Traditional MySQL,Coupled,32,12,85,30,2500,70,High - Full cache loss on restart,None - Lost on restart,2025-08-20,Cloud Provider Documentation + Performance Studies,0.76
+Traditional PostgreSQL,Coupled,48,10,88,35,3000,73,High - Full cache loss on restart,None - Lost on restart,2025-08-20,Cloud Provider Documentation + Performance Studies,0.77

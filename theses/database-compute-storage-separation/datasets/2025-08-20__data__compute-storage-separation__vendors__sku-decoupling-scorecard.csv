@@ -1,0 +1,20 @@
+vendor,service,pricing_model,independent_pricing,compute_unit,storage_unit,min_storage_per_vcpu,compute_autoscaling,storage_autoscaling,billing_granularity,elastic_scaling,pricing_transparency,storage_tiers,compute_pricing_per_hour,storage_pricing_per_gb,minimum_commitment,source_url,decoupling_score
+AWS,Aurora Serverless v2,ACU + Storage,Yes,ACU,GB-month,None,Yes,Yes,Per second,Yes,High,Aurora storage,$0.36 per ACU-hour,$0.10,None,https://aws.amazon.com/rds/aurora/serverless/,100
+Snowflake,Data Cloud,Credits + Storage,Yes,Credit,TB,None,Yes,Yes,Per second,Yes,Medium,Standard,$2-4 per credit-hour,$0.023,None,https://www.snowflake.com/pricing/,100
+Databricks,SQL Warehouse,DBU + Storage,Yes,DBU,GB,None,Yes,Yes,Per minute,Yes,Medium,Delta Lake,$0.22-0.55 per DBU,Cloud provider rates,None,https://databricks.com/product/pricing,100
+AWS,Aurora MySQL,Compute + Storage,Yes,vCPU,GB-month,None,Yes,Yes,Hourly,Yes,High,Aurora storage,$0.041 - $13.338,$0.10,None,https://aws.amazon.com/rds/aurora/pricing/,95
+Microsoft Azure,Synapse SQL Pool,DWU + Storage,Yes,DWU,TB,None,Yes,Yes,Hourly,Yes,Medium,Premium storage,$1.23 - $369.68,$0.024,None,https://azure.microsoft.com/en-us/pricing/details/synapse-analytics/,95
+Microsoft Azure,Cosmos DB,RU/s + Storage,Yes,RU/s,GB,None,Yes,Yes,Hourly,Yes,High,"Standard, Analytical store",$0.008 per 100 RU/s,$0.25,None,https://azure.microsoft.com/en-us/pricing/details/cosmos-db/,95
+Google Cloud,Spanner,Processing Units + Storage,Yes,Processing Unit,GB,None,Yes,Yes,Hourly,Yes,High,Standard,$0.90 per 100 processing units,$0.30,None,https://cloud.google.com/spanner/pricing,95
+AWS,DynamoDB,Read/Write + Storage,Yes,RCU/WCU,GB,None,Yes,Yes,Per request,Yes,High,"Standard, IA",$0.25 per million reads,$0.25,None,https://aws.amazon.com/dynamodb/pricing/,85
+Google Cloud,BigQuery,Slots + Storage,Yes,Slot,GB,None,Yes,Yes,Per query,Yes,High,"Active, Long-term",$0.04 per slot-hour,$0.02 - $0.01,None,https://cloud.google.com/bigquery/pricing,85
+Google Cloud,Firestore,Operations + Storage,Yes,Operation,GB,None,Yes,Yes,Per operation,Yes,High,Standard,$0.18 per 100K ops,$0.18,None,https://cloud.google.com/firestore/pricing,85
+PlanetScale,Database,Read/Write + Storage,Yes,Read/Write units,GB,None,Yes,Yes,Per operation,Yes,High,Standard,$1.50 per billion reads,$1.50,None,https://planetscale.com/pricing,85
+FaunaDB,Database,Operations + Storage,Yes,Transaction,GB,None,Yes,Yes,Per transaction,Yes,High,Standard,$0.10 per 100K ops,$0.23,None,https://fauna.com/pricing,85
+CockroachDB,Serverless,Request Units + Storage,Yes,Request Unit,GB,None,Yes,Yes,Per request,Yes,High,Standard,$1.00 per million RUs,$1.00,None,https://www.cockroachlabs.com/pricing/,85
+Microsoft Azure,SQL Database,vCore + Storage,Yes,vCore,GB,5 GB,Yes,Yes,Hourly,Yes,High,"Premium SSD, Standard SSD",$0.11 - $4.42,$0.115 - $0.25,None,https://azure.microsoft.com/en-us/pricing/details/azure-sql-database/,75
+MongoDB,Atlas,Cluster Tier + Storage,Partial,Cluster size,GB,10 GB,Yes,Yes,Hourly,Partial,Medium,"Standard, Low Frequency",$0.08 - $10+,$0.25 - $0.025,None,https://www.mongodb.com/pricing,55
+Microsoft Azure,Database for PostgreSQL,vCore + Storage,Yes,vCore,GB,5 GB,Limited,Yes,Hourly,Limited,High,Premium SSD,$0.023 - $1.88,$0.115,None,https://azure.microsoft.com/en-us/pricing/details/postgresql/,53
+Google Cloud,Cloud SQL,Machine + Storage,Partial,vCPU,GB,10 GB,Limited,Yes,Per minute,Limited,High,"SSD, HDD",$0.0413 - $3.3004,$0.17 - $0.09,None,https://cloud.google.com/sql/pricing,43
+AWS,RDS MySQL,Instance + Storage,Partial,vCPU,GB,5 GB,No,Yes,Hourly,No,High,"gp2, gp3, io1, io2",$0.017 - $13.338,$0.115 - $0.125,None,https://aws.amazon.com/rds/mysql/pricing/,38
+AWS,Redshift,Node-based,No,Node,Node storage,Fixed per node type,Yes,No,Hourly,Partial,Medium,"ra3.xlplus, ra3.4xlarge, ra3.16xlarge",$0.75 - $13.04,$0.024 (managed storage),None,https://aws.amazon.com/redshift/pricing/,27

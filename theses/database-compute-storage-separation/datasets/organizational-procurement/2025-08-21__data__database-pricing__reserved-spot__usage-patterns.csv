@@ -1,0 +1,11 @@
+workload_type,compute_pattern,storage_pattern,reserved_compute_percent,spot_compute_percent,reserved_storage_percent,cost_savings_percent,availability_target,failover_time_seconds,data_durability_nines,business_criticality,scaling_frequency,cost_predictability_score
+oltp_production,steady_baseline,persistent_growth,80,5,90,45,99.99,30,11,critical,hourly,9
+olap_analytics,burst_heavy,archive_lifecycle,40,50,60,65,99.9,300,9,important,daily,6
+dev_test_environments,intermittent,temporary,20,70,30,75,99.5,600,7,low,weekly,4
+data_warehouse,scheduled_batch,tiered_storage,60,25,80,55,99.95,180,10,high,daily,7
+machine_learning,training_burst,model_artifacts,30,60,40,70,99.0,900,8,medium,project_based,5
+time_series_iot,continuous_ingest,hot_cold_tiers,70,15,85,50,99.99,60,10,high,real_time,8
+document_database,variable_load,content_growth,50,30,70,60,99.9,120,9,medium,hourly,6
+vector_database,embedding_batch,vector_storage,35,55,50,68,99.5,300,8,medium,batch_driven,5
+graph_database,query_intensive,relationship_data,65,20,75,52,99.95,90,9,high,hourly,7
+cache_layer,high_throughput,ephemeral,10,80,0,80,99.0,5,6,medium,real_time,3

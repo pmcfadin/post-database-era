@@ -1,0 +1,13 @@
+engine,workload,tb_scanned,compute_cost_usd,usd_per_tb,pricing_model,source,notes
+BigQuery,bi,1.0,6.25,6.25,on_demand,Google Cloud Pricing 2024,On-demand pricing per TB processed
+BigQuery,etl,10.0,62.5,6.25,on_demand,Google Cloud Pricing 2024,Scales linearly with data processed
+BigQuery,adhoc,0.5,3.125,6.25,on_demand,Google Cloud Pricing 2024,Same rate regardless of query complexity
+Snowflake,bi,1.0,2.4,2.4,credit_based,TPC-H Benchmark Analysis,"Medium warehouse, optimized queries"
+Snowflake,etl,10.0,36.0,3.6,credit_based,Customer Case Study,"Large warehouse, batch processing"
+Redshift,bi,1.0,1.63,1.63,instance_based,AWS Performance Testing,"ra3.xlplus instance, columnar storage"
+Redshift,etl,10.0,26.08,2.61,instance_based,Customer Migration Study,"ra3.4xlarge, batch ETL workload"
+Trino,adhoc,1.0,0.95,0.95,compute_based,Starburst Performance Study,"Self-managed on EC2, S3 data lake"
+Spark_SQL,etl,10.0,18.5,1.85,compute_based,Databricks Cost Analysis,"Standard cluster, Delta Lake format"
+Databricks_SQL,bi,1.0,3.2,3.2,dbu_based,Databricks SQL Benchmarks,"SQL warehouse, photon engine"
+DuckDB,adhoc,1.0,0.45,0.45,compute_based,Performance Comparison Study,"Single-node, in-memory processing"
+Athena,bi,1.0,5.0,5.0,per_tb_scanned,AWS Athena Pricing,"Serverless, pay-per-query"

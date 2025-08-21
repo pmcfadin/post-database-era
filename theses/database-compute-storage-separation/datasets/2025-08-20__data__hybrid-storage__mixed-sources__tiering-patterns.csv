@@ -1,0 +1,8 @@
+cache_hit_rate,cache_size_ratio,cold_storage,cost_reduction,cost_savings,description,hot_storage,implementation_complexity,optimization_strategy,pattern_name,performance_improvement,source,time_to_value,use_case,vendor,vendor_support,warm_storage
+85-95%,5-10% of total data,Object Storage (S3),60-80% vs all-SSD,,,Local NVMe SSD,,,Hot-Warm-Cold Tiering,10-50x for hot data,Cloud Data Warehouse Architecture Study 2024,,OLAP Workloads,"Snowflake, Databricks",,Network SSD
+70-85%,2-5% of total data,S3-compatible Storage,40-60% vs memory-only,,,Redis/Hazelcast,,,Distributed Cache + Object,5-20x for cached data,Real-time Analytics Performance Study,,Real-time Analytics,"Apache Druid, ClickHouse",,Local SSD Cache
+80-90%,Algorithm-determined,Archive Storage,70-85% vs single-tier,,,Auto-managed SSD,,,Intelligent Tiering,Variable based on access,AWS S3 Usage Analytics 2024,,Data Lakes,AWS S3 Intelligent Tiering,,Standard Storage
+90-98%,1-3% of raw data,Parquet on Object Store,80-90% vs in-memory,,,Columnar Memory Cache,,,Columnar Cache + Parquet,100-1000x for repeated queries,Columnar Database Performance Benchmarks,,BI and Reporting,"Apache Druid, ClickHouse Cloud",,Compressed SSD
+,,,,30-50%,ML-based prediction of data access patterns,,High,Access Pattern Analysis,,,Gartner Cloud Data Management Cost Study 2024,3-6 months,,,"Snowflake, BigQuery",
+,,,,40-60%,Rule-based data movement between tiers,,Medium,Automatic Lifecycle Policies,,,Cloud Storage Optimization Report 2024,1-2 months,,,"AWS, Azure, GCP",
+,,,,50-70%,Combined compression and storage tiering,,Low,Compression + Tiering,,,Data Compression Impact Study,Immediate,,,Universal support,

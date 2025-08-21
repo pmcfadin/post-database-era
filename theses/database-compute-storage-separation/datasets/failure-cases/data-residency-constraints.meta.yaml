@@ -1,0 +1,90 @@
+# Dataset Metadata
+dataset:
+  title: "Data Residency and Regulatory Constraints Preventing Compute-Storage Separation"
+  description: "Legal and regulatory requirements that force co-location of compute and storage, preventing architectural flexibility"
+  topic: "Database Compute Storage Separation Counter-Evidence"
+  metric: "Regulatory compliance constraints and cost impacts"
+  
+# Source Information
+source:
+  name: "Regulatory compliance documentation and legal frameworks"
+  url: "Government regulatory websites and compliance studies"
+  accessed: "2025-08-21"
+  license: "Public regulatory information"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 5
+  columns: 13
+  time_range: "2018 - 2025 (current regulatory landscape)"
+  update_frequency: "varies by regulation - typically annual updates"
+  collection_method: "regulatory compliance analysis"
+  
+# Column Descriptions
+columns:
+  case_id:
+    type: "string"
+    description: "Unique identifier for each regulatory constraint"
+    unit: "categorical"
+  category:
+    type: "string"
+    description: "Type of constraint case"
+    unit: "categorical"
+  regulation:
+    type: "string"
+    description: "Name of specific regulation or compliance framework"
+    unit: "categorical"
+  jurisdiction:
+    type: "string"
+    description: "Geographic or organizational scope of regulation"
+    unit: "categorical"
+  constraint_type:
+    type: "string"
+    description: "Specific type of data residency or access constraint"
+    unit: "descriptive"
+  impact_on_separation:
+    type: "string"
+    description: "How the regulation prevents or limits compute-storage separation"
+    unit: "descriptive"
+  flexibility_lost:
+    type: "string"
+    description: "Specific architectural flexibility limitations"
+    unit: "descriptive"
+  compliance_requirement:
+    type: "string"
+    description: "Specific compliance mechanisms required"
+    unit: "descriptive"
+  cost_impact:
+    type: "string"
+    description: "Estimated cost increase due to compliance constraints"
+    unit: "percentage"
+  documented_cases:
+    type: "string"
+    description: "Industries or organizations affected"
+    unit: "categorical"
+  enforcement_evidence:
+    type: "string"
+    description: "Evidence of regulatory enforcement"
+    unit: "descriptive"
+  mitigation_options:
+    type: "string"
+    description: "Available workarounds within regulatory constraints"
+    unit: "descriptive"
+  evidence_strength:
+    type: "string"
+    description: "Quality of regulatory documentation and enforcement"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all fields populated"
+  sample_size: "5 major regulatory frameworks across key jurisdictions"
+  confidence: "high"
+  limitations: ["Regulatory landscape changes over time", "Cost estimates vary by implementation"]
+  
+# Usage Notes
+notes:
+  - "Covers major global regulatory frameworks affecting database deployment"
+  - "Includes both data sovereignty and security compliance requirements"
+  - "Evidence strength reflects enforceability and documented penalties"

@@ -1,0 +1,8 @@
+service,architecture,scenario,committed_rpo_seconds,achieved_rpo_seconds,committed_rto_minutes,achieved_rto_minutes,sla_met,backup_method,restore_method,collection_date,rpo_achievement_ratio,rto_achievement_ratio,sla_performance_score,architecture_advantage
+Aurora,Separated,Single AZ failure,0,0,2,1.5,Yes,Continuous incremental to S3,Aurora storage layer recovery,2025-08-20,1.0,1.33,1.17,High
+Aurora,Separated,Multi-AZ failure,1,1,5,4,Yes,Cross-AZ replication + S3 backup,Cross-region Aurora cluster restore,2025-08-20,1.0,1.25,1.12,High
+Snowflake,Separated,Warehouse failure,0,0,4,2,Yes,Immutable object storage,New warehouse provisioning,2025-08-20,1.0,2.0,1.5,High
+BigQuery,Separated,Regional failure,0,0,5,3,Yes,Geo-redundant storage,Cross-region dataset access,2025-08-20,1.0,1.67,1.33,High
+RDS Multi-AZ,Separated,Primary instance failure,0,0,5,3,Yes,Synchronous replication + automated backups,Automatic failover to standby,2025-08-20,1.0,1.67,1.33,High
+Redshift,Separated,Cluster failure,3600,1800,90,60,Yes,Automated snapshots to S3,Snapshot restore to new cluster,2025-08-20,2.0,1.5,1.75,High
+Traditional MySQL,Coupled,Server failure,86400,43200,240,180,Conditional,Daily mysqldump + binary logs,Manual restore from backup,2025-08-20,2.0,1.33,1.67,Low

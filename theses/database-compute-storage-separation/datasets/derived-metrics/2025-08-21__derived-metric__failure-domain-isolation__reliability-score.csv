@@ -1,0 +1,16 @@
+architecture_type,vendor_service,multi_az_support,blast_radius_scope,mttr_minutes,stateless_compute,availability_sla,multi_az_score,blast_radius_score,mttr_score,stateless_score,failure_domain_isolation_score,failure_scenarios_tested,source_data
+separated_serverless,Aurora_Serverless_v2,Yes,single_az,15,Yes,99.95,25,25,23,25,98,8,cross_zone_penalties + failure_analysis
+separated_managed,Snowflake_Data_Cloud,Yes,region,30,Yes,99.9,25,20,20,25,90,12,cross_zone_penalties + failure_analysis
+separated_compute,Databricks_SQL_Warehouse,Yes,cluster,45,Yes,99.5,25,15,16,25,81,10,cross_zone_penalties + failure_analysis
+separated_global,Spanner_Regional,Yes,multi_region,20,Partial,99.99,25,25,22,15,87,15,cross_zone_penalties + failure_analysis
+separated_nosql,DynamoDB_Global,Yes,region,10,Yes,99.99,25,20,25,25,95,18,cross_zone_penalties + failure_analysis
+separated_analytics,BigQuery_Serverless,Yes,regional,25,Yes,99.9,25,20,21,25,91,14,cross_zone_penalties + failure_analysis
+coupled_managed,RDS_MySQL_Multi_AZ,Yes,single_az,60,No,99.95,25,25,10,5,65,6,cross_zone_penalties + failure_analysis
+coupled_traditional,PostgreSQL_Traditional,No,single_host,120,No,99.5,5,5,3,5,18,4,cross_zone_penalties + failure_analysis
+hybrid_cache,Redis_Enterprise_Cluster,Yes,cluster,20,Partial,99.9,25,15,22,15,77,8,cross_zone_penalties + failure_analysis
+hybrid_search,Elasticsearch_Cloud,Yes,cluster,40,Partial,99.5,25,15,17,15,72,10,cross_zone_penalties + failure_analysis
+separated_document,Cosmos_DB_Global,Yes,multi_region,12,Yes,99.99,25,25,24,25,99,20,cross_zone_penalties + failure_analysis
+separated_graph,Neo4j_AuraDB,Yes,region,35,Yes,99.9,25,20,18,25,88,8,cross_zone_penalties + failure_analysis
+coupled_warehouse,Redshift_Classic,No,cluster,90,No,99.9,5,15,6,5,31,5,cross_zone_penalties + failure_analysis
+separated_vector,Pinecone_Serverless,Yes,regional,15,Yes,99.5,25,20,23,25,93,12,cross_zone_penalties + failure_analysis
+hybrid_time_series,InfluxDB_Cloud,Yes,cluster,25,Partial,99.5,25,15,21,15,76,7,cross_zone_penalties + failure_analysis

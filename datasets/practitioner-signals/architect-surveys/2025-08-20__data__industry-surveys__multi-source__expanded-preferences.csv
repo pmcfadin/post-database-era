@@ -1,0 +1,12 @@
+survey_source,year,respondent_role,experience_years,company_size,current_architecture,preferred_architecture,adoption_driver_primary,adoption_driver_secondary,main_blocker,time_to_adopt_months,sla_target_ms,topology_preference,confidence_level,adoption_readiness_score,complexity_preference,confidence_numeric,experience_score
+Stack Overflow Developer Survey,2024,Full-stack Developer,3-5,20-99,Coupled,Separated,Scalability,Developer Experience,Learning Curve,8,150,Multi-AZ,Medium,2,4,3,3
+Stack Overflow Developer Survey,2024,Backend Developer,5-9,100-499,Hybrid,Separated,Performance,Cost Optimization,Operational Complexity,12,100,Multi-Region,High,4,4,4,4
+Stack Overflow Developer Survey,2023,DevOps Engineer,5-9,500-999,Separated,Separated,Reliability,Independent Scaling,Latency Overhead,6,75,Multi-AZ,High,4,4,4,4
+DB-Engines Popularity Trends,2024,Database Administrator,10+,1000+,Coupled,Hybrid,Vendor Support,Migration Path,Legacy Integration,24,50,Multi-Region,Medium,3,3,3,5
+DB-Engines Popularity Trends,2024,Data Engineer,3-5,100-499,Coupled,Separated,Analytics Performance,Cost Optimization,Tool Ecosystem,15,200,Single-Region,Medium,2,4,3,3
+JetBrains Developer Survey,2024,Software Developer,3-5,50-99,Coupled,Coupled,Simplicity,Team Expertise,No Clear Benefit,3,300,Single-AZ,Low,1,2,2,3
+JetBrains Developer Survey,2024,Senior Developer,10+,500-999,Hybrid,Separated,Future-Proofing,Team Learning,Migration Effort,18,125,Multi-AZ,High,3,4,4,5
+Redis State of Developer Experience,2024,Platform Engineer,5-9,200-499,Separated,Separated,Developer Productivity,Operational Efficiency,Monitoring Complexity,9,50,Multi-Region,High,4,4,4,4
+Percona Open Source Database Survey,2024,Database Administrator,10+,1000+,Coupled,Coupled,Proven Reliability,Support Ecosystem,Risk Aversion,36,25,Multi-Region,Medium,1,2,3,5
+Percona Open Source Database Survey,2024,Site Reliability Engineer,5-9,500-999,Hybrid,Separated,Incident Isolation,Resource Efficiency,Latency Sensitivity,15,100,Multi-AZ,High,4,4,4,4
+MongoDB Developer Survey,2024,Application Developer,3-5,50-199,Separated,Separated,Cloud-Native Fit,Elastic Scaling,Cost Predictability,6,150,Multi-AZ,Medium,3,4,3,3

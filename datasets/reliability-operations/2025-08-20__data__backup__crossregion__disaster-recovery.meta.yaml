@@ -1,0 +1,12 @@
+dataset:
+  title: Cross-Region Backup and Disaster Recovery Performance
+  description: Performance metrics for cross-region backup and disaster recovery scenarios
+  topic: Cross-Region Database Backup Performance
+  metric: Transfer times, bandwidth utilization, cross-region RTO/RPO
+source:
+  name: Cloud Provider Performance Documentation
+  accessed: '2025-08-20'
+  credibility: Tier A
+quality:
+  completeness: 90%
+  confidence: High

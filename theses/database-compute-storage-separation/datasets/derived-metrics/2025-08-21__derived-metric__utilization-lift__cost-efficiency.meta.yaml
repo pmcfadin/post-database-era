@@ -1,0 +1,98 @@
+# Dataset Metadata
+dataset:
+  title: "Utilization Lift - Cost Efficiency from Elastic Compute on Steady Storage"
+  description: "Measures cost savings achieved through independent compute scaling while storage remains constant, normalized by query throughput"
+  topic: "Database Compute Storage Separation"
+  metric: "Utilization Lift = (baseline_cost_at_peak - cost_with_rightsizing) / QPS"
+  
+# Source Information
+source:
+  name: "Composite analysis from elasticity savings, TCO curves, and real-world performance data"
+  url: "Internal cost optimization analysis"
+  accessed: "2025-08-21"
+  license: "Internal research use"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 15
+  columns: 12
+  time_range: "30-day cost observation periods"
+  update_frequency: "monthly"
+  collection_method: "cost telemetry + performance benchmarks"
+  
+# Column Descriptions
+columns:
+  workload_pattern:
+    type: "string"
+    description: "Type of workload scaling pattern observed"
+    unit: "categorical"
+  database_service:
+    type: "string"
+    description: "Database service being analyzed"
+    unit: "categorical"
+  peak_qps:
+    type: "number"
+    description: "Maximum queries per second during observation period"
+    unit: "queries per second"
+  baseline_cost_per_hour:
+    type: "number"
+    description: "Cost with traditional fixed provisioning at peak capacity"
+    unit: "USD per hour"
+  rightsized_cost_per_hour:
+    type: "number"
+    description: "Average cost with elastic compute scaling"
+    unit: "USD per hour"
+  cost_savings_usd:
+    type: "number"
+    description: "Absolute cost savings per hour from elastic scaling"
+    unit: "USD per hour"
+  utilization_lift_per_qps:
+    type: "number"
+    description: "Cost savings normalized by peak QPS capacity"
+    unit: "USD savings per QPS per hour"
+  scaling_model:
+    type: "string"
+    description: "Type of scaling architecture employed"
+    unit: "categorical"
+  storage_cost_constant:
+    type: "number"
+    description: "Monthly storage cost that remains constant during compute scaling"
+    unit: "USD per month"
+  compute_elasticity_factor:
+    type: "number"
+    description: "Maximum scaling factor for compute resources"
+    unit: "multiplier"
+  storage_gb:
+    type: "number"
+    description: "Total storage capacity in GB"
+    unit: "GB"
+  observation_period_days:
+    type: "number"
+    description: "Period over which costs were measured"
+    unit: "days"
+  source_analysis:
+    type: "string"
+    description: "Source dataset used for cost analysis"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all cost metrics available"
+  sample_size: "15 representative workload patterns"
+  confidence: "high"
+  limitations: 
+    - "Cost calculations based on list pricing, not negotiated enterprise rates"
+    - "Does not include data transfer costs for multi-region deployments"
+    - "Some services have minimum billing increments not reflected in hourly averages"
+    - "Storage costs assumed constant but may have tiering effects"
+  
+# Usage Notes
+notes:
+  - "Higher utilization lift per QPS indicates better cost efficiency from separation"
+  - "Batch processing workloads show highest utilization lift (0.175-0.840)"
+  - "Traditional monolithic systems show zero utilization lift"
+  - "Serverless and disaggregated architectures enable highest cost savings"
+  - "Time-series and columnar databases show strong utilization lift due to workload characteristics"
+  - "Cache-based workloads show lower utilization lift due to memory requirements"
+  - "Values can be used to calculate ROI of migration to separated architectures"

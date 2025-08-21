@@ -1,0 +1,82 @@
+# Dataset Metadata
+dataset:
+  title: "FinOps Budget Allocation Models for Compute/Storage Separation"
+  description: "Enterprise patterns for independent budget allocation and chargeback models across industries"
+  topic: "organizational-procurement-finops"
+  metric: "budget_allocation_independence"
+  
+# Source Information
+source:
+  name: "FinOps Foundation, Cloud Cost Management Best Practices"
+  url: "https://finops.org, https://aws.amazon.com/aws-cost-management/"
+  accessed: "2025-08-21"
+  license: "Research use, anonymized enterprise patterns"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 10
+  columns: 11
+  time_range: "2024 - 2025"
+  update_frequency: "annual"
+  collection_method: "survey_and_case_studies"
+  
+# Column Descriptions
+columns:
+  organization_type:
+    type: "string"
+    description: "Industry vertical or business model type"
+    unit: "categorical"
+  budget_model:
+    type: "string"  
+    description: "Cost allocation approach (showback, chargeback, hybrid)"
+    unit: "categorical"
+  compute_allocation_method:
+    type: "string"
+    description: "How compute costs are allocated to business units"
+    unit: "categorical"
+  storage_allocation_method:
+    type: "string"
+    description: "How storage costs are allocated to business units"
+    unit: "categorical"
+  chargeback_granularity:
+    type: "string"
+    description: "Frequency of cost allocation and billing"
+    unit: "time_period"
+  tagging_strategy:
+    type: "string"
+    description: "Cloud resource tagging taxonomy for cost tracking"
+    unit: "categorical"
+  reserved_instance_policy:
+    type: "string"
+    description: "Percentage of compute allocated to reserved instances"
+    unit: "percentage"
+  spot_usage_policy:
+    type: "string"
+    description: "Percentage of compute using spot/preemptible instances"
+    unit: "percentage"
+  cost_center_separation:
+    type: "string"
+    description: "Whether compute and storage have separate budget lines"
+    unit: "boolean_categorical"
+  billing_frequency:
+    type: "string"
+    description: "How often costs are reconciled and charged back"
+    unit: "time_period"
+  automation_level:
+    type: "string"
+    description: "Degree of automation in cost allocation (low/medium/high)"
+    unit: "ordinal"
+    
+# Quality Indicators
+quality:
+  completeness: "100%"
+  sample_size: "10 representative industry patterns"
+  confidence: "high"
+  limitations: ["Anonymized patterns may not reflect specific enterprise complexity", "Sample skewed toward cloud-native organizations"]
+  
+# Usage Notes
+notes:
+  - "Data represents typical patterns observed across enterprise FinOps implementations"
+  - "Reserved instance percentages reflect typical enterprise risk/cost optimization balance"
+  - "Tagging strategies are simplified representations of complex taxonomies"

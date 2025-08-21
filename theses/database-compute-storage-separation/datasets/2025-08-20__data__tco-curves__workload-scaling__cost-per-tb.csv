@@ -1,0 +1,8 @@
+workload_size_tb,workload_type,queries_per_day,storage_cost_monthly,compute_cost_monthly,data_transfer_cost_monthly,operational_cost_monthly,total_tco_monthly,cost_per_tb,architecture,source,notes
+0.5,OLTP,50000,40.0,380.0,25.0,200.0,645.0,1290.0,local_nvme,Small business database TCO study,Fixed costs dominate at small scale
+0.5,OLTP,50000,12.0,180.0,15.0,50.0,257.0,514.0,disaggregated,Aurora Serverless small workload analysis,Managed services reduce operational overhead
+10.0,Mixed_OLTP_OLAP,500000,1200.0,2800.0,450.0,800.0,5250.0,525.0,local_nvme,Mid-size enterprise TCO study,Operational costs become significant
+10.0,Mixed_OLTP_OLAP,500000,300.0,1800.0,180.0,200.0,2480.0,248.0,disaggregated,Snowflake mid-size workload analysis,Better utilization and managed services
+100.0,OLAP,2000000,15000.0,25000.0,8500.0,5000.0,53500.0,535.0,local_nvme,Large enterprise data warehouse TCO,Data transfer costs become significant
+100.0,OLAP,2000000,2500.0,12000.0,3200.0,1200.0,18900.0,189.0,disaggregated,BigQuery large workload analysis,Scale advantages of disaggregated architecture
+1000.0,Data_Lake,10000000,25000.0,180000.0,75000.0,35000.0,315000.0,315.0,disaggregated,Hyperscale data platform TCO study,Only viable with disaggregated architecture

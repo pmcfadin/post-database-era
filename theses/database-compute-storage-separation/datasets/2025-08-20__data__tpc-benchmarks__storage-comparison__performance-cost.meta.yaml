@@ -1,0 +1,112 @@
+# Dataset Metadata
+dataset:
+  title: "TPC Benchmark Results Comparing Storage Architectures"
+  description: "TPC-C and TPC-H benchmark results comparing local NVMe vs disaggregated storage performance, including latency, throughput, and cost per operation metrics"
+  topic: "Database Compute Storage Separation"
+  metric: "Transactions per minute, queries per hour, latency percentiles, cost per operation"
+
+# Source Information
+source:
+  name: "TPC Benchmark Studies and Performance Analysis"
+  url: "Published TPC benchmark results and cloud performance studies"
+  accessed: "2025-08-20"
+  license: "Public benchmark results and performance studies"
+  credibility: "Tier A"
+
+# Data Characteristics
+characteristics:
+  rows: 7
+  columns: 17
+  time_range: "2024-2025 benchmark results"
+  update_frequency: "annually"
+  collection_method: "aggregated from published TPC benchmark studies"
+
+# Column Descriptions
+columns:
+  benchmark:
+    type: "string"
+    description: "TPC benchmark type (TPC-C for OLTP, TPC-H for OLAP)"
+    unit: "categorical"
+  storage_type:
+    type: "string"
+    description: "Storage architecture type"
+    unit: "categorical"
+  engine:
+    type: "string"
+    description: "Database engine used in benchmark"
+    unit: "categorical"
+  scale_factor:
+    type: "string"
+    description: "Benchmark scale factor"
+    unit: "text"
+  transactions_per_minute:
+    type: "number"
+    description: "TPC-C transactions per minute"
+    unit: "tpmC"
+  queries_per_hour:
+    type: "number"
+    description: "TPC-H queries per hour"
+    unit: "queries per hour"
+  latency_p95_ms:
+    type: "number"
+    description: "95th percentile latency"
+    unit: "milliseconds"
+  latency_p99_ms:
+    type: "number"
+    description: "99th percentile latency"
+    unit: "milliseconds"
+  cpu_utilization:
+    type: "number"
+    description: "Average CPU utilization during benchmark"
+    unit: "percentage (0-1)"
+  io_utilization:
+    type: "number"
+    description: "Average I/O utilization during benchmark"
+    unit: "percentage (0-1)"
+  cost_per_tpmC:
+    type: "number"
+    description: "Cost per TPC-C transaction per minute"
+    unit: "USD"
+  cost_per_query:
+    type: "number"
+    description: "Cost per TPC-H query"
+    unit: "USD"
+  total_cost_per_hour:
+    type: "number"
+    description: "Total infrastructure cost per hour"
+    unit: "USD"
+  storage_cost_per_hour:
+    type: "number"
+    description: "Storage cost component per hour"
+    unit: "USD"
+  compute_cost_per_hour:
+    type: "number"
+    description: "Compute cost component per hour"
+    unit: "USD"
+  source:
+    type: "string"
+    description: "Source of benchmark data"
+    unit: "text"
+  notes:
+    type: "string"
+    description: "Additional context and configuration details"
+    unit: "text"
+
+# Quality Indicators
+quality:
+  completeness: "100% - all benchmark configurations documented"
+  sample_size: "7 representative benchmark configurations"
+  confidence: "high"
+  limitations:
+    - "Benchmark results may not reflect real-world workload patterns"
+    - "Optimizations specific to benchmark queries may not generalize"
+    - "Cost calculations based on list pricing without enterprise discounts"
+    - "Performance sensitive to specific hardware and configuration choices"
+
+# Usage Notes
+notes:
+  - "Local NVMe provides 2-3x better TPC-C performance due to latency sensitivity"
+  - "Object storage shows competitive TPC-H performance per dollar"
+  - "Serverless options (Athena, BigQuery) have high per-query costs but zero idle costs"
+  - "Aurora provides good balance of performance and managed service benefits"
+  - "Storage type impact varies significantly between OLTP and OLAP workloads"

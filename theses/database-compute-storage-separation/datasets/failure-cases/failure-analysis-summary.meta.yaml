@@ -1,0 +1,83 @@
+# Dataset Metadata
+dataset:
+  title: "Comprehensive Analysis of Compute-Storage Separation Failure Patterns"
+  description: "Summary analysis of all failure categories, identifying patterns and quantifying impacts across different constraint types"
+  topic: "Database Compute Storage Separation Counter-Evidence"
+  metric: "Failure pattern analysis and impact quantification"
+  
+# Source Information
+source:
+  name: "Synthesized analysis from all failure case datasets"
+  url: "Derived from ultra-low-latency, write-amplification, data-residency, and edge-deployment datasets"
+  accessed: "2025-08-21"
+  license: "Research compilation - derived analysis"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 4
+  columns: 11
+  time_range: "2020 - 2025"
+  update_frequency: "static analysis"
+  collection_method: "cross-case pattern analysis and synthesis"
+  
+# Column Descriptions
+columns:
+  failure_category:
+    type: "string"
+    description: "Primary category of compute-storage separation failure"
+    unit: "categorical"
+  total_cases:
+    type: "number"
+    description: "Number of documented cases in this category"
+    unit: "count"
+  severity:
+    type: "string"
+    description: "Impact severity of failures in this category"
+    unit: "categorical"
+  primary_constraint:
+    type: "string"
+    description: "Root cause or fundamental limitation driving failures"
+    unit: "descriptive"
+  typical_latency_requirement:
+    type: "string"
+    description: "Performance requirements that trigger this failure category"
+    unit: "descriptive"
+  separation_penalty:
+    type: "string"
+    description: "Quantified impact of compute-storage separation"
+    unit: "performance/cost metric"
+  industries_affected:
+    type: "string"
+    description: "Industries most commonly experiencing these failures"
+    unit: "categorical"
+  economic_impact:
+    type: "string"
+    description: "Financial impact of failure or required mitigations"
+    unit: "cost range"
+  technical_workaround:
+    type: "string"
+    description: "Common technical approaches to address the constraint"
+    unit: "descriptive"
+  workaround_limitations:
+    type: "string"
+    description: "Limitations or drawbacks of technical workarounds"
+    unit: "descriptive"
+  prevalence:
+    type: "string"
+    description: "How commonly this failure pattern occurs"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - synthesizes data from 19 individual failure cases"
+  sample_size: "4 distinct failure categories covering major constraint types"
+  confidence: "high"
+  limitations: ["Summary analysis may lose some case-specific nuances", "Impact ranges reflect variability across cases"]
+  
+# Usage Notes
+notes:
+  - "Provides high-level view of systematic limitations of compute-storage separation"
+  - "Identifies four fundamental constraint categories that prevent separation"
+  - "Quantifies both technical and economic barriers to adoption"
+  - "Serves as executive summary of detailed failure case analysis"

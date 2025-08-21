@@ -1,0 +1,13 @@
+storage_type,interface,protocol,p50_latency_us,p95_latency_us,p99_latency_us,bandwidth_gbps,iops_limit,use_case,source_type
+local_nvme,nvme,pcie,15,45,120,3.5,500000,oltp_primary,measured
+local_ssd,sata,sata3,85,250,500,0.6,100000,oltp_secondary,measured
+network_nvme,nvme_of,rdma,120,350,800,25.0,200000,disaggregated_compute,measured
+network_nvme,nvme_of,tcp,180,450,1200,10.0,150000,disaggregated_compute,measured
+ebs_gp3,block,tcp,200,500,1500,1.0,16000,cloud_primary,vendor_spec
+ebs_io2,block,tcp,150,300,800,4.0,64000,cloud_performance,vendor_spec
+s3_standard,object,https,5000,15000,30000,100.0,5500,analytical_storage,vendor_spec
+s3_intelligent,object,https,4000,12000,25000,100.0,5500,tiered_storage,vendor_spec
+azure_premium,block,tcp,180,400,1000,2.0,20000,cloud_primary,vendor_spec
+gcp_ssd,block,tcp,160,380,900,2.4,30000,cloud_primary,vendor_spec
+local_hdd,sata,sata3,8000,15000,25000,0.2,200,cold_storage,measured
+network_hdd,iscsi,tcp,12000,25000,45000,1.0,500,backup_storage,measured

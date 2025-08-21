@@ -1,0 +1,93 @@
+# Dataset Metadata
+dataset:
+  title: "Anonymized Database Contract Commit Structures and Terms"
+  description: "Analysis of enterprise database contract terms showing compute/storage separation in pricing and commitments"
+  topic: "organizational-procurement-contract-analysis"
+  metric: "contract_terms_and_commit_flexibility"
+  
+# Source Information
+source:
+  name: "Anonymized Enterprise Contract Analysis, Vendor Pricing Studies"
+  url: "Compiled from redacted enterprise contracts and vendor pricing analysis"
+  accessed: "2025-08-21"
+  license: "Research use, commercially sensitive terms anonymized"
+  credibility: "Tier B"
+  
+# Data Characteristics
+characteristics:
+  rows: 10
+  columns: 13
+  time_range: "2024 - 2025"
+  update_frequency: "annual"
+  collection_method: "contract_analysis_and_vendor_research"
+  
+# Column Descriptions
+columns:
+  contract_tier:
+    type: "string"
+    description: "Contract tier category based on commitment level and vendor type"
+    unit: "categorical"
+  annual_compute_commit_usd:
+    type: "number"
+    description: "Minimum annual commitment for compute resources"
+    unit: "USD"
+  annual_storage_commit_usd:
+    type: "number"
+    description: "Minimum annual commitment for storage resources"
+    unit: "USD"
+  bursting_threshold_percent:
+    type: "number"
+    description: "Percentage over commitment allowed before overage rates apply"
+    unit: "percentage"
+  overage_multiplier:
+    type: "number"
+    description: "Rate multiplier for usage exceeding committed amounts"
+    unit: "ratio"
+  discount_rate_compute:
+    type: "number"
+    description: "Discount percentage off list price for compute"
+    unit: "percentage"
+  discount_rate_storage:
+    type: "number"
+    description: "Discount percentage off list price for storage"
+    unit: "percentage"
+  contract_flexibility:
+    type: "string"
+    description: "How often commitments can be adjusted"
+    unit: "categorical"
+  early_termination_penalty:
+    type: "string"
+    description: "Penalty for early contract termination"
+    unit: "percentage_or_categorical"
+  cross_service_credits:
+    type: "string"
+    description: "Whether unused credits can be applied across services"
+    unit: "boolean"
+  volume_milestone_bonus:
+    type: "string"
+    description: "Additional discounts for exceeding volume milestones"
+    unit: "categorical"
+  ramp_up_period_months:
+    type: "number"
+    description: "Grace period to reach minimum commitments"
+    unit: "months"
+  support_tier_included:
+    type: "string"
+    description: "Level of support included in contract"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100%"
+  sample_size: "10 representative contract tiers"
+  confidence: "medium"
+  limitations: ["Contract terms vary significantly by negotiation and customer leverage", "Some terms simplified for anonymization", "Vendor pricing changes rapidly in competitive markets"]
+  
+# Usage Notes
+notes:
+  - "Tier 1-5 represent traditional enterprise contract progression"
+  - "Cloud native vendors offer more flexible, consumption-based terms"
+  - "Overage multipliers create incentive for accurate capacity planning"
+  - "Cross-service credits enable compute/storage optimization arbitrage"
+  - "Bursting thresholds vary widely based on workload predictability"
+  - "Support tiers often bundled but may be separately negotiable"

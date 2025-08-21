@@ -1,0 +1,97 @@
+dataset:
+  title: Database Vendor Architecture Census - Compute-Storage Separation
+  description: Comprehensive survey of managed database vendor architectures focusing
+    on compute-storage separation capabilities, scaling models, and pricing structures
+  topic: Database Compute-Storage Separation
+  metric: Architecture patterns and separation capabilities
+source:
+  name: Multiple vendor documentation sources
+  urls:
+  - https://docs.aws.amazon.com/redshift/
+  - https://cloud.google.com/spanner/docs
+  - https://docs.microsoft.com/en-us/azure/azure-sql/database/
+  - https://www.elastic.co/guide/en/cloud/current/
+  - https://docs.oracle.com/en/cloud/paas/autonomous-database/
+  - https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.html
+  - https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/
+  - https://docs.microsoft.com/en-us/azure/synapse-analytics/
+  - https://docs.atlas.mongodb.com/
+  - https://cloud.google.com/sql/docs
+  - https://docs.microsoft.com/en-us/azure/cosmos-db/
+  - https://cloud.google.com/bigquery/docs
+  - https://docs.snowflake.com/en/user-guide/intro-key-concepts.html
+  - https://docs.databricks.com/sql/admin/sql-endpoints.html
+  - https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/
+  accessed: '2025-08-20'
+  license: Public documentation
+  credibility: Tier A
+characteristics:
+  rows: 15
+  columns: 17
+  time_range: 2009 - 2024
+  update_frequency: Manual/Research-driven
+  collection_method: Documentation analysis
+columns:
+  vendor:
+    type: string
+    description: Database vendor/provider name
+  product:
+    type: string
+    description: Specific product or service name
+  compute_storage_separated:
+    type: string
+    description: Level of compute-storage separation (Yes/No/Limited/Partial)
+  architecture_type:
+    type: string
+    description: Technical architecture pattern
+  engine_type:
+    type: string
+    description: Database engine type (OLTP/OLAP/HTAP/etc.)
+  storage_medium:
+    type: string
+    description: Underlying storage technology
+  compute_scaling_unit:
+    type: string
+    description: Unit of compute scaling
+  storage_scaling_unit:
+    type: string
+    description: Unit of storage scaling
+  min_storage_gb:
+    type: mixed
+    description: Minimum storage requirement in GB
+  max_storage_gb:
+    type: mixed
+    description: Maximum storage capacity in GB
+  independent_scaling:
+    type: boolean
+    description: Whether compute and storage can scale independently
+  autoscaling_compute:
+    type: boolean
+    description: Automatic compute scaling capability
+  autoscaling_storage:
+    type: boolean
+    description: Automatic storage scaling capability
+  pricing_model:
+    type: string
+    description: Pricing structure and billing model
+  launch_year:
+    type: number
+    description: Year the service was launched
+  compute_storage_coupling:
+    type: string
+    description: Degree of coupling between compute and storage
+  source_url:
+    type: string
+    description: Primary documentation URL
+quality:
+  completeness: 100% - All fields populated based on available documentation
+  confidence: High - Based on official vendor documentation
+  limitations:
+  - Documentation may not reflect latest capabilities
+  - Some architectural details may be simplified
+  - Pricing models subject to frequent changes
+notes:
+- Data collected from official vendor documentation
+- Architecture classifications based on public information
+- Focus on compute-storage separation capabilities
+- Launch years approximate based on general availability

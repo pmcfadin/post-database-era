@@ -1,0 +1,91 @@
+# Dataset Metadata
+dataset:
+  title: "Separation Elasticity (SE) Index - Compute-Storage Independence Measurement"
+  description: "Measures how frequently organizations independently scale compute and storage resources, indicating true architectural separation adoption"
+  topic: "Database Compute Storage Separation"
+  metric: "Separation Elasticity Index (distinct_compute_storage_ratios_used / days_observed)"
+  
+# Source Information
+source:
+  name: "Composite analysis from SKU decoupling scorecard and scaling model data"
+  url: "Internal dataset synthesis"
+  accessed: "2025-08-21"
+  license: "Internal research use"
+  credibility: "Tier B"
+  
+# Data Characteristics
+characteristics:
+  rows: 15
+  columns: 12
+  time_range: "30-day observation periods"
+  update_frequency: "monthly"
+  collection_method: "automated telemetry + manual analysis"
+  
+# Column Descriptions
+columns:
+  organization_type:
+    type: "string"
+    description: "Type of organization using the database service"
+    unit: "categorical"
+  vendor:
+    type: "string"
+    description: "Database service provider"
+    unit: "categorical"
+  service:
+    type: "string"
+    description: "Specific database service/product"
+    unit: "categorical"
+  observation_period_days:
+    type: "number"
+    description: "Number of days over which scaling behavior was observed"
+    unit: "days"
+  distinct_ratios_used:
+    type: "number"
+    description: "Number of unique compute:storage ratio configurations used during observation period"
+    unit: "count"
+  separation_elasticity_index:
+    type: "number"
+    description: "SE Index = distinct_ratios_used / observation_period_days, higher values indicate more independent scaling"
+    unit: "ratio per day"
+  baseline_compute_gb:
+    type: "number"
+    description: "Starting compute allocation in GB equivalent"
+    unit: "GB"
+  baseline_storage_gb:
+    type: "number"
+    description: "Starting storage allocation in GB"
+    unit: "GB"
+  max_compute_scale:
+    type: "number"
+    description: "Maximum compute scaling factor observed"
+    unit: "multiplier"
+  max_storage_scale:
+    type: "number"
+    description: "Maximum storage scaling factor observed"
+    unit: "multiplier"
+  elasticity_events_per_day:
+    type: "number"
+    description: "Average number of scaling events per day"
+    unit: "events per day"
+  source_data:
+    type: "string"
+    description: "Reference to underlying datasets used for calculation"
+    unit: "categorical"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all required fields populated"
+  sample_size: "15 representative organization types"
+  confidence: "medium"
+  limitations: 
+    - "Based on simulated scaling patterns from real pricing models"
+    - "30-day observation window may not capture seasonal patterns"
+    - "Some vendor telemetry data estimated from public benchmarks"
+  
+# Usage Notes
+notes:
+  - "SE Index > 0.5 indicates high separation elasticity (frequent independent scaling)"
+  - "SE Index < 0.2 indicates low separation elasticity (mostly coupled scaling)"
+  - "Values normalized across different database types and workload patterns"
+  - "Gaming, analytics, and serverless workloads show highest separation elasticity"
+  - "Traditional ERP and legacy systems show lowest separation elasticity"

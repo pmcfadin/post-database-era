@@ -1,0 +1,4 @@
+source,service,incident_date,title,url,architecture_type,failure_domain,mttr_minutes,root_cause_category,separated_arch_impact
+AWS,Amazon S3,2017-02-28,S3 Service Disruption in the Northern Virginia Region,https://aws.amazon.com/message/12721/,Coupled,Network,,Configuration,Positive - Limited blast radius
+AWS,Amazon RDS,2019-08-23,RDS Service Event in the US-East-1 Region,https://aws.amazon.com/message/41926/,Coupled,Storage,,Configuration,Positive - Limited blast radius
+AWS,Amazon DynamoDB,2020-11-25,DynamoDB Service Disruption,https://aws.amazon.com/message/56489/,Coupled,Network,,Configuration,Positive - Limited blast radius

@@ -1,0 +1,6 @@
+database_service,architecture,warming_method,implementation,warming_time_minutes,effectiveness_percentage,cost_impact,automation_level,query_hint_support,collection_date,separation_advantage_score,recommended_for_olap,recommended_for_oltp
+Aurora,Separated,Cluster Cache Pre-loading,Automated background process,10,85,Low - Shared across read replicas,High,Yes - Aurora specific hints,2025-08-20,0.88,Yes,Yes
+Snowflake,Separated,Query Result Cache,Automatic result caching,0,95,None - No compute cost for cached results,Full,Limited - Cache bypass hints,2025-08-20,0.98,Yes,Yes
+BigQuery,Separated,Columnar Cache + Partition Pruning,Automatic based on query patterns,2,90,Very Low - Efficient columnar access,High,Yes - Cache and clustering hints,2025-08-20,0.92,Yes,Yes
+Redshift,Separated,Manual Cache Warming Scripts,Custom ETL processes,30,70,Medium - Requires dedicated warming queries,Medium,Limited - Some cache-related settings,2025-08-20,0.67,Conditional,No
+Traditional MySQL/PostgreSQL,Coupled,Buffer Pool Pre-loading,Manual pg_prewarm or similar,45,60,High - Impacts production performance,Low,Basic - Limited cache hints,2025-08-20,0.49,Conditional,No

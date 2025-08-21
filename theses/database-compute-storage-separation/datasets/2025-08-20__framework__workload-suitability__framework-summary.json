@@ -1,0 +1,24 @@
+{
+  "framework_name": "Compute-Storage Separation Decision Framework",
+  "version": "1.0",
+  "created": "2025-08-20",
+  "components": {
+    "cs3_scoring_algorithm": "Standardized scoring algorithm for workload suitability assessment",
+    "decision_matrix": "Workload-specific guidance and recommendations",
+    "implementation_checklist": "Phased approach to implementing compute-storage separation"
+  },
+  "usage_workflow": [
+    "1. Analyze workload characteristics using the CS3 scoring algorithm",
+    "2. Consult decision matrix for workload-specific guidance",
+    "3. Follow implementation checklist for phased rollout",
+    "4. Monitor and validate using defined metrics",
+    "5. Iterate and optimize based on results"
+  ],
+  "key_principles": [
+    "Data-driven decision making using quantitative scoring",
+    "Workload-specific approaches rather than one-size-fits-all",
+    "Phased implementation to minimize risk",
+    "Continuous monitoring and optimization",
+    "Clear success criteria and rollback procedures"
+  ]
+}

@@ -1,0 +1,70 @@
+characteristics:
+  collection_method: research_synthesis
+  columns: 14
+  rows: 7
+  time_range: '2025-08-20'
+  update_frequency: static
+columns:
+  architecture_approach:
+    description: Recommended architectural approach
+    type: string
+  caching_strategy:
+    description: Recommended caching approach
+    type: string
+  compute_requirements:
+    description: Compute system requirements
+    type: string
+  consistency_model:
+    description: Required consistency model
+    type: string
+  cost_optimization:
+    description: Cost optimization strategies
+    type: string
+  data_access_pattern:
+    description: How data is typically accessed
+    type: string
+  data_freshness_requirement:
+    description: Data freshness requirements
+    type: string
+  example_use_cases:
+    description: Real-world applications
+    type: string
+  pattern_name:
+    description: AI/ML integration pattern name
+    type: string
+  separation_benefits:
+    description: Benefits of compute-storage separation
+    type: string
+  storage_format:
+    description: Optimal storage formats
+    type: string
+  storage_requirements:
+    description: Storage system requirements
+    type: string
+  typical_latency:
+    description: Expected latency characteristics
+    type: string
+  workload_characteristics:
+    description: Key workload characteristics
+    type: string
+dataset:
+  description: Analysis of machine learning and AI workload patterns and their compatibility
+    with separated architectures
+  metric: typical_latency
+  title: AI/ML Integration Patterns for Compute-Storage Separation
+  topic: database-compute-storage-separation
+notes:
+- Patterns represent current best practices in ML infrastructure
+- Consider specific model types and data volumes for optimization
+- Cost optimization strategies are increasingly important for ML workloads
+quality:
+  completeness: 100%
+  confidence: high
+  limitations:
+  - ML technology evolves rapidly, patterns may change
+source:
+  accessed: '2025-08-20'
+  credibility: Tier A
+  license: CC-BY-4.0
+  name: Research Synthesis
+  url: ML platform documentation and research papers

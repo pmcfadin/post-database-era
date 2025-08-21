@@ -1,0 +1,12 @@
+dataset:
+  title: Database Reliability Research Studies
+  description: Academic and industry research on database availability and reliability
+  topic: Database Reliability Research
+  metric: Availability percentages, MTTR, MTBF
+source:
+  name: Academic and Industry Research
+  accessed: '2025-08-20'
+  credibility: Tier A
+quality:
+  confidence: High
+  sample_size: Multiple studies

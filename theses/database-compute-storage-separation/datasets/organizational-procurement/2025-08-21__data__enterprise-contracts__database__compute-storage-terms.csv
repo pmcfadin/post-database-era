@@ -1,0 +1,11 @@
+vendor_category,contract_model,compute_pricing_independence,storage_pricing_independence,min_commit_compute_usd,min_commit_storage_usd,bursting_allowance_percent,overage_rate_multiplier,contract_term_months,auto_scaling_rights,cross_region_portability,discount_tier_compute,discount_tier_storage,commitment_flexibility
+cloud_native_db,consumption_based,yes,yes,50000,25000,50,1.5,12,unlimited,yes,volume_based,volume_based,monthly_true_up
+traditional_vendor_cloud,hybrid_licensing,partial,no,200000,0,25,2.0,36,limited_hours,partial,enterprise_discount,included_in_compute,annual_adjustment
+hyperscaler_managed,pay_as_go,yes,yes,0,0,unlimited,1.2,1,unlimited,yes,sustained_use,lifecycle_tiers,real_time
+enterprise_appliance,capacity_licensing,no,no,500000,0,10,3.0,36,none,no,volume_milestone,included_in_compute,fixed_term
+multicloud_platform,credits_based,yes,yes,100000,75000,100,1.8,24,policy_driven,yes,commitment_based,usage_based,quarterly_review
+open_source_vendor,support_subscription,partial,partial,75000,30000,0,1.0,12,community_limits,yes,support_tier,add_on_pricing,annual_renewal
+serverless_native,request_based,yes,yes,0,0,unlimited,1.1,1,automatic,yes,volume_discount,storage_class,pay_per_use
+data_warehouse,slot_based,no,yes,300000,150000,20,2.5,24,scheduled_only,partial,slot_commitment,compression_based,semi_annual
+vector_database,token_based,yes,yes,25000,40000,75,1.6,12,embedding_limits,yes,api_volume,dimension_based,monthly_flex
+time_series_db,ingestion_based,partial,yes,60000,80000,30,1.4,18,retention_policy,yes,data_point_volume,retention_tier,quarterly_adjustment

@@ -1,0 +1,62 @@
+characteristics:
+  collection_method: survey_analysis
+  columns: 8
+  rows: 8
+  time_range: '2024'
+  update_frequency: annual
+columns:
+  adoption_rate:
+    description: Industry adoption percentage
+    type: string
+    unit: percentage
+  cost_model:
+    description: Primary cost components
+    type: string
+    unit: cost_structure
+  data_volume:
+    description: Typical data volume characteristics
+    type: string
+    unit: descriptive
+  latency:
+    description: Typical data processing latency
+    type: string
+    unit: time_range
+  pattern_type:
+    description: Type of data pipeline pattern
+    type: string
+    unit: category
+  source:
+    description: Data source reference
+    type: string
+    unit: citation
+  transformation_location:
+    description: Where data transformation occurs in the pipeline
+    type: string
+    unit: location
+  use_case:
+    description: Primary use case for this pattern
+    type: string
+    unit: category
+dataset:
+  description: Comparison of different data pipeline patterns including ETL, ELT,
+    and Change Data Capture approaches
+  metric: pipeline_adoption_patterns
+  title: Data Pipeline Architecture Patterns - ETL/ELT/CDC Analysis
+  topic: database-compute-storage-separation
+notes:
+- Data represents industry trends in data pipeline architectures
+- Adoption rates are approximate based on survey data
+- Cost models vary significantly by implementation scale
+quality:
+  completeness: 100%
+  confidence: high
+  limitations:
+  - Survey-based data
+  - Self-reported adoption rates
+  sample_size: Industry wide surveys
+source:
+  accessed: '2025-08-20'
+  credibility: Tier A
+  license: Research Use
+  name: Mixed Industry Sources
+  url: Multiple survey and report sources
