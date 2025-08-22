@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: research
 title: "The Shift Towards a Unified Foundation"
 permalink: /research/unified-foundation/
 ---
@@ -185,6 +185,7 @@ In conclusion, the storage-centric stack represents a maturing of the data manag
 
 ---
 
-*[Download full paper as PDF](/assets/papers/the-shift-towards-a-unified-foundation.pdf)*
-
-*[Back to Research Papers](/research/)*
+<div class="research-nav">
+    <a href="{{ '/assets/papers/the-shift-towards-a-unified-foundation.pdf' | relative_url }}">Download PDF</a>
+    <a href="{{ '/research/' | relative_url }}">Back to Research</a>
+</div>

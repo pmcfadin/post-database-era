@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unified Gateway Multi-API Research Constellation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #0a0a0a;
+            color: #ffffff;
+            overflow: hidden;
+        }
+
+        #container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #canvas-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        #ui-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 100;
+        }
+
+        #header {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            right: 20px;
+            pointer-events: auto;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            padding: 15px;
+            backdrop-filter: blur(10px);
+        }
+
+        #title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 8px;
+            background: linear-gradient(45deg, #4facfe, #00f2fe);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        #subtitle {
+            font-size: 14px;
+            color: #aaa;
+        }
+
+        #controls {
+            position: absolute;
+            top: 120px;
+            left: 20px;
+            width: 300px;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+            pointer-events: auto;
+            max-height: 60vh;
+            overflow-y: auto;
+        }
+
+        #search-bar {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+
+        #search-bar::placeholder {
+            color: #aaa;
+        }
+
+        .filter-group {
+            margin-bottom: 20px;
+        }
+
+        .filter-title {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #4facfe;
+        }
+
+        .filter-option {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+
+        .filter-option input {
+            margin-right: 8px;
+        }
+
+        .filter-option label {
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+        #info-panel {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            width: 350px;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+            pointer-events: auto;
+            display: none;
+        }
+
+        #info-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #4facfe;
+        }
+
+        #info-content {
+            font-size: 12px;
+            line-height: 1.4;
+        }
+
+        #legend {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            padding: 15px;
+            backdrop-filter: blur(10px);
+            pointer-events: auto;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 12px;
+        }
+
+        .legend-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+
+        #navigation-help {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            padding: 15px;
+            backdrop-filter: blur(10px);
+            pointer-events: auto;
+            font-size: 12px;
+            width: 200px;
+        }
+
+        .help-item {
+            margin-bottom: 5px;
+        }
+
+        .constellation-label {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+            font-weight: bold;
+            pointer-events: none;
+            backdrop-filter: blur(5px);
+            transform: translate(-50%, -50%);
+        }
+
+        .loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 18px;
+            color: #4facfe;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="canvas-container"></div>
+        
+        <div id="ui-overlay">
+            <div id="header">
+                <div id="title">Research Constellation Browser</div>
+                <div id="subtitle">Interactive 3D visualization of Unified Gateway Multi-API research datasets</div>
+            </div>
+
+            <div id="controls">
+                <input type="text" id="search-bar" placeholder="Search datasets...">
+                
+                <div class="filter-group">
+                    <div class="filter-title">File Types</div>
+                    <div class="filter-option">
+                        <input type="checkbox" id="csv-filter" checked>
+                        <label for="csv-filter">CSV Data Files</label>
+                    </div>
+                    <div class="filter-option">
+                        <input type="checkbox" id="json-filter" checked>
+                        <label for="json-filter">JSON Analysis</label>
+                    </div>
+                    <div class="filter-option">
+                        <input type="checkbox" id="yaml-filter" checked>
+                        <label for="yaml-filter">YAML Metadata</label>
+                    </div>
+                    <div class="filter-option">
+                        <input type="checkbox" id="md-filter" checked>
+                        <label for="md-filter">Markdown Reports</label>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <div class="filter-title">Research Categories</div>
+                    <div class="filter-option">
+                        <input type="checkbox" id="supply-filter" checked>
+                        <label for="supply-filter">Supply-side Evidence</label>
+                    </div>
+                    <div class="filter-option">
+                        <input type="checkbox" id="demand-filter" checked>
+                        <label for="demand-filter">Demand-side Evidence</label>
+                    </div>
+                    <div class="filter-option">
+                        <input type="checkbox" id="economics-filter" checked>
+                        <label for="economics-filter">Economics & Business</label>
+                    </div>
+                    <div class="filter-option">
+                        <input type="checkbox" id="standards-filter" checked>
+                        <label for="standards-filter">Standards & Ecosystem</label>
+                    </div>
+                    <div class="filter-option">
+                        <input type="checkbox" id="performance-filter" checked>
+                        <label for="performance-filter">Performance & Reliability</label>
+                    </div>
+                    <div class="filter-option">
+                        <input type="checkbox" id="market-filter" checked>
+                        <label for="market-filter">Market Trends</label>
+                    </div>
+                </div>
+            </div>
+
+            <div id="info-panel">
+                <div id="info-title">Dataset Information</div>
+                <div id="info-content"></div>
+            </div>
+
+            <div id="legend">
+                <div style="font-size: 14px; font-weight: bold; margin-bottom: 10px;">Dataset Types</div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #4facfe;"></div>
+                    <span>CSV Data Files</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #00f2fe;"></div>
+                    <span>JSON Analysis</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #ffeb3b;"></div>
+                    <span>YAML Metadata</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #ff6b6b;"></div>
+                    <span>Markdown Reports</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #9c27b0;"></div>
+                    <span>Analysis Scripts</span>
+                </div>
+            </div>
+
+            <div id="navigation-help">
+                <div style="font-weight: bold; margin-bottom: 8px;">Navigation</div>
+                <div class="help-item">🖱️ Drag to rotate view</div>
+                <div class="help-item">🔍 Scroll to zoom</div>
+                <div class="help-item">📍 Click stars for details</div>
+                <div class="help-item">🔎 Search to highlight</div>
+                <div class="help-item">⭐ Hover for quick info</div>
+            </div>
+        </div>
+
+        <div class="loading" id="loading">Loading research constellation...</div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/renderers/CSS2DRenderer.js"></script>
+
+    <script>
+        // Research data structure based on INDEX.md
+        const researchData = {
+            "Supply-side Evidence": {
+                color: "#4facfe",
+                position: [0, 50, 0],
+                datasets: [
+                    {name: "multi_api_sku_catalog.csv", type: "csv", category: "Multi-API SKU Catalog", description: "Core SKU catalog data"},
+                    {name: "multi_api_sku_catalog_metadata.json", type: "json", category: "Multi-API SKU Catalog", description: "Metadata for SKU catalog"},
+                    {name: "api_coverage_parity_matrix.csv", type: "csv", category: "API Coverage & Parity", description: "Core feature parity matrix"},
+                    {name: "ga_preview_cadence.csv", type: "csv", category: "GA/Preview Cadence", description: "Core GA/preview tracking"},
+                    {name: "free_tier_default_pathways.csv", type: "csv", category: "Free-Tier Pathways", description: "Core pathways data"},
+                    {name: "marketplace-tile-taxonomy_2025-08-20.csv", type: "csv", category: "Marketplace Taxonomy", description: "Current marketplace taxonomy"},
+                    {name: "pricing_unit_alignment.csv", type: "csv", category: "Pricing Alignment", description: "Core pricing alignment data"}
+                ]
+            },
+            "Demand-side Evidence": {
+                color: "#00f2fe",
+                position: [60, 25, -30],
+                datasets: [
+                    {name: "case_studies_gateway_driver.csv", type: "csv", category: "Case Studies", description: "Gateway adoption case studies"},
+                    {name: "2025-08-20__data__sdk-unification__multi-vendor__client-convergence.csv", type: "csv", category: "SDK Unification", description: "SDK unification analysis"},
+                    {name: "2025-08-21__data__time-to-first-query__multi-vendor__benchmark-comparison.csv", type: "csv", category: "Time-to-First-Query", description: "Multi-vendor benchmarks"},
+                    {name: "2025-08-20__data__job-postings-signal__aggregated__multi-api-demand.csv", type: "csv", category: "Job Postings", description: "Job market analysis"},
+                    {name: "stackoverflow_forum_tag_mix.csv", type: "csv", category: "Forum Analysis", description: "Core forum data"}
+                ]
+            },
+            "Economics & Business": {
+                color: "#ffeb3b",
+                position: [-60, 25, -30],
+                datasets: [
+                    {name: "earnings_deck_driver_mentions.csv", type: "csv", category: "Earnings Analysis", description: "Earnings call analysis"},
+                    {name: "2025-08-20__data__arr-revenue-attribution__multi-vendor__gateway-sku-revenue.csv", type: "csv", category: "Revenue Attribution", description: "Gateway SKU revenue"},
+                    {name: "2025-08-20__data__finops-outcomes__public-posts__database-consolidation.csv", type: "csv", category: "FinOps Outcomes", description: "Public cost outcomes"}
+                ]
+            },
+            "Standards & Ecosystem": {
+                color: "#ff6b6b",
+                position: [0, -25, 50],
+                datasets: [
+                    {name: "standards_adoption_tracker.csv", type: "csv", category: "Standards Adoption", description: "Standards adoption tracking"},
+                    {name: "2025-08-20__data__bi-etl-federation__connector-coverage__gateway-support.csv", type: "csv", category: "BI Federation", description: "BI/ETL connector support"},
+                    {name: "2025-08-20__data__migration-guides__multi-vendor__cross-api-migration.csv", type: "csv", category: "Migration Guides", description: "Cross-API migration guides"}
+                ]
+            },
+            "Performance & Reliability": {
+                color: "#9c27b0",
+                position: [45, -25, -45],
+                datasets: [
+                    {name: "2025-08-20__data__gateway-penalty__multi-platform__query-performance.csv", type: "csv", category: "Query Performance", description: "Multi-platform performance"},
+                    {name: "2025-08-20__data__gateway-penalty__tpc-benchmarks__standardized-workloads.csv", type: "csv", category: "TPC Benchmarks", description: "TPC benchmarks"},
+                    {name: "2025-08-20__data__incident-support-signals__multi-vendor__api-quality-patterns.csv", type: "csv", category: "Incident Signals", description: "API quality patterns"}
+                ]
+            },
+            "Market Trends": {
+                color: "#4caf50",
+                position: [-45, -25, -45],
+                datasets: [
+                    {name: "platform_launches_multi_api.csv", type: "csv", category: "Platform Launches", description: "Platform launch tracking"},
+                    {name: "2025-08-20__data__gateway-terms__industry-discourse__terminology-tracking.csv", type: "csv", category: "Gateway Terms", description: "Gateway terminology tracking"},
+                    {name: "2025-08-20__data__google-trends__multi-api-gateway__search-volume.csv", type: "csv", category: "Google Trends", description: "Search volume trends"},
+                    {name: "google_trends_bundle_stats.json", type: "json", category: "Google Trends", description: "Bundle statistics"}
+                ]
+            }
+        };
+
+        // Three.js setup
+        let scene, camera, renderer, controls;
+        let raycaster, mouse;
+        let stars = [];
+        let constellations = [];
+        let selectedStar = null;
+
+        function init() {
+            // Scene setup
+            scene = new THREE.Scene();
+            scene.background = new THREE.Color(0x000511);
+
+            // Camera setup
+            camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 2000);
+            camera.position.set(0, 0, 150);
+
+            // Renderer setup
+            renderer = new THREE.WebGLRenderer({ antialias: true });
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            renderer.setPixelRatio(window.devicePixelRatio);
+            document.getElementById('canvas-container').appendChild(renderer.domElement);
+
+            // Controls setup
+            controls = new THREE.OrbitControls(camera, renderer.domElement);
+            controls.enableDamping = true;
+            controls.dampingFactor = 0.05;
+            controls.maxDistance = 500;
+            controls.minDistance = 20;
+
+            // Raycaster for mouse interaction
+            raycaster = new THREE.Raycaster();
+            mouse = new THREE.Vector2();
+
+            // Create starfield background
+            createStarField();
+
+            // Create constellation systems
+            createConstellations();
+
+            // Event listeners
+            setupEventListeners();
+
+            // Start animation loop
+            animate();
+
+            // Hide loading
+            document.getElementById('loading').style.display = 'none';
+        }
+
+        function createStarField() {
+            const starsGeometry = new THREE.BufferGeometry();
+            const starsVertices = [];
+
+            for (let i = 0; i < 2000; i++) {
+                const x = (Math.random() - 0.5) * 2000;
+                const y = (Math.random() - 0.5) * 2000;
+                const z = (Math.random() - 0.5) * 2000;
+                starsVertices.push(x, y, z);
+            }
+
+            starsGeometry.setAttribute('position', new THREE.Float32BufferAttribute(starsVertices, 3));
+
+            const starsMaterial = new THREE.PointsMaterial({
+                color: 0xffffff,
+                size: 0.5,
+                transparent: true,
+                opacity: 0.3
+            });
+
+            const starField = new THREE.Points(starsGeometry, starsMaterial);
+            scene.add(starField);
+        }
+
+        function createConstellations() {
+            Object.entries(researchData).forEach(([categoryName, categoryData]) => {
+                createConstellation(categoryName, categoryData);
+            });
+        }
+
+        function createConstellation(name, data) {
+            const group = new THREE.Group();
+            const centerPosition = new THREE.Vector3(...data.position);
+            
+            // Create constellation center
+            const centerGeometry = new THREE.SphereGeometry(2, 16, 16);
+            const centerMaterial = new THREE.MeshBasicMaterial({ 
+                color: data.color,
+                transparent: true,
+                opacity: 0.8
+            });
+            const centerSphere = new THREE.Mesh(centerGeometry, centerMaterial);
+            centerSphere.position.copy(centerPosition);
+            centerSphere.userData = { type: 'constellation', name: name };
+            
+            // Add glow effect
+            const glowGeometry = new THREE.SphereGeometry(4, 16, 16);
+            const glowMaterial = new THREE.MeshBasicMaterial({
+                color: data.color,
+                transparent: true,
+                opacity: 0.1
+            });
+            const glow = new THREE.Mesh(glowGeometry, glowMaterial);
+            glow.position.copy(centerPosition);
+            
+            group.add(centerSphere);
+            group.add(glow);
+
+            // Create dataset stars around constellation center
+            data.datasets.forEach((dataset, index) => {
+                const star = createDatasetStar(dataset, index, data.datasets.length, centerPosition, data.color);
+                stars.push(star);
+                group.add(star);
+            });
+
+            constellations.push({ name, group, center: centerSphere });
+            scene.add(group);
+
+            // Create constellation label
+            createConstellationLabel(name, centerPosition);
+        }
+
+        function createDatasetStar(dataset, index, total, centerPos, baseColor) {
+            // Position stars in orbit around constellation center
+            const angle = (index / total) * Math.PI * 2;
+            const radius = 15 + Math.random() * 10;
+            const height = (Math.random() - 0.5) * 8;
+
+            const position = new THREE.Vector3(
+                centerPos.x + Math.cos(angle) * radius,
+                centerPos.y + height,
+                centerPos.z + Math.sin(angle) * radius
+            );
+
+            // Color by file type
+            const typeColors = {
+                csv: "#4facfe",
+                json: "#00f2fe", 
+                yaml: "#ffeb3b",
+                md: "#ff6b6b",
+                py: "#9c27b0"
+            };
+
+            const starColor = typeColors[dataset.type] || "#ffffff";
+            const size = dataset.type === 'json' ? 1.2 : dataset.type === 'csv' ? 1.0 : 0.8;
+
+            const geometry = new THREE.SphereGeometry(size, 8, 8);
+            const material = new THREE.MeshBasicMaterial({ 
+                color: starColor,
+                transparent: true,
+                opacity: 0.9
+            });
+
+            const star = new THREE.Mesh(geometry, material);
+            star.position.copy(position);
+            star.userData = {
+                type: 'dataset',
+                dataset: dataset,
+                originalColor: starColor,
+                originalOpacity: 0.9
+            };
+
+            return star;
+        }
+
+        function createConstellationLabel(name, position) {
+            const labelDiv = document.createElement('div');
+            labelDiv.className = 'constellation-label';
+            labelDiv.textContent = name;
+            labelDiv.style.left = '50%';
+            labelDiv.style.top = '50%';
+            
+            // Convert 3D position to screen coordinates
+            const vector = position.clone();
+            vector.project(camera);
+            
+            const x = (vector.x * 0.5 + 0.5) * window.innerWidth;
+            const y = (vector.y * -0.5 + 0.5) * window.innerHeight;
+            
+            labelDiv.style.left = x + 'px';
+            labelDiv.style.top = y + 'px';
+            
+            document.getElementById('ui-overlay').appendChild(labelDiv);
+        }
+
+        function setupEventListeners() {
+            // Mouse events
+            renderer.domElement.addEventListener('mousemove', onMouseMove);
+            renderer.domElement.addEventListener('click', onClick);
+
+            // Search functionality
+            document.getElementById('search-bar').addEventListener('input', onSearch);
+
+            // Filter functionality
+            document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+                checkbox.addEventListener('change', updateFilters);
+            });
+
+            // Window resize
+            window.addEventListener('resize', onWindowResize);
+        }
+
+        function onMouseMove(event) {
+            mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+            mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+
+            raycaster.setFromCamera(mouse, camera);
+            const intersects = raycaster.intersectObjects(stars);
+
+            // Reset all stars
+            stars.forEach(star => {
+                star.material.opacity = star.userData.originalOpacity;
+                star.scale.setScalar(1);
+            });
+
+            if (intersects.length > 0) {
+                const hoveredStar = intersects[0].object;
+                hoveredStar.material.opacity = 1;
+                hoveredStar.scale.setScalar(1.5);
+                
+                // Show quick info tooltip
+                showQuickInfo(hoveredStar.userData.dataset, event);
+            } else {
+                hideQuickInfo();
+            }
+        }
+
+        function onClick(event) {
+            raycaster.setFromCamera(mouse, camera);
+            const intersects = raycaster.intersectObjects(stars);
+
+            if (intersects.length > 0) {
+                const clickedStar = intersects[0].object;
+                showDatasetInfo(clickedStar.userData.dataset);
+            }
+        }
+
+        function onSearch(event) {
+            const searchTerm = event.target.value.toLowerCase();
+            
+            stars.forEach(star => {
+                const dataset = star.userData.dataset;
+                const matches = dataset.name.toLowerCase().includes(searchTerm) ||
+                               dataset.category.toLowerCase().includes(searchTerm) ||
+                               dataset.description.toLowerCase().includes(searchTerm);
+
+                if (matches && searchTerm.length > 0) {
+                    star.material.emissive.setHex(0x444444);
+                    star.scale.setScalar(1.3);
+                } else {
+                    star.material.emissive.setHex(0x000000);
+                    star.scale.setScalar(1);
+                }
+            });
+        }
+
+        function updateFilters() {
+            // Implementation for filtering based on checkboxes
+            const fileTypeFilters = {
+                csv: document.getElementById('csv-filter').checked,
+                json: document.getElementById('json-filter').checked,
+                yaml: document.getElementById('yaml-filter').checked,
+                md: document.getElementById('md-filter').checked
+            };
+
+            stars.forEach(star => {
+                const dataset = star.userData.dataset;
+                const typeVisible = fileTypeFilters[dataset.type];
+                star.visible = typeVisible;
+            });
+        }
+
+        function showDatasetInfo(dataset) {
+            const infoPanel = document.getElementById('info-panel');
+            const infoTitle = document.getElementById('info-title');
+            const infoContent = document.getElementById('info-content');
+
+            infoTitle.textContent = dataset.name;
+            infoContent.innerHTML = `
+                <strong>Category:</strong> ${dataset.category}<br>
+                <strong>Type:</strong> ${dataset.type.toUpperCase()}<br>
+                <strong>Description:</strong> ${dataset.description}<br>
+                <br>
+                <em>Click outside to close</em>
+            `;
+
+            infoPanel.style.display = 'block';
+        }
+
+        function showQuickInfo(dataset, event) {
+            // Create or update tooltip
+            let tooltip = document.getElementById('tooltip');
+            if (!tooltip) {
+                tooltip = document.createElement('div');
+                tooltip.id = 'tooltip';
+                tooltip.style.cssText = `
+                    position: absolute;
+                    background: rgba(0,0,0,0.9);
+                    color: white;
+                    padding: 8px;
+                    border-radius: 4px;
+                    font-size: 12px;
+                    pointer-events: none;
+                    z-index: 1000;
+                    max-width: 200px;
+                `;
+                document.body.appendChild(tooltip);
+            }
+
+            tooltip.innerHTML = `<strong>${dataset.name}</strong><br>${dataset.category}`;
+            tooltip.style.left = event.clientX + 10 + 'px';
+            tooltip.style.top = event.clientY - 10 + 'px';
+            tooltip.style.display = 'block';
+        }
+
+        function hideQuickInfo() {
+            const tooltip = document.getElementById('tooltip');
+            if (tooltip) {
+                tooltip.style.display = 'none';
+            }
+        }
+
+        function onWindowResize() {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        }
+
+        function animate() {
+            requestAnimationFrame(animate);
+
+            // Gentle rotation for constellation centers
+            constellations.forEach((constellation, index) => {
+                constellation.group.rotation.y += 0.001 * (index % 2 === 0 ? 1 : -1);
+            });
+
+            // Update controls
+            controls.update();
+
+            // Update constellation labels positions
+            updateLabelPositions();
+
+            renderer.render(scene, camera);
+        }
+
+        function updateLabelPositions() {
+            const labels = document.querySelectorAll('.constellation-label');
+            constellations.forEach((constellation, index) => {
+                if (labels[index]) {
+                    const vector = constellation.center.position.clone();
+                    vector.project(camera);
+                    
+                    const x = (vector.x * 0.5 + 0.5) * window.innerWidth;
+                    const y = (vector.y * -0.5 + 0.5) * window.innerHeight;
+                    
+                    labels[index].style.left = x + 'px';
+                    labels[index].style.top = y + 'px';
+                    
+                    // Hide labels when too far or behind camera
+                    const distance = camera.position.distanceTo(constellation.center.position);
+                    labels[index].style.opacity = vector.z > 0 && distance < 200 ? '1' : '0';
+                }
+            });
+        }
+
+        // Hide info panel when clicking outside
+        document.addEventListener('click', (event) => {
+            if (!event.target.closest('#info-panel') && !event.target.closest('canvas')) {
+                document.getElementById('info-panel').style.display = 'none';
+            }
+        });
+
+        // Initialize the visualization
+        init();
+    </script>
+</body>
+</html>

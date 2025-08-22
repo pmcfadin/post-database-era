@@ -456,6 +456,126 @@ body {
     margin-top: 3rem;
 }
 
+/* Research Content Styling */
+.research-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 6rem 2rem 4rem;
+    background: var(--background);
+}
+
+.research-content h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+    background: var(--gradient-2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.research-content h2 {
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: 700;
+    margin: 3rem 0 1.5rem;
+    color: var(--text-primary);
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 0.5rem;
+}
+
+.research-content h3 {
+    font-size: 1.375rem;
+    font-weight: 600;
+    margin: 2rem 0 1rem;
+    color: var(--primary);
+}
+
+.research-content h4 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 1.5rem 0 0.75rem;
+    color: var(--text-primary);
+}
+
+.research-content p {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    color: var(--text-secondary);
+}
+
+.research-content p strong {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+.research-content ul, .research-content ol {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+}
+
+.research-content li {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    margin-bottom: 0.75rem;
+    color: var(--text-secondary);
+}
+
+.research-content blockquote {
+    border-left: 4px solid var(--primary);
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+    background: var(--surface-light);
+    border-radius: 0 8px 8px 0;
+}
+
+.research-content hr {
+    border: none;
+    height: 2px;
+    background: var(--border);
+    margin: 3rem 0;
+    border-radius: 1px;
+}
+
+.research-content a {
+    color: var(--primary);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.research-content a:hover {
+    border-bottom-color: var(--primary);
+}
+
+/* Research Navigation */
+.research-nav {
+    text-align: center;
+    margin: 3rem 0;
+    padding: 2rem;
+    background: var(--surface-light);
+    border-radius: 12px;
+    border: 1px solid var(--border);
+}
+
+.research-nav a {
+    display: inline-block;
+    margin: 0 1rem;
+    padding: 0.75rem 1.5rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.research-nav a:hover {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: white;
+    transform: translateY(-2px);
+}
+
 /* Footer */
 .footer {
     padding: 2rem;

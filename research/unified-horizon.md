@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: research
 title: "The Unified Horizon: Analyzing the 2030 Trajectory of Multi-API Data Platforms"
 permalink: /research/unified-horizon/
 ---
@@ -111,6 +111,7 @@ This whitepaper analyzes the accelerating shift toward unified multi-API data pl
 
 ---
 
-*[Download full paper as PDF](/assets/papers/the-unified-horizon-2030-trajectory.pdf)*
-
-*[Back to Research Papers](/research/)*
+<div class="research-nav">
+    <a href="{{ '/assets/papers/the-unified-horizon-2030-trajectory.pdf' | relative_url }}">Download PDF</a>
+    <a href="{{ '/research/' | relative_url }}">Back to Research</a>
+</div>

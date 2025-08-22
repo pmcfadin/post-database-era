@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: research
 title: Research Papers
 permalink: /research/
 ---
@@ -10,7 +10,7 @@ This collection explores the fundamental shifts reshaping the database and data 
 
 ## Published Papers
 
-### [The Shift Towards a Unified Foundation](/research/unified-foundation/)
+### [The Shift Towards a Unified Foundation]({{ '/research/unified-foundation/' | relative_url }})
 *Prepared by: Patrick McFadin*
 
 The data management landscape is undergoing a paradigm shift, moving decisively away from fragmented, database-centric architectures toward a unified, storage-centric model. This paper analyzes the technological drivers and strategic implications of this transformation, examining how object storage, open table formats, and multi-model databases are reshaping the industry.
@@ -24,7 +24,7 @@ The data management landscape is undergoing a paradigm shift, moving decisively 
 
 ---
 
-### [The Unified Horizon: Analyzing the 2030 Trajectory of Multi-API Data Platforms](/research/unified-horizon/)
+### [The Unified Horizon: Analyzing the 2030 Trajectory of Multi-API Data Platforms]({{ '/research/unified-horizon/' | relative_url }})
 *Prepared by: Patrick McFadin*
 
 An analysis of the enterprise data landscape's trajectory toward unified multi-API data platforms, projecting a 2030 horizon where they become mainstream. This whitepaper examines the technological feasibility, economic drivers, and organizational challenges shaping this transition from polyglot persistence to unified platforms.
