@@ -22,8 +22,13 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - research/
   - CLAUDE.md
+  - supabase_research/
+  - theses/
+  - datasets/
+  - scripts/
+  - analysis/
+  - research_papers/
 
 # Site author
 author:
