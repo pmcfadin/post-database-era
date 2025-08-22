@@ -1,0 +1,67 @@
+# Dataset Metadata
+dataset:
+  title: "Funding and Market Valuation Data for Supabase vs SingleStore"
+  description: "Investment rounds, valuations, and market positioning for next-generation database companies"
+  topic: "Financial metrics and market position of database platforms"
+  metric: "Funding amounts, valuations, company timeline"
+
+# Source Information
+source:
+  name: "Tech press and company announcements"
+  url: "Multiple sources - tech news, company blogs"
+  accessed: "2025-08-21"
+  license: "Public information"
+  credibility: "Tier B"
+
+# Data Characteristics
+characteristics:
+  rows: 7
+  columns: 7
+  time_range: "2011-2022 (varies by company)"
+  update_frequency: "Event-driven (funding rounds)"
+  collection_method: "Public announcement aggregation"
+
+# Column Descriptions
+columns:
+  company:
+    type: "string"
+    description: "Company name"
+    unit: "categorical"
+  category:
+    type: "string"
+    description: "Type of data point (funding, product, market)"
+    unit: "categorical"
+  metric:
+    type: "string"
+    description: "Specific metric being reported"
+    unit: "text"
+  value:
+    type: "string"
+    description: "Value of the metric"
+    unit: "mixed (USD, dates, text)"
+  date_reported:
+    type: "date"
+    description: "Date when this information was reported"
+    unit: "YYYY-MM-DD"
+  source:
+    type: "string"
+    description: "Type of source for the information"
+    unit: "categorical"
+  credibility_tier:
+    type: "string"
+    description: "Reliability tier (A=highest, C=lowest)"
+    unit: "categorical"
+
+# Quality Indicators
+quality:
+  completeness: "Good for major funding rounds"
+  sample_size: "Key financial milestones covered"
+  confidence: "high for funding amounts, medium for valuations"
+  limitations: ["Private company data may be incomplete", "Valuations are point-in-time estimates", "SingleStore data limited due to enterprise focus"]
+
+# Usage Notes
+notes:
+  - "Supabase shows rapid growth trajectory with $2B valuation in 2022"
+  - "SingleStore (formerly MemSQL) has longer history but different market approach"
+  - "Funding amounts reflect different target markets and business models"
+  - "Supabase targets developer/startup market vs SingleStore's enterprise focus"

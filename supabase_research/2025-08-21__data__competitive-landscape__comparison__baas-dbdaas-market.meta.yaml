@@ -1,0 +1,72 @@
+# Dataset Metadata
+dataset:
+  title: "Competitive Landscape Analysis for BaaS and DBaaS Markets"
+  description: "Comprehensive comparison of Supabase and SingleStore against their respective competitive landscapes"
+  topic: "Market positioning and competitive analysis in database services"
+  metric: "Feature comparison, target markets, pricing models"
+
+# Source Information
+source:
+  name: "Company websites and product documentation"
+  url: "Multiple company sources"
+  accessed: "2025-08-21"
+  license: "Public company information"
+  credibility: "Tier A"
+
+# Data Characteristics
+characteristics:
+  rows: 8
+  columns: 8
+  time_range: "Current market snapshot (2025)"
+  update_frequency: "Quarterly (as companies evolve)"
+  collection_method: "Company research and analysis"
+
+# Column Descriptions
+columns:
+  company:
+    type: "string"
+    description: "Company or product name"
+    unit: "categorical"
+  category:
+    type: "string"
+    description: "Market category (BaaS, DBaaS, etc.)"
+    unit: "categorical"
+  primary_database:
+    type: "string"
+    description: "Core database technology"
+    unit: "categorical"
+  key_features:
+    type: "string"
+    description: "Major differentiating features"
+    unit: "text"
+  target_audience:
+    type: "string"
+    description: "Primary customer segments"
+    unit: "text"
+  pricing_model:
+    type: "string"
+    description: "How the service is priced"
+    unit: "categorical"
+  geographic_focus:
+    type: "string"
+    description: "Geographic market focus"
+    unit: "categorical"
+  notable_customers:
+    type: "string"
+    description: "Types of customers or examples"
+    unit: "text"
+
+# Quality Indicators
+quality:
+  completeness: "100% for included companies"
+  sample_size: "Representative competitive set"
+  confidence: "high"
+  limitations: ["Market is rapidly evolving", "New competitors emerge frequently", "Pricing and features change regularly"]
+
+# Usage Notes
+notes:
+  - "Supabase competes in BaaS space with Firebase, Appwrite, PocketBase"
+  - "SingleStore competes in enterprise analytics with Snowflake, Databricks"
+  - "Different target markets lead to different competitive dynamics"
+  - "BaaS market more developer-focused, DBaaS more enterprise-focused"
+  - "Vector database capabilities emerging as key differentiator"

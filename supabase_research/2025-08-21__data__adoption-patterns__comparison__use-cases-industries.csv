@@ -1,0 +1,9 @@
+company,use_case,industry_vertical,adoption_driver,typical_company_size,implementation_complexity,time_to_value,cost_factor
+Supabase,Rapid MVP development,Tech startups,"Speed to market, PostgreSQL familiarity",1-50 employees,Low,1-7 days,Low initial cost
+Supabase,Real-time applications,"SaaS, Gaming, Social",Built-in real-time subscriptions,10-200 employees,Medium,1-14 days,Scales with usage
+Supabase,Mobile app backends,"Mobile apps, E-commerce",Auth + Database + Storage bundle,5-100 employees,Low-Medium,1-10 days,Predictable pricing
+Supabase,AI/ML applications,"AI startups, Ed-tech","Vector database capabilities, pgvector",10-500 employees,Medium,7-30 days,"Medium, vector storage costs"
+SingleStore,Real-time analytics,"Financial services, Ad-tech",Sub-second query performance on large datasets,500+ employees,High,30-90 days,"High, enterprise pricing"
+SingleStore,Operational analytics,"E-commerce, Gaming, IoT","HTAP capabilities, real-time data processing",200+ employees,Medium-High,14-60 days,"High, based on compute units"
+SingleStore,Data warehouse modernization,"Retail, Manufacturing, Healthcare",Replacing legacy data warehouses with real-time capabilities,1000+ employees,High,60-180 days,"High, enterprise migration costs"
+SingleStore,Machine learning pipelines,"Technology, Finance, Media","In-database ML, vector processing",200+ employees,High,30-120 days,"High, specialized compute requirements"

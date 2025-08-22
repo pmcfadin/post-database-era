@@ -1,0 +1,22 @@
+dataset:
+  title: Supabase Enterprise Adoption Readiness Assessment
+  description: Multi-factor assessment of Supabase readiness for enterprise adoption
+  topic: Enterprise adoption barriers and enablers
+  metric: Enterprise readiness scores across key factors
+source:
+  name: Expert Analysis
+  url: Based on vendor documentation and market research
+  accessed: '2025-08-21'
+  credibility: Tier B
+characteristics:
+  rows: 8
+  columns: 6
+  time_range: 2025-08-21 - 2025-08-21
+  update_frequency: quarterly
+  collection_method: expert_assessment
+quality:
+  completeness: 100%
+  confidence: medium
+  limitations:
+  - Subjective scoring methodology
+  - Based on public information only

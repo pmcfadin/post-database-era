@@ -1,0 +1,4 @@
+company,repository_name,full_name,description,stars,forks,watchers,open_issues,created_date,last_updated,primary_language,size_kb,subscribers
+Supabase,supabase,supabase/supabase,"The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",87463,9579,87463,709,2019-10-12,2025-08-21,TypeScript,1921576,592
+SingleStore,simdjson,singlestore/simdjson,"Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks",1,0,1,0,2024-06-17,2024-10-20,,27203,N/A
+SingleStore,faiss,singlestore/faiss,,1,0,1,0,2024-06-11,2025-08-17,C++,232699,N/A

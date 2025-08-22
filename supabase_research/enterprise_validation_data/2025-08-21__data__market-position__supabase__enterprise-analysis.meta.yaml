@@ -1,0 +1,22 @@
+dataset:
+  title: Supabase Enterprise Market Position Analysis
+  description: Strategic analysis of Supabase position in enterprise market
+  topic: Market positioning and growth potential
+  metric: Qualitative market position assessment
+source:
+  name: Market Analysis
+  url: Based on competitive research and industry trends
+  accessed: '2025-08-21'
+  credibility: Tier C
+characteristics:
+  rows: 1
+  columns: 11
+  time_range: 2025-08-21 - 2025-08-21
+  update_frequency: annual
+  collection_method: qualitative_analysis
+quality:
+  completeness: 100%
+  confidence: medium
+  limitations:
+  - Subjective analysis
+  - Based on current market conditions

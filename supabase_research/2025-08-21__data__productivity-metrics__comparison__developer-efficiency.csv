@@ -1,0 +1,9 @@
+company,metric,measurement,source_type,confidence_level,comparison_baseline,notes
+Supabase,Time to MVP (web app),1-3 days,Community testimonials,Medium,vs 1-2 weeks traditional stack,"Including auth, database, and basic API"
+Supabase,Learning curve,1-5 days for PostgreSQL developers,Developer surveys,Medium,vs weeks for new backend frameworks,Leverages existing PostgreSQL knowledge
+Supabase,Backend setup time,5-30 minutes,Documentation and tutorials,High,vs hours/days for custom backend,From project creation to working API
+Supabase,Real-time feature implementation,10-60 minutes,Community examples,Medium,vs days for custom WebSocket implementation,Built-in real-time subscriptions
+SingleStore,Data warehouse migration time,2-6 months,Enterprise case studies,Medium,vs 6-18 months traditional migration,Including data modeling and optimization
+SingleStore,Query performance improvement,10-100x faster,Company benchmarks,Medium,vs previous analytical databases,Highly dependent on use case and data size
+SingleStore,Real-time dashboard setup,1-4 weeks,Implementation case studies,Medium,vs months with traditional BI stack,Including data ingestion and visualization
+SingleStore,Developer onboarding (SQL background),1-2 weeks,Enterprise feedback,Low,vs weeks for specialized analytical databases,"SQL familiarity helps, but distributed concepts are new"

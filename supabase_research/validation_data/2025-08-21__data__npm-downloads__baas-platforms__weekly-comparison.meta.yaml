@@ -1,0 +1,96 @@
+# Dataset Metadata
+dataset:
+  title: "BaaS Platform npm Download Comparison"
+  description: "Weekly download statistics comparing major Backend-as-a-Service platforms on npm registry, demonstrating relative developer adoption and market positioning"
+  topic: "Supabase thesis validation - Competitive landscape analysis"
+  metric: "Weekly package downloads and ecosystem metrics"
+  
+# Source Information
+source:
+  name: "npm Registry"
+  url: "https://www.npmjs.com/"
+  accessed: "2025-08-21"
+  license: "Public domain - npm statistics"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 3
+  columns: 9
+  time_range: "snapshot - 2025-08-21"
+  update_frequency: "real-time"
+  collection_method: "direct registry scraping"
+  
+# Column Descriptions
+columns:
+  platform:
+    type: "string"
+    description: "BaaS platform name"
+    unit: "name"
+  package_name:
+    type: "string"
+    description: "Primary npm package identifier"
+    unit: "name"
+  weekly_downloads:
+    type: "number"
+    description: "Downloads in the past 7 days"
+    unit: "count"
+  version:
+    type: "string"
+    description: "Latest published package version"
+    unit: "semver"
+  last_publish:
+    type: "date"
+    description: "Most recent package publication timestamp"
+    unit: "ISO 8601"
+  unpacked_size:
+    type: "string"
+    description: "Package size when installed"
+    unit: "bytes (with unit suffix)"
+  repository_url:
+    type: "string"
+    description: "Source code repository URL"
+    unit: "URL"
+  collection_date:
+    type: "date"
+    description: "Data collection date"
+    unit: "YYYY-MM-DD"
+  market_position:
+    type: "string"
+    description: "Relative market positioning assessment"
+    unit: "category"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all fields populated"
+  sample_size: "3 major BaaS platforms"
+  confidence: "high"
+  limitations: 
+    - "Single point-in-time measurement"
+    - "Does not include enterprise/private installations"
+    - "Package size differences reflect different architectures"
+  
+# Usage Notes
+notes:
+  - "Supabase exceeds Firebase in weekly downloads (4.04M vs 3.14M)"
+  - "Appwrite significantly smaller market presence (22K downloads)"
+  - "Recent publication dates show active development across all platforms"
+  - "Package size differences: Firebase (25.8MB) vs Supabase (275kB) vs Appwrite (1.45MB)"
+  - "Data supports thesis that Supabase is gaining significant developer traction"
+
+# Thesis Validation Relevance
+validation_impact:
+  relevance: "very high"
+  supports_thesis: true
+  key_insights:
+    - "Supabase has achieved download parity with established Firebase"
+    - "29% higher weekly downloads than Google-backed Firebase"
+    - "183x more downloads than competing open-source BaaS (Appwrite)"
+    - "Strong evidence of developer ecosystem adoption supporting market duplication thesis"
+
+# Competitive Analysis
+competitive_insights:
+  market_leader: "Firebase (Google)"
+  rising_challenger: "Supabase"
+  emerging_player: "Appwrite"
+  market_dynamics: "Supabase demonstrating strong competitive position against incumbent"

@@ -1,0 +1,77 @@
+# Dataset Metadata
+dataset:
+  title: "Supabase Ecosystem npm Download Metrics"
+  description: "Weekly download statistics for core Supabase packages on npm registry, indicating developer adoption and ecosystem usage"
+  topic: "Supabase thesis validation - Developer ecosystem adoption"
+  metric: "Weekly package downloads"
+  
+# Source Information
+source:
+  name: "npm Registry"
+  url: "https://www.npmjs.com/package/@supabase/supabase-js"
+  accessed: "2025-08-21"
+  license: "Public domain - npm statistics"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 1
+  columns: 6
+  time_range: "snapshot - 2025-08-21"
+  update_frequency: "real-time"
+  collection_method: "automated registry scraping"
+  
+# Column Descriptions
+columns:
+  package_name:
+    type: "string"
+    description: "Full npm package identifier"
+    unit: "name"
+  weekly_downloads:
+    type: "number"
+    description: "Number of downloads in the past 7 days"
+    unit: "count"
+  version:
+    type: "string"
+    description: "Latest published package version"
+    unit: "semver"
+  last_publish:
+    type: "date"
+    description: "Timestamp of most recent package publication"
+    unit: "ISO 8601"
+  provider:
+    type: "string"
+    description: "Package registry provider"
+    unit: "name"
+  collection_date:
+    type: "date"
+    description: "Date when data was collected"
+    unit: "YYYY-MM-DD"
+  repository_url:
+    type: "string"
+    description: "Source code repository URL"
+    unit: "URL"
+    
+# Quality Indicators
+quality:
+  completeness: "100% - all fields populated"
+  sample_size: "single package snapshot"
+  confidence: "high"
+  limitations: 
+    - "Single point-in-time measurement"
+    - "Only captures core package, not entire ecosystem"
+    - "Download counts may include CI/CD and mirror traffic"
+  
+# Usage Notes
+notes:
+  - "4.04M weekly downloads indicates substantial developer adoption"
+  - "Recent publish timestamp (1 hour ago) shows active development"
+  - "This data supports thesis of growing BaaS platform adoption"
+  - "Should be compared with competitor package download metrics"
+  - "Trend analysis requires historical data collection"
+
+# Thesis Validation Relevance
+validation_impact:
+  relevance: "high"
+  supports_thesis: true
+  key_insight: "4M+ weekly downloads demonstrates significant developer ecosystem adoption, supporting the thesis that Supabase's model is gaining traction"

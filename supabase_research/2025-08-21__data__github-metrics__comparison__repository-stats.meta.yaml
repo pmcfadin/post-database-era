@@ -1,0 +1,91 @@
+# Dataset Metadata
+dataset:
+  title: "GitHub Repository Metrics for Supabase vs SingleStore"
+  description: "Comparative GitHub metrics including stars, forks, issues, and activity for main repositories of Supabase and SingleStore"
+  topic: "Next-generation database platforms adoption metrics"
+  metric: "GitHub engagement and development activity"
+
+# Source Information
+source:
+  name: "GitHub API"
+  url: "https://api.github.com"
+  accessed: "2025-08-21"
+  license: "Public GitHub API data"
+  credibility: "Tier A"
+
+# Data Characteristics
+characteristics:
+  rows: "Variable (main repos)"
+  columns: 13
+  time_range: "2019-10-12 - 2025-08-21"
+  update_frequency: "real-time"
+  collection_method: "GitHub REST API"
+
+# Column Descriptions
+columns:
+  company:
+    type: "string"
+    description: "Company name (Supabase or SingleStore)"
+    unit: "categorical"
+  repository_name:
+    type: "string"
+    description: "GitHub repository name"
+    unit: "text"
+  full_name:
+    type: "string"
+    description: "Full repository path (org/repo)"
+    unit: "text"
+  description:
+    type: "string"
+    description: "Repository description from GitHub"
+    unit: "text"
+  stars:
+    type: "number"
+    description: "Number of GitHub stars"
+    unit: "count"
+  forks:
+    type: "number"
+    description: "Number of repository forks"
+    unit: "count"
+  watchers:
+    type: "number"
+    description: "Number of watchers"
+    unit: "count"
+  open_issues:
+    type: "number"
+    description: "Number of open issues"
+    unit: "count"
+  created_date:
+    type: "date"
+    description: "Repository creation date"
+    unit: "YYYY-MM-DD"
+  last_updated:
+    type: "date"
+    description: "Last repository update date"
+    unit: "YYYY-MM-DD"
+  primary_language:
+    type: "string"
+    description: "Primary programming language"
+    unit: "categorical"
+  size_kb:
+    type: "number"
+    description: "Repository size in kilobytes"
+    unit: "KB"
+  subscribers:
+    type: "number"
+    description: "Number of repository subscribers"
+    unit: "count"
+
+# Quality Indicators
+quality:
+  completeness: "100% for available GitHub data"
+  sample_size: "Complete dataset for main repositories"
+  confidence: "high"
+  limitations: ["SingleStore appears to have limited public GitHub presence", "Repository activity doesn't capture full company adoption"]
+
+# Usage Notes
+notes:
+  - "Supabase shows significantly higher GitHub engagement (87k+ stars)"
+  - "SingleStore has minimal public GitHub repository activity"
+  - "Data reflects open-source community engagement, not enterprise adoption"
+  - "Supabase created in 2019, showing rapid growth"

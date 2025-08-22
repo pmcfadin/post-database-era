@@ -1,0 +1,8 @@
+company,category,metric,value,date_reported,source,credibility_tier
+Supabase,Funding,Series B Valuation, billion USD,2022-08-30,Tech press reports,B
+Supabase,Funding,Total Funding Raised, million USD,2022-08-30,Tech press reports,B
+Supabase,Product Launch,Company Founded,2020,2020-01-01,Company website,A
+Supabase,Market Position,BaaS Category,PostgreSQL-based BaaS,2025-08-21,Company positioning,A
+SingleStore,Company History,Founded As,MemSQL (rebranded 2020),2011-01-01,Company history,A
+SingleStore,Funding,Series E Valuation, million USD,2021-12-01,Tech press reports,B
+SingleStore,Market Position,Database Category,Distributed SQL database,2025-08-21,Company positioning,A

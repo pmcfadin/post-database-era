@@ -1,0 +1,97 @@
+# Dataset Metadata
+dataset:
+  title: "Stack Overflow Developer Interest in BaaS Platforms"
+  description: "Question volume and tag popularity on Stack Overflow indicating developer engagement and problem-solving activity for Backend-as-a-Service platforms"
+  topic: "Supabase thesis validation - Developer community health"
+  metric: "Stack Overflow question counts by platform tags"
+  
+# Source Information
+source:
+  name: "Stack Exchange API"
+  url: "https://api.stackexchange.com/2.3/tags"
+  accessed: "2025-08-21"
+  license: "Creative Commons - Stack Exchange API"
+  credibility: "Tier A"
+  
+# Data Characteristics
+characteristics:
+  rows: 2
+  columns: 6
+  time_range: "cumulative through 2025-08-21"
+  update_frequency: "real-time"
+  collection_method: "Stack Exchange API query"
+  
+# Column Descriptions
+columns:
+  platform:
+    type: "string"
+    description: "BaaS platform name"
+    unit: "name"
+  primary_tag:
+    type: "string"
+    description: "Main Stack Overflow tag for platform"
+    unit: "tag"
+  question_count:
+    type: "number"
+    description: "Number of questions with primary tag"
+    unit: "count"
+  ecosystem_tags:
+    type: "string"
+    description: "Related platform-specific tags"
+    unit: "comma-separated tags"
+  total_ecosystem_questions:
+    type: "number"
+    description: "Sum of questions across all platform tags"
+    unit: "count"
+  collection_date:
+    type: "date"
+    description: "Data collection date"
+    unit: "YYYY-MM-DD"
+    
+# Quality Indicators
+quality:
+  completeness: "High - major platforms covered"
+  sample_size: "2 primary platforms with ecosystem data"
+  confidence: "high"
+  limitations: 
+    - "Cumulative historical data, not time-series"
+    - "Question volume doesn't indicate solution quality"
+    - "May include duplicate/closed questions"
+    - "Firebase benefits from longer platform history"
+  
+# Usage Notes
+notes:
+  - "Firebase dominates absolute question volume (144K vs 2.4K)"
+  - "Supabase shows strong tag ecosystem development (9 related tags)"
+  - "Firebase's higher volume reflects longer market presence and complexity"
+  - "Question patterns indicate active developer problem-solving"
+  - "Supabase growing rapidly from newer platform baseline"
+
+# Thesis Validation Relevance
+validation_impact:
+  relevance: "medium"
+  supports_thesis: "partially"
+  key_insights:
+    - "Firebase's dominance reflects established market position"
+    - "Supabase showing ecosystem development with specialized tags"
+    - "Developer interest growing but from much smaller base"
+    - "Question volume indicates active development community"
+
+# Platform Analysis
+platform_insights:
+  firebase:
+    maturity: "Established with extensive tag ecosystem"
+    question_complexity: "Higher volume suggests more edge cases"
+    market_position: "Dominant incumbent with long history"
+  supabase:
+    maturity: "Rapidly developing ecosystem (9 specialized tags)"
+    question_complexity: "Growing developer problem-solving activity"
+    market_position: "Rising challenger with focused community"
+
+# Context for Interpretation
+interpretation_notes:
+  - "Raw question counts favor platforms with longer histories"
+  - "Supabase's 2.4K questions represent significant engagement for newer platform"
+  - "Firebase's complexity may drive higher support needs"
+  - "Tag ecosystem diversity indicates platform feature adoption"
+  - "Developer questions are leading indicators of adoption challenges and growth"

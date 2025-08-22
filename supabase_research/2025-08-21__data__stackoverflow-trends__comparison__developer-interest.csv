@@ -1,0 +1,3 @@
+company,platform,recent_questions_sample,tag_existence,estimated_activity_level,data_source,collection_date
+Supabase,Stack Overflow,Limited by API rate limits,Yes,High (based on GitHub activity),Stack Overflow API attempt,2025-08-21
+SingleStore,Stack Overflow,Limited by API rate limits,Yes,Low (based on GitHub activity),Stack Overflow API attempt,2025-08-21

@@ -1,0 +1,4 @@
+platform,package_name,weekly_downloads,version,last_publish,unpacked_size,repository_url,collection_date,market_position
+Supabase,"@supabase/supabase-js",4044311,2.56.0,2025-08-21T20:19:43.730Z,275kB,https://github.com/supabase/supabase-js,2025-08-21,challenger
+Firebase,firebase,3139094,12.1.0,2025-08-21T17:34:26.770Z,25.8MB,https://github.com/firebase/firebase-js-sdk,2025-08-21,incumbent
+Appwrite,appwrite,22054,18.2.0,2025-07-24T07:35:24.557Z,1.45MB,https://github.com/appwrite/sdk-for-web,2025-08-21,emerging

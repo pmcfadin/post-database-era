@@ -1,0 +1,6 @@
+platform,enterprise_tier_name,starting_price,target_enterprise_size,market_position,enterprise_adoption_evidence,soc2_compliant,hipaa_compliance,dedicated_support,sla_guarantees,multi_region,custom_domains,audit_logging,advanced_security
+Firebase (Google),Blaze Plan + Enterprise Support,Pay-as-you-go,500+ employees,Incumbent leader,High - extensive case studies,True,True,True,99.95%,True,True,True,True
+AWS Amplify,Amplify Enterprise,Pay-per-use,1000+ employees,Cloud infrastructure leader,Very High - part of AWS ecosystem,True,True,True,99.99%,True,True,True,True
+Supabase,Enterprise Plan,Custom pricing,100+ employees,Emerging challenger,Medium - growing but limited public cases,True,True,True,99.9%,False,True,True,True
+MongoDB Atlas,Atlas Enterprise,$57/month minimum,500+ employees,Database specialist,High - extensive enterprise penetration,True,True,True,99.995%,True,True,True,True
+PlanetScale,Enterprise Plan,Custom pricing,250+ employees,Database scaling specialist,Low-Medium - newer platform,True,False,True,99.95%,True,True,True,True

@@ -1,0 +1,49 @@
+dataset:
+  title: Enterprise BaaS Platform Feature Comparison
+  description: Comprehensive comparison of enterprise features across major BaaS platforms
+  topic: Competitive enterprise positioning
+  metric: Enterprise feature coverage and capabilities
+source:
+  name: Vendor Documentation Analysis
+  url: Multiple vendor documentation sites
+  accessed: '2025-08-21'
+  license: Public information
+  credibility: Tier B
+characteristics:
+  rows: 5
+  columns: 14
+  time_range: 2025-08-21 - 2025-08-21
+  update_frequency: quarterly
+  collection_method: manual_documentation_analysis
+columns:
+  platform:
+    type: string
+    description: BaaS platform name
+  enterprise_tier_name:
+    type: string
+    description: Name of enterprise offering
+  starting_price:
+    type: string
+    description: Enterprise tier starting price
+  target_enterprise_size:
+    type: string
+    description: Target customer size
+  soc2_compliant:
+    type: boolean
+    description: SOC 2 compliance available
+  hipaa_compliance:
+    type: boolean
+    description: HIPAA compliance available
+  sla_guarantees:
+    type: string
+    description: Service level agreement uptime
+quality:
+  completeness: 95%
+  confidence: high
+  limitations:
+  - Vendor-reported features may change
+  - Pricing may not be current
+notes:
+- Data collected from public vendor documentation
+- Enterprise features verified against official sources
+- Competitive positioning based on market analysis

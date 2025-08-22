@@ -1,0 +1,67 @@
+# Dataset Metadata
+dataset:
+  title: "Stack Overflow Developer Interest Trends for Supabase vs SingleStore"
+  description: "Comparative analysis of developer engagement on Stack Overflow for next-generation database platforms"
+  topic: "Developer community engagement and interest trends"
+  metric: "Stack Overflow activity levels and tag presence"
+
+# Source Information
+source:
+  name: "Stack Overflow API"
+  url: "https://api.stackexchange.com"
+  accessed: "2025-08-21"
+  license: "Stack Overflow API terms"
+  credibility: "Tier A"
+
+# Data Characteristics
+characteristics:
+  rows: 2
+  columns: 7
+  time_range: "2025-08-21 snapshot"
+  update_frequency: "Could be updated regularly"
+  collection_method: "Stack Overflow API (limited by rate limits)"
+
+# Column Descriptions
+columns:
+  company:
+    type: "string"
+    description: "Company name"
+    unit: "categorical"
+  platform:
+    type: "string"
+    description: "Platform being analyzed"
+    unit: "categorical"
+  recent_questions_sample:
+    type: "string"
+    description: "Sample of recent question activity"
+    unit: "text"
+  tag_existence:
+    type: "string"
+    description: "Whether tags exist for the technology"
+    unit: "categorical"
+  estimated_activity_level:
+    type: "string"
+    description: "Estimated level of developer activity"
+    unit: "categorical"
+  data_source:
+    type: "string"
+    description: "Method used to gather data"
+    unit: "text"
+  collection_date:
+    type: "date"
+    description: "Date of data collection"
+    unit: "YYYY-MM-DD"
+
+# Quality Indicators
+quality:
+  completeness: "Limited by API rate limits"
+  sample_size: "Incomplete due to API constraints"
+  confidence: "medium"
+  limitations: ["API rate limiting prevented full data collection", "Estimates based on correlating GitHub activity"]
+
+# Usage Notes
+notes:
+  - "Stack Overflow API rate limits prevented comprehensive data collection"
+  - "Activity estimates based on GitHub engagement correlation"
+  - "Supabase likely has higher developer community engagement"
+  - "Further investigation with different API keys or methods recommended"

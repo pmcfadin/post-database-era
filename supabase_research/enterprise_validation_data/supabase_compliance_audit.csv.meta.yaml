@@ -1,0 +1,22 @@
+dataset:
+  title: Supabase Enterprise Compliance Audit
+  description: Security certifications and compliance frameworks supported by Supabase
+  topic: Enterprise adoption readiness
+  metric: Compliance certification coverage
+source:
+  name: Supabase Official Documentation
+  url: https://supabase.com/security
+  accessed: '2025-08-21'
+  credibility: Tier A
+quality:
+  completeness: 90%
+  confidence: high
+  limitations:
+  - Self-reported compliance status
+  - May not reflect latest changes
+characteristics:
+  rows: 3
+  columns: 12
+  time_range: 2025-08-21 - 2025-08-21
+  update_frequency: manual
+  collection_method: web_scraping_and_api

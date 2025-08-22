@@ -1,0 +1,81 @@
+# Dataset Metadata
+dataset:
+  title: "Market Analysis and Growth Forecasts for Database Service Markets"
+  description: "Growth projections and market size estimates for BaaS, DBaaS, and related technology segments"
+  topic: "Market forecasting and growth predictions for database platform categories"
+  metric: "Market size projections, CAGR, adoption percentages"
+
+# Source Information
+source:
+  name: "Industry analyst reports and market research"
+  url: "Aggregated from multiple analyst sources"
+  accessed: "2025-08-21"
+  license: "Public market research estimates"
+  credibility: "Tier B"
+
+# Data Characteristics
+characteristics:
+  rows: 7
+  columns: 10
+  time_range: "2024-2028 projections"
+  update_frequency: "Annual (with quarterly updates)"
+  collection_method: "Market research synthesis and analysis"
+
+# Column Descriptions
+columns:
+  market_segment:
+    type: "string"
+    description: "Technology or market segment"
+    unit: "categorical"
+  metric:
+    type: "string"
+    description: "Type of measurement (market size, adoption, etc.)"
+    unit: "categorical"
+  value_2024:
+    type: "string"
+    description: "2024 value (baseline)"
+    unit: "varies by metric"
+  value_2025_projected:
+    type: "string"
+    description: "2025 projected value"
+    unit: "varies by metric"
+  value_2028_projected:
+    type: "string"
+    description: "2028 projected value"
+    unit: "varies by metric"
+  cagr_percent:
+    type: "string"
+    description: "Compound Annual Growth Rate"
+    unit: "percentage or description"
+  key_drivers:
+    type: "string"
+    description: "Primary factors driving growth"
+    unit: "text"
+  source_type:
+    type: "string"
+    description: "Type of data source"
+    unit: "categorical"
+  relevance_to_supabase:
+    type: "string"
+    description: "How relevant this market is to Supabase"
+    unit: "categorical"
+  relevance_to_singlestore:
+    type: "string"
+    description: "How relevant this market is to SingleStore"
+    unit: "categorical"
+
+# Quality Indicators
+quality:
+  completeness: "Good coverage of relevant markets"
+  sample_size: "Key market segments included"
+  confidence: "medium (market projections inherently uncertain)"
+  limitations: ["Market projections are estimates", "Rapid technology evolution affects forecasts", "Economic factors not fully predictable"]
+
+# Usage Notes
+notes:
+  - "Vector database market shows highest growth rate (52.8% CAGR)"
+  - "BaaS market growing at 18.5% CAGR, favorable for Supabase"
+  - "HTAP market directly relevant to SingleStore positioning"
+  - "PostgreSQL ecosystem growth supports Supabase adoption"
+  - "All segments show strong growth, indicating healthy overall market"
+  - "Growth rates may be conservative given AI/ML acceleration"

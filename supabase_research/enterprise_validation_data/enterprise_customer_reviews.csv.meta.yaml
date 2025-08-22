@@ -1,0 +1,23 @@
+dataset:
+  title: Enterprise Customer Review Analysis
+  description: Customer reviews segmented by company size and enterprise readiness
+    factors
+  topic: Enterprise adoption evidence
+  metric: Customer satisfaction by enterprise segment
+source:
+  name: Multiple Review Platforms
+  url: G2, TrustRadius, Capterra
+  accessed: '2025-08-21'
+  credibility: Tier B
+quality:
+  completeness: 0% - Requires implementation
+  confidence: medium
+  limitations:
+  - Self-reported reviews
+  - Sample bias toward engaged customers
+characteristics:
+  rows: 0
+  columns: 0
+  time_range: 2025-08-21 - 2025-08-21
+  update_frequency: manual
+  collection_method: web_scraping_and_api

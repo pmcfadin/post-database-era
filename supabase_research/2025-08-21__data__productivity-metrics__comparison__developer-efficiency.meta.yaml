@@ -1,0 +1,68 @@
+# Dataset Metadata
+dataset:
+  title: "Developer Productivity Metrics for Supabase vs SingleStore"
+  description: "Comparison of developer efficiency, time-to-value, and implementation complexity"
+  topic: "Developer productivity and efficiency metrics"
+  metric: "Time measurements, learning curves, implementation speed"
+
+# Source Information
+source:
+  name: "Community testimonials and case studies"
+  url: "Multiple sources - forums, documentation, case studies"
+  accessed: "2025-08-21"
+  license: "Public information synthesis"
+  credibility: "Tier B"
+
+# Data Characteristics
+characteristics:
+  rows: 8
+  columns: 7
+  time_range: "Current developer experience (2024-2025)"
+  update_frequency: "Semi-annual (as platforms evolve)"
+  collection_method: "Community feedback and case study analysis"
+
+# Column Descriptions
+columns:
+  company:
+    type: "string"
+    description: "Technology company"
+    unit: "categorical"
+  metric:
+    type: "string"
+    description: "Productivity measurement being tracked"
+    unit: "categorical"
+  measurement:
+    type: "string"
+    description: "Quantified measurement or time range"
+    unit: "time or performance"
+  source_type:
+    type: "string"
+    description: "Type of source for the measurement"
+    unit: "categorical"
+  confidence_level:
+    type: "string"
+    description: "Reliability of the measurement"
+    unit: "High/Medium/Low"
+  comparison_baseline:
+    type: "string"
+    description: "What this measurement is compared against"
+    unit: "text"
+  notes:
+    type: "string"
+    description: "Additional context and caveats"
+    unit: "text"
+
+# Quality Indicators
+quality:
+  completeness: "Good coverage of key productivity metrics"
+  sample_size: "Limited to publicly available testimonials"
+  confidence: "medium"
+  limitations: ["Based on selective case studies and testimonials", "Highly dependent on developer skill level", "Use case complexity varies significantly"]
+
+# Usage Notes
+notes:
+  - "Supabase optimized for rapid prototyping and MVP development"
+  - "SingleStore focused on enterprise performance over development speed"
+  - "Time measurements vary significantly based on developer experience"
+  - "Productivity gains most pronounced for PostgreSQL-familiar developers (Supabase)"
+  - "Enterprise implementations require more planning but offer greater scalability"

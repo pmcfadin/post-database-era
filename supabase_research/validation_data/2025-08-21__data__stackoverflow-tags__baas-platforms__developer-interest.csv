@@ -1,0 +1,3 @@
+platform,primary_tag,question_count,ecosystem_tags,total_ecosystem_questions,collection_date
+Supabase,supabase,2413,"supabase-database,supabase-js,supabase-flutter,supabase-realtime,supabase-py,supabase-edge-functions,supabase-function,supabase-go",2930,2025-08-21
+Firebase,firebase,144780,"firebase-realtime-database,firebase-authentication,firebase-cloud-messaging,firebase-storage,firebase-security",233595,2025-08-21

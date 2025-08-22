@@ -1,0 +1,9 @@
+platform,readiness_factor,score,max_score,assessment_date,assessment_method
+Supabase,compliance_score,85,100,2025-08-21,Expert analysis of public information
+Supabase,feature_completeness,75,100,2025-08-21,Expert analysis of public information
+Supabase,market_maturity,60,100,2025-08-21,Expert analysis of public information
+Supabase,customer_support_tier,80,100,2025-08-21,Expert analysis of public information
+Supabase,pricing_transparency,40,100,2025-08-21,Expert analysis of public information
+Supabase,integration_ecosystem,70,100,2025-08-21,Expert analysis of public information
+Supabase,documentation_quality,90,100,2025-08-21,Expert analysis of public information
+Supabase,community_enterprise_focus,50,100,2025-08-21,Expert analysis of public information

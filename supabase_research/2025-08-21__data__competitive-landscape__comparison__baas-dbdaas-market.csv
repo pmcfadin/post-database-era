@@ -1,0 +1,9 @@
+company,category,primary_database,key_features,target_audience,pricing_model,geographic_focus,notable_customers
+Supabase,BaaS (Backend-as-a-Service),PostgreSQL,"Real-time subscriptions, Auth, Storage, Edge Functions, Vector/AI","Developers, Startups, Small-Medium Businesses",Freemium + Usage-based,Global,Open-source community focused
+SingleStore,DBaaS (Database-as-a-Service),Distributed SQL,"HTAP, Real-time analytics, Vector database, JSON support","Enterprises, Data Engineers, Analytics teams",Enterprise licensing + Cloud usage,"Global, Enterprise-focused",Enterprise customers (often confidential)
+Firebase,BaaS (Backend-as-a-Service),NoSQL (Firestore),"Real-time database, Auth, Hosting, Functions, ML","Mobile developers, Web developers",Freemium + Usage-based,Global,"Consumer apps, Mobile games"
+Appwrite,BaaS (Backend-as-a-Service),"Multiple (MariaDB, etc.)","Self-hosted option, Multiple databases, Functions","Privacy-conscious developers, Self-hosted preference",Open-source + Cloud hosting,"Global, Privacy-focused",Open-source community
+PocketBase,BaaS (Backend-as-a-Service),SQLite,"Single file deployment, Real-time, Auth, File storage","Individual developers, Small projects",Open-source,Global,"Individual developers, Prototypes"
+Snowflake,Cloud Data Platform,Columnar SQL,"Data warehousing, Analytics, Data sharing, ML","Enterprises, Data teams",Credit-based usage,Global enterprise,Major enterprises across industries
+Databricks,Data Lakehouse,Delta Lake,"Unified analytics, ML, Data engineering, SQL","Data scientists, Engineers, Analysts",DBU (Databricks Unit) based,Global enterprise,Fortune 500 companies
+ClickHouse,OLAP Database,Columnar,"Real-time analytics, High performance, Open-source","Analytics teams, Real-time reporting",Open-source + ClickHouse Cloud,Global,"Yandex, Uber, CloudFlare"

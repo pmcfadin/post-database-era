@@ -1,0 +1,9 @@
+platform,enterprise_tier_available,soc2_compliant,hipaa_compliant,dedicated_support,sla_guarantees,enterprise_pricing_model,integration_capabilities,security_features,compliance_certifications,target_customer_size,geographic_coverage,analysis_date
+Firebase/Google Cloud,False,False,False,False,,,[],[],[],,,2025-08-21T15:46:19.275971
+AWS Amplify,False,False,False,False,,,[],[],[],,,2025-08-21T15:46:19.275975
+Azure Mobile Apps,False,False,False,False,,,[],[],[],,,2025-08-21T15:46:19.275978
+MongoDB Atlas,False,False,False,False,,,[],[],[],,,2025-08-21T15:46:19.275980
+PlanetScale,False,False,False,False,,,[],[],[],,,2025-08-21T15:46:19.275982
+Railway,False,False,False,False,,,[],[],[],,,2025-08-21T15:46:19.275984
+Appwrite,False,False,False,False,,,[],[],[],,,2025-08-21T15:46:19.275986
+Nhost,False,False,False,False,,,[],[],[],,,2025-08-21T15:46:19.275990

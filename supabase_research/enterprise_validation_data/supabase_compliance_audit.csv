@@ -1,0 +1,4 @@
+platform,source_url,collected_date,soc2_type2,hipaa_compliant,baa_available,gdpr_ready,enterprise_features,encryption_at_rest,encryption_in_transit,role_based_access,mfa_available
+Supabase,https://supabase.com/security,2025-08-21T15:46:17.107939,True,True,True,False,True,True,True,True,True
+Supabase,https://supabase.com/docs/guides/security/soc-2-compliance,2025-08-21T15:46:18.181123,True,True,True,True,True,False,False,False,False
+Supabase,https://supabase.com/docs/guides/platform/shared-responsibility-model,2025-08-21T15:46:19.269208,False,True,True,False,False,False,False,False,True

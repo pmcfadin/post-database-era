@@ -1,0 +1,22 @@
+dataset:
+  title: CIO Technology Investment Priorities
+  description: Enterprise IT leadership priorities relevant to BaaS adoption
+  topic: Enterprise decision factors
+  metric: Technology investment priority rankings
+source:
+  name: CIO Leadership Surveys
+  url: KPMG, Harvey Nash, Deloitte surveys
+  accessed: '2025-08-21'
+  credibility: Tier A
+quality:
+  completeness: 0% - Requires data collection
+  confidence: high
+  limitations:
+  - Survey timing variations
+  - Geographic bias
+characteristics:
+  rows: 1
+  columns: 13
+  time_range: 2025-08-21 - 2025-08-21
+  update_frequency: manual
+  collection_method: web_scraping_and_api

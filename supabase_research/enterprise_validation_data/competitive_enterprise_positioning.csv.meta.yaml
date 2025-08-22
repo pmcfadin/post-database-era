@@ -1,0 +1,22 @@
+dataset:
+  title: Competitive Enterprise Feature Comparison
+  description: Enterprise readiness features across BaaS platforms
+  topic: Competitive positioning
+  metric: Enterprise feature coverage comparison
+source:
+  name: Vendor Documentation Analysis
+  url: Multiple vendor websites and documentation
+  accessed: '2025-08-21'
+  credibility: Tier B
+quality:
+  completeness: 0% - Requires implementation
+  confidence: medium
+  limitations:
+  - Vendor-reported features
+  - Rapid feature evolution
+characteristics:
+  rows: 8
+  columns: 13
+  time_range: 2025-08-21 - 2025-08-21
+  update_frequency: manual
+  collection_method: web_scraping_and_api

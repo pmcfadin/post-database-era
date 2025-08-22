@@ -1,0 +1,72 @@
+# Dataset Metadata
+dataset:
+  title: "Technology Adoption Patterns and Use Cases for Supabase vs SingleStore"
+  description: "Analysis of how different industries and company sizes adopt these database platforms"
+  topic: "Adoption drivers, use cases, and implementation patterns"
+  metric: "Use case analysis, industry adoption, implementation complexity"
+
+# Source Information
+source:
+  name: "Industry analysis and company case studies"
+  url: "Company websites, case studies, tech community discussions"
+  accessed: "2025-08-21"
+  license: "Public information synthesis"
+  credibility: "Tier B"
+
+# Data Characteristics
+characteristics:
+  rows: 8
+  columns: 8
+  time_range: "Current adoption patterns (2024-2025)"
+  update_frequency: "Semi-annual (as adoption patterns evolve)"
+  collection_method: "Industry analysis and synthesis"
+
+# Column Descriptions
+columns:
+  company:
+    type: "string"
+    description: "Technology company"
+    unit: "categorical"
+  use_case:
+    type: "string"
+    description: "Primary use case or application type"
+    unit: "categorical"
+  industry_vertical:
+    type: "string"
+    description: "Industry sectors that commonly adopt this use case"
+    unit: "text"
+  adoption_driver:
+    type: "string"
+    description: "Primary reason for technology selection"
+    unit: "text"
+  typical_company_size:
+    type: "string"
+    description: "Common company sizes for this use case"
+    unit: "categorical"
+  implementation_complexity:
+    type: "string"
+    description: "Technical complexity level"
+    unit: "categorical"
+  time_to_value:
+    type: "string"
+    description: "Typical time to see business value"
+    unit: "time range"
+  cost_factor:
+    type: "string"
+    description: "Cost characteristics and considerations"
+    unit: "text"
+
+# Quality Indicators
+quality:
+  completeness: "Good coverage of major use cases"
+  sample_size: "Representative use case analysis"
+  confidence: "medium-high"
+  limitations: ["Based on publicly available case studies", "Adoption patterns vary by region", "Rapidly evolving market"]
+
+# Usage Notes
+notes:
+  - "Supabase shows strong adoption in rapid development scenarios"
+  - "SingleStore favored for enterprise analytics and real-time processing"
+  - "Clear differentiation in target company sizes and complexity tolerance"
+  - "Time-to-value varies significantly between the two platforms"
+  - "Cost structures align with different target markets"
