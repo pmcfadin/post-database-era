@@ -138,17 +138,20 @@ body {
 
 .hero-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 6rem;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1400px;
     width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
     z-index: 1;
 }
 
 .hero-content {
     text-align: left;
     z-index: 1;
+    max-width: 600px;
 }
 
 .hero-image {
@@ -159,16 +162,17 @@ body {
 }
 
 .hero-img {
-    max-width: 100%;
+    width: 100%;
+    max-width: 400px;
     height: auto;
-    max-height: 500px;
-    border-radius: 20px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(37, 99, 235, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .hero-img:hover {
-    transform: scale(1.02);
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(37, 99, 235, 0.3);
 }
 
 .hero-title {
@@ -193,9 +197,9 @@ body {
 .hero-subtitle {
     font-size: clamp(1.125rem, 2vw, 1.375rem);
     color: var(--text-secondary);
-    max-width: 700px;
-    margin: 0 auto 3rem;
+    margin: 0 0 3rem 0;
     line-height: 1.7;
+    font-weight: 400;
 }
 
 .hero-actions {
@@ -619,7 +623,19 @@ body {
     font-size: 0.875rem;
 }
 
-/* Responsive Design */
+/* Tablet Design */
+@media (max-width: 1024px) {
+    .hero-container {
+        gap: 4rem;
+        max-width: 900px;
+    }
+    
+    .hero-img {
+        max-width: 350px;
+    }
+}
+
+/* Mobile Design */
 @media (max-width: 768px) {
     .nav-links {
         gap: 1rem;
@@ -627,13 +643,14 @@ body {
     
     .hero-container {
         grid-template-columns: 1fr;
-        gap: 2rem;
-        text-align: center;
+        gap: 3rem;
+        padding: 0 1rem;
     }
     
     .hero-content {
         text-align: center;
         order: 2;
+        max-width: none;
     }
     
     .hero-image {
@@ -641,19 +658,16 @@ body {
     }
     
     .hero-img {
-        max-height: 300px;
+        max-width: 280px;
     }
     
     .hero-actions {
         justify-content: center;
-        flex-direction: column;
-        width: 100%;
-        max-width: 300px;
-        margin: 0 auto;
     }
     
     .btn {
-        width: 100%;
+        padding: 1rem 2rem;
+        font-size: 1rem;
     }
     
     .trends-grid {
@@ -666,5 +680,21 @@ body {
     
     .research-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .hero-container {
+        gap: 2rem;
+    }
+    
+    .hero-actions {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .btn {
+        width: 100%;
     }
 }
