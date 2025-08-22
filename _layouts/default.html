@@ -9,7 +9,7 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     
     <!-- Styles -->
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
@@ -21,8 +21,11 @@
     <nav class="navbar">
         <div class="nav-container">
             <a href="{{ '/' | relative_url }}" class="nav-logo">
-                <span class="logo-icon">◈</span>
-                <span class="logo-text">Post Database Era</span>
+                <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Post Database Era" class="logo-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';">
+                <span class="logo-text-fallback" style="display:none;">
+                    <span class="logo-icon">◈</span>
+                    <span class="logo-text">Post Database Era</span>
+                </span>
             </a>
             <div class="nav-links">
                 <a href="{{ '/#about' | relative_url }}">About</a>

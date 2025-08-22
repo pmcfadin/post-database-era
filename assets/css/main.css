@@ -9,8 +9,6 @@
     --text-secondary: #a0a0a0;
     --text-muted: #666666;
     --border: #2a2a2a;
-    --gradient-1: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --gradient-2: linear-gradient(135deg, #2563eb 0%, #8b5cf6 100%);
 }
 
 * {
@@ -20,7 +18,7 @@
 }
 
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     background: var(--background);
     color: var(--text-primary);
     line-height: 1.6;
@@ -58,12 +56,25 @@ body {
     font-size: 1.125rem;
 }
 
+.logo-image {
+    height: 40px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo-image:hover {
+    transform: scale(1.05);
+}
+
+.logo-text-fallback {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
 .logo-icon {
     font-size: 1.5rem;
-    background: var(--gradient-2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--primary);
 }
 
 .nav-links {
@@ -147,10 +158,7 @@ body {
 }
 
 .title-highlight {
-    background: var(--gradient-2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--primary);
 }
 
 .hero-subtitle {
@@ -178,7 +186,7 @@ body {
 }
 
 .btn-primary {
-    background: var(--gradient-2);
+    background: var(--primary);
     color: white;
     box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
 }
@@ -231,10 +239,7 @@ body {
     font-weight: 800;
     text-align: center;
     margin-bottom: 3rem;
-    background: linear-gradient(135deg, var(--text-primary) 0%, var(--text-secondary) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--text-primary);
 }
 
 .trends-grid {
@@ -260,7 +265,7 @@ body {
     left: 0;
     right: 0;
     height: 2px;
-    background: var(--gradient-2);
+    background: var(--primary);
     transform: scaleX(0);
     transition: transform 0.3s ease;
 }
@@ -277,10 +282,7 @@ body {
 .trend-icon {
     font-size: 2rem;
     margin-bottom: 1rem;
-    background: var(--gradient-2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--primary);
 }
 
 .trend-card h3 {
@@ -354,10 +356,7 @@ body {
 .stat-number {
     font-size: 2.5rem;
     font-weight: 800;
-    background: var(--gradient-2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--primary);
 }
 
 .stat-label {
@@ -397,7 +396,7 @@ body {
     left: 0;
     right: 0;
     height: 2px;
-    background: var(--gradient-2);
+    background: var(--primary);
     transform: scaleX(0);
     transition: transform 0.3s ease;
 }
@@ -469,10 +468,7 @@ body {
     font-weight: 900;
     line-height: 1.1;
     margin-bottom: 2rem;
-    background: var(--gradient-2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--primary);
 }
 
 .research-content h2 {
