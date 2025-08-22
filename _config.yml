@@ -13,6 +13,17 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# Include files and directories
+include:
+  - assets/images
+
+# Static files configuration
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
+
 # Exclude from processing
 exclude:
   - Gemfile
